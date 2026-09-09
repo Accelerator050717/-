@@ -1,0 +1,38 @@
+{
+  "year": 2022,
+  "selected_method": "small",
+  "validation_metrics": [
+    {
+      "year": 2022,
+      "method": "constant",
+      "ndcg5": 0.49999999999999994,
+      "rank_ic": null,
+      "valid_ic_dates": 0
+    },
+    {
+      "year": 2022,
+      "method": "momentum_20d",
+      "ndcg5": 0.5028634186068952,
+      "rank_ic": 0.003154363023051809,
+      "valid_ic_dates": 246
+    },
+    {
+      "year": 2022,
+      "method": "small",
+      "ndcg5": 0.525290225755351,
+      "rank_ic": 0.01364261687702106,
+      "valid_ic_dates": 246
+    },
+    {
+      "year": 2022,
+      "method": "large",
+      "ndcg5": 0.5067721707780225,
+      "rank_ic": -0.006055508830950382,
+      "valid_ic_dates": 246
+    }
+  ],
+  "frozen_before_development_at_utc": "2026-09-07T08:22:25.221365+00:00",
+  "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+  "train_last_exit": "2020-12-31",
+  "validation_last_exit": "2021-12-31"
+}

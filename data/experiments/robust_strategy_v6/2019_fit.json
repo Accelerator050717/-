@@ -1,0 +1,12 @@
+{
+  "year": 2019,
+  "horizon": 20,
+  "train_rows": 34230,
+  "validation_rows": 6900,
+  "development_rows": 7560,
+  "train_last_exit": "2017-12-29",
+  "validation_last_exit": "2018-12-31",
+  "seconds": 0.17105949999995573,
+  "warnings": [],
+  "model_sha256": "42040f3f2e63dc82a619f2628c8f6d187b150db476c00e887439036036a2e54b"
+}

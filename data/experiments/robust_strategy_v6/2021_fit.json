@@ -1,0 +1,12 @@
+{
+  "year": 2021,
+  "horizon": 20,
+  "train_rows": 49320,
+  "validation_rows": 6960,
+  "development_rows": 7560,
+  "train_last_exit": "2019-12-31",
+  "validation_last_exit": "2020-12-31",
+  "seconds": 0.24579380000022866,
+  "warnings": [],
+  "model_sha256": "85e65ceeebbeb241ab174fb0258584acafca4274a6d3064537a4c8c0c22b042a"
+}

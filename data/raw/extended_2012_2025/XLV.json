@@ -1,0 +1,39 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "XLV",
+  "parameters": {
+    "start": "2012-01-01",
+    "end": "2026-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "downloaded_at_utc": "2026-09-09T06:04:44.195322+00:00",
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local session date",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 3520,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits",
+    "Capital Gains"
+  ],
+  "sha256": "334d70c0b31264bcaa1bd15524361961cd1205c57215f2849b6be570c1ad329e",
+  "note": "Library-returned snapshot; adjusted history can be revised by vendor."
+}

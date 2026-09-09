@@ -1,0 +1,20 @@
+{
+  "cagr": 0.07683871895409977,
+  "final_equity": 2.0937965165710084,
+  "max_drawdown": -0.1884251710926781,
+  "open_max_drawdown": -0.1857062256464006,
+  "low_stress_drawdown": -0.19268389910812922,
+  "annualized_vol": 0.09789748697937141,
+  "sharpe_zero_rf": 0.8066401430092707,
+  "average_gross": 0.6282029849610254,
+  "worst_day": -0.030791066679926815,
+  "fees": 0.5415552885617427,
+  "trades": 10484,
+  "stop_exits": 812,
+  "gap_stops": 167,
+  "halts": 0,
+  "cost_bps": 20,
+  "stop_extra_bps": 10,
+  "first_entry": "2016-01-05",
+  "final_exit": "2025-12-29"
+}

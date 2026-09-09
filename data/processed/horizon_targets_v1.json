@@ -1,0 +1,26 @@
+{
+  "rows": 82980,
+  "horizons": [
+    {
+      "horizon": 5,
+      "mature_rows": 82800,
+      "last_observation": "2025-12-22",
+      "last_exit": "2025-12-31"
+    },
+    {
+      "horizon": 20,
+      "mature_rows": 82350,
+      "last_observation": "2025-12-01",
+      "last_exit": "2025-12-31"
+    },
+    {
+      "horizon": 60,
+      "mature_rows": 81150,
+      "last_observation": "2025-10-03",
+      "last_exit": "2025-12-31"
+    }
+  ],
+  "sha256": "1d96b925b8f56cb9f726c46a8195d2dbd8bd9752d1fcfb1c78d53244ec11dd3c",
+  "source": "Existing 2015-2025 cached adjusted-open proxies; no 2026 prices.",
+  "definition": "stock A[t+h+1]/A[t+1]-1 minus SPY same interval return"
+}

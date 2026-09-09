@@ -1,0 +1,28 @@
+{
+  "selection": "After all48 primary rows exist, highest information_ratio then candidate id among new48; plus fixed v3_elastic_h5_price_top5 old control.",
+  "diagnostics_only": true,
+  "main_gates_unchanged": true,
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "fees_bps": [
+    10,
+    30
+  ],
+  "exclude_tradable_symbol": "NVDA",
+  "exclude_is_not_retraining": true,
+  "matched_benchmark": "same schedule and tradable universe equal weight",
+  "bootstrap_blocks": [
+    5,
+    20,
+    60
+  ],
+  "bootstrap_repetitions": 2000,
+  "seed": 20260907,
+  "contribution": "Dollar P&L relative initial NAV from actual period holdings and adjusted-open returns; subtract per-symbol trade fees; no counterfactual refit claim.",
+  "registered_at_utc": "2026-09-09T05:49:17.898961+00:00"
+}

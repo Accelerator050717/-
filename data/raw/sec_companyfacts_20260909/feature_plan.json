@@ -1,0 +1,91 @@
+{
+  "registered_at_utc": "2026-09-09T04:45:29.796678+00:00",
+  "features": [
+    "fund_liabilities_to_assets",
+    "fund_equity_to_assets",
+    "fund_asset_growth_yoy",
+    "fund_annual_profit_margin",
+    "fund_annual_profit_to_latest_assets",
+    "fund_annual_cfo_to_latest_assets",
+    "fund_balance_age_days",
+    "fund_annual_age_days",
+    "fund_liabilities_to_assets_missing",
+    "fund_equity_to_assets_missing",
+    "fund_asset_growth_yoy_missing",
+    "fund_annual_profit_margin_missing",
+    "fund_annual_profit_to_latest_assets_missing",
+    "fund_annual_cfo_to_latest_assets_missing",
+    "fund_balance_age_days_missing",
+    "fund_annual_age_days_missing"
+  ],
+  "concept_fallback_order": {
+    "assets": [
+      "Assets"
+    ],
+    "liabilities": [
+      "Liabilities"
+    ],
+    "equity": [
+      "StockholdersEquity"
+    ],
+    "revenue": [
+      "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "Revenues",
+      "SalesRevenueNet"
+    ],
+    "profit": [
+      "NetIncomeLoss"
+    ],
+    "cfo": [
+      "NetCashProvidedByUsedInOperatingActivities"
+    ]
+  },
+  "formulas": {
+    "fund_liabilities_to_assets": "Liabilities / Assets; same period end and accession",
+    "fund_equity_to_assets": "StockholdersEquity / Assets; same period end and accession",
+    "fund_asset_growth_yoy": "latest Assets / latest-known Assets from closest period end to 365 days before - 1; permitted gap 330-400 days",
+    "fund_annual_profit_margin": "annual NetIncomeLoss / annual revenue; exact same start, end and accession; duration 330-380 days",
+    "fund_annual_profit_to_latest_assets": "latest annual NetIncomeLoss / latest balance-sheet Assets; different periods allowed explicitly as a proxy",
+    "fund_annual_cfo_to_latest_assets": "annual operating cash flow matching annual-profit start/end/accession / latest Assets; proxy",
+    "fund_balance_age_days": "observation Date minus selected Assets period end, calendar days (not days since filing)",
+    "fund_annual_age_days": "observation Date minus selected annual-profit period end, calendar days (not days since filing)"
+  },
+  "source_sha256": {
+    "AAPL": "73a86c6aedc31f77cac2ea4df5f80f0b3bd7e6eb58bb4e01444fbedf3afb9c43",
+    "MSFT": "f8aae2965b20ad0df44bdf7ccbedf797d275b6b8dc030154a7a311361bb7246f",
+    "NVDA": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+    "AMZN": "e6aadb0da7384597dbd78f74d1379ffb7fd0829a4d2e797b6d7e442b5e1da0d7",
+    "GOOGL": "a017f26ee88cb4a639d1c1ddb06d53b4afe22f0ac89cabec7cd67c88919fe1c5",
+    "META": "7518e76d6dac2d016e1a3d1dec1cc55ff9ea3bdd58a151b16fcaa067a6c9d94e",
+    "JPM": "90b3cf44a1bf3ae4f3bdacb7de530c239f8ce4fa02e8ff97146947d264fb20b9",
+    "BAC": "20b78056c1e42b9a0feaf37b13747ea9fa0e1ee12dd4a3dd4243e492ad9bab9e",
+    "GS": "ec39921074d79e4749d88c42f971e3dcffb705a374a3e7049c745714a117f60c",
+    "V": "df3caf7c5667296569fc3074ce2ff13629c9a555184a06c5ea9925b43e63971d",
+    "JNJ": "7141c0c988fa1d30f779687b4c78ab561e19aa5990a58ad86a66467d0a783980",
+    "PFE": "bd072131f9dcf001f22e843fded5910c2c7fc178e2a739ce0c58b1934e84d566",
+    "MRK": "de2e92301923703e6aee247c42c0cf2f1b741118ebca221fbaa5dc0e47644bd7",
+    "UNH": "6c9dff59732b7c597542b2d5eadaae0313ca0de03defdba2c00203e693632d76",
+    "XOM": "9b95535419e5662e3deed01de803e83deead477a4c81316e1c45186368fdd8b8",
+    "CVX": "c09b160603412cb45acf1bb9bf3732e531dedfb548afa0e275fd8aefd7ab397e",
+    "COP": "cccc8afe3602880e8f2909266e778aa195b42e745da669a801925c593720d2fc",
+    "CAT": "01ddc6ffa741f0a7da440e2949b2ed19cec14fab35435a398e3f3d0100019715",
+    "HON": "3ec36b94bcfb6c163227a5568ea524a2d714baae79e205929933cdb69ae3bcf7",
+    "DE": "b845478ca3e2c2a83471cfb92524b33d83ec47fd3c1c68614f3f2487f1606b6c",
+    "PG": "606ad7056b611e91cfab9f7568b747404405772add188600efa5ccda5824f3d8",
+    "KO": "53d363a9aa3071406cda9857654358f4dca42e174a1defb8cc1ce9ad2a4c9e40",
+    "PEP": "7694c322779ef273d15b3791729e5f2d261ce6ed1839be8ff014a33f537375be",
+    "WMT": "54ec3fbf36dc203dd00a0333396b3df2b6695ecdf6cbb19b6ec41b053d86b517",
+    "COST": "71a4fd99c86f27c3aa27b8f05b3a9705c16f0060b425395bb1a367ce239b7d1f",
+    "HD": "aaf03befa1695d87ce1252bc08ca278b65be63782e46dc0b2858aab7a32c1be2",
+    "MCD": "0394e814d75510be107679b026e2df6e5d02d4f2029166911aa4924f9556681f",
+    "NEE": "99e84510f602363147dc6c83321aa76859e185d0807019d1efc9e0da60491954",
+    "DUK": "1e94bb53863e9fef2f5554a229aa7e0ebc197e06c759b5879db6137d8f1b1b3d",
+    "SO": "8a5eaa0e10d41a4bc087833509ed5f2e2983630e9d33d9151d8a9157551febc3"
+  },
+  "max_filed_in_features": "2025-12-31",
+  "asof_rule": "filed < observation Date AND period end <= filed; never use period-end as publication date",
+  "version_rule": "Filter by asof first; latest period end then latest filed; conflicting same-day versions stay missing",
+  "matching": "Balance sheet ratios require same end/accession; annual margin requires same start/end/accession and 330-380 day 10-K duration",
+  "missing": "NaN retained; explicit 0/1 indicators; never drop a Date/symbol or impute using whole sample",
+  "raw_snapshot_scope": "Current full companyfacts snapshots may include 2026 facts and later restatements; feature extraction strictly filters filed before historical observation dates through 2025"
+}

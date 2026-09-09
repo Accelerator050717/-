@@ -1,0 +1,7 @@
+{
+  "cost_metrics.json": "All original 30 candidates and two benchmarks reproduce within absolute 1e-12.",
+  "stress_metrics.json": "All original 30 candidates and two benchmarks reproduce within absolute 1e-12.",
+  "ranking_metrics.csv": "All original ranking metrics reproduce within absolute 1e-12.",
+  "score_csv_round_trip": "All 32 saved score arrays round-trip exactly.",
+  "completed_at_utc": "2026-09-07T09:01:46.729608+00:00"
+}

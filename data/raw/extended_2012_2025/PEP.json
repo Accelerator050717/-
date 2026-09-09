@@ -1,0 +1,38 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "PEP",
+  "parameters": {
+    "start": "2012-01-01",
+    "end": "2026-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "downloaded_at_utc": "2026-09-09T06:04:30.799414+00:00",
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local session date",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 3520,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits"
+  ],
+  "sha256": "e6537b297a1398bffe8a861a362ffd326a84d97e1edfa678feac88a94643df05",
+  "note": "Library-returned snapshot; adjusted history can be revised by vendor."
+}

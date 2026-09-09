@@ -1,0 +1,8 @@
+{
+  "tests_run": 49,
+  "passed": true,
+  "evidence": "unit_test_output.txt",
+  "fixtures_are_fictitious": true,
+  "broker_integration_test": false,
+  "recorded_at_utc": "2026-09-09T06:43:19.6961882Z"
+}

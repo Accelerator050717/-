@@ -1,0 +1,66 @@
+{
+  "registered_at_utc": "2026-09-09T06:38:25.386305+00:00",
+  "design_sha256": "91a93c6016ffb39297ffc1b9ee7ff962151b8799eb3caeff3d74697436a42f44",
+  "policy": {
+    "top_k": 8,
+    "retain_rank": 12,
+    "max_stock": 0.125,
+    "max_group": 0.3,
+    "max_cluster": 0.4,
+    "risk_per_stock": 0.02,
+    "risk_total": 0.12,
+    "target_vol": 0.15,
+    "soft_dd": 0.1,
+    "hard_dd": 0.2,
+    "restore_dd": 0.05,
+    "pause_sessions": 20,
+    "recovery_sessions": 10,
+    "stock_cooldown": 5
+  },
+  "cases": [
+    {
+      "id": "h60_allocation",
+      "score": "ridge_h60_price",
+      "stops": false,
+      "breaker": false
+    },
+    {
+      "id": "h60_stops",
+      "score": "ridge_h60_price",
+      "stops": true,
+      "breaker": false
+    },
+    {
+      "id": "h60_full",
+      "score": "ridge_h60_price",
+      "stops": true,
+      "breaker": true
+    },
+    {
+      "id": "momentum_full",
+      "score": "momentum",
+      "stops": true,
+      "breaker": true
+    },
+    {
+      "id": "equal_risk_full",
+      "score": null,
+      "stops": true,
+      "breaker": true,
+      "all_stocks": true
+    }
+  ],
+  "source_sha256": {
+    "profit_priority_strategy.py": "a02ae894f467a9416dab5cf1e6fbd55e7d20da3db03d247c7b0e41ae4be5b67a",
+    "40_evaluate_profit_priority.py": "6d27b05759f40924d7c4345183ce7d4a245e82acb8330f1ef541bec8a70d3bbe"
+  },
+  "v6_scores_sha256": "c1af6bf77c3ed2438f7e143751af87cedb2782e4020a487246130ae46eb28ac4",
+  "ordinary_costs": [
+    10,
+    20
+  ],
+  "stop_distance": 0.15,
+  "stop_extra_bps": 10,
+  "new_fits": 0,
+  "selection": "Adaptive diagnostic after v6 failure; no independent validation or live enablement"
+}

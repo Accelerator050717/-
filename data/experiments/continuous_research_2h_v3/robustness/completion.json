@@ -1,0 +1,9 @@
+{
+  "diagnostic_candidates": [
+    "v3_ridge_h60_price_top5",
+    "v3_elastic_h5_price_top5"
+  ],
+  "main_selection_changed": false,
+  "2026_market_data_read": false,
+  "completed_at_utc": "2026-09-09T06:00:19.194059+00:00"
+}

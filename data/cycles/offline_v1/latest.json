@@ -1,0 +1,42 @@
+{
+  "run_id": "20260909T045649_ae4013ad",
+  "mode": "historical_replay",
+  "started_at_utc": "2026-09-09T04:56:49.011695+00:00",
+  "network_requested": false,
+  "broker_connected": false,
+  "source": "Saved fixed historical snapshots only; no live update or scheduling.",
+  "execution_state_before_sha256": "0c9993559d5975d49ea589a224aa19d2072a62cd9eeb9dd0cfaa51691d67d2bf",
+  "stages": [
+    {
+      "stage": "financial_features_from_cache",
+      "script": "fundamental_features.py",
+      "returncode": 0,
+      "seconds": 5.864
+    },
+    {
+      "stage": "fixed_research_or_saved_result",
+      "script": "22_train_fundamental_comparison.py",
+      "returncode": 0,
+      "seconds": 2.304
+    },
+    {
+      "stage": "historical_execution_and_reconciliation",
+      "script": "23_replay_execution.py",
+      "returncode": 0,
+      "seconds": 3.837
+    },
+    {
+      "stage": "research_and_execution_report",
+      "script": "25_write_automation_report.py",
+      "returncode": 0,
+      "seconds": 1.983
+    }
+  ],
+  "status": "completed",
+  "new_simulated_fills": 0,
+  "total_simulated_fills": 42,
+  "historical_nav": 10663.639736246103,
+  "research_gate_passes": 0,
+  "completed_at_utc": "2026-09-09T04:57:03.000371+00:00",
+  "execution_state_after_sha256": "0c9993559d5975d49ea589a224aa19d2072a62cd9eeb9dd0cfaa51691d67d2bf"
+}

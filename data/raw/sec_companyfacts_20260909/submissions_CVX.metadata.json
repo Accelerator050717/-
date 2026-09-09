@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "url": "https://data.sec.gov/submissions/CIK0000093410.json",
+  "retrieved_at_utc": "2026-09-09T04:42:23.218004+00:00",
+  "user_agent": "QuantMLResearch/0.1 (personal educational research project; automated public-data access)",
+  "attempts": [
+    {
+      "attempt": 1,
+      "requested_at_utc": "2026-09-09T04:42:22.837453+00:00",
+      "status_code": 200,
+      "bytes": 157822,
+      "content_type": "application/json",
+      "response_sha256": "bf057bef16c6300d706fb699e86f92dd43d87751031d5080aa54aae61fdd54c3"
+    }
+  ],
+  "sha256": "bf057bef16c6300d706fb699e86f92dd43d87751031d5080aa54aae61fdd54c3"
+}

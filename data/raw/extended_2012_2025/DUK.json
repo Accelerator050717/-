@@ -1,0 +1,38 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "DUK",
+  "parameters": {
+    "start": "2012-01-01",
+    "end": "2026-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "downloaded_at_utc": "2026-09-09T06:04:39.370559+00:00",
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local session date",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 3520,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits"
+  ],
+  "sha256": "125bc88099a00e756025aef754333188b69989c1b668bb01d9613ada5458a404",
+  "note": "Library-returned snapshot; adjusted history can be revised by vendor."
+}

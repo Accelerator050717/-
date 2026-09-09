@@ -1,0 +1,14 @@
+{
+  "completed_at_utc": "2026-09-09T06:39:49.914259+00:00",
+  "main_backtests": 16,
+  "additional_stress_backtests": 7,
+  "new_fits": 10,
+  "source_sha256": {
+    "robust_strategy.py": "e9001491b95ff4b63063d8f922c90ad93c0e62ab94efebcf752aaa46d9f682e7",
+    "39_evaluate_robust_strategy.py": "e959803527a60366658f872e7df6dc4beb08ed670d1c5655add9f95f33b1e73f"
+  },
+  "diagnostic_all_passed": false,
+  "old_0_of_98_unchanged": true,
+  "prices_2026_accessed": false,
+  "orders_sent": 0
+}

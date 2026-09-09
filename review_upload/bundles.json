@@ -1,0 +1,74 @@
+[
+  {
+    "name": "review-current-v5-v7-01.zip",
+    "relative_path": "review_bundles/20260909/review-current-v5-v7-01.zip",
+    "absolute_path": "M:/ml项目/review_bundles/20260909/review-current-v5-v7-01.zip",
+    "files": 204,
+    "uncompressed_bytes": 419297571,
+    "size_bytes": 97816391,
+    "size_mib": 93.285,
+    "sha256": "f7a019b9e69ced95df0d3c1653d819307565ab64fe404e7c07f167eac3500c38",
+    "independent_zip": true,
+    "all_entry_sha256_verified": true
+  },
+  {
+    "name": "review-current-v5-v7-02.zip",
+    "relative_path": "review_bundles/20260909/review-current-v5-v7-02.zip",
+    "absolute_path": "M:/ml项目/review_bundles/20260909/review-current-v5-v7-02.zip",
+    "files": 40,
+    "uncompressed_bytes": 16750981,
+    "size_bytes": 3953155,
+    "size_mib": 3.77,
+    "sha256": "f3bab37c43f62c6c020827ace19281deee19295058fced36c90cd368b66a8ff5",
+    "independent_zip": true,
+    "all_entry_sha256_verified": true
+  },
+  {
+    "name": "review-historical-inputs-01.zip",
+    "relative_path": "review_bundles/20260909/review-historical-inputs-01.zip",
+    "absolute_path": "M:/ml项目/review_bundles/20260909/review-historical-inputs-01.zip",
+    "files": 77,
+    "uncompressed_bytes": 416951233,
+    "size_bytes": 70903463,
+    "size_mib": 67.619,
+    "sha256": "f15d414c16e368ea534230b0240228bd5e48a9697e96adea5e411b69c7950b4c",
+    "independent_zip": true,
+    "all_entry_sha256_verified": true
+  },
+  {
+    "name": "review-historical-inputs-02.zip",
+    "relative_path": "review_bundles/20260909/review-historical-inputs-02.zip",
+    "absolute_path": "M:/ml项目/review_bundles/20260909/review-historical-inputs-02.zip",
+    "files": 9,
+    "uncompressed_bytes": 31849858,
+    "size_bytes": 2530091,
+    "size_mib": 2.413,
+    "sha256": "bd711a85cc9b141ae7feae2bd1ac1e3bf7d4cdd39e4c31272bb2797e157b1c07",
+    "independent_zip": true,
+    "all_entry_sha256_verified": true
+  },
+  {
+    "name": "review-historical-models-results-01.zip",
+    "relative_path": "review_bundles/20260909/review-historical-models-results-01.zip",
+    "absolute_path": "M:/ml项目/review_bundles/20260909/review-historical-models-results-01.zip",
+    "files": 728,
+    "uncompressed_bytes": 419208256,
+    "size_bytes": 141220157,
+    "size_mib": 134.678,
+    "sha256": "81159d8b61034c2ba137b77f02ea8148a99134f4e0838f2bd9a8829231853096",
+    "independent_zip": true,
+    "all_entry_sha256_verified": true
+  },
+  {
+    "name": "review-historical-models-results-02.zip",
+    "relative_path": "review_bundles/20260909/review-historical-models-results-02.zip",
+    "absolute_path": "M:/ml项目/review_bundles/20260909/review-historical-models-results-02.zip",
+    "files": 80,
+    "uncompressed_bytes": 104274060,
+    "size_bytes": 31726261,
+    "size_mib": 30.257,
+    "sha256": "1d65c3b981bbad6bc59942fe471ceb5c0a375b74b813c4f9b6d659181db83ed4",
+    "independent_zip": true,
+    "all_entry_sha256_verified": true
+  }
+]

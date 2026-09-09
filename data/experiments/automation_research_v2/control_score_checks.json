@@ -1,0 +1,110 @@
+[
+  {
+    "model": "v2_ridge_base_price",
+    "year": 2020,
+    "original": "m12_ridge_rank_base",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_extended_price",
+    "year": 2020,
+    "original": "m13_ridge_rank_extended",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_elastic_extended_price",
+    "year": 2020,
+    "original": "m16_elastic_rank",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_base_price",
+    "year": 2021,
+    "original": "m12_ridge_rank_base",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_extended_price",
+    "year": 2021,
+    "original": "m13_ridge_rank_extended",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_elastic_extended_price",
+    "year": 2021,
+    "original": "m16_elastic_rank",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_base_price",
+    "year": 2022,
+    "original": "m12_ridge_rank_base",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_extended_price",
+    "year": 2022,
+    "original": "m13_ridge_rank_extended",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_elastic_extended_price",
+    "year": 2022,
+    "original": "m16_elastic_rank",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_base_price",
+    "year": 2023,
+    "original": "m12_ridge_rank_base",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_extended_price",
+    "year": 2023,
+    "original": "m13_ridge_rank_extended",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_elastic_extended_price",
+    "year": 2023,
+    "original": "m16_elastic_rank",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_base_price",
+    "year": 2024,
+    "original": "m12_ridge_rank_base",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_extended_price",
+    "year": 2024,
+    "original": "m13_ridge_rank_extended",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_elastic_extended_price",
+    "year": 2024,
+    "original": "m16_elastic_rank",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_base_price",
+    "year": 2025,
+    "original": "m12_ridge_rank_base",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_ridge_extended_price",
+    "year": 2025,
+    "original": "m13_ridge_rank_extended",
+    "max_score_difference": 0.0
+  },
+  {
+    "model": "v2_elastic_extended_price",
+    "year": 2025,
+    "original": "m16_elastic_rank",
+    "max_score_difference": 0.0
+  }
+]

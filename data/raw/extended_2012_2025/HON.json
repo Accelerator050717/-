@@ -1,0 +1,38 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "HON",
+  "parameters": {
+    "start": "2012-01-01",
+    "end": "2026-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "downloaded_at_utc": "2026-09-09T06:04:24.814427+00:00",
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local session date",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 3520,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits"
+  ],
+  "sha256": "aea808f72e0ae10f1b9c4bac1fd65dc691d9828e51f416da143ca54725ccb3d9",
+  "note": "Library-returned snapshot; adjusted history can be revised by vendor."
+}

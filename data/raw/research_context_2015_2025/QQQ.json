@@ -1,0 +1,39 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "QQQ",
+  "parameters": {
+    "start": "2015-01-01",
+    "end": "2026-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "downloaded_at_utc": "2026-09-07T08:50:17.945370+00:00",
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local session date",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 2766,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits",
+    "Capital Gains"
+  ],
+  "sha256": "48902ddce7ae1c7387373abcfb57e4158ea0dbda36fc8c392b2b7ef0f89eb421",
+  "note": "Library-returned snapshot; adjusted history can be revised by vendor."
+}

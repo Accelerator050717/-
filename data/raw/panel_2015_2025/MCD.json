@@ -1,0 +1,38 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "MCD",
+  "parameters": {
+    "start": "2015-01-01",
+    "end": "2026-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "downloaded_at_utc": "2026-09-07T07:47:38.275998+00:00",
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local session date",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 2766,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits"
+  ],
+  "sha256": "aec846508dbc29824c4cf95aa6c8775b253e88705f41c8147af7061554ef01cb",
+  "note": "Library-returned snapshot; adjusted history can be revised by vendor."
+}

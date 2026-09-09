@@ -1,0 +1,29 @@
+[
+  {
+    "year": 2024,
+    "split": "train",
+    "rows": 58440,
+    "dates": 1948,
+    "first_date": "2015-03-31",
+    "last_date": "2022-12-21",
+    "last_exit": "2022-12-30"
+  },
+  {
+    "year": 2024,
+    "split": "validation",
+    "rows": 7320,
+    "dates": 244,
+    "first_date": "2023-01-03",
+    "last_date": "2023-12-20",
+    "last_exit": "2023-12-29"
+  },
+  {
+    "year": 2024,
+    "split": "development",
+    "rows": 7380,
+    "dates": 246,
+    "first_date": "2024-01-02",
+    "last_date": "2024-12-20",
+    "last_exit": "2024-12-31"
+  }
+]

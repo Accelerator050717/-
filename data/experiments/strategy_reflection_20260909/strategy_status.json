@@ -1,0 +1,23 @@
+{
+  "candidate": "v7_h60_full",
+  "research_status": "rejected_for_profitability",
+  "deploy_eligible": false,
+  "reason": {
+    "cagr_at_least_80pct_incumbent": false,
+    "beats_full_spy": false,
+    "beats_both_non_ml_risk_controls": true,
+    "close_drawdown_better_than_20pct": true,
+    "close_drawdown_improves_25pct": true,
+    "cost20_beats_both_non_ml_risk_controls": true,
+    "all_passed": false
+  },
+  "validation_period": "2016-2025 reused development history",
+  "required_future_evidence": [
+    "historical universe/delist coverage",
+    "independent prospective validation",
+    "raw execution-price and corporate-action reconciliation",
+    "broker paper execution validation",
+    "explicit account, capital and risk limits"
+  ],
+  "note": "此文件记录研究结论，不是已集成到券商的运行时开关。"
+}

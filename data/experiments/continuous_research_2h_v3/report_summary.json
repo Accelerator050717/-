@@ -1,0 +1,10 @@
+{
+  "generated_at_utc": "2026-09-09T06:04:05.322474+00:00",
+  "annual_fits": 144,
+  "control_reproduction_fits": 24,
+  "fits_with_warnings": 0,
+  "gate_passes": 0,
+  "best_new_development_candidate": "v3_ridge_h60_price_top5",
+  "selected_candidate": null,
+  "report_path": "M:\\ml项目\\data\\experiments\\continuous_research_2h_v3\\RESEARCH_REPORT.md"
+}

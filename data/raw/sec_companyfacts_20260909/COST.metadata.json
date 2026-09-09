@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+  "retrieved_at_utc": "2026-09-09T04:42:43.695956+00:00",
+  "user_agent": "QuantMLResearch/0.1 (personal educational research project; automated public-data access)",
+  "attempts": [
+    {
+      "attempt": 1,
+      "requested_at_utc": "2026-09-09T04:42:42.826027+00:00",
+      "status_code": 200,
+      "bytes": 3617189,
+      "content_type": "application/json",
+      "response_sha256": "71a4fd99c86f27c3aa27b8f05b3a9705c16f0060b425395bb1a367ce239b7d1f"
+    }
+  ],
+  "sha256": "71a4fd99c86f27c3aa27b8f05b3a9705c16f0060b425395bb1a367ce239b7d1f"
+}

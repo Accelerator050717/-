@@ -1,0 +1,19 @@
+{
+  "captured_at_utc": "2026-09-09T07:36:37.687185+00:00",
+  "root": "M:/ml项目",
+  "totals": {
+    "git": {
+      "files": 1565,
+      "size_bytes": 140404429
+    },
+    "large": {
+      "files": 1138,
+      "size_bytes": 1408331959
+    }
+  },
+  "large_artifacts_manifest": "large_artifacts.csv",
+  "business_artifacts_modified": false,
+  "training_run": false,
+  "market_data_downloaded": false,
+  "broker_accessed": false
+}

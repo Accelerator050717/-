@@ -1,0 +1,17 @@
+{
+  "status": "completed_without_gate_passing_candidate",
+  "completed_at_utc": "2026-09-07T09:10:59.997359+00:00",
+  "budget_minutes": 45,
+  "conservative_elapsed_minutes": 29.17,
+  "registered_candidates": 32,
+  "distinct_prediction_arrays": 31,
+  "model_fits": 114,
+  "additional_robustness_backtests": 230,
+  "gate_passing_candidates": 0,
+  "holdout_2026_accessed": false,
+  "broker_connected": false,
+  "orders_submitted": false,
+  "authoritative_evaluation_directory": "final_evaluation",
+  "report_sha256": "e912a513fea04272e496d5e944c79d2f803da8189cef649c0792458cec54453e",
+  "report_links_verified": true
+}

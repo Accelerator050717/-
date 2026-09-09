@@ -1,0 +1,39 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "IWM",
+  "parameters": {
+    "start": "2015-01-01",
+    "end": "2026-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "downloaded_at_utc": "2026-09-07T08:50:17.186056+00:00",
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local session date",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 2766,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits",
+    "Capital Gains"
+  ],
+  "sha256": "94b82bfea29075e8fc6d65f3d18e5961dfe14a59e39c43f603ac7079aa4d9fe8",
+  "note": "Library-returned snapshot; adjusted history can be revised by vendor."
+}

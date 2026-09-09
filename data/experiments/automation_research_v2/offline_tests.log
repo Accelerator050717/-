@@ -1,0 +1,15 @@
+test_cash_and_positions_tampering_detected_even_with_new_checksum (test_offline_execution.OfflineExecutionTests.test_cash_and_positions_tampering_detected_even_with_new_checksum) ... ok
+test_drift_rebalance_snapshots_and_final_cash_reconcile (test_offline_execution.OfflineExecutionTests.test_drift_rebalance_snapshots_and_final_cash_reconcile) ... ok
+test_missing_nan_infinite_zero_negative_prices_blocked (test_offline_execution.OfflineExecutionTests.test_missing_nan_infinite_zero_negative_prices_blocked) ... ok
+test_missing_previously_initialized_state_does_not_reset_cash (test_offline_execution.OfflineExecutionTests.test_missing_previously_initialized_state_does_not_reset_cash) ... ok
+test_next_session_is_exact_and_needs_target (test_offline_execution.OfflineExecutionTests.test_next_session_is_exact_and_needs_target) ... ok
+test_pending_fill_must_precede_snapshot (test_offline_execution.OfflineExecutionTests.test_pending_fill_must_precede_snapshot) ... ok
+test_restart_and_two_instances_are_idempotent (test_offline_execution.OfflineExecutionTests.test_restart_and_two_instances_are_idempotent) ... ok
+test_reused_key_different_intent_is_blocked (test_offline_execution.OfflineExecutionTests.test_reused_key_different_intent_is_blocked) ... ok
+test_unknown_mode_model_hash_and_lock_fail_closed (test_offline_execution.OfflineExecutionTests.test_unknown_mode_model_hash_and_lock_fail_closed) ... ok
+test_weights_feature_order_and_asof_blocked (test_offline_execution.OfflineExecutionTests.test_weights_feature_order_and_asof_blocked) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.412s
+
+OK

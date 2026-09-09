@@ -1,0 +1,479 @@
+{
+  "candidates": [
+    {
+      "id": "r01_momentum20",
+      "kind": "rule",
+      "column": "ret_20d",
+      "sign": 1
+    },
+    {
+      "id": "r02_momentum60",
+      "kind": "rule",
+      "column": "ret_60d",
+      "sign": 1
+    },
+    {
+      "id": "r03_momentum12_skip1",
+      "kind": "rule",
+      "column": "mom_252_skip21",
+      "sign": 1
+    },
+    {
+      "id": "r04_reversal1",
+      "kind": "rule",
+      "column": "ret_1d",
+      "sign": -1
+    },
+    {
+      "id": "r05_reversal5",
+      "kind": "rule",
+      "column": "ret_5d",
+      "sign": -1
+    },
+    {
+      "id": "r06_reversal10",
+      "kind": "rule",
+      "column": "ret_10d",
+      "sign": -1
+    },
+    {
+      "id": "r07_low_volatility",
+      "kind": "rule",
+      "column": "volatility_20d",
+      "sign": -1
+    },
+    {
+      "id": "r08_sector_momentum",
+      "kind": "rule",
+      "column": "relative_sector_20d",
+      "sign": 1
+    },
+    {
+      "id": "r09_residual_reversal",
+      "kind": "rule",
+      "column": "beta_residual_5d",
+      "sign": -1
+    },
+    {
+      "id": "r10_momentum_lowvol",
+      "kind": "rule",
+      "combo": "momentum_lowvol"
+    },
+    {
+      "id": "m11_ridge_return_base",
+      "kind": "ridge",
+      "features": "base",
+      "target": "return",
+      "alpha": 100
+    },
+    {
+      "id": "m12_ridge_rank_base",
+      "kind": "ridge",
+      "features": "base",
+      "target": "rank",
+      "alpha": 100
+    },
+    {
+      "id": "m13_ridge_rank_extended",
+      "kind": "ridge",
+      "features": "extended",
+      "target": "rank",
+      "alpha": 100
+    },
+    {
+      "id": "m14_ridge_rank_cs",
+      "kind": "ridge",
+      "features": "cs",
+      "target": "rank",
+      "alpha": 100
+    },
+    {
+      "id": "m15_ridge_recent3",
+      "kind": "ridge",
+      "features": "extended",
+      "target": "rank",
+      "alpha": 100,
+      "recent_years": 3
+    },
+    {
+      "id": "m16_elastic_rank",
+      "kind": "elastic",
+      "features": "extended",
+      "target": "rank"
+    },
+    {
+      "id": "m17_extra_trees",
+      "kind": "extra",
+      "features": "extended",
+      "target": "rank"
+    },
+    {
+      "id": "m18_lgb_return",
+      "kind": "lgb",
+      "features": "extended",
+      "target": "return",
+      "objective": "regression"
+    },
+    {
+      "id": "m19_lgb_huber",
+      "kind": "lgb",
+      "features": "extended",
+      "target": "return",
+      "objective": "huber"
+    },
+    {
+      "id": "m20_lgb_rank_target",
+      "kind": "lgb",
+      "features": "extended",
+      "target": "rank",
+      "objective": "regression"
+    },
+    {
+      "id": "m21_ranker_base",
+      "kind": "ranker",
+      "features": "base",
+      "target": "grade"
+    },
+    {
+      "id": "m22_ranker_extended",
+      "kind": "ranker",
+      "features": "extended",
+      "target": "grade"
+    },
+    {
+      "id": "m23_ranker_cs",
+      "kind": "ranker",
+      "features": "cs",
+      "target": "grade"
+    },
+    {
+      "id": "m24_ranker_recent3",
+      "kind": "ranker",
+      "features": "extended",
+      "target": "grade",
+      "recent_years": 3
+    },
+    {
+      "id": "m25_ranker_timeweight",
+      "kind": "ranker",
+      "features": "extended",
+      "target": "grade",
+      "half_life_years": 2
+    },
+    {
+      "id": "m26_ranker_capacity63",
+      "kind": "ranker",
+      "features": "extended",
+      "target": "grade",
+      "leaves": 63
+    },
+    {
+      "id": "m27_small_mlp",
+      "kind": "mlp",
+      "features": "extended",
+      "target": "rank"
+    },
+    {
+      "id": "e28_model_ensemble",
+      "kind": "ensemble",
+      "components": {
+        "m13_ridge_rank_extended": 0.3333333333333333,
+        "m17_extra_trees": 0.3333333333333333,
+        "m22_ranker_extended": 0.3333333333333333
+      }
+    },
+    {
+      "id": "e29_rule_model_ensemble",
+      "kind": "ensemble",
+      "components": {
+        "m22_ranker_extended": 0.5,
+        "r05_reversal5": 0.25,
+        "r02_momentum60": 0.25
+      }
+    },
+    {
+      "id": "e30_ranker_ensemble",
+      "kind": "ensemble",
+      "components": {
+        "m22_ranker_extended": 0.3333333333333333,
+        "m23_ranker_cs": 0.3333333333333333,
+        "m24_ranker_recent3": 0.3333333333333333
+      }
+    }
+  ],
+  "feature_sets": {
+    "base": [
+      "ret_1d",
+      "ret_5d",
+      "ret_10d",
+      "ret_20d",
+      "ret_60d",
+      "relative_5d",
+      "relative_10d",
+      "relative_20d",
+      "relative_60d",
+      "volatility_10d",
+      "volatility_20d",
+      "volatility_60d",
+      "sma_gap_20d",
+      "sma_gap_60d",
+      "volume_ratio_1_20",
+      "volume_ratio_5_20",
+      "intraday_range",
+      "overnight_gap",
+      "spy_ret_5d",
+      "spy_ret_20d",
+      "spy_ret_60d",
+      "spy_volatility_20d"
+    ],
+    "extended": [
+      "ret_1d",
+      "ret_5d",
+      "ret_10d",
+      "ret_20d",
+      "ret_60d",
+      "relative_5d",
+      "relative_10d",
+      "relative_20d",
+      "relative_60d",
+      "volatility_10d",
+      "volatility_20d",
+      "volatility_60d",
+      "sma_gap_20d",
+      "sma_gap_60d",
+      "volume_ratio_1_20",
+      "volume_ratio_5_20",
+      "intraday_range",
+      "overnight_gap",
+      "spy_ret_5d",
+      "spy_ret_20d",
+      "spy_ret_60d",
+      "spy_volatility_20d",
+      "ret_126d",
+      "ret_252d",
+      "mom_252_skip21",
+      "drawdown_60d",
+      "drawdown_252d",
+      "beta_spy_60d",
+      "beta_sector_60d",
+      "sector_ret_5d",
+      "sector_ret_20d",
+      "sector_ret_60d",
+      "relative_sector_5d",
+      "relative_sector_20d",
+      "relative_sector_60d",
+      "beta_residual_5d",
+      "beta_residual_20d",
+      "sector_beta_residual_5d",
+      "sector_beta_residual_20d",
+      "context_XLK_ret_20d",
+      "context_XLK_ret_60d",
+      "context_XLK_vol_20d",
+      "context_XLF_ret_20d",
+      "context_XLF_ret_60d",
+      "context_XLF_vol_20d",
+      "context_XLV_ret_20d",
+      "context_XLV_ret_60d",
+      "context_XLV_vol_20d",
+      "context_XLE_ret_20d",
+      "context_XLE_ret_60d",
+      "context_XLE_vol_20d",
+      "context_XLI_ret_20d",
+      "context_XLI_ret_60d",
+      "context_XLI_vol_20d",
+      "context_XLP_ret_20d",
+      "context_XLP_ret_60d",
+      "context_XLP_vol_20d",
+      "context_XLY_ret_20d",
+      "context_XLY_ret_60d",
+      "context_XLY_vol_20d",
+      "context_XLU_ret_20d",
+      "context_XLU_ret_60d",
+      "context_XLU_vol_20d",
+      "context_TLT_ret_20d",
+      "context_TLT_ret_60d",
+      "context_TLT_vol_20d",
+      "context_HYG_ret_20d",
+      "context_HYG_ret_60d",
+      "context_HYG_vol_20d",
+      "context_LQD_ret_20d",
+      "context_LQD_ret_60d",
+      "context_LQD_vol_20d",
+      "context_IWM_ret_20d",
+      "context_IWM_ret_60d",
+      "context_IWM_vol_20d",
+      "context_QQQ_ret_20d",
+      "context_QQQ_ret_60d",
+      "context_QQQ_vol_20d",
+      "credit_proxy_20d",
+      "interaction_ret20_spyret20",
+      "interaction_ret5_spyvol20"
+    ],
+    "cs": [
+      "cs_ret_1d",
+      "cs_ret_5d",
+      "cs_ret_10d",
+      "cs_ret_20d",
+      "cs_ret_60d",
+      "cs_relative_5d",
+      "cs_relative_10d",
+      "cs_relative_20d",
+      "cs_relative_60d",
+      "cs_volatility_10d",
+      "cs_volatility_20d",
+      "cs_volatility_60d",
+      "cs_sma_gap_20d",
+      "cs_sma_gap_60d",
+      "cs_volume_ratio_1_20",
+      "cs_volume_ratio_5_20",
+      "cs_intraday_range",
+      "cs_overnight_gap",
+      "cs_ret_126d",
+      "cs_ret_252d",
+      "cs_mom_252_skip21",
+      "cs_drawdown_60d",
+      "cs_drawdown_252d",
+      "cs_beta_spy_60d",
+      "cs_beta_sector_60d",
+      "cs_sector_ret_5d",
+      "cs_sector_ret_20d",
+      "cs_sector_ret_60d",
+      "cs_relative_sector_5d",
+      "cs_relative_sector_20d",
+      "cs_relative_sector_60d",
+      "cs_beta_residual_5d",
+      "cs_beta_residual_20d",
+      "cs_sector_beta_residual_5d",
+      "cs_sector_beta_residual_20d",
+      "cs_interaction_ret20_spyret20",
+      "cs_interaction_ret5_spyvol20",
+      "spy_ret_5d",
+      "spy_ret_20d",
+      "spy_ret_60d",
+      "spy_volatility_20d",
+      "context_XLK_ret_20d",
+      "context_XLK_ret_60d",
+      "context_XLK_vol_20d",
+      "context_XLF_ret_20d",
+      "context_XLF_ret_60d",
+      "context_XLF_vol_20d",
+      "context_XLV_ret_20d",
+      "context_XLV_ret_60d",
+      "context_XLV_vol_20d",
+      "context_XLE_ret_20d",
+      "context_XLE_ret_60d",
+      "context_XLE_vol_20d",
+      "context_XLI_ret_20d",
+      "context_XLI_ret_60d",
+      "context_XLI_vol_20d",
+      "context_XLP_ret_20d",
+      "context_XLP_ret_60d",
+      "context_XLP_vol_20d",
+      "context_XLY_ret_20d",
+      "context_XLY_ret_60d",
+      "context_XLY_vol_20d",
+      "context_XLU_ret_20d",
+      "context_XLU_ret_60d",
+      "context_XLU_vol_20d",
+      "context_TLT_ret_20d",
+      "context_TLT_ret_60d",
+      "context_TLT_vol_20d",
+      "context_HYG_ret_20d",
+      "context_HYG_ret_60d",
+      "context_HYG_vol_20d",
+      "context_LQD_ret_20d",
+      "context_LQD_ret_60d",
+      "context_LQD_vol_20d",
+      "context_IWM_ret_20d",
+      "context_IWM_ret_60d",
+      "context_IWM_vol_20d",
+      "context_QQQ_ret_20d",
+      "context_QQQ_ret_60d",
+      "context_QQQ_vol_20d",
+      "credit_proxy_20d"
+    ]
+  },
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "panel_sha256": "e033e9963b0edf24613b7edff8afc0dbc1fe8e5f2ccc9a82f294b77499c6ac02",
+  "lgb_parameters": {
+    "n_estimators": 1000,
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "min_child_samples": 100,
+    "reg_lambda": 10,
+    "colsample_bytree": 0.9,
+    "random_state": 42,
+    "n_jobs": 4,
+    "deterministic": true,
+    "force_col_wise": true,
+    "metric": "None",
+    "verbosity": -1
+  },
+  "early_stopping_rounds": 50,
+  "elastic_parameters": {
+    "alpha": 0.001,
+    "l1_ratio": 0.15,
+    "max_iter": 2000,
+    "selection": "random",
+    "random_state": 42
+  },
+  "extra_parameters": {
+    "n_estimators": 128,
+    "min_samples_leaf": 100,
+    "max_depth": 12,
+    "max_features": 0.7,
+    "random_state": 42,
+    "n_jobs": 4
+  },
+  "mlp_parameters": {
+    "hidden_layer_sizes": [
+      32,
+      16
+    ],
+    "max_iter": 100,
+    "batch_size": 1024,
+    "alpha": 1.0,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "validation": "Train through Y-2, early stop on Y-1 with exit_date before Y; evaluate entire Y, allowing year-end holding across development years.",
+  "trading": {
+    "top_k": 5,
+    "rebalance_sessions": 5,
+    "entry": "next_open",
+    "single_side_cost_bps": 10,
+    "stress_cost_bps": 20,
+    "tie_break": "ticker_alphabetical"
+  },
+  "benchmarks": [
+    "same_universe_equal_weight",
+    "SPY"
+  ],
+  "gate": {
+    "cagr_advantage_over_both": 0.03,
+    "information_ratio": 0.5,
+    "positive_active_years": 4,
+    "max_drawdown_extra_allowance": 0.05,
+    "mean_rank_ic": 0.03,
+    "positive_ic_years": 4,
+    "stress_20bp_beats_equal": true,
+    "simultaneous_block_bootstrap_lower_positive": true
+  },
+  "bootstrap": {
+    "samples": 2000,
+    "block_sessions": 20,
+    "confidence": 0.95,
+    "seed": 20260907
+  },
+  "holdout_policy": "Only one frozen development gate-passing candidate may access 2026; no candidate matrix on holdout; no passing candidate leaves 2026 sealed.",
+  "limits": "Current survivor stock list and static proxy mapping; vendor adjusted-open return proxy; 2015-2025 previously studied; no execution authorization.",
+  "training_deadline_utc": "2026-09-07T09:18:50+00:00",
+  "created_at_utc": "2026-09-07T08:53:07.750729+00:00"
+}

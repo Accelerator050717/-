@@ -1,0 +1,38 @@
+{
+  "year": 2021,
+  "selected_method": "small",
+  "validation_metrics": [
+    {
+      "year": 2021,
+      "method": "constant",
+      "ndcg5": 0.49999999999999994,
+      "rank_ic": null,
+      "valid_ic_dates": 0
+    },
+    {
+      "year": 2021,
+      "method": "momentum_20d",
+      "ndcg5": 0.5081814016578577,
+      "rank_ic": 0.04426060445028889,
+      "valid_ic_dates": 247
+    },
+    {
+      "year": 2021,
+      "method": "small",
+      "ndcg5": 0.5285162739427692,
+      "rank_ic": 0.016605967742030523,
+      "valid_ic_dates": 247
+    },
+    {
+      "year": 2021,
+      "method": "large",
+      "ndcg5": 0.5255206120060015,
+      "rank_ic": 0.0019238839527358643,
+      "valid_ic_dates": 247
+    }
+  ],
+  "frozen_before_development_at_utc": "2026-09-07T08:22:19.608086+00:00",
+  "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+  "train_last_exit": "2019-12-31",
+  "validation_last_exit": "2020-12-31"
+}

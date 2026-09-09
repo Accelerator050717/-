@@ -1,0 +1,26 @@
+{
+  "saved_before_development_comparison_at_utc": "2026-09-07T08:00:53.620809+00:00",
+  "selected_method": "ranker",
+  "selection_metric": "2023 NDCG@5",
+  "training": {
+    "regressor": {
+      "best_iteration": 13,
+      "attempted_iterations": 63,
+      "best_validation_ndcg5": 0.5608521145289819,
+      "fit_seconds": 0.6932353000011062
+    },
+    "ranker": {
+      "best_iteration": 23,
+      "attempted_iterations": 73,
+      "best_validation_ndcg5": 0.5609321566719926,
+      "fit_seconds": 1.2560874999981024
+    }
+  },
+  "versions": {
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  },
+  "interpretation": "2024-2025 are already-seen development comparisons; no new final holdout score."
+}

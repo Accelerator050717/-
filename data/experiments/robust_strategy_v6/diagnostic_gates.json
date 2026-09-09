@@ -1,0 +1,9 @@
+{
+  "cagr_at_least_80pct_incumbent": false,
+  "beats_full_spy": false,
+  "beats_both_non_ml_risk_controls": false,
+  "close_drawdown_better_than_20pct": true,
+  "close_drawdown_improves_25pct": true,
+  "cost20_beats_both_non_ml_risk_controls": false,
+  "all_passed": false
+}

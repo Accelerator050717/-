@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-09-09T06:16:15.993545+00:00",
+  "new_annual_fits": 164,
+  "new_main_strategy_entries": 48,
+  "new_risk_strategy_entries": 6,
+  "joint_entries": 98,
+  "gate_passes": 0,
+  "candidate_for_further_research": "v4_ridge_h60_price_top5_vol15",
+  "candidate_is_approved_for_trading": false,
+  "2026_market_prices_accessed": false,
+  "orders_sent": 0,
+  "report_path": "M:\\ml项目\\data\\experiments\\continuous_research_2h_v3\\FINAL_REPORT.md"
+}

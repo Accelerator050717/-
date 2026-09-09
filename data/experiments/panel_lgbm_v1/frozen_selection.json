@@ -1,0 +1,39 @@
+{
+  "frozen_before_test_at_utc": "2026-09-07T07:49:34.005631+00:00",
+  "selected_model": "zero",
+  "criterion": "validation RMSE",
+  "lightgbm_best_iteration": 1,
+  "train_mean": 0.0013550666929676451,
+  "fit_seconds": 0.276433500002895,
+  "no_validation_refit": true,
+  "feature_order": [
+    "ret_1d",
+    "ret_5d",
+    "ret_10d",
+    "ret_20d",
+    "ret_60d",
+    "relative_5d",
+    "relative_10d",
+    "relative_20d",
+    "relative_60d",
+    "volatility_10d",
+    "volatility_20d",
+    "volatility_60d",
+    "sma_gap_20d",
+    "sma_gap_60d",
+    "volume_ratio_1_20",
+    "volume_ratio_5_20",
+    "intraday_range",
+    "overnight_gap",
+    "spy_ret_5d",
+    "spy_ret_20d",
+    "spy_ret_60d",
+    "spy_volatility_20d"
+  ],
+  "packages": {
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  }
+}

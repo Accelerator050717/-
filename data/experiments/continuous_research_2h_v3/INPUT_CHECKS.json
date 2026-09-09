@@ -1,0 +1,21 @@
+{
+  "events": {
+    "status": "passed",
+    "rows": 75420,
+    "source_fact_references_matched_raw": 22978,
+    "financial_change_cells_recomputed": 527940,
+    "event_clock_and_flag_cells_recomputed": 527940,
+    "missing_indicator_cells_checked": 1055880,
+    "scope": "Raw fact membership, filed availability, within-period matching, arithmetic, event period advance and clock; not a complete historical-vintage database guarantee."
+  },
+  "horizons": {
+    "status": "passed",
+    "raw_endpoint_checks": 9000,
+    "horizons": [
+      5,
+      20,
+      60
+    ],
+    "definition": "Indexed raw adjusted-open endpoints at t+1 and t+H+1; stock and SPY identical interval."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "reason": "Default Huber alpha=.9 equals a 90pp residual threshold; audits found identical L2 predictions. Two explicitly scaled followups, preserving original results.",
+  "candidates": [
+    {
+      "id": "f31_huber_1pp",
+      "kind": "lgb",
+      "features": "extended",
+      "target": "return",
+      "objective": "huber",
+      "huber_alpha": 0.01
+    },
+    {
+      "id": "f32_huber_3pp",
+      "kind": "lgb",
+      "features": "extended",
+      "target": "return",
+      "objective": "huber",
+      "huber_alpha": 0.03
+    }
+  ],
+  "original_plan_sha256": "f7896f5ec1217a5b3abf919db229a2995313bffa73efac6a56c026e01c25bee6",
+  "parameters": {
+    "n_estimators": 1000,
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "min_child_samples": 100,
+    "reg_lambda": 10,
+    "colsample_bytree": 0.9,
+    "random_state": 42,
+    "n_jobs": 4,
+    "deterministic": true,
+    "force_col_wise": true,
+    "metric": "None",
+    "verbosity": -1
+  },
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "evaluation": "Combine all original30 and extra2 for the same cost assumptions, gates and joint max-t bootstrap before any 2026 access.",
+  "code_sha256": "f6d018622f957b9a267a26636ce0c7035613937fb106767f5bae06b804f68f7b",
+  "registered_at_utc": "2026-09-07T08:56:55.962294+00:00"
+}

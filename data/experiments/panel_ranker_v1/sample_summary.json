@@ -1,0 +1,46 @@
+{
+  "periods": [
+    {
+      "split": "train",
+      "rows": 58440,
+      "dates": 1948,
+      "first_observation": "2015-03-31",
+      "last_observation": "2022-12-21",
+      "last_exit": "2022-12-30"
+    },
+    {
+      "split": "validation_2023",
+      "rows": 7320,
+      "dates": 244,
+      "first_observation": "2023-01-03",
+      "last_observation": "2023-12-20",
+      "last_exit": "2023-12-29"
+    },
+    {
+      "split": "development_2024",
+      "rows": 7380,
+      "dates": 246,
+      "first_observation": "2024-01-02",
+      "last_observation": "2024-12-20",
+      "last_exit": "2024-12-31"
+    },
+    {
+      "split": "development_2025",
+      "rows": 7320,
+      "dates": 244,
+      "first_observation": "2025-01-02",
+      "last_observation": "2025-12-22",
+      "last_exit": "2025-12-31"
+    }
+  ],
+  "all_assignments": {
+    "train": 58440,
+    "development_2024": 7380,
+    "validation_2023": 7320,
+    "development_2025": 7320,
+    "incomplete_features_or_label": 1980,
+    "purged_before_2023-01-01": 180,
+    "purged_before_2024-01-01": 180,
+    "purged_before_2025-01-01": 180
+  }
+}

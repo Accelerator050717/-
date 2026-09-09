@@ -1,0 +1,16 @@
+{
+  "completed_at_utc": "2026-09-09T06:00:13.591495+00:00",
+  "model_refits": 0,
+  "risk_strategy_entries": 6,
+  "joint_entries": 98,
+  "source_candidates": [
+    "v3_elastic_h5_price_top5",
+    "v3_ridge_h60_price_top5"
+  ],
+  "gate_passes": 0,
+  "selected_candidate": null,
+  "prefix_exposure_check": true,
+  "full_exposure_control_checks": 2,
+  "2026_market_prices_accessed": false,
+  "orders_sent": 0
+}

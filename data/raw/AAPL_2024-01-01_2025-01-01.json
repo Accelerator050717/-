@@ -1,0 +1,38 @@
+{
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "symbol": "AAPL",
+  "downloaded_at_utc": "2026-09-07T04:45:03.041198+00:00",
+  "parameters": {
+    "start": "2024-01-01",
+    "end": "2025-01-01",
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "prepost": false,
+    "rounding": false
+  },
+  "source_timezone": "America/New_York",
+  "date_convention": "America/New_York local trading date",
+  "price_currency": "USD",
+  "python": "3.12.2",
+  "packages": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "rows": 252,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits"
+  ],
+  "note": "Library-returned daily bars; not the unprocessed Yahoo API response."
+}

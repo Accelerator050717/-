@@ -1,0 +1,424 @@
+{
+  "updated_at_utc": "2026-09-09T04:43:16.465577+00:00",
+  "symbols": {
+    "AAPL": {
+      "candidate_cik": 320193,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "Apple Inc.",
+      "official_current_tickers": [
+        "AAPL"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 503
+    },
+    "MSFT": {
+      "candidate_cik": 789019,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "MICROSOFT CORP",
+      "official_current_tickers": [
+        "MSFT"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 562
+    },
+    "NVDA": {
+      "candidate_cik": 1045810,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "NVIDIA CORP",
+      "official_current_tickers": [
+        "NVDA"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 627
+    },
+    "AMZN": {
+      "candidate_cik": 1018724,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "AMAZON COM INC",
+      "official_current_tickers": [
+        "AMZN"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 545
+    },
+    "GOOGL": {
+      "candidate_cik": 1652044,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "Alphabet Inc.",
+      "official_current_tickers": [
+        "GOOGL",
+        "GOOG",
+        "GOOGM",
+        "GOOGN"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 543
+    },
+    "META": {
+      "candidate_cik": 1326801,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "Meta Platforms, Inc.",
+      "official_current_tickers": [
+        "META"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 458
+    },
+    "JPM": {
+      "candidate_cik": 19617,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "JPMORGAN CHASE & CO",
+      "official_current_tickers": [
+        "JPM",
+        "JPM-PC",
+        "AMJB",
+        "JPM-PD",
+        "JPM-PJ",
+        "JPM-PK",
+        "JPM-PL",
+        "JPM-PM",
+        "VYLD"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 918
+    },
+    "BAC": {
+      "candidate_cik": 70858,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "BANK OF AMERICA CORP /DE/",
+      "official_current_tickers": [
+        "BAC",
+        "BML-PG",
+        "BML-PL",
+        "BAC-PB",
+        "BAC-PK",
+        "BAC-PE",
+        "BAC-PL",
+        "BAC-PM",
+        "BAC-PN",
+        "BAC-PO",
+        "BAC-PP",
+        "BAC-PQ",
+        "BAC-PS",
+        "BACRP",
+        "BML-PH",
+        "BML-PJ",
+        "MER-PK"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 891
+    },
+    "GS": {
+      "candidate_cik": 886982,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "GOLDMAN SACHS GROUP INC",
+      "official_current_tickers": [
+        "GS",
+        "GSCE",
+        "GS-PA",
+        "GS-PC",
+        "GS-PD"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 642
+    },
+    "V": {
+      "candidate_cik": 1403161,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "VISA INC.",
+      "official_current_tickers": [
+        "V"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 626
+    },
+    "JNJ": {
+      "candidate_cik": 200406,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "JOHNSON & JOHNSON",
+      "official_current_tickers": [
+        "JNJ"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 609
+    },
+    "PFE": {
+      "candidate_cik": 78003,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "PFIZER INC",
+      "official_current_tickers": [
+        "PFE"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 667
+    },
+    "MRK": {
+      "candidate_cik": 310158,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "Merck & Co., Inc.",
+      "official_current_tickers": [
+        "MRK"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 775
+    },
+    "UNH": {
+      "candidate_cik": 731766,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "UNITEDHEALTH GROUP INC",
+      "official_current_tickers": [
+        "UNH"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 573
+    },
+    "XOM": {
+      "candidate_cik": 34088,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": false,
+      "historical_filing_identity_evidence": {
+        "cik": 34088,
+        "name": "EXXON MOBIL CORP",
+        "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000042/xom-20250630.htm",
+        "verified_on_utc_date": "2026-09-09",
+        "evidence": "Official 2025 Form 10-Q cover identifies Exxon Mobil common stock ticker XOM. Current submissions tickers is empty, so a historical filing verifies this mapping."
+      },
+      "official_name": "EXXON MOBIL CORP",
+      "official_current_tickers": [],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 438
+    },
+    "CVX": {
+      "candidate_cik": 93410,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "CHEVRON CORP",
+      "official_current_tickers": [
+        "CVX"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 622
+    },
+    "COP": {
+      "candidate_cik": 1163165,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "CONOCOPHILLIPS",
+      "official_current_tickers": [
+        "COP"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 743
+    },
+    "CAT": {
+      "candidate_cik": 18230,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "CATERPILLAR INC",
+      "official_current_tickers": [
+        "CAT"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 703
+    },
+    "HON": {
+      "candidate_cik": 773840,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "HONEYWELL INTERNATIONAL INC",
+      "official_current_tickers": [
+        "HON"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 632
+    },
+    "DE": {
+      "candidate_cik": 315189,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "DEERE & CO",
+      "official_current_tickers": [
+        "DE"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 662
+    },
+    "PG": {
+      "candidate_cik": 80424,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "PROCTER & GAMBLE Co",
+      "official_current_tickers": [
+        "PG"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 468
+    },
+    "KO": {
+      "candidate_cik": 21344,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "COCA COLA CO",
+      "official_current_tickers": [
+        "KO"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 724
+    },
+    "PEP": {
+      "candidate_cik": 77476,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "PEPSICO INC",
+      "official_current_tickers": [
+        "PEP"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 612
+    },
+    "WMT": {
+      "candidate_cik": 104169,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "Walmart Inc.",
+      "official_current_tickers": [
+        "WMT"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 478
+    },
+    "COST": {
+      "candidate_cik": 909832,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "COSTCO WHOLESALE CORP /NEW",
+      "official_current_tickers": [
+        "COST"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 460
+    },
+    "HD": {
+      "candidate_cik": 354950,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "HOME DEPOT, INC.",
+      "official_current_tickers": [
+        "HD"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 461
+    },
+    "MCD": {
+      "candidate_cik": 63908,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "MCDONALDS CORP",
+      "official_current_tickers": [
+        "MCD"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 433
+    },
+    "NEE": {
+      "candidate_cik": 753308,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "NEXTERA ENERGY INC",
+      "official_current_tickers": [
+        "NEE",
+        "NEE-PN",
+        "NEE-PS",
+        "NEE-PT",
+        "NEE-PU",
+        "NEE-PV",
+        "NEE-PW"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 455
+    },
+    "DUK": {
+      "candidate_cik": 1326160,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "Duke Energy CORP",
+      "official_current_tickers": [
+        "DUK",
+        "DUKB",
+        "DUK-PA",
+        "DUKU",
+        "DUUKU"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 911
+    },
+    "SO": {
+      "candidate_cik": 92122,
+      "official_submissions_verified": true,
+      "submissions_status": "ok",
+      "current_submissions_ticker_match": true,
+      "official_name": "SOUTHERN CO",
+      "official_current_tickers": [
+        "SO",
+        "SOJC",
+        "SOJD",
+        "SOJE",
+        "SOJF",
+        "SOMN"
+      ],
+      "companyfacts_status": "ok",
+      "us_gaap_concepts": 629
+    }
+  },
+  "ticker_list_preflight": {
+    "url": "https://www.sec.gov/files/company_tickers.json",
+    "observed_http_statuses": [
+      403,
+      403
+    ],
+    "note": "Initial availability probe on 2026-09-09; response body was not retained. Stopped this endpoint after one retry. Company-specific public APIs are used for their documented purpose."
+  }
+}

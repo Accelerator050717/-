@@ -1,0 +1,254 @@
+{
+  "scope": "Read existing 2015-2025 research summaries/models/predictions only; no fit, no new market data, no 2026 access.",
+  "total_training_runs": 114,
+  "successful_summary_records": 114,
+  "runs_by_batch": {
+    "huber_scale_followup": 12,
+    "original": 102
+  },
+  "successful_runs_by_year": {
+    "2020": 19,
+    "2021": 19,
+    "2022": 19,
+    "2023": 19,
+    "2024": 19,
+    "2025": 19
+  },
+  "runs_by_year_and_batch": [
+    {
+      "year": 2020,
+      "batch": "huber_scale_followup",
+      "runs": 2
+    },
+    {
+      "year": 2020,
+      "batch": "original",
+      "runs": 17
+    },
+    {
+      "year": 2021,
+      "batch": "huber_scale_followup",
+      "runs": 2
+    },
+    {
+      "year": 2021,
+      "batch": "original",
+      "runs": 17
+    },
+    {
+      "year": 2022,
+      "batch": "huber_scale_followup",
+      "runs": 2
+    },
+    {
+      "year": 2022,
+      "batch": "original",
+      "runs": 17
+    },
+    {
+      "year": 2023,
+      "batch": "huber_scale_followup",
+      "runs": 2
+    },
+    {
+      "year": 2023,
+      "batch": "original",
+      "runs": 17
+    },
+    {
+      "year": 2024,
+      "batch": "huber_scale_followup",
+      "runs": 2
+    },
+    {
+      "year": 2024,
+      "batch": "original",
+      "runs": 17
+    },
+    {
+      "year": 2025,
+      "batch": "huber_scale_followup",
+      "runs": 2
+    },
+    {
+      "year": 2025,
+      "batch": "original",
+      "runs": 17
+    }
+  ],
+  "artifact_files_present": 114,
+  "artifact_models_loaded": 114,
+  "missing_artifacts": [],
+  "artifact_load_errors": [],
+  "warning_capture": {
+    "captured_runs": 102,
+    "unavailable_runs": 12,
+    "captured_runs_with_warnings": 2,
+    "captured_runs_without_warnings": 100,
+    "unavailable_reason": "The 12 Huber followup training summaries do not capture warnings; absence of records does not establish absence of warnings.",
+    "warning_message_counts": {
+      "Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet.": 2
+    },
+    "warning_events": [
+      {
+        "candidate": "m27_small_mlp",
+        "year": 2020,
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet."
+        ]
+      },
+      {
+        "candidate": "m27_small_mlp",
+        "year": 2021,
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet."
+        ]
+      }
+    ]
+  },
+  "mlp_actual_iterations": [
+    {
+      "candidate": "m27_small_mlp",
+      "year": 2020,
+      "n_iter": 100,
+      "max_iter": 100,
+      "reached_max_iter": true,
+      "early_stopping": false
+    },
+    {
+      "candidate": "m27_small_mlp",
+      "year": 2021,
+      "n_iter": 100,
+      "max_iter": 100,
+      "reached_max_iter": true,
+      "early_stopping": false
+    },
+    {
+      "candidate": "m27_small_mlp",
+      "year": 2022,
+      "n_iter": 93,
+      "max_iter": 100,
+      "reached_max_iter": false,
+      "early_stopping": false
+    },
+    {
+      "candidate": "m27_small_mlp",
+      "year": 2023,
+      "n_iter": 77,
+      "max_iter": 100,
+      "reached_max_iter": false,
+      "early_stopping": false
+    },
+    {
+      "candidate": "m27_small_mlp",
+      "year": 2024,
+      "n_iter": 65,
+      "max_iter": 100,
+      "reached_max_iter": false,
+      "early_stopping": false
+    },
+    {
+      "candidate": "m27_small_mlp",
+      "year": 2025,
+      "n_iter": 62,
+      "max_iter": 100,
+      "reached_max_iter": false,
+      "early_stopping": false
+    }
+  ],
+  "mlp_reached_max_iter_runs": 2,
+  "original_m18_m19_duplicate": {
+    "all_six_years_validation_and_development_exactly_equal": true,
+    "checks": [
+      {
+        "year": 2020,
+        "split": "validation",
+        "rows": 7380,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2020,
+        "split": "development",
+        "rows": 7590,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2021,
+        "split": "validation",
+        "rows": 7410,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2021,
+        "split": "development",
+        "rows": 7560,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2022,
+        "split": "validation",
+        "rows": 7380,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2022,
+        "split": "development",
+        "rows": 7530,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2023,
+        "split": "validation",
+        "rows": 7350,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2023,
+        "split": "development",
+        "rows": 7500,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2024,
+        "split": "validation",
+        "rows": 7320,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2024,
+        "split": "development",
+        "rows": 7560,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2025,
+        "split": "validation",
+        "rows": 7380,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "year": 2025,
+        "split": "development",
+        "rows": 7320,
+        "exactly_equal": true,
+        "max_absolute_difference": 0.0
+      }
+    ],
+    "interpretation": "Original regression and default-alpha Huber are separate fit runs but not distinct prediction results; the two scaled Huber followups remain separate candidates."
+  },
+  "missing_field_policy": "Unrecorded fields remain blank in CSV. In particular, followup train_first and warnings are not inferred from other runs.",
+  "iteration_semantics": "n_iter is read from the saved final estimator: MLP epochs, ElasticNet solver iterations, or LightGBM retained boosting iterations. attempted_iterations is the recorded validation-curve length and may exceed the retained best_iteration.",
+  "fit_seconds_semantics": "Copied verbatim from each source summary's seconds field. Timing scopes in the original and followup scripts are not identical; these numbers are not a controlled model-speed comparison.",
+  "does_not_count_as_fitting": "The original 60 rule calculations and 18 fixed ensembles are excluded from the 114 fitted-model rows."
+}

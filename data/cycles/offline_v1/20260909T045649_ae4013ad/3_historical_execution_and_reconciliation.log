@@ -1,0 +1,15 @@
+{
+  "run_id": "20260909T045700_305cfe0a",
+  "status": "completed",
+  "new_fills": 0,
+  "total_fills": 42,
+  "new_processed_batches": 0,
+  "new_events": 0,
+  "snapshot_count": 30
+}
+{
+  "date": "2025-02-14",
+  "cash": 9.272582701669307e-13,
+  "nav": 10663.639736246103,
+  "cumulative_fees": 61.02580985209978
+}

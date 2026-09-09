@@ -1,0 +1,167 @@
+{
+  "models": [
+    {
+      "id": "v2_ridge_base_price",
+      "kind": "ridge",
+      "feature_group": "base",
+      "with_fundamentals": false,
+      "control": "m12_ridge_rank_base"
+    },
+    {
+      "id": "v2_ridge_base_fund",
+      "kind": "ridge",
+      "feature_group": "base",
+      "with_fundamentals": true,
+      "control": "m12_ridge_rank_base"
+    },
+    {
+      "id": "v2_ridge_extended_price",
+      "kind": "ridge",
+      "feature_group": "extended",
+      "with_fundamentals": false,
+      "control": "m13_ridge_rank_extended"
+    },
+    {
+      "id": "v2_ridge_extended_fund",
+      "kind": "ridge",
+      "feature_group": "extended",
+      "with_fundamentals": true,
+      "control": "m13_ridge_rank_extended"
+    },
+    {
+      "id": "v2_elastic_extended_price",
+      "kind": "elastic",
+      "feature_group": "extended",
+      "with_fundamentals": false,
+      "control": "m16_elastic_rank"
+    },
+    {
+      "id": "v2_elastic_extended_fund",
+      "kind": "elastic",
+      "feature_group": "extended",
+      "with_fundamentals": true,
+      "control": "m16_elastic_rank"
+    }
+  ],
+  "strategies": [
+    {
+      "id": "v2_ridge_base_price_top5",
+      "model": "v2_ridge_base_price",
+      "top_k": 5
+    },
+    {
+      "id": "v2_ridge_base_price_top10",
+      "model": "v2_ridge_base_price",
+      "top_k": 10
+    },
+    {
+      "id": "v2_ridge_base_fund_top5",
+      "model": "v2_ridge_base_fund",
+      "top_k": 5
+    },
+    {
+      "id": "v2_ridge_base_fund_top10",
+      "model": "v2_ridge_base_fund",
+      "top_k": 10
+    },
+    {
+      "id": "v2_ridge_extended_price_top5",
+      "model": "v2_ridge_extended_price",
+      "top_k": 5
+    },
+    {
+      "id": "v2_ridge_extended_price_top10",
+      "model": "v2_ridge_extended_price",
+      "top_k": 10
+    },
+    {
+      "id": "v2_ridge_extended_fund_top5",
+      "model": "v2_ridge_extended_fund",
+      "top_k": 5
+    },
+    {
+      "id": "v2_ridge_extended_fund_top10",
+      "model": "v2_ridge_extended_fund",
+      "top_k": 10
+    },
+    {
+      "id": "v2_elastic_extended_price_top5",
+      "model": "v2_elastic_extended_price",
+      "top_k": 5
+    },
+    {
+      "id": "v2_elastic_extended_price_top10",
+      "model": "v2_elastic_extended_price",
+      "top_k": 10
+    },
+    {
+      "id": "v2_elastic_extended_fund_top5",
+      "model": "v2_elastic_extended_fund",
+      "top_k": 5
+    },
+    {
+      "id": "v2_elastic_extended_fund_top10",
+      "model": "v2_elastic_extended_fund",
+      "top_k": 10
+    }
+  ],
+  "development_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "fundamental_columns": [
+    "fund_liabilities_to_assets",
+    "fund_equity_to_assets",
+    "fund_asset_growth_yoy",
+    "fund_annual_profit_margin",
+    "fund_annual_profit_to_latest_assets",
+    "fund_annual_cfo_to_latest_assets",
+    "fund_balance_age_days",
+    "fund_annual_age_days",
+    "fund_liabilities_to_assets_missing",
+    "fund_equity_to_assets_missing",
+    "fund_asset_growth_yoy_missing",
+    "fund_annual_profit_margin_missing",
+    "fund_annual_profit_to_latest_assets_missing",
+    "fund_annual_cfo_to_latest_assets_missing",
+    "fund_balance_age_days_missing",
+    "fund_annual_age_days_missing"
+  ],
+  "price_panel_sha256": "e033e9963b0edf24613b7edff8afc0dbc1fe8e5f2ccc9a82f294b77499c6ac02",
+  "fundamental_panel_sha256": "0ce3aa88efcd26fa24dba2efac27aa4bc5b11676c1a67226a95fe838dadc8232",
+  "target": "Same five-session next-open excess return, transformed into daily rank in [-0.5,0.5].",
+  "split": "Train through Y-2, validate Y-1, develop Y. Train/validation require exits strictly before the next segment; development labels may cross calendar years within the saved 2015-2025 snapshot.",
+  "ridge": {
+    "alpha": 100,
+    "solver": "svd"
+  },
+  "elastic": {
+    "alpha": 0.001,
+    "l1_ratio": 0.15,
+    "max_iter": 2000,
+    "selection": "random",
+    "random_state": 42
+  },
+  "imputation": "Fundamental missing indicators come from source. Training-only median imputer, keep_empty_features=True, no extra indicators; scaler fit on train only.",
+  "trading": {
+    "top_k": [
+      5,
+      10
+    ],
+    "rebalance_sessions": 5,
+    "entry": "next_open",
+    "cost_bps": [
+      10,
+      20
+    ]
+  },
+  "evaluation": "Original32 plus new12 strategies jointly evaluated with unchanged gates and 20-session max-t bootstrap, 2000 draws, seed20260907.",
+  "holdout": "This batch does not access 2026 market prices or promote any model to trading; any gate eligibility is reported for a separate frozen validation step.",
+  "limitations": "Adaptive followup on already-studied years, survivor universe, current SEC snapshot filtered by filed date, adjusted-open research proxy.",
+  "training_deadline_utc": "2026-09-09T05:17:19+00:00",
+  "registered_at_utc": "2026-09-09T04:46:01.465292+00:00"
+}

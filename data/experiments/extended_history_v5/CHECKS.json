@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "models_checked": 20,
+  "checks": [
+    {
+      "model": "ridge_h60_price",
+      "year": 2016,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2016,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2017,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2017,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2018,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2018,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2019,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2019,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "ridge_h60_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "elastic_h5_price",
+      "year": 2025,
+      "status": "passed"
+    }
+  ],
+  "validation_scores_saved": true,
+  "validation_metric_timing": "Calculated after fixed-parameter fits; never used for selecting parameters or changing model.",
+  "prediction_tolerance": 1e-12,
+  "source_panel_hash_verified": true
+}

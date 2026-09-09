@@ -1,0 +1,15 @@
+{
+  "training_and_evaluation_resume_checks": "passed",
+  "pip_check": "passed",
+  "unit_tests": 49,
+  "research_backtests": 41,
+  "core_artifacts_sha256": {
+    "REFLECTION_AND_RESULTS.md": "5d8f3bb3ed80717fc0fe7b360f66656380b42e9761647241d20feb8bbcde173c",
+    "TRAINING_DETAILS.md": "2c1b984575ddfdd7632d12b6748088e528d470d531c0b3632edd0f66c3af8fc4",
+    "strategy_comparison.png": "ed3d23e9bb9206a4c6570ca519255a3e5d2f5827d7fd354533623ceda4448c59",
+    "strategy_status.json": "17cfd3e8608794fffcc6dc8eb573e31d95e85250fe79466db1a54f202ca3a5ad",
+    "SUMMARY.json": "96bfaa3ca524076b0ebf97b52a7de529fea1eb8bcea894038d5e94358523356d"
+  },
+  "orders_sent": 0,
+  "no_2026_market_prices_read": true
+}

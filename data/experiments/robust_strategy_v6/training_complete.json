@@ -1,0 +1,11 @@
+{
+  "completed_at_utc": "2026-09-09T06:30:54.657261+00:00",
+  "new_fits": 10,
+  "existing_h60_reused_and_reproduced": 10,
+  "rows": 75240,
+  "dates": 2508,
+  "warning_count": 0,
+  "input_plan_verified": true,
+  "prices_2026_accessed": false,
+  "orders_sent": 0
+}

@@ -1,0 +1,22 @@
+{
+  "completed_at_utc": "2026-09-09T06:08:41.541856+00:00",
+  "annual_fits": 20,
+  "development_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "score_rows": 75240,
+  "score_dates": 2508,
+  "diagnostic_only": true,
+  "main98_selection_unchanged": true,
+  "2026_market_prices_accessed": false,
+  "orders_sent": 0
+}

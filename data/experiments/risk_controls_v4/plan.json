@@ -1,0 +1,17 @@
+{
+  "conditional_start": "Only if v3 all92 has zero gate passes; otherwise skip and honor v3 unique frozen holdout protocol.",
+  "sources": "Fixed old control v3_elastic_h5_price_top5; plus highest-IR new48 entry from a model whose control_name is None, candidate name ascending tie break.",
+  "policies": {
+    "vol15": "min(1, 0.15 / (SPY trailing20 daily adjusted-close return sample std * sqrt252))",
+    "trend25": "1 if SPY current adjusted close >= trailing200 session mean else 0.25",
+    "combined": "vol15 * trend25"
+  },
+  "decision": "Use information at observation close; target gross exposure next open, only on original5-session rebalance grid. No intraday stop-loss.",
+  "cash": "Zero interest, no borrowing; target weights gross/topK. Exposure can drift between rebalances.",
+  "comparison": "Same stock scores/topK, cost10/20. Compare original fully-invested EW/SPY and separate EW under identical risk rule.",
+  "selection": "Old92 plus new6 jointly use unchanged full-EW gates and max-t20-session bootstrap. Matched-risk EW is attribution diagnostic, not an easier replacement selection benchmark.",
+  "risk_rules_are_not_new_model_fits": true,
+  "limits": "Follow-up development experiment; thresholds not searched. Risk reduction is not proof of increased prediction skill.",
+  "holdout": "If new all98 gate passes, one uniquely selected model+policy+topK may be frozen with unchanged v3 holdout dates and final-training recipe. No 2026 quote before complete manifest.",
+  "registered_at_utc": "2026-09-09T05:58:44.646494+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "regressor": {
+    "best_iteration": 13,
+    "attempted_iterations": 63,
+    "best_validation_ndcg5": 0.5608521145289819,
+    "fit_seconds": 0.6932353000011062
+  },
+  "ranker": {
+    "best_iteration": 23,
+    "attempted_iterations": 73,
+    "best_validation_ndcg5": 0.5609321566719926,
+    "fit_seconds": 1.2560874999981024
+  }
+}

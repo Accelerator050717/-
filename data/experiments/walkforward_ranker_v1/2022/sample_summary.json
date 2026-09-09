@@ -1,0 +1,29 @@
+[
+  {
+    "year": 2022,
+    "split": "train",
+    "rows": 43350,
+    "dates": 1445,
+    "first_date": "2015-03-31",
+    "last_date": "2020-12-22",
+    "last_exit": "2020-12-31"
+  },
+  {
+    "year": 2022,
+    "split": "validation",
+    "rows": 7380,
+    "dates": 246,
+    "first_date": "2021-01-04",
+    "last_date": "2021-12-22",
+    "last_exit": "2021-12-31"
+  },
+  {
+    "year": 2022,
+    "split": "development",
+    "rows": 7350,
+    "dates": 245,
+    "first_date": "2022-01-03",
+    "last_date": "2022-12-21",
+    "last_exit": "2022-12-30"
+  }
+]

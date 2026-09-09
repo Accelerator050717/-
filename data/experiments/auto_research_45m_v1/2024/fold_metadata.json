@@ -1,0 +1,9 @@
+{
+  "year": 2024,
+  "train_rows": 52680,
+  "validation_rows": 7320,
+  "development_rows": 7560,
+  "train_last_exit": "2022-12-30",
+  "validation_last_exit": "2023-12-29",
+  "development_cross_year_labels_allowed": true
+}

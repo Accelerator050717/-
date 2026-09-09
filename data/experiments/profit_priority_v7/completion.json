@@ -1,0 +1,11 @@
+{
+  "completed_at_utc": "2026-09-09T06:49:42.841113+00:00",
+  "new_fits": 0,
+  "main_backtests": 10,
+  "score_ablation_backtests": 1,
+  "additional_stress_backtests": 7,
+  "diagnostic_all_passed": false,
+  "prices_2026_accessed": false,
+  "orders_sent": 0,
+  "adaptive_research_only": true
+}

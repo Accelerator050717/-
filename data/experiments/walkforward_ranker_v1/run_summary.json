@@ -1,0 +1,240 @@
+{
+  "models_trained": 12,
+  "selections": [
+    {
+      "year": 2020,
+      "selected_method": "large",
+      "validation_metrics": [
+        {
+          "year": 2020,
+          "method": "constant",
+          "ndcg5": 0.49999999999999994,
+          "rank_ic": null,
+          "valid_ic_dates": 0
+        },
+        {
+          "year": 2020,
+          "method": "momentum_20d",
+          "ndcg5": 0.47806168572523516,
+          "rank_ic": -0.03417708926811182,
+          "valid_ic_dates": 246
+        },
+        {
+          "year": 2020,
+          "method": "small",
+          "ndcg5": 0.5252302604811068,
+          "rank_ic": 0.005927091528979808,
+          "valid_ic_dates": 246
+        },
+        {
+          "year": 2020,
+          "method": "large",
+          "ndcg5": 0.5261378410142507,
+          "rank_ic": 0.02131377557283645,
+          "valid_ic_dates": 246
+        }
+      ],
+      "frozen_before_development_at_utc": "2026-09-07T08:22:15.905874+00:00",
+      "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+      "train_last_exit": "2018-12-31",
+      "validation_last_exit": "2019-12-31"
+    },
+    {
+      "year": 2021,
+      "selected_method": "small",
+      "validation_metrics": [
+        {
+          "year": 2021,
+          "method": "constant",
+          "ndcg5": 0.49999999999999994,
+          "rank_ic": null,
+          "valid_ic_dates": 0
+        },
+        {
+          "year": 2021,
+          "method": "momentum_20d",
+          "ndcg5": 0.5081814016578577,
+          "rank_ic": 0.04426060445028889,
+          "valid_ic_dates": 247
+        },
+        {
+          "year": 2021,
+          "method": "small",
+          "ndcg5": 0.5285162739427692,
+          "rank_ic": 0.016605967742030523,
+          "valid_ic_dates": 247
+        },
+        {
+          "year": 2021,
+          "method": "large",
+          "ndcg5": 0.5255206120060015,
+          "rank_ic": 0.0019238839527358643,
+          "valid_ic_dates": 247
+        }
+      ],
+      "frozen_before_development_at_utc": "2026-09-07T08:22:19.608086+00:00",
+      "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+      "train_last_exit": "2019-12-31",
+      "validation_last_exit": "2020-12-31"
+    },
+    {
+      "year": 2022,
+      "selected_method": "small",
+      "validation_metrics": [
+        {
+          "year": 2022,
+          "method": "constant",
+          "ndcg5": 0.49999999999999994,
+          "rank_ic": null,
+          "valid_ic_dates": 0
+        },
+        {
+          "year": 2022,
+          "method": "momentum_20d",
+          "ndcg5": 0.5028634186068952,
+          "rank_ic": 0.003154363023051809,
+          "valid_ic_dates": 246
+        },
+        {
+          "year": 2022,
+          "method": "small",
+          "ndcg5": 0.525290225755351,
+          "rank_ic": 0.01364261687702106,
+          "valid_ic_dates": 246
+        },
+        {
+          "year": 2022,
+          "method": "large",
+          "ndcg5": 0.5067721707780225,
+          "rank_ic": -0.006055508830950382,
+          "valid_ic_dates": 246
+        }
+      ],
+      "frozen_before_development_at_utc": "2026-09-07T08:22:25.221365+00:00",
+      "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+      "train_last_exit": "2020-12-31",
+      "validation_last_exit": "2021-12-31"
+    },
+    {
+      "year": 2023,
+      "selected_method": "large",
+      "validation_metrics": [
+        {
+          "year": 2023,
+          "method": "constant",
+          "ndcg5": 0.49999999999999994,
+          "rank_ic": null,
+          "valid_ic_dates": 0
+        },
+        {
+          "year": 2023,
+          "method": "momentum_20d",
+          "ndcg5": 0.516562810583366,
+          "rank_ic": 0.021841047876325168,
+          "valid_ic_dates": 245
+        },
+        {
+          "year": 2023,
+          "method": "small",
+          "ndcg5": 0.5205910408894676,
+          "rank_ic": -0.004590134162675082,
+          "valid_ic_dates": 245
+        },
+        {
+          "year": 2023,
+          "method": "large",
+          "ndcg5": 0.531128573526393,
+          "rank_ic": -0.00688020703275749,
+          "valid_ic_dates": 245
+        }
+      ],
+      "frozen_before_development_at_utc": "2026-09-07T08:22:33.942493+00:00",
+      "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+      "train_last_exit": "2021-12-31",
+      "validation_last_exit": "2022-12-30"
+    },
+    {
+      "year": 2024,
+      "selected_method": "small",
+      "validation_metrics": [
+        {
+          "year": 2024,
+          "method": "constant",
+          "ndcg5": 0.49999999999999994,
+          "rank_ic": null,
+          "valid_ic_dates": 0
+        },
+        {
+          "year": 2024,
+          "method": "momentum_20d",
+          "ndcg5": 0.5167892670389289,
+          "rank_ic": -0.027110268239756385,
+          "valid_ic_dates": 244
+        },
+        {
+          "year": 2024,
+          "method": "small",
+          "ndcg5": 0.5609321566719926,
+          "rank_ic": 0.07897554972199324,
+          "valid_ic_dates": 244
+        },
+        {
+          "year": 2024,
+          "method": "large",
+          "ndcg5": 0.5378285053509921,
+          "rank_ic": 0.0539444884839581,
+          "valid_ic_dates": 244
+        }
+      ],
+      "frozen_before_development_at_utc": "2026-09-07T08:22:40.309893+00:00",
+      "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+      "train_last_exit": "2022-12-30",
+      "validation_last_exit": "2023-12-29"
+    },
+    {
+      "year": 2025,
+      "selected_method": "momentum_20d",
+      "validation_metrics": [
+        {
+          "year": 2025,
+          "method": "constant",
+          "ndcg5": 0.49999999999999994,
+          "rank_ic": null,
+          "valid_ic_dates": 0
+        },
+        {
+          "year": 2025,
+          "method": "momentum_20d",
+          "ndcg5": 0.5453367446202368,
+          "rank_ic": 0.023201931685612742,
+          "valid_ic_dates": 246
+        },
+        {
+          "year": 2025,
+          "method": "small",
+          "ndcg5": 0.5332710357155419,
+          "rank_ic": -0.00167701114881958,
+          "valid_ic_dates": 246
+        },
+        {
+          "year": 2025,
+          "method": "large",
+          "ndcg5": 0.5240696209536447,
+          "rank_ic": 0.03833527767980682,
+          "valid_ic_dates": 246
+        }
+      ],
+      "frozen_before_development_at_utc": "2026-09-07T08:22:47.796186+00:00",
+      "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+      "train_last_exit": "2023-12-29",
+      "validation_last_exit": "2024-12-31"
+    }
+  ],
+  "static_model_sha256": "6120179b4c276417bcd0ff97336a6f25fe848a6b52e56f1c25e6ad23bc37d1a6",
+  "versions": {
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  }
+}

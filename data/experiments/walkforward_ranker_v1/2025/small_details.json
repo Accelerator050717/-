@@ -1,0 +1,11 @@
+{
+  "name": "small",
+  "max_leaves": 31,
+  "best_iteration": 12,
+  "attempted_iterations": 112,
+  "fit_and_reload_seconds": 2.0623283999993873,
+  "train_ndcg5": 0.6226009589824558,
+  "train_rank_ic": 0.12709918983317786,
+  "validation_ndcg5": 0.5332710357155419,
+  "model_sha256": "2998fa2f5809747b89c7f5d26f69a0b0c1c7f667c8a5d8c593bd909036d90c49"
+}

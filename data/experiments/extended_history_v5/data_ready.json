@@ -1,0 +1,12 @@
+{
+  "raw_common_start": "2012-05-18",
+  "raw_common_dates": 3425,
+  "ready_rows": 95010,
+  "ready_dates": 3167,
+  "ready_first": "2013-05-22",
+  "ready_last": "2025-12-22",
+  "price_files": 44,
+  "prefix_features_passed": true,
+  "panel_sha256": "6d42c7b132392f90b19dc9b9db7285bc0afbbc3742387500065437f8bb7a8d30",
+  "2026_prices_read": false
+}

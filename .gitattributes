@@ -1,0 +1,3 @@
+# Existing experiment records validate byte-level SHA256 hashes.
+# Preserve original source, CSV and JSON bytes across clone/checkout.
+* -text

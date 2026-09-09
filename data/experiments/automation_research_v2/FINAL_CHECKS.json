@@ -1,0 +1,17 @@
+{
+  "two_full_cycles_completed": true,
+  "extra_simulated_fills": 0,
+  "execution_state_hash_preserved": true,
+  "training_runs": 36,
+  "model_files": 36,
+  "syntax_files": 8,
+  "missing_report_links": [],
+  "tests": {
+    "tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "data": "explicitly fictitious unit test inputs"
+  }
+}

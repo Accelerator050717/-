@@ -1,0 +1,13 @@
+{
+  "purpose": "Correct CSV floating-point round-trip, preserving the original trained models and scores. No training or strategy changes.",
+  "reason": "Default CSV parsing changed some scores by about 1e-16, altering near-tied rank-combination selections in the supplemental evaluation.",
+  "inputs": {
+    "all_development_scores.csv": "2ab9768da55696c4e804be15a65fdc6f5fde973bd2b02a25ba78a513581acd18",
+    "huber_scale_followup\\extra_scores.csv": "7719374d825dceccb2615c33a605d22c72fadef621e9d474e54242e551b40de6"
+  },
+  "csv_float_precision": "round_trip",
+  "candidate_count": 32,
+  "gate": "Unchanged original gate and joint bootstrap across all 32 candidates.",
+  "code_sha256": "470d47d92b5b8c0581a28f6d46af96d5a3f5a0a3e37e156e53c796b9ac23e465",
+  "registered_at_utc": "2026-09-07T09:01:29.572401+00:00"
+}

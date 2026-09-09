@@ -1,0 +1,24 @@
+[
+  {
+    "strategy": "v6",
+    "stops": 806,
+    "gap_stops": 165,
+    "worst_gap_below_stop": -0.19111652379118305,
+    "mean_5_session_stock_change": 0.007822409427433568,
+    "fraction_5_session_stock_higher": 0.5732009925558312,
+    "soft_days": 1882,
+    "paused_days": 39,
+    "days": 2511
+  },
+  {
+    "strategy": "v7",
+    "stops": 148,
+    "gap_stops": 33,
+    "worst_gap_below_stop": -0.10467404135952796,
+    "mean_5_session_stock_change": 0.023537635458262623,
+    "fraction_5_session_stock_higher": 0.6351351351351351,
+    "soft_days": 1052,
+    "paused_days": 0,
+    "days": 2511
+  }
+]

@@ -1,0 +1,1140 @@
+{
+  "created_at_utc": "2026-09-09T05:14:09.418430+00:00",
+  "rows": 75420,
+  "dates": 2514,
+  "symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "JPM",
+    "BAC",
+    "GS",
+    "V",
+    "JNJ",
+    "PFE",
+    "MRK",
+    "UNH",
+    "XOM",
+    "CVX",
+    "COP",
+    "CAT",
+    "HON",
+    "DE",
+    "PG",
+    "KO",
+    "PEP",
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "NEE",
+    "DUK",
+    "SO"
+  ],
+  "first_date": "2016-01-04",
+  "last_date": "2025-12-31",
+  "value_features": [
+    "event_annual_revenue_growth_yoy",
+    "event_annual_profit_margin_change_yoy",
+    "event_annual_cfo_margin_change_yoy",
+    "event_annual_profit_change_to_assets",
+    "event_annual_cfo_to_assets_change_yoy",
+    "event_balance_liabilities_ratio_change_yoy",
+    "event_balance_equity_ratio_change_yoy",
+    "event_sessions_since_new_balance",
+    "event_sessions_since_new_annual",
+    "event_new_balance_filed_5d",
+    "event_new_balance_filed_20d",
+    "event_new_annual_filed_5d",
+    "event_new_annual_filed_20d",
+    "event_financial_amendment_filed_20d"
+  ],
+  "missing_features": [
+    "event_annual_revenue_growth_yoy_missing",
+    "event_annual_profit_margin_change_yoy_missing",
+    "event_annual_cfo_margin_change_yoy_missing",
+    "event_annual_profit_change_to_assets_missing",
+    "event_annual_cfo_to_assets_change_yoy_missing",
+    "event_balance_liabilities_ratio_change_yoy_missing",
+    "event_balance_equity_ratio_change_yoy_missing",
+    "event_sessions_since_new_balance_missing",
+    "event_sessions_since_new_annual_missing",
+    "event_new_balance_filed_5d_missing",
+    "event_new_balance_filed_20d_missing",
+    "event_new_annual_filed_5d_missing",
+    "event_new_annual_filed_20d_missing",
+    "event_financial_amendment_filed_20d_missing"
+  ],
+  "feature_columns": [
+    "event_annual_revenue_growth_yoy",
+    "event_annual_profit_margin_change_yoy",
+    "event_annual_cfo_margin_change_yoy",
+    "event_annual_profit_change_to_assets",
+    "event_annual_cfo_to_assets_change_yoy",
+    "event_balance_liabilities_ratio_change_yoy",
+    "event_balance_equity_ratio_change_yoy",
+    "event_sessions_since_new_balance",
+    "event_sessions_since_new_annual",
+    "event_new_balance_filed_5d",
+    "event_new_balance_filed_20d",
+    "event_new_annual_filed_5d",
+    "event_new_annual_filed_20d",
+    "event_financial_amendment_filed_20d",
+    "event_annual_revenue_growth_yoy_missing",
+    "event_annual_profit_margin_change_yoy_missing",
+    "event_annual_cfo_margin_change_yoy_missing",
+    "event_annual_profit_change_to_assets_missing",
+    "event_annual_cfo_to_assets_change_yoy_missing",
+    "event_balance_liabilities_ratio_change_yoy_missing",
+    "event_balance_equity_ratio_change_yoy_missing",
+    "event_sessions_since_new_balance_missing",
+    "event_sessions_since_new_annual_missing",
+    "event_new_balance_filed_5d_missing",
+    "event_new_balance_filed_20d_missing",
+    "event_new_annual_filed_5d_missing",
+    "event_new_annual_filed_20d_missing",
+    "event_financial_amendment_filed_20d_missing"
+  ],
+  "source_sha256": {
+    "AAPL": "73a86c6aedc31f77cac2ea4df5f80f0b3bd7e6eb58bb4e01444fbedf3afb9c43",
+    "MSFT": "f8aae2965b20ad0df44bdf7ccbedf797d275b6b8dc030154a7a311361bb7246f",
+    "NVDA": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+    "AMZN": "e6aadb0da7384597dbd78f74d1379ffb7fd0829a4d2e797b6d7e442b5e1da0d7",
+    "GOOGL": "a017f26ee88cb4a639d1c1ddb06d53b4afe22f0ac89cabec7cd67c88919fe1c5",
+    "META": "7518e76d6dac2d016e1a3d1dec1cc55ff9ea3bdd58a151b16fcaa067a6c9d94e",
+    "JPM": "90b3cf44a1bf3ae4f3bdacb7de530c239f8ce4fa02e8ff97146947d264fb20b9",
+    "BAC": "20b78056c1e42b9a0feaf37b13747ea9fa0e1ee12dd4a3dd4243e492ad9bab9e",
+    "GS": "ec39921074d79e4749d88c42f971e3dcffb705a374a3e7049c745714a117f60c",
+    "V": "df3caf7c5667296569fc3074ce2ff13629c9a555184a06c5ea9925b43e63971d",
+    "JNJ": "7141c0c988fa1d30f779687b4c78ab561e19aa5990a58ad86a66467d0a783980",
+    "PFE": "bd072131f9dcf001f22e843fded5910c2c7fc178e2a739ce0c58b1934e84d566",
+    "MRK": "de2e92301923703e6aee247c42c0cf2f1b741118ebca221fbaa5dc0e47644bd7",
+    "UNH": "6c9dff59732b7c597542b2d5eadaae0313ca0de03defdba2c00203e693632d76",
+    "XOM": "9b95535419e5662e3deed01de803e83deead477a4c81316e1c45186368fdd8b8",
+    "CVX": "c09b160603412cb45acf1bb9bf3732e531dedfb548afa0e275fd8aefd7ab397e",
+    "COP": "cccc8afe3602880e8f2909266e778aa195b42e745da669a801925c593720d2fc",
+    "CAT": "01ddc6ffa741f0a7da440e2949b2ed19cec14fab35435a398e3f3d0100019715",
+    "HON": "3ec36b94bcfb6c163227a5568ea524a2d714baae79e205929933cdb69ae3bcf7",
+    "DE": "b845478ca3e2c2a83471cfb92524b33d83ec47fd3c1c68614f3f2487f1606b6c",
+    "PG": "606ad7056b611e91cfab9f7568b747404405772add188600efa5ccda5824f3d8",
+    "KO": "53d363a9aa3071406cda9857654358f4dca42e174a1defb8cc1ce9ad2a4c9e40",
+    "PEP": "7694c322779ef273d15b3791729e5f2d261ce6ed1839be8ff014a33f537375be",
+    "WMT": "54ec3fbf36dc203dd00a0333396b3df2b6695ecdf6cbb19b6ec41b053d86b517",
+    "COST": "71a4fd99c86f27c3aa27b8f05b3a9705c16f0060b425395bb1a367ce239b7d1f",
+    "HD": "aaf03befa1695d87ce1252bc08ca278b65be63782e46dc0b2858aab7a32c1be2",
+    "MCD": "0394e814d75510be107679b026e2df6e5d02d4f2029166911aa4924f9556681f",
+    "NEE": "99e84510f602363147dc6c83321aa76859e185d0807019d1efc9e0da60491954",
+    "DUK": "1e94bb53863e9fef2f5554a229aa7e0ebc197e06c759b5879db6137d8f1b1b3d",
+    "SO": "8a5eaa0e10d41a4bc087833509ed5f2e2983630e9d33d9151d8a9157551febc3"
+  },
+  "sha256": "d8452eb727318680b5c4b5f00022c4fc4134f0642a274f01d241624dee3996da",
+  "formulas": {
+    "event_annual_revenue_growth_yoy": "current annual revenue / prior annual revenue - 1; denominator positive",
+    "event_annual_profit_margin_change_yoy": "current annual profit/revenue minus prior annual profit/revenue",
+    "event_annual_cfo_margin_change_yoy": "current annual operating cash flow/revenue minus prior annual operating cash flow/revenue",
+    "event_annual_profit_change_to_assets": "(current annual net income - prior annual net income) / current same-year-end Assets",
+    "event_annual_cfo_to_assets_change_yoy": "current annual CFO/same-year-end Assets minus prior annual CFO/same-year-end Assets",
+    "event_balance_liabilities_ratio_change_yoy": "latest liabilities/assets minus prior-year liabilities/assets; ratios matched within each accession/end",
+    "event_balance_equity_ratio_change_yoy": "latest stockholders equity/assets minus prior-year stockholders equity/assets; ratios matched within each accession/end",
+    "event_sessions_since_new_balance": "NYSE sessions since first usable session strictly after the filing that advanced the latest original balance-sheet period",
+    "event_sessions_since_new_annual": "NYSE sessions since first usable session strictly after the original 10-K filing that advanced the latest annual period",
+    "event_new_balance_filed_5d": "1 when new balance-period event age is 0-4 sessions, otherwise 0 after coverage begins",
+    "event_new_balance_filed_20d": "1 when new balance-period event age is 0-19 sessions, otherwise 0 after coverage begins",
+    "event_new_annual_filed_5d": "1 when new annual-period event age is 0-4 sessions, otherwise 0 after coverage begins",
+    "event_new_annual_filed_20d": "1 when new annual-period event age is 0-19 sessions, otherwise 0 after coverage begins",
+    "event_financial_amendment_filed_20d": "1 if an eligible 10-K/A or 10-Q/A containing selected financial facts became usable in last 20 sessions; distinct from new-period events"
+  },
+  "units": {
+    "event_annual_revenue_growth_yoy": "decimal ratio or ratio difference",
+    "event_annual_profit_margin_change_yoy": "decimal ratio or ratio difference",
+    "event_annual_cfo_margin_change_yoy": "decimal ratio or ratio difference",
+    "event_annual_profit_change_to_assets": "decimal ratio or ratio difference",
+    "event_annual_cfo_to_assets_change_yoy": "decimal ratio or ratio difference",
+    "event_balance_liabilities_ratio_change_yoy": "decimal ratio or ratio difference",
+    "event_balance_equity_ratio_change_yoy": "decimal ratio or ratio difference",
+    "event_sessions_since_new_balance": "trading sessions",
+    "event_sessions_since_new_annual": "trading sessions",
+    "event_new_balance_filed_5d": "binary 0/1",
+    "event_new_balance_filed_20d": "binary 0/1",
+    "event_new_annual_filed_5d": "binary 0/1",
+    "event_new_annual_filed_20d": "binary 0/1",
+    "event_financial_amendment_filed_20d": "binary 0/1"
+  },
+  "missing_counts": {
+    "event_annual_revenue_growth_yoy": 12710,
+    "event_annual_profit_margin_change_yoy": 12710,
+    "event_annual_cfo_margin_change_yoy": 17890,
+    "event_annual_profit_change_to_assets": 2542,
+    "event_annual_cfo_to_assets_change_yoy": 8514,
+    "event_balance_liabilities_ratio_change_yoy": 26102,
+    "event_balance_equity_ratio_change_yoy": 17305,
+    "event_sessions_since_new_balance": 0,
+    "event_sessions_since_new_annual": 28,
+    "event_new_balance_filed_5d": 0,
+    "event_new_balance_filed_20d": 0,
+    "event_new_annual_filed_5d": 28,
+    "event_new_annual_filed_20d": 28,
+    "event_financial_amendment_filed_20d": 0
+  },
+  "missing_counts_by_symbol": {
+    "AAPL": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 465,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 465,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "AMZN": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 2514,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "BAC": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 792,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 792,
+      "event_balance_liabilities_ratio_change_yoy": 2048,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "CAT": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 2514,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "COP": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 163,
+      "event_balance_equity_ratio_change_yoy": 377,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "COST": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 951,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 951,
+      "event_balance_liabilities_ratio_change_yoy": 1022,
+      "event_balance_equity_ratio_change_yoy": 1022,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "CVX": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "DE": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 495,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 495,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "DUK": {
+      "event_annual_revenue_growth_yoy": 1976,
+      "event_annual_profit_margin_change_yoy": 1976,
+      "event_annual_cfo_margin_change_yoy": 1976,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 2514,
+      "event_balance_equity_ratio_change_yoy": 192,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "GOOGL": {
+      "event_annual_revenue_growth_yoy": 28,
+      "event_annual_profit_margin_change_yoy": 28,
+      "event_annual_cfo_margin_change_yoy": 28,
+      "event_annual_profit_change_to_assets": 28,
+      "event_annual_cfo_to_assets_change_yoy": 28,
+      "event_balance_liabilities_ratio_change_yoy": 275,
+      "event_balance_equity_ratio_change_yoy": 157,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 28,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 28,
+      "event_new_annual_filed_20d": 28,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "GS": {
+      "event_annual_revenue_growth_yoy": 2514,
+      "event_annual_profit_margin_change_yoy": 2514,
+      "event_annual_cfo_margin_change_yoy": 2514,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 792,
+      "event_balance_liabilities_ratio_change_yoy": 822,
+      "event_balance_equity_ratio_change_yoy": 1457,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "HD": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "HON": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 531,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 531,
+      "event_balance_liabilities_ratio_change_yoy": 2514,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "JNJ": {
+      "event_annual_revenue_growth_yoy": 788,
+      "event_annual_profit_margin_change_yoy": 788,
+      "event_annual_cfo_margin_change_yoy": 788,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 2201,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "JPM": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 2030,
+      "event_balance_equity_ratio_change_yoy": 35,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "KO": {
+      "event_annual_revenue_growth_yoy": 789,
+      "event_annual_profit_margin_change_yoy": 789,
+      "event_annual_cfo_margin_change_yoy": 789,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 2514,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "MCD": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 2514,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "META": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 188,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "MRK": {
+      "event_annual_revenue_growth_yoy": 793,
+      "event_annual_profit_margin_change_yoy": 793,
+      "event_annual_cfo_margin_change_yoy": 1544,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 751,
+      "event_balance_liabilities_ratio_change_yoy": 2514,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "MSFT": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 652,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 652,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "NEE": {
+      "event_annual_revenue_growth_yoy": 2514,
+      "event_annual_profit_margin_change_yoy": 2514,
+      "event_annual_cfo_margin_change_yoy": 2514,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 1497,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "NVDA": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 244,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "PEP": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "PFE": {
+      "event_annual_revenue_growth_yoy": 794,
+      "event_annual_profit_margin_change_yoy": 794,
+      "event_annual_cfo_margin_change_yoy": 794,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "PG": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 2514,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "SO": {
+      "event_annual_revenue_growth_yoy": 2514,
+      "event_annual_profit_margin_change_yoy": 2514,
+      "event_annual_cfo_margin_change_yoy": 2514,
+      "event_annual_profit_change_to_assets": 2514,
+      "event_annual_cfo_to_assets_change_yoy": 2514,
+      "event_balance_liabilities_ratio_change_yoy": 239,
+      "event_balance_equity_ratio_change_yoy": 1620,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "UNH": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 164,
+      "event_balance_equity_ratio_change_yoy": 2514,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "V": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 2514,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "WMT": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 0,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 0,
+      "event_balance_liabilities_ratio_change_yoy": 2514,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    },
+    "XOM": {
+      "event_annual_revenue_growth_yoy": 0,
+      "event_annual_profit_margin_change_yoy": 0,
+      "event_annual_cfo_margin_change_yoy": 543,
+      "event_annual_profit_change_to_assets": 0,
+      "event_annual_cfo_to_assets_change_yoy": 543,
+      "event_balance_liabilities_ratio_change_yoy": 0,
+      "event_balance_equity_ratio_change_yoy": 0,
+      "event_sessions_since_new_balance": 0,
+      "event_sessions_since_new_annual": 0,
+      "event_new_balance_filed_5d": 0,
+      "event_new_balance_filed_20d": 0,
+      "event_new_annual_filed_5d": 0,
+      "event_new_annual_filed_20d": 0,
+      "event_financial_amendment_filed_20d": 0
+    }
+  },
+  "checks": [
+    {
+      "symbol": "AAPL",
+      "accepted_records": 663,
+      "rejected": {
+        "form_or_period_unavailable": 63,
+        "filed_after_cutoff": 54,
+        "not_annual_10k_330_to_380_days": 584,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 17,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "accepted_records": 579,
+      "rejected": {
+        "form_or_period_unavailable": 74,
+        "filed_after_cutoff": 54,
+        "not_annual_10k_330_to_380_days": 630,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 64,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "accepted_records": 593,
+      "rejected": {
+        "filed_after_cutoff": 56,
+        "not_annual_10k_330_to_380_days": 606,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "AMZN",
+      "accepted_records": 520,
+      "rejected": {
+        "filed_after_cutoff": 61,
+        "not_annual_10k_330_to_380_days": 880,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "accepted_records": 422,
+      "rejected": {
+        "form_or_period_unavailable": 15,
+        "filed_after_cutoff": 56,
+        "not_annual_10k_330_to_380_days": 289,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 41,
+        "annual": 10,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "META",
+      "accepted_records": 539,
+      "rejected": {
+        "filed_after_cutoff": 56,
+        "not_annual_10k_330_to_380_days": 374,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 54,
+        "annual": 13,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "JPM",
+      "accepted_records": 645,
+      "rejected": {
+        "form_or_period_unavailable": 43,
+        "filed_after_cutoff": 48,
+        "not_annual_10k_330_to_380_days": 332,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "BAC",
+      "accepted_records": 730,
+      "rejected": {
+        "form_or_period_unavailable": 59,
+        "filed_after_cutoff": 53,
+        "not_annual_10k_330_to_380_days": 416,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 65,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "GS",
+      "accepted_records": 596,
+      "rejected": {
+        "filed_after_cutoff": 39,
+        "not_annual_10k_330_to_380_days": 217,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "V",
+      "accepted_records": 439,
+      "rejected": {
+        "filed_after_cutoff": 24,
+        "not_annual_10k_330_to_380_days": 440,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 17,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "JNJ",
+      "accepted_records": 393,
+      "rejected": {
+        "filed_after_cutoff": 41,
+        "not_annual_10k_330_to_380_days": 438,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "PFE",
+      "accepted_records": 531,
+      "rejected": {
+        "filed_after_cutoff": 43,
+        "not_annual_10k_330_to_380_days": 400,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "MRK",
+      "accepted_records": 378,
+      "rejected": {
+        "filed_after_cutoff": 42,
+        "not_annual_10k_330_to_380_days": 356,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "UNH",
+      "accepted_records": 513,
+      "rejected": {
+        "form_or_period_unavailable": 33,
+        "filed_after_cutoff": 40,
+        "not_annual_10k_330_to_380_days": 498,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "XOM",
+      "accepted_records": 558,
+      "rejected": {
+        "filed_after_cutoff": 32,
+        "not_annual_10k_330_to_380_days": 364,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "CVX",
+      "accepted_records": 573,
+      "rejected": {
+        "form_or_period_unavailable": 16,
+        "filed_after_cutoff": 57,
+        "not_annual_10k_330_to_380_days": 524,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 67,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "COP",
+      "accepted_records": 639,
+      "rejected": {
+        "form_or_period_unavailable": 38,
+        "filed_after_cutoff": 63,
+        "not_annual_10k_330_to_380_days": 584,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "CAT",
+      "accepted_records": 385,
+      "rejected": {
+        "form_or_period_unavailable": 69,
+        "filed_after_cutoff": 45,
+        "not_annual_10k_330_to_380_days": 502,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 64,
+        "annual": 16,
+        "financial_amendment": 2
+      }
+    },
+    {
+      "symbol": "HON",
+      "accepted_records": 395,
+      "rejected": {
+        "form_or_period_unavailable": 13,
+        "filed_after_cutoff": 53,
+        "not_annual_10k_330_to_380_days": 591,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 58,
+        "annual": 16,
+        "financial_amendment": 2
+      }
+    },
+    {
+      "symbol": "DE",
+      "accepted_records": 707,
+      "rejected": {
+        "filed_after_cutoff": 53,
+        "not_annual_10k_330_to_380_days": 588,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 17,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "PG",
+      "accepted_records": 436,
+      "rejected": {
+        "form_or_period_unavailable": 133,
+        "filed_after_cutoff": 41,
+        "not_annual_10k_330_to_380_days": 601,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 65,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "KO",
+      "accepted_records": 383,
+      "rejected": {
+        "form_or_period_unavailable": 47,
+        "filed_after_cutoff": 23,
+        "not_annual_10k_330_to_380_days": 332,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 65,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "PEP",
+      "accepted_records": 548,
+      "rejected": {
+        "form_or_period_unavailable": 46,
+        "filed_after_cutoff": 43,
+        "not_annual_10k_330_to_380_days": 442,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 65,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "WMT",
+      "accepted_records": 575,
+      "rejected": {
+        "filed_after_cutoff": 61,
+        "not_annual_10k_330_to_380_days": 842,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    },
+    {
+      "symbol": "COST",
+      "accepted_records": 628,
+      "rejected": {
+        "filed_after_cutoff": 44,
+        "not_annual_10k_330_to_380_days": 845,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 65,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "HD",
+      "accepted_records": 582,
+      "rejected": {
+        "form_or_period_unavailable": 33,
+        "filed_after_cutoff": 51,
+        "not_annual_10k_330_to_380_days": 574,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "MCD",
+      "accepted_records": 525,
+      "rejected": {
+        "filed_after_cutoff": 53,
+        "not_annual_10k_330_to_380_days": 664,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "NEE",
+      "accepted_records": 408,
+      "rejected": {
+        "filed_after_cutoff": 23,
+        "not_annual_10k_330_to_380_days": 406,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 66,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "DUK",
+      "accepted_records": 411,
+      "rejected": {
+        "filed_after_cutoff": 20,
+        "not_annual_10k_330_to_380_days": 485,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 65,
+        "annual": 16,
+        "financial_amendment": 0
+      }
+    },
+    {
+      "symbol": "SO",
+      "accepted_records": 408,
+      "rejected": {
+        "filed_after_cutoff": 26,
+        "not_annual_10k_330_to_380_days": 376,
+        "conflicting_duplicate_facts": 0
+      },
+      "prefix_physical_filed_cutoff_passed": true,
+      "event_counts": {
+        "balance": 65,
+        "annual": 16,
+        "financial_amendment": 1
+      }
+    }
+  ],
+  "prefix_cutoff": "2024-06-28",
+  "real_event_examples": 6,
+  "limitations": [
+    "Current SEC extract with asof filed filtering is a conservative historical availability approximation, not a complete vintage archive.",
+    "Prior-year comparisons may use restated values only once their filing is known; later source deletions/corrections cannot always be reconstructed.",
+    "Revenue tags differ in meaning across issuers; fixed fallback and missingness are retained, especially for banks.",
+    "Selected accounting facts define effective financial events; earnings press releases may precede SEC filings and are not included.",
+    "Events use date-only filed with next-session availability, not exact publication or acceptance timestamps.",
+    "No quarterly income flow or synthetic YTD differencing, no training, no labels and no 2026 market data used."
+  ]
+}

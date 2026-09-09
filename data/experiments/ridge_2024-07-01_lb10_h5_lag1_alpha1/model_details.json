@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-09-07T06:57:50.947168+00:00",
+  "source_split": "M:\\ml项目\\data\\splits\\2024-07-01_lb10_h5_lag1",
+  "split_date": "2024-07-01",
+  "x_columns": [
+    "aapl_ret_1d",
+    "aapl_ret_10d",
+    "aapl_relative_10d"
+  ],
+  "target": "y_excess_5d",
+  "alpha": 1.0,
+  "solver": "svd",
+  "train_rows": 108,
+  "test_rows": 122,
+  "training_target_mean": -0.0007107733288955532,
+  "scaler_mean": [
+    0.0013745701765983693,
+    0.012113385624729132,
+    -0.000886376396984299
+  ],
+  "scaler_scale": [
+    0.015669636390000404,
+    0.04840979112806051,
+    0.04339553372127088
+  ],
+  "ridge_coef_on_standardized_x": [
+    -0.0014265962891496843,
+    -0.020680160259473022,
+    0.02230006916608469
+  ],
+  "ridge_intercept": -0.0007107733288955544,
+  "prediction_formula": "((X - scaler_mean) / scaler_scale) @ coef + intercept",
+  "prediction_units": "decimal excess return; 0.01 means 1 percentage point",
+  "metric_units": "percentage points (pp)",
+  "alpha_selection": "Fixed before test evaluation; no tuning in this lesson",
+  "packages": {
+    "scikit-learn": "1.9.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1"
+  }
+}

@@ -1,0 +1,466 @@
+[
+  {
+    "symbol": "AAPL",
+    "accepted_records": 663,
+    "rejected": {
+      "form_or_period_unavailable": 63,
+      "filed_after_cutoff": 54,
+      "not_annual_10k_330_to_380_days": 584,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 17,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "MSFT",
+    "accepted_records": 579,
+    "rejected": {
+      "form_or_period_unavailable": 74,
+      "filed_after_cutoff": 54,
+      "not_annual_10k_330_to_380_days": 630,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 64,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "NVDA",
+    "accepted_records": 593,
+    "rejected": {
+      "filed_after_cutoff": 56,
+      "not_annual_10k_330_to_380_days": 606,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "AMZN",
+    "accepted_records": 520,
+    "rejected": {
+      "filed_after_cutoff": 61,
+      "not_annual_10k_330_to_380_days": 880,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "GOOGL",
+    "accepted_records": 422,
+    "rejected": {
+      "form_or_period_unavailable": 15,
+      "filed_after_cutoff": 56,
+      "not_annual_10k_330_to_380_days": 289,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 41,
+      "annual": 10,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "META",
+    "accepted_records": 539,
+    "rejected": {
+      "filed_after_cutoff": 56,
+      "not_annual_10k_330_to_380_days": 374,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 54,
+      "annual": 13,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "JPM",
+    "accepted_records": 645,
+    "rejected": {
+      "form_or_period_unavailable": 43,
+      "filed_after_cutoff": 48,
+      "not_annual_10k_330_to_380_days": 332,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "BAC",
+    "accepted_records": 730,
+    "rejected": {
+      "form_or_period_unavailable": 59,
+      "filed_after_cutoff": 53,
+      "not_annual_10k_330_to_380_days": 416,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 65,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "GS",
+    "accepted_records": 596,
+    "rejected": {
+      "filed_after_cutoff": 39,
+      "not_annual_10k_330_to_380_days": 217,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "V",
+    "accepted_records": 439,
+    "rejected": {
+      "filed_after_cutoff": 24,
+      "not_annual_10k_330_to_380_days": 440,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 17,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "JNJ",
+    "accepted_records": 393,
+    "rejected": {
+      "filed_after_cutoff": 41,
+      "not_annual_10k_330_to_380_days": 438,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "PFE",
+    "accepted_records": 531,
+    "rejected": {
+      "filed_after_cutoff": 43,
+      "not_annual_10k_330_to_380_days": 400,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "MRK",
+    "accepted_records": 378,
+    "rejected": {
+      "filed_after_cutoff": 42,
+      "not_annual_10k_330_to_380_days": 356,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "UNH",
+    "accepted_records": 513,
+    "rejected": {
+      "form_or_period_unavailable": 33,
+      "filed_after_cutoff": 40,
+      "not_annual_10k_330_to_380_days": 498,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "XOM",
+    "accepted_records": 558,
+    "rejected": {
+      "filed_after_cutoff": 32,
+      "not_annual_10k_330_to_380_days": 364,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "CVX",
+    "accepted_records": 573,
+    "rejected": {
+      "form_or_period_unavailable": 16,
+      "filed_after_cutoff": 57,
+      "not_annual_10k_330_to_380_days": 524,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 67,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "COP",
+    "accepted_records": 639,
+    "rejected": {
+      "form_or_period_unavailable": 38,
+      "filed_after_cutoff": 63,
+      "not_annual_10k_330_to_380_days": 584,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "CAT",
+    "accepted_records": 385,
+    "rejected": {
+      "form_or_period_unavailable": 69,
+      "filed_after_cutoff": 45,
+      "not_annual_10k_330_to_380_days": 502,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 64,
+      "annual": 16,
+      "financial_amendment": 2
+    }
+  },
+  {
+    "symbol": "HON",
+    "accepted_records": 395,
+    "rejected": {
+      "form_or_period_unavailable": 13,
+      "filed_after_cutoff": 53,
+      "not_annual_10k_330_to_380_days": 591,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 58,
+      "annual": 16,
+      "financial_amendment": 2
+    }
+  },
+  {
+    "symbol": "DE",
+    "accepted_records": 707,
+    "rejected": {
+      "filed_after_cutoff": 53,
+      "not_annual_10k_330_to_380_days": 588,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 17,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "PG",
+    "accepted_records": 436,
+    "rejected": {
+      "form_or_period_unavailable": 133,
+      "filed_after_cutoff": 41,
+      "not_annual_10k_330_to_380_days": 601,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 65,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "KO",
+    "accepted_records": 383,
+    "rejected": {
+      "form_or_period_unavailable": 47,
+      "filed_after_cutoff": 23,
+      "not_annual_10k_330_to_380_days": 332,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 65,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "PEP",
+    "accepted_records": 548,
+    "rejected": {
+      "form_or_period_unavailable": 46,
+      "filed_after_cutoff": 43,
+      "not_annual_10k_330_to_380_days": 442,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 65,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "WMT",
+    "accepted_records": 575,
+    "rejected": {
+      "filed_after_cutoff": 61,
+      "not_annual_10k_330_to_380_days": 842,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  },
+  {
+    "symbol": "COST",
+    "accepted_records": 628,
+    "rejected": {
+      "filed_after_cutoff": 44,
+      "not_annual_10k_330_to_380_days": 845,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 65,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "HD",
+    "accepted_records": 582,
+    "rejected": {
+      "form_or_period_unavailable": 33,
+      "filed_after_cutoff": 51,
+      "not_annual_10k_330_to_380_days": 574,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "MCD",
+    "accepted_records": 525,
+    "rejected": {
+      "filed_after_cutoff": 53,
+      "not_annual_10k_330_to_380_days": 664,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "NEE",
+    "accepted_records": 408,
+    "rejected": {
+      "filed_after_cutoff": 23,
+      "not_annual_10k_330_to_380_days": 406,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 66,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "DUK",
+    "accepted_records": 411,
+    "rejected": {
+      "filed_after_cutoff": 20,
+      "not_annual_10k_330_to_380_days": 485,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 65,
+      "annual": 16,
+      "financial_amendment": 0
+    }
+  },
+  {
+    "symbol": "SO",
+    "accepted_records": 408,
+    "rejected": {
+      "filed_after_cutoff": 26,
+      "not_annual_10k_330_to_380_days": 376,
+      "conflicting_duplicate_facts": 0
+    },
+    "prefix_physical_filed_cutoff_passed": true,
+    "event_counts": {
+      "balance": 65,
+      "annual": 16,
+      "financial_amendment": 1
+    }
+  }
+]

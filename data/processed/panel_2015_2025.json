@@ -1,0 +1,541 @@
+{
+  "source_directory": "M:\\ml项目\\data\\raw\\panel_2015_2025",
+  "start_inclusive": "2015-01-01",
+  "end_exclusive": "2026-01-01",
+  "benchmark": "SPY",
+  "symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "JPM",
+    "BAC",
+    "GS",
+    "V",
+    "JNJ",
+    "PFE",
+    "MRK",
+    "UNH",
+    "XOM",
+    "CVX",
+    "COP",
+    "CAT",
+    "HON",
+    "DE",
+    "PG",
+    "KO",
+    "PEP",
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "NEE",
+    "DUK",
+    "SO"
+  ],
+  "feature_columns": [
+    "ret_1d",
+    "ret_5d",
+    "ret_10d",
+    "ret_20d",
+    "ret_60d",
+    "relative_5d",
+    "relative_10d",
+    "relative_20d",
+    "relative_60d",
+    "volatility_10d",
+    "volatility_20d",
+    "volatility_60d",
+    "sma_gap_20d",
+    "sma_gap_60d",
+    "volume_ratio_1_20",
+    "volume_ratio_5_20",
+    "intraday_range",
+    "overnight_gap",
+    "spy_ret_5d",
+    "spy_ret_20d",
+    "spy_ret_60d",
+    "spy_volatility_20d"
+  ],
+  "target": "y_excess_5d",
+  "entry_lag": 1,
+  "horizon": 5,
+  "validation_start": "2023-01-01",
+  "test_start": "2025-01-01",
+  "total_rows": 82980,
+  "dates": 2766,
+  "splits": [
+    {
+      "split": "missing_future",
+      "rows": 180,
+      "dates": 6,
+      "first_date": "2025-12-23",
+      "last_date": "2025-12-31",
+      "symbols": 30
+    },
+    {
+      "split": "missing_history",
+      "rows": 1800,
+      "dates": 60,
+      "first_date": "2015-01-02",
+      "last_date": "2015-03-30",
+      "symbols": 30
+    },
+    {
+      "split": "purged_train",
+      "rows": 180,
+      "dates": 6,
+      "first_date": "2022-12-22",
+      "last_date": "2022-12-30",
+      "symbols": 30
+    },
+    {
+      "split": "purged_validation",
+      "rows": 180,
+      "dates": 6,
+      "first_date": "2024-12-23",
+      "last_date": "2024-12-31",
+      "symbols": 30
+    },
+    {
+      "split": "test",
+      "rows": 7320,
+      "dates": 244,
+      "first_date": "2025-01-02",
+      "last_date": "2025-12-22",
+      "symbols": 30
+    },
+    {
+      "split": "train",
+      "rows": 58440,
+      "dates": 1948,
+      "first_date": "2015-03-31",
+      "last_date": "2022-12-21",
+      "symbols": 30
+    },
+    {
+      "split": "validation",
+      "rows": 14880,
+      "dates": 496,
+      "first_date": "2023-01-03",
+      "last_date": "2024-12-20",
+      "symbols": 30
+    }
+  ],
+  "counts_per_symbol": {
+    "AAPL": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "AMZN": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "BAC": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "CAT": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "COP": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "COST": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "CVX": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "DE": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "DUK": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "GOOGL": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "GS": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "HD": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "HON": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "JNJ": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "JPM": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "KO": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "MCD": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "META": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "MRK": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "MSFT": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "NEE": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "NVDA": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "PEP": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "PFE": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "PG": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "SO": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "UNH": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "V": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "WMT": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    },
+    "XOM": {
+      "missing_future": 6,
+      "missing_history": 60,
+      "purged_train": 6,
+      "purged_validation": 6,
+      "test": 244,
+      "train": 1948,
+      "validation": 496
+    }
+  },
+  "raw_date_gaps": {
+    "AAPL": {
+      "missing": [],
+      "extra": []
+    },
+    "MSFT": {
+      "missing": [],
+      "extra": []
+    },
+    "NVDA": {
+      "missing": [],
+      "extra": []
+    },
+    "AMZN": {
+      "missing": [],
+      "extra": []
+    },
+    "GOOGL": {
+      "missing": [],
+      "extra": []
+    },
+    "META": {
+      "missing": [],
+      "extra": []
+    },
+    "JPM": {
+      "missing": [],
+      "extra": []
+    },
+    "BAC": {
+      "missing": [],
+      "extra": []
+    },
+    "GS": {
+      "missing": [],
+      "extra": []
+    },
+    "V": {
+      "missing": [],
+      "extra": []
+    },
+    "JNJ": {
+      "missing": [],
+      "extra": []
+    },
+    "PFE": {
+      "missing": [],
+      "extra": []
+    },
+    "MRK": {
+      "missing": [],
+      "extra": []
+    },
+    "UNH": {
+      "missing": [],
+      "extra": []
+    },
+    "XOM": {
+      "missing": [],
+      "extra": []
+    },
+    "CVX": {
+      "missing": [],
+      "extra": []
+    },
+    "COP": {
+      "missing": [],
+      "extra": []
+    },
+    "CAT": {
+      "missing": [],
+      "extra": []
+    },
+    "HON": {
+      "missing": [],
+      "extra": []
+    },
+    "DE": {
+      "missing": [],
+      "extra": []
+    },
+    "PG": {
+      "missing": [],
+      "extra": []
+    },
+    "KO": {
+      "missing": [],
+      "extra": []
+    },
+    "PEP": {
+      "missing": [],
+      "extra": []
+    },
+    "WMT": {
+      "missing": [],
+      "extra": []
+    },
+    "COST": {
+      "missing": [],
+      "extra": []
+    },
+    "HD": {
+      "missing": [],
+      "extra": []
+    },
+    "MCD": {
+      "missing": [],
+      "extra": []
+    },
+    "NEE": {
+      "missing": [],
+      "extra": []
+    },
+    "DUK": {
+      "missing": [],
+      "extra": []
+    },
+    "SO": {
+      "missing": [],
+      "extra": []
+    }
+  },
+  "checks": [
+    {
+      "symbol": "AAPL",
+      "prefix_cutoff": "2024-06-28",
+      "manual_label_checks": 3
+    },
+    {
+      "symbol": "MSFT",
+      "prefix_cutoff": "2024-06-28",
+      "manual_label_checks": 2
+    }
+  ],
+  "common_label_dates_across_symbols": true,
+  "complete_daily_universe_in_model_splits": true,
+  "return_units": "decimal; volatility is daily standard deviation, not annualized",
+  "limitations": [
+    "Current surviving stock list is not a historical constituent universe.",
+    "Yahoo adjusted-open ratios are research proxies, not executable prices.",
+    "Prefix checks cannot establish point-in-time availability of the data vendor snapshot."
+  ]
+}

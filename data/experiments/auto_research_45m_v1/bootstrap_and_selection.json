@@ -1,0 +1,218 @@
+{
+  "method": "Joint circular-block max-t bootstrap with fixed bootstrap standard errors",
+  "repetitions": 2000,
+  "block_length_trading_days": 20,
+  "seed": 20260907,
+  "one_sided_alpha": 0.05,
+  "critical_max_t": 2.819887293553937,
+  "dates": 1506,
+  "first_date": "2020-01-03",
+  "last_date": "2025-12-30",
+  "family_size": 30,
+  "candidate_order": [
+    "e28_model_ensemble",
+    "e29_rule_model_ensemble",
+    "e30_ranker_ensemble",
+    "m11_ridge_return_base",
+    "m12_ridge_rank_base",
+    "m13_ridge_rank_extended",
+    "m14_ridge_rank_cs",
+    "m15_ridge_recent3",
+    "m16_elastic_rank",
+    "m17_extra_trees",
+    "m18_lgb_return",
+    "m19_lgb_huber",
+    "m20_lgb_rank_target",
+    "m21_ranker_base",
+    "m22_ranker_extended",
+    "m23_ranker_cs",
+    "m24_ranker_recent3",
+    "m25_ranker_timeweight",
+    "m26_ranker_capacity63",
+    "m27_small_mlp",
+    "r01_momentum20",
+    "r02_momentum60",
+    "r03_momentum12_skip1",
+    "r04_reversal1",
+    "r05_reversal5",
+    "r06_reversal10",
+    "r07_low_volatility",
+    "r08_sector_momentum",
+    "r09_residual_reversal",
+    "r10_momentum_lowvol"
+  ],
+  "development_years_observed": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "all_six_development_years_present": true,
+  "first_return": "NAV_first - 1; initial wealth is 1 before the first observed date",
+  "active_returns": "candidate daily net return minus equal-universe daily net return",
+  "annual_returns": "calendar-year ending NAV divided by previous year-end NAV; initial denominator 1",
+  "degenerate_candidates": [],
+  "selected_candidate": null,
+  "best_development_candidate": "m16_elastic_rank",
+  "selection_rule": "Among candidates passing every gate, highest daily active information ratio; candidate name breaks ties",
+  "bounds": {
+    "e28_model_ensemble": {
+      "mean_daily_active": 0.0004986326622368889,
+      "standard_error_daily": 0.00024366190604824793,
+      "simultaneous_lower_daily": -0.0001884664505516987
+    },
+    "e29_rule_model_ensemble": {
+      "mean_daily_active": -2.1201406712710195e-05,
+      "standard_error_daily": 0.0002135014881616868,
+      "simultaneous_lower_daily": -0.0006232515403347071
+    },
+    "e30_ranker_ensemble": {
+      "mean_daily_active": 0.0004605252281565638,
+      "standard_error_daily": 0.00022209641654328047,
+      "simultaneous_lower_daily": -0.00016576163479769526
+    },
+    "m11_ridge_return_base": {
+      "mean_daily_active": 0.00045484242721917557,
+      "standard_error_daily": 0.0002433741465913156,
+      "simultaneous_lower_daily": -0.00023144523633320853
+    },
+    "m12_ridge_rank_base": {
+      "mean_daily_active": 0.0005462466666290027,
+      "standard_error_daily": 0.0002502934350989462,
+      "simultaneous_lower_daily": -0.00015955261066648275
+    },
+    "m13_ridge_rank_extended": {
+      "mean_daily_active": 0.00047664637872510293,
+      "standard_error_daily": 0.0002534498821179781,
+      "simultaneous_lower_daily": -0.0002380537234121268
+    },
+    "m14_ridge_rank_cs": {
+      "mean_daily_active": 0.00029453531743391483,
+      "standard_error_daily": 0.0002395082093010925,
+      "simultaneous_lower_daily": -0.00038085083867609284
+    },
+    "m15_ridge_recent3": {
+      "mean_daily_active": 0.00019930757866944715,
+      "standard_error_daily": 0.00023042351000349573,
+      "simultaneous_lower_daily": -0.00045046074932550905
+    },
+    "m16_elastic_rank": {
+      "mean_daily_active": 0.000614224327648134,
+      "standard_error_daily": 0.00024663027001265917,
+      "simultaneous_lower_daily": -8.124523696634019e-05
+    },
+    "m17_extra_trees": {
+      "mean_daily_active": 0.00031166421956117584,
+      "standard_error_daily": 0.0002447737118277245,
+      "simultaneous_lower_daily": -0.0003785700602178576
+    },
+    "m18_lgb_return": {
+      "mean_daily_active": 7.339180503370398e-05,
+      "standard_error_daily": 0.00022655185011192903,
+      "simultaneous_lower_daily": -0.0005654588784280608
+    },
+    "m19_lgb_huber": {
+      "mean_daily_active": 7.339180503370398e-05,
+      "standard_error_daily": 0.00022655185011192903,
+      "simultaneous_lower_daily": -0.0005654588784280608
+    },
+    "m20_lgb_rank_target": {
+      "mean_daily_active": 3.164075854293663e-05,
+      "standard_error_daily": 0.000205838731671157,
+      "simultaneous_lower_daily": -0.0005488012654178173
+    },
+    "m21_ranker_base": {
+      "mean_daily_active": 0.00047214597725683236,
+      "standard_error_daily": 0.00021264951031623865,
+      "simultaneous_lower_daily": -0.0001275016748643959
+    },
+    "m22_ranker_extended": {
+      "mean_daily_active": 0.00024603825955843493,
+      "standard_error_daily": 0.0002165710442429957,
+      "simultaneous_lower_daily": -0.0003646676762540962
+    },
+    "m23_ranker_cs": {
+      "mean_daily_active": 0.00019167855522146432,
+      "standard_error_daily": 0.00020789488659368486,
+      "simultaneous_lower_daily": -0.00039456159387890437
+    },
+    "m24_ranker_recent3": {
+      "mean_daily_active": 0.0003242762609558141,
+      "standard_error_daily": 0.00018990758187297538,
+      "simultaneous_lower_daily": -0.0002112417161173432
+    },
+    "m25_ranker_timeweight": {
+      "mean_daily_active": -0.00013838659934738382,
+      "standard_error_daily": 0.00022227591466913703,
+      "simultaneous_lower_daily": -0.0007651796267859625
+    },
+    "m26_ranker_capacity63": {
+      "mean_daily_active": 0.0002582591352871262,
+      "standard_error_daily": 0.0001993604824589147,
+      "simultaneous_lower_daily": -0.00030391495603555
+    },
+    "m27_small_mlp": {
+      "mean_daily_active": 5.7007414582059056e-05,
+      "standard_error_daily": 0.0002487179931372855,
+      "simultaneous_lower_daily": -0.0006443492939440076
+    },
+    "r01_momentum20": {
+      "mean_daily_active": 0.000112674422979646,
+      "standard_error_daily": 0.0002458081394285532,
+      "simultaneous_lower_daily": -0.0005804768260470657
+    },
+    "r02_momentum60": {
+      "mean_daily_active": 0.0002014079694391616,
+      "standard_error_daily": 0.0002477278685383975,
+      "simultaneous_lower_daily": -0.0004971566993114657
+    },
+    "r03_momentum12_skip1": {
+      "mean_daily_active": 0.00037728882931187377,
+      "standard_error_daily": 0.00024053226681323858,
+      "simultaneous_lower_daily": -0.0003009850535645031
+    },
+    "r04_reversal1": {
+      "mean_daily_active": -0.0003002579886281955,
+      "standard_error_daily": 0.00024842095873940146,
+      "simultaneous_lower_daily": -0.0010007770936299207
+    },
+    "r05_reversal5": {
+      "mean_daily_active": -0.0002441826447063051,
+      "standard_error_daily": 0.0002152430068926033,
+      "simultaneous_lower_daily": -0.0008511436648690996
+    },
+    "r06_reversal10": {
+      "mean_daily_active": 0.0001900763345520438,
+      "standard_error_daily": 0.0002570928650191162,
+      "simultaneous_lower_daily": -0.0005348965687787394
+    },
+    "r07_low_volatility": {
+      "mean_daily_active": -0.0003864171221632259,
+      "standard_error_daily": 0.00017884865702799522,
+      "simultaneous_lower_daily": -0.0008907501775856556
+    },
+    "r08_sector_momentum": {
+      "mean_daily_active": 0.00010770848363097237,
+      "standard_error_daily": 0.00020442069844168933,
+      "simultaneous_lower_daily": -0.0004687348464441685
+    },
+    "r09_residual_reversal": {
+      "mean_daily_active": -0.00022300606538728588,
+      "standard_error_daily": 0.00019985508078988016,
+      "simultaneous_lower_daily": -0.0007865748682588645
+    },
+    "r10_momentum_lowvol": {
+      "mean_daily_active": -0.000267295225964864,
+      "standard_error_daily": 0.00017798694115705947,
+      "simultaneous_lower_daily": -0.0007691983397521883
+    }
+  },
+  "limitations": [
+    "The simultaneous bound covers this declared family only, not earlier adaptive research.",
+    "Circular blocks assume historical dependence is informative and do not ensure regime stability.",
+    "Known survivor-universe and revised-price limitations remain.",
+    "Economic gate thresholds are prespecified research choices, not proof of future profitability."
+  ]
+}

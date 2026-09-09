@@ -1,0 +1,728 @@
+{
+  "status": "passed",
+  "fits_checked": 144,
+  "complete_144": true,
+  "checks": [
+    {
+      "model": "v3_elastic_h20_base",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_fund",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_base",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_fund",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_base",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_fund",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_full",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_price",
+      "year": 2020,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_base",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_fund",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_base",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_fund",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_base",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_fund",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_full",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_price",
+      "year": 2021,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_base",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_fund",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_base",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_fund",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_base",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_fund",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_full",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_price",
+      "year": 2022,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_base",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_fund",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_base",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_fund",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_base",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_fund",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_full",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_price",
+      "year": 2023,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_base",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_fund",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_base",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_fund",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_base",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_fund",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_full",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_price",
+      "year": 2024,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_base",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_fund",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h20_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_base",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_fund",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h5_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_base",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_fund",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_elastic_h60_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h20_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h5_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ranker_h60_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h20_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h5_price",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_full",
+      "year": 2025,
+      "status": "passed"
+    },
+    {
+      "model": "v3_ridge_h60_price",
+      "year": 2025,
+      "status": "passed"
+    }
+  ],
+  "scope": "Saved artifact hash/feature order, horizon-specific split, training-only preprocessing, predictions and ranker stopping iteration."
+}

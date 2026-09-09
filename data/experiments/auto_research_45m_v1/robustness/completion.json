@@ -1,0 +1,15 @@
+{
+  "completed_at_utc": "2026-09-07T09:03:08.073574+00:00",
+  "seconds": 28.2501228000001,
+  "phase_metric_rows": 170,
+  "phase_summary_rows": 32,
+  "leave_one_out_metric_rows": 60,
+  "phase0_reproduces_final32_and_benchmarks_atol": 1e-12,
+  "original_sources_unchanged": true,
+  "output_sha256": {
+    "phase_metrics.csv": "a03fb82a02439f3d981c3b80a24c5f0e1ff93537d5250498f7928e86731ea682",
+    "phase_summary.csv": "0baceb17050b7c70ddc222461247242edf3275f07c896f607cbd70be62acf6bd",
+    "leave_one_out_metrics.csv": "3416e4a8cd2e8dc1b8b06dadcf501de92c9139751bfe961bc472c7d8c9e234ba"
+  },
+  "interpretation": "All retrospective diagnostics; no best-phase selection, no retraining, no gate update, no independent holdout consumed."
+}

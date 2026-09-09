@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-09-09T06:16:18.085017+00:00",
+  "linked_reports_checked": 5,
+  "broken_local_links": [],
+  "new_fits": 164,
+  "fits_with_warnings": 0,
+  "model_score_control_max_difference": 0.0,
+  "all_result_resume_guards_passed": true,
+  "pip_check": "passed",
+  "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+  "requirements_sha256": "ec2e3b7e050aaf2752fd59c6b895ba74b138f995fa3befeebbbbd0f6042ef8fa",
+  "report_sha256": "9e5b1ca57df714537b684b5fe0959d98101aed3e86d1196fec68a5b7ae40a885",
+  "research_backtest_sha256": "c50b87f9059ec0334eda1981f9ae5cd0634368b3d7d28689c464ea089f9d9288",
+  "max_drawdown_scope": "daily adjusted-open NAV, not intraday account risk",
+  "tests_passed": 32,
+  "orders_sent": 0
+}

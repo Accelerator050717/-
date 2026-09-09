@@ -1,0 +1,87 @@
+{
+  "new_fits": 10,
+  "reused_h60_year_models": 10,
+  "new_historical_backtests": 41,
+  "v6_diagnostic": {
+    "cagr_at_least_80pct_incumbent": false,
+    "beats_full_spy": false,
+    "beats_both_non_ml_risk_controls": false,
+    "close_drawdown_better_than_20pct": true,
+    "close_drawdown_improves_25pct": true,
+    "cost20_beats_both_non_ml_risk_controls": false,
+    "all_passed": false
+  },
+  "v7_diagnostic": {
+    "cagr_at_least_80pct_incumbent": false,
+    "beats_full_spy": false,
+    "beats_both_non_ml_risk_controls": true,
+    "close_drawdown_better_than_20pct": true,
+    "close_drawdown_improves_25pct": true,
+    "cost20_beats_both_non_ml_risk_controls": true,
+    "all_passed": false
+  },
+  "rank_ic": {
+    "ridge_h20_price": 0.024259277985640607,
+    "ridge_h60_price": 0.034571994755824745,
+    "ensemble": 0.03038276399009858,
+    "momentum": -0.0011957644219392786
+  },
+  "stop_diagnostics": [
+    {
+      "strategy": "v6",
+      "stops": 806,
+      "gap_stops": 165,
+      "worst_gap_below_stop": -0.19111652379118305,
+      "mean_5_session_stock_change": 0.007822409427433568,
+      "fraction_5_session_stock_higher": 0.5732009925558312,
+      "soft_days": 1882,
+      "paused_days": 39,
+      "days": 2511
+    },
+    {
+      "strategy": "v7",
+      "stops": 148,
+      "gap_stops": 33,
+      "worst_gap_below_stop": -0.10467404135952796,
+      "mean_5_session_stock_change": 0.023537635458262623,
+      "fraction_5_session_stock_higher": 0.6351351351351351,
+      "soft_days": 1052,
+      "paused_days": 0,
+      "days": 2511
+    }
+  ],
+  "profit_concentration": [
+    {
+      "strategy": "old",
+      "top_symbol": "NVDA",
+      "top_pnl_per_initial_nav": 4.103911660648673,
+      "top_share_total_profit": 0.39974188618926887,
+      "nvda_share_total_profit": 0.39974188618926887
+    },
+    {
+      "strategy": "v6",
+      "top_symbol": "NVDA",
+      "top_pnl_per_initial_nav": 0.150741648375871,
+      "top_share_total_profit": 0.19249714597049736,
+      "nvda_share_total_profit": 0.19249714597049736
+    },
+    {
+      "strategy": "v7",
+      "top_symbol": "NVDA",
+      "top_pnl_per_initial_nav": 0.5778817773674952,
+      "top_share_total_profit": 0.3014923598379176,
+      "nvda_share_total_profit": 0.3014923598379176
+    }
+  ],
+  "all_41_ledger_checks_passed": true,
+  "largest_old_control_open_NAV_difference": 5.1514348342607263e-14,
+  "training_warning_count": 0,
+  "final_decision": "Both principal strategies rejected for profitability; retain old research baseline, no deployment",
+  "research_only": true,
+  "live_trading_enabled": false,
+  "paper_trading_enabled": false,
+  "orders_sent": 0,
+  "prices_2026_accessed": false,
+  "old_0_of_98_unchanged": true,
+  "generated_at_utc": "2026-09-09T06:51:03.197846+00:00"
+}

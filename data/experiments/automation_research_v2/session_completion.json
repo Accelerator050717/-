@@ -1,0 +1,21 @@
+{
+  "status": "completed_research_and_offline_execution",
+  "started_at_utc": "2026-09-09T04:39:19+00:00",
+  "completed_at_utc": "2026-09-09T04:58:09.470480+00:00",
+  "elapsed_minutes": 18.84,
+  "budget_minutes": 45,
+  "new_annual_fits": 36,
+  "control_reproduction_fits": 18,
+  "fundamental_comparison_fits": 18,
+  "joint_strategy_entries": 44,
+  "gate_passes": 0,
+  "full_offline_cycles_verified": 2,
+  "extra_simulated_fills_on_repeated_cycles": 0,
+  "unit_tests_passed": 10,
+  "market_holdout_2026_accessed": false,
+  "raw_sec_snapshot_may_contain_later_facts": true,
+  "broker_connected": false,
+  "live_orders_submitted": false,
+  "recurring_service_enabled": false,
+  "report_sha256": "e4c8b9da499167d14dabf68f90f8b68e7296763bcbb5b75120563b3af9937ccf"
+}
