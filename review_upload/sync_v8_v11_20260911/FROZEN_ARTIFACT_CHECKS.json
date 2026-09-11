@@ -1,0 +1,39 @@
+{
+  "h60_risk_execution_v8": {
+    "verified_entries": 382,
+    "manifest_sha256": "99f9bf9258ae8e169b8c9578297c4908afaa56614ef914b013eb1f2175869b85",
+    "document_only_differences": [],
+    "experiment_and_business_code_unchanged": true
+  },
+  "universe_delisting_v9": {
+    "verified_entries": 37,
+    "manifest_sha256": "ac7dc2f963084ccf51630690d4c193ee270fe78bbf83c4b1e6ef06169cfb89c6",
+    "document_only_differences": [],
+    "experiment_and_business_code_unchanged": true
+  },
+  "lean_migration_v10": {
+    "verified_entries": 262,
+    "manifest_sha256": "eb97fa66d72a924e4d8881305f675e99dad1331efd45d766428859db5169a1bf",
+    "document_only_differences": [
+      {
+        "path": "README.md",
+        "reason": "Root documentation evolved after this historical manifest; experiment record preserved",
+        "then_sha256": "ea6b403d8f1b4b2551deacbb336f92b692c4eca9eaaa05933f50c31e5e5f0f9e",
+        "current_sha256": "d8121c85c2cd3f59d18a40a0ed1a92a1b5eb009758673bcd4fc2d4295a822cad"
+      },
+      {
+        "path": "REVIEW_INDEX.md",
+        "reason": "Root documentation evolved after this historical manifest; experiment record preserved",
+        "then_sha256": "c44ed159436432bf2518d7d1eda6ac99267624123c7b9cd1ef166b931435ada8",
+        "current_sha256": "67dcde91e307de718cd38e20b3043509df511de42ebab4cf70209fd0a260f686"
+      }
+    ],
+    "experiment_and_business_code_unchanged": true
+  },
+  "h60_signal_objectives_v11": {
+    "verified_entries": 253,
+    "manifest_sha256": "21e805913fe3c04c4fbc12f3439df1c336e44f43b713a115ccc9c66621caa10d",
+    "document_only_differences": [],
+    "experiment_and_business_code_unchanged": true
+  }
+}

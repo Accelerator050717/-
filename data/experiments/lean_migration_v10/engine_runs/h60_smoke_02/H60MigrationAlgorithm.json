@@ -1,0 +1,47 @@
+{
+  "rollingWindow": {},
+  "charts": {
+    "Strategy Equity": {
+      "name": "Strategy Equity",
+      "chartType": 0,
+      "series": {
+        "Equity": {"name":"Equity","unit":"$","index":0,"seriesType":2,"values":[]},
+        "Return": {"name":"Return","unit":"%","index":1,"seriesType":3,"values":[],"color":"","scatterMarkerSymbol":"none"}
+      }
+    }
+  },
+  "orders": {},
+  "profitLoss": {},
+  "statistics": {},
+  "runtimeStatistics": {
+    "Equity": "$10,000.00",
+    "Fees": "-$0.00",
+    "Holdings": "$0.00",
+    "Net Profit": "$0.00",
+    "Probabilistic Sharpe Ratio": "0%",
+    "Return": "0.00 %",
+    "Unrealized": "$0.00",
+    "Volume": "$0.00"
+  },
+  "state": {
+    "StartTime": "2026-09-11T02:35:46Z",
+    "EndTime": "",
+    "RuntimeError": "",
+    "StackTrace": "",
+    "LogCount": "1",
+    "OrderCount": "0",
+    "InsightCount": "0",
+    "Name": "local",
+    "Hostname": "MGOD",
+    "Status": "Running"
+  },
+  "serverStatistics": {
+    "CPU Usage": "65.0%",
+    "Used RAM (MB)": "101",
+    "Total RAM (MB)": "2147483647",
+    "Hostname": "MGOD",
+    "LEAN Version": "v2.5.0.0",
+    "Up Time": "0d 00:00:12"
+  },
+  "analysis": []
+}

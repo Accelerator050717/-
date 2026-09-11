@@ -1,0 +1,3474 @@
+{
+  "rollingWindow": {
+    "M1_20190331": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "-1",
+        "drawdown": "0.401",
+        "totalNetProfit": "-0.4013",
+        "sharpeRatio": "-0.2245",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "4.4990",
+        "annualVariance": "20.2407",
+        "informationRatio": "-0.2223",
+        "trackingError": "4.4990",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.4890",
+        "valueAtRisk99": "-0.860",
+        "valueAtRisk95": "-0.667",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M1_20190430": {
+      "tradeStatistics": {
+        "startDateTime": null,
+        "endDateTime": null,
+        "totalNumberOfTrades": 0,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 0,
+        "totalProfitLoss": "0",
+        "totalProfit": "0",
+        "totalLoss": "0",
+        "largestProfit": "0",
+        "largestLoss": "0",
+        "averageProfitLoss": "0",
+        "averageProfit": "0",
+        "averageLoss": "0",
+        "averageTradeDuration": "00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "00:00:00",
+        "medianTradeDuration": "00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 0,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "0",
+        "averageMAE": "0",
+        "averageMFE": "0",
+        "largestMAE": "0",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "0",
+        "maximumIntraTradeDrawdown": "0",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "0",
+        "maximumEndTradeDrawdown": "0",
+        "averageEndTradeDrawdown": "0",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "0"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "0",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "0",
+        "expectancy": "0",
+        "startEquity": "5987.2142",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "0",
+        "drawdown": "0",
+        "totalNetProfit": "0",
+        "sharpeRatio": "0",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0",
+        "annualVariance": "0",
+        "informationRatio": "0",
+        "trackingError": "0",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0",
+        "valueAtRisk99": "0",
+        "valueAtRisk95": "0",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M1_20190531": {
+      "tradeStatistics": {
+        "startDateTime": null,
+        "endDateTime": null,
+        "totalNumberOfTrades": 0,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 0,
+        "totalProfitLoss": "0",
+        "totalProfit": "0",
+        "totalLoss": "0",
+        "largestProfit": "0",
+        "largestLoss": "0",
+        "averageProfitLoss": "0",
+        "averageProfit": "0",
+        "averageLoss": "0",
+        "averageTradeDuration": "00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "00:00:00",
+        "medianTradeDuration": "00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 0,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "0",
+        "averageMAE": "0",
+        "averageMFE": "0",
+        "largestMAE": "0",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "0",
+        "maximumIntraTradeDrawdown": "0",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "0",
+        "maximumEndTradeDrawdown": "0",
+        "averageEndTradeDrawdown": "0",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "0"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "0",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "0",
+        "expectancy": "0",
+        "startEquity": "5987.2142",
+        "endEquity": "5982.4283",
+        "compoundingAnnualReturn": "-0.0095",
+        "drawdown": "0.001",
+        "totalNetProfit": "-0.0008",
+        "sharpeRatio": "-10.3413",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "-9434.7417",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.0016",
+        "annualVariance": "0.0000",
+        "informationRatio": "-4.2307",
+        "trackingError": "0.0016",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0258",
+        "valueAtRisk99": "0.000",
+        "valueAtRisk95": "0.000",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M1_20190619": {
+      "tradeStatistics": {
+        "startDateTime": "2019-05-02T13:30:00Z",
+        "endDateTime": "2019-06-19T13:30:00Z",
+        "totalNumberOfTrades": 16,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 16,
+        "totalProfitLoss": "0",
+        "totalProfit": "0",
+        "totalLoss": "0",
+        "largestProfit": "0",
+        "largestLoss": "0",
+        "averageProfitLoss": "0",
+        "averageProfit": "0",
+        "averageLoss": "0",
+        "averageTradeDuration": "37.12:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "37.12:00:00",
+        "medianTradeDuration": "48.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "48.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 16,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "0",
+        "averageMFE": "0",
+        "largestMAE": "0",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "0",
+        "maximumIntraTradeDrawdown": "0",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "0",
+        "maximumEndTradeDrawdown": "0",
+        "averageEndTradeDrawdown": "0",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "9.5719"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0002",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "5982.4283",
+        "endEquity": "5977.6423",
+        "compoundingAnnualReturn": "-0.0155",
+        "drawdown": "0.001",
+        "totalNetProfit": "-0.0008",
+        "sharpeRatio": "-7.0616",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.0030",
+        "annualVariance": "0.0000",
+        "informationRatio": "-3.7209",
+        "trackingError": "0.0030",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0400",
+        "valueAtRisk99": "0.000",
+        "valueAtRisk95": "0.000",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M3_20190331": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "-1",
+        "drawdown": "0.401",
+        "totalNetProfit": "-0.4013",
+        "sharpeRatio": "-0.2245",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "4.4990",
+        "annualVariance": "20.2407",
+        "informationRatio": "-0.2223",
+        "trackingError": "4.4990",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.4890",
+        "valueAtRisk99": "-0.860",
+        "valueAtRisk95": "-0.667",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M3_20190430": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "-0.9962",
+        "drawdown": "0.401",
+        "totalNetProfit": "-0.4013",
+        "sharpeRatio": "-0.8609",
+        "probabilisticSharpeRatio": "0.0032",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "1.1247",
+        "annualVariance": "1.2650",
+        "informationRatio": "-0.8520",
+        "trackingError": "1.1247",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0445",
+        "valueAtRisk99": "-0.177",
+        "valueAtRisk95": "-0.129",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M3_20190531": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5982.4283",
+        "compoundingAnnualReturn": "-0.9450",
+        "drawdown": "0.402",
+        "totalNetProfit": "-0.4018",
+        "sharpeRatio": "-1.0110",
+        "probabilisticSharpeRatio": "0.0012",
+        "sortinoRatio": "-0.2208",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.8016",
+        "annualVariance": "0.6425",
+        "informationRatio": "-0.9986",
+        "trackingError": "0.8016",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0354",
+        "valueAtRisk99": "-0.124",
+        "valueAtRisk95": "-0.089",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M3_20190619": {
+      "tradeStatistics": {
+        "startDateTime": "2019-05-02T13:30:00Z",
+        "endDateTime": "2019-06-19T13:30:00Z",
+        "totalNumberOfTrades": 16,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 16,
+        "totalProfitLoss": "0",
+        "totalProfit": "0",
+        "totalLoss": "0",
+        "largestProfit": "0",
+        "largestLoss": "0",
+        "averageProfitLoss": "0",
+        "averageProfit": "0",
+        "averageLoss": "0",
+        "averageTradeDuration": "37.12:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "37.12:00:00",
+        "medianTradeDuration": "48.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "48.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 16,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "0",
+        "averageMFE": "0",
+        "largestMAE": "0",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "0",
+        "maximumIntraTradeDrawdown": "0",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "0",
+        "maximumEndTradeDrawdown": "0",
+        "averageEndTradeDrawdown": "0",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "9.5719"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0002",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "5987.2142",
+        "endEquity": "5977.6423",
+        "compoundingAnnualReturn": "-0.0073",
+        "drawdown": "0.002",
+        "totalNetProfit": "-0.0016",
+        "sharpeRatio": "-8.7181",
+        "probabilisticSharpeRatio": "0.0000",
+        "sortinoRatio": "-4.1135",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.0017",
+        "annualVariance": "0.0000",
+        "informationRatio": "-2.9404",
+        "trackingError": "0.0017",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0198",
+        "valueAtRisk99": "0.000",
+        "valueAtRisk95": "0.000",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M6_20190331": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "-1",
+        "drawdown": "0.401",
+        "totalNetProfit": "-0.4013",
+        "sharpeRatio": "-0.2245",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "4.4990",
+        "annualVariance": "20.2407",
+        "informationRatio": "-0.2223",
+        "trackingError": "4.4990",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.4890",
+        "valueAtRisk99": "-0.860",
+        "valueAtRisk95": "-0.667",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M6_20190430": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "-0.9962",
+        "drawdown": "0.401",
+        "totalNetProfit": "-0.4013",
+        "sharpeRatio": "-0.8609",
+        "probabilisticSharpeRatio": "0.0032",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "1.1247",
+        "annualVariance": "1.2650",
+        "informationRatio": "-0.8520",
+        "trackingError": "1.1247",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0445",
+        "valueAtRisk99": "-0.177",
+        "valueAtRisk95": "-0.129",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M6_20190531": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5982.4283",
+        "compoundingAnnualReturn": "-0.9450",
+        "drawdown": "0.402",
+        "totalNetProfit": "-0.4018",
+        "sharpeRatio": "-1.0110",
+        "probabilisticSharpeRatio": "0.0012",
+        "sortinoRatio": "-0.2208",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.8016",
+        "annualVariance": "0.6425",
+        "informationRatio": "-0.9986",
+        "trackingError": "0.8016",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0354",
+        "valueAtRisk99": "-0.124",
+        "valueAtRisk95": "-0.089",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M6_20190619": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-06-19T13:30:00Z",
+        "totalNumberOfTrades": 24,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 24,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-166.7000",
+        "averageProfit": "0",
+        "averageLoss": "-166.7000",
+        "averageTradeDuration": "25.07:59:59.9999995",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "25.07:59:59.9999995",
+        "medianTradeDuration": "27.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "27.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 24,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-166.7000",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "240.8199",
+        "profitLossDownsideDeviation": "240.8199",
+        "profitFactor": "0",
+        "sharpeRatio": "-0.6922",
+        "sortinoRatio": "-0.6922",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-166.7000",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "21.5583"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0311",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5977.6423",
+        "compoundingAnnualReturn": "-0.8941",
+        "drawdown": "0.402",
+        "totalNetProfit": "-0.4022",
+        "sharpeRatio": "-1.0255",
+        "probabilisticSharpeRatio": "0.0007",
+        "sortinoRatio": "-0.2254",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.6983",
+        "annualVariance": "0.4877",
+        "informationRatio": "-1.0112",
+        "trackingError": "0.6983",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0365",
+        "valueAtRisk99": "-0.107",
+        "valueAtRisk95": "-0.077",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M12_20190331": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "-1",
+        "drawdown": "0.401",
+        "totalNetProfit": "-0.4013",
+        "sharpeRatio": "-0.2245",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "4.4990",
+        "annualVariance": "20.2407",
+        "informationRatio": "-0.2223",
+        "trackingError": "4.4990",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.4890",
+        "valueAtRisk99": "-0.860",
+        "valueAtRisk95": "-0.667",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M12_20190430": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5987.2142",
+        "compoundingAnnualReturn": "-0.9962",
+        "drawdown": "0.401",
+        "totalNetProfit": "-0.4013",
+        "sharpeRatio": "-0.8609",
+        "probabilisticSharpeRatio": "0.0032",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "1.1247",
+        "annualVariance": "1.2650",
+        "informationRatio": "-0.8520",
+        "trackingError": "1.1247",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0445",
+        "valueAtRisk99": "-0.177",
+        "valueAtRisk95": "-0.129",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M12_20190531": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-03-29T13:30:00Z",
+        "totalNumberOfTrades": 8,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 8,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-500.10",
+        "averageProfit": "0",
+        "averageLoss": "-500.10",
+        "averageTradeDuration": "1.00:00:00",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "1.00:00:00",
+        "medianTradeDuration": "1.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "1.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 8,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-500.10",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "0",
+        "profitLossDownsideDeviation": "0",
+        "profitFactor": "0",
+        "sharpeRatio": "0",
+        "sortinoRatio": "0",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-500.10",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "11.9864"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0620",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5982.4283",
+        "compoundingAnnualReturn": "-0.9450",
+        "drawdown": "0.402",
+        "totalNetProfit": "-0.4018",
+        "sharpeRatio": "-1.0110",
+        "probabilisticSharpeRatio": "0.0012",
+        "sortinoRatio": "-0.2208",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.8016",
+        "annualVariance": "0.6425",
+        "informationRatio": "-0.9986",
+        "trackingError": "0.8016",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0354",
+        "valueAtRisk99": "-0.124",
+        "valueAtRisk95": "-0.089",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M12_20190619": {
+      "tradeStatistics": {
+        "startDateTime": "2019-03-28T13:30:00Z",
+        "endDateTime": "2019-06-19T13:30:00Z",
+        "totalNumberOfTrades": 24,
+        "numberOfWinningTrades": 0,
+        "numberOfLosingTrades": 24,
+        "totalProfitLoss": "-4000.80",
+        "totalProfit": "0",
+        "totalLoss": "-4000.80",
+        "largestProfit": "0",
+        "largestLoss": "-500.10",
+        "averageProfitLoss": "-166.7000",
+        "averageProfit": "0",
+        "averageLoss": "-166.7000",
+        "averageTradeDuration": "25.07:59:59.9999995",
+        "averageWinningTradeDuration": "00:00:00",
+        "averageLosingTradeDuration": "25.07:59:59.9999995",
+        "medianTradeDuration": "27.00:00:00",
+        "medianWinningTradeDuration": "00:00:00",
+        "medianLosingTradeDuration": "27.00:00:00",
+        "maxConsecutiveWinningTrades": 0,
+        "maxConsecutiveLosingTrades": 24,
+        "profitLossRatio": "0",
+        "winLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "averageMAE": "-166.7000",
+        "averageMFE": "0",
+        "largestMAE": "-500.10",
+        "largestMFE": "0",
+        "maximumClosedTradeDrawdown": "-4000.80",
+        "maximumIntraTradeDrawdown": "-4000.80",
+        "profitLossStandardDeviation": "240.8199",
+        "profitLossDownsideDeviation": "240.8199",
+        "profitFactor": "0",
+        "sharpeRatio": "-0.6922",
+        "sortinoRatio": "-0.6922",
+        "profitToMaxDrawdownRatio": "-1",
+        "maximumEndTradeDrawdown": "500.10",
+        "averageEndTradeDrawdown": "-166.7000",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "21.5583"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "-0.0311",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "1",
+        "expectancy": "-1",
+        "startEquity": "10000",
+        "endEquity": "5977.6423",
+        "compoundingAnnualReturn": "-0.8941",
+        "drawdown": "0.402",
+        "totalNetProfit": "-0.4022",
+        "sharpeRatio": "-1.0255",
+        "probabilisticSharpeRatio": "0.0007",
+        "sortinoRatio": "-0.2254",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.6983",
+        "annualVariance": "0.4877",
+        "informationRatio": "-1.0112",
+        "trackingError": "0.6983",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0365",
+        "valueAtRisk99": "-0.107",
+        "valueAtRisk95": "-0.077",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    }
+  },
+  "charts": {
+    "Drawdown": {
+      "name": "Drawdown",
+      "chartType": 0,
+      "series": {
+        "Equity Drawdown": {"name":"Equity Drawdown","unit":"%","index":0,"seriesType":0,"values":[[1553745600,0.0],[1553832000,-0.08],[1553918400,-40.13],[1554004800,-40.13],[1554091200,-40.13],[1554177600,-40.13],[1554264000,-40.13],[1554350400,-40.13],[1554436800,-40.13],[1554523200,-40.13],[1554609600,-40.13],[1554696000,-40.13],[1554782400,-40.13],[1554868800,-40.13],[1554955200,-40.13],[1555041600,-40.13],[1555128000,-40.13],[1555214400,-40.13],[1555300800,-40.13],[1555387200,-40.13],[1555473600,-40.13],[1555560000,-40.13],[1555646400,-40.13],[1555732800,-40.13],[1555819200,-40.13],[1555905600,-40.13],[1555992000,-40.13],[1556078400,-40.13],[1556164800,-40.13],[1556251200,-40.13],[1556337600,-40.13],[1556424000,-40.13],[1556510400,-40.13],[1556596800,-40.13],[1556683200,-40.13],[1556769600,-40.13],[1556856000,-40.15],[1556942400,-40.15],[1557028800,-40.15],[1557115200,-40.15],[1557201600,-40.15],[1557288000,-40.15],[1557374400,-40.15],[1557460800,-40.15],[1557547200,-40.15],[1557633600,-40.15],[1557720000,-40.15],[1557806400,-40.15],[1557892800,-40.15],[1557979200,-40.15],[1558065600,-40.15],[1558152000,-40.15],[1558238400,-40.15],[1558324800,-40.15],[1558411200,-40.15],[1558497600,-40.15],[1558584000,-40.15],[1558670400,-40.18],[1558756800,-40.18],[1558843200,-40.18],[1558929600,-40.18],[1559016000,-40.18],[1559102400,-40.18],[1559188800,-40.18],[1559275200,-40.18],[1559361600,-40.18],[1559448000,-40.18],[1559534400,-40.18],[1559620800,-40.18],[1559707200,-40.18],[1559793600,-40.18],[1559880000,-40.18],[1559966400,-40.18],[1560052800,-40.18],[1560139200,-40.18],[1560225600,-40.18],[1560312000,-40.18],[1560398400,-40.18],[1560484800,-40.18],[1560571200,-40.18],[1560657600,-40.18],[1560744000,-40.18],[1560830400,-40.18],[1560916800,-40.18],[1560974400,-40.22]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Portfolio Turnover": {
+      "name": "Portfolio Turnover",
+      "chartType": 0,
+      "series": {
+        "Portfolio Turnover": {"name":"Portfolio Turnover","unit":"%","index":0,"seriesType":0,"values":[[1553832000,0.8],[1553918400,0.6668887],[1554004800,0.0],[1554091200,0.0],[1554177600,0.0],[1554264000,0.0],[1554350400,0.0],[1554436800,0.0],[1554523200,0.0],[1554609600,0.0],[1554696000,0.0],[1554782400,0.0],[1554868800,0.0],[1554955200,0.0],[1555041600,0.0],[1555128000,0.0],[1555214400,0.0],[1555300800,0.0],[1555387200,0.0],[1555473600,0.0],[1555560000,0.0],[1555646400,0.0],[1555732800,0.0],[1555819200,0.0],[1555905600,0.0],[1555992000,0.0],[1556078400,0.0],[1556164800,0.0],[1556251200,0.0],[1556337600,0.0],[1556424000,0.0],[1556510400,0.0],[1556596800,0.0],[1556683200,0.0],[1556769600,0.0],[1556856000,0.4],[1556942400,0.0],[1557028800,0.0],[1557115200,0.0],[1557201600,0.0],[1557288000,0.0],[1557374400,0.0],[1557460800,0.0],[1557547200,0.0],[1557633600,0.0],[1557720000,0.0],[1557806400,0.0],[1557892800,0.0],[1557979200,0.0],[1558065600,0.0],[1558152000,0.0],[1558238400,0.0],[1558324800,0.0],[1558411200,0.0],[1558497600,0.0],[1558584000,0.0],[1558670400,0.3998401],[1558756800,0.0],[1558843200,0.0],[1558929600,0.0],[1559016000,0.0],[1559102400,0.0],[1559188800,0.0],[1559275200,0.0],[1559361600,0.0],[1559448000,0.0],[1559534400,0.0],[1559620800,0.0],[1559707200,0.0],[1559793600,0.0],[1559880000,0.0],[1559966400,0.0],[1560052800,0.0],[1560139200,0.0],[1560225600,0.0],[1560312000,0.0],[1560398400,0.0],[1560484800,0.0],[1560571200,0.0],[1560657600,0.0],[1560744000,0.0],[1560830400,0.0],[1560916800,0.0],[1560974400,0.8006405]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Exposure": {
+      "name": "Exposure",
+      "chartType": 0,
+      "series": {
+        "Base - Short Ratio": {"name":"Base - Short Ratio","unit":"","index":0,"seriesType":0,"values":[[1553745600,0.0],[1553832000,0.0],[1553918400,0.0],[1554004800,0.0],[1554091200,0.0],[1554177600,0.0],[1554264000,0.0],[1554350400,0.0],[1554436800,0.0],[1554523200,0.0],[1554609600,0.0],[1554696000,0.0],[1554782400,0.0],[1554868800,0.0],[1554955200,0.0],[1555041600,0.0],[1555128000,0.0],[1555214400,0.0],[1555300800,0.0],[1555387200,0.0],[1555473600,0.0],[1555560000,0.0],[1555646400,0.0],[1555732800,0.0],[1555819200,0.0],[1555905600,0.0],[1555992000,0.0],[1556078400,0.0],[1556164800,0.0],[1556251200,0.0],[1556337600,0.0],[1556424000,0.0],[1556510400,0.0],[1556596800,0.0],[1556683200,0.0],[1556769600,0.0],[1556856000,0.0],[1556942400,0.0],[1557028800,0.0],[1557115200,0.0],[1557201600,0.0],[1557288000,0.0],[1557374400,0.0],[1557460800,0.0],[1557547200,0.0],[1557633600,0.0],[1557720000,0.0],[1557806400,0.0],[1557892800,0.0],[1557979200,0.0],[1558065600,0.0],[1558152000,0.0],[1558238400,0.0],[1558324800,0.0],[1558411200,0.0],[1558497600,0.0],[1558584000,0.0],[1558670400,0.0],[1558756800,0.0],[1558843200,0.0],[1558929600,0.0],[1559016000,0.0],[1559102400,0.0],[1559188800,0.0],[1559275200,0.0],[1559361600,0.0],[1559448000,0.0],[1559534400,0.0],[1559620800,0.0],[1559707200,0.0],[1559793600,0.0],[1559880000,0.0],[1559966400,0.0],[1560052800,0.0],[1560139200,0.0],[1560225600,0.0],[1560312000,0.0],[1560398400,0.0],[1560484800,0.0],[1560571200,0.0],[1560657600,0.0],[1560744000,0.0],[1560830400,0.0],[1560916800,0.0],[1560974400,0.0]],"color":"","scatterMarkerSymbol":"none"},
+        "Base - Long Ratio": {"name":"Base - Long Ratio","unit":"","index":0,"seriesType":0,"values":[[1553745600,0.0],[1553832000,0.8],[1553918400,0.0],[1554004800,0.0],[1554091200,0.0],[1554177600,0.0],[1554264000,0.0],[1554350400,0.0],[1554436800,0.0],[1554523200,0.0],[1554609600,0.0],[1554696000,0.0],[1554782400,0.0],[1554868800,0.0],[1554955200,0.0],[1555041600,0.0],[1555128000,0.0],[1555214400,0.0],[1555300800,0.0],[1555387200,0.0],[1555473600,0.0],[1555560000,0.0],[1555646400,0.0],[1555732800,0.0],[1555819200,0.0],[1555905600,0.0],[1555992000,0.0],[1556078400,0.0],[1556164800,0.0],[1556251200,0.0],[1556337600,0.0],[1556424000,0.0],[1556510400,0.0],[1556596800,0.0],[1556683200,0.0],[1556769600,0.0],[1556856000,0.4],[1556942400,0.4],[1557028800,0.4],[1557115200,0.4],[1557201600,0.4],[1557288000,0.4],[1557374400,0.4],[1557460800,0.4],[1557547200,0.4],[1557633600,0.4],[1557720000,0.4],[1557806400,0.4],[1557892800,0.4],[1557979200,0.4],[1558065600,0.4],[1558152000,0.4],[1558238400,0.4],[1558324800,0.4],[1558411200,0.4],[1558497600,0.4],[1558584000,0.4],[1558670400,0.8],[1558756800,0.8],[1558843200,0.8],[1558929600,0.8],[1559016000,0.8],[1559102400,0.8],[1559188800,0.8],[1559275200,0.8],[1559361600,0.8],[1559448000,0.8],[1559534400,0.8],[1559620800,0.8],[1559707200,0.8],[1559793600,0.8],[1559880000,0.8],[1559966400,0.8],[1560052800,0.8],[1560139200,0.8],[1560225600,0.8],[1560312000,0.8],[1560398400,0.8],[1560484800,0.8],[1560571200,0.8],[1560657600,0.8],[1560744000,0.8],[1560830400,0.8],[1560916800,0.8],[1560974400,0.0]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Strategy Equity": {
+      "name": "Strategy Equity",
+      "chartType": 0,
+      "series": {
+        "Equity": {"name":"Equity","unit":"$","index":0,"seriesType":2,"values":[[1553745600,10000.0,10000.0,10000.0,10000.0],[1553779800,9992.0064,9992.0064,9992.0064,9992.0064],[1553788800,9992.0064,9992.0064,9992.0064,9992.0064],[1553803200,9992.0064,9992.0064,9992.0064,9992.0064],[1553832000,9992.0064,9992.0064,9992.0064,9992.0064],[1553866200,5987.2142,5987.2142,5987.2142,5987.2142],[1553875200,5987.2142,5987.2142,5987.2142,5987.2142],[1553889600,5987.2142,5987.2142,5987.2142,5987.2142],[1553918400,5987.2142,5987.2142,5987.2142,5987.2142],[1554004800,5987.2142,5987.2142,5987.2142,5987.2142],[1554091200,5987.2142,5987.2142,5987.2142,5987.2142],[1554125400,5987.2142,5987.2142,5987.2142,5987.2142],[1554134400,5987.2142,5987.2142,5987.2142,5987.2142],[1554148800,5987.2142,5987.2142,5987.2142,5987.2142],[1554177600,5987.2142,5987.2142,5987.2142,5987.2142],[1554211800,5987.2142,5987.2142,5987.2142,5987.2142],[1554220800,5987.2142,5987.2142,5987.2142,5987.2142],[1554235200,5987.2142,5987.2142,5987.2142,5987.2142],[1554264000,5987.2142,5987.2142,5987.2142,5987.2142],[1554298200,5987.2142,5987.2142,5987.2142,5987.2142],[1554307200,5987.2142,5987.2142,5987.2142,5987.2142],[1554321600,5987.2142,5987.2142,5987.2142,5987.2142],[1554350400,5987.2142,5987.2142,5987.2142,5987.2142],[1554384600,5987.2142,5987.2142,5987.2142,5987.2142],[1554393600,5987.2142,5987.2142,5987.2142,5987.2142],[1554408000,5987.2142,5987.2142,5987.2142,5987.2142],[1554436800,5987.2142,5987.2142,5987.2142,5987.2142],[1554471000,5987.2142,5987.2142,5987.2142,5987.2142],[1554480000,5987.2142,5987.2142,5987.2142,5987.2142],[1554494400,5987.2142,5987.2142,5987.2142,5987.2142],[1554523200,5987.2142,5987.2142,5987.2142,5987.2142],[1554609600,5987.2142,5987.2142,5987.2142,5987.2142],[1554696000,5987.2142,5987.2142,5987.2142,5987.2142],[1554730200,5987.2142,5987.2142,5987.2142,5987.2142],[1554739200,5987.2142,5987.2142,5987.2142,5987.2142],[1554753600,5987.2142,5987.2142,5987.2142,5987.2142],[1554782400,5987.2142,5987.2142,5987.2142,5987.2142],[1554816600,5987.2142,5987.2142,5987.2142,5987.2142],[1554825600,5987.2142,5987.2142,5987.2142,5987.2142],[1554840000,5987.2142,5987.2142,5987.2142,5987.2142],[1554868800,5987.2142,5987.2142,5987.2142,5987.2142],[1554903000,5987.2142,5987.2142,5987.2142,5987.2142],[1554912000,5987.2142,5987.2142,5987.2142,5987.2142],[1554926400,5987.2142,5987.2142,5987.2142,5987.2142],[1554955200,5987.2142,5987.2142,5987.2142,5987.2142],[1554989400,5987.2142,5987.2142,5987.2142,5987.2142],[1554998400,5987.2142,5987.2142,5987.2142,5987.2142],[1555012800,5987.2142,5987.2142,5987.2142,5987.2142],[1555041600,5987.2142,5987.2142,5987.2142,5987.2142],[1555075800,5987.2142,5987.2142,5987.2142,5987.2142],[1555084800,5987.2142,5987.2142,5987.2142,5987.2142],[1555099200,5987.2142,5987.2142,5987.2142,5987.2142],[1555128000,5987.2142,5987.2142,5987.2142,5987.2142],[1555214400,5987.2142,5987.2142,5987.2142,5987.2142],[1555300800,5987.2142,5987.2142,5987.2142,5987.2142],[1555335000,5987.2142,5987.2142,5987.2142,5987.2142],[1555344000,5987.2142,5987.2142,5987.2142,5987.2142],[1555358400,5987.2142,5987.2142,5987.2142,5987.2142],[1555387200,5987.2142,5987.2142,5987.2142,5987.2142],[1555421400,5987.2142,5987.2142,5987.2142,5987.2142],[1555430400,5987.2142,5987.2142,5987.2142,5987.2142],[1555444800,5987.2142,5987.2142,5987.2142,5987.2142],[1555473600,5987.2142,5987.2142,5987.2142,5987.2142],[1555507800,5987.2142,5987.2142,5987.2142,5987.2142],[1555516800,5987.2142,5987.2142,5987.2142,5987.2142],[1555531200,5987.2142,5987.2142,5987.2142,5987.2142],[1555560000,5987.2142,5987.2142,5987.2142,5987.2142],[1555594200,5987.2142,5987.2142,5987.2142,5987.2142],[1555603200,5987.2142,5987.2142,5987.2142,5987.2142],[1555617600,5987.2142,5987.2142,5987.2142,5987.2142],[1555646400,5987.2142,5987.2142,5987.2142,5987.2142],[1555680600,5987.2142,5987.2142,5987.2142,5987.2142],[1555689600,5987.2142,5987.2142,5987.2142,5987.2142],[1555704000,5987.2142,5987.2142,5987.2142,5987.2142],[1555732800,5987.2142,5987.2142,5987.2142,5987.2142],[1555819200,5987.2142,5987.2142,5987.2142,5987.2142],[1555905600,5987.2142,5987.2142,5987.2142,5987.2142],[1555939800,5987.2142,5987.2142,5987.2142,5987.2142],[1555948800,5987.2142,5987.2142,5987.2142,5987.2142],[1555963200,5987.2142,5987.2142,5987.2142,5987.2142],[1555992000,5987.2142,5987.2142,5987.2142,5987.2142],[1556026200,5987.2142,5987.2142,5987.2142,5987.2142],[1556035200,5987.2142,5987.2142,5987.2142,5987.2142],[1556049600,5987.2142,5987.2142,5987.2142,5987.2142],[1556078400,5987.2142,5987.2142,5987.2142,5987.2142],[1556112600,5987.2142,5987.2142,5987.2142,5987.2142],[1556121600,5987.2142,5987.2142,5987.2142,5987.2142],[1556136000,5987.2142,5987.2142,5987.2142,5987.2142],[1556164800,5987.2142,5987.2142,5987.2142,5987.2142],[1556199000,5987.2142,5987.2142,5987.2142,5987.2142],[1556208000,5987.2142,5987.2142,5987.2142,5987.2142],[1556222400,5987.2142,5987.2142,5987.2142,5987.2142],[1556251200,5987.2142,5987.2142,5987.2142,5987.2142],[1556285400,5987.2142,5987.2142,5987.2142,5987.2142],[1556294400,5987.2142,5987.2142,5987.2142,5987.2142],[1556308800,5987.2142,5987.2142,5987.2142,5987.2142],[1556337600,5987.2142,5987.2142,5987.2142,5987.2142],[1556424000,5987.2142,5987.2142,5987.2142,5987.2142],[1556510400,5987.2142,5987.2142,5987.2142,5987.2142],[1556544600,5987.2142,5987.2142,5987.2142,5987.2142],[1556553600,5987.2142,5987.2142,5987.2142,5987.2142],[1556568000,5987.2142,5987.2142,5987.2142,5987.2142],[1556596800,5987.2142,5987.2142,5987.2142,5987.2142],[1556631000,5987.2142,5987.2142,5987.2142,5987.2142],[1556640000,5987.2142,5987.2142,5987.2142,5987.2142],[1556654400,5987.2142,5987.2142,5987.2142,5987.2142],[1556683200,5987.2142,5987.2142,5987.2142,5987.2142],[1556717400,5987.2142,5987.2142,5987.2142,5987.2142],[1556726400,5987.2142,5987.2142,5987.2142,5987.2142],[1556740800,5987.2142,5987.2142,5987.2142,5987.2142],[1556769600,5987.2142,5987.2142,5987.2142,5987.2142],[1556803800,5984.8203,5984.8203,5984.8203,5984.8203],[1556812800,5984.8203,5984.8203,5984.8203,5984.8203],[1556827200,5984.8203,5984.8203,5984.8203,5984.8203],[1556856000,5984.8203,5984.8203,5984.8203,5984.8203],[1556890200,5984.8203,5984.8203,5984.8203,5984.8203],[1556899200,5984.8203,5984.8203,5984.8203,5984.8203],[1556913600,5984.8203,5984.8203,5984.8203,5984.8203],[1556942400,5984.8203,5984.8203,5984.8203,5984.8203],[1557028800,5984.8203,5984.8203,5984.8203,5984.8203],[1557115200,5984.8203,5984.8203,5984.8203,5984.8203],[1557149400,5984.8203,5984.8203,5984.8203,5984.8203],[1557158400,5984.8203,5984.8203,5984.8203,5984.8203],[1557172800,5984.8203,5984.8203,5984.8203,5984.8203],[1557201600,5984.8203,5984.8203,5984.8203,5984.8203],[1557235800,5984.8203,5984.8203,5984.8203,5984.8203],[1557244800,5984.8203,5984.8203,5984.8203,5984.8203],[1557259200,5984.8203,5984.8203,5984.8203,5984.8203],[1557288000,5984.8203,5984.8203,5984.8203,5984.8203],[1557322200,5984.8203,5984.8203,5984.8203,5984.8203],[1557331200,5984.8203,5984.8203,5984.8203,5984.8203],[1557345600,5984.8203,5984.8203,5984.8203,5984.8203],[1557374400,5984.8203,5984.8203,5984.8203,5984.8203],[1557408600,5984.8203,5984.8203,5984.8203,5984.8203],[1557417600,5984.8203,5984.8203,5984.8203,5984.8203],[1557432000,5984.8203,5984.8203,5984.8203,5984.8203],[1557460800,5984.8203,5984.8203,5984.8203,5984.8203],[1557495000,5984.8203,5984.8203,5984.8203,5984.8203],[1557504000,5984.8203,5984.8203,5984.8203,5984.8203],[1557518400,5984.8203,5984.8203,5984.8203,5984.8203],[1557547200,5984.8203,5984.8203,5984.8203,5984.8203],[1557633600,5984.8203,5984.8203,5984.8203,5984.8203],[1557720000,5984.8203,5984.8203,5984.8203,5984.8203],[1557754200,5984.8203,5984.8203,5984.8203,5984.8203],[1557763200,5984.8203,5984.8203,5984.8203,5984.8203],[1557777600,5984.8203,5984.8203,5984.8203,5984.8203],[1557806400,5984.8203,5984.8203,5984.8203,5984.8203],[1557840600,5984.8203,5984.8203,5984.8203,5984.8203],[1557849600,5984.8203,5984.8203,5984.8203,5984.8203],[1557864000,5984.8203,5984.8203,5984.8203,5984.8203],[1557892800,5984.8203,5984.8203,5984.8203,5984.8203],[1557927000,5984.8203,5984.8203,5984.8203,5984.8203],[1557936000,5984.8203,5984.8203,5984.8203,5984.8203],[1557950400,5984.8203,5984.8203,5984.8203,5984.8203],[1557979200,5984.8203,5984.8203,5984.8203,5984.8203],[1558013400,5984.8203,5984.8203,5984.8203,5984.8203],[1558022400,5984.8203,5984.8203,5984.8203,5984.8203],[1558036800,5984.8203,5984.8203,5984.8203,5984.8203],[1558065600,5984.8203,5984.8203,5984.8203,5984.8203],[1558099800,5984.8203,5984.8203,5984.8203,5984.8203],[1558108800,5984.8203,5984.8203,5984.8203,5984.8203],[1558123200,5984.8203,5984.8203,5984.8203,5984.8203],[1558152000,5984.8203,5984.8203,5984.8203,5984.8203],[1558238400,5984.8203,5984.8203,5984.8203,5984.8203],[1558324800,5984.8203,5984.8203,5984.8203,5984.8203],[1558359000,5984.8203,5984.8203,5984.8203,5984.8203],[1558368000,5984.8203,5984.8203,5984.8203,5984.8203],[1558382400,5984.8203,5984.8203,5984.8203,5984.8203],[1558411200,5984.8203,5984.8203,5984.8203,5984.8203],[1558445400,5984.8203,5984.8203,5984.8203,5984.8203],[1558454400,5984.8203,5984.8203,5984.8203,5984.8203],[1558468800,5984.8203,5984.8203,5984.8203,5984.8203],[1558497600,5984.8203,5984.8203,5984.8203,5984.8203],[1558531800,5984.8203,5984.8203,5984.8203,5984.8203],[1558540800,5984.8203,5984.8203,5984.8203,5984.8203],[1558555200,5984.8203,5984.8203,5984.8203,5984.8203],[1558584000,5984.8203,5984.8203,5984.8203,5984.8203],[1558618200,5982.4283,5982.4283,5982.4283,5982.4283],[1558627200,5982.4283,5982.4283,5982.4283,5982.4283],[1558641600,5982.4283,5982.4283,5982.4283,5982.4283],[1558670400,5982.4283,5982.4283,5982.4283,5982.4283],[1558704600,5982.4283,5982.4283,5982.4283,5982.4283],[1558713600,5982.4283,5982.4283,5982.4283,5982.4283],[1558728000,5982.4283,5982.4283,5982.4283,5982.4283],[1558756800,5982.4283,5982.4283,5982.4283,5982.4283],[1558843200,5982.4283,5982.4283,5982.4283,5982.4283],[1558929600,5982.4283,5982.4283,5982.4283,5982.4283],[1558963800,5982.4283,5982.4283,5982.4283,5982.4283],[1558972800,5982.4283,5982.4283,5982.4283,5982.4283],[1558987200,5982.4283,5982.4283,5982.4283,5982.4283],[1559016000,5982.4283,5982.4283,5982.4283,5982.4283],[1559050200,5982.4283,5982.4283,5982.4283,5982.4283],[1559059200,5982.4283,5982.4283,5982.4283,5982.4283],[1559073600,5982.4283,5982.4283,5982.4283,5982.4283],[1559102400,5982.4283,5982.4283,5982.4283,5982.4283],[1559136600,5982.4283,5982.4283,5982.4283,5982.4283],[1559145600,5982.4283,5982.4283,5982.4283,5982.4283],[1559160000,5982.4283,5982.4283,5982.4283,5982.4283],[1559188800,5982.4283,5982.4283,5982.4283,5982.4283],[1559223000,5982.4283,5982.4283,5982.4283,5982.4283],[1559232000,5982.4283,5982.4283,5982.4283,5982.4283],[1559246400,5982.4283,5982.4283,5982.4283,5982.4283],[1559275200,5982.4283,5982.4283,5982.4283,5982.4283],[1559309400,5982.4283,5982.4283,5982.4283,5982.4283],[1559318400,5982.4283,5982.4283,5982.4283,5982.4283],[1559332800,5982.4283,5982.4283,5982.4283,5982.4283],[1559361600,5982.4283,5982.4283,5982.4283,5982.4283],[1559448000,5982.4283,5982.4283,5982.4283,5982.4283],[1559534400,5982.4283,5982.4283,5982.4283,5982.4283],[1559568600,5982.4283,5982.4283,5982.4283,5982.4283],[1559577600,5982.4283,5982.4283,5982.4283,5982.4283],[1559592000,5982.4283,5982.4283,5982.4283,5982.4283],[1559620800,5982.4283,5982.4283,5982.4283,5982.4283],[1559655000,5982.4283,5982.4283,5982.4283,5982.4283],[1559664000,5982.4283,5982.4283,5982.4283,5982.4283],[1559678400,5982.4283,5982.4283,5982.4283,5982.4283],[1559707200,5982.4283,5982.4283,5982.4283,5982.4283],[1559741400,5982.4283,5982.4283,5982.4283,5982.4283],[1559750400,5982.4283,5982.4283,5982.4283,5982.4283],[1559764800,5982.4283,5982.4283,5982.4283,5982.4283],[1559793600,5982.4283,5982.4283,5982.4283,5982.4283],[1559827800,5982.4283,5982.4283,5982.4283,5982.4283],[1559836800,5982.4283,5982.4283,5982.4283,5982.4283],[1559851200,5982.4283,5982.4283,5982.4283,5982.4283],[1559880000,5982.4283,5982.4283,5982.4283,5982.4283],[1559914200,5982.4283,5982.4283,5982.4283,5982.4283],[1559923200,5982.4283,5982.4283,5982.4283,5982.4283],[1559937600,5982.4283,5982.4283,5982.4283,5982.4283],[1559966400,5982.4283,5982.4283,5982.4283,5982.4283],[1560052800,5982.4283,5982.4283,5982.4283,5982.4283],[1560139200,5982.4283,5982.4283,5982.4283,5982.4283],[1560173400,5982.4283,5982.4283,5982.4283,5982.4283],[1560182400,5982.4283,5982.4283,5982.4283,5982.4283],[1560196800,5982.4283,5982.4283,5982.4283,5982.4283],[1560225600,5982.4283,5982.4283,5982.4283,5982.4283],[1560259800,5982.4283,5982.4283,5982.4283,5982.4283],[1560268800,5982.4283,5982.4283,5982.4283,5982.4283],[1560283200,5982.4283,5982.4283,5982.4283,5982.4283],[1560312000,5982.4283,5982.4283,5982.4283,5982.4283],[1560346200,5982.4283,5982.4283,5982.4283,5982.4283],[1560355200,5982.4283,5982.4283,5982.4283,5982.4283],[1560369600,5982.4283,5982.4283,5982.4283,5982.4283],[1560398400,5982.4283,5982.4283,5982.4283,5982.4283],[1560432600,5982.4283,5982.4283,5982.4283,5982.4283],[1560441600,5982.4283,5982.4283,5982.4283,5982.4283],[1560456000,5982.4283,5982.4283,5982.4283,5982.4283],[1560484800,5982.4283,5982.4283,5982.4283,5982.4283],[1560519000,5982.4283,5982.4283,5982.4283,5982.4283],[1560528000,5982.4283,5982.4283,5982.4283,5982.4283],[1560542400,5982.4283,5982.4283,5982.4283,5982.4283],[1560571200,5982.4283,5982.4283,5982.4283,5982.4283],[1560657600,5982.4283,5982.4283,5982.4283,5982.4283],[1560744000,5982.4283,5982.4283,5982.4283,5982.4283],[1560778200,5982.4283,5982.4283,5982.4283,5982.4283],[1560787200,5982.4283,5982.4283,5982.4283,5982.4283],[1560801600,5982.4283,5982.4283,5982.4283,5982.4283],[1560830400,5982.4283,5982.4283,5982.4283,5982.4283],[1560864600,5982.4283,5982.4283,5982.4283,5982.4283],[1560873600,5982.4283,5982.4283,5982.4283,5982.4283],[1560888000,5982.4283,5982.4283,5982.4283,5982.4283],[1560916800,5982.4283,5982.4283,5982.4283,5982.4283],[1560951000,5977.6423,5977.6423,5977.6423,5977.6423],[1560960000,5977.6423,5977.6423,5977.6423,5977.6423],[1560974400,5977.6423,5977.6423,5977.6423,5977.6423]]},
+        "Return": {"name":"Return","unit":"%","index":1,"seriesType":3,"values":[[1553745600,0.0],[1553832000,-0.07993605],[1553918400,-40.07996],[1554004800,0.0],[1554091200,0.0],[1554177600,0.0],[1554264000,0.0],[1554350400,0.0],[1554436800,0.0],[1554523200,0.0],[1554609600,0.0],[1554696000,0.0],[1554782400,0.0],[1554868800,0.0],[1554955200,0.0],[1555041600,0.0],[1555128000,0.0],[1555214400,0.0],[1555300800,0.0],[1555387200,0.0],[1555473600,0.0],[1555560000,0.0],[1555646400,0.0],[1555732800,0.0],[1555819200,0.0],[1555905600,0.0],[1555992000,0.0],[1556078400,0.0],[1556164800,0.0],[1556251200,0.0],[1556337600,0.0],[1556424000,0.0],[1556510400,0.0],[1556596800,0.0],[1556683200,0.0],[1556769600,0.0],[1556856000,-0.03998401],[1556942400,0.0],[1557028800,0.0],[1557115200,0.0],[1557201600,0.0],[1557288000,0.0],[1557374400,0.0],[1557460800,0.0],[1557547200,0.0],[1557633600,0.0],[1557720000,0.0],[1557806400,0.0],[1557892800,0.0],[1557979200,0.0],[1558065600,0.0],[1558152000,0.0],[1558238400,0.0],[1558324800,0.0],[1558411200,0.0],[1558497600,0.0],[1558584000,0.0],[1558670400,-0.03996803],[1558756800,0.0],[1558843200,0.0],[1558929600,0.0],[1559016000,0.0],[1559102400,0.0],[1559188800,0.0],[1559275200,0.0],[1559361600,0.0],[1559448000,0.0],[1559534400,0.0],[1559620800,0.0],[1559707200,0.0],[1559793600,0.0],[1559880000,0.0],[1559966400,0.0],[1560052800,0.0],[1560139200,0.0],[1560225600,0.0],[1560312000,0.0],[1560398400,0.0],[1560484800,0.0],[1560571200,0.0],[1560657600,0.0],[1560744000,0.0],[1560830400,0.0],[1560916800,0.0],[1560974400,-0.08]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Capacity": {
+      "name": "Capacity",
+      "chartType": 0,
+      "series": {
+        "Strategy Capacity": {"name":"Strategy Capacity","unit":"$","index":0,"seriesType":0,"values":[[1553745600,0.0],[1553832000,0.0],[1553918400,0.0],[1554004800,0.0],[1554091200,0.0],[1554177600,0.0],[1554264000,0.0],[1554350400,0.0],[1554436800,0.0],[1554523200,0.0],[1554609600,0.0],[1554696000,0.0],[1554782400,0.0],[1554868800,0.0],[1554955200,0.0],[1555041600,0.0],[1555128000,0.0],[1555214400,0.0],[1555300800,0.0],[1555387200,0.0],[1555473600,0.0],[1555560000,0.0],[1555646400,0.0],[1555732800,0.0],[1555819200,0.0],[1555905600,0.0],[1555992000,0.0],[1556078400,0.0],[1556164800,0.0],[1556251200,0.0],[1556337600,0.0],[1556424000,0.0],[1556510400,0.0],[1556596800,0.0],[1556683200,0.0],[1556769600,0.0],[1556856000,0.0],[1556942400,0.0],[1557028800,0.0],[1557115200,0.0],[1557201600,0.0],[1557288000,0.0],[1557374400,0.0],[1557460800,0.0],[1557547200,0.0],[1557633600,0.0],[1557720000,0.0],[1557806400,0.0],[1557892800,0.0],[1557979200,0.0],[1558065600,0.0],[1558152000,0.0],[1558238400,0.0],[1558324800,0.0],[1558411200,0.0],[1558497600,0.0],[1558584000,0.0],[1558670400,0.0],[1558756800,0.0],[1558843200,0.0],[1558929600,0.0],[1559016000,0.0],[1559102400,0.0],[1559188800,0.0],[1559275200,0.0],[1559361600,0.0],[1559448000,0.0],[1559534400,0.0],[1559620800,0.0],[1559707200,0.0],[1559793600,0.0],[1559880000,0.0],[1559966400,0.0],[1560052800,0.0],[1560139200,0.0],[1560225600,0.0],[1560312000,0.0],[1560398400,0.0],[1560484800,0.0],[1560571200,0.0],[1560657600,0.0],[1560744000,0.0],[1560830400,0.0],[1560916800,0.0],[1560974400,0.0]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Assets Sales Volume": {
+      "name": "Assets Sales Volume",
+      "chartType": 0,
+      "series": {
+        "SIM_0": {"name":"SIM_0","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_1": {"name":"SIM_1","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_2": {"name":"SIM_2","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_3": {"name":"SIM_3","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_4": {"name":"SIM_4","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_5": {"name":"SIM_5","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_6": {"name":"SIM_6","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_7": {"name":"SIM_7","unit":"$","index":0,"seriesType":7,"values":[[1553832000,999.2006],[1553918400,1498.3014],[1554004800,1498.3014],[1554091200,1498.3014],[1554177600,1498.3014],[1554264000,1498.3014],[1554350400,1498.3014],[1554436800,1498.3014],[1554523200,1498.3014],[1554609600,1498.3014],[1554696000,1498.3014],[1554782400,1498.3014],[1554868800,1498.3014],[1554955200,1498.3014],[1555041600,1498.3014],[1555128000,1498.3014],[1555214400,1498.3014],[1555300800,1498.3014],[1555387200,1498.3014],[1555473600,1498.3014],[1555560000,1498.3014],[1555646400,1498.3014],[1555732800,1498.3014],[1555819200,1498.3014],[1555905600,1498.3014],[1555992000,1498.3014],[1556078400,1498.3014],[1556164800,1498.3014],[1556251200,1498.3014],[1556337600,1498.3014],[1556424000,1498.3014],[1556510400,1498.3014],[1556596800,1498.3014],[1556683200,1498.3014],[1556769600,1498.3014],[1556856000,1797.5424],[1556942400,1797.5424],[1557028800,1797.5424],[1557115200,1797.5424],[1557201600,1797.5424],[1557288000,1797.5424],[1557374400,1797.5424],[1557460800,1797.5424],[1557547200,1797.5424],[1557633600,1797.5424],[1557720000,1797.5424],[1557806400,1797.5424],[1557892800,1797.5424],[1557979200,1797.5424],[1558065600,1797.5424],[1558152000,1797.5424],[1558238400,1797.5424],[1558324800,1797.5424],[1558411200,1797.5424],[1558497600,1797.5424],[1558584000,1797.5424],[1558670400,2096.5442],[1558756800,2096.5442],[1558843200,2096.5442],[1558929600,2096.5442],[1559016000,2096.5442],[1559102400,2096.5442],[1559188800,2096.5442],[1559275200,2096.5442],[1559361600,2096.5442],[1559448000,2096.5442],[1559534400,2096.5442],[1559620800,2096.5442],[1559707200,2096.5442],[1559793600,2096.5442],[1559880000,2096.5442],[1559966400,2096.5442],[1560052800,2096.5442],[1560139200,2096.5442],[1560225600,2096.5442],[1560312000,2096.5442],[1560398400,2096.5442],[1560484800,2096.5442],[1560571200,2096.5442],[1560657600,2096.5442],[1560744000,2096.5442],[1560830400,2096.5442],[1560916800,2096.5442],[1560974400,2694.7870]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Portfolio Margin": {
+      "name": "Portfolio Margin",
+      "chartType": 0,
+      "series": {
+        "SIM_0": {"name":"SIM_0","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_1": {"name":"SIM_1","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_2": {"name":"SIM_2","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_3": {"name":"SIM_3","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_4": {"name":"SIM_4","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_5": {"name":"SIM_5","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_6": {"name":"SIM_6","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"},
+        "SIM_7": {"name":"SIM_7","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1553832000,10.0],[1556856000,5.0],[1556942400,5.0],[1557028800,5.0],[1557115200,5.0],[1557201600,5.0],[1557288000,5.0],[1557374400,5.0],[1557460800,5.0],[1557547200,5.0],[1557633600,5.0],[1557720000,5.0],[1557806400,5.0],[1557892800,5.0],[1557979200,5.0],[1558065600,5.0],[1558152000,5.0],[1558238400,5.0],[1558324800,5.0],[1558411200,5.0],[1558497600,5.0],[1558584000,5.0],[1558670400,10.0],[1558756800,10.0],[1558843200,10.0],[1558929600,10.0],[1559016000,10.0],[1559102400,10.0],[1559188800,10.0],[1559275200,10.0],[1559361600,10.0],[1559448000,10.0],[1559534400,10.0],[1559620800,10.0],[1559707200,10.0],[1559793600,10.0],[1559880000,10.0],[1559966400,10.0],[1560052800,10.0],[1560139200,10.0],[1560225600,10.0],[1560312000,10.0],[1560398400,10.0],[1560484800,10.0],[1560571200,10.0],[1560657600,10.0],[1560744000,10.0],[1560830400,10.0],[1560916800,10.0]],"color":"","scatterMarkerSymbol":"none"}
+      },
+      "legendDisabled": true
+    },
+    "Benchmark": {
+      "name": "Benchmark",
+      "chartType": 0,
+      "series": {
+        "Benchmark": {"name":"Benchmark","unit":"$","index":0,"seriesType":0,"values":[[1553745600,10000.0],[1553832000,10000.0],[1553918400,10000.0],[1554004800,10000.0],[1554091200,10000.0],[1554177600,10000.0],[1554264000,10000.0],[1554350400,10000.0],[1554436800,10000.0],[1554523200,10000.0],[1554609600,10000.0],[1554696000,10000.0],[1554782400,10000.0],[1554868800,10000.0],[1554955200,10000.0],[1555041600,10000.0],[1555128000,10000.0],[1555214400,10000.0],[1555300800,10000.0],[1555387200,10000.0],[1555473600,10000.0],[1555560000,10000.0],[1555646400,10000.0],[1555732800,10000.0],[1555819200,10000.0],[1555905600,10000.0],[1555992000,10000.0],[1556078400,10000.0],[1556164800,10000.0],[1556251200,10000.0],[1556337600,10000.0],[1556424000,10000.0],[1556510400,10000.0],[1556596800,10000.0],[1556683200,10000.0],[1556769600,10000.0],[1556856000,10000.0],[1556942400,10000.0],[1557028800,10000.0],[1557115200,10000.0],[1557201600,10000.0],[1557288000,10000.0],[1557374400,10000.0],[1557460800,10000.0],[1557547200,10000.0],[1557633600,10000.0],[1557720000,10000.0],[1557806400,10000.0],[1557892800,10000.0],[1557979200,10000.0],[1558065600,10000.0],[1558152000,10000.0],[1558238400,10000.0],[1558324800,10000.0],[1558411200,10000.0],[1558497600,10000.0],[1558584000,10000.0],[1558670400,10000.0],[1558756800,10000.0],[1558843200,10000.0],[1558929600,10000.0],[1559016000,10000.0],[1559102400,10000.0],[1559188800,10000.0],[1559275200,10000.0],[1559361600,10000.0],[1559448000,10000.0],[1559534400,10000.0],[1559620800,10000.0],[1559707200,10000.0],[1559793600,10000.0],[1559880000,10000.0],[1559966400,10000.0],[1560052800,10000.0],[1560139200,10000.0],[1560225600,10000.0],[1560312000,10000.0],[1560398400,10000.0],[1560484800,10000.0],[1560571200,10000.0],[1560657600,10000.0],[1560744000,10000.0],[1560830400,10000.0],[1560916800,10000.0],[1560974400,10000.0]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    }
+  },
+  "orders": {
+    "1": {
+      "type": 0,
+      "id": 1,
+      "contingentId": 0,
+      "brokerId": [
+        "1"
+      ],
+      "symbol": {
+        "value": "SIM_0",
+        "id": "SIM_0.H60Phase 2S",
+        "permtick": "SIM_0"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-1",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "2": {
+      "type": 0,
+      "id": 2,
+      "contingentId": 0,
+      "brokerId": [
+        "2"
+      ],
+      "symbol": {
+        "value": "SIM_1",
+        "id": "SIM_1.H60Phase 2S",
+        "permtick": "SIM_1"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-2",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "3": {
+      "type": 0,
+      "id": 3,
+      "contingentId": 0,
+      "brokerId": [
+        "3"
+      ],
+      "symbol": {
+        "value": "SIM_2",
+        "id": "SIM_2.H60Phase 2S",
+        "permtick": "SIM_2"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-3",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "4": {
+      "type": 0,
+      "id": 4,
+      "contingentId": 0,
+      "brokerId": [
+        "4"
+      ],
+      "symbol": {
+        "value": "SIM_3",
+        "id": "SIM_3.H60Phase 2S",
+        "permtick": "SIM_3"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-4",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "5": {
+      "type": 0,
+      "id": 5,
+      "contingentId": 0,
+      "brokerId": [
+        "5"
+      ],
+      "symbol": {
+        "value": "SIM_4",
+        "id": "SIM_4.H60Phase 2S",
+        "permtick": "SIM_4"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-5",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "6": {
+      "type": 0,
+      "id": 6,
+      "contingentId": 0,
+      "brokerId": [
+        "6"
+      ],
+      "symbol": {
+        "value": "SIM_5",
+        "id": "SIM_5.H60Phase 2S",
+        "permtick": "SIM_5"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-6",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "7": {
+      "type": 0,
+      "id": 7,
+      "contingentId": 0,
+      "brokerId": [
+        "7"
+      ],
+      "symbol": {
+        "value": "SIM_6",
+        "id": "SIM_6.H60Phase 2S",
+        "permtick": "SIM_6"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-7",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "8": {
+      "type": 0,
+      "id": 8,
+      "contingentId": 0,
+      "brokerId": [
+        "8"
+      ],
+      "symbol": {
+        "value": "SIM_7",
+        "id": "SIM_7.H60Phase 2S",
+        "permtick": "SIM_7"
+      },
+      "price": 100.0,
+      "priceCurrency": "USD",
+      "time": "2019-03-28T13:30:00Z",
+      "createdTime": "2019-03-28T13:30:00Z",
+      "lastFillTime": "2019-03-28T13:30:00Z",
+      "quantity": 9.992006394884,
+      "status": 3,
+      "tag": "h60-8",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 999.200639488400,
+      "orderSubmissionData": {
+        "bidPrice": 100.0,
+        "askPrice": 100.0,
+        "lastPrice": 100.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "9": {
+      "type": 0,
+      "id": 9,
+      "contingentId": 0,
+      "brokerId": [
+        "9"
+      ],
+      "symbol": {
+        "value": "SIM_0",
+        "id": "SIM_0.H60Phase 2S",
+        "permtick": "SIM_0"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-9",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "10": {
+      "type": 0,
+      "id": 10,
+      "contingentId": 0,
+      "brokerId": [
+        "10"
+      ],
+      "symbol": {
+        "value": "SIM_1",
+        "id": "SIM_1.H60Phase 2S",
+        "permtick": "SIM_1"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-10",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "11": {
+      "type": 0,
+      "id": 11,
+      "contingentId": 0,
+      "brokerId": [
+        "11"
+      ],
+      "symbol": {
+        "value": "SIM_2",
+        "id": "SIM_2.H60Phase 2S",
+        "permtick": "SIM_2"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-11",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "12": {
+      "type": 0,
+      "id": 12,
+      "contingentId": 0,
+      "brokerId": [
+        "12"
+      ],
+      "symbol": {
+        "value": "SIM_3",
+        "id": "SIM_3.H60Phase 2S",
+        "permtick": "SIM_3"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-12",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "13": {
+      "type": 0,
+      "id": 13,
+      "contingentId": 0,
+      "brokerId": [
+        "13"
+      ],
+      "symbol": {
+        "value": "SIM_4",
+        "id": "SIM_4.H60Phase 2S",
+        "permtick": "SIM_4"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-13",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "14": {
+      "type": 0,
+      "id": 14,
+      "contingentId": 0,
+      "brokerId": [
+        "14"
+      ],
+      "symbol": {
+        "value": "SIM_5",
+        "id": "SIM_5.H60Phase 2S",
+        "permtick": "SIM_5"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-14",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "15": {
+      "type": 0,
+      "id": 15,
+      "contingentId": 0,
+      "brokerId": [
+        "15"
+      ],
+      "symbol": {
+        "value": "SIM_6",
+        "id": "SIM_6.H60Phase 2S",
+        "permtick": "SIM_6"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-15",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "16": {
+      "type": 0,
+      "id": 16,
+      "contingentId": 0,
+      "brokerId": [
+        "16"
+      ],
+      "symbol": {
+        "value": "SIM_7",
+        "id": "SIM_7.H60Phase 2S",
+        "permtick": "SIM_7"
+      },
+      "price": 49.95,
+      "priceCurrency": "USD",
+      "time": "2019-03-29T13:30:00Z",
+      "createdTime": "2019-03-29T13:30:00Z",
+      "lastFillTime": "2019-03-29T13:30:00Z",
+      "quantity": -9.992006394884,
+      "status": 3,
+      "tag": "h60-16",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -499.10071942445580,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "17": {
+      "type": 0,
+      "id": 17,
+      "contingentId": 0,
+      "brokerId": [
+        "17"
+      ],
+      "symbol": {
+        "value": "SIM_0",
+        "id": "SIM_0.H60Phase 2S",
+        "permtick": "SIM_0"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-17",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "18": {
+      "type": 0,
+      "id": 18,
+      "contingentId": 0,
+      "brokerId": [
+        "18"
+      ],
+      "symbol": {
+        "value": "SIM_1",
+        "id": "SIM_1.H60Phase 2S",
+        "permtick": "SIM_1"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-18",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "19": {
+      "type": 0,
+      "id": 19,
+      "contingentId": 0,
+      "brokerId": [
+        "19"
+      ],
+      "symbol": {
+        "value": "SIM_2",
+        "id": "SIM_2.H60Phase 2S",
+        "permtick": "SIM_2"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-19",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "20": {
+      "type": 0,
+      "id": 20,
+      "contingentId": 0,
+      "brokerId": [
+        "20"
+      ],
+      "symbol": {
+        "value": "SIM_3",
+        "id": "SIM_3.H60Phase 2S",
+        "permtick": "SIM_3"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-20",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "21": {
+      "type": 0,
+      "id": 21,
+      "contingentId": 0,
+      "brokerId": [
+        "21"
+      ],
+      "symbol": {
+        "value": "SIM_4",
+        "id": "SIM_4.H60Phase 2S",
+        "permtick": "SIM_4"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-21",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "22": {
+      "type": 0,
+      "id": 22,
+      "contingentId": 0,
+      "brokerId": [
+        "22"
+      ],
+      "symbol": {
+        "value": "SIM_5",
+        "id": "SIM_5.H60Phase 2S",
+        "permtick": "SIM_5"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-22",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "23": {
+      "type": 0,
+      "id": 23,
+      "contingentId": 0,
+      "brokerId": [
+        "23"
+      ],
+      "symbol": {
+        "value": "SIM_6",
+        "id": "SIM_6.H60Phase 2S",
+        "permtick": "SIM_6"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-23",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "24": {
+      "type": 0,
+      "id": 24,
+      "contingentId": 0,
+      "brokerId": [
+        "24"
+      ],
+      "symbol": {
+        "value": "SIM_7",
+        "id": "SIM_7.H60Phase 2S",
+        "permtick": "SIM_7"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-02T13:30:00Z",
+      "createdTime": "2019-05-02T13:30:00Z",
+      "lastFillTime": "2019-05-02T13:30:00Z",
+      "quantity": 5.984820300496,
+      "status": 3,
+      "tag": "h60-24",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.241015024800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "25": {
+      "type": 0,
+      "id": 25,
+      "contingentId": 0,
+      "brokerId": [
+        "25"
+      ],
+      "symbol": {
+        "value": "SIM_0",
+        "id": "SIM_0.H60Phase 2S",
+        "permtick": "SIM_0"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-25",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "26": {
+      "type": 0,
+      "id": 26,
+      "contingentId": 0,
+      "brokerId": [
+        "26"
+      ],
+      "symbol": {
+        "value": "SIM_1",
+        "id": "SIM_1.H60Phase 2S",
+        "permtick": "SIM_1"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-26",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "27": {
+      "type": 0,
+      "id": 27,
+      "contingentId": 0,
+      "brokerId": [
+        "27"
+      ],
+      "symbol": {
+        "value": "SIM_2",
+        "id": "SIM_2.H60Phase 2S",
+        "permtick": "SIM_2"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-27",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "28": {
+      "type": 0,
+      "id": 28,
+      "contingentId": 0,
+      "brokerId": [
+        "28"
+      ],
+      "symbol": {
+        "value": "SIM_3",
+        "id": "SIM_3.H60Phase 2S",
+        "permtick": "SIM_3"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-28",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "29": {
+      "type": 0,
+      "id": 29,
+      "contingentId": 0,
+      "brokerId": [
+        "29"
+      ],
+      "symbol": {
+        "value": "SIM_4",
+        "id": "SIM_4.H60Phase 2S",
+        "permtick": "SIM_4"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-29",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "30": {
+      "type": 0,
+      "id": 30,
+      "contingentId": 0,
+      "brokerId": [
+        "30"
+      ],
+      "symbol": {
+        "value": "SIM_5",
+        "id": "SIM_5.H60Phase 2S",
+        "permtick": "SIM_5"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-30",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "31": {
+      "type": 0,
+      "id": 31,
+      "contingentId": 0,
+      "brokerId": [
+        "31"
+      ],
+      "symbol": {
+        "value": "SIM_6",
+        "id": "SIM_6.H60Phase 2S",
+        "permtick": "SIM_6"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-31",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "32": {
+      "type": 0,
+      "id": 32,
+      "contingentId": 0,
+      "brokerId": [
+        "32"
+      ],
+      "symbol": {
+        "value": "SIM_7",
+        "id": "SIM_7.H60Phase 2S",
+        "permtick": "SIM_7"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-05-23T13:30:00Z",
+      "createdTime": "2019-05-23T13:30:00Z",
+      "lastFillTime": "2019-05-23T13:30:00Z",
+      "quantity": 5.98003627148,
+      "status": 3,
+      "tag": "h60-32",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 299.00181357400,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "33": {
+      "type": 0,
+      "id": 33,
+      "contingentId": 0,
+      "brokerId": [
+        "33"
+      ],
+      "symbol": {
+        "value": "SIM_0",
+        "id": "SIM_0.H60Phase 2S",
+        "permtick": "SIM_0"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-33",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "34": {
+      "type": 0,
+      "id": 34,
+      "contingentId": 0,
+      "brokerId": [
+        "34"
+      ],
+      "symbol": {
+        "value": "SIM_1",
+        "id": "SIM_1.H60Phase 2S",
+        "permtick": "SIM_1"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-34",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "35": {
+      "type": 0,
+      "id": 35,
+      "contingentId": 0,
+      "brokerId": [
+        "35"
+      ],
+      "symbol": {
+        "value": "SIM_2",
+        "id": "SIM_2.H60Phase 2S",
+        "permtick": "SIM_2"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-35",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "36": {
+      "type": 0,
+      "id": 36,
+      "contingentId": 0,
+      "brokerId": [
+        "36"
+      ],
+      "symbol": {
+        "value": "SIM_3",
+        "id": "SIM_3.H60Phase 2S",
+        "permtick": "SIM_3"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-36",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "37": {
+      "type": 0,
+      "id": 37,
+      "contingentId": 0,
+      "brokerId": [
+        "37"
+      ],
+      "symbol": {
+        "value": "SIM_4",
+        "id": "SIM_4.H60Phase 2S",
+        "permtick": "SIM_4"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-37",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "38": {
+      "type": 0,
+      "id": 38,
+      "contingentId": 0,
+      "brokerId": [
+        "38"
+      ],
+      "symbol": {
+        "value": "SIM_5",
+        "id": "SIM_5.H60Phase 2S",
+        "permtick": "SIM_5"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-38",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "39": {
+      "type": 0,
+      "id": 39,
+      "contingentId": 0,
+      "brokerId": [
+        "39"
+      ],
+      "symbol": {
+        "value": "SIM_6",
+        "id": "SIM_6.H60Phase 2S",
+        "permtick": "SIM_6"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-39",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "40": {
+      "type": 0,
+      "id": 40,
+      "contingentId": 0,
+      "brokerId": [
+        "40"
+      ],
+      "symbol": {
+        "value": "SIM_7",
+        "id": "SIM_7.H60Phase 2S",
+        "permtick": "SIM_7"
+      },
+      "price": 50.0,
+      "priceCurrency": "USD",
+      "time": "2019-06-19T13:30:00Z",
+      "createdTime": "2019-06-19T13:30:00Z",
+      "lastFillTime": "2019-06-19T13:30:00Z",
+      "quantity": -11.964856571976,
+      "status": 3,
+      "tag": "h60-40",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -598.242828598800,
+      "orderSubmissionData": {
+        "bidPrice": 50.0,
+        "askPrice": 50.0,
+        "lastPrice": 50.0
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    }
+  },
+  "profitLoss": {
+    "2019-03-29T13:30:00Z": -501.09812150279311166,
+    "2019-03-29T13:30:00.001Z": -501.09812150279311166,
+    "2019-03-29T13:30:00.002Z": -501.09812150279311166,
+    "2019-03-29T13:30:00.003Z": -501.09812150279311166,
+    "2019-03-29T13:30:00.004Z": -501.09812150279311166,
+    "2019-03-29T13:30:00.005Z": -501.09812150279311166,
+    "2019-03-29T13:30:00.006Z": -501.09812150279311166,
+    "2019-03-29T13:30:00.007Z": -501.09812150279311166,
+    "2019-06-19T13:30:00Z": -1.1964856571976,
+    "2019-06-19T13:30:00.001Z": -1.1964856571976,
+    "2019-06-19T13:30:00.002Z": -1.1964856571976,
+    "2019-06-19T13:30:00.003Z": -1.1964856571976,
+    "2019-06-19T13:30:00.004Z": -1.1964856571976,
+    "2019-06-19T13:30:00.005Z": -1.1964856571976,
+    "2019-06-19T13:30:00.006Z": -1.1964856571976,
+    "2019-06-19T13:30:00.007Z": -1.1964856571976
+  },
+  "statistics": {
+    "Total Orders": "40",
+    "Average Win": "0%",
+    "Average Loss": "-3.11%",
+    "Compounding Annual Return": "-89.405%",
+    "Drawdown": "40.200%",
+    "Expectancy": "-1",
+    "Start Equity": "10000",
+    "End Equity": "5977.64",
+    "Net Profit": "-40.224%",
+    "Sharpe Ratio": "-1.026",
+    "Sortino Ratio": "-0.225",
+    "Probabilistic Sharpe Ratio": "0.066%",
+    "Loss Rate": "100%",
+    "Win Rate": "0%",
+    "Profit-Loss Ratio": "0",
+    "Alpha": "0",
+    "Beta": "0",
+    "Annual Standard Deviation": "0.698",
+    "Annual Variance": "0.488",
+    "Information Ratio": "-1.011",
+    "Tracking Error": "0.698",
+    "Treynor Ratio": "0",
+    "Total Fees": "$21.56",
+    "Estimated Strategy Capacity": "$0",
+    "Lowest Capacity Asset": "SIM_0.H60Phase 2S",
+    "Portfolio Turnover": "3.65%",
+    "Drawdown Recovery": "0"
+  },
+  "runtimeStatistics": {
+    "Equity": "$5,977.64",
+    "Fees": "-$21.56",
+    "Holdings": "$0.00",
+    "Net Profit": "$-4,022.36",
+    "Probabilistic Sharpe Ratio": "0.066%",
+    "Return": "-40.22 %",
+    "Unrealized": "$0.00",
+    "Volume": "$21,558.30"
+  },
+  "state": {
+    "StartTime": "2026-09-11T02:43:55Z",
+    "EndTime": "2026-09-11T02:43:59Z",
+    "RuntimeError": "",
+    "StackTrace": "",
+    "LogCount": "5",
+    "OrderCount": "40",
+    "InsightCount": "0",
+    "Name": "local",
+    "Hostname": "MGOD",
+    "Status": "Completed"
+  },
+  "serverStatistics": {
+    "CPU Usage": "0.0%",
+    "Used RAM (MB)": "180",
+    "Total RAM (MB)": "2147483647",
+    "Hostname": "MGOD",
+    "LEAN Version": "v2.5.0.0",
+    "Up Time": "0d 00:00:04"
+  },
+  "algorithmConfiguration": {
+    "name": "local",
+    "tags": [],
+    "accountCurrency": "USD",
+    "brokerage": 0,
+    "accountType": 0,
+    "parameters": {
+      "h60-package-path": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\synthetic_input\\package.json",
+      "h60-output-dir": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\synthetic_risk_01"
+    },
+    "outOfSampleMaxEndDate": null,
+    "outOfSampleDays": 0,
+    "startDate": "2019-03-28T00:00:00Z",
+    "endDate": "2019-06-19T23:59:59Z",
+    "tradingDaysPerYear": 252
+  },
+  "totalPerformance": {
+    "tradeStatistics": {
+      "startDateTime": "2019-03-28T13:30:00Z",
+      "endDateTime": "2019-06-19T13:30:00Z",
+      "totalNumberOfTrades": 24,
+      "numberOfWinningTrades": 0,
+      "numberOfLosingTrades": 24,
+      "totalProfitLoss": "-4000.80",
+      "totalProfit": "0",
+      "totalLoss": "-4000.80",
+      "largestProfit": "0",
+      "largestLoss": "-500.10",
+      "averageProfitLoss": "-166.7000",
+      "averageProfit": "0",
+      "averageLoss": "-166.7000",
+      "averageTradeDuration": "25.07:59:59.9999995",
+      "averageWinningTradeDuration": "00:00:00",
+      "averageLosingTradeDuration": "25.07:59:59.9999995",
+      "medianTradeDuration": "27.00:00:00",
+      "medianWinningTradeDuration": "00:00:00",
+      "medianLosingTradeDuration": "27.00:00:00",
+      "maxConsecutiveWinningTrades": 0,
+      "maxConsecutiveLosingTrades": 24,
+      "profitLossRatio": "0",
+      "winLossRatio": "0",
+      "winRate": "0",
+      "lossRate": "1",
+      "averageMAE": "-166.7000",
+      "averageMFE": "0",
+      "largestMAE": "-500.10",
+      "largestMFE": "0",
+      "maximumClosedTradeDrawdown": "-4000.80",
+      "maximumIntraTradeDrawdown": "-4000.80",
+      "profitLossStandardDeviation": "240.8199",
+      "profitLossDownsideDeviation": "240.8199",
+      "profitFactor": "0",
+      "sharpeRatio": "-0.6922",
+      "sortinoRatio": "-0.6922",
+      "profitToMaxDrawdownRatio": "-1",
+      "maximumEndTradeDrawdown": "500.10",
+      "averageEndTradeDrawdown": "-166.7000",
+      "maximumDrawdownDuration": "00:00:00",
+      "totalFees": "21.5583"
+    },
+    "portfolioStatistics": {
+      "averageWinRate": "0",
+      "averageLossRate": "-0.0311",
+      "profitLossRatio": "0",
+      "winRate": "0",
+      "lossRate": "1",
+      "expectancy": "-1",
+      "startEquity": "10000",
+      "endEquity": "5977.6423",
+      "compoundingAnnualReturn": "-0.8941",
+      "drawdown": "0.402",
+      "totalNetProfit": "-0.4022",
+      "sharpeRatio": "-1.0255",
+      "probabilisticSharpeRatio": "0.0007",
+      "sortinoRatio": "-0.2254",
+      "alpha": "0",
+      "beta": "0",
+      "annualStandardDeviation": "0.6983",
+      "annualVariance": "0.4877",
+      "informationRatio": "-1.0112",
+      "trackingError": "0.6983",
+      "treynorRatio": "0",
+      "portfolioTurnover": "0.0365",
+      "valueAtRisk99": "-0.107",
+      "valueAtRisk95": "-0.077",
+      "drawdownRecovery": "0"
+    },
+    "closedTrades": [
+      {
+        "id": "737f00ca-c592-4243-8ca7-66dd985ed819",
+        "symbols": [
+          {
+            "value": "SIM_0",
+            "id": "SIM_0.H60Phase 2S",
+            "permtick": "SIM_0"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          1,
+          9
+        ]
+      },
+      {
+        "id": "54aab3ef-3c60-4fd9-a6aa-959b7c617123",
+        "symbols": [
+          {
+            "value": "SIM_1",
+            "id": "SIM_1.H60Phase 2S",
+            "permtick": "SIM_1"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          2,
+          10
+        ]
+      },
+      {
+        "id": "a688342c-263a-4500-848f-ece1f68d0137",
+        "symbols": [
+          {
+            "value": "SIM_2",
+            "id": "SIM_2.H60Phase 2S",
+            "permtick": "SIM_2"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          3,
+          11
+        ]
+      },
+      {
+        "id": "9d886a92-635f-4600-b38e-c6a00996c2c1",
+        "symbols": [
+          {
+            "value": "SIM_3",
+            "id": "SIM_3.H60Phase 2S",
+            "permtick": "SIM_3"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          4,
+          12
+        ]
+      },
+      {
+        "id": "a8724cde-0eff-4825-b5bf-cf7f04cb7b27",
+        "symbols": [
+          {
+            "value": "SIM_4",
+            "id": "SIM_4.H60Phase 2S",
+            "permtick": "SIM_4"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          5,
+          13
+        ]
+      },
+      {
+        "id": "ea50a83e-38e4-4392-9d0a-938d73120aa4",
+        "symbols": [
+          {
+            "value": "SIM_5",
+            "id": "SIM_5.H60Phase 2S",
+            "permtick": "SIM_5"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          6,
+          14
+        ]
+      },
+      {
+        "id": "d2eb7be1-c104-455d-b7a2-689424572571",
+        "symbols": [
+          {
+            "value": "SIM_6",
+            "id": "SIM_6.H60Phase 2S",
+            "permtick": "SIM_6"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          7,
+          15
+        ]
+      },
+      {
+        "id": "8bff268b-1af9-42a0-9253-1de6b4f96919",
+        "symbols": [
+          {
+            "value": "SIM_7",
+            "id": "SIM_7.H60Phase 2S",
+            "permtick": "SIM_7"
+          }
+        ],
+        "entryTime": "2019-03-28T13:30:00Z",
+        "entryPrice": 100.0,
+        "direction": 0,
+        "quantity": 9.992006394884,
+        "exitTime": "2019-03-29T13:30:00Z",
+        "exitPrice": 49.95,
+        "profitLoss": -500.10,
+        "totalFees": 1.49830135891285583,
+        "mae": -500.10,
+        "mfe": 0.0,
+        "duration": "1.00:00:00",
+        "endTradeDrawdown": 500.10,
+        "isWin": false,
+        "orderIds": [
+          8,
+          16
+        ]
+      },
+      {
+        "id": "9b7f85ca-d3c6-46e4-927a-ec75ace68ff9",
+        "symbols": [
+          {
+            "value": "SIM_0",
+            "id": "SIM_0.H60Phase 2S",
+            "permtick": "SIM_0"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          17,
+          33
+        ]
+      },
+      {
+        "id": "4e431d0d-527c-46c1-a0c7-63d423cfa7fe",
+        "symbols": [
+          {
+            "value": "SIM_0",
+            "id": "SIM_0.H60Phase 2S",
+            "permtick": "SIM_0"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          25,
+          33
+        ]
+      },
+      {
+        "id": "50468300-a4ab-4c48-a321-84f47b15c168",
+        "symbols": [
+          {
+            "value": "SIM_1",
+            "id": "SIM_1.H60Phase 2S",
+            "permtick": "SIM_1"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          18,
+          34
+        ]
+      },
+      {
+        "id": "af17fa21-cc57-4524-a41a-aa4be0a54c26",
+        "symbols": [
+          {
+            "value": "SIM_1",
+            "id": "SIM_1.H60Phase 2S",
+            "permtick": "SIM_1"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          26,
+          34
+        ]
+      },
+      {
+        "id": "3788f0ab-c432-48d8-b45b-a20ca7730b80",
+        "symbols": [
+          {
+            "value": "SIM_2",
+            "id": "SIM_2.H60Phase 2S",
+            "permtick": "SIM_2"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          19,
+          35
+        ]
+      },
+      {
+        "id": "5dd15409-f092-4eb6-9147-fa4cbdf00031",
+        "symbols": [
+          {
+            "value": "SIM_2",
+            "id": "SIM_2.H60Phase 2S",
+            "permtick": "SIM_2"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          27,
+          35
+        ]
+      },
+      {
+        "id": "b302a98d-3dbc-4de0-adbf-5145e9605221",
+        "symbols": [
+          {
+            "value": "SIM_3",
+            "id": "SIM_3.H60Phase 2S",
+            "permtick": "SIM_3"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          20,
+          36
+        ]
+      },
+      {
+        "id": "58abe1d7-7041-42f7-bad1-1da9756474c4",
+        "symbols": [
+          {
+            "value": "SIM_3",
+            "id": "SIM_3.H60Phase 2S",
+            "permtick": "SIM_3"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          28,
+          36
+        ]
+      },
+      {
+        "id": "5fdf924f-2acf-47ed-8170-9c465c92e333",
+        "symbols": [
+          {
+            "value": "SIM_4",
+            "id": "SIM_4.H60Phase 2S",
+            "permtick": "SIM_4"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          21,
+          37
+        ]
+      },
+      {
+        "id": "f5f19df2-3f75-4464-b2b8-6b19c6b378f1",
+        "symbols": [
+          {
+            "value": "SIM_4",
+            "id": "SIM_4.H60Phase 2S",
+            "permtick": "SIM_4"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          29,
+          37
+        ]
+      },
+      {
+        "id": "2d188eab-0603-4f8a-8b75-d22f5ffd7741",
+        "symbols": [
+          {
+            "value": "SIM_5",
+            "id": "SIM_5.H60Phase 2S",
+            "permtick": "SIM_5"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          22,
+          38
+        ]
+      },
+      {
+        "id": "3c5ce352-2e54-4c06-8abe-ec464f6cdad3",
+        "symbols": [
+          {
+            "value": "SIM_5",
+            "id": "SIM_5.H60Phase 2S",
+            "permtick": "SIM_5"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          30,
+          38
+        ]
+      },
+      {
+        "id": "176b9cda-8ac6-4d63-b9f2-5a5b4b8e226d",
+        "symbols": [
+          {
+            "value": "SIM_6",
+            "id": "SIM_6.H60Phase 2S",
+            "permtick": "SIM_6"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          23,
+          39
+        ]
+      },
+      {
+        "id": "b17cf4f8-98c6-42ba-9b0d-ab945b77ae2c",
+        "symbols": [
+          {
+            "value": "SIM_6",
+            "id": "SIM_6.H60Phase 2S",
+            "permtick": "SIM_6"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          31,
+          39
+        ]
+      },
+      {
+        "id": "e8e1748a-e9d3-4b5f-973a-27bcef6485b5",
+        "symbols": [
+          {
+            "value": "SIM_7",
+            "id": "SIM_7.H60Phase 2S",
+            "permtick": "SIM_7"
+          }
+        ],
+        "entryTime": "2019-05-02T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.984820300496,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.8974838436236,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "48.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          24,
+          40
+        ]
+      },
+      {
+        "id": "8713adfe-dcaa-4704-9c60-e2bac401dcc0",
+        "symbols": [
+          {
+            "value": "SIM_7",
+            "id": "SIM_7.H60Phase 2S",
+            "permtick": "SIM_7"
+          }
+        ],
+        "entryTime": "2019-05-23T13:30:00Z",
+        "entryPrice": 50.0,
+        "direction": 0,
+        "quantity": 5.98003627148,
+        "exitTime": "2019-06-19T13:30:00Z",
+        "exitPrice": 50.0,
+        "profitLoss": 0.0,
+        "totalFees": 0.299001813574,
+        "mae": 0.0,
+        "mfe": 0.0,
+        "duration": "27.00:00:00",
+        "endTradeDrawdown": 0.0,
+        "isWin": false,
+        "orderIds": [
+          32,
+          40
+        ]
+      }
+    ]
+  },
+  "analysis": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2019-03-30T04:00:00",
+          "end": "2019-05-02T04:00:00",
+          "trading_days": 23
+        },
+        {
+          "start": "2019-05-24T04:00:00",
+          "end": "2019-06-19T04:00:00",
+          "trading_days": 18
+        },
+        {
+          "start": "2019-05-03T04:00:00",
+          "end": "2019-05-23T04:00:00",
+          "trading_days": 15
+        }
+      ],
+      "solutions": [
+        "Log how often each entry condition passes individually: when several conditions must align (trend, volume, indicator thresholds), it is common that they are never all true at the same time. Relax the single most restrictive condition and re-run, changing one condition per backtest instead of redesigning the strategy.",
+        "Check if you need to warm-up some data structures, including indicators, RollingWindow objects, and training data. Log how many assets pass IsReady or warm-up gates: they can silently exclude most of the universe.",
+        "Check if the algorithm subscribes to any assets. Is the universe selection actually selecting anything? Log the selection count on each rebalance.",
+        "Check custom data sources actually deliver data by logging the first points received: a reader or date-format error can silently produce no data and therefore no signals.",
+        "Check minimum-history or training-window requirements against the history the data source actually provides: if a model requires more history than exists, the trading logic may never activate.",
+        "Check if there is enough cash to satisfy the minimum order sizes."
+      ]
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 19",
+      "solutions": [
+        "Adjust the strategy logic or position sizing to utilize more margin.",
+        "If the algorithm logic leads to periods of time when the portfolio sits in cash, consider holding a \"risk-free\" asset during these periods."
+      ]
+    },
+    {
+      "name": "StatisticalSignificanceOfDailyReturnsAnalysis",
+      "issue": "The distribution of the strategy's daily returns in excess of the benchmark's daily returns has a p-value above 0.05. Therefore, we fail to reject the null hypothesis that the mean of this distribution is above zero.",
+      "sample": {
+        "pValue": 0.14199107134965722
+      },
+      "solutions": [
+        "Try adjusting the trading rules and/or the universe to get a strategy that outperforms the benchmark."
+      ]
+    }
+  ]
+}

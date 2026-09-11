@@ -8,7 +8,7 @@ from dataclasses import dataclass, asdict
 import numpy as np
 import pandas as pd
 
-from research_backtest import _check_dates, _rebalance
+from research_backtest import _check_dates, _rebalance, reduce_only
 
 
 @dataclass(frozen=True)
@@ -27,13 +27,17 @@ class Policy:
     pause_sessions: int = 20
     recovery_sessions: int = 10
     stock_cooldown: int = 5
+    soft_enabled: bool = True
+    hard_enabled: bool = True
 
 
 TECH_CLUSTER = frozenset(("AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META"))
 
 
-def risk_inputs(ohlc, spy_close):
+def risk_inputs(ohlc, spy_close, target_vol=.15):
     """所有结果在索引当天收盘后才可用；不回填预热缺失。"""
+    if not np.isfinite(target_vol) or not 0 < target_vol <= 1:
+        raise ValueError("SPY波动仓位参数必须在(0,1]。")
     close = ohlc["Close"]
     previous = close.shift(1)
     tr = np.maximum(ohlc["High"] - ohlc["Low"],
@@ -43,7 +47,7 @@ def risk_inputs(ohlc, spy_close):
     return dict(distance=pd.DataFrame(.15,index=close.index,columns=close.columns),
                 vol=returns.rolling(60).std(ddof=1), returns=returns,
                 trend=spy_close.ge(spy_close.rolling(200).mean()),
-                spy_exposure=(.15 / (spy_close.pct_change(fill_method=None)
+                spy_exposure=(target_vol / (spy_close.pct_change(fill_method=None)
                                     .rolling(20).std(ddof=1) * np.sqrt(252))).clip(upper=1))
 
 
@@ -106,6 +110,35 @@ def stop_fill(opened, low, threshold, extra_bps):
     return None, None
 
 
+def scheduled_weights(scores, holdings, risk, observation, groups, multiplier=1.,
+                      eligible=None, all_stocks=False, policy=Policy()):
+    """研究/前瞻/执行共同入口；risk中只索引已完成的观察日及其过去60日。"""
+    w, _ = allocate(scores, holdings, risk["distance"].iloc[observation],
+                    risk["vol"].iloc[observation],
+                    risk["returns"].iloc[observation-59:observation+1], groups,
+                    bool(risk["trend"].iloc[observation]), multiplier=multiplier,
+                    eligible=eligible, all_stocks=all_stocks, policy=policy)
+    exposure = float(risk["spy_exposure"].iloc[observation])
+    if not np.isfinite(exposure) or not 0 <= exposure <= 1:
+        raise ValueError("SPY历史波动仓位缺失或非法。")
+    return w * exposure
+
+
+def reduction_weights(previous_values, cash, pending_cap=None, soft=False):
+    """昨日收盘生成的只减仓上限；实际股数仍须由reduce_only按当时报价封顶。"""
+    w = previous_values / (cash + previous_values.sum())
+    if pending_cap is not None:
+        w = np.minimum(w, pending_cap)
+    return w * (.5 if soft else 1.)
+
+
+def protection_floor(previous, price, *, new_position=False, scheduled=False):
+    """v7原15%保护规则：只在入场/计划调仓更新，永不放宽已有底线。"""
+    if new_position:
+        return price * .85
+    return max(previous, price * .85) if scheduled else previous
+
+
 @dataclass
 class DrawdownState:
     episode_peak: float = 1.
@@ -119,12 +152,12 @@ class DrawdownState:
     def observe(self, day, equity, policy):
         self.episode_peak = max(self.episode_peak, equity)
         dd = equity / self.episode_peak - 1
-        if not self.paused and dd <= -policy.hard_dd:
+        if policy.hard_enabled and not self.paused and dd <= -policy.hard_dd:
             self.paused = self.pending_flat = True
             self.paused_until = day + 1 + policy.pause_sessions
             self.pending_half = False
             return "portfolio_halt"
-        if not self.paused and not self.soft and dd <= -policy.soft_dd:
+        if policy.soft_enabled and not self.paused and not self.soft and dd <= -policy.soft_dd:
             self.soft = self.pending_half = True
             return "portfolio_half"
         if not self.paused and self.soft and dd >= -policy.restore_dd:
@@ -170,12 +203,14 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
     if ((ohlc["Low"] > np.minimum(ohlc["Open"], ohlc["Close"]) + 1e-10).any().any()
             or (ohlc["High"] < np.maximum(ohlc["Open"], ohlc["Close"]) - 1e-10).any().any()):
         raise ValueError("OHLC关系非法。")
-    if mode not in ("risk", "incumbent", "equal", "spy"):
+    if mode not in ("risk", "incumbent", "equal", "spy", "simple_h60", "simple_spy"):
         raise ValueError("未知模式。")
     if not 0 <= cost_bps < 10000 or not 0 <= stop_extra_bps < 10000:
         raise ValueError("费用参数越界。")
-    if mode != "risk" and (stops or breaker):
+    if mode in ("incumbent", "equal", "spy") and (stops or breaker):
         raise ValueError("旧策略对照必须关闭新增风控。")
+    if mode.startswith("simple_") and stops:
+        raise ValueError("简单预算对照不模拟个股保护单。")
     if not set(excluded).issubset(names):
         raise ValueError("排除名单包含未知股票。")
     observations = pd.DatetimeIndex(observations)
@@ -188,7 +223,7 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
     positions = calendar.get_indexer(observations)
     schedule = {int(p + 1): int(p) for p in positions}
     first, finish = int(positions[0] + 1), int(calendar.get_loc(final_date))
-    risk = risk_inputs(ohlc, spy_close)
+    risk = risk_inputs(ohlc, spy_close, policy.target_vol)
     q = np.zeros(len(names)); cash = 1.; fee_rate = cost_bps / 10000
     threshold = np.full(len(names), np.nan); peak = np.full(len(names), np.nan)
     blocked_until = np.full(len(names), -1); pending_stop = set()
@@ -197,7 +232,7 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
     trades, daily, holdings, targets, events = [], [], [], [], []
     cumulative_cost = 0.
 
-    def trade(day, j, delta, price, reason, observation=None):
+    def trade(day, j, delta, price, reason, observation=None, risk_action=""):
         nonlocal cash, cumulative_cost
         if abs(delta) < 1e-14:
             return
@@ -209,20 +244,23 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
             q[j] = 0.
         cumulative_cost += fee
         trades.append(dict(Date=calendar[day], observation_date=observation, symbol=names[j],
-                           reason=reason, signed_units=float(delta), proxy_fill=float(price),
+                           reason=reason, risk_action=risk_action, signed_units=float(delta), proxy_fill=float(price),
                            signed_notional=float(notional), fee=float(fee),
                            cash_change=float(-notional-fee), stop_threshold=float(threshold[j]),
                            session_open=float(ohlc["Open"].iloc[day,j]),
                            stop_extra_bps=stop_extra_bps if reason.startswith("stop_") else 0))
 
-    def rebalance(day, w, reason, observation):
+    def rebalance(day, w, reason, observation, reduction=False, risk_action=""):
         nonlocal cash
         prices = ohlc["Open"].iloc[day].to_numpy()
         old = q * prices
-        target, expected_cash, change, _ = _rebalance(old, cash, w.to_numpy(), fee_rate)
+        sizing = reduce_only if reduction else _rebalance
+        target, expected_cash, change, _ = sizing(old, cash, w.to_numpy(), fee_rate)
         before_q = q.copy()
         for j in np.argsort(change, kind="stable"):  # 先卖后买，避免途中借款。
-            trade(day, j, change[j] / prices[j], prices[j], reason, observation)
+            trade(day, j, change[j] / prices[j], prices[j], reason, observation, risk_action)
+        if reduction:
+            assert (q <= before_q + 1e-12).all(), "非计划减仓不得增加任何股票股数。"
         np.testing.assert_allclose(cash, expected_cash, atol=1e-10, rtol=1e-10)
         cash = max(0., expected_cash)
         np.testing.assert_allclose(q * prices, target, atol=1e-10, rtol=1e-10)
@@ -232,11 +270,12 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
                 if q[j] == 0:
                     threshold[j] = peak[j] = np.nan
                 elif before_q[j] == 0:
-                    threshold[j] = prices[j] * (1 - distance[j])
+                    threshold[j] = protection_floor(np.nan, prices[j], new_position=True)
                     peak[j] = prices[j]
                 elif reason == "scheduled" or q[j] > before_q[j]:
-                    threshold[j] = max(threshold[j], prices[j] * (1 - distance[j]))
+                    threshold[j] = protection_floor(threshold[j], prices[j], scheduled=True)
         targets.append(dict(Date=calendar[day], observation_date=observation, reason=reason,
+                            reduce_only=reduction, risk_action=risk_action,
                             **{s:float(w[s]) for s in names}))
 
     for day in range(first, finish + 1):
@@ -270,18 +309,17 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
                 w = pd.Series(0., index=names)
                 if mode in ("equal", "spy"):
                     w[:] = 1 / len(names)
-                elif mode == "incumbent":
-                    selected = sorted(names, key=lambda symbol: (-float(s[symbol]), symbol))[:5]
-                    w.loc[selected] = float(risk["spy_exposure"].iloc[obs]) / 5
+                elif mode in ("incumbent", "simple_h60", "simple_spy"):
+                    selected = sorted((n for n in names if n not in excluded), key=lambda symbol: (-float(s[symbol]), symbol))[:5]
+                    gross = float(risk["spy_exposure"].iloc[obs])
+                    if mode.startswith("simple_"):
+                        gross *= min(1., policy.risk_total/.15) * dd_state.multiplier(day)
+                    w.loc[selected] = gross / len(selected)
                 else:
                     eligible = [s for j,s in enumerate(names) if day >= blocked_until[j] and s not in excluded]
-                    w, _ = allocate(s, set(names[q > 0]), risk["distance"].iloc[obs],
-                                    risk["vol"].iloc[obs], risk["returns"].iloc[obs-59:obs+1],
-                                    groups, bool(risk["trend"].iloc[obs]),
-                                    multiplier=dd_state.multiplier(day) if breaker else 1.,
-                                    eligible=eligible, all_stocks=all_stocks, policy=policy)
-                    # 沿用已检查过的SPY波动率规则，单独缩放目标股票总仓位。
-                    w *= min(1., float(risk["spy_exposure"].iloc[obs]))
+                    w = scheduled_weights(s, set(names[q > 0]), risk, obs, groups,
+                                          multiplier=dd_state.multiplier(day) if breaker else 1.,
+                                          eligible=eligible, all_stocks=all_stocks, policy=policy)
                 if not np.isfinite(w).all() or w.sum() > 1+1e-10:
                     raise ValueError("目标非法或借款。")
                 rebalance(day, w, "scheduled", calendar[obs])
@@ -289,12 +327,9 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
                 pending_cap = None
             elif (dd_state.pending_half or pending_cap is not None) and not dd_state.paused:
                 previous_values = pd.Series(q * ohlc["Close"].iloc[day-1].to_numpy(), index=names)
-                w = previous_values / (cash + previous_values.sum())
-                if pending_cap is not None:
-                    w = np.minimum(w, pending_cap)
-                if dd_state.pending_half:
-                    w *= .5
-                rebalance(day, w, "daily_risk_reduce", calendar[day-1])
+                w = reduction_weights(previous_values, cash, pending_cap, dd_state.pending_half)
+                action = "cap_and_soft" if pending_cap is not None and dd_state.pending_half else "soft" if dd_state.pending_half else "cap"
+                rebalance(day, w, "daily_risk_reduce", calendar[day-1], reduction=True, risk_action=action)
                 dd_state.pending_half = False
                 pending_cap = None
         open_nav = cash + float(q @ opened)

@@ -1,0 +1,15 @@
+test_duplicate_or_skipped_phase_cannot_duplicate_orders (test_lean_migration_contract.LeanMigrationContractTests.test_duplicate_or_skipped_phase_cannot_duplicate_orders) ... ok
+test_future_risk_and_scores_do_not_change_current_order (test_lean_migration_contract.LeanMigrationContractTests.test_future_risk_and_scores_do_not_change_current_order) ... ok
+test_gap_during_daily_cap_reduction_never_buys_or_reopens (test_lean_migration_contract.LeanMigrationContractTests.test_gap_during_daily_cap_reduction_never_buys_or_reopens) ... ok
+test_gap_stop_blocks_reentry_on_same_scheduled_open (test_lean_migration_contract.LeanMigrationContractTests.test_gap_stop_blocks_reentry_on_same_scheduled_open) ... ok
+test_hard_pause_waits_for_cooldown_trend_and_schedule_then_recovers (test_lean_migration_contract.LeanMigrationContractTests.test_hard_pause_waits_for_cooldown_trend_and_schedule_then_recovers) ... ok
+test_missing_or_nonfinite_cross_section_places_no_order (test_lean_migration_contract.LeanMigrationContractTests.test_missing_or_nonfinite_cross_section_places_no_order) ... ok
+test_rejects_2026_or_duplicate_calendar_before_any_order (test_lean_migration_contract.LeanMigrationContractTests.test_rejects_2026_or_duplicate_calendar_before_any_order) ... ok
+test_rejects_ambiguous_names_or_wrong_execution_boundaries (test_lean_migration_contract.LeanMigrationContractTests.test_rejects_ambiguous_names_or_wrong_execution_boundaries) ... ok
+test_rejects_observation_disorder_and_missing_history (test_lean_migration_contract.LeanMigrationContractTests.test_rejects_observation_disorder_and_missing_history) ... ok
+test_rejects_policy_drift_from_registered_cell (test_lean_migration_contract.LeanMigrationContractTests.test_rejects_policy_drift_from_registered_cell) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.337s
+
+OK

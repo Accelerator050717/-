@@ -1,0 +1,341 @@
+{
+  "version": 23,
+  "spec": {
+    "config": {
+      "strategy_id": "h60-v8-fault-fixture",
+      "mode": "virtual",
+      "budget": "10000",
+      "quantity_step": "1",
+      "fee_reserve_rate": ".002",
+      "max_quote_age_seconds": 30,
+      "paper_budget_isolated": false,
+      "paper_identity_confirmed": false
+    },
+    "strategy_manifest_hash": "fictitious-fault-manifest",
+    "symbols": [
+      "AAPL"
+    ]
+  },
+  "orders": {
+    "H60V8-e0a1b-2d814da03690ca50bb": {
+      "state": {
+        "intent_key": "H60V8-e0a1b-2d814da03690ca50bb",
+        "symbol": "AAPL",
+        "side": "BUY",
+        "quantity": "9",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e0a1b-2d814da03690ca50bb",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "9",
+        "executions": {
+          "SIM-0047c46c4ead19b38223": {
+            "reference": "virtual:H60V8-e0a1b-2d814da03690ca50bb",
+            "quantity": "3",
+            "price": "100"
+          },
+          "SIM-76f4afbc9db6e1680eb8": {
+            "reference": "virtual:H60V8-e0a1b-2d814da03690ca50bb",
+            "quantity": "6",
+            "price": "100"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "same-fixed-decision",
+      "kind": "LMT",
+      "limit_price": "100",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T15:00:00+00:00",
+      "fill_times": {
+        "SIM-0047c46c4ead19b38223": "2025-01-06T15:00:00+00:00",
+        "SIM-76f4afbc9db6e1680eb8": "2025-01-06T15:00:00+00:00"
+      }
+    },
+    "H60V8-e0a1b-4310d16839e916a991": {
+      "state": {
+        "intent_key": "H60V8-e0a1b-4310d16839e916a991",
+        "symbol": "AAPL",
+        "side": "SELL",
+        "quantity": "3",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e0a1b-4310d16839e916a991",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "1",
+        "executions": {
+          "SIM-ed8bfbfb0e539874ff1f": {
+            "reference": "virtual:H60V8-e0a1b-4310d16839e916a991",
+            "quantity": "1",
+            "price": "80"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "100",
+      "stop_price": "85",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T15:00:00+00:00",
+      "fill_times": {
+        "SIM-ed8bfbfb0e539874ff1f": "2025-01-06T15:00:00+00:00"
+      }
+    },
+    "H60V8-e0a1b-158548096aaacbdf9a": {
+      "state": {
+        "intent_key": "H60V8-e0a1b-158548096aaacbdf9a",
+        "symbol": "AAPL",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e0a1b-158548096aaacbdf9a",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "100",
+      "stop_price": "85",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-06T15:00:00+00:00"
+    }
+  },
+  "batches": {
+    "same-fixed-decision": {
+      "signature": {
+        "weights": {
+          "AAPL": 0.1
+        },
+        "reduction": false,
+        "reason": "scheduled"
+      },
+      "intents": [
+        "H60V8-e0a1b-2d814da03690ca50bb"
+      ],
+      "quotes": {
+        "AAPL": {
+          "bid": "100",
+          "ask": "100",
+          "asof": "2025-01-06T15:00:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        }
+      },
+      "created_at": "2025-01-06T15:00:00+00:00",
+      "execution_day": null
+    }
+  },
+  "commissions": {
+    "SIM-0047c46c4ead19b38223": {
+      "fee": "0.300",
+      "currency": "USD"
+    },
+    "SIM-ed8bfbfb0e539874ff1f": {
+      "fee": "0.080",
+      "currency": "USD"
+    },
+    "SIM-76f4afbc9db6e1680eb8": {
+      "fee": "0.600",
+      "currency": "USD"
+    }
+  },
+  "events": [
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "intents_persisted",
+      "decision": "same-fixed-decision",
+      "count": 1
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e0a1b-2d814da03690ca50bb"
+    },
+    {
+      "kind": "blocked",
+      "reason": "submit_outcome_unknown_TimeoutError"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 1
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e0a1b-4310d16839e916a991"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e0a1b-4310d16839e916a991"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e0a1b-4310d16839e916a991"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 1
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e0a1b-158548096aaacbdf9a"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e0a1b-158548096aaacbdf9a"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T15:00:00+00:00",
+      "blocked": null
+    }
+  ],
+  "reconciliation": {
+    "asof": "2025-01-06T15:00:00+00:00",
+    "complete": true,
+    "identity_confirmed": true,
+    "corporate_actions_pending": false,
+    "cash": "9179.020",
+    "available_cash": "9179.020",
+    "positions": {
+      "FOREIGN_TEST": "17",
+      "AAPL": "8"
+    },
+    "orders": {
+      "H60V8-e0a1b-2d814da03690ca50bb": {
+        "key": "H60V8-e0a1b-2d814da03690ca50bb",
+        "strategy_id": "h60-v8-fault-fixture",
+        "symbol": "AAPL",
+        "side": "BUY",
+        "quantity": "9",
+        "kind": "LMT",
+        "limit_price": "100",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e0a1b-2d814da03690ca50bb",
+        "status": "Filled",
+        "filled": "9",
+        "fills": [
+          {
+            "id": "SIM-0047c46c4ead19b38223",
+            "quantity": "3",
+            "price": "100",
+            "time": "2025-01-06T15:00:00+00:00"
+          },
+          {
+            "id": "SIM-76f4afbc9db6e1680eb8",
+            "quantity": "6",
+            "price": "100",
+            "time": "2025-01-06T15:00:00+00:00"
+          }
+        ]
+      },
+      "H60V8-e0a1b-4310d16839e916a991": {
+        "key": "H60V8-e0a1b-4310d16839e916a991",
+        "strategy_id": "h60-v8-fault-fixture",
+        "symbol": "AAPL",
+        "side": "SELL",
+        "quantity": "3",
+        "kind": "STP",
+        "limit_price": "100",
+        "stop_price": "85",
+        "reference": "virtual:H60V8-e0a1b-4310d16839e916a991",
+        "status": "Cancelled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-ed8bfbfb0e539874ff1f",
+            "quantity": "1",
+            "price": "80",
+            "time": "2025-01-06T15:00:00+00:00"
+          }
+        ]
+      },
+      "H60V8-e0a1b-158548096aaacbdf9a": {
+        "key": "H60V8-e0a1b-158548096aaacbdf9a",
+        "strategy_id": "h60-v8-fault-fixture",
+        "symbol": "AAPL",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "STP",
+        "limit_price": "100",
+        "stop_price": "85",
+        "reference": "virtual:H60V8-e0a1b-158548096aaacbdf9a",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      }
+    },
+    "commissions": {
+      "SIM-0047c46c4ead19b38223": {
+        "fee": "0.300",
+        "currency": "USD"
+      },
+      "SIM-ed8bfbfb0e539874ff1f": {
+        "fee": "0.080",
+        "currency": "USD"
+      },
+      "SIM-76f4afbc9db6e1680eb8": {
+        "fee": "0.600",
+        "currency": "USD"
+      }
+    }
+  },
+  "blocked": null,
+  "account_cash_offset": "0",
+  "runtime": null,
+  "derived": {
+    "cash": "9179.020",
+    "positions": {
+      "AAPL": "8"
+    },
+    "reserved_cash": "0",
+    "reserved_sells": {
+      "AAPL": "8"
+    }
+  }
+}

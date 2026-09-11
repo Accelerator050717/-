@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source_sha256": {
+    "historical_universe.py": "4840b9f6edb478839e86520ecbaaf22236fd9a12d006c2e63bcdaaf11c803e84",
+    "46_check_historical_universe.py": "59dc29e6180be5368e891eb6a3f71bb2ef49296aca59c3c2a817ecf92e1aa66f"
+  },
+  "input_sha256": {
+    "data\\fixtures\\universe_delisting_v9\\events.csv": "84faa7dc9d08a0de0103593bd408d4d9b8f1b4e53172b1eb9121d39d1cef7b96",
+    "data\\fixtures\\universe_delisting_v9\\manifest.json": "45726757f1d1980b8b6263d4b22e1c9f5e8c9492dfac5ad0b6f3226fb3f1b346",
+    "data\\fixtures\\universe_delisting_v9\\memberships.csv": "89cb0c11a9ac3f6c96466239ad31cd407ded455c98fa4b214375027e8ff3460f",
+    "data\\reference\\universe_events\\atvi_2023\\events.csv": "1ca618cf82bfae1c656c6548b8c72539712de7ab4cd84b35d0a7506e9a89aa50",
+    "data\\reference\\universe_events\\atvi_2023\\FACTS.md": "fa8b7fa0a2b4f19614a4c5071adc53ca2d2a6ee314741e108d75e356633e9c88",
+    "data\\reference\\universe_events\\atvi_2023\\manifest.json": "d33a51dee405907eebb2db733711bd24d8ae293c568d3b6a1e63453a314477ba",
+    "data\\reference\\universe_events\\atvi_2023\\memberships.csv": "898bfc92522326188bfd8c718df4700560c02691de18f0e525cbe02ac9052bfc"
+  }
+}

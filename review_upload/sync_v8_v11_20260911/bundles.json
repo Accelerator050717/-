@@ -1,0 +1,13 @@
+{
+  "path": "review_bundles/20260911/review-v8-v11-incremental-01.zip",
+  "absolute_path": "M:/ml项目/review_bundles/20260911/review-v8-v11-incremental-01.zip",
+  "size_bytes": 40005541,
+  "size_mib": 38.152257,
+  "sha256": "847971930660192baa106be91832f7cd01ee9e8e5c6f1119d8b308ff311fb353",
+  "files": 333,
+  "uncompressed_bytes": 184817132,
+  "independent_zip": true,
+  "all_member_hashes_verified": true,
+  "dependency_manifest": "review_upload/bundles.json",
+  "uploaded_to_git": false
+}

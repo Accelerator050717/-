@@ -1,0 +1,394 @@
+"""v7收益优先修订。v6文件保持不变，以保留失败方案的可重现结果。
+
+阈值只使用已结束的日线。日内止损成交是假设，跳空用更差的开盘价；
+这不能证明停牌、订单排队或真实公司行动下的可成交性。
+"""
+from dataclasses import dataclass, asdict
+
+import numpy as np
+import pandas as pd
+
+from research_backtest import _check_dates, _rebalance, reduce_only
+
+
+@dataclass(frozen=True)
+class Policy:
+    top_k: int = 8
+    retain_rank: int = 12
+    max_stock: float = .125
+    max_group: float = .30
+    max_cluster: float = .40
+    risk_per_stock: float = .02
+    risk_total: float = .12
+    target_vol: float = .15  # SPY仓位缩放参数，并非组合保证波动率。
+    soft_dd: float = .10
+    hard_dd: float = .20
+    restore_dd: float = .05
+    pause_sessions: int = 20
+    recovery_sessions: int = 10
+    stock_cooldown: int = 5
+    soft_enabled: bool = True
+    hard_enabled: bool = True
+
+
+TECH_CLUSTER = frozenset(("AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META"))
+
+
+def risk_inputs(ohlc, spy_close, target_vol=.15):
+    """所有结果在索引当天收盘后才可用；不回填预热缺失。"""
+    if not np.isfinite(target_vol) or not 0 < target_vol <= 1:
+        raise ValueError("SPY波动仓位参数必须在(0,1]。")
+    close = ohlc["Close"]
+    previous = close.shift(1)
+    tr = np.maximum(ohlc["High"] - ohlc["Low"],
+                    np.maximum((ohlc["High"] - previous).abs(),
+                               (ohlc["Low"] - previous).abs()))
+    returns = close.pct_change(fill_method=None)
+    return dict(distance=pd.DataFrame(.15,index=close.index,columns=close.columns),
+                vol=returns.rolling(60).std(ddof=1), returns=returns,
+                trend=spy_close.ge(spy_close.rolling(200).mean()),
+                spy_exposure=(target_vol / (spy_close.pct_change(fill_method=None)
+                                    .rolling(20).std(ddof=1) * np.sqrt(252))).clip(upper=1))
+
+
+def clip_weights(weights, groups, policy, distances=None):
+    """只减不增，不把被约束释放的现金再分配给其他股票。"""
+    w = weights.clip(lower=0, upper=policy.max_stock).copy()
+    if distances is not None:
+        w = np.minimum(w, policy.risk_per_stock / distances)
+    for group in sorted(set(groups.values())):
+        names = [s for s in w.index if groups[s] == group]
+        total = w.loc[names].sum()
+        if total > policy.max_group:
+            w.loc[names] *= policy.max_group / total
+    names = [s for s in w.index if s in TECH_CLUSTER]
+    total = w.loc[names].sum()
+    if total > policy.max_cluster:
+        w.loc[names] *= policy.max_cluster / total
+    if distances is not None:
+        risk = float((w * distances).sum())
+        if risk > policy.risk_total:
+            w *= policy.risk_total / risk
+    return w
+
+
+def allocate(scores, holdings, distances, vol, past_returns, groups, trend,
+             multiplier=1.0, eligible=None, all_stocks=False, policy=Policy()):
+    """输入观察日信号与历史风险，输出下一开盘目标权重；没有未来收益输入。"""
+    if (not np.isfinite(scores).all() or not np.isfinite(distances).all()
+            or not np.isfinite(vol).all() or (vol <= 0).any()
+            or len(past_returns) != 60 or not np.isfinite(past_returns).all().all()):
+        raise ValueError("信号或60日风险历史不完整，禁止补价或继续交易。")
+    eligible = set(scores.index) if eligible is None else set(eligible)
+    order = sorted(eligible, key=lambda s: (-float(scores[s]), s))
+    if all_stocks:
+        selected = order
+    else:
+        retained = [s for s in order[:policy.retain_rank] if s in holdings]
+        selected = (retained + [s for s in order if s not in retained])[:policy.top_k]
+    w = pd.Series(0., index=scores.index)
+    if not selected:
+        return w, 0.
+    # 保留预测排序，让低波动约束决定现金，不额外偏向低波动股票。
+    w.loc[selected] = 1 / len(selected)
+    w = clip_weights(w, groups, policy, distances)
+    covariance = past_returns.cov().to_numpy()
+    covariance = .8 * covariance + .2 * np.diag(np.diag(covariance))
+    estimate = float(np.sqrt(max(0., w.to_numpy() @ covariance @ w.to_numpy()) * 252))
+    w *= multiplier
+    return w, estimate * multiplier
+
+
+def stop_fill(opened, low, threshold, extra_bps):
+    """单个已生效卖出止损的日线代理成交；返回价格及原因。"""
+    if not 0 <= extra_bps < 10000:
+        raise ValueError("止损额外滑点超界。")
+    if opened <= threshold:
+        return opened * (1 - extra_bps / 10000), "stop_gap"
+    if low <= threshold:
+        return threshold * (1 - extra_bps / 10000), "stop_intraday"
+    return None, None
+
+
+def scheduled_weights(scores, holdings, risk, observation, groups, multiplier=1.,
+                      eligible=None, all_stocks=False, policy=Policy()):
+    """研究/前瞻/执行共同入口；risk中只索引已完成的观察日及其过去60日。"""
+    w, _ = allocate(scores, holdings, risk["distance"].iloc[observation],
+                    risk["vol"].iloc[observation],
+                    risk["returns"].iloc[observation-59:observation+1], groups,
+                    bool(risk["trend"].iloc[observation]), multiplier=multiplier,
+                    eligible=eligible, all_stocks=all_stocks, policy=policy)
+    exposure = float(risk["spy_exposure"].iloc[observation])
+    if not np.isfinite(exposure) or not 0 <= exposure <= 1:
+        raise ValueError("SPY历史波动仓位缺失或非法。")
+    return w * exposure
+
+
+def reduction_weights(previous_values, cash, pending_cap=None, soft=False):
+    """昨日收盘生成的只减仓上限；实际股数仍须由reduce_only按当时报价封顶。"""
+    w = previous_values / (cash + previous_values.sum())
+    if pending_cap is not None:
+        w = np.minimum(w, pending_cap)
+    return w * (.5 if soft else 1.)
+
+
+def protection_floor(previous, price, *, new_position=False, scheduled=False):
+    """v7原15%保护规则：只在入场/计划调仓更新，永不放宽已有底线。"""
+    if new_position:
+        return price * .85
+    return max(previous, price * .85) if scheduled else previous
+
+
+@dataclass
+class DrawdownState:
+    episode_peak: float = 1.
+    paused_until: int = -1
+    recovery_until: int = -1
+    soft: bool = False
+    paused: bool = False
+    pending_flat: bool = False
+    pending_half: bool = False
+
+    def observe(self, day, equity, policy):
+        self.episode_peak = max(self.episode_peak, equity)
+        dd = equity / self.episode_peak - 1
+        if policy.hard_enabled and not self.paused and dd <= -policy.hard_dd:
+            self.paused = self.pending_flat = True
+            self.paused_until = day + 1 + policy.pause_sessions
+            self.pending_half = False
+            return "portfolio_halt"
+        if policy.soft_enabled and not self.paused and not self.soft and dd <= -policy.soft_dd:
+            self.soft = self.pending_half = True
+            return "portfolio_half"
+        if not self.paused and self.soft and dd >= -policy.restore_dd:
+            self.soft = self.pending_half = False
+            return "portfolio_restore"
+        return None
+
+    def resume(self, day, equity, trend, scheduled, policy):
+        if self.paused and day >= self.paused_until and trend and scheduled:
+            self.paused = self.soft = False
+            self.episode_peak = equity
+            self.recovery_until = day + policy.recovery_sessions
+            return True
+        return False
+
+    def multiplier(self, day):
+        return 0. if self.paused else (.5 if self.soft or day < self.recovery_until else 1.)
+
+
+def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
+             mode="risk", stops=True, breaker=True, cost_bps=10,
+             stop_extra_bps=10, delayed_stops=False, excluded=(),
+             all_stocks=False, policy=Policy()):
+    """同日先处理旧止损/强制退出，再执行昨晚目标，日内触发止损，收盘更新阈值。
+
+    mode=incumbent/equal/spy 为固定对照；risk 为新仓位规则。
+    全部金额以初始权益1计，碎股、零息现金；open sizing沿用旧研究代理。
+    返回每日开/收盘权益、压力估值、逐笔交易、每日持仓、目标、风控事件。
+    """
+    calendar, names = ohlc["Open"].index, ohlc["Open"].columns
+    _check_dates(calendar, "OHLC")
+    _check_dates(scores.index, "scores")
+    if not scores.columns.equals(names) or set(groups) != set(names):
+        raise ValueError("股票顺序或风险分组不一致。")
+    if not spy_close.index.equals(calendar):
+        raise ValueError("SPY日期与股票日历不一致。")
+    for field in ("Open", "High", "Low", "Close"):
+        frame = ohlc[field]
+        if not frame.index.equals(calendar) or not frame.columns.equals(names):
+            raise ValueError("OHLC日历或列不一致。")
+        if not np.isfinite(frame).all().all() or (frame <= 0).any().any():
+            raise ValueError("行情缺失或非法，不允许补可交易价格。")
+    if ((ohlc["Low"] > np.minimum(ohlc["Open"], ohlc["Close"]) + 1e-10).any().any()
+            or (ohlc["High"] < np.maximum(ohlc["Open"], ohlc["Close"]) - 1e-10).any().any()):
+        raise ValueError("OHLC关系非法。")
+    if mode not in ("risk", "incumbent", "equal", "spy", "simple_h60", "simple_spy"):
+        raise ValueError("未知模式。")
+    if not 0 <= cost_bps < 10000 or not 0 <= stop_extra_bps < 10000:
+        raise ValueError("费用参数越界。")
+    if mode in ("incumbent", "equal", "spy") and (stops or breaker):
+        raise ValueError("旧策略对照必须关闭新增风控。")
+    if mode.startswith("simple_") and stops:
+        raise ValueError("简单预算对照不模拟个股保护单。")
+    if not set(excluded).issubset(names):
+        raise ValueError("排除名单包含未知股票。")
+    observations = pd.DatetimeIndex(observations)
+    _check_dates(observations, "observations")
+    if (not observations.isin(scores.index).all() or not observations.isin(calendar).all()
+            or final_date not in calendar or final_date <= observations[-1]):
+        raise ValueError("调仓日期缺评分或最后出场日期非法。")
+    if not np.isfinite(scores.loc[observations]).all().all():
+        raise ValueError("调仓日缺评分。")
+    positions = calendar.get_indexer(observations)
+    schedule = {int(p + 1): int(p) for p in positions}
+    first, finish = int(positions[0] + 1), int(calendar.get_loc(final_date))
+    risk = risk_inputs(ohlc, spy_close, policy.target_vol)
+    q = np.zeros(len(names)); cash = 1.; fee_rate = cost_bps / 10000
+    threshold = np.full(len(names), np.nan); peak = np.full(len(names), np.nan)
+    blocked_until = np.full(len(names), -1); pending_stop = set()
+    pending_cap = None
+    dd_state = DrawdownState()
+    trades, daily, holdings, targets, events = [], [], [], [], []
+    cumulative_cost = 0.
+
+    def trade(day, j, delta, price, reason, observation=None, risk_action=""):
+        nonlocal cash, cumulative_cost
+        if abs(delta) < 1e-14:
+            return
+        notional = delta * price
+        fee = abs(notional) * fee_rate
+        cash -= notional + fee
+        q[j] += delta
+        if abs(q[j]) < 1e-12:
+            q[j] = 0.
+        cumulative_cost += fee
+        trades.append(dict(Date=calendar[day], observation_date=observation, symbol=names[j],
+                           reason=reason, risk_action=risk_action, signed_units=float(delta), proxy_fill=float(price),
+                           signed_notional=float(notional), fee=float(fee),
+                           cash_change=float(-notional-fee), stop_threshold=float(threshold[j]),
+                           session_open=float(ohlc["Open"].iloc[day,j]),
+                           stop_extra_bps=stop_extra_bps if reason.startswith("stop_") else 0))
+
+    def rebalance(day, w, reason, observation, reduction=False, risk_action=""):
+        nonlocal cash
+        prices = ohlc["Open"].iloc[day].to_numpy()
+        old = q * prices
+        sizing = reduce_only if reduction else _rebalance
+        target, expected_cash, change, _ = sizing(old, cash, w.to_numpy(), fee_rate)
+        before_q = q.copy()
+        for j in np.argsort(change, kind="stable"):  # 先卖后买，避免途中借款。
+            trade(day, j, change[j] / prices[j], prices[j], reason, observation, risk_action)
+        if reduction:
+            assert (q <= before_q + 1e-12).all(), "非计划减仓不得增加任何股票股数。"
+        np.testing.assert_allclose(cash, expected_cash, atol=1e-10, rtol=1e-10)
+        cash = max(0., expected_cash)
+        np.testing.assert_allclose(q * prices, target, atol=1e-10, rtol=1e-10)
+        if stops:
+            distance = risk["distance"].iloc[day - 1].to_numpy()
+            for j in range(len(names)):
+                if q[j] == 0:
+                    threshold[j] = peak[j] = np.nan
+                elif before_q[j] == 0:
+                    threshold[j] = protection_floor(np.nan, prices[j], new_position=True)
+                    peak[j] = prices[j]
+                elif reason == "scheduled" or q[j] > before_q[j]:
+                    threshold[j] = protection_floor(threshold[j], prices[j], scheduled=True)
+        targets.append(dict(Date=calendar[day], observation_date=observation, reason=reason,
+                            reduce_only=reduction, risk_action=risk_action,
+                            **{s:float(w[s]) for s in names}))
+
+    for day in range(first, finish + 1):
+        opened = ohlc["Open"].iloc[day].to_numpy()
+        low = ohlc["Low"].iloc[day].to_numpy()
+        close = ohlc["Close"].iloc[day].to_numpy()
+        cost_before = cumulative_cost
+        scheduled = day in schedule
+        # 前一日触发的延迟止损，或早已生效且开盘已穿价的正常止损。
+        for j in list(np.flatnonzero(q > 0)):
+            if j in pending_stop or (stops and not delayed_stops and opened[j] <= threshold[j]):
+                price = opened[j] * (1-stop_extra_bps/10000)
+                reason = "stop_delayed" if j in pending_stop else "stop_gap"
+                trade(day, j, -q[j], price, reason, calendar[day-1])
+                blocked_until[j] = day + policy.stock_cooldown
+                threshold[j] = peak[j] = np.nan
+        pending_stop.clear()
+        if day == finish:
+            rebalance(day, pd.Series(0., index=names), "final_liquidation", calendar[day-1])
+        else:
+            if dd_state.pending_flat:
+                rebalance(day, pd.Series(0., index=names), "portfolio_flat", calendar[day-1])
+                dd_state.pending_flat = False
+                pending_cap = None
+            if breaker and dd_state.resume(day, cash + float(q @ opened),
+                                            bool(risk["trend"].iloc[day-1]), scheduled, policy):
+                events.append(dict(Date=calendar[day], event="portfolio_resume", equity=cash+float(q@opened)))
+            if scheduled and not dd_state.paused:
+                obs = schedule[day]
+                s = scores.loc[calendar[obs]]
+                w = pd.Series(0., index=names)
+                if mode in ("equal", "spy"):
+                    w[:] = 1 / len(names)
+                elif mode in ("incumbent", "simple_h60", "simple_spy"):
+                    selected = sorted((n for n in names if n not in excluded), key=lambda symbol: (-float(s[symbol]), symbol))[:5]
+                    gross = float(risk["spy_exposure"].iloc[obs])
+                    if mode.startswith("simple_"):
+                        gross *= min(1., policy.risk_total/.15) * dd_state.multiplier(day)
+                    w.loc[selected] = gross / len(selected)
+                else:
+                    eligible = [s for j,s in enumerate(names) if day >= blocked_until[j] and s not in excluded]
+                    w = scheduled_weights(s, set(names[q > 0]), risk, obs, groups,
+                                          multiplier=dd_state.multiplier(day) if breaker else 1.,
+                                          eligible=eligible, all_stocks=all_stocks, policy=policy)
+                if not np.isfinite(w).all() or w.sum() > 1+1e-10:
+                    raise ValueError("目标非法或借款。")
+                rebalance(day, w, "scheduled", calendar[obs])
+                dd_state.pending_half = False
+                pending_cap = None
+            elif (dd_state.pending_half or pending_cap is not None) and not dd_state.paused:
+                previous_values = pd.Series(q * ohlc["Close"].iloc[day-1].to_numpy(), index=names)
+                w = reduction_weights(previous_values, cash, pending_cap, dd_state.pending_half)
+                action = "cap_and_soft" if pending_cap is not None and dd_state.pending_half else "soft" if dd_state.pending_half else "cap"
+                rebalance(day, w, "daily_risk_reduce", calendar[day-1], reduction=True, risk_action=action)
+                dd_state.pending_half = False
+                pending_cap = None
+        open_nav = cash + float(q @ opened)
+        # 悲观压力估值：假设持仓同时到Low且不享受止损保护，不称真实盘中净值。
+        low_mark = cash + float(q @ low)
+        if day != finish and stops:
+            for j in list(np.flatnonzero(q > 0)):
+                price, reason = stop_fill(opened[j], low[j], threshold[j], stop_extra_bps)
+                if reason is not None:
+                    if delayed_stops:
+                        pending_stop.add(j)
+                    else:
+                        trade(day, j, -q[j], price, reason, calendar[day-1])
+                        blocked_until[j] = day + policy.stock_cooldown
+                        threshold[j] = peak[j] = np.nan
+            # 15%保护底线只在计划调仓时提高，不逐日追踪峰值。
+        close_nav = cash + float(q @ close)
+        if cash < -1e-10 or (q < -1e-10).any() or close_nav <= 0:
+            raise AssertionError("现金/仓位/净值账本非法。")
+        if day != finish and breaker:
+            event = dd_state.observe(day, close_nav, policy)
+            if event:
+                events.append(dict(Date=calendar[day], event=event, equity=close_nav,
+                                   episode_drawdown=close_nav/dd_state.episode_peak-1))
+        if day != finish and mode == "risk" and not dd_state.paused:
+            live_w = pd.Series(q*close/close_nav, index=names)
+            clipped = clip_weights(live_w, groups, policy)
+            if (clipped < live_w-1e-8).any():
+                pending_cap = clipped
+        daily.append(dict(Date=calendar[day], open_equity=open_nav, equity=close_nav,
+                          low_stress_equity=min(low_mark, close_nav), cash=cash,
+                          invested=float(q@close), gross=float(q@close)/close_nav,
+                          fees=cumulative_cost-cost_before, cumulative_fees=cumulative_cost,
+                          paused=dd_state.paused, soft=dd_state.soft,
+                          episode_peak=dd_state.episode_peak))
+        holdings.append(dict(Date=calendar[day], **{s:float(q[j]) for j,s in enumerate(names)}))
+    daily = pd.DataFrame(daily).set_index("Date")
+    trades = pd.DataFrame(trades)
+    positions = pd.DataFrame(holdings).set_index("Date")
+    daily["return"] = daily.equity / daily.equity.shift(1, fill_value=1.) - 1
+    daily["drawdown"] = daily.equity / daily.equity.cummax().clip(lower=1.) - 1
+    daily["open_drawdown"] = daily.open_equity / daily.open_equity.cummax().clip(lower=1.) - 1
+    daily["low_stress_drawdown"] = daily.low_stress_equity / daily.equity.cummax().clip(lower=1.) - 1
+    duration = (daily.index[-1]-daily.index[0]).days/365.25
+    sigma = daily["return"].std(ddof=1)
+    metrics = dict(cagr=float(daily.equity.iloc[-1] ** (1/duration)-1),
+                   final_equity=float(daily.equity.iloc[-1]),
+                   max_drawdown=float(daily.drawdown.min()),
+                   open_max_drawdown=float(daily.open_drawdown.min()),
+                   low_stress_drawdown=float(daily.low_stress_drawdown.min()),
+                   annualized_vol=float(sigma*np.sqrt(252)),
+                   sharpe_zero_rf=float(daily["return"].mean()/sigma*np.sqrt(252)) if sigma>0 else 0.,
+                   average_gross=float(daily.gross.mean()), worst_day=float(daily["return"].min()),
+                   fees=float(cumulative_cost), trades=len(trades),
+                   stop_exits=int(trades.reason.str.startswith("stop_").sum()) if len(trades) else 0,
+                   gap_stops=int(trades.reason.eq("stop_gap").sum()) if len(trades) else 0,
+                   halts=sum(e["event"]=="portfolio_halt" for e in events),
+                   cost_bps=cost_bps, stop_extra_bps=stop_extra_bps,
+                   first_entry=str(daily.index[0].date()), final_exit=str(daily.index[-1].date()))
+    return dict(daily=daily, trades=trades, positions=positions,
+                targets=pd.DataFrame(targets), events=pd.DataFrame(events), metrics=metrics,
+                policy=asdict(policy))

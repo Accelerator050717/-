@@ -1,0 +1,115 @@
+2026-09-11T02:43:55.0939806Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: RELEASE (64bit) Host: MGOD
+2026-09-11T02:43:55.0989812Z TRACE:: Engine.Main(): Started 19:43
+2026-09-11T02:43:55.1175410Z TRACE:: JobQueue.NextJob(): Selected M:\ml项目\data\experiments\lean_migration_v10\engine_runs\synthetic_risk_01\code\main.py
+2026-09-11T02:43:55.1374357Z TRACE:: PythonIntializer.ActivatePythonVirtualEnvironment(): virtual env 'M:\ml项目\.venv'. Will use system packages: False
+2026-09-11T02:43:55.1463547Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2026-09-11T02:43:55.1515201Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2026-09-11T02:43:55.1521094Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2026-09-11T02:43:55.6135217Z TRACE:: PythonInitializer.Initialize(): start...
+2026-09-11T02:43:55.9022157Z TRACE:: PythonInitializer.Initialize(): ended
+2026-09-11T02:43:55.9033475Z TRACE:: AlgorithmPythonWrapper(): Python version 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]: Importing python module main
+2026-09-11T02:43:58.6463770Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2026-09-11T02:43:58.6515263Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2026-09-11T02:43:58.8679833Z TRACE:: LocalObjectStore.Initialize(): Storage Root: M:\ml项目\data\experiments\lean_migration_v10\engine_runs\synthetic_risk_01\storage. StorageFileCount 10000. StorageLimit 10240MB. StoragePermissions Read=True Write=True Delete=True
+2026-09-11T02:43:58.8786589Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2026-09-11T02:43:58.8813221Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 0, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2026-09-11T02:43:59.0738955Z TRACE:: WeightedWorkScheduler(): will use 1 workers and MaxWorkWeight is 400
+2026-09-11T02:43:59.0870648Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Margin
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $       10000.00 @       1.00 = $10000
+-------------------------------------------------
+CashBook Total Value:                $10000
+
+2026-09-11T02:43:59.0891395Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 10000.00
+2026-09-11T02:43:59.0895146Z TRACE:: SetUp Backtesting: User: 0 ProjectId: 0 AlgoId: H60MigrationAlgorithm
+2026-09-11T02:43:59.0897251Z TRACE:: Dates: Start: 03/28/2019 End: 06/19/2019 Cash: ¤10,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2026-09-11T02:43:59.0952258Z TRACE:: BacktestingResultHandler(): Sample Period Set: 30.24
+2026-09-11T02:43:59.0957343Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2026-09-11T02:43:59.1147216Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2026-09-11T02:43:59.1148875Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 2019/3/28 0:00:00 Stop: 2019/6/19 23:59:59 Time: 2019/3/28 0:00:00 Warmup: False
+2026-09-11T02:43:59.1611696Z TRACE:: Debug: 2019-03-28 00:00:00 Launching analysis for H60MigrationAlgorithm with LEAN Engine v2.5.0.0
+2026-09-11T02:43:59.3392115Z TRACE:: Log: 2019-03-28 00:00:00 Historical-only H60 proxy: actual daily prices; artificial OPEN/RANGE/CLOSE order.
+2026-09-11T02:43:59.4625743Z ERROR:: 2019-03-28 09:30:00 Warning: Due to brokerage limitations, orders will be rounded to the nearest lot size of 0.000000000001
+2026-09-11T02:43:59.8984304Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2026-09-11T02:43:59.8991605Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2026-09-11T02:43:59.9192967Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2026-09-11T02:43:59.9208139Z TRACE:: OrderRequestProcessingPool.Dispose(): completed
+2026-09-11T02:43:59.9217137Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2026-09-11T02:43:59.9228506Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2026-09-11T02:43:59.9239839Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2026-09-11T02:43:59.9242536Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2026-09-11T02:43:59.9244111Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2026-09-11T02:43:59.9257170Z TRACE:: Debug: 2019-06-19 16:00:00 Algorithm Id:(H60MigrationAlgorithm) completed in 0.82 seconds at 2k data points per second. Processing total of 1,441 data points.
+2026-09-11T02:43:59.9257527Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2026-09-11T02:43:59.9257593Z TRACE:: Debug: 2019-06-19 16:00:00 Your log was successfully created and can be retrieved from: M:\ml项目\data\experiments\lean_migration_v10\engine_runs\synthetic_risk_01\H60MigrationAlgorithm-log.txt
+2026-09-11T02:43:59.9257808Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2026-09-11T02:43:59.9806829Z ERROR:: InterestRateProvider.FromCsvFile(): no interest rates were loaded, please make sure the file is present 'M:\quantconnect-lean-runtime\Lean\Data\alternative\interest-rate\usa\interest-rate.csv'
+2026-09-11T02:44:00.3151485Z TRACE:: 
+STATISTICS:: Total Orders 40
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss -3.11%
+STATISTICS:: Compounding Annual Return -89.405%
+STATISTICS:: Drawdown 40.200%
+STATISTICS:: Expectancy -1
+STATISTICS:: Start Equity 10000
+STATISTICS:: End Equity 5977.64
+STATISTICS:: Net Profit -40.224%
+STATISTICS:: Sharpe Ratio -1.026
+STATISTICS:: Sortino Ratio -0.225
+STATISTICS:: Probabilistic Sharpe Ratio 0.066%
+STATISTICS:: Loss Rate 100%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha 0
+STATISTICS:: Beta 0
+STATISTICS:: Annual Standard Deviation 0.698
+STATISTICS:: Annual Variance 0.488
+STATISTICS:: Information Ratio -1.011
+STATISTICS:: Tracking Error 0.698
+STATISTICS:: Treynor Ratio 0
+STATISTICS:: Total Fees $21.56
+STATISTICS:: Estimated Strategy Capacity $0
+STATISTICS:: Lowest Capacity Asset SIM_0.H60Phase 2S
+STATISTICS:: Portfolio Turnover 3.65%
+STATISTICS:: Drawdown Recovery 0
+STATISTICS:: OrderListHash f98b7102bb63fb22e3751f3c9feec3bd
+2026-09-11T02:44:00.3151760Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2026-09-11T02:44:00.3154385Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2026-09-11T02:44:00.3154798Z TRACE:: Engine.Run(): Disposing of setup handler...
+2026-09-11T02:44:00.3155019Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2026-09-11T02:44:00.3156944Z TRACE:: DataMonitor.Exit(): start...
+2026-09-11T02:44:00.3157200Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2026-09-11T02:44:00.3169342Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 10
+DATA USAGE:: Succeeded data requests 9
+DATA USAGE:: Failed data requests 1
+DATA USAGE:: Failed data requests percentage 10%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2026-09-11T02:44:00.3210807Z TRACE:: DataMonitor.Exit(): end
+2026-09-11T02:44:00.3235976Z TRACE:: Engine.Main(): Packet removed from queue: H60MigrationAlgorithm
+2026-09-11T02:44:00.3236774Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2026-09-11T02:44:00.3242696Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2026-09-11T02:44:00.3243965Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2026-09-11T02:44:00.3248605Z TRACE:: LocalObjectStore.Dispose(): start...
+2026-09-11T02:44:00.3250587Z TRACE:: LocalObjectStore.Dispose(): end
+2026-09-11T02:44:00.3252300Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
+2026-09-11T02:44:00.3253233Z TRACE:: StopSafely(): Waiting for 'CpuPerformance' thread to stop...
+2026-09-11T02:44:00.3258017Z TRACE:: PythonInitializer.Shutdown(): start
+2026-09-11T02:44:00.3258292Z TRACE:: PythonInitializer.Shutdown(): calling engine shutdown...
+2026-09-11T02:44:03.3286247Z TRACE:: PythonInitializer.Shutdown(): ended
+2026-09-11T02:44:03.3288290Z TRACE:: Program.Main(): Exiting Lean...

@@ -1,0 +1,5 @@
+asof,member,can_open,trading_status,shares,receivable_cash,available_cash
+2023-10-13T16:00:00-04:00,,False,unknown,10,0,0
+2023-10-13T23:59:59-04:00,True,False,cash_entitlement,0,950,0
+2023-10-16T09:30:00-04:00,True,False,cash_entitlement,0,950,0
+2023-10-18T09:30:00-04:00,False,False,cash_entitlement,0,950,0

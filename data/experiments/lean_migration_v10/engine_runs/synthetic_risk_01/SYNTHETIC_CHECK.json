@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "fictional_market_data": true,
+  "actual_lean_engine": true,
+  "native_exit_code": 0,
+  "sessions": 60,
+  "fills": 40,
+  "events": [
+    {
+      "Date": "2019-03-29",
+      "event": "portfolio_halt",
+      "equity": 5987.214228617106,
+      "episode_drawdown": -0.4012785771382894
+    },
+    {
+      "Date": "2019-05-02",
+      "event": "portfolio_resume",
+      "equity": 5987.214228617106
+    }
+  ],
+  "recovery_gross": 0.39999999999999997,
+  "restored_gross": 0.7999999999999999,
+  "final_cash": 5977.642343359563,
+  "cash_error": 4.274625098332763e-11,
+  "final_flat": true,
+  "package_sha256": "31ded2314877da37ff66749ff8338971756b93cba6fcc65ee53d413c21568a96",
+  "actual_data_sha256": {
+    "daily.csv": "1be2d0791830dc86c919dfd6e8488a49d72649bb8e5dcf7e694af24cdb26bb14",
+    "events.csv": "1a7728f203e55f15c7064e8e8028221a8ffdefaa9abf7df6af6cae999089016a",
+    "observation_audit.csv": "f500f193d71e91961ccc66afb1fc9e70cc656c416c3b214cf075e66fc6291d14",
+    "order_events.csv": "db3ee3eeaa9778712b89a64f264c97e0040f9a129e4d558601cba48d9c4c65c9",
+    "positions.csv": "3c7e0afcd86990a04a23c5c35454c06dddae65f60a60b4b320aada0586e78f18",
+    "targets.csv": "8cd80fe7c4b5f019b3f7fd55078374383cb3437e74bed511e3e232deae10d826",
+    "trades.csv": "30311a483eb2abeb6399f92207ee7719f15b4037b6ad3ef1ed4c7e5b8cc54ef7"
+  },
+  "native_run_sha256": "ca125ae95620f93f66bdadcac2fbb693c39f951860f03b728b8bfe2a135d7a84",
+  "interpretation": "Invented 50% opening gap exceeds the20% halt threshold before action; not a loss guarantee or market performance"
+}

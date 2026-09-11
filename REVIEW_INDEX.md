@@ -1,61 +1,114 @@
 # 最新源码审阅入口
 
-本次只上传既有项目供下一轮任务规划，未训练、未改变策略、未下载行情、未启动交易。以下依据上传时的实际源码和保存记录整理；收益、测试和连接状态是已有结果，本次没有重新运行验证。
+最新更新：2026-09-11 UTC（洛杉矶09-10），**v11新增30次训练、21次固定回放；收益目标仍未达标，不升级模型**。先读[v11完整结果](data/experiments/h60_signal_objectives_v11/REPORT.md)、[事前计划](data/experiments/h60_signal_objectives_v11/PLAN.md)、[30次训练及模型SHA](data/experiments/h60_signal_objectives_v11/TRAINING_DETAILS.md)和[全部验收](data/experiments/h60_signal_objectives_v11/GATES.json)。
 
-## 当前进度与模型身份
+本次快照同步当前v8—v11源码与既有结果，不训练、不重跑回测、不获取行情或启动交易。[本次上传材料说明](review_upload/sync_v8_v11_20260911/README.md)、[最新逐文件清单](review_upload/sync_v8_v11_20260911/inventory.csv)和[新增Git外材料](review_upload/sync_v8_v11_20260911/large_artifacts.csv)对应当前上传；精确版本以包含本文件的Git提交为准，远端核验SHA见交付回复。冻结报告中的“未提交/推送”描述保留其写作时状态。
 
-- 30只美股、SPY基准；价格/ETF输入、SEC财报和事件特征、多年度滚动训练、成本回测、离线执行与故障测试均有源码及记录。
-- 研究基线为 **H60 Ridge＋SPY波动率仓位**。年度训练至Y−2，Y−1验证，Y年评分；标准化只在训练集拟合，未来标签按实际出场日剔除跨段样本。不是已经批准上线的模型。
-- 最近v6/v7两版止损与恢复策略均未通过各自记录的盈利保留要求，未替换研究基线。最新状态：[strategy_status.json](data/experiments/strategy_reflection_20260909/strategy_status.json)。`deploy_eligible=false`是研究记录，尚未接入券商运行时开关。
-- 最新H60年度文件：`data/experiments/extended_history_v5/2025_ridge_h60_price.joblib`，SHA256 `2c19480278678e72fb9303e4f615737abccfa2c7dac883893af36390c2365ece`。2016—2025模型及原始训练记录完整保留，模型二进制见审阅ZIP。
-- **工程回放冻结模型与研究基线不同**：[23_replay_execution.py](23_replay_execution.py) 固定使用 `data/experiments/auto_research_45m_v1/2025/m16_elastic_rank.joblib`，SHA256 `5dc11e8e3280f29669aa990fac5e4dd264c683a08c64538add7369791485bea4`。它仅演练2025-01-02至02-14的本地历史执行，不表示选中了实盘模型。
+- 2016-01-05—2025-12-29、10bp普通单边成本：原H60名次14.88% CAGR/17.74%最大回撤；普通收益幅度16.29%/17.85%；保护路径幅度16.18%/15.84%；保护路径名次15.30%/18.20%。同预算简单H60为20.83%/21.15%。所有新方案均未达到最低30%收益目标，也未胜过该简单对照。
+- 四格只改变训练目标，保留81特征、Ridge参数、原年度划分及v8完整保护规则；复用10份原模型及21条v8控制结果。全部成本/压力、年度、交易原因、预测与模型文件见[v11目录](data/experiments/h60_signal_objectives_v11)、[完整42条结果](data/experiments/h60_signal_objectives_v11/all_results.csv)、[材料哈希](data/experiments/h60_signal_objectives_v11/ARTIFACTS.csv)。原v8/v9/v10成果保留。
+- 新入口：[50训练](50_train_signal_objectives.py) → [51固定评估](51_evaluate_signal_objectives.py)；标签实现见[h60_path_labels](h60_path_labels.py)。在项目根目录用`.\.venv\Scripts\python.exe 50_train_signal_objectives.py`及`51_evaluate_signal_objectives.py`运行，完成目录重跑只校验、不追加训练。原始输入必须先按上传清单恢复。全新研究需另设目录和预算，不覆盖冻结结果。
+- 单笔固定15%保护标签不等于实际组合收益；所有标签仍等共同60日区间结束才成熟。没有新增特征、改变止损、加杠杆、使用2026行情、接券商或替换LEAN/paper模型。当前仍无盈利验证通过的部署候选。
+- 下一轮唯一优先问题见[NEXT_QUESTION](data/experiments/h60_signal_objectives_v11/NEXT_QUESTION.md)：固定原H60，检验每年开始前用全部已成熟标签更新模型。2025旧训练只用到2023年末成熟标签；是否应纳入当时已成熟的2024样本尚未训练验证，不需要新订阅。历史股票池缺口仍保留；本次上传不执行该研究。
+
+## 保留的v10 LEAN迁移
+
+v10 LEAN 研究代理迁移已通过。见[v10结果与限制](data/experiments/lean_migration_v10/REPORT.md)、[完整实际引擎比较](data/experiments/lean_migration_v10/engine_runs/h60_full_01/PARITY.json)及[运行命令](tools/lean_runtime/README.md)。
+
+- 实际LEAN引擎回放2511日/4951笔研究代理成交，原生进程退出0；每日权益与v8最大差5.60e-10美元。收益14.88%/回撤17.74%保持一致，仍未达到30%收益目标，不使用2026终测。
+- 顺序：[47导出](47_prepare_lean_migration.py) → [LEAN事件与订单](lean_migration/main.py) / [共享策略适配](lean_migration/decision.py) → [48独立核对](48_compare_lean_migration.py) → [49汇总](49_summarize_lean_migration.py)。原策略代码保留未改；复用10份年度预测，新增训练0。
+- [60日虚构冲击的真实引擎结果](data/experiments/lean_migration_v10/engine_runs/synthetic_risk_01/SYNTHETIC_CHECK.json)验证硬暂停/冷却/恢复；不能当成市场业绩或止损保证。
+- 引擎固定上游提交加[本地退出兼容补丁](tools/lean_runtime/patches/native_shutdown_gil.patch)，运行时在`M:\quantconnect-lean-runtime\Lean`。实际身份、失败记录和本地材料见[报告](data/experiments/lean_migration_v10/REPORT.md)。通用盘中统计和一项可选并发分析存在限制，本轮用独立收盘账本核验。
+- 当前LEAN入口是调整日线/碎股代理，尚未接原生美股公司行动、IBKR或持久化恢复。已保存记录中真实paper订单/实盘订单均0，无前瞻业绩；原生报价/公司行动适配仍是后续执行工程，v11训练未替换该入口。
+
+### LEAN实际数据流
+
+| 环节 | 实际源码行为 |
+| --- | --- |
+| 导入 | [47](47_prepare_lean_migration.py)读取原v5 `all_scores.csv`中的H60预测分数，导出`package.json`的`scores`、历史风险值、日历、策略参数和原调整行情的阶段CSV。训练与模型预测已在外部完成；模型SHA是身份记录，LEAN不重新训练或推理，也不导入现成目标仓位或交易清单。 |
+| 生成决策 | [H60Decision](lean_migration/decision.py)按阶段接收价格，读取上一观察日分数及当时已知风险，调用共享`scheduled_weights`及`reduction_weights`，根据LEAN当前持仓、现金重新计算目标权重与买卖股数。止损、冷却和暂停状态也在本次回放中更新。 |
+| 订单与成交 | [LeanLedger和模型](lean_migration/main.py)向LEAN提交`market_order`。项目自定义`H60ProxyFillModel`指定日线代理成交价并立即全额成交，`H60ProxyFeeModel`计费；LEAN订单引擎产生`OrderEvent`并更新现金、费用与持仓。不是默认真实撮合、真实券商回报或已下发的券商保护单。 |
+| 事后核对 | [48](48_compare_lean_migration.py)才读取v8目标/交易/权益作为参照，与LEAN新生成账本比较，并逐笔关联真实引擎成交回调、重建现金和股数；参照交易不驱动LEAN决策。 |
+
+OPEN 09:30／RANGE 12:00／CLOSE 16:00是人工阶段顺序，RANGE使用整日日线Low，不能解释为中午已知报价；调整价格和碎股仅用于与旧研究口径一致。[实际运行配置](data/experiments/lean_migration_v10/engine_runs/h60_full_01/executed_config.json)为`backtesting`、`live-mode=false`、本地文件数据源；[完成记录](data/experiments/lean_migration_v10/engine_runs/h60_full_01/completion.json)和[进程记录](data/experiments/lean_migration_v10/runtime/h60_full_01.run.json)对应2511日、4951笔历史代理成交及退出码0。
+
+v11三组新模型已在v11目录完成开发评估且均未通过收益门槛，未接入此LEAN入口。v8的[26笔虚构执行记录](data/experiments/h60_risk_execution_v8/execution_v5/completion.json)明确标记报价/成交虚构、真实paper成交0、前瞻观察0；它的持久化恢复功能尚未迁入LEAN。最近保留的[IBKR只读探测](data/experiments/h60_risk_execution_v8/IBKR_READINESS.json)为2026-09-09，未连接、未确认paper身份；本次上传未重新探测，不能据旧记录推断此刻TWS状态。
+
+## 保留的v9数据接入口
+
+v9更新：2026-09-11 UTC（洛杉矶09-10），本地历史股票池/终止事件接入口。见[v9本轮结果](data/experiments/universe_delisting_v9/REPORT.md)、[输入契约与命令](data/experiments/universe_delisting_v9/DATA_CONTRACT.md)、[来源复核](data/experiments/universe_delisting_v9/SOURCE_ASSESSMENT.md)。
+
+- 用户确认暂时没有订阅；本轮完成[46入口](46_check_historical_universe.py)、[核心模块](historical_universe.py)与[13项检查](tests/test_historical_universe.py)，没有采购或连接供应商/券商。
+- 真实ATVI公开事件＋假设10股得到应收950美元、可用现金0；没有真实账户收款证据或收益计算。[实际输出](data/experiments/universe_delisting_v9/completion.json)、[事件表](data/experiments/universe_delisting_v9/atvi_event_timeline.csv)分别记录。
+- 两个时间边界控制成员变化，停牌/终止单独控制交易资格；未知终止不补0，已含退市收益不重复相加。Norgate不提供退市收益/退市后事件，来源复核修正了旧说明。
+- 完整授权股票池、退市总体覆盖及旧代码的动态股票池接入仍未完成；没有消除存续偏差。本轮训练0、策略回测0、交易0，2026未使用。v8研究结论与所有原产物保留。
+- 默认运行：`.\.venv\Scripts\python.exe 46_check_historical_universe.py`。原授权数据未来放入被Git忽略的`data/private/universe/`，不直接上传原始授权库。v9接口、公开案例及限制均列入本次同步清单。
+
+## 保留的v8策略与执行审阅
+
+v8更新于2026-09-09 UTC。同步前审阅基线提交`9d98008d72f096c2c1fa33a998f000fe62c48bb5`；v8—v11同步后的版本以本次上传记录为准。首次上传索引另存[历史索引](data/experiments/h60_risk_execution_v8/PREVIOUS_REVIEW_INDEX.md)。
+
+**先读[本轮完整报告](data/experiments/h60_risk_execution_v8/FINAL_REPORT.md)。主候选净CAGR14.88%、收盘最大回撤17.74%，未达到最低30%收益目标，拒绝升级，不使用2026终测。** 目标仍为30%、争取50%；回撤优先约20%、30%是预算上沿；不加杠杆、不降低门槛。当前没有通过盈利验证的自动交易模型。
+
+## v8进度与身份（历史记录）
+
+- 固定30只存续美股及SPY；新增训练0次，复用2016—2025十份H60 Ridge原模型/预测，81个原特征、alpha100、svd。哈希、训练观察和标签成熟日期见[TRAINING_RECORD](data/experiments/h60_risk_execution_v8/TRAINING_RECORD.json)。
+- v6/v7非计划减仓现在只减少股数，target_vol接通SPY仓位公式；软减仓与硬暂停独立配置。原v7排名12缓冲、软恢复、冷却/趋势/调仓日复仓保留。
+- 唯一主候选沿用最多8股、集中度约束、SPY波动缩仓、15%个股保护和20%硬暂停，仅关闭10%软减半。失败后没有追加参数或挑相位。原0/98未过全部统计门槛的记录不变。
+- 新工程入口43使用2025 H60文件`data/experiments/extended_history_v5/2025_ridge_h60_price.joblib`，SHA256 `2c19480278678e72fb9303e4f615737abccfa2c7dac883893af36390c2365ece`。不是2026部署模型；旧23/m16演练及账本完整保留。
+- [最新虚拟工程清单](data/experiments/h60_risk_execution_v8/ENGINEERING_STRATEGY_MANIFEST_v5.json)包含模型、特征、标签边界、风险参数、调仓日历和源码SHA256。[未启用paper清单](data/experiments/h60_risk_execution_v8/PAPER_ENGINEERING_MANIFEST.json)另用1,000美元预算/独立策略ID。两者都是工程配置，未冻结用于2026终测的候选。
 
 ## 优先阅读
 
 | 主题 | 源码与记录 |
 | --- | --- |
-| 最新反思、失败方案和主要对照 | [完整反思与结果](data/experiments/strategy_reflection_20260909/REFLECTION_AND_RESULTS.md)、[10次训练明细](data/experiments/strategy_reflection_20260909/TRAINING_DETAILS.md)、[结果摘要](data/experiments/strategy_reflection_20260909/SUMMARY.json) |
-| H60与较长历史 | [35](35_extend_historical_diagnostic.py)、[36](36_check_extended_history.py)、[20次训练](data/experiments/extended_history_v5/TRAINING_DETAILS.md)、[参数计划](data/experiments/extended_history_v5/plan.json) |
-| 波动率仓位 | [research_backtest.py](research_backtest.py)、[34](34_research_risk_controls.py)、[v4计划](data/experiments/risk_controls_v4/plan.json) |
-| ATR止损、组合清仓及恢复 | [robust_strategy.py](robust_strategy.py)、[profit_priority_strategy.py](profit_priority_strategy.py)、[v6设计](data/experiments/robust_strategy_v6/DESIGN.md)、[v7设计](data/experiments/profit_priority_v7/DESIGN.md) |
-| 最近训练与评估入口 | [38](38_train_robust_strategy.py)、[39](39_evaluate_robust_strategy.py)、[40](40_evaluate_profit_priority.py)、[41汇总](41_summarize_strategy_revision.py) |
-| 特征、标签及统计筛选 | [research_features.py](research_features.py)、[research_horizons.py](research_horizons.py)、[research_evaluation.py](research_evaluation.py)、[28及固定参数](28_train_multihorizon.py) |
-| 财报可用时间与事件 | [fundamental_features.py](fundamental_features.py)、[research_event_features.py](research_event_features.py)、[21](21_prepare_fundamentals.py)、[26](26_prepare_event_features.py) |
-| 离线执行、订单状态、IBKR只读 | [offline_execution.py](offline_execution.py)、[execution_order_state.py](execution_order_state.py)、[ibkr_readonly.py](ibkr_readonly.py)、[23](23_replay_execution.py)、[24](24_run_offline_cycle.py)、[29](29_check_ibkr_readiness.py)、[tests](tests) |
-| 前轮完整研究 | [v1报告](data/experiments/auto_research_45m_v1/RESEARCH_REPORT.md)、[v2报告](data/experiments/automation_research_v2/RESEARCH_AND_EXECUTION_REPORT.md)、[v3主报告](data/experiments/continuous_research_2h_v3/FINAL_REPORT.md) |
+| 事前计划及验收 | [PLAN](data/experiments/h60_risk_execution_v8/PLAN.md)、[机器计划](data/experiments/h60_risk_execution_v8/plan.json)、[全部门槛](data/experiments/h60_risk_execution_v8/GATES.json) |
+| 修复及实际历史影响 | [research_backtest](research_backtest.py)、[profit_priority_strategy](profit_priority_strategy.py)、[robust_strategy](robust_strategy.py)、[bug差值](data/experiments/h60_risk_execution_v8/bug_impact.csv)、[回归测试](tests/test_risk_fixes.py) |
+| 固定比较与原输入 | [42](42_evaluate_h60_risk_fixes.py)、[h60_research_inputs](h60_research_inputs.py)、[INPUT_IDENTITY](data/experiments/h60_risk_execution_v8/INPUT_IDENTITY.json) |
+| 全部结果、年度和压力 | [12条主要比较](data/experiments/h60_risk_execution_v8/comparison.csv)、[全部39条](data/experiments/h60_risk_execution_v8/all_results.csv)、[年度](data/experiments/h60_risk_execution_v8/annual_results.csv)、[15条压力](data/experiments/h60_risk_execution_v8/stress_comparison.csv)、[执行原因](data/experiments/h60_risk_execution_v8/trade_reason_summary.csv)、[逐笔/每日](data/experiments/h60_risk_execution_v8/backtests) |
+| 共享策略和前瞻评分接口 | [H60Runtime](h60_strategy_runtime.py)、[协调器](h60_execution_cycle.py)、[原模型评分核对](data/experiments/h60_risk_execution_v8/FORWARD_SIGNAL_INTERFACE_CHECK.json) |
+| 持久化与paper适配器 | [H60Executor](h60_execution.py)、[IBKR paper](h60_ibkr_paper.py)、[43入口](43_run_h60_simulation.py)、[配置模板](config/h60_paper.example.json)、[执行说明](data/experiments/h60_risk_execution_v8/EXECUTION_GUIDE.md) |
+| 虚构执行及恢复证据 | [最新执行](data/experiments/h60_risk_execution_v8/execution_v5/completion.json)、[重复启动](data/experiments/h60_risk_execution_v8/execution_v5/REPEAT_RUN.json)、[持久状态](data/experiments/h60_risk_execution_v8/execution_v5/state.json)、[44故障入口](44_test_h60_recovery.py)、[三进程恢复](data/experiments/h60_risk_execution_v8/execution_faults_v2/completion.json)、[测试](data/experiments/h60_risk_execution_v8/TESTS.json) |
+| 历史股票池/退市数据 | [实际可用性、许可、接口及代码改点](data/experiments/h60_risk_execution_v8/HISTORICAL_UNIVERSE_TASK.md) |
+| 原训练及上轮反思 | [35](35_extend_historical_diagnostic.py)、[38](38_train_robust_strategy.py)、[39](39_evaluate_robust_strategy.py)、[40](40_evaluate_profit_priority.py)、[旧反思](data/experiments/strategy_reflection_20260909/REFLECTION_AND_RESULTS.md) |
+| 原特征、标签和统计检验 | [research_features](research_features.py)、[research_horizons](research_horizons.py)、[research_evaluation](research_evaluation.py)、[旧v3报告](data/experiments/continuous_research_2h_v3/FINAL_REPORT.md) |
 
-所有各轮报告、设计、训练参数/边界、模型选择和体积合理的结果记录均保留在Git；大文件的缺失不是实验未做，见下方逐文件清单。
+## v8环境与运行顺序（历史复现）
 
-## 环境与运行顺序
-
-Python 3.12.2；原解释器 `M:\ml项目\.venv\Scripts\python.exe`。依赖版本见 [requirements.txt](requirements.txt)。本次未重新安装。`.venv`不上传；新环境后续可使用 `py -3.12 -m venv .venv`、`.\.venv\Scripts\python.exe -m pip install -r requirements.txt`。
-
-**本轮审阅无需运行研究脚本。** 先读本索引和最新报告；如要读大文件，将审阅ZIP独立解压到克隆仓库根目录，保留`data/...`路径，再按清单比对SHA256。只读预览示例：
+解释器`M:\ml项目\.venv\Scripts\python.exe`，Python3.12.2，依赖见[requirements.txt](requirements.txt)；LEAN另需上述运行时与兼容补丁。以下为历史复现命令，本次上传不执行。先看报告、计划和代码；克隆缺原大文件时，先按下方ZIP清单恢复并核对SHA256。
 
 ```powershell
-.\.venv\Scripts\python.exe tools/inspect_review_artifact.py "data/experiments/extended_history_v5/all_scores.csv"
+Set-Location 'M:\ml项目'
+.\.venv\Scripts\python.exe 42_evaluate_h60_risk_fixes.py
+.\.venv\Scripts\python.exe 43_run_h60_simulation.py
+.\.venv\Scripts\python.exe 44_test_h60_recovery.py
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe 45_summarize_h60_v8.py
 ```
 
-既有生成依赖顺序：03—13教学/行情/初始模型 → 14—20价格与ETF研究 → 21—22财报研究 → 26—28事件与多周期研究 → 34仓位诊断 → 35—36扩展历史 → 38—39 v6 → 40 v7 → 41最新汇总。具体输入与命令见 [材料说明](review_upload/ARTIFACTS.md) 和原源码；本次均未执行。
+42完成后核对固定身份并保留结果，不拟合；43默认虚构报价/券商并复用持久状态；44使用虚构券商做跨进程故障；45只汇总保存结果。它们不下载行情或连接实际券商。不要为审阅运行旧03—41整条链，部分脚本会下载、训练或改写旧输出。
 
-许多脚本缺少缓存时会训练、下载或重写输出；22/28/35等还保留原研究时限。23/24会修改本地模拟账本，29会探测本机券商会话。它们不是“只读审阅”命令，不要为浏览仓库运行整个流程。[.env.example](.env.example)只列已有只读身份核验变量，项目不会自动加载该文件。
+只读IBKR探测：`.\.venv\Scripts\python.exe 43_run_h60_simulation.py --check-ibkr`。paper恢复核对命令及最少配置步骤见执行说明；没有后台交易服务或实盘模式。
 
-## 当前收益与估值口径
+## 收益口径与证据边界
 
-同一2016-01-05至2025-12-29、普通买卖单边10bp、止损额外10bp的保存结果：旧H60波动率仓位年化27.46%/收盘最大回撤−27.69%；v6完整规则5.96%/−17.16%；v7完整规则11.32%/−15.37%。这是反复使用的开发区间，非独立终测。此前98条候选的全部统计门槛通过数仍为0；不能把后续风险诊断当成已通过该统计检验。
+统一2016-01-05—2025-12-29、初始10,000美元、收盘估值、最终开盘清仓、零息现金、无杠杆；研究采用调整OHLC/碎股收益代理。主要普通单边10/20bp，止损额外10bp，压力另列。费用是全区间累计金额，换手计双向交易额。
 
-价格为供应商调整OHLC收益代理，碎股、零息现金、无杠杆，包含建仓/末次清仓成本。2020—2025旧报告的34.77%/−20.75%使用另一时间范围和开盘估值，不能直接拼接比较。离线工程回放保留最终持仓，未计最终强制清仓费，也不能与策略回测NAV混用。日线止损触价成交、滑点和现金规则均是假设，止损价格不保证实际成交价。
+10bp下：修正后止损开/软减仓开12.16% CAGR、15.37%回撤；主候选14.88%/17.74%；同一事前80%预算简单H60为20.83%/21.15%，SPY为9.75%/17.57%。事前预算相同不表示实现波动相同。主候选约十年累计净收益299.39%；高成本压力11.29% CAGR/25.70%回撤。全部属于反复使用的开发历史，不能宣布独立验证通过。
 
-## 2026、IBKR与未完成事项
+非计划减仓旧版确实产生买单：v7完整99笔→0，CAGR11.32%→12.16%，回撤15.37%不变。其他配置改善或下降均保留。SPY缩仓分子15%不是组合波动15%的承诺，20%硬暂停也不是最大回撤20%的保证。
 
-- 现有市场快照请求`end=2026-01-01`且不含该日；2026市场行情未进入现有训练/策略比较。本次只读取原文件字节作清单与归档。SEC原始全量快照包含2026后续事实，历史特征按`filed < 观察日`过滤，不能声称所有2026信息从未读取。
-- 最近保存的IBKR检查时间为 **2026-09-09 05:54:14 UTC**：[latest.json](data/broker_readiness/latest.json)。结果`not_connected`、未握手、未确认paper身份、订单0。本轮没有重新探测，因此这不是实时连接状态。
-- 最近[历史回放记录](data/replays/offline_v1/completion.json)累计42笔**本地虚拟成交**，重跑新增0；没有券商模拟或真实成交证据。IBKR代码目前是只读探测，订单状态模块仍为原型。
-- [49项测试记录](data/experiments/strategy_reflection_20260909/TESTS.json)来自上一轮虚构行情/故障检查，本次未复跑；不能替代券商集成测试。
-- 未解决：历史股票池与退市覆盖、公告真实可用时间、独立前瞻验证、真实报价/公司行动现金账本、券商paper联调与重连/成交核对，以及实盘账户、资金和损失约束。下一轮任务应由审阅结果决定。
+73项测试只覆盖对应虚构场景；H60工程26笔成交全为虚构，重跑新增意图/成交0。3个真实OS进程、2次刻意中断验证恢复，但券商和资金仍虚构。真实paper回报0、前瞻业绩0。保护单撤换存在暂缺窗口，尚未验证真实撮合与长期断线补账。
 
-## Git外的大型材料
+## 2026与未完成事项
 
-原文件仍在 `M:\ml项目\data\...`，没有删除、重训或用新行情替代。精确路径、字节数、SHA256、对应实验、原生成入口、只读命令与ZIP映射见 [large_artifacts.csv](review_upload/large_artifacts.csv)。[bundles.json](review_upload/bundles.json)列出每个独立ZIP的位置、大小与SHA256；ZIP放在本地 `M:\ml项目\review_bundles\20260909\`，不进入Git，每个不超过450MiB。
+- 市场原快照截止2025年末，本轮未读取/下载/评估2026行情。候选失败，不消耗终测。原SEC全量快照含2026后续事实，历史特征按公开日期过滤；不能泛称项目从未见过任何2026信息，本轮未用财报模型。
+- [IBKR实际探测](data/experiments/h60_risk_execution_v8/IBKR_READINESS.json)时间2026-09-09 08:30:52 UTC：常用paper端口7497/4002无监听，未握手、未确认paper身份、未查询行情权限、订单0。未对所有自定义端口作结论。
+- 盈利不足，存续偏差/退市覆盖及独立验证未解决。v8当时建议先补历史股票池/退市样本；v9已完成本地接入口，授权总体数据仍缺。当前下一轮问题以上方v11 [NEXT_QUESTION](data/experiments/h60_signal_objectives_v11/NEXT_QUESTION.md)为准，本次上传不执行研究或继续调阈值。
+- 工程仍需Paper TWS/Gateway登录、隔离身份/预算、实时报价权限、精度及公司行动确认。当前年度模型不能直接产生2026信号；自动公司行动账本、保护撤换窗口、真实回报时序及长期断线恢复待验证。
+- 未调用17/18，稳定实验身份/运行时间混用的旧问题未改；未重算H20/H60百分位集成，理论同分浮点问题未改，均未污染本轮单H60结果。
 
-各ZIP使用正常独立ZIP格式，保留原相对路径，可分别解压；一个实验的依赖可能跨包，完整恢复应解压清单列出的全部包。Git保留原行情元数据和实验参数，包内文件与清单逐项哈希核对；完整恢复覆盖当前v5/v6/v7及主要历史对照和冻结回放材料。仓库不含真实凭证、虚拟环境或缓存。审阅此私有仓库需要已获授权的GitHub连接。
+## 大型材料与复现
+
+原大文件仍在`M:\ml项目\data\...`，精确路径、大小、SHA256、实验及命令见[旧大文件清单](review_upload/large_artifacts.csv)。[独立ZIP清单](review_upload/bundles.json)对应本地`M:\ml项目\review_bundles\20260909\`，每个不超过450MiB，保留原相对路径。v5/v6/v7模型、预测、行情没有删除、重训或用新数据替换。
+
+v8产物在`data/experiments/h60_risk_execution_v8/`：39次逐笔/每日、全部失败方案、SQLite账本和故障记录；预测复用原v5 all_scores.csv，对应身份在INPUT_IDENTITY。文件的大小/SHA256见[ARTIFACTS](data/experiments/h60_risk_execution_v8/ARTIFACTS.csv)。旧审阅ZIP只代表首次上传；v8—v11本次进入Git或额外审阅ZIP的范围以新上传清单为准。

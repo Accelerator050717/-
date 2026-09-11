@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "public_event_case",
+  "coverage_scope": "One ATVI common-stock terminal event and partial S&P500 membership facts; not a complete universe",
+  "sources": {
+    "nasdaq_eca2023_588": {
+      "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ECA2023-588",
+      "publication_date": "2023-10-13",
+      "published_at": null,
+      "time_precision": "date_only"
+    },
+    "sec_8k_20231013": {
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465923108985/tm2328253d1_8k.htm",
+      "publication_date": "2023-10-13",
+      "published_at": null,
+      "time_precision": "date_only"
+    },
+    "sp_20231013": {
+      "url": "https://press.spglobal.com/2023-10-13-Lululemon-Athletica-Hubbell-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600",
+      "publication_date": "2023-10-13",
+      "published_at": null,
+      "time_precision": "date_only"
+    }
+  },
+  "knowledge_time_policy": "Conservative end of publication date in America/New_York; not verified intraday availability",
+  "effective_time_policy": "Before-open events normalized to session open; legal exact time unknown",
+  "payment_time": null,
+  "full_universe_validated": false,
+  "prices_2026_accessed": false,
+  "source_checked_date_utc": "2026-09-11",
+  "file_sha256": {
+    "memberships.csv": "898bfc92522326188bfd8c718df4700560c02691de18f0e525cbe02ac9052bfc",
+    "events.csv": "1ca618cf82bfae1c656c6548b8c72539712de7ab4cd84b35d0a7506e9a89aa50"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "original_gross_labels_equal": true,
+  "original_rank_labels_equal": true,
+  "original_terminal_dates_equal": true,
+  "panel_rows": 95010,
+  "mature_rows": 93360,
+  "stopped_rows": 11372,
+  "features": 81,
+  "target_fields_excluded_from_features": true,
+  "fixed_entry_stop_is_proxy_not_portfolio_return": true
+}

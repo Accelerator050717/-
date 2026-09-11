@@ -1,8 +1,20 @@
 # 美股机器学习量化：边教边搭
 
-GitHub源码审阅请先看 [REVIEW_INDEX.md](REVIEW_INDEX.md)。大型材料保留在本地审阅ZIP，准确路径/大小/哈希见 [上传材料清单](review_upload/ARTIFACTS.md)。本次上传没有训练、调整策略、请求新行情或启动交易。
+源码审阅请先看 [REVIEW_INDEX.md](REVIEW_INDEX.md)。最新工作为[v11训练目标比较](data/experiments/h60_signal_objectives_v11/REPORT.md)：30次新年度拟合、21次新回放，复用10份原模型及21条控制结果。普通收益幅度16.29% CAGR/17.85%回撤，保护路径幅度16.18%/15.84%，保护路径名次15.30%/18.20%；均未达到最低30%收益目标，拒绝升级，2026行情仍封存。见[计划](data/experiments/h60_signal_objectives_v11/PLAN.md)、[训练明细](data/experiments/h60_signal_objectives_v11/TRAINING_DETAILS.md)和[下一轮唯一问题](data/experiments/h60_signal_objectives_v11/NEXT_QUESTION.md)。
 
-最终目标：建立由自己训练的 ML 模型驱动的美股自动交易系统。模型负责预测或排序，交易规则负责选股与仓位，工程负责行情更新、执行、成交持仓核对与监控记录。用户已明确这一终点；当前运行范围为研究、历史离线回放和IBKR只读探测，具体实盘账户、资金与风险约束尚未确定，未启用下单。
+本次Git快照同步v8—v11已完成成果，未新增实验或交易。[最新上传清单及增量ZIP](review_upload/sync_v8_v11_20260911/README.md)补充首次上传清单；原报告中的提交状态和根文档哈希是当时的历史记录，不能代替本次清单。LEAN导入预测、重新生成目标与订单，采用自定义历史代理成交模型；完整数据流和paper证据边界见审阅入口。
+
+运行顺序：项目根目录`.\.venv\Scripts\python.exe 50_train_signal_objectives.py`，然后`.\.venv\Scripts\python.exe 51_evaluate_signal_objectives.py`。已完成实验重跑只核验冻结身份，不追加拟合/回放；新实验另设预算与目录。没有修改原交易风控或替换执行模型。
+
+保留[v10 LEAN研究代理迁移](data/experiments/lean_migration_v10/REPORT.md)：真实引擎运行2511日/4951笔成交，与原H60账本对齐，退出码0；该轮新增训练0。仍是调整日线与碎股代理，不是IBKR交易入口。源码和运行顺序见[迁移说明](lean_migration/README.md)。
+
+保留[v9历史股票池/终止事件接入口](data/experiments/universe_delisting_v9/REPORT.md)：46读取本地规范化CSV，区分成员、停牌、现金权利和到账；真实ATVI事件配合假设10股得到应收950/可用0，不计算收益。完整授权股票池尚未取得，旧30股模型未改。
+
+保留的原策略评估为[v8风控修复与H60执行统一](data/experiments/h60_risk_execution_v8/FINAL_REPORT.md)：复用10份原H60模型，39次固定比较；原主候选14.88%净CAGR/17.74%收盘最大回撤，未达到最低30%收益目标，拒绝升级、不使用2026终测。43使用H60共享决策与持久化虚构券商，尚无真实paper回报或实盘订单。本次上传保留这些历史结果。
+
+首次上传的大型材料仍在本地审阅ZIP，准确路径/大小/哈希见 [上传材料清单](review_upload/ARTIFACTS.md)。旧ZIP不包含后续v8/v9/v10/v11新产物；分别见[v8材料清单](data/experiments/h60_risk_execution_v8/ARTIFACTS.csv)、[v9材料清单](data/experiments/universe_delisting_v9/ARTIFACTS.csv)、[v10材料清单](data/experiments/lean_migration_v10/ARTIFACTS.csv)和[v11材料清单](data/experiments/h60_signal_objectives_v11/ARTIFACTS.csv)。
+
+最终目标：建立由自己训练的 ML 模型驱动的美股自动交易系统。模型负责预测或排序，交易规则负责选股与仓位，工程负责行情更新、执行、成交持仓核对与监控记录。长期扣费复合年化最低目标30%、争取50%；账户回撤优先约20%、30%为预算上沿，无杠杆授权。当前仍是研究、虚构执行及IBKR只读探测，未启用真实账户下单；这些目标不构成收益或止损成交保证。
 
 项目定位补充：早期 AAPL/SPY、一年日线和少量收益特征用于学习基线；现已扩为30股，保留2015—2025主快照和2012—2025扩展快照，并比较基础、价格/ETF、财报及事件输入。完整系统需要分别完成研究验证与执行验证。
 
@@ -13,7 +25,7 @@ GitHub源码审阅请先看 [REVIEW_INDEX.md](REVIEW_INDEX.md)。大型材料保
 - 财报按实际公开且可获取时间使用，不能按季度截止日提前使用；宏观数据区分首次发布与修订版本，新闻区分发生时间、发布时间与获取时间。候选公开来源包括 [SEC EDGAR](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) 和保留历史发布/修订版本的 [ALFRED](https://fred.stlouisfed.org/docs/api/fred/alfred.html)。历史预期、新闻、退市等数据的可用性与授权需到对应阶段核查。
 - 用固定比较流程检查新增信息是否改善样本外表现、扣成本后的收益及风险，必要时剔除无效信息。影响股价的因素不等于可用来预测未来超额收益的信息；模型不需要也不能保证解释所有涨跌。风控和交易约束用于管理无法预测的风险，执行可靠性另行检验。
 
-当前节点（2026-09-09 UTC，反思与策略修订）：新增10次H20年度拟合，复用并精确恢复10份H60模型，执行v6/v7两套预先登记规则及41次成本/压力历史回测。v6叠加分散、ATR止损与组合暂停，v7精简仓位、采用15%保护止损并补上软降仓恢复。两版主候选均未通过本轮的盈利保留要求，未替换旧研究基线或启用券商下单。详见[反思和完整结果](data/experiments/strategy_reflection_20260909/REFLECTION_AND_RESULTS.md)、[10次训练明细](data/experiments/strategy_reflection_20260909/TRAINING_DETAILS.md)、[研究状态](data/experiments/strategy_reflection_20260909/strategy_status.json)。
+上一轮节点（2026-09-09 UTC，反思与策略修订，以下为保留的历史记录）：新增10次H20年度拟合，复用并精确恢复10份H60模型，执行v6/v7两套预先登记规则及41次成本/压力历史回测。v6叠加分散、ATR止损与组合暂停，v7精简仓位、采用15%保护止损并补上软降仓恢复。两版主候选均未通过该轮盈利保留要求，未替换旧研究基线或启用券商下单。详见[反思和完整结果](data/experiments/strategy_reflection_20260909/REFLECTION_AND_RESULTS.md)、[10次训练明细](data/experiments/strategy_reflection_20260909/TRAINING_DETAILS.md)、[研究状态](data/experiments/strategy_reflection_20260909/strategy_status.json)。
 
 同一2016-01-05至2025-12-29区间、普通单边10bp/止损额外10bp、调整OHLC代理：旧H60波动率仓位年化27.46%、收盘最大回撤-27.69%；v6完整规则5.96%/-17.16%；v7完整规则11.32%/-15.37%。降低回撤没有保住足够收益，不能包装为更强或可放心实盘的模型。49项虚构行情/执行故障测试通过，仍非券商集成证据。旧0/98统计筛选保留，2026行情未读取；本轮自适应修订不冒充独立终测。脚本38/39/40分别训练、执行v6、执行v7；41重建报告，完成后重跑不会重新训练。
 

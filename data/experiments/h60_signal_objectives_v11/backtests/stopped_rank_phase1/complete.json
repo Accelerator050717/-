@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "aac3f809bfe789a2907fb3c2ef4f529d493052cf2ed54e609d57d99feaa56a1d",
+  "files": [
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_phase1/daily.csv",
+      "size_bytes": 667589,
+      "sha256": "0110cf42ae3683166ba617e7f2e1027f6fa83dc4875047c4d0e4a4381b287ca6"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_phase1/trades.csv",
+      "size_bytes": 914143,
+      "sha256": "8d94cc1ad505260c0540cdad21cd70367958e13819c496d4351cb5fe09444f54"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_phase1/positions.csv",
+      "size_bytes": 676414,
+      "sha256": "1f60b8019d6ef2371a9885037a7ae2bd392be242cae7aed0e6b03938e9bcdf29"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_phase1/targets.csv",
+      "size_bytes": 160311,
+      "sha256": "0c7f005cb7edf7d455798365f227d37c1c444fe92ce8b4082e6945be47721117"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_phase1/events.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_phase1/metrics.json",
+      "size_bytes": 1014,
+      "sha256": "9e86ca1180ebbaccc3ac92f614e8ec1d0d2fb0af8d3ff03309d6fd3e35456a06"
+    }
+  ]
+}

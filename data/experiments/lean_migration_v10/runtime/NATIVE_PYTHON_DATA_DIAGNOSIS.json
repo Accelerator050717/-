@@ -1,0 +1,36 @@
+{
+  "observed_at_utc": "2026-09-11T02:38:28.962437+00:00",
+  "attempt": "h60_smoke_02",
+  "process_id": 32728,
+  "status": "stalled_before_first_data",
+  "stack_sha256": "6ae553a5aaea602b97a388a8458621f1ab19e1a823504f995953c4a02fccf9f3",
+  "diagnostic_tool": {
+    "name": "dotnet-stack",
+    "version": "10.0.745401",
+    "location": "M:/quantconnect-lean-runtime/diagnostics"
+  },
+  "observed_stacks": [
+    "Thread0x1494: Monitor.Enter / Lazy.ExecutionAndPublication / Converter.ToPython / PythonData.GetSource",
+    "Thread0x9DA0: PyImport_ExecCodeModule / PyModule.FromString / Converter cctor Lazy factory / PythonData.GetSource",
+    "Other data workers wait Python.Runtime.PyGILState_Ensure",
+    "Algorithm thread waits EnqueueableEnumerator.MoveNext"
+  ],
+  "diagnosis": "First-use Python.NET converter initialization lock/GIL cycle between concurrent custom-data workers",
+  "mitigation": {
+    "data-feed-workers-count": 1
+  },
+  "official_support": "Engine/DataFeeds/WorkScheduling/BaseWorkScheduler.cs line30 reads Config.GetInt(data-feed-workers-count)",
+  "engine_source_changed": false,
+  "strategy_parameters_changed": false,
+  "attempt_kept": true,
+  "mitigation_validation": {
+    "attempt": "h60_smoke_03",
+    "data_sources_requested": 30,
+    "data_sources_read": 30,
+    "first_data_time": "2016-01-05 09:30:00 America/New_York",
+    "data_feed_deadlock_resolved": true,
+    "overall_H60_run_passed": false,
+    "next_failure": "FeeModel received untagged hypothetical valuation order; initial Python exception caused legacy signature fallback. Adapter fix handled separately.",
+    "engine_log_sha256": "176a7575d6e5b01030a72787acd4be24d9867768f9a2e03ef830a3a222a3c4f1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cagr_at_least_30": false,
+  "drawdown_within_30": true,
+  "beats_admissible_simple_net_cagr": false,
+  "all_fixed_stress_positive_and_drawdown_within_30": true,
+  "development_passed": false,
+  "preferred_drawdown_within_20": true,
+  "aspiration_cagr_50": false,
+  "candidate": "stop_on_soft_off_cost10",
+  "independent_validation_passed": false,
+  "candidate_frozen_for_2026": false,
+  "prices_2026_accessed": false,
+  "old_0_of_98_unchanged": true,
+  "decision": "REJECT_NO_2026"
+}

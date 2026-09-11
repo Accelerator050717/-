@@ -1,0 +1,60 @@
+{
+  "evidence": "All events, positions and payment are invented",
+  "before_payment": {
+    "holdings": {
+      "SIM_A": "0",
+      "SIM_B": "5"
+    },
+    "available_cash": "1000",
+    "receivable_cash": "500",
+    "unresolved": [
+      "SIM_B"
+    ],
+    "investment_return": null,
+    "reason": "No acquisition prices/real holdings/complete price history; no return computed"
+  },
+  "after_payment": {
+    "holdings": {
+      "SIM_A": "0",
+      "SIM_B": "5"
+    },
+    "available_cash": "1500",
+    "receivable_cash": "0",
+    "unresolved": [
+      "SIM_B"
+    ],
+    "investment_return": null,
+    "reason": "No acquisition prices/real holdings/complete price history; no return computed"
+  },
+  "state": {
+    "holdings_asof": "2023-10-02T16:00:00-04:00",
+    "holdings": {
+      "SIM_A": "0",
+      "SIM_B": "5"
+    },
+    "available_cash": "1500",
+    "receivables": {
+      "sim_a_cash": {
+        "security_id": "SIM_A",
+        "amount": "0",
+        "effective_at": "2023-10-05T09:30:00-04:00",
+        "available_at": "2023-10-05T16:00:00-04:00"
+      }
+    },
+    "applied": {
+      "sim_a_cash": "ea141faa9ae4596d6a2da3c293ba1d5ae2304e95ad45e4c7be847ad3b13d083e",
+      "sim_b_unknown": "cbadf56f17bf1a89ad85bb048eeb56a5d15be323d1e31836a039dafd5662a60d"
+    },
+    "receipts": {
+      "SIM_PAYMENT": {
+        "event_id": "sim_a_cash",
+        "cash": "500",
+        "paid_at": "2023-10-06T10:00:00-04:00"
+      }
+    },
+    "unresolved": [
+      "SIM_B"
+    ],
+    "last_asof": "2023-10-06T16:00:00-04:00"
+  }
+}

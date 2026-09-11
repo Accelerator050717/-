@@ -1,0 +1,254 @@
+{
+  "baseline_rank_cost10": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4951
+  },
+  "baseline_rank_cost20": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4951
+  },
+  "baseline_rank_cost30_stop50": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4849
+  },
+  "baseline_rank_delayed_next_open": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4955
+  },
+  "baseline_rank_phase1": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2510,
+    "trades": 5008
+  },
+  "baseline_rank_phase4": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2507,
+    "trades": 4959
+  },
+  "baseline_rank_exclude_NVDA": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4628
+  },
+  "simple_h60_cost10": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 3002
+  },
+  "simple_h60_cost20": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 3002
+  },
+  "simple_h60_cost30_stop50": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 2979
+  },
+  "simple_h60_delayed_next_open": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 3002
+  },
+  "simple_h60_phase1": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2510,
+    "trades": 3008
+  },
+  "simple_h60_phase4": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2507,
+    "trades": 3045
+  },
+  "simple_h60_exclude_NVDA": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 3035
+  },
+  "simple_spy_cost10": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 503
+  },
+  "simple_spy_cost20": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 503
+  },
+  "simple_spy_cost30_stop50": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 503
+  },
+  "simple_spy_delayed_next_open": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 503
+  },
+  "simple_spy_phase1": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2510,
+    "trades": 503
+  },
+  "simple_spy_phase4": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2507,
+    "trades": 502
+  },
+  "simple_spy_exclude_NVDA": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 503
+  },
+  "plain_magnitude_cost10": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4690
+  },
+  "plain_magnitude_cost20": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4690
+  },
+  "plain_magnitude_cost30_stop50": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4627
+  },
+  "plain_magnitude_delayed_next_open": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4758
+  },
+  "plain_magnitude_phase1": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2510,
+    "trades": 4812
+  },
+  "plain_magnitude_phase4": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2507,
+    "trades": 4763
+  },
+  "plain_magnitude_exclude_NVDA": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4557
+  },
+  "stopped_magnitude_cost10": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4776
+  },
+  "stopped_magnitude_cost20": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4776
+  },
+  "stopped_magnitude_cost30_stop50": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4776
+  },
+  "stopped_magnitude_delayed_next_open": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4778
+  },
+  "stopped_magnitude_phase1": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2510,
+    "trades": 4882
+  },
+  "stopped_magnitude_phase4": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2507,
+    "trades": 4846
+  },
+  "stopped_magnitude_exclude_NVDA": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4618
+  },
+  "stopped_rank_cost10": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 5089
+  },
+  "stopped_rank_cost20": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 5090
+  },
+  "stopped_rank_cost30_stop50": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 5063
+  },
+  "stopped_rank_delayed_next_open": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 5103
+  },
+  "stopped_rank_phase1": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2510,
+    "trades": 5002
+  },
+  "stopped_rank_phase4": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2507,
+    "trades": 5033
+  },
+  "stopped_rank_exclude_NVDA": {
+    "ledger_passed": true,
+    "final_flat": true,
+    "days": 2511,
+    "trades": 4569
+  }
+}

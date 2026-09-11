@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "M:\ml��Ŀ\43_run_h60_simulation.py", line 223, in <module>
+    main()
+  File "M:\ml��Ŀ\43_run_h60_simulation.py", line 218, in main
+    run_virtual()
+  File "M:\ml��Ŀ\43_run_h60_simulation.py", line 130, in run_virtual
+    reconcile(now)
+  File "M:\ml��Ŀ\43_run_h60_simulation.py", line 109, in reconcile
+    raise ExecutionBlocked(client.journal.read()['blocked'])
+h60_execution.ExecutionBlocked: order_reconciliation_execution_time_after_snapshot

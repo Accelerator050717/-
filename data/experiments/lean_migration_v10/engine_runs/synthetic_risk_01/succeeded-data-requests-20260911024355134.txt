@@ -1,0 +1,9 @@
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_0.csv
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_1.csv
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_2.csv
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_3.csv
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_4.csv
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_5.csv
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_6.csv
+M:\ml项目\data\experiments\lean_migration_v10\synthetic_input\bars\SIM_7.csv
+\equity\usa\daily\spy.zip

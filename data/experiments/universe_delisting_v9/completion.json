@@ -1,0 +1,28 @@
+{
+  "completed_at_utc": "2026-09-11T02:17:43.560002+00:00",
+  "public_event_case_passed": true,
+  "hypothetical_atvi_shares": 10,
+  "receivable_usd": "950",
+  "available_cash_usd": "0",
+  "actual_broker_payment_verified": false,
+  "synthetic_group_sizes": [
+    2,
+    2,
+    3,
+    2,
+    1
+  ],
+  "restore_did_not_duplicate_cash_right": true,
+  "new_fits": 0,
+  "new_strategy_backtests": 0,
+  "new_trades": 0,
+  "prices_2026_accessed": false,
+  "full_historical_universe_acquired": false,
+  "survivorship_bias_resolved": false,
+  "current_strategy_decision": "REJECT_NO_2026",
+  "blocker": "No licensed historical universe/delisting dataset; public case cannot establish full coverage",
+  "source_sha256": {
+    "historical_universe.py": "4840b9f6edb478839e86520ecbaaf22236fd9a12d006c2e63bcdaaf11c803e84",
+    "46_check_historical_universe.py": "59dc29e6180be5368e891eb6a3f71bb2ef49296aca59c3c2a817ecf92e1aa66f"
+  }
+}

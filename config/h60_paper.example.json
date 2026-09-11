@@ -1,0 +1,17 @@
+{
+  "mode": "paper",
+  "enable_paper_orders": false,
+  "strategy_id": "h60-v8-paper-engineering",
+  "host": "127.0.0.1",
+  "port": 7497,
+  "client_id": 9032,
+  "currency": "USD",
+  "budget": "1000",
+  "max_order_notional": "250",
+  "paper_budget_isolated": false,
+  "expected_account_environment_variable": "QUANT_IBKR_EXPECTED_ACCOUNT",
+  "corporate_actions_checked_through": null,
+  "symbols": ["AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META", "JPM", "BAC", "GS", "V", "JNJ", "PFE", "MRK", "UNH", "XOM", "CVX", "COP", "CAT", "HON", "DE", "PG", "KO", "PEP", "WMT", "COST", "HD", "MCD", "NEE", "DUK", "SO"],
+  "strategy_manifest": "data/experiments/h60_risk_execution_v8/PAPER_ENGINEERING_MANIFEST.json",
+  "note": "Template only. No live mode. Whole shares; explicit paper identity and cash budget required. A failed research candidate may only be an engineering test."
+}

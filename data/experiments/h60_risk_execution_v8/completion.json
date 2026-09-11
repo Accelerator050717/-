@@ -1,0 +1,31 @@
+{
+  "completed_at_utc": "2026-09-09T08:26:09.164678+00:00",
+  "runs": 39,
+  "new_fits": 0,
+  "reused_models": 10,
+  "source_sha256": {
+    "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf",
+    "profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+    "robust_strategy.py": "125cd2795bfcc426098ef5848b4fddcdb8a1b64dd588c425042563b24730be6e",
+    "h60_research_inputs.py": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d",
+    "42_evaluate_h60_risk_fixes.py": "750f4ca8638a0277cd8d9c0e60663a9226c15a34d13d029bb06f42b13f7b8ba3"
+  },
+  "all_ledgers_checked": true,
+  "prices_2026_accessed": false,
+  "orders_sent": 0,
+  "gates": {
+    "cagr_at_least_30": false,
+    "drawdown_within_30": true,
+    "beats_admissible_simple_net_cagr": false,
+    "all_fixed_stress_positive_and_drawdown_within_30": true,
+    "development_passed": false,
+    "preferred_drawdown_within_20": true,
+    "aspiration_cagr_50": false,
+    "candidate": "stop_on_soft_off_cost10",
+    "independent_validation_passed": false,
+    "candidate_frozen_for_2026": false,
+    "prices_2026_accessed": false,
+    "old_0_of_98_unchanged": true,
+    "decision": "REJECT_NO_2026"
+  }
+}

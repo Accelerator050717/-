@@ -1,0 +1,145 @@
+2026-09-11T02:39:34.2166569Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: RELEASE (64bit) Host: MGOD
+2026-09-11T02:39:34.2209045Z TRACE:: Engine.Main(): Started 19:39
+2026-09-11T02:39:34.2379818Z TRACE:: JobQueue.NextJob(): Selected M:\ml项目\data\experiments\lean_migration_v10\engine_runs\h60_smoke_04\code\main.py
+2026-09-11T02:39:34.3257690Z TRACE:: PythonIntializer.ActivatePythonVirtualEnvironment(): virtual env 'M:\ml项目\.venv'. Will use system packages: False
+2026-09-11T02:39:34.3359674Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2026-09-11T02:39:34.4513672Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2026-09-11T02:39:34.4531332Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2026-09-11T02:39:34.8144355Z TRACE:: PythonInitializer.Initialize(): start...
+2026-09-11T02:39:35.0539100Z TRACE:: PythonInitializer.Initialize(): ended
+2026-09-11T02:39:35.0548917Z TRACE:: AlgorithmPythonWrapper(): Python version 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]: Importing python module main
+2026-09-11T02:39:38.3117691Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2026-09-11T02:39:38.3321643Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2026-09-11T02:39:38.8877682Z TRACE:: LocalObjectStore.Initialize(): Storage Root: M:\ml项目\data\experiments\lean_migration_v10\engine_runs\h60_smoke_04\storage. StorageFileCount 10000. StorageLimit 10240MB. StoragePermissions Read=True Write=True Delete=True
+2026-09-11T02:39:38.9419784Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2026-09-11T02:39:38.9584120Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 0, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2026-09-11T02:39:39.7757673Z TRACE:: WeightedWorkScheduler(): will use 1 workers and MaxWorkWeight is 400
+2026-09-11T02:39:39.7984816Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Margin
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $       10000.00 @       1.00 = $10000
+-------------------------------------------------
+CashBook Total Value:                $10000
+
+2026-09-11T02:39:39.8037388Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 10000.00
+2026-09-11T02:39:39.8057731Z TRACE:: SetUp Backtesting: User: 0 ProjectId: 0 AlgoId: H60MigrationAlgorithm
+2026-09-11T02:39:39.8068267Z TRACE:: Dates: Start: 01/05/2016 End: 02/02/2016 Cash: ¤10,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2026-09-11T02:39:39.8196880Z TRACE:: BacktestingResultHandler(): Sample Period Set: 10.44
+2026-09-11T02:39:39.8210528Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2026-09-11T02:39:39.8609727Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2026-09-11T02:39:39.8612806Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 2016/1/5 0:00:00 Stop: 2016/2/2 23:59:59 Time: 2016/1/5 0:00:00 Warmup: False
+2026-09-11T02:39:40.0870978Z TRACE:: Debug: 2016-01-05 00:00:00 Launching analysis for H60MigrationAlgorithm with LEAN Engine v2.5.0.0
+2026-09-11T02:39:41.1400503Z TRACE:: Log: 2016-01-05 00:00:00 Historical-only H60 proxy: actual daily prices; artificial OPEN/RANGE/CLOSE order.
+2026-09-11T02:39:41.3877815Z ERROR:: 2016-01-05 09:30:00 Warning: Due to brokerage limitations, orders will be rounded to the nearest lot size of 0.000000000001
+2026-09-11T02:39:42.0417710Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2026-09-11T02:39:42.0432146Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2026-09-11T02:39:42.1629795Z ERROR:: Extensions.SetRuntimeError(): Extensions.SetRuntimeError(): RuntimeError at 02/02/2016 21:00:00 UTC. Context: OnEndOfAlgorithm Python.Runtime.PythonException: 'H60MigrationAlgorithm' object has no attribute 'runtime_error' Did you mean: 'run_time_error'?
+  File "M:\ml项目\data\experiments\lean_migration_v10\engine_runs\h60_smoke_04\code\main.py", line 263, in on_end_of_algorithm
+    runtime_error = str(self.runtime_error) if self.runtime_error else None
+                                               ^^^^^^^^^^^^^^^^^^
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyObject[] args)
+   at QuantConnect.Python.PythonWrapper.InvokeMethodImpl(PyObject method, Object[] args) in Common\Python\PythonWrapper.cs:line 133
+   at QuantConnect.Python.PythonWrapper.Invoke(PyObject method, Object[] args) in Common\Python\PythonWrapper.cs:line 120
+   at QuantConnect.Python.BasePythonWrapper`1.InvokeMethod(String methodName, Object[] args) in Common\Python\BasePythonWrapper.cs:line 184
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper.OnEndOfAlgorithm() in AlgorithmFactory\Python\Wrappers\AlgorithmPythonWrapper.cs:line 835
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, CancellationTokenSource cancellationTokenSource, PerformanceTrackingTool performanceTrackingTool) in Engine\AlgorithmManager.cs:line 619
+2026-09-11T02:39:42.2166662Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2026-09-11T02:39:42.2180225Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2026-09-11T02:39:42.2200539Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2026-09-11T02:39:42.2205478Z TRACE:: Engine.Run(): Sending runtime error to user...
+2026-09-11T02:39:42.2243883Z TRACE:: OrderRequestProcessingPool.Dispose(): completed
+2026-09-11T02:39:42.2264835Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2026-09-11T02:39:42.2271016Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2026-09-11T02:39:42.2274034Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2026-09-11T02:39:42.2297289Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2026-09-11T02:39:42.2297866Z ERROR:: 2016-02-02 16:00:00 Runtime Error: 'H60MigrationAlgorithm' object has no attribute 'runtime_error' Did you mean: 'run_time_error'?
+  at on_end_of_algorithm
+    runtime_error = str(self.runtime_error) if self.runtime_error else None
+                                               ^^^^^^^^^^^^^^^^^^
+ in main.py: line 263
+
+ 'H60MigrationAlgorithm' object has no attribute 'runtime_error' Did you mean: 'run_time_error'?
+  at on_end_of_algorithm
+    runtime_error = str(self.runtime_error) if self.runtime_error else None
+                                               ^^^^^^^^^^^^^^^^^^
+ in main.py: line 263
+
+2026-09-11T02:39:42.2298627Z TRACE:: Debug: 2016-02-02 16:00:00 Algorithm Id:(H60MigrationAlgorithm) completed in 2.40 seconds at 1k data points per second. Processing total of 1,801 data points.
+2026-09-11T02:39:42.2299713Z TRACE:: Debug: 2016-02-02 16:00:00 Your log was successfully created and can be retrieved from: M:\ml项目\data\experiments\lean_migration_v10\engine_runs\h60_smoke_04\H60MigrationAlgorithm-log.txt
+2026-09-11T02:39:42.2300118Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2026-09-11T02:39:42.3405901Z ERROR:: InterestRateProvider.FromCsvFile(): no interest rates were loaded, please make sure the file is present 'M:\quantconnect-lean-runtime\Lean\Data\alternative\interest-rate\usa\interest-rate.csv'
+2026-09-11T02:39:43.1624420Z TRACE:: 
+STATISTICS:: Total Orders 43
+STATISTICS:: Average Win 0.20%
+STATISTICS:: Average Loss -0.24%
+STATISTICS:: Compounding Annual Return -27.282%
+STATISTICS:: Drawdown 6.000%
+STATISTICS:: Expectancy -0.359
+STATISTICS:: Start Equity 10000
+STATISTICS:: End Equity 9752.89
+STATISTICS:: Net Profit -2.471%
+STATISTICS:: Sharpe Ratio -1.428
+STATISTICS:: Sortino Ratio -2.857
+STATISTICS:: Probabilistic Sharpe Ratio 20.982%
+STATISTICS:: Loss Rate 66%
+STATISTICS:: Win Rate 34%
+STATISTICS:: Profit-Loss Ratio 0.86
+STATISTICS:: Alpha 0
+STATISTICS:: Beta 0
+STATISTICS:: Annual Standard Deviation 0.107
+STATISTICS:: Annual Variance 0.011
+STATISTICS:: Information Ratio -1.334
+STATISTICS:: Tracking Error 0.107
+STATISTICS:: Treynor Ratio 0
+STATISTICS:: Total Fees $17.12
+STATISTICS:: Estimated Strategy Capacity $0
+STATISTICS:: Lowest Capacity Asset AAPL.H60Phase 2S
+STATISTICS:: Portfolio Turnover 4.23%
+STATISTICS:: Drawdown Recovery 0
+STATISTICS:: OrderListHash 40ca524ef78fab615b52de1ab97b63c1
+2026-09-11T02:39:43.1624952Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2026-09-11T02:39:43.1633258Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2026-09-11T02:39:43.1635050Z TRACE:: Engine.Run(): Disposing of setup handler...
+2026-09-11T02:39:43.1636445Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2026-09-11T02:39:43.1640735Z TRACE:: DataMonitor.Exit(): start...
+2026-09-11T02:39:43.1642825Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2026-09-11T02:39:43.1669469Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 32
+DATA USAGE:: Succeeded data requests 31
+DATA USAGE:: Failed data requests 1
+DATA USAGE:: Failed data requests percentage 3%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2026-09-11T02:39:43.1761531Z TRACE:: DataMonitor.Exit(): end
+2026-09-11T02:39:43.1822738Z TRACE:: Engine.Main(): Packet removed from queue: H60MigrationAlgorithm
+2026-09-11T02:39:43.1825431Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2026-09-11T02:39:43.1840965Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2026-09-11T02:39:43.1844391Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2026-09-11T02:39:43.1856181Z TRACE:: LocalObjectStore.Dispose(): start...
+2026-09-11T02:39:43.1861609Z TRACE:: LocalObjectStore.Dispose(): end
+2026-09-11T02:39:43.1866089Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
+2026-09-11T02:39:43.1869153Z TRACE:: StopSafely(): Waiting for 'CpuPerformance' thread to stop...
+2026-09-11T02:39:43.1880077Z TRACE:: PythonInitializer.Shutdown(): start
+2026-09-11T02:39:43.1880917Z TRACE:: PythonInitializer.Shutdown(): calling engine shutdown...
+2026-09-11T02:39:54.3226032Z TRACE:: Isolator.ExecuteWithTimeLimit(): Execution Security Error: Operation timed out - 0.16666666666666666 minutes max. Check for recursive loops.
+2026-09-11T02:39:54.3227935Z ERROR:: Security.ExecuteWithTimeLimit(): Execution Security Error: Operation timed out - 0.16666666666666666 minutes max. Check for recursive loops.
+2026-09-11T02:39:54.3282753Z ERROR:: Program.Exit(): Failed to shutdown python System.TimeoutException: Execution Security Error: Operation timed out - 0.16666666666666666 minutes max. Check for recursive loops.
+   at QuantConnect.Isolator.MonitorTask(Task task, TimeSpan timeSpan, Func`1 withinCustomLimits, Int64 memoryCap, Int32 sleepIntervalMillis) in Common\Isolator.cs:line 179
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Func`1 withinCustomLimits, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in Common\Isolator.cs:line 69
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in Common\Isolator.cs:line 196
+   at QuantConnect.Lean.Launcher.Program.Exit(Int32 exitCode) in Launcher\Program.cs:line 145
+2026-09-11T02:39:54.3283414Z TRACE:: Program.Main(): Exiting Lean...

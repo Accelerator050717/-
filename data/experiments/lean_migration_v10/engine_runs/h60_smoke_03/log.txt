@@ -1,0 +1,120 @@
+2026-09-11T02:38:29.2518648Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: RELEASE (64bit) Host: MGOD
+2026-09-11T02:38:29.2565201Z TRACE:: Engine.Main(): Started 19:38
+2026-09-11T02:38:29.2745352Z TRACE:: JobQueue.NextJob(): Selected M:\ml项目\data\experiments\lean_migration_v10\engine_runs\h60_smoke_03\code\main.py
+2026-09-11T02:38:29.2942331Z TRACE:: PythonIntializer.ActivatePythonVirtualEnvironment(): virtual env 'M:\ml项目\.venv'. Will use system packages: False
+2026-09-11T02:38:29.3033511Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2026-09-11T02:38:29.3081872Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2026-09-11T02:38:29.3087348Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2026-09-11T02:38:29.9876208Z TRACE:: PythonInitializer.Initialize(): start...
+2026-09-11T02:38:30.3921956Z TRACE:: PythonInitializer.Initialize(): ended
+2026-09-11T02:38:30.3932850Z TRACE:: AlgorithmPythonWrapper(): Python version 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]: Importing python module main
+2026-09-11T02:38:32.5423141Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2026-09-11T02:38:32.5467598Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2026-09-11T02:38:32.7179548Z TRACE:: LocalObjectStore.Initialize(): Storage Root: M:\ml项目\data\experiments\lean_migration_v10\engine_runs\h60_smoke_03\storage. StorageFileCount 10000. StorageLimit 10240MB. StoragePermissions Read=True Write=True Delete=True
+2026-09-11T02:38:32.7261112Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2026-09-11T02:38:32.7284183Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 0, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2026-09-11T02:38:32.9917647Z TRACE:: WeightedWorkScheduler(): will use 1 workers and MaxWorkWeight is 400
+2026-09-11T02:38:32.9974405Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Margin
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $       10000.00 @       1.00 = $10000
+-------------------------------------------------
+CashBook Total Value:                $10000
+
+2026-09-11T02:38:32.9984840Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 10000.00
+2026-09-11T02:38:32.9986787Z TRACE:: SetUp Backtesting: User: 0 ProjectId: 0 AlgoId: H60MigrationAlgorithm
+2026-09-11T02:38:32.9987954Z TRACE:: Dates: Start: 01/05/2016 End: 02/02/2016 Cash: ¤10,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2026-09-11T02:38:33.0016830Z TRACE:: BacktestingResultHandler(): Sample Period Set: 10.44
+2026-09-11T02:38:33.0019300Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2026-09-11T02:38:33.0125769Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2026-09-11T02:38:33.0126703Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 2016/1/5 0:00:00 Stop: 2016/2/2 23:59:59 Time: 2016/1/5 0:00:00 Warmup: False
+2026-09-11T02:38:33.0560387Z TRACE:: Debug: 2016-01-05 00:00:00 Launching analysis for H60MigrationAlgorithm with LEAN Engine v2.5.0.0
+2026-09-11T02:38:33.2952095Z TRACE:: Log: 2016-01-05 00:00:00 Historical-only H60 proxy: actual daily prices; artificial OPEN/RANGE/CLOSE order.
+2026-09-11T02:38:33.5245441Z ERROR:: Extensions.SetRuntimeError(): Extensions.SetRuntimeError(): RuntimeError at 01/05/2016 14:30:00 UTC. Context: AlgorithmManager.Run Python.Runtime.PythonException: H60ProxyFeeModel.get_order_fee() takes 2 positional arguments but 3 were given
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyObject[] args)
+   at QuantConnect.Python.PythonWrapper.InvokeMethodImpl(PyObject method, Object[] args) in Common\Python\PythonWrapper.cs:line 133
+   at QuantConnect.Python.PythonWrapper.Invoke(PyObject method, Object[] args) in Common\Python\PythonWrapper.cs:line 120
+   at QuantConnect.Python.BasePythonWrapper`1.PythonRuntimeChecker.InvokeMethod[TResult](PyObject method, String pythonMethodName, Object[] args) in Common\Python\BasePythonWrapper.cs:line 406
+   at QuantConnect.Python.BasePythonWrapper`1.InvokeMethod[T](String methodName, Object[] args) in Common\Python\BasePythonWrapper.cs:line 172
+   at QuantConnect.Python.FeeModelPythonWrapper.GetOrderFee(OrderFeeParameters parameters) in Common\Python\FeeModelPythonWrapper.cs:line 60
+   at QuantConnect.Extensions.GetMarketOrderFees(Security security, Decimal quantity, DateTime time) in Common\Extensions.cs:line 4672
+   at QuantConnect.Securities.SecurityHolding.TotalCloseProfit(Boolean includeFees, Nullable`1 exitPrice, Nullable`1 entryPrice, Nullable`1 quantity) in Common\Securities\SecurityHolding.cs:line 493
+   at QuantConnect.Securities.SecurityHolding.get_UnrealizedProfit() in Common\Securities\SecurityHolding.cs:line 370
+   at QuantConnect.Securities.SecurityPortfolioManager.<>c.<get_TotalUnrealisedProfit>b__67_0(Security security) in Common\Securities\SecurityPortfolioManager.cs:line 410
+   at System.Linq.Enumerable.Sum[TSource,TResult,TAccumulator](IEnumerable`1 source, Func`2 selector)
+   at QuantConnect.Securities.SecurityPortfolioManager.get_TotalUnrealisedProfit() in Common\Securities\SecurityPortfolioManager.cs:line 410
+   at QuantConnect.Securities.SecurityPortfolioManager.get_TotalUnrealizedProfit() in Common\Securities\SecurityPortfolioManager.cs:line 420
+   at QuantConnect.Lean.Engine.Results.BaseResultsHandler.UpdatePortfolioValues(DateTime time, Boolean force) in Engine\Results\BaseResultsHandler.cs:line 1405
+   at QuantConnect.Lean.Engine.Results.BacktestingResultHandler.ProcessSynchronousEvents(Boolean forceProcess) in Engine\Results\BacktestingResultHandler.cs:line 811
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, CancellationTokenSource cancellationTokenSource, PerformanceTrackingTool performanceTrackingTool) in Engine\AlgorithmManager.cs:line 605
+   at QuantConnect.Lean.Engine.Engine.<>c__DisplayClass11_3.<Run>b__9() in Engine\Engine.cs:line 359
+2026-09-11T02:38:33.5369447Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2026-09-11T02:38:33.5386600Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2026-09-11T02:38:33.5390978Z TRACE:: Engine.Run(): Sending runtime error to user...
+2026-09-11T02:38:33.5422335Z TRACE:: OrderRequestProcessingPool.Dispose(): completed
+2026-09-11T02:38:33.5434742Z ERROR:: 2016-01-05 09:30:00 Runtime Error: H60ProxyFeeModel.get_order_fee() takes 2 positional arguments but 3 were given
+ H60ProxyFeeModel.get_order_fee() takes 2 positional arguments but 3 were given
+2026-09-11T02:38:33.5435106Z TRACE:: Debug: 2016-01-05 09:30:00 Algorithm Id:(H60MigrationAlgorithm) completed in 0.54 seconds at 0k data points per second. Processing total of 31 data points.
+2026-09-11T02:38:33.5472602Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2026-09-11T02:38:33.5484838Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2026-09-11T02:38:33.5528302Z ERROR:: Engine.Run(): Error running algorithm Python.Runtime.PythonException: H60ProxyFeeModel.get_order_fee() takes 2 positional arguments but 3 were given
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyObject[] args)
+   at QuantConnect.Python.PythonWrapper.InvokeMethodImpl(PyObject method, Object[] args) in Common\Python\PythonWrapper.cs:line 133
+   at QuantConnect.Python.PythonWrapper.Invoke(PyObject method, Object[] args) in Common\Python\PythonWrapper.cs:line 120
+   at QuantConnect.Python.BasePythonWrapper`1.PythonRuntimeChecker.InvokeMethod[TResult](PyObject method, String pythonMethodName, Object[] args) in Common\Python\BasePythonWrapper.cs:line 406
+   at QuantConnect.Python.BasePythonWrapper`1.InvokeMethod[T](String methodName, Object[] args) in Common\Python\BasePythonWrapper.cs:line 172
+   at QuantConnect.Python.FeeModelPythonWrapper.GetOrderFee(OrderFeeParameters parameters) in Common\Python\FeeModelPythonWrapper.cs:line 60
+   at QuantConnect.Extensions.GetMarketOrderFees(Security security, Decimal quantity, DateTime time) in Common\Extensions.cs:line 4672
+   at QuantConnect.Securities.SecurityHolding.TotalCloseProfit(Boolean includeFees, Nullable`1 exitPrice, Nullable`1 entryPrice, Nullable`1 quantity) in Common\Securities\SecurityHolding.cs:line 493
+   at QuantConnect.Securities.SecurityHolding.get_UnrealizedProfit() in Common\Securities\SecurityHolding.cs:line 370
+   at QuantConnect.Securities.SecurityPortfolioManager.<>c.<get_TotalUnrealisedProfit>b__67_0(Security security) in Common\Securities\SecurityPortfolioManager.cs:line 410
+   at System.Linq.Enumerable.Sum[TSource,TResult,TAccumulator](IEnumerable`1 source, Func`2 selector)
+   at QuantConnect.Securities.SecurityPortfolioManager.get_TotalUnrealisedProfit() in Common\Securities\SecurityPortfolioManager.cs:line 410
+   at QuantConnect.Securities.SecurityPortfolioManager.get_TotalUnrealizedProfit() in Common\Securities\SecurityPortfolioManager.cs:line 420
+   at QuantConnect.Lean.Engine.Results.BaseResultsHandler.UpdatePortfolioValues(DateTime time, Boolean force) in Engine\Results\BaseResultsHandler.cs:line 1405
+   at QuantConnect.Lean.Engine.Results.BacktestingResultHandler.ProcessSynchronousEvents(Boolean forceProcess) in Engine\Results\BacktestingResultHandler.cs:line 811
+   at QuantConnect.Lean.Engine.Results.BacktestingResultHandler.Exit() in Engine\Results\BacktestingResultHandler.cs:line 748
+   at QuantConnect.Lean.Engine.Engine.Run(AlgorithmNodePacket job, AlgorithmManager manager, String assemblyPath, WorkerThread workerThread) in Engine\Engine.cs:line 426
+2026-09-11T02:38:33.5769873Z TRACE:: Engine.Main(): Packet removed from queue: H60MigrationAlgorithm
+2026-09-11T02:38:33.5771819Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2026-09-11T02:38:33.5781662Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2026-09-11T02:38:33.5785281Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2026-09-11T02:38:33.5787710Z TRACE:: LocalObjectStore.Dispose(): start...
+2026-09-11T02:38:33.5791433Z TRACE:: LocalObjectStore.Dispose(): end
+2026-09-11T02:38:33.5796544Z TRACE:: DataMonitor.Exit(): start...
+2026-09-11T02:38:33.5796986Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2026-09-11T02:38:33.5816074Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 30
+DATA USAGE:: Succeeded data requests 30
+DATA USAGE:: Failed data requests 0
+DATA USAGE:: Failed data requests percentage 0%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2026-09-11T02:38:33.5996794Z TRACE:: DataMonitor.Exit(): end
+2026-09-11T02:38:33.5997064Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
+2026-09-11T02:38:33.5999945Z TRACE:: StopSafely(): Waiting for 'CpuPerformance' thread to stop...
+2026-09-11T02:38:33.6008178Z TRACE:: PythonInitializer.Shutdown(): start
+2026-09-11T02:38:33.6008547Z TRACE:: PythonInitializer.Shutdown(): calling engine shutdown...
+2026-09-11T02:38:45.3801292Z TRACE:: Isolator.ExecuteWithTimeLimit(): Execution Security Error: Operation timed out - 0.16666666666666666 minutes max. Check for recursive loops.
+2026-09-11T02:38:45.3803018Z ERROR:: Security.ExecuteWithTimeLimit(): Execution Security Error: Operation timed out - 0.16666666666666666 minutes max. Check for recursive loops.
+2026-09-11T02:38:45.3839686Z ERROR:: Program.Exit(): Failed to shutdown python System.TimeoutException: Execution Security Error: Operation timed out - 0.16666666666666666 minutes max. Check for recursive loops.
+   at QuantConnect.Isolator.MonitorTask(Task task, TimeSpan timeSpan, Func`1 withinCustomLimits, Int64 memoryCap, Int32 sleepIntervalMillis) in Common\Isolator.cs:line 179
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Func`1 withinCustomLimits, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in Common\Isolator.cs:line 69
+   at QuantConnect.Isolator.ExecuteWithTimeLimit(TimeSpan timeSpan, Action codeBlock, Int64 memoryCap, Int32 sleepIntervalMillis, WorkerThread workerThread) in Common\Isolator.cs:line 196
+   at QuantConnect.Lean.Launcher.Program.Exit(Int32 exitCode) in Launcher\Program.cs:line 145
+2026-09-11T02:38:45.3840079Z TRACE:: Program.Main(): Exiting Lean...

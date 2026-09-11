@@ -1,0 +1,8 @@
+{
+  "evidence": "Invented return arithmetic only, no strategy performance",
+  "regular": "-0.10",
+  "separate_terminal": "-0.50",
+  "combined": "-0.55",
+  "inclusive": "-0.55",
+  "missing_terminal": null
+}

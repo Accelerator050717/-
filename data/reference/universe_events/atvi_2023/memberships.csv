@@ -1,0 +1,3 @@
+event_id,security_id,universe,effective_at,available_at,member,source_id
+atvi_membership_confirmed,PUBLIC_ATVI_COMMON_2023,SP500_PARTIAL_CASE,2023-10-13T23:59:59-04:00,2023-10-13T23:59:59-04:00,1,sp_20231013
+atvi_membership_removed,PUBLIC_ATVI_COMMON_2023,SP500_PARTIAL_CASE,2023-10-18T09:30:00-04:00,2023-10-13T23:59:59-04:00,0,sp_20231013

@@ -1,0 +1,13 @@
+{
+  "note": "Exact source copies for review. Run normal project root commands; snapshots are not a standalone environment. Original runtime dependencies and panel_config remain in repository.",
+  "files": {
+    "50_train_signal_objectives.py": "30971557cc07e4028d8b156f40a7f459b3b7c07697f3f071d492dc96a084ce24",
+    "h60_path_labels.py": "8e8824883642daee79dfe75b2870e6d11b0b4fe56089a2285e88eb79427fb7e5",
+    "research_features.py": "d8e07f198ff34e537e572e5cf6681f46deed41ef62b3aaef14d5bb7bd2fbe3f1",
+    "h60_research_inputs.py": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d",
+    "profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+    "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf",
+    "51_evaluate_signal_objectives.py": "a15e1574996fda3d82ad996975269e754e0fa612b979ed7ee8e59e4c160fac09",
+    "42_evaluate_h60_risk_fixes.py": "750f4ca8638a0277cd8d9c0e60663a9226c15a34d13d029bb06f42b13f7b8ba3"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "annual_models": [
+    {
+      "year": 2016,
+      "max_abs_error": 1.6653345369377348e-16,
+      "sha256": "008bf65acf03d7989d65d7b690c36340e4ef97d8355d475d880206dc594366fd"
+    },
+    {
+      "year": 2017,
+      "max_abs_error": 1.3877787807814457e-16,
+      "sha256": "0c378378ae79501dd80468604324c8158e9bf95be7e1181434584a26abd5c39c"
+    },
+    {
+      "year": 2018,
+      "max_abs_error": 1.249000902703301e-16,
+      "sha256": "a993f3f3d8e7d6b9f103acd149112e5b412ad35fb5d68b411e90cc43b2003989"
+    },
+    {
+      "year": 2019,
+      "max_abs_error": 1.1102230246251565e-16,
+      "sha256": "9a0adca517f1ac6523347e1c1851719655b8179a90d8a1cf881ead631c534223"
+    },
+    {
+      "year": 2020,
+      "max_abs_error": 2.7755575615628914e-16,
+      "sha256": "6ef405a32fc229e0933fa9e30a0af33c97a65c5a94b71a2c69185803073780fa"
+    },
+    {
+      "year": 2021,
+      "max_abs_error": 1.3877787807814457e-16,
+      "sha256": "5350157ac14cb2b62469bbccd91c4b430b85b180681611302aef6e6a6403fd0e"
+    },
+    {
+      "year": 2022,
+      "max_abs_error": 1.1796119636642288e-16,
+      "sha256": "108d6e51af01d564fd5e48d1e6399e21251cfffcfc1483f057bdaa17968775c1"
+    },
+    {
+      "year": 2023,
+      "max_abs_error": 1.249000902703301e-16,
+      "sha256": "ef383c5d06667c5b7adafc9ab24988bdf893993124120fe2bae170935c866619"
+    },
+    {
+      "year": 2024,
+      "max_abs_error": 3.8163916471489756e-17,
+      "sha256": "06ca5abdcb916cc92a67e1c62e4fccfdd5a904e221351c51cc3cd99f2c8d6a88"
+    },
+    {
+      "year": 2025,
+      "max_abs_error": 3.469446951953614e-17,
+      "sha256": "2c19480278678e72fb9303e4f615737abccfa2c7dac883893af36390c2365ece"
+    }
+  ],
+  "new_baseline_fits": 0,
+  "saved_prediction_rows": 75240
+}

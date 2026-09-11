@@ -8,7 +8,7 @@ from dataclasses import dataclass, asdict
 import numpy as np
 import pandas as pd
 
-from research_backtest import _check_dates, _rebalance
+from research_backtest import _check_dates, _rebalance, reduce_only
 
 
 @dataclass(frozen=True)
@@ -31,8 +31,10 @@ class Policy:
 TECH_CLUSTER = frozenset(("AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META"))
 
 
-def risk_inputs(ohlc, spy_close):
+def risk_inputs(ohlc, spy_close, target_vol=.15):
     """所有结果在索引当天收盘后才可用；不回填预热缺失。"""
+    if not np.isfinite(target_vol) or not 0 < target_vol <= 1:
+        raise ValueError("SPY波动仓位参数必须在(0,1]。")
     close = ohlc["Close"]
     previous = close.shift(1)
     tr = np.maximum(ohlc["High"] - ohlc["Low"],
@@ -42,7 +44,7 @@ def risk_inputs(ohlc, spy_close):
     return dict(distance=(3 * tr.rolling(14).mean() / close).clip(.05, .12),
                 vol=returns.rolling(60).std(ddof=1), returns=returns,
                 trend=spy_close.ge(spy_close.rolling(200).mean()),
-                spy_exposure=(.15 / (spy_close.pct_change(fill_method=None)
+                spy_exposure=(target_vol / (spy_close.pct_change(fill_method=None)
                                     .rolling(20).std(ddof=1) * np.sqrt(252))).clip(upper=1))
 
 
@@ -188,7 +190,7 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
     positions = calendar.get_indexer(observations)
     schedule = {int(p + 1): int(p) for p in positions}
     first, finish = int(positions[0] + 1), int(calendar.get_loc(final_date))
-    risk = risk_inputs(ohlc, spy_close)
+    risk = risk_inputs(ohlc, spy_close, policy.target_vol)
     q = np.zeros(len(names)); cash = 1.; fee_rate = cost_bps / 10000
     threshold = np.full(len(names), np.nan); peak = np.full(len(names), np.nan)
     blocked_until = np.full(len(names), -1); pending_stop = set()
@@ -215,14 +217,17 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
                            session_open=float(ohlc["Open"].iloc[day,j]),
                            stop_extra_bps=stop_extra_bps if reason.startswith("stop_") else 0))
 
-    def rebalance(day, w, reason, observation):
+    def rebalance(day, w, reason, observation, reduction=False):
         nonlocal cash
         prices = ohlc["Open"].iloc[day].to_numpy()
         old = q * prices
-        target, expected_cash, change, _ = _rebalance(old, cash, w.to_numpy(), fee_rate)
+        sizing = reduce_only if reduction else _rebalance
+        target, expected_cash, change, _ = sizing(old, cash, w.to_numpy(), fee_rate)
         before_q = q.copy()
         for j in np.argsort(change, kind="stable"):  # 先卖后买，避免途中借款。
             trade(day, j, change[j] / prices[j], prices[j], reason, observation)
+        if reduction:
+            assert (q <= before_q + 1e-12).all(), "非计划减仓不得增加任何股票股数。"
         np.testing.assert_allclose(cash, expected_cash, atol=1e-10, rtol=1e-10)
         cash = max(0., expected_cash)
         np.testing.assert_allclose(q * prices, target, atol=1e-10, rtol=1e-10)
@@ -292,7 +297,7 @@ def simulate(scores, ohlc, spy_close, groups, observations, final_date, *,
                     w = np.minimum(w, pending_cap)
                 if dd_state.pending_half:
                     w *= .5
-                rebalance(day, w, "daily_risk_reduce", calendar[day-1])
+                rebalance(day, w, "daily_risk_reduce", calendar[day-1], reduction=True)
                 dd_state.pending_half = False
                 pending_cap = None
         open_nav = cash + float(q @ opened)

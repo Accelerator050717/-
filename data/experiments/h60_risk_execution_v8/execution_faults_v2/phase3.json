@@ -1,0 +1,8 @@
+{
+  "partial_fill_and_cancel_race_reconciled": true,
+  "held": "8",
+  "protected": "8",
+  "broker_order_count": 3,
+  "original_buy_submit_count": 1,
+  "unrelated_positions_untouched": true
+}

@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-09-09T09:02:50.730096+00:00",
+  "returncode": 0,
+  "passed": true,
+  "tests": 73,
+  "fixture_scope": "Synthetic strategy, virtual broker and fictitious SDK responses; not actual paper integration",
+  "test_source_sha256": {
+    "tests/test_execution_order_state.py": "cb991245569c820cf12ee9569456a795ac7db65689306e51275e65569c67debf",
+    "tests/test_h60_execution.py": "e370ada695845f6a928fb853ab9ed649df0b369c5abd6bc35ec8e2ee1a94a872",
+    "tests/test_h60_execution_cycle.py": "ddf29b3642e095c43df622b5923dfbcf4891ae89a091eed3938c3b8c910d04bf",
+    "tests/test_h60_ibkr_paper.py": "28e60fab98d490c6752dd80d0c89d6b68fef995fc75b1717663b894fc14cd6c0",
+    "tests/test_h60_runtime.py": "df7dceb0d3b44611e5c244fbd1957b08daafc27a7ea7659461e327061541e1db",
+    "tests/test_ibkr_readonly.py": "26b688306de0cafa39f39123285243a4597ae570d2d50ee5c870535e66ea9eae",
+    "tests/test_offline_execution.py": "2a98263eaf9d18067303fd588cf5e6a39313cef7480e5c63f97cd32c6b19aea4",
+    "tests/test_profit_priority_strategy.py": "a77bfa20341bbf249a736d6f07c883607c1e8d23413a8f5c2da217e83fc0624b",
+    "tests/test_research_risk_exposure.py": "4a31752d0f966ce0bd9e4a57aa9ec47312e1c7a2a771de7967108aab301f88f4",
+    "tests/test_risk_fixes.py": "f4c0de277cf14b5b1e9226346b2072363a52b4b87a01c1be615c38f4dfca98eb",
+    "tests/test_robust_strategy.py": "347d0f4179865ae81865de48653e3841c7c3625ecf8a83da9238438b351b175e"
+  }
+}

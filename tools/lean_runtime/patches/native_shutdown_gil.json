@@ -1,0 +1,21 @@
+{
+  "engine_commit": "8ee075a39918f2df6fe9e0a5944e366fb60d10dc",
+  "source_path": "Common/Python/PythonInitializer.cs",
+  "before_sha256": "283784524de8509ea0afe09f397e910e49a1136f748394112a22afab2e1cdd7f",
+  "after_sha256": "0ea5326c8c114e202d8a0be9de5e1e60af35c7fc3e046e4a6470210958e73909",
+  "pythonnet_package": "QuantConnect.pythonnet 2.0.66",
+  "pythonnet_commit": "56b3b6e72cf1f0c00bee0ebc77b8c3edcd2764f2",
+  "reason": "Avoid finalizing the outer GIL guard while Python.Runtime.Shutdown performs GC and releases GIL itself; actual shutdown and process exit validation retained",
+  "touches_strategy_or_fill_logic": false,
+  "validation": {
+    "attempt": "h60_smoke_06",
+    "process_exit_code": 0,
+    "algorithm_completion_check": true,
+    "sessions": 20,
+    "log_sha256": "5f0363f12543de84dc288b506e5f022f717db7340f89e5ef38e24924e053df10",
+    "shutdown_completed_log_line": "20260911 02:43:39.198 TRACE:: PythonInitializer.Shutdown(): ended",
+    "engine_common_dll_sha256": "c029524656f261d30e4d5d7e1b24826ac3e49dc61770775bfe6d7f664c0bd551",
+    "build_exit_code": 0,
+    "rebuild_log_sha256": "50fae15119555d844d8bf0bc07e74fc4ef5a936dd8b275df18641d08a70ef027"
+  }
+}

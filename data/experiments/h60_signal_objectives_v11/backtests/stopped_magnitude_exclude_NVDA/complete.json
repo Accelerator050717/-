@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "aac3f809bfe789a2907fb3c2ef4f529d493052cf2ed54e609d57d99feaa56a1d",
+  "files": [
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_exclude_NVDA/daily.csv",
+      "size_bytes": 668332,
+      "sha256": "ce651220007e520aff53fec4a68316cc87bed5daa3b4b21352930c5385f64196"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_exclude_NVDA/trades.csv",
+      "size_bytes": 838821,
+      "sha256": "be3f92c6f5ee143f8fd155cb8a27b669cbb27425c2dd88f0d7ec97a865bb8026"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_exclude_NVDA/positions.csv",
+      "size_bytes": 679046,
+      "sha256": "2774b4256a3c25b6a92e52c54cd5864410bc66f1e5c0914cc956efc62f5e36ee"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_exclude_NVDA/targets.csv",
+      "size_bytes": 139729,
+      "sha256": "39ca5dd7f83fdab1dea3b98b3a100e09f369ac518172be19a7f62a27d8e0739e"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_exclude_NVDA/events.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_exclude_NVDA/metrics.json",
+      "size_bytes": 1019,
+      "sha256": "dc3ec8b92a7ae9e0fa4f4e19782d980fdaaec78ee964085b07489b63b026f44b"
+    }
+  ]
+}

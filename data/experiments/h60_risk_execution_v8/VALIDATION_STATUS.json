@@ -1,0 +1,11 @@
+{
+  "development_candidate": "stop_on_soft_off",
+  "development_passed": false,
+  "frozen_candidate_for_holdout": null,
+  "engineering_manifest_only": "ENGINEERING_STRATEGY_MANIFEST_v5.json",
+  "holdout_2026_market_data_accessed": false,
+  "holdout_run_count": 0,
+  "annual_protocol": "Y-2 training; label exit before Y-1; Y-1 validation labels exit before Y",
+  "previous_0_of_98_preserved": true,
+  "short_holdout_reporting": "Cumulative return, period length, annualized estimate; no target certification from short annualization"
+}

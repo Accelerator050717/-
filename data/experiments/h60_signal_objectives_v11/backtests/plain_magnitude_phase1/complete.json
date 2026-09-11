@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "aac3f809bfe789a2907fb3c2ef4f529d493052cf2ed54e609d57d99feaa56a1d",
+  "files": [
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/plain_magnitude_phase1/daily.csv",
+      "size_bytes": 666634,
+      "sha256": "5b751c60c063d08950a0459d6aec4c61c9899dc3a7bf50cc06c2dc8995f09a29"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/plain_magnitude_phase1/trades.csv",
+      "size_bytes": 876933,
+      "sha256": "b57872208820045090d3c0f09622908cd95b7eebe584f9fc9c0df4f24129e20e"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/plain_magnitude_phase1/positions.csv",
+      "size_bytes": 675136,
+      "sha256": "a8ddc98abd622600b7cd41e106c168d93801a250fabaf5e213156c30bb6647e2"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/plain_magnitude_phase1/targets.csv",
+      "size_bytes": 152102,
+      "sha256": "49d890e8752a421aef11e95f1da921a70f3b54ca32f0a762269aa9c5f0054ffa"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/plain_magnitude_phase1/events.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/plain_magnitude_phase1/metrics.json",
+      "size_bytes": 1020,
+      "sha256": "b0ef2aec398c9308fb73e5c99ee77208bffb78abc63addf69cc35059d8597fd9"
+    }
+  ]
+}

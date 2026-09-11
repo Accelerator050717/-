@@ -1,0 +1,18 @@
+test_applied_event_correction_is_not_silently_rebooked (test_historical_universe.HistoricalUniverseTests.test_applied_event_correction_is_not_silently_rebooked) ... ok
+test_cash_entitlement_is_not_available_cash_and_replays_once (test_historical_universe.HistoricalUniverseTests.test_cash_entitlement_is_not_available_cash_and_replays_once) ... ok
+test_conflicting_or_repeated_cash_events_are_rejected (test_historical_universe.HistoricalUniverseTests.test_conflicting_or_repeated_cash_events_are_rejected) ... ok
+test_dynamic_groups_and_unknown_trading_status (test_historical_universe.HistoricalUniverseTests.test_dynamic_groups_and_unknown_trading_status) ... ok
+test_explicit_payment_and_duplicate_receipts (test_historical_universe.HistoricalUniverseTests.test_explicit_payment_and_duplicate_receipts) ... ok
+test_future_effective_and_late_information_do_not_leak (test_historical_universe.HistoricalUniverseTests.test_future_effective_and_late_information_do_not_leak) ... ok
+test_hash_tampering_and_2026_guard (test_historical_universe.HistoricalUniverseTests.test_hash_tampering_and_2026_guard) ... ok
+test_holdings_after_entitlement_cannot_claim_it (test_historical_universe.HistoricalUniverseTests.test_holdings_after_entitlement_cannot_claim_it) ... ok
+test_incremental_duplicate_cash_with_new_id_is_rejected_after_restore (test_historical_universe.HistoricalUniverseTests.test_incremental_duplicate_cash_with_new_id_is_rejected_after_restore) ... ok
+test_observation_cannot_precede_holdings_or_reverse_payment_clock (test_historical_universe.HistoricalUniverseTests.test_observation_cannot_precede_holdings_or_reverse_payment_clock) ... ok
+test_return_convention_prevents_double_counting (test_historical_universe.HistoricalUniverseTests.test_return_convention_prevents_double_counting) ... ok
+test_stable_ids_do_not_merge_reused_ticker_identities (test_historical_universe.HistoricalUniverseTests.test_stable_ids_do_not_merge_reused_ticker_identities) ... ok
+test_unknown_terminal_does_not_erase_shares_or_invent_zero_return (test_historical_universe.HistoricalUniverseTests.test_unknown_terminal_does_not_erase_shares_or_invent_zero_return) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.067s
+
+OK

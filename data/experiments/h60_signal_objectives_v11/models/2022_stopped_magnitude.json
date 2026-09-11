@@ -1,0 +1,37 @@
+{
+  "contract": {
+    "candidate": "stopped_magnitude",
+    "target": "stopped_net_excess",
+    "year": 2022,
+    "plan_sha256": "f8fe253dd6a7ce384590d02a444af4ad821d7b04486298a7048a4fc35a6ce195",
+    "implementation": {
+      "plan_sha256": "f8fe253dd6a7ce384590d02a444af4ad821d7b04486298a7048a4fc35a6ce195",
+      "source_sha256": {
+        "50_train_signal_objectives.py": "30971557cc07e4028d8b156f40a7f459b3b7c07697f3f071d492dc96a084ce24",
+        "h60_path_labels.py": "8e8824883642daee79dfe75b2870e6d11b0b4fe56089a2285e88eb79427fb7e5",
+        "research_features.py": "d8e07f198ff34e537e572e5cf6681f46deed41ef62b3aaef14d5bb7bd2fbe3f1",
+        "h60_research_inputs.py": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d",
+        "profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+        "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf"
+      },
+      "packages": {
+        "numpy": "2.5.3",
+        "pandas": "3.0.5",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.18.1",
+        "joblib": "1.6.0"
+      },
+      "git_head": "9d98008d72f096c2c1fa33a998f000fe62c48bb5"
+    },
+    "train_rows": 55710,
+    "validation_rows": 5730,
+    "development_rows": 7530,
+    "train_first": "2013-05-22",
+    "train_last_observation": "2020-10-05",
+    "train_last_exit": "2020-12-31",
+    "validation_last_exit": "2021-12-31"
+  },
+  "model_sha256": "f2b4a373e55346a2a2fe3eb9201fb73ee86bdc90cea9f88c44d857596169b5a2",
+  "fit_seconds": 1.1436823000003642,
+  "fitted_at_utc": "2026-09-11T03:00:41.166630+00:00"
+}

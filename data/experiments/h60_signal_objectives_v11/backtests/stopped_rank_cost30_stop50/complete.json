@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "aac3f809bfe789a2907fb3c2ef4f529d493052cf2ed54e609d57d99feaa56a1d",
+  "files": [
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_cost30_stop50/daily.csv",
+      "size_bytes": 667799,
+      "sha256": "d46c50928190733793f618fbcc1ad10551e77153d62a3af4f8ebe35198cda37b"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_cost30_stop50/trades.csv",
+      "size_bytes": 926214,
+      "sha256": "99ee4e29d69a936d0e438827eea081594a8c63211e5417a5819a24a22ad6768c"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_cost30_stop50/positions.csv",
+      "size_bytes": 674129,
+      "sha256": "e064c1f06edafda9a337f4f4772996d19c3dc3fc52549fdf402c22d4e5e6f18d"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_cost30_stop50/targets.csv",
+      "size_bytes": 163287,
+      "sha256": "fe2534c7529a636d79a0721b7086e6757ac0a30570df1915b9eaa6262df0bfcc"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_cost30_stop50/events.csv",
+      "size_bytes": 152,
+      "sha256": "87b8ae895504877ea4c301359f62360fbb5d54256de086f27dabd851259e2d96"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_rank_cost30_stop50/metrics.json",
+      "size_bytes": 1016,
+      "sha256": "947bc581d7120d98049514a44b452e2a39b303426a6b3e112453226be8582d97"
+    }
+  ]
+}

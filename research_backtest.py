@@ -38,6 +38,36 @@ def _rebalance(old_values, cash, weights, cost_rate):
     return target, max(0.0, remaining_cash), change, fee
 
 
+def reduce_only(old_values, cash, weights, cost_rate):
+    """风险减仓：按当前报价计算，任何股票目标金额都不能超过已有金额。
+
+    权重是上限，不是需要双向追踪的目标。求解扣费后权益，并按现仓封顶；
+    没有持仓的股票目标恒为0，卖出所得进入现金，不分配给其他股票。
+    """
+    old_values, weights = np.asarray(old_values, float), np.asarray(weights, float)
+    if (old_values.shape != weights.shape or not np.isfinite(old_values).all()
+            or not np.isfinite(weights).all() or (old_values < 0).any()
+            or (weights < 0).any() or weights.sum() > 1 + 1e-10
+            or not np.isfinite(cash) or cash < 0 or not 0 <= cost_rate < 1):
+        raise ValueError("只减仓输入非法。")
+    before = float(old_values.sum() + cash)
+    low, high = 0., before
+    for _ in range(80):
+        nav = (low + high) / 2
+        target = np.minimum(old_values, nav * weights)
+        fee = float((old_values - target).sum() * cost_rate)
+        if nav + fee <= before:
+            low = nav
+        else:
+            high = nav
+    target = np.minimum(old_values, low * weights)
+    change = target - old_values
+    fee = float(-change.sum() * cost_rate)
+    remaining = float(cash - change.sum() - fee)
+    assert (change <= 0).all() and remaining >= -1e-10
+    return target, max(0., remaining), change, fee
+
+
 def run_backtest(scores, adjusted_open, spy_open, start="2020-01-01",
                  end="2026-01-01", top_k=5, cost_bps=10,
                  rebalance_every=5, gross_exposure=None):

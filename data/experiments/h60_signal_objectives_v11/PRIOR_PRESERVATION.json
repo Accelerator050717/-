@@ -1,0 +1,12 @@
+{
+  "universe_delisting_v9": {
+    "verified_files": 37,
+    "manifest_sha256": "ac7dc2f963084ccf51630690d4c193ee270fe78bbf83c4b1e6ef06169cfb89c6",
+    "unchanged": true
+  },
+  "lean_migration_v10": {
+    "verified_files": 262,
+    "manifest_sha256": "eb97fa66d72a924e4d8881305f675e99dad1331efd45d766428859db5169a1bf",
+    "unchanged": true
+  }
+}

@@ -1,0 +1,3 @@
+event_id,security_id,kind,effective_at,available_at,cash_per_share,source_id
+atvi_halted,PUBLIC_ATVI_COMMON_2023,halt,2023-10-12T20:00:00-04:00,2023-10-13T23:59:59-04:00,,nasdaq_eca2023_588
+atvi_cash_right,PUBLIC_ATVI_COMMON_2023,cash_entitlement,2023-10-13T09:30:00-04:00,2023-10-13T23:59:59-04:00,95,sec_8k_20231013

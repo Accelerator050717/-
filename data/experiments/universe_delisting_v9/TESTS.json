@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-09-11T02:17:42.954587+00:00",
+  "returncode": 0,
+  "passed": true,
+  "evidence": "Invented fixtures only; real public-event case is recorded separately",
+  "source_sha256": {
+    "historical_universe.py": "4840b9f6edb478839e86520ecbaaf22236fd9a12d006c2e63bcdaaf11c803e84",
+    "tests/test_historical_universe.py": "03eb7f7f32b799338964105b8c5942bb04c40ffca2ba69a25b66c8e52427abc6"
+  }
+}

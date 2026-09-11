@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-09-11T03:01:13.007446+00:00",
+  "passed": true,
+  "test_cases": 21,
+  "evidence": "Three unittest commands executed successfully in this Codex turn (8 path-label, 3 annual-split, 10 acceptance/scenario test cases). All test prices, metrics and calendars are synthetic.",
+  "commands": [
+    ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -p test_h60_path_labels.py -v",
+    ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -p test_signal_objective_split.py -v",
+    ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -p test_signal_objective_gates.py -v"
+  ],
+  "source_sha256": {
+    "tests/test_h60_path_labels.py": "5dddae5fd2f8ac2a896848a73c64972a96b9ac25f21425c5d868696ff37e5200",
+    "tests/test_signal_objective_split.py": "80d7ff9953f05f1a9a3b780688504b26b5108709812b56697a3c0b18838d99c4",
+    "h60_path_labels.py": "8e8824883642daee79dfe75b2870e6d11b0b4fe56089a2285e88eb79427fb7e5",
+    "50_train_signal_objectives.py": "30971557cc07e4028d8b156f40a7f459b3b7c07697f3f071d492dc96a084ce24",
+    "tests/test_signal_objective_gates.py": "c8cf1acf4a5f72bd537fde5a92efff6c120d707ffc5cf917ca6dd2523b859a63"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-09-09T08:30:52.726916+00:00",
+  "operation": "readonly_probe",
+  "client": {
+    "selected": "ib_async",
+    "available": true,
+    "official_sdk": false,
+    "versions": {
+      "ib_async": "2.1.0",
+      "ibapi": null,
+      "ib_insync": null,
+      "aeventkit": "2.1.0",
+      "nest_asyncio": "1.6.0",
+      "tzdata": "2025.3"
+    }
+  },
+  "processes": {
+    "status": "checked",
+    "names": []
+  },
+  "host": "127.0.0.1",
+  "ports": [
+    {
+      "port": 7497,
+      "tcp_open": false,
+      "error_type": "TimeoutError"
+    },
+    {
+      "port": 4002,
+      "tcp_open": false,
+      "error_type": "TimeoutError"
+    }
+  ],
+  "connection_attempts": [],
+  "status": "not_connected",
+  "orders_sent": 0,
+  "account_identifiers": "masked_by_ephemeral_alias",
+  "sensitive_values": "not_collected_or_redacted",
+  "server_readonly_setting": "not_verified",
+  "paper_account_confirmed": false,
+  "market_data_permissions": "not_tested_no_market_data_requested",
+  "limitations": [
+    "TCP open alone is not an API handshake.",
+    "readonly=True does not establish TWS server permissions or paper/live account type.",
+    "Free delayed quotes do not establish live or historical data entitlements.",
+    "No authentication, settings changes, order submission, or cancellation methods are provided."
+  ],
+  "blocker": "no_local_candidate_tcp_listener"
+}

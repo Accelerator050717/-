@@ -1,0 +1,41 @@
+{
+  "candidates": {
+    "plain_magnitude": {
+      "cagr_at_least_30": false,
+      "drawdown_within_30": true,
+      "beats_admissible_simple_net_cagr": false,
+      "all_fixed_stress_positive_and_drawdown_within_30": true,
+      "development_passed": false,
+      "preferred_drawdown_within_20": true,
+      "aspiration_cagr_50": false,
+      "decision": "REJECT_NO_2026"
+    },
+    "stopped_magnitude": {
+      "cagr_at_least_30": false,
+      "drawdown_within_30": true,
+      "beats_admissible_simple_net_cagr": false,
+      "all_fixed_stress_positive_and_drawdown_within_30": true,
+      "development_passed": false,
+      "preferred_drawdown_within_20": true,
+      "aspiration_cagr_50": false,
+      "decision": "REJECT_NO_2026"
+    },
+    "stopped_rank": {
+      "cagr_at_least_30": false,
+      "drawdown_within_30": true,
+      "beats_admissible_simple_net_cagr": false,
+      "all_fixed_stress_positive_and_drawdown_within_30": true,
+      "development_passed": false,
+      "preferred_drawdown_within_20": true,
+      "aspiration_cagr_50": false,
+      "decision": "REJECT_NO_2026"
+    }
+  },
+  "selected_for_development_review": null,
+  "selection_rule": "Passing candidates only: cost10 CAGR descending, exact ties by signal ID ascending.",
+  "independent_validation_passed": false,
+  "candidate_frozen_for_2026": false,
+  "prices_2026_accessed": false,
+  "old_0_of_98_unchanged": true,
+  "decision": "REJECT_NO_2026"
+}

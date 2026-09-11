@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-09-11T03:14:01.067652+00:00",
+  "plan_registered_before_all_new_fits": true,
+  "new_fits": 30,
+  "new_replays": 21,
+  "reused_controls": 21,
+  "checked_ledgers": 42,
+  "nonplanned_buy_orders": 0,
+  "no_new_2026_market_data": true,
+  "no_broker_orders": true,
+  "no_candidate_promoted": true,
+  "root_docs_sha256": {
+    "README.md": "2e4e5d56faa5d63369be18aec3d9f06cf1398c03f208885d703ab5ca2f826fc0",
+    "REVIEW_INDEX.md": "433fe597f4f18d1df9ef0bb18c53224d28e950e1a456c8d76cadefd1e62505fd"
+  },
+  "git_diff_check_passed": true,
+  "local_doc_links_checked": 125,
+  "broken_local_doc_links": 0
+}

@@ -1,0 +1,27 @@
+{
+  "completed_at_utc": "2026-09-09T08:35:07.702815+00:00",
+  "fixture": "All quotes, broker facts and account balances are fictitious",
+  "real_os_processes": 3,
+  "forced_abrupt_exits": 2,
+  "steps": [
+    {
+      "phase": "crash_after_timeout",
+      "process_returncode": 73,
+      "expected": 73
+    },
+    {
+      "phase": "recover_then_crash_during_cancel",
+      "process_returncode": 74,
+      "expected": 74
+    },
+    {
+      "phase": "final_recovery",
+      "process_returncode": 0,
+      "expected": 0
+    }
+  ],
+  "all_checks_passed": true,
+  "real_paper_responses": 0,
+  "new_fits": 0,
+  "prices_2026_accessed": false
+}

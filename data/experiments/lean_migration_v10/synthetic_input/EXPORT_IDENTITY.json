@@ -1,0 +1,27 @@
+{
+  "stable_identity": {
+    "schema_version": 1,
+    "case": "fictional_hard_pause_recovery",
+    "new_fits": 0,
+    "real_market_data": false,
+    "fixture_source_sha256": "ec879acac3c3d1762cdc2d9a9ef47b743d83398159833f4e1060b42caa76348c",
+    "shared_source_sha256": {
+      "profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+      "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf"
+    }
+  },
+  "exported_sha256": {
+    "bars/SIM_0.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "bars/SIM_1.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "bars/SIM_2.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "bars/SIM_3.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "bars/SIM_4.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "bars/SIM_5.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "bars/SIM_6.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "bars/SIM_7.csv": "f7156da58e050fdef5daa7e58ec67533591e1ecd79336fd324441af8aafc8fd2",
+    "EXPECTED_SYNTHETIC.json": "e41b51976ba40c7ce9bc1bfc0a44bc34f6fae045f5c8e3951700aa6b8266743c",
+    "package.json": "31ded2314877da37ff66749ff8338971756b93cba6fcc65ee53d413c21568a96",
+    "shared/profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+    "shared/research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf"
+  }
+}

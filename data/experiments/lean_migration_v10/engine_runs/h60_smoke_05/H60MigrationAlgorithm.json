@@ -1,0 +1,3198 @@
+{
+  "rollingWindow": {
+    "M1_20160131": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-01-27T14:30:00Z",
+        "totalNumberOfTrades": 23,
+        "numberOfWinningTrades": 6,
+        "numberOfLosingTrades": 17,
+        "totalProfitLoss": "-300.99",
+        "totalProfit": "12.62",
+        "totalLoss": "-313.61",
+        "largestProfit": "5.61",
+        "largestLoss": "-122.62",
+        "averageProfitLoss": "-13.0865",
+        "averageProfit": "2.1033",
+        "averageLoss": "-18.4476",
+        "averageTradeDuration": "12.19:13:02.6086955",
+        "averageWinningTradeDuration": "13.08:00:00",
+        "averageLosingTradeDuration": "12.14:42:21.1764704",
+        "medianTradeDuration": "15.00:00:00",
+        "medianWinningTradeDuration": "15.00:00:00",
+        "medianLosingTradeDuration": "15.00:00:00",
+        "maxConsecutiveWinningTrades": 2,
+        "maxConsecutiveLosingTrades": 7,
+        "profitLossRatio": "0.1140",
+        "winLossRatio": "0.3529",
+        "winRate": "0.2609",
+        "lossRate": "0.7391",
+        "averageMAE": "-15.3774",
+        "averageMFE": "1.7857",
+        "largestMAE": "-131.41",
+        "largestMFE": "12.72",
+        "maximumClosedTradeDrawdown": "-304.39",
+        "maximumIntraTradeDrawdown": "-325.67",
+        "profitLossStandardDeviation": "35.6125",
+        "profitLossDownsideDeviation": "40.3192",
+        "profitFactor": "0.0402",
+        "sharpeRatio": "-0.3675",
+        "sortinoRatio": "-0.3246",
+        "profitToMaxDrawdownRatio": "-0.9888",
+        "maximumEndTradeDrawdown": "144.05",
+        "averageEndTradeDrawdown": "-14.8722",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "10.9437"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0.0002",
+        "averageLossRate": "-0.0021",
+        "profitLossRatio": "0.0942",
+        "winRate": "0.2857",
+        "lossRate": "0.7143",
+        "expectancy": "-0.6874",
+        "startEquity": "10000",
+        "endEquity": "9822.8816",
+        "compoundingAnnualReturn": "-0.2219",
+        "drawdown": "0.060",
+        "totalNetProfit": "-0.0177",
+        "sharpeRatio": "-1.4765",
+        "probabilisticSharpeRatio": "0.2137",
+        "sortinoRatio": "-3.0735",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.1111",
+        "annualVariance": "0.0124",
+        "informationRatio": "-1.3865",
+        "trackingError": "0.1111",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0455",
+        "valueAtRisk99": "-0.017",
+        "valueAtRisk95": "-0.012",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M1_20160202": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-02-02T14:30:00Z",
+        "totalNumberOfTrades": 9,
+        "numberOfWinningTrades": 5,
+        "numberOfLosingTrades": 4,
+        "totalProfitLoss": "71.00",
+        "totalProfit": "192.74",
+        "totalLoss": "-121.74",
+        "largestProfit": "55.35",
+        "largestLoss": "-72.41",
+        "averageProfitLoss": "7.8889",
+        "averageProfit": "38.5480",
+        "averageLoss": "-30.4350",
+        "averageTradeDuration": "21.10:40:00",
+        "averageWinningTradeDuration": "20.14:24:00",
+        "averageLosingTradeDuration": "22.12:00:00",
+        "medianTradeDuration": "28.00:00:00",
+        "medianWinningTradeDuration": "21.00:00:00",
+        "medianLosingTradeDuration": "28.00:00:00",
+        "maxConsecutiveWinningTrades": 3,
+        "maxConsecutiveLosingTrades": 2,
+        "profitLossRatio": "1.2666",
+        "winLossRatio": "1.25",
+        "winRate": "0.5556",
+        "lossRate": "0.4444",
+        "averageMAE": "-36.4378",
+        "averageMFE": "31.7533",
+        "largestMAE": "-93.64",
+        "largestMFE": "68.24",
+        "maximumClosedTradeDrawdown": "-118.40",
+        "maximumIntraTradeDrawdown": "-125.45",
+        "profitLossStandardDeviation": "44.0023",
+        "profitLossDownsideDeviation": "31.2789",
+        "profitFactor": "1.5832",
+        "sharpeRatio": "0.1793",
+        "sortinoRatio": "0.2522",
+        "profitToMaxDrawdownRatio": "0.5997",
+        "maximumEndTradeDrawdown": "93.64",
+        "averageEndTradeDrawdown": "-23.8644",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "6.1749"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0",
+        "averageLossRate": "0",
+        "profitLossRatio": "0",
+        "winRate": "0",
+        "lossRate": "0",
+        "expectancy": "0",
+        "startEquity": "9822.8816",
+        "endEquity": "9752.8921",
+        "compoundingAnnualReturn": "0",
+        "drawdown": "0",
+        "totalNetProfit": "0",
+        "sharpeRatio": "0",
+        "probabilisticSharpeRatio": "0",
+        "sortinoRatio": "0",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0",
+        "annualVariance": "0",
+        "informationRatio": "0",
+        "trackingError": "0",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.1879",
+        "valueAtRisk99": "0",
+        "valueAtRisk95": "0",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M3_20160131": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-01-27T14:30:00Z",
+        "totalNumberOfTrades": 23,
+        "numberOfWinningTrades": 6,
+        "numberOfLosingTrades": 17,
+        "totalProfitLoss": "-300.99",
+        "totalProfit": "12.62",
+        "totalLoss": "-313.61",
+        "largestProfit": "5.61",
+        "largestLoss": "-122.62",
+        "averageProfitLoss": "-13.0865",
+        "averageProfit": "2.1033",
+        "averageLoss": "-18.4476",
+        "averageTradeDuration": "12.19:13:02.6086955",
+        "averageWinningTradeDuration": "13.08:00:00",
+        "averageLosingTradeDuration": "12.14:42:21.1764704",
+        "medianTradeDuration": "15.00:00:00",
+        "medianWinningTradeDuration": "15.00:00:00",
+        "medianLosingTradeDuration": "15.00:00:00",
+        "maxConsecutiveWinningTrades": 2,
+        "maxConsecutiveLosingTrades": 7,
+        "profitLossRatio": "0.1140",
+        "winLossRatio": "0.3529",
+        "winRate": "0.2609",
+        "lossRate": "0.7391",
+        "averageMAE": "-15.3774",
+        "averageMFE": "1.7857",
+        "largestMAE": "-131.41",
+        "largestMFE": "12.72",
+        "maximumClosedTradeDrawdown": "-304.39",
+        "maximumIntraTradeDrawdown": "-325.67",
+        "profitLossStandardDeviation": "35.6125",
+        "profitLossDownsideDeviation": "40.3192",
+        "profitFactor": "0.0402",
+        "sharpeRatio": "-0.3675",
+        "sortinoRatio": "-0.3246",
+        "profitToMaxDrawdownRatio": "-0.9888",
+        "maximumEndTradeDrawdown": "144.05",
+        "averageEndTradeDrawdown": "-14.8722",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "10.9437"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0.0002",
+        "averageLossRate": "-0.0021",
+        "profitLossRatio": "0.0942",
+        "winRate": "0.2857",
+        "lossRate": "0.7143",
+        "expectancy": "-0.6874",
+        "startEquity": "10000",
+        "endEquity": "9822.8816",
+        "compoundingAnnualReturn": "-0.2219",
+        "drawdown": "0.060",
+        "totalNetProfit": "-0.0177",
+        "sharpeRatio": "-1.4765",
+        "probabilisticSharpeRatio": "0.2137",
+        "sortinoRatio": "-3.0735",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.1111",
+        "annualVariance": "0.0124",
+        "informationRatio": "-1.3865",
+        "trackingError": "0.1111",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0455",
+        "valueAtRisk99": "-0.017",
+        "valueAtRisk95": "-0.012",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M3_20160202": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-02-02T14:30:00Z",
+        "totalNumberOfTrades": 32,
+        "numberOfWinningTrades": 11,
+        "numberOfLosingTrades": 21,
+        "totalProfitLoss": "-229.99",
+        "totalProfit": "205.36",
+        "totalLoss": "-435.35",
+        "largestProfit": "55.35",
+        "largestLoss": "-122.62",
+        "averageProfitLoss": "-7.1872",
+        "averageProfit": "18.6691",
+        "averageLoss": "-20.7310",
+        "averageTradeDuration": "15.05:33:44.9999997",
+        "averageWinningTradeDuration": "16.15:16:21.8181818",
+        "averageLosingTradeDuration": "14.11:54:17.1428569",
+        "medianTradeDuration": "15.00:00:00",
+        "medianWinningTradeDuration": "15.00:00:00",
+        "medianLosingTradeDuration": "15.00:00:00",
+        "maxConsecutiveWinningTrades": 3,
+        "maxConsecutiveLosingTrades": 7,
+        "profitLossRatio": "0.9005",
+        "winLossRatio": "0.5238",
+        "winRate": "0.3438",
+        "lossRate": "0.6562",
+        "averageMAE": "-21.3006",
+        "averageMFE": "10.2141",
+        "largestMAE": "-131.41",
+        "largestMFE": "68.24",
+        "maximumClosedTradeDrawdown": "-304.39",
+        "maximumIntraTradeDrawdown": "-370.61",
+        "profitLossStandardDeviation": "38.6202",
+        "profitLossDownsideDeviation": "38.3475",
+        "profitFactor": "0.4717",
+        "sharpeRatio": "-0.1861",
+        "sortinoRatio": "-0.1874",
+        "profitToMaxDrawdownRatio": "-0.7556",
+        "maximumEndTradeDrawdown": "144.05",
+        "averageEndTradeDrawdown": "-17.4012",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "17.1187"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0.0020",
+        "averageLossRate": "-0.0024",
+        "profitLossRatio": "0.8578",
+        "winRate": "0.3448",
+        "lossRate": "0.6552",
+        "expectancy": "-0.3594",
+        "startEquity": "10000",
+        "endEquity": "9752.8921",
+        "compoundingAnnualReturn": "-0.2728",
+        "drawdown": "0.060",
+        "totalNetProfit": "-0.0247",
+        "sharpeRatio": "-1.8961",
+        "probabilisticSharpeRatio": "0.1590",
+        "sortinoRatio": "-3.9940",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.1067",
+        "annualVariance": "0.0114",
+        "informationRatio": "-1.8024",
+        "trackingError": "0.1067",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0603",
+        "valueAtRisk99": "-0.016",
+        "valueAtRisk95": "-0.012",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M6_20160131": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-01-27T14:30:00Z",
+        "totalNumberOfTrades": 23,
+        "numberOfWinningTrades": 6,
+        "numberOfLosingTrades": 17,
+        "totalProfitLoss": "-300.99",
+        "totalProfit": "12.62",
+        "totalLoss": "-313.61",
+        "largestProfit": "5.61",
+        "largestLoss": "-122.62",
+        "averageProfitLoss": "-13.0865",
+        "averageProfit": "2.1033",
+        "averageLoss": "-18.4476",
+        "averageTradeDuration": "12.19:13:02.6086955",
+        "averageWinningTradeDuration": "13.08:00:00",
+        "averageLosingTradeDuration": "12.14:42:21.1764704",
+        "medianTradeDuration": "15.00:00:00",
+        "medianWinningTradeDuration": "15.00:00:00",
+        "medianLosingTradeDuration": "15.00:00:00",
+        "maxConsecutiveWinningTrades": 2,
+        "maxConsecutiveLosingTrades": 7,
+        "profitLossRatio": "0.1140",
+        "winLossRatio": "0.3529",
+        "winRate": "0.2609",
+        "lossRate": "0.7391",
+        "averageMAE": "-15.3774",
+        "averageMFE": "1.7857",
+        "largestMAE": "-131.41",
+        "largestMFE": "12.72",
+        "maximumClosedTradeDrawdown": "-304.39",
+        "maximumIntraTradeDrawdown": "-325.67",
+        "profitLossStandardDeviation": "35.6125",
+        "profitLossDownsideDeviation": "40.3192",
+        "profitFactor": "0.0402",
+        "sharpeRatio": "-0.3675",
+        "sortinoRatio": "-0.3246",
+        "profitToMaxDrawdownRatio": "-0.9888",
+        "maximumEndTradeDrawdown": "144.05",
+        "averageEndTradeDrawdown": "-14.8722",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "10.9437"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0.0002",
+        "averageLossRate": "-0.0021",
+        "profitLossRatio": "0.0942",
+        "winRate": "0.2857",
+        "lossRate": "0.7143",
+        "expectancy": "-0.6874",
+        "startEquity": "10000",
+        "endEquity": "9822.8816",
+        "compoundingAnnualReturn": "-0.2219",
+        "drawdown": "0.060",
+        "totalNetProfit": "-0.0177",
+        "sharpeRatio": "-1.4765",
+        "probabilisticSharpeRatio": "0.2137",
+        "sortinoRatio": "-3.0735",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.1111",
+        "annualVariance": "0.0124",
+        "informationRatio": "-1.3865",
+        "trackingError": "0.1111",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0455",
+        "valueAtRisk99": "-0.017",
+        "valueAtRisk95": "-0.012",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M6_20160202": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-02-02T14:30:00Z",
+        "totalNumberOfTrades": 32,
+        "numberOfWinningTrades": 11,
+        "numberOfLosingTrades": 21,
+        "totalProfitLoss": "-229.99",
+        "totalProfit": "205.36",
+        "totalLoss": "-435.35",
+        "largestProfit": "55.35",
+        "largestLoss": "-122.62",
+        "averageProfitLoss": "-7.1872",
+        "averageProfit": "18.6691",
+        "averageLoss": "-20.7310",
+        "averageTradeDuration": "15.05:33:44.9999997",
+        "averageWinningTradeDuration": "16.15:16:21.8181818",
+        "averageLosingTradeDuration": "14.11:54:17.1428569",
+        "medianTradeDuration": "15.00:00:00",
+        "medianWinningTradeDuration": "15.00:00:00",
+        "medianLosingTradeDuration": "15.00:00:00",
+        "maxConsecutiveWinningTrades": 3,
+        "maxConsecutiveLosingTrades": 7,
+        "profitLossRatio": "0.9005",
+        "winLossRatio": "0.5238",
+        "winRate": "0.3438",
+        "lossRate": "0.6562",
+        "averageMAE": "-21.3006",
+        "averageMFE": "10.2141",
+        "largestMAE": "-131.41",
+        "largestMFE": "68.24",
+        "maximumClosedTradeDrawdown": "-304.39",
+        "maximumIntraTradeDrawdown": "-370.61",
+        "profitLossStandardDeviation": "38.6202",
+        "profitLossDownsideDeviation": "38.3475",
+        "profitFactor": "0.4717",
+        "sharpeRatio": "-0.1861",
+        "sortinoRatio": "-0.1874",
+        "profitToMaxDrawdownRatio": "-0.7556",
+        "maximumEndTradeDrawdown": "144.05",
+        "averageEndTradeDrawdown": "-17.4012",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "17.1187"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0.0020",
+        "averageLossRate": "-0.0024",
+        "profitLossRatio": "0.8578",
+        "winRate": "0.3448",
+        "lossRate": "0.6552",
+        "expectancy": "-0.3594",
+        "startEquity": "10000",
+        "endEquity": "9752.8921",
+        "compoundingAnnualReturn": "-0.2728",
+        "drawdown": "0.060",
+        "totalNetProfit": "-0.0247",
+        "sharpeRatio": "-1.8961",
+        "probabilisticSharpeRatio": "0.1590",
+        "sortinoRatio": "-3.9940",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.1067",
+        "annualVariance": "0.0114",
+        "informationRatio": "-1.8024",
+        "trackingError": "0.1067",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0603",
+        "valueAtRisk99": "-0.016",
+        "valueAtRisk95": "-0.012",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M12_20160131": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-01-27T14:30:00Z",
+        "totalNumberOfTrades": 23,
+        "numberOfWinningTrades": 6,
+        "numberOfLosingTrades": 17,
+        "totalProfitLoss": "-300.99",
+        "totalProfit": "12.62",
+        "totalLoss": "-313.61",
+        "largestProfit": "5.61",
+        "largestLoss": "-122.62",
+        "averageProfitLoss": "-13.0865",
+        "averageProfit": "2.1033",
+        "averageLoss": "-18.4476",
+        "averageTradeDuration": "12.19:13:02.6086955",
+        "averageWinningTradeDuration": "13.08:00:00",
+        "averageLosingTradeDuration": "12.14:42:21.1764704",
+        "medianTradeDuration": "15.00:00:00",
+        "medianWinningTradeDuration": "15.00:00:00",
+        "medianLosingTradeDuration": "15.00:00:00",
+        "maxConsecutiveWinningTrades": 2,
+        "maxConsecutiveLosingTrades": 7,
+        "profitLossRatio": "0.1140",
+        "winLossRatio": "0.3529",
+        "winRate": "0.2609",
+        "lossRate": "0.7391",
+        "averageMAE": "-15.3774",
+        "averageMFE": "1.7857",
+        "largestMAE": "-131.41",
+        "largestMFE": "12.72",
+        "maximumClosedTradeDrawdown": "-304.39",
+        "maximumIntraTradeDrawdown": "-325.67",
+        "profitLossStandardDeviation": "35.6125",
+        "profitLossDownsideDeviation": "40.3192",
+        "profitFactor": "0.0402",
+        "sharpeRatio": "-0.3675",
+        "sortinoRatio": "-0.3246",
+        "profitToMaxDrawdownRatio": "-0.9888",
+        "maximumEndTradeDrawdown": "144.05",
+        "averageEndTradeDrawdown": "-14.8722",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "10.9437"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0.0002",
+        "averageLossRate": "-0.0021",
+        "profitLossRatio": "0.0942",
+        "winRate": "0.2857",
+        "lossRate": "0.7143",
+        "expectancy": "-0.6874",
+        "startEquity": "10000",
+        "endEquity": "9822.8816",
+        "compoundingAnnualReturn": "-0.2219",
+        "drawdown": "0.060",
+        "totalNetProfit": "-0.0177",
+        "sharpeRatio": "-1.4765",
+        "probabilisticSharpeRatio": "0.2137",
+        "sortinoRatio": "-3.0735",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.1111",
+        "annualVariance": "0.0124",
+        "informationRatio": "-1.3865",
+        "trackingError": "0.1111",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0455",
+        "valueAtRisk99": "-0.017",
+        "valueAtRisk95": "-0.012",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    },
+    "M12_20160202": {
+      "tradeStatistics": {
+        "startDateTime": "2016-01-05T14:30:00Z",
+        "endDateTime": "2016-02-02T14:30:00Z",
+        "totalNumberOfTrades": 32,
+        "numberOfWinningTrades": 11,
+        "numberOfLosingTrades": 21,
+        "totalProfitLoss": "-229.99",
+        "totalProfit": "205.36",
+        "totalLoss": "-435.35",
+        "largestProfit": "55.35",
+        "largestLoss": "-122.62",
+        "averageProfitLoss": "-7.1872",
+        "averageProfit": "18.6691",
+        "averageLoss": "-20.7310",
+        "averageTradeDuration": "15.05:33:44.9999997",
+        "averageWinningTradeDuration": "16.15:16:21.8181818",
+        "averageLosingTradeDuration": "14.11:54:17.1428569",
+        "medianTradeDuration": "15.00:00:00",
+        "medianWinningTradeDuration": "15.00:00:00",
+        "medianLosingTradeDuration": "15.00:00:00",
+        "maxConsecutiveWinningTrades": 3,
+        "maxConsecutiveLosingTrades": 7,
+        "profitLossRatio": "0.9005",
+        "winLossRatio": "0.5238",
+        "winRate": "0.3438",
+        "lossRate": "0.6562",
+        "averageMAE": "-21.3006",
+        "averageMFE": "10.2141",
+        "largestMAE": "-131.41",
+        "largestMFE": "68.24",
+        "maximumClosedTradeDrawdown": "-304.39",
+        "maximumIntraTradeDrawdown": "-370.61",
+        "profitLossStandardDeviation": "38.6202",
+        "profitLossDownsideDeviation": "38.3475",
+        "profitFactor": "0.4717",
+        "sharpeRatio": "-0.1861",
+        "sortinoRatio": "-0.1874",
+        "profitToMaxDrawdownRatio": "-0.7556",
+        "maximumEndTradeDrawdown": "144.05",
+        "averageEndTradeDrawdown": "-17.4012",
+        "maximumDrawdownDuration": "00:00:00",
+        "totalFees": "17.1187"
+      },
+      "portfolioStatistics": {
+        "averageWinRate": "0.0020",
+        "averageLossRate": "-0.0024",
+        "profitLossRatio": "0.8578",
+        "winRate": "0.3448",
+        "lossRate": "0.6552",
+        "expectancy": "-0.3594",
+        "startEquity": "10000",
+        "endEquity": "9752.8921",
+        "compoundingAnnualReturn": "-0.2728",
+        "drawdown": "0.060",
+        "totalNetProfit": "-0.0247",
+        "sharpeRatio": "-1.8961",
+        "probabilisticSharpeRatio": "0.1590",
+        "sortinoRatio": "-3.9940",
+        "alpha": "0",
+        "beta": "0",
+        "annualStandardDeviation": "0.1067",
+        "annualVariance": "0.0114",
+        "informationRatio": "-1.8024",
+        "trackingError": "0.1067",
+        "treynorRatio": "0",
+        "portfolioTurnover": "0.0603",
+        "valueAtRisk99": "-0.016",
+        "valueAtRisk95": "-0.012",
+        "drawdownRecovery": "0"
+      },
+      "closedTrades": []
+    }
+  },
+  "charts": {
+    "Drawdown": {
+      "name": "Drawdown",
+      "chartType": 0,
+      "series": {
+        "Equity Drawdown": {"name":"Equity Drawdown","unit":"%","index":0,"seriesType":0,"values":[[1451970000,0.0],[1452056400,-0.07],[1452142800,-0.92],[1452229200,-1.99],[1452315600,-2.74],[1452402000,-2.74],[1452488400,-2.74],[1452574800,-3.02],[1452661200,-3.1],[1452747600,-4.05],[1452834000,-3.18],[1452920400,-3.96],[1453006800,-3.96],[1453093200,-3.96],[1453179600,-3.96],[1453266000,-3.77],[1453352400,-4.39],[1453438800,-3.81],[1453525200,-2.69],[1453611600,-2.69],[1453698000,-2.69],[1453784400,-3.83],[1453870800,-3.17],[1453957200,-3.86],[1454043600,-2.77],[1454130000,-1.77],[1454216400,-1.77],[1454302800,-1.77],[1454389200,-1.76],[1454446800,-2.47]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Portfolio Turnover": {
+      "name": "Portfolio Turnover",
+      "chartType": 0,
+      "series": {
+        "Portfolio Turnover": {"name":"Portfolio Turnover","unit":"%","index":0,"seriesType":0,"values":[[1452056400,0.650754],[1452142800,0.0],[1452229200,0.0],[1452315600,0.0],[1452402000,0.0],[1452488400,0.0],[1452574800,0.0],[1452661200,0.1013799],[1452747600,0.0],[1452834000,0.0],[1452920400,0.0],[1453006800,0.0],[1453093200,0.0],[1453179600,0.0],[1453266000,0.0],[1453352400,0.3237377],[1453438800,0.0],[1453525200,0.0],[1453611600,0.0],[1453698000,0.0],[1453784400,0.0],[1453870800,0.0],[1453957200,0.1081502],[1454043600,0.0],[1454130000,0.0],[1454216400,0.0],[1454302800,0.0],[1454389200,0.0],[1454446800,0.5637617]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Exposure": {
+      "name": "Exposure",
+      "chartType": 0,
+      "series": {
+        "Base - Short Ratio": {"name":"Base - Short Ratio","unit":"","index":0,"seriesType":0,"values":[[1451970000,0.0],[1452056400,0.0],[1452142800,0.0],[1452229200,0.0],[1452315600,0.0],[1452402000,0.0],[1452488400,0.0],[1452574800,0.0],[1452661200,0.0],[1452747600,0.0],[1452834000,0.0],[1452920400,0.0],[1453006800,0.0],[1453093200,0.0],[1453179600,0.0],[1453266000,0.0],[1453352400,0.0],[1453438800,0.0],[1453525200,0.0],[1453611600,0.0],[1453698000,0.0],[1453784400,0.0],[1453870800,0.0],[1453957200,0.0],[1454043600,0.0],[1454130000,0.0],[1454216400,0.0],[1454302800,0.0],[1454389200,0.0],[1454446800,0.0]],"color":"","scatterMarkerSymbol":"none"},
+        "Base - Long Ratio": {"name":"Base - Long Ratio","unit":"","index":0,"seriesType":0,"values":[[1451970000,0.0],[1452056400,0.6507],[1452142800,0.6477],[1452229200,0.6439],[1452315600,0.6411],[1452402000,0.6411],[1452488400,0.6411],[1452574800,0.6401],[1452661200,0.5542],[1452747600,0.5498],[1452834000,0.5539],[1452920400,0.5502],[1453006800,0.5502],[1453093200,0.5502],[1453179600,0.5502],[1453266000,0.5511],[1453352400,0.5222],[1453438800,0.5252],[1453525200,0.5306],[1453611600,0.5306],[1453698000,0.5306],[1453784400,0.525],[1453870800,0.5283],[1453957200,0.5569],[1454043600,0.5618],[1454130000,0.5663],[1454216400,0.5663],[1454302800,0.5663],[1454389200,0.5664],[1454446800,0.0]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Strategy Equity": {
+      "name": "Strategy Equity",
+      "chartType": 0,
+      "series": {
+        "Equity": {"name":"Equity","unit":"$","index":0,"seriesType":2,"values":[[1451970000,10000.0,10000.0,10000.0,10000.0],[1452004200,9993.4969,9993.4969,9993.4969,9993.4969],[1452013200,9899.0788,9899.0788,9899.0788,9899.0788],[1452027600,9993.191,9993.191,9993.191,9993.191],[1452056400,9993.191,9993.191,9993.191,9993.191],[1452090600,9893.8709,9893.8709,9893.8709,9893.8709],[1452099600,9844.7089,9844.7089,9844.7089,9844.7089],[1452114000,9907.6244,9907.6244,9907.6244,9907.6244],[1452142800,9907.6244,9907.6244,9907.6244,9907.6244],[1452177000,9813.1549,9813.1549,9813.1549,9813.1549],[1452186000,9744.8186,9744.8186,9744.8186,9744.8186],[1452200400,9801.0848,9801.0848,9801.0848,9801.0848],[1452229200,9801.0848,9801.0848,9801.0848,9801.0848],[1452263400,9834.0549,9834.0549,9834.0549,9834.0549],[1452272400,9702.0,9702.0,9702.0,9702.0],[1452286800,9725.803,9725.803,9725.803,9725.803],[1452315600,9725.803,9725.803,9725.803,9725.803],[1452402000,9725.803,9725.803,9725.803,9725.803],[1452488400,9725.803,9725.803,9725.803,9725.803],[1452522600,9759.1921,9759.1921,9759.1921,9759.1921],[1452531600,9627.1693,9627.1693,9627.1693,9627.1693],[1452546000,9698.2746,9698.2746,9698.2746,9698.2746],[1452574800,9698.2746,9698.2746,9698.2746,9698.2746],[1452609000,9766.1427,9766.1427,9766.1427,9766.1427],[1452618000,9619.7892,9619.7892,9619.7892,9619.7892],[1452632400,9689.7657,9689.7657,9689.7657,9689.7657],[1452661200,9689.7657,9689.7657,9689.7657,9689.7657],[1452695400,9706.8729,9706.8729,9706.8729,9706.8729],[1452704400,9577.7704,9577.7704,9577.7704,9577.7704],[1452718800,9595.3903,9595.3903,9595.3903,9595.3903],[1452747600,9595.3903,9595.3903,9595.3903,9595.3903],[1452781800,9604.086,9604.086,9604.086,9604.086],[1452790800,9552.3375,9552.3375,9552.3375,9552.3375],[1452805200,9682.4708,9682.4708,9682.4708,9682.4708],[1452834000,9682.4708,9682.4708,9682.4708,9682.4708],[1452868200,9554.4381,9554.4381,9554.4381,9554.4381],[1452877200,9519.5048,9519.5048,9519.5048,9519.5048],[1452891600,9604.3131,9604.3131,9604.3131,9604.3131],[1452920400,9604.3131,9604.3131,9604.3131,9604.3131],[1453006800,9604.3131,9604.3131,9604.3131,9604.3131],[1453093200,9604.3131,9604.3131,9604.3131,9604.3131],[1453179600,9604.3131,9604.3131,9604.3131,9604.3131],[1453213800,9654.8254,9654.8254,9654.8254,9654.8254],[1453222800,9550.0058,9550.0058,9550.0058,9550.0058],[1453237200,9622.7112,9622.7112,9622.7112,9622.7112],[1453266000,9622.7112,9622.7112,9622.7112,9622.7112],[1453300200,9554.5598,9554.5598,9554.5598,9554.5598],[1453309200,9404.5751,9404.5751,9404.5751,9404.5751],[1453323600,9560.5731,9560.5731,9560.5731,9560.5731],[1453352400,9560.5731,9560.5731,9560.5731,9560.5731],[1453386600,9576.4419,9576.4419,9576.4419,9576.4419],[1453395600,9503.583,9503.583,9503.583,9503.583],[1453410000,9619.4206,9619.4206,9619.4206,9619.4206],[1453438800,9619.4206,9619.4206,9619.4206,9619.4206],[1453473000,9707.1274,9707.1274,9707.1274,9707.1274],[1453482000,9654.1159,9654.1159,9654.1159,9654.1159],[1453496400,9731.1489,9731.1489,9731.1489,9731.1489],[1453525200,9731.1489,9731.1489,9731.1489,9731.1489],[1453611600,9731.1489,9731.1489,9731.1489,9731.1489],[1453698000,9731.1489,9731.1489,9731.1489,9731.1489],[1453732200,9708.496,9708.496,9708.496,9708.496],[1453741200,9596.1608,9596.1608,9596.1608,9596.1608],[1453755600,9616.9291,9616.9291,9616.9291,9616.9291],[1453784400,9616.9291,9616.9291,9616.9291,9616.9291],[1453818600,9639.9224,9639.9224,9639.9224,9639.9224],[1453827600,9570.9356,9570.9356,9570.9356,9570.9356],[1453842000,9683.4287,9683.4287,9683.4287,9683.4287],[1453870800,9683.4287,9683.4287,9683.4287,9683.4287],[1453905000,9645.468,9645.468,9645.468,9645.468],[1453914000,9542.0391,9542.0391,9542.0391,9542.0391],[1453928400,9614.2597,9614.2597,9614.2597,9614.2597],[1453957200,9614.2597,9614.2597,9614.2597,9614.2597],[1453991400,9691.3462,9691.3462,9691.3462,9691.3462],[1454000400,9596.0192,9596.0192,9596.0192,9596.0192],[1454014800,9722.6661,9722.6661,9722.6661,9722.6661],[1454043600,9722.6661,9722.6661,9722.6661,9722.6661],[1454077800,9682.5723,9682.5723,9682.5723,9682.5723],[1454086800,9654.9639,9654.9639,9654.9639,9654.9639],[1454101200,9822.8816,9822.8816,9822.8816,9822.8816],[1454130000,9822.8816,9822.8816,9822.8816,9822.8816],[1454216400,9822.8816,9822.8816,9822.8816,9822.8816],[1454302800,9822.8816,9822.8816,9822.8816,9822.8816],[1454337000,9775.0662,9775.0662,9775.0662,9775.0662],[1454346000,9730.1759,9730.1759,9730.1759,9730.1759],[1454360400,9824.0939,9824.0939,9824.0939,9824.0939],[1454389200,9824.0939,9824.0939,9824.0939,9824.0939],[1454423400,9752.8921,9752.8921,9752.8921,9752.8921],[1454432400,9752.8921,9752.8921,9752.8921,9752.8921],[1454446800,9752.8921,9752.8921,9752.8921,9752.8921]]},
+        "Return": {"name":"Return","unit":"%","index":1,"seriesType":3,"values":[[1451970000,0.0],[1452056400,-0.0680898],[1452142800,-0.856249],[1452229200,-1.07533],[1452315600,-0.7680958],[1452402000,0.0],[1452488400,0.0],[1452574800,-0.2830459],[1452661200,-0.08773565],[1452747600,-0.9739696],[1452834000,0.9075236],[1452920400,-0.8072076],[1453006800,0.0],[1453093200,0.0],[1453179600,0.0],[1453266000,0.1915608],[1453352400,-0.6457442],[1453438800,0.6155226],[1453525200,1.161486],[1453611600,0.0],[1453698000,0.0],[1453784400,-1.173754],[1453870800,0.6914853],[1453957200,-0.7143032],[1454043600,1.127558],[1454130000,1.030741],[1454216400,0.0],[1454302800,0.0],[1454389200,0.01234174],[1454446800,-0.7247669]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Capacity": {
+      "name": "Capacity",
+      "chartType": 0,
+      "series": {
+        "Strategy Capacity": {"name":"Strategy Capacity","unit":"$","index":0,"seriesType":0,"values":[[1451970000,0.0],[1452056400,0.0],[1452142800,0.0],[1452229200,0.0],[1452315600,0.0],[1452402000,0.0],[1452488400,0.0],[1452574800,0.0],[1452661200,0.0],[1452747600,0.0],[1452834000,0.0],[1452920400,0.0],[1453006800,0.0],[1453093200,0.0],[1453179600,0.0],[1453266000,0.0],[1453352400,0.0],[1453438800,0.0],[1453525200,0.0],[1453611600,0.0],[1453698000,0.0],[1453784400,0.0],[1453870800,0.0],[1453957200,0.0],[1454043600,0.0],[1454130000,0.0],[1454216400,0.0],[1454302800,0.0],[1454389200,0.0],[1454446800,0.0]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Assets Sales Volume": {
+      "name": "Assets Sales Volume",
+      "chartType": 0,
+      "series": {
+        "AMZN": {"name":"AMZN","unit":"$","index":0,"seriesType":7,"values":[[1453957200,673.1731],[1454043600,673.1731],[1454130000,673.1731],[1454216400,673.1731],[1454302800,673.1731],[1454389200,673.1731],[1454446800,1310.5735]],"color":"","scatterMarkerSymbol":"none"},
+        "NVDA": {"name":"NVDA","unit":"$","index":0,"seriesType":7,"values":[[1453352400,711.0282],[1453438800,711.0282],[1453525200,711.0282],[1453611600,711.0282],[1453698000,711.0282],[1453784400,711.0282],[1453870800,711.0282],[1453957200,797.9469],[1454043600,797.9469],[1454130000,797.9469],[1454216400,797.9469],[1454302800,797.9469],[1454389200,797.9469],[1454446800,1479.1061]],"color":"","scatterMarkerSymbol":"none"},
+        "AAPL": {"name":"AAPL","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,813.758],[1452747600,813.758],[1452834000,813.758],[1452920400,813.758],[1453006800,813.758],[1453093200,813.758],[1453179600,813.758],[1453266000,813.758],[1453352400,832.9305],[1453438800,832.9305],[1453525200,832.9305],[1453611600,832.9305],[1453698000,832.9305],[1453784400,832.9305],[1453870800,832.9305],[1453957200,877.8138],[1454043600,877.8138],[1454130000,877.8138],[1454216400,877.8138],[1454302800,877.8138],[1454389200,877.8138],[1454446800,1546.6412]],"color":"","scatterMarkerSymbol":"none"},
+        "DE": {"name":"DE","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,843.5619],[1452747600,843.5619],[1452834000,843.5619],[1452920400,843.5619],[1453006800,843.5619],[1453093200,843.5619],[1453179600,843.5619],[1453266000,843.5619],[1453352400,867.2139],[1453438800,867.2139],[1453525200,867.2139],[1453611600,867.2139],[1453698000,867.2139],[1453784400,867.2139],[1453870800,867.2139],[1453957200,927.2856],[1454043600,927.2856],[1454130000,927.2856],[1454216400,927.2856],[1454302800,927.2856],[1454389200,927.2856],[1454446800,1618.7516]],"color":"","scatterMarkerSymbol":"none"},
+        "UNH": {"name":"UNH","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,816.3409],[1452747600,816.3409],[1452834000,816.3409],[1452920400,816.3409],[1453006800,816.3409],[1453093200,816.3409],[1453179600,816.3409],[1453266000,816.3409],[1453352400,889.4625],[1453438800,889.4625],[1453525200,889.4625],[1453611600,889.4625],[1453698000,889.4625],[1453784400,889.4625],[1453870800,889.4625],[1453957200,942.1612],[1454043600,942.1612],[1454130000,942.1612],[1454216400,942.1612],[1454302800,942.1612],[1454389200,942.1612],[1454446800,1618.3932]],"color":"","scatterMarkerSymbol":"none"},
+        "DUK": {"name":"DUK","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,864.6933],[1452747600,864.6933],[1452834000,864.6933],[1452920400,864.6933],[1453006800,864.6933],[1453093200,864.6933],[1453179600,864.6933],[1453266000,864.6933],[1453352400,930.3142],[1453438800,930.3142],[1453525200,930.3142],[1453611600,930.3142],[1453698000,930.3142],[1453784400,930.3142],[1453870800,930.3142],[1453957200,962.5845],[1454043600,962.5845],[1454130000,962.5845],[1454216400,962.5845],[1454302800,962.5845],[1454389200,962.5845],[1454446800,1673.9976]],"color":"","scatterMarkerSymbol":"none"},
+        "WMT": {"name":"WMT","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,884.5262],[1452747600,884.5262],[1452834000,884.5262],[1452920400,884.5262],[1453006800,884.5262],[1453093200,884.5262],[1453179600,884.5262],[1453266000,884.5262],[1453352400,914.6062],[1453438800,914.6062],[1453525200,914.6062],[1453611600,914.6062],[1453698000,914.6062],[1453784400,914.6062],[1453870800,914.6062],[1453957200,978.9234],[1454043600,978.9234],[1454130000,978.9234],[1454216400,978.9234],[1454302800,978.9234],[1454389200,978.9234],[1454446800,1685.7026]],"color":"","scatterMarkerSymbol":"none"},
+        "CAT": {"name":"CAT","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,842.6608],[1452747600,842.6608],[1452834000,842.6608],[1452920400,842.6608],[1453006800,842.6608],[1453093200,842.6608],[1453179600,842.6608],[1453266000,842.6608],[1453352400,1560.8145],[1453438800,1560.8145],[1453525200,1560.8145],[1453611600,1560.8145],[1453698000,1560.8145],[1453784400,1560.8145],[1453870800,1560.8145],[1453957200,1560.8145],[1454043600,1560.8145],[1454130000,1560.8145],[1454216400,1560.8145],[1454302800,1560.8145],[1454389200,1560.8145],[1454446800,1560.8145]],"color":"","scatterMarkerSymbol":"none"},
+        "PFE": {"name":"PFE","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,833.5215],[1452747600,833.5215],[1452834000,833.5215],[1452920400,833.5215],[1453006800,833.5215],[1453093200,833.5215],[1453179600,833.5215],[1453266000,833.5215],[1453352400,1576.7828],[1453438800,1576.7828],[1453525200,1576.7828],[1453611600,1576.7828],[1453698000,1576.7828],[1453784400,1576.7828],[1453870800,1576.7828],[1453957200,1576.7828],[1454043600,1576.7828],[1454130000,1576.7828],[1454216400,1576.7828],[1454302800,1576.7828],[1454389200,1576.7828],[1454446800,1576.7828]],"color":"","scatterMarkerSymbol":"none"},
+        "COP": {"name":"COP","unit":"$","index":0,"seriesType":7,"values":[[1452056400,812.8887],[1452142800,812.8887],[1452229200,812.8887],[1452315600,812.8887],[1452402000,812.8887],[1452488400,812.8887],[1452574800,812.8887],[1452661200,1586.3936],[1452747600,1586.3936],[1452834000,1586.3936],[1452920400,1586.3936],[1453006800,1586.3936],[1453093200,1586.3936],[1453179600,1586.3936],[1453266000,1586.3936],[1453352400,2297.4218],[1453438800,2297.4218],[1453525200,2297.4218],[1453611600,2297.4218],[1453698000,2297.4218],[1453784400,2297.4218],[1453870800,2297.4218],[1453957200,2322.8729],[1454043600,2322.8729],[1454130000,2322.8729],[1454216400,2322.8729],[1454302800,2322.8729],[1454389200,2322.8729],[1454446800,3047.9027]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    },
+    "Portfolio Margin": {
+      "name": "Portfolio Margin",
+      "chartType": 0,
+      "series": {
+        "AMZN": {"name":"AMZN","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1453957200,6.785],[1454043600,7.307],[1454130000,6.682],[1454216400,6.682],[1454302800,6.682],[1454389200,6.543]],"color":"","scatterMarkerSymbol":"none"},
+        "NVDA": {"name":"NVDA","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1453352400,7.623],[1453438800,7.665],[1453525200,7.754],[1453611600,7.754],[1453698000,7.754],[1453784400,7.838],[1453870800,7.86],[1453957200,6.929],[1454043600,6.776],[1454130000,7.004],[1454216400,7.004],[1454302800,7.004],[1454389200,7.005]],"color":"","scatterMarkerSymbol":"none"},
+        "CAT": {"name":"CAT","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,8.004],[1452142800,7.946],[1452229200,7.755],[1452315600,7.736],[1452402000,7.736],[1452488400,7.736],[1452574800,7.535],[1452661200,7.86],[1452747600,7.846],[1452834000,7.952],[1452920400,7.804],[1453006800,7.804],[1453093200,7.804],[1453179600,7.804],[1453266000,7.68],[1453352400,null]],"color":"","scatterMarkerSymbol":"none"},
+        "PFE": {"name":"PFE","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,8.134],[1452142800,8.059],[1452229200,8.093],[1452315600,8.052],[1452402000,8.052],[1452488400,8.052],[1452574800,8.093],[1452661200,7.871],[1452747600,7.787],[1452834000,7.905],[1452920400,7.893],[1453006800,7.893],[1453093200,7.893],[1453179600,7.893],[1453266000,7.847],[1453352400,null]],"color":"","scatterMarkerSymbol":"none"},
+        "COP": {"name":"COP","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,8.262],[1452142800,7.973],[1452229200,7.83],[1452315600,7.753],[1452402000,7.753],[1452488400,7.753],[1452574800,7.385],[1452661200,null],[1453352400,7.272],[1453438800,7.677],[1453525200,7.745],[1453611600,7.745],[1453698000,7.745],[1453784400,7.115],[1453870800,7.303],[1453957200,7.26],[1454043600,7.538],[1454130000,7.67],[1454216400,7.67],[1454302800,7.67],[1454389200,7.574]],"color":"","scatterMarkerSymbol":"none"},
+        "AAPL": {"name":"AAPL","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,7.901],[1452142800,7.813],[1452229200,7.564],[1452315600,7.663],[1452402000,7.663],[1452488400,7.663],[1452574800,7.81],[1452661200,7.921],[1452747600,7.793],[1452834000,7.892],[1452920400,7.765],[1453006800,7.765],[1453093200,7.765],[1453179600,7.765],[1453266000,7.713],[1453352400,7.569],[1453438800,7.485],[1453525200,7.792],[1453611600,7.792],[1453698000,7.792],[1453784400,7.731],[1453870800,7.72],[1453957200,6.811],[1454043600,6.783],[1454130000,6.946],[1454216400,6.946],[1454302800,6.946],[1454389200,6.88]],"color":"","scatterMarkerSymbol":"none"},
+        "UNH": {"name":"UNH","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,8.132],[1452142800,8.118],[1452229200,7.965],[1452315600,7.888],[1452402000,7.888],[1452488400,7.888],[1452574800,7.869],[1452661200,8.105],[1452747600,7.964],[1452834000,8.003],[1452920400,7.959],[1453006800,7.959],[1453093200,7.959],[1453179600,7.959],[1453266000,8.185],[1453352400,7.616],[1453438800,7.485],[1453525200,7.453],[1453611600,7.453],[1453698000,7.453],[1453784400,7.479],[1453870800,7.465],[1453957200,6.873],[1454043600,6.739],[1454130000,6.897],[1454216400,6.897],[1454302800,6.897],[1454389200,6.94]],"color":"","scatterMarkerSymbol":"none"},
+        "DE": {"name":"DE","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,8.195],[1452142800,8.173],[1452229200,8.189],[1452315600,8.117],[1452402000,8.117],[1452488400,8.117],[1452574800,8.183],[1452661200,7.917],[1452747600,7.855],[1452834000,7.825],[1452920400,7.837],[1453006800,7.837],[1453093200,7.837],[1453179600,7.837],[1453266000,7.751],[1453352400,7.503],[1453438800,7.564],[1453525200,7.638],[1453611600,7.638],[1453698000,7.638],[1453784400,7.436],[1453870800,7.569],[1453957200,7.005],[1454043600,7.038],[1454130000,7.171],[1454216400,7.171],[1454302800,7.171],[1454389200,7.15]],"color":"","scatterMarkerSymbol":"none"},
+        "DUK": {"name":"DUK","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,8.194],[1452142800,8.283],[1452229200,8.296],[1452315600,8.342],[1452402000,8.342],[1452488400,8.342],[1452574800,8.458],[1452661200,7.872],[1452747600,7.997],[1452834000,7.999],[1452920400,8.032],[1453006800,8.032],[1453093200,8.032],[1453179600,8.032],[1453266000,8.137],[1453352400,7.319],[1453438800,7.241],[1453525200,7.267],[1453611600,7.267],[1453698000,7.267],[1453784400,7.315],[1453870800,7.307],[1453957200,7.042],[1454043600,7.065],[1454130000,7.167],[1454216400,7.167],[1454302800,7.167],[1454389200,7.328]],"color":"","scatterMarkerSymbol":"none"},
+        "WMT": {"name":"WMT","unit":"%","index":0,"seriesType":3,"indexName":"Margin Used (%)","tooltip":"{SERIES_NAME}: {VALUE}%","values":[[1452056400,8.251],[1452142800,8.406],[1452229200,8.695],[1452315600,8.562],[1452402000,8.562],[1452488400,8.562],[1452574800,8.678],[1452661200,7.874],[1452747600,7.739],[1452834000,7.81],[1452920400,7.733],[1453006800,7.733],[1453093200,7.733],[1453179600,7.733],[1453266000,7.796],[1453352400,7.322],[1453438800,7.401],[1453525200,7.412],[1453611600,7.412],[1453698000,7.412],[1453784400,7.591],[1453870800,7.604],[1453957200,6.985],[1454043600,6.937],[1454130000,7.095],[1454216400,7.095],[1454302800,7.095],[1454389200,7.216]],"color":"","scatterMarkerSymbol":"none"}
+      },
+      "legendDisabled": true
+    },
+    "Benchmark": {
+      "name": "Benchmark",
+      "chartType": 0,
+      "series": {
+        "Benchmark": {"name":"Benchmark","unit":"$","index":0,"seriesType":0,"values":[[1451970000,10000.0],[1452056400,10000.0],[1452142800,10000.0],[1452229200,10000.0],[1452315600,10000.0],[1452402000,10000.0],[1452488400,10000.0],[1452574800,10000.0],[1452661200,10000.0],[1452747600,10000.0],[1452834000,10000.0],[1452920400,10000.0],[1453006800,10000.0],[1453093200,10000.0],[1453179600,10000.0],[1453266000,10000.0],[1453352400,10000.0],[1453438800,10000.0],[1453525200,10000.0],[1453611600,10000.0],[1453698000,10000.0],[1453784400,10000.0],[1453870800,10000.0],[1453957200,10000.0],[1454043600,10000.0],[1454130000,10000.0],[1454216400,10000.0],[1454302800,10000.0],[1454389200,10000.0],[1454446800,10000.0]],"color":"","scatterMarkerSymbol":"none"}
+      }
+    }
+  },
+  "orders": {
+    "1": {
+      "type": 0,
+      "id": 1,
+      "contingentId": 0,
+      "brokerId": [
+        "1"
+      ],
+      "symbol": {
+        "value": "AAPL",
+        "id": "AAPL.H60Phase 2S",
+        "permtick": "AAPL"
+      },
+      "price": 23.778623813872779999999999999,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 34.185690344179,
+      "status": 3,
+      "tag": "h60-1",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117755221531195476,
+      "orderSubmissionData": {
+        "bidPrice": 23.77862381387278,
+        "askPrice": 23.77862381387278,
+        "lastPrice": 23.77862381387278
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "2": {
+      "type": 0,
+      "id": 2,
+      "contingentId": 0,
+      "brokerId": [
+        "2"
+      ],
+      "symbol": {
+        "value": "PFE",
+        "id": "PFE.H60Phase 2S",
+        "permtick": "PFE"
+      },
+      "price": 18.863323211669920000000000001,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 43.093608766078,
+      "status": 3,
+      "tag": "h60-2",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117814772210289738,
+      "orderSubmissionData": {
+        "bidPrice": 18.863323211669922,
+        "askPrice": 18.863323211669922,
+        "lastPrice": 18.863323211669922
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "3": {
+      "type": 0,
+      "id": 3,
+      "contingentId": 0,
+      "brokerId": [
+        "3"
+      ],
+      "symbol": {
+        "value": "UNH",
+        "id": "UNH.H60Phase 2S",
+        "permtick": "UNH"
+      },
+      "price": 98.1122218971976,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 8.285294683913,
+      "status": 3,
+      "tag": "h60-3",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117439064725022088,
+      "orderSubmissionData": {
+        "bidPrice": 98.11222189719761,
+        "askPrice": 98.11222189719761,
+        "lastPrice": 98.11222189719761
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "4": {
+      "type": 0,
+      "id": 4,
+      "contingentId": 0,
+      "brokerId": [
+        "4"
+      ],
+      "symbol": {
+        "value": "COP",
+        "id": "COP.H60Phase 2S",
+        "permtick": "COP"
+      },
+      "price": 33.597133894994590000000000001,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 24.195179060583,
+      "status": 3,
+      "tag": "h60-4",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117764718420672460,
+      "orderSubmissionData": {
+        "bidPrice": 33.59713389499459,
+        "askPrice": 33.59713389499459,
+        "lastPrice": 33.59713389499459
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "5": {
+      "type": 0,
+      "id": 5,
+      "contingentId": 0,
+      "brokerId": [
+        "5"
+      ],
+      "symbol": {
+        "value": "CAT",
+        "id": "CAT.H60Phase 2S",
+        "permtick": "CAT"
+      },
+      "price": 53.195216674330530000000000003,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 15.281236196262,
+      "status": 3,
+      "tag": "h60-5",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117795858725384789,
+      "orderSubmissionData": {
+        "bidPrice": 53.19521667433053,
+        "askPrice": 53.19521667433053,
+        "lastPrice": 53.19521667433053
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "6": {
+      "type": 0,
+      "id": 6,
+      "contingentId": 0,
+      "brokerId": [
+        "6"
+      ],
+      "symbol": {
+        "value": "DE",
+        "id": "DE.H60Phase 2S",
+        "permtick": "DE"
+      },
+      "price": 63.951838899253669999999999996,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 12.710950685755,
+      "status": 3,
+      "tag": "h60-6",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117617210442004708,
+      "orderSubmissionData": {
+        "bidPrice": 63.95183889925367,
+        "askPrice": 63.95183889925367,
+        "lastPrice": 63.95183889925367
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "7": {
+      "type": 0,
+      "id": 7,
+      "contingentId": 0,
+      "brokerId": [
+        "7"
+      ],
+      "symbol": {
+        "value": "WMT",
+        "id": "WMT.H60Phase 2S",
+        "permtick": "WMT"
+      },
+      "price": 17.12420873976306,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 47.470144919702,
+      "status": 3,
+      "tag": "h60-7",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117800104582058081,
+      "orderSubmissionData": {
+        "bidPrice": 17.12420873976306,
+        "askPrice": 17.12420873976306,
+        "lastPrice": 17.12420873976306
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "8": {
+      "type": 0,
+      "id": 8,
+      "contingentId": 0,
+      "brokerId": [
+        "8"
+      ],
+      "symbol": {
+        "value": "DUK",
+        "id": "DUK.H60Phase 2S",
+        "permtick": "DUK"
+      },
+      "price": 45.982591854694234999999999999,
+      "priceCurrency": "USD",
+      "time": "2016-01-05T14:30:00Z",
+      "createdTime": "2016-01-05T14:30:00Z",
+      "lastFillTime": "2016-01-05T14:30:00Z",
+      "quantity": 17.678182932369,
+      "status": 3,
+      "tag": "h60-8",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 812.8886705117454256501791927,
+      "orderSubmissionData": {
+        "bidPrice": 45.982591854694235,
+        "askPrice": 45.982591854694235,
+        "lastPrice": 45.982591854694235
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "9": {
+      "type": 0,
+      "id": 9,
+      "contingentId": 0,
+      "brokerId": [
+        "9"
+      ],
+      "symbol": {
+        "value": "WMT",
+        "id": "WMT.H60Phase 2S",
+        "permtick": "WMT"
+      },
+      "price": 17.77295563001269,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": -4.030705940402,
+      "status": 3,
+      "tag": "h60-9",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -71.63755783639332002164370138,
+      "orderSubmissionData": {
+        "bidPrice": 17.77295563001269,
+        "askPrice": 17.77295563001269,
+        "lastPrice": 17.77295563001269
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "10": {
+      "type": 0,
+      "id": 10,
+      "contingentId": 0,
+      "brokerId": [
+        "10"
+      ],
+      "symbol": {
+        "value": "DUK",
+        "id": "DUK.H60Phase 2S",
+        "permtick": "DUK"
+      },
+      "price": 46.60274737932825,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": -1.111622697463,
+      "status": 3,
+      "tag": "h60-10",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -51.80467175099562334991922975,
+      "orderSubmissionData": {
+        "bidPrice": 46.60274737932825,
+        "askPrice": 46.60274737932825,
+        "lastPrice": 46.60274737932825
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "11": {
+      "type": 0,
+      "id": 11,
+      "contingentId": 0,
+      "brokerId": [
+        "11"
+      ],
+      "symbol": {
+        "value": "DE",
+        "id": "DE.H60Phase 2S",
+        "permtick": "DE"
+      },
+      "price": 63.151882239901056,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": -0.485705860289,
+      "status": 3,
+      "tag": "h60-11",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -30.673239292200762686719565184,
+      "orderSubmissionData": {
+        "bidPrice": 63.151882239901056,
+        "askPrice": 63.151882239901056,
+        "lastPrice": 63.151882239901056
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "12": {
+      "type": 0,
+      "id": 12,
+      "contingentId": 0,
+      "brokerId": [
+        "12"
+      ],
+      "symbol": {
+        "value": "PFE",
+        "id": "PFE.H60Phase 2S",
+        "permtick": "PFE"
+      },
+      "price": 18.394376922281165,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": -1.121693933967,
+      "status": 3,
+      "tag": "h60-12",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -20.632861012825357784517831555,
+      "orderSubmissionData": {
+        "bidPrice": 18.394376922281165,
+        "askPrice": 18.394376922281165,
+        "lastPrice": 18.394376922281165
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "13": {
+      "type": 0,
+      "id": 13,
+      "contingentId": 0,
+      "brokerId": [
+        "13"
+      ],
+      "symbol": {
+        "value": "AAPL",
+        "id": "AAPL.H60Phase 2S",
+        "permtick": "AAPL"
+      },
+      "price": 22.609360561798336,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": -0.038452103562,
+      "status": 3,
+      "tag": "h60-13",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -0.869377473792868116831272832,
+      "orderSubmissionData": {
+        "bidPrice": 22.609360561798336,
+        "askPrice": 22.609360561798336,
+        "lastPrice": 22.609360561798336
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "14": {
+      "type": 0,
+      "id": 14,
+      "contingentId": 0,
+      "brokerId": [
+        "14"
+      ],
+      "symbol": {
+        "value": "UNH",
+        "id": "UNH.H60Phase 2S",
+        "permtick": "UNH"
+      },
+      "price": 92.76615938210335,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": 0.037214587939,
+      "status": 3,
+      "tag": "h60-14",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 3.45225439608857502136149565,
+      "orderSubmissionData": {
+        "bidPrice": 92.76615938210337,
+        "askPrice": 92.76615938210337,
+        "lastPrice": 92.76615938210337
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "15": {
+      "type": 0,
+      "id": 15,
+      "contingentId": 0,
+      "brokerId": [
+        "15"
+      ],
+      "symbol": {
+        "value": "CAT",
+        "id": "CAT.H60Phase 2S",
+        "permtick": "CAT"
+      },
+      "price": 48.57428030151633,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": 0.612920480468,
+      "status": 3,
+      "tag": "h60-15",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 29.77217122079269689254804244,
+      "orderSubmissionData": {
+        "bidPrice": 48.57428030151633,
+        "askPrice": 48.57428030151633,
+        "lastPrice": 48.57428030151633
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "16": {
+      "type": 0,
+      "id": 16,
+      "contingentId": 0,
+      "brokerId": [
+        "16"
+      ],
+      "symbol": {
+        "value": "COP",
+        "id": "COP.H60Phase 2S",
+        "permtick": "COP"
+      },
+      "price": 30.141664653031665,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T14:30:00Z",
+      "createdTime": "2016-01-12T14:30:00Z",
+      "lastFillTime": "2016-01-12T14:30:00Z",
+      "quantity": 1.418775260087,
+      "status": 3,
+      "tag": "h60-16",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 42.764248107560135123421654855,
+      "orderSubmissionData": {
+        "bidPrice": 30.141664653031665,
+        "askPrice": 30.141664653031665,
+        "lastPrice": 30.141664653031665
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "17": {
+      "type": 0,
+      "id": 17,
+      "contingentId": 0,
+      "brokerId": [
+        "17"
+      ],
+      "symbol": {
+        "value": "COP",
+        "id": "COP.H60Phase 2S",
+        "permtick": "COP"
+      },
+      "price": 28.529006246934657,
+      "priceCurrency": "USD",
+      "time": "2016-01-12T17:00:00Z",
+      "createdTime": "2016-01-12T17:00:00Z",
+      "lastFillTime": "2016-01-12T17:00:00Z",
+      "quantity": -25.61395432067,
+      "status": 3,
+      "tag": "h60-17",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -730.74066282309337860831446019,
+      "orderSubmissionData": {
+        "bidPrice": 28.169176024739105,
+        "askPrice": 28.169176024739105,
+        "lastPrice": 28.169176024739105
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "18": {
+      "type": 0,
+      "id": 18,
+      "contingentId": 0,
+      "brokerId": [
+        "18"
+      ],
+      "symbol": {
+        "value": "PFE",
+        "id": "PFE.H60Phase 2S",
+        "permtick": "PFE"
+      },
+      "price": 17.708539089059606,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": -41.971914832111,
+      "status": 3,
+      "tag": "h60-18",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -743.26129444711829384236180827,
+      "orderSubmissionData": {
+        "bidPrice": 17.708539089059606,
+        "askPrice": 17.708539089059606,
+        "lastPrice": 17.708539089059606
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "19": {
+      "type": 0,
+      "id": 19,
+      "contingentId": 0,
+      "brokerId": [
+        "19"
+      ],
+      "symbol": {
+        "value": "UNH",
+        "id": "UNH.H60Phase 2S",
+        "permtick": "UNH"
+      },
+      "price": 94.2203577763188,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": -0.776069759617,
+      "status": 3,
+      "tag": "h60-19",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -73.1215704104954677711578996,
+      "orderSubmissionData": {
+        "bidPrice": 94.2203577763188,
+        "askPrice": 94.2203577763188,
+        "lastPrice": 94.2203577763188
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "20": {
+      "type": 0,
+      "id": 20,
+      "contingentId": 0,
+      "brokerId": [
+        "20"
+      ],
+      "symbol": {
+        "value": "DUK",
+        "id": "DUK.H60Phase 2S",
+        "permtick": "DUK"
+      },
+      "price": 46.880524838101856,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": -1.399745587767,
+      "status": 3,
+      "tag": "h60-20",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -65.620807794334324943333595552,
+      "orderSubmissionData": {
+        "bidPrice": 46.880524838101856,
+        "askPrice": 46.880524838101856,
+        "lastPrice": 46.880524838101856
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "21": {
+      "type": 0,
+      "id": 21,
+      "contingentId": 0,
+      "brokerId": [
+        "21"
+      ],
+      "symbol": {
+        "value": "WMT",
+        "id": "WMT.H60Phase 2S",
+        "permtick": "WMT"
+      },
+      "price": 17.060722657423774,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": -1.763113476717,
+      "status": 3,
+      "tag": "h60-21",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -30.079990039834925527551269958,
+      "orderSubmissionData": {
+        "bidPrice": 17.060722657423774,
+        "askPrice": 17.060722657423774,
+        "lastPrice": 17.060722657423774
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "22": {
+      "type": 0,
+      "id": 22,
+      "contingentId": 0,
+      "brokerId": [
+        "22"
+      ],
+      "symbol": {
+        "value": "DE",
+        "id": "DE.H60Phase 2S",
+        "permtick": "DE"
+      },
+      "price": 60.09533898356676,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": -0.39357463596,
+      "status": 3,
+      "tag": "h60-22",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -23.6520011633500839893566896,
+      "orderSubmissionData": {
+        "bidPrice": 60.09533898356676,
+        "askPrice": 60.09533898356676,
+        "lastPrice": 60.09533898356676
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "23": {
+      "type": 0,
+      "id": 23,
+      "contingentId": 0,
+      "brokerId": [
+        "23"
+      ],
+      "symbol": {
+        "value": "AAPL",
+        "id": "AAPL.H60Phase 2S",
+        "permtick": "AAPL"
+      },
+      "price": 21.383886403780675,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": -0.896583174736,
+      "status": 3,
+      "tag": "h60-23",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -19.172432760095663584545026800,
+      "orderSubmissionData": {
+        "bidPrice": 21.383886403780675,
+        "askPrice": 21.383886403780675,
+        "lastPrice": 21.383886403780675
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "24": {
+      "type": 0,
+      "id": 24,
+      "contingentId": 0,
+      "brokerId": [
+        "24"
+      ],
+      "symbol": {
+        "value": "CAT",
+        "id": "CAT.H60Phase 2S",
+        "permtick": "CAT"
+      },
+      "price": 45.748178597565726,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": -0.351937235934,
+      "status": 3,
+      "tag": "h60-24",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -16.100487524642258149333998084,
+      "orderSubmissionData": {
+        "bidPrice": 45.748178597565726,
+        "askPrice": 45.748178597565726,
+        "lastPrice": 45.748178597565726
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "25": {
+      "type": 0,
+      "id": 25,
+      "contingentId": 0,
+      "brokerId": [
+        "25"
+      ],
+      "symbol": {
+        "value": "NVDA",
+        "id": "NVDA.H60Phase 2S",
+        "permtick": "NVDA"
+      },
+      "price": 0.6531685470558037,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": 1088.5830831645,
+      "status": 3,
+      "tag": "h60-25",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 711.02823078008359077948680865,
+      "orderSubmissionData": {
+        "bidPrice": 0.6531685470558037,
+        "askPrice": 0.6531685470558037,
+        "lastPrice": 0.6531685470558037
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "26": {
+      "type": 0,
+      "id": 26,
+      "contingentId": 0,
+      "brokerId": [
+        "26"
+      ],
+      "symbol": {
+        "value": "COP",
+        "id": "COP.H60Phase 2S",
+        "permtick": "COP"
+      },
+      "price": 25.584790467610414,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T14:30:00Z",
+      "createdTime": "2016-01-20T14:30:00Z",
+      "lastFillTime": "2016-01-20T14:30:00Z",
+      "quantity": 27.791051549952,
+      "status": 3,
+      "tag": "h60-26",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 711.02823078008155084839640013,
+      "orderSubmissionData": {
+        "bidPrice": 25.584790467610414,
+        "askPrice": 25.584790467610414,
+        "lastPrice": 25.584790467610414
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "27": {
+      "type": 0,
+      "id": 27,
+      "contingentId": 0,
+      "brokerId": [
+        "27"
+      ],
+      "symbol": {
+        "value": "CAT",
+        "id": "CAT.H60Phase 2S",
+        "permtick": "CAT"
+      },
+      "price": 45.17071823900777,
+      "priceCurrency": "USD",
+      "time": "2016-01-20T17:00:00Z",
+      "createdTime": "2016-01-20T17:00:00Z",
+      "lastFillTime": "2016-01-20T17:00:00Z",
+      "quantity": -15.542219440796,
+      "status": 3,
+      "tag": "h60-27",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -702.05321516902502092329898492,
+      "orderSubmissionData": {
+        "bidPrice": 44.3933762464631,
+        "askPrice": 44.3933762464631,
+        "lastPrice": 44.3933762464631
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "28": {
+      "type": 0,
+      "id": 28,
+      "contingentId": 0,
+      "brokerId": [
+        "28"
+      ],
+      "symbol": {
+        "value": "NVDA",
+        "id": "NVDA.H60Phase 2S",
+        "permtick": "NVDA"
+      },
+      "price": 0.6982395151808832,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": -124.482543248061,
+      "status": 3,
+      "tag": "h60-28",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -86.91863064600943809726266748,
+      "orderSubmissionData": {
+        "bidPrice": 0.6982395151808832,
+        "askPrice": 0.6982395151808832,
+        "lastPrice": 0.6982395151808832
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "29": {
+      "type": 0,
+      "id": 29,
+      "contingentId": 0,
+      "brokerId": [
+        "29"
+      ],
+      "symbol": {
+        "value": "WMT",
+        "id": "WMT.H60Phase 2S",
+        "permtick": "WMT"
+      },
+      "price": 17.69566570269812,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": -3.634631853598,
+      "status": 3,
+      "tag": "h60-29",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -64.31723023364822308542983576,
+      "orderSubmissionData": {
+        "bidPrice": 17.69566570269812,
+        "askPrice": 17.69566570269812,
+        "lastPrice": 17.69566570269812
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "30": {
+      "type": 0,
+      "id": 30,
+      "contingentId": 0,
+      "brokerId": [
+        "30"
+      ],
+      "symbol": {
+        "value": "DE",
+        "id": "DE.H60Phase 2S",
+        "permtick": "DE"
+      },
+      "price": 61.97305798851275,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": -0.969319428927,
+      "status": 3,
+      "tag": "h60-30",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -60.07168917828503415605831925,
+      "orderSubmissionData": {
+        "bidPrice": 61.97305798851275,
+        "askPrice": 61.97305798851275,
+        "lastPrice": 61.97305798851275
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "31": {
+      "type": 0,
+      "id": 31,
+      "contingentId": 0,
+      "brokerId": [
+        "31"
+      ],
+      "symbol": {
+        "value": "UNH",
+        "id": "UNH.H60Phase 2S",
+        "permtick": "UNH"
+      },
+      "price": 96.1873237151357,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": -0.547876005358,
+      "status": 3,
+      "tag": "h60-31",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -52.6987266831253672388970806,
+      "orderSubmissionData": {
+        "bidPrice": 96.1873237151357,
+        "askPrice": 96.1873237151357,
+        "lastPrice": 96.1873237151357
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "32": {
+      "type": 0,
+      "id": 32,
+      "contingentId": 0,
+      "brokerId": [
+        "32"
+      ],
+      "symbol": {
+        "value": "AAPL",
+        "id": "AAPL.H60Phase 2S",
+        "permtick": "AAPL"
+      },
+      "price": 21.595255886952295,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": -2.078387550236,
+      "status": 3,
+      "tag": "h60-32",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -44.883310979602337761247991620,
+      "orderSubmissionData": {
+        "bidPrice": 21.595255886952298,
+        "askPrice": 21.595255886952298,
+        "lastPrice": 21.595255886952298
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "33": {
+      "type": 0,
+      "id": 33,
+      "contingentId": 0,
+      "brokerId": [
+        "33"
+      ],
+      "symbol": {
+        "value": "DUK",
+        "id": "DUK.H60Phase 2S",
+        "permtick": "DUK"
+      },
+      "price": 46.51230038297641,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": -0.693802389433,
+      "status": 3,
+      "tag": "h60-33",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -32.27034514373447425447227553,
+      "orderSubmissionData": {
+        "bidPrice": 46.51230038297641,
+        "askPrice": 46.51230038297641,
+        "lastPrice": 46.51230038297641
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "34": {
+      "type": 0,
+      "id": 34,
+      "contingentId": 0,
+      "brokerId": [
+        "34"
+      ],
+      "symbol": {
+        "value": "COP",
+        "id": "COP.H60Phase 2S",
+        "permtick": "COP"
+      },
+      "price": 25.13845876405758,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": -1.012437160935,
+      "status": 3,
+      "tag": "h60-34",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -25.45110982136402531606663730,
+      "orderSubmissionData": {
+        "bidPrice": 25.13845876405758,
+        "askPrice": 25.13845876405758,
+        "lastPrice": 25.13845876405758
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "35": {
+      "type": 0,
+      "id": 35,
+      "contingentId": 0,
+      "brokerId": [
+        "35"
+      ],
+      "symbol": {
+        "value": "AMZN",
+        "id": "AMZN.H60Phase 2S",
+        "permtick": "AMZN"
+      },
+      "price": 30.09950065612793,
+      "priceCurrency": "USD",
+      "time": "2016-01-27T14:30:00Z",
+      "createdTime": "2016-01-27T14:30:00Z",
+      "lastFillTime": "2016-01-27T14:30:00Z",
+      "quantity": 22.364925626758,
+      "status": 3,
+      "tag": "h60-35",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 0,
+      "value": 673.17309357685477708867915094,
+      "orderSubmissionData": {
+        "bidPrice": 30.09950065612793,
+        "askPrice": 30.09950065612793,
+        "lastPrice": 30.09950065612793
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "36": {
+      "type": 0,
+      "id": 36,
+      "contingentId": 0,
+      "brokerId": [
+        "36"
+      ],
+      "symbol": {
+        "value": "COP",
+        "id": "COP.H60Phase 2S",
+        "permtick": "COP"
+      },
+      "price": 27.074956778876256,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -26.778614389017,
+      "status": 3,
+      "tag": "h60-36",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -725.02982718082907443728848035,
+      "orderSubmissionData": {
+        "bidPrice": 27.074956778876256,
+        "askPrice": 27.074956778876256,
+        "lastPrice": 27.074956778876256
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "37": {
+      "type": 0,
+      "id": 37,
+      "contingentId": 0,
+      "brokerId": [
+        "37"
+      ],
+      "symbol": {
+        "value": "DUK",
+        "id": "DUK.H60Phase 2S",
+        "permtick": "DUK"
+      },
+      "price": 49.15445685631623,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -14.473012257706,
+      "status": 3,
+      "tag": "h60-37",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -711.41305660234553119859036838,
+      "orderSubmissionData": {
+        "bidPrice": 49.15445685631623,
+        "askPrice": 49.15445685631623,
+        "lastPrice": 49.15445685631623
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "38": {
+      "type": 0,
+      "id": 38,
+      "contingentId": 0,
+      "brokerId": [
+        "38"
+      ],
+      "symbol": {
+        "value": "WMT",
+        "id": "WMT.H60Phase 2S",
+        "permtick": "WMT"
+      },
+      "price": 18.579066633830383,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -38.041693648985,
+      "status": 3,
+      "tag": "h60-38",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -706.77916116825440351483011126,
+      "orderSubmissionData": {
+        "bidPrice": 18.579066633830386,
+        "askPrice": 18.579066633830386,
+        "lastPrice": 18.579066633830386
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "39": {
+      "type": 0,
+      "id": 39,
+      "contingentId": 0,
+      "brokerId": [
+        "39"
+      ],
+      "symbol": {
+        "value": "DE",
+        "id": "DE.H60Phase 2S",
+        "permtick": "DE"
+      },
+      "price": 63.65712286929348,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -10.862350760579,
+      "status": 3,
+      "tag": "h60-39",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -691.46599701554088728236572492,
+      "orderSubmissionData": {
+        "bidPrice": 63.65712286929348,
+        "askPrice": 63.65712286929348,
+        "lastPrice": 63.65712286929348
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "40": {
+      "type": 0,
+      "id": 40,
+      "contingentId": 0,
+      "brokerId": [
+        "40"
+      ],
+      "symbol": {
+        "value": "NVDA",
+        "id": "NVDA.H60Phase 2S",
+        "permtick": "NVDA"
+      },
+      "price": 0.7065230591337365,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -964.100539916439,
+      "status": 3,
+      "tag": "h60-40",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -681.15926277424951852343584432,
+      "orderSubmissionData": {
+        "bidPrice": 0.7065230591337365,
+        "askPrice": 0.7065230591337365,
+        "lastPrice": 0.7065230591337365
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "41": {
+      "type": 0,
+      "id": 41,
+      "contingentId": 0,
+      "brokerId": [
+        "41"
+      ],
+      "symbol": {
+        "value": "UNH",
+        "id": "UNH.H60Phase 2S",
+        "permtick": "UNH"
+      },
+      "price": 96.62440107007195,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -6.998563506877,
+      "status": 3,
+      "tag": "h60-41",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -676.23200720285249780270980015,
+      "orderSubmissionData": {
+        "bidPrice": 96.62440107007197,
+        "askPrice": 96.62440107007197,
+        "lastPrice": 96.62440107007197
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "42": {
+      "type": 0,
+      "id": 42,
+      "contingentId": 0,
+      "brokerId": [
+        "42"
+      ],
+      "symbol": {
+        "value": "AAPL",
+        "id": "AAPL.H60Phase 2S",
+        "permtick": "AAPL"
+      },
+      "price": 21.45584829984132,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -31.172267515645,
+      "status": 3,
+      "tag": "h60-42",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -668.82744297775058124411745140,
+      "orderSubmissionData": {
+        "bidPrice": 21.45584829984132,
+        "askPrice": 21.45584829984132,
+        "lastPrice": 21.45584829984132
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    },
+    "43": {
+      "type": 0,
+      "id": 43,
+      "contingentId": 0,
+      "brokerId": [
+        "43"
+      ],
+      "symbol": {
+        "value": "AMZN",
+        "id": "AMZN.H60Phase 2S",
+        "permtick": "AMZN"
+      },
+      "price": 28.5,
+      "priceCurrency": "USD",
+      "time": "2016-02-02T14:30:00Z",
+      "createdTime": "2016-02-02T14:30:00Z",
+      "lastFillTime": "2016-02-02T14:30:00Z",
+      "quantity": -22.364925626758,
+      "status": 3,
+      "tag": "h60-43",
+      "properties": {
+        "timeInForce": {}
+      },
+      "securityType": 0,
+      "direction": 1,
+      "value": -637.4003803626030,
+      "orderSubmissionData": {
+        "bidPrice": 28.5,
+        "askPrice": 28.5,
+        "lastPrice": 28.5
+      },
+      "isMarketable": true,
+      "priceAdjustmentMode": 1
+    }
+  },
+  "profitLoss": {
+    "2016-01-12T14:30:00Z": 2.47163282867372133368255126,
+    "2016-01-12T14:30:00.001Z": 0.585769613638254468144003945,
+    "2016-01-12T14:30:00.002Z": -0.449890116009177420670945446,
+    "2016-01-12T14:30:00.003Z": -0.567279930189350539762341085,
+    "2016-01-12T14:30:00.004Z": -0.046699386607593168621569528,
+    "2016-01-12T17:00:00Z": -126.37373712188941535717444071,
+    "2016-01-20T14:30:00Z": -49.95502343256836217038699285,
+    "2016-01-20T14:30:00.001Z": -3.148049066049389394068522511,
+    "2016-01-20T14:30:00.002Z": 1.125636116046607675192172307,
+    "2016-01-20T14:30:00.003Z": -0.172093147436030119855404062,
+    "2016-01-20T14:30:00.004Z": -1.5651245527229464605872836,
+    "2016-01-20T14:30:00.005Z": -2.185426135319637193069059280,
+    "2016-01-20T14:30:00.006Z": -2.590377354442050371891262605,
+    "2016-01-20T17:00:00Z": -123.35306908985028783456227568,
+    "2016-01-27T14:30:00Z": 5.43671147757016876124384585,
+    "2016-01-27T14:30:00.001Z": 1.94840121997684429030134588,
+    "2016-01-27T14:30:00.002Z": -2.03821416072760761485059284,
+    "2016-01-27T14:30:00.003Z": -1.146905877150099200018260330,
+    "2016-01-27T14:30:00.004Z": -4.627651338855325386714984460,
+    "2016-01-27T14:30:00.005Z": 0.302972352337741923862256775,
+    "2016-01-27T14:30:00.006Z": -0.502785022423041367733339790,
+    "2016-02-02T14:30:00Z": 38.45452937053020401269205731,
+    "2016-02-02T14:30:00.001Z": 44.48361493505910440693784347,
+    "2016-02-02T14:30:00.002Z": 53.93169998658006427912061716,
+    "2016-02-02T14:30:00.003Z": -4.58424088622397499759135001,
+    "2016-02-02T14:30:00.004Z": 50.07679537576467937996785730,
+    "2016-02-02T14:30:00.005Z": -11.59777027675260674701214119,
+    "2016-02-02T14:30:00.006Z": -73.74383458813399885257219170,
+    "2016-02-02T14:30:00.007Z": -37.04751397497698308867915094
+  },
+  "statistics": {
+    "Total Orders": "43",
+    "Average Win": "0.20%",
+    "Average Loss": "-0.24%",
+    "Compounding Annual Return": "-27.282%",
+    "Drawdown": "6.000%",
+    "Expectancy": "-0.359",
+    "Start Equity": "10000",
+    "End Equity": "9752.89",
+    "Net Profit": "-2.471%",
+    "Sharpe Ratio": "-1.896",
+    "Sortino Ratio": "-3.994",
+    "Probabilistic Sharpe Ratio": "15.903%",
+    "Loss Rate": "66%",
+    "Win Rate": "34%",
+    "Profit-Loss Ratio": "0.86",
+    "Alpha": "0",
+    "Beta": "0",
+    "Annual Standard Deviation": "0.107",
+    "Annual Variance": "0.011",
+    "Information Ratio": "-1.802",
+    "Tracking Error": "0.107",
+    "Treynor Ratio": "0",
+    "Total Fees": "$17.12",
+    "Estimated Strategy Capacity": "$0",
+    "Lowest Capacity Asset": "AAPL.H60Phase 2S",
+    "Portfolio Turnover": "6.03%",
+    "Drawdown Recovery": "0"
+  },
+  "runtimeStatistics": {
+    "Equity": "$9,752.89",
+    "Fees": "-$17.12",
+    "Holdings": "$0.00",
+    "Net Profit": "$-247.11",
+    "Probabilistic Sharpe Ratio": "15.903%",
+    "Return": "-2.47 %",
+    "Unrealized": "$0.00",
+    "Volume": "$17,118.67"
+  },
+  "state": {
+    "StartTime": "2026-09-11T02:40:27Z",
+    "EndTime": "2026-09-11T02:40:33Z",
+    "RuntimeError": "",
+    "StackTrace": "",
+    "LogCount": "5",
+    "OrderCount": "43",
+    "InsightCount": "0",
+    "Name": "local",
+    "Hostname": "MGOD",
+    "Status": "Completed"
+  },
+  "serverStatistics": {
+    "CPU Usage": "132.7%",
+    "Used RAM (MB)": "150",
+    "Total RAM (MB)": "2147483647",
+    "Hostname": "MGOD",
+    "LEAN Version": "v2.5.0.0",
+    "Up Time": "0d 00:00:06"
+  },
+  "algorithmConfiguration": {
+    "name": "local",
+    "tags": [],
+    "accountCurrency": "USD",
+    "brokerage": 0,
+    "accountType": 0,
+    "parameters": {
+      "h60-package-path": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\smoke_input\\package.json",
+      "h60-output-dir": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_smoke_05"
+    },
+    "outOfSampleMaxEndDate": null,
+    "outOfSampleDays": 0,
+    "startDate": "2016-01-05T00:00:00Z",
+    "endDate": "2016-02-02T23:59:59Z",
+    "tradingDaysPerYear": 252
+  },
+  "totalPerformance": {
+    "tradeStatistics": {
+      "startDateTime": "2016-01-05T14:30:00Z",
+      "endDateTime": "2016-02-02T14:30:00Z",
+      "totalNumberOfTrades": 32,
+      "numberOfWinningTrades": 11,
+      "numberOfLosingTrades": 21,
+      "totalProfitLoss": "-229.99",
+      "totalProfit": "205.36",
+      "totalLoss": "-435.35",
+      "largestProfit": "55.35",
+      "largestLoss": "-122.62",
+      "averageProfitLoss": "-7.1872",
+      "averageProfit": "18.6691",
+      "averageLoss": "-20.7310",
+      "averageTradeDuration": "15.05:33:44.9999997",
+      "averageWinningTradeDuration": "16.15:16:21.8181818",
+      "averageLosingTradeDuration": "14.11:54:17.1428569",
+      "medianTradeDuration": "15.00:00:00",
+      "medianWinningTradeDuration": "15.00:00:00",
+      "medianLosingTradeDuration": "15.00:00:00",
+      "maxConsecutiveWinningTrades": 3,
+      "maxConsecutiveLosingTrades": 7,
+      "profitLossRatio": "0.9005",
+      "winLossRatio": "0.5238",
+      "winRate": "0.3438",
+      "lossRate": "0.6562",
+      "averageMAE": "-21.3006",
+      "averageMFE": "10.2141",
+      "largestMAE": "-131.41",
+      "largestMFE": "68.24",
+      "maximumClosedTradeDrawdown": "-304.39",
+      "maximumIntraTradeDrawdown": "-370.61",
+      "profitLossStandardDeviation": "38.6202",
+      "profitLossDownsideDeviation": "38.3475",
+      "profitFactor": "0.4717",
+      "sharpeRatio": "-0.1861",
+      "sortinoRatio": "-0.1874",
+      "profitToMaxDrawdownRatio": "-0.7556",
+      "maximumEndTradeDrawdown": "144.05",
+      "averageEndTradeDrawdown": "-17.4012",
+      "maximumDrawdownDuration": "00:00:00",
+      "totalFees": "17.1187"
+    },
+    "portfolioStatistics": {
+      "averageWinRate": "0.0020",
+      "averageLossRate": "-0.0024",
+      "profitLossRatio": "0.8578",
+      "winRate": "0.3448",
+      "lossRate": "0.6552",
+      "expectancy": "-0.3594",
+      "startEquity": "10000",
+      "endEquity": "9752.8921",
+      "compoundingAnnualReturn": "-0.2728",
+      "drawdown": "0.060",
+      "totalNetProfit": "-0.0247",
+      "sharpeRatio": "-1.8961",
+      "probabilisticSharpeRatio": "0.1590",
+      "sortinoRatio": "-3.9940",
+      "alpha": "0",
+      "beta": "0",
+      "annualStandardDeviation": "0.1067",
+      "annualVariance": "0.0114",
+      "informationRatio": "-1.8024",
+      "trackingError": "0.1067",
+      "treynorRatio": "0",
+      "portfolioTurnover": "0.0603",
+      "valueAtRisk99": "-0.016",
+      "valueAtRisk95": "-0.012",
+      "drawdownRecovery": "0"
+    },
+    "closedTrades": [
+      {
+        "id": "e8e40e50-b2ba-4787-92ba-598e1980af6f",
+        "symbols": [
+          {
+            "value": "WMT",
+            "id": "WMT.H60Phase 2S",
+            "permtick": "WMT"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 17.12420873976306,
+        "direction": 0,
+        "quantity": 4.030705940402,
+        "exitTime": "2016-01-12T14:30:00Z",
+        "exitPrice": 17.77295563001269,
+        "profitLoss": 2.61,
+        "totalFees": 0.88452622834817332,
+        "mae": -0.20,
+        "mfe": 3.39,
+        "duration": "7.00:00:00",
+        "endTradeDrawdown": 1.86,
+        "isWin": true,
+        "orderIds": [
+          7,
+          9
+        ]
+      },
+      {
+        "id": "c533135f-b44a-4936-a591-3dbc86b377fc",
+        "symbols": [
+          {
+            "value": "DUK",
+            "id": "DUK.H60Phase 2S",
+            "permtick": "DUK"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 45.982591854694235,
+        "direction": 0,
+        "quantity": 1.111622697463,
+        "exitTime": "2016-01-12T14:30:00Z",
+        "exitPrice": 46.60274737932825,
+        "profitLoss": 0.69,
+        "totalFees": 0.864693342262741016,
+        "mae": -0.72,
+        "mfe": 0.69,
+        "duration": "7.00:00:00",
+        "endTradeDrawdown": 0.72,
+        "isWin": true,
+        "orderIds": [
+          8,
+          10
+        ]
+      },
+      {
+        "id": "aa002a1b-2aea-4b26-aad3-3f36907e6c43",
+        "symbols": [
+          {
+            "value": "DE",
+            "id": "DE.H60Phase 2S",
+            "permtick": "DE"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 63.95183889925367,
+        "direction": 0,
+        "quantity": 0.485705860289,
+        "exitTime": "2016-01-12T14:30:00Z",
+        "exitPrice": 63.151882239901056,
+        "profitLoss": -0.39,
+        "totalFees": 0.84356190980396256,
+        "mae": -1.12,
+        "mfe": 0.23,
+        "duration": "7.00:00:00",
+        "endTradeDrawdown": 1.35,
+        "isWin": false,
+        "orderIds": [
+          6,
+          11
+        ]
+      },
+      {
+        "id": "12bc0f5d-967d-40d8-b711-c36b7652daa2",
+        "symbols": [
+          {
+            "value": "PFE",
+            "id": "PFE.H60Phase 2S",
+            "permtick": "PFE"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 18.86332321166992,
+        "direction": 0,
+        "quantity": 1.121693933967,
+        "exitTime": "2016-01-12T14:30:00Z",
+        "exitPrice": 18.394376922281165,
+        "profitLoss": -0.53,
+        "totalFees": 0.833521531524606758,
+        "mae": -1.01,
+        "mfe": 0.00,
+        "duration": "7.00:00:00",
+        "endTradeDrawdown": 1.01,
+        "isWin": false,
+        "orderIds": [
+          2,
+          12
+        ]
+      },
+      {
+        "id": "769d1cc6-7687-4570-8df4-623bd2d70605",
+        "symbols": [
+          {
+            "value": "AAPL",
+            "id": "AAPL.H60Phase 2S",
+            "permtick": "AAPL"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 23.77862381387278,
+        "direction": 0,
+        "quantity": 0.038452103562,
+        "exitTime": "2016-01-12T14:30:00Z",
+        "exitPrice": 22.609360561798336,
+        "profitLoss": -0.04,
+        "totalFees": 0.8137580479855684683,
+        "mae": -0.08,
+        "mfe": 0.0,
+        "duration": "7.00:00:00",
+        "endTradeDrawdown": 0.08,
+        "isWin": false,
+        "orderIds": [
+          1,
+          13
+        ]
+      },
+      {
+        "id": "a8e3a97e-f4a1-4bf6-bf79-90bfc7f21524",
+        "symbols": [
+          {
+            "value": "COP",
+            "id": "COP.H60Phase 2S",
+            "permtick": "COP"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 33.59713389499459,
+        "direction": 0,
+        "quantity": 24.195179060583,
+        "exitTime": "2016-01-12T17:00:00Z",
+        "exitPrice": 28.529006246934657,
+        "profitLoss": -122.62,
+        "totalFees": 1.5436293333348701,
+        "mae": -131.33,
+        "mfe": 12.72,
+        "duration": "7.02:30:00",
+        "endTradeDrawdown": 144.05,
+        "isWin": false,
+        "orderIds": [
+          4,
+          17
+        ]
+      },
+      {
+        "id": "69909495-f450-4356-8b8b-512714af6da4",
+        "symbols": [
+          {
+            "value": "COP",
+            "id": "COP.H60Phase 2S",
+            "permtick": "COP"
+          }
+        ],
+        "entryTime": "2016-01-12T14:30:00Z",
+        "entryPrice": 30.141664653031665,
+        "direction": 0,
+        "quantity": 1.418775260087,
+        "exitTime": "2016-01-12T17:00:00Z",
+        "exitPrice": 28.529006246934657,
+        "profitLoss": -2.29,
+        "totalFees": 0.04276424810756014,
+        "mae": -2.80,
+        "mfe": 5.65,
+        "duration": "02:30:00",
+        "endTradeDrawdown": 2.80,
+        "isWin": false,
+        "orderIds": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": "297fe5c3-33b5-4d92-9826-3f9de7ab27bc",
+        "symbols": [
+          {
+            "value": "PFE",
+            "id": "PFE.H60Phase 2S",
+            "permtick": "PFE"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 18.86332321166992,
+        "direction": 0,
+        "quantity": 41.971914832111,
+        "exitTime": "2016-01-20T14:30:00Z",
+        "exitPrice": 17.708539089059606,
+        "profitLoss": -48.47,
+        "totalFees": 0.7432612944471182,
+        "mae": -48.71,
+        "mfe": 0.00,
+        "duration": "15.00:00:00",
+        "endTradeDrawdown": 48.71,
+        "isWin": false,
+        "orderIds": [
+          2,
+          18
+        ]
+      },
+      {
+        "id": "8bdb9532-fe0b-4eef-aca2-ec69fd3e51aa",
+        "symbols": [
+          {
+            "value": "UNH",
+            "id": "UNH.H60Phase 2S",
+            "permtick": "UNH"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 98.1122218971976,
+        "direction": 0,
+        "quantity": 0.776069759617,
+        "exitTime": "2016-01-20T14:30:00Z",
+        "exitPrice": 94.2203577763188,
+        "profitLoss": -3.02,
+        "totalFees": 0.88601024092223927,
+        "mae": -6.01,
+        "mfe": 0.0,
+        "duration": "15.00:00:00",
+        "endTradeDrawdown": 6.01,
+        "isWin": false,
+        "orderIds": [
+          3,
+          19
+        ]
+      },
+      {
+        "id": "be8e78a6-8509-4056-aed1-3aaacaa69f7f",
+        "symbols": [
+          {
+            "value": "DUK",
+            "id": "DUK.H60Phase 2S",
+            "permtick": "DUK"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 45.982591854694235,
+        "direction": 0,
+        "quantity": 1.399745587767,
+        "exitTime": "2016-01-20T14:30:00Z",
+        "exitPrice": 46.880524838101856,
+        "profitLoss": 1.26,
+        "totalFees": 0.06562080779433432,
+        "mae": -0.90,
+        "mfe": 1.79,
+        "duration": "15.00:00:00",
+        "endTradeDrawdown": 1.39,
+        "isWin": true,
+        "orderIds": [
+          8,
+          20
+        ]
+      },
+      {
+        "id": "222ef8a0-bc0f-410b-918e-71378d6b07ca",
+        "symbols": [
+          {
+            "value": "WMT",
+            "id": "WMT.H60Phase 2S",
+            "permtick": "WMT"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 17.12420873976306,
+        "direction": 0,
+        "quantity": 1.763113476717,
+        "exitTime": "2016-01-20T14:30:00Z",
+        "exitPrice": 17.060722657423774,
+        "profitLoss": -0.11,
+        "totalFees": 0.030079990039834924,
+        "mae": -0.37,
+        "mfe": 1.48,
+        "duration": "15.00:00:00",
+        "endTradeDrawdown": 1.86,
+        "isWin": false,
+        "orderIds": [
+          7,
+          21
+        ]
+      },
+      {
+        "id": "022a446d-0a01-4cb1-9fc4-2b9551054e86",
+        "symbols": [
+          {
+            "value": "DE",
+            "id": "DE.H60Phase 2S",
+            "permtick": "DE"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 63.95183889925367,
+        "direction": 0,
+        "quantity": 0.39357463596,
+        "exitTime": "2016-01-20T14:30:00Z",
+        "exitPrice": 60.09533898356676,
+        "profitLoss": -1.52,
+        "totalFees": 0.023652001163350082,
+        "mae": -1.52,
+        "mfe": 0.19,
+        "duration": "15.00:00:00",
+        "endTradeDrawdown": 1.71,
+        "isWin": false,
+        "orderIds": [
+          6,
+          22
+        ]
+      },
+      {
+        "id": "9d9347d8-920b-4e3c-8f77-927b81e4308f",
+        "symbols": [
+          {
+            "value": "AAPL",
+            "id": "AAPL.H60Phase 2S",
+            "permtick": "AAPL"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 23.77862381387278,
+        "direction": 0,
+        "quantity": 0.896583174736,
+        "exitTime": "2016-01-20T14:30:00Z",
+        "exitPrice": 21.383886403780675,
+        "profitLoss": -2.15,
+        "totalFees": 0.019172432760095663,
+        "mae": -2.15,
+        "mfe": 0.0,
+        "duration": "15.00:00:00",
+        "endTradeDrawdown": 2.15,
+        "isWin": false,
+        "orderIds": [
+          1,
+          23
+        ]
+      },
+      {
+        "id": "f32bba17-db2d-4f76-9f0d-83575d1677d5",
+        "symbols": [
+          {
+            "value": "CAT",
+            "id": "CAT.H60Phase 2S",
+            "permtick": "CAT"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 53.19521667433053,
+        "direction": 0,
+        "quantity": 0.351937235934,
+        "exitTime": "2016-01-20T14:30:00Z",
+        "exitPrice": 45.748178597565726,
+        "profitLoss": -2.62,
+        "totalFees": 0.828989158036421957,
+        "mae": -2.62,
+        "mfe": 0.0,
+        "duration": "15.00:00:00",
+        "endTradeDrawdown": 2.62,
+        "isWin": false,
+        "orderIds": [
+          5,
+          24
+        ]
+      },
+      {
+        "id": "0efd4ae0-5bc6-46c5-a7a9-02c0e5793097",
+        "symbols": [
+          {
+            "value": "CAT",
+            "id": "CAT.H60Phase 2S",
+            "permtick": "CAT"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 53.19521667433053,
+        "direction": 0,
+        "quantity": 14.929298960328,
+        "exitTime": "2016-01-20T17:00:00Z",
+        "exitPrice": 45.17071823900777,
+        "profitLoss": -119.80,
+        "totalFees": 0.702053215169025,
+        "mae": -131.41,
+        "mfe": 0.0,
+        "duration": "15.02:30:00",
+        "endTradeDrawdown": 131.41,
+        "isWin": false,
+        "orderIds": [
+          5,
+          27
+        ]
+      },
+      {
+        "id": "00817340-9a47-46dd-9858-c0f40a95fdac",
+        "symbols": [
+          {
+            "value": "CAT",
+            "id": "CAT.H60Phase 2S",
+            "permtick": "CAT"
+          }
+        ],
+        "entryTime": "2016-01-12T14:30:00Z",
+        "entryPrice": 48.57428030151633,
+        "direction": 0,
+        "quantity": 0.612920480468,
+        "exitTime": "2016-01-20T17:00:00Z",
+        "exitPrice": 45.17071823900777,
+        "profitLoss": -2.09,
+        "totalFees": 0.029772171220792697,
+        "mae": -2.56,
+        "mfe": 2.83,
+        "duration": "8.02:30:00",
+        "endTradeDrawdown": 2.56,
+        "isWin": false,
+        "orderIds": [
+          15,
+          27
+        ]
+      },
+      {
+        "id": "dac719be-d260-4510-b345-642c78da18b2",
+        "symbols": [
+          {
+            "value": "NVDA",
+            "id": "NVDA.H60Phase 2S",
+            "permtick": "NVDA"
+          }
+        ],
+        "entryTime": "2016-01-20T14:30:00Z",
+        "entryPrice": 0.6531685470558037,
+        "direction": 0,
+        "quantity": 124.482543248061,
+        "exitTime": "2016-01-27T14:30:00Z",
+        "exitPrice": 0.6982395151808832,
+        "profitLoss": 5.61,
+        "totalFees": 0.79794686142609315,
+        "mae": -1.09,
+        "mfe": 5.73,
+        "duration": "7.00:00:00",
+        "endTradeDrawdown": 1.73,
+        "isWin": true,
+        "orderIds": [
+          25,
+          28
+        ]
+      },
+      {
+        "id": "af27df61-7502-4e71-9c8f-ddcbfbb4540a",
+        "symbols": [
+          {
+            "value": "WMT",
+            "id": "WMT.H60Phase 2S",
+            "permtick": "WMT"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 17.12420873976306,
+        "direction": 0,
+        "quantity": 3.634631853598,
+        "exitTime": "2016-01-27T14:30:00Z",
+        "exitPrice": 17.69566570269812,
+        "profitLoss": 2.08,
+        "totalFees": 0.06431723023364821,
+        "mae": -1.84,
+        "mfe": 3.06,
+        "duration": "22.00:00:00",
+        "endTradeDrawdown": 4.90,
+        "isWin": true,
+        "orderIds": [
+          7,
+          29
+        ]
+      },
+      {
+        "id": "77f19848-e89a-4152-ab1b-20c95dbc0e59",
+        "symbols": [
+          {
+            "value": "DE",
+            "id": "DE.H60Phase 2S",
+            "permtick": "DE"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 63.95183889925367,
+        "direction": 0,
+        "quantity": 0.969319428927,
+        "exitTime": "2016-01-27T14:30:00Z",
+        "exitPrice": 61.97305798851275,
+        "profitLoss": -1.92,
+        "totalFees": 0.06007168917828504,
+        "mae": -4.73,
+        "mfe": 0.47,
+        "duration": "22.00:00:00",
+        "endTradeDrawdown": 5.19,
+        "isWin": false,
+        "orderIds": [
+          6,
+          30
+        ]
+      },
+      {
+        "id": "acd55db2-f045-4537-a560-b60f70073453",
+        "symbols": [
+          {
+            "value": "UNH",
+            "id": "UNH.H60Phase 2S",
+            "permtick": "UNH"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 98.1122218971976,
+        "direction": 0,
+        "quantity": 0.547876005358,
+        "exitTime": "2016-01-27T14:30:00Z",
+        "exitPrice": 96.1873237151357,
+        "profitLoss": -1.05,
+        "totalFees": 0.05269872668312536,
+        "mae": -4.24,
+        "mfe": 0.0,
+        "duration": "22.00:00:00",
+        "endTradeDrawdown": 4.24,
+        "isWin": false,
+        "orderIds": [
+          3,
+          31
+        ]
+      },
+      {
+        "id": "9d3f7d3b-f547-4598-88d9-4edbb99a40c7",
+        "symbols": [
+          {
+            "value": "AAPL",
+            "id": "AAPL.H60Phase 2S",
+            "permtick": "AAPL"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 23.77862381387278,
+        "direction": 0,
+        "quantity": 2.078387550236,
+        "exitTime": "2016-01-27T14:30:00Z",
+        "exitPrice": 21.595255886952295,
+        "profitLoss": -4.54,
+        "totalFees": 0.044883310979602346,
+        "mae": -5.76,
+        "mfe": 0.0,
+        "duration": "22.00:00:00",
+        "endTradeDrawdown": 5.76,
+        "isWin": false,
+        "orderIds": [
+          1,
+          32
+        ]
+      },
+      {
+        "id": "a88ae463-6209-4e77-9423-ffbf87ad38a6",
+        "symbols": [
+          {
+            "value": "DUK",
+            "id": "DUK.H60Phase 2S",
+            "permtick": "DUK"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 45.982591854694235,
+        "direction": 0,
+        "quantity": 0.693802389433,
+        "exitTime": "2016-01-27T14:30:00Z",
+        "exitPrice": 46.51230038297641,
+        "profitLoss": 0.37,
+        "totalFees": 0.032270345143734475,
+        "mae": -0.45,
+        "mfe": 0.89,
+        "duration": "22.00:00:00",
+        "endTradeDrawdown": 1.26,
+        "isWin": true,
+        "orderIds": [
+          8,
+          33
+        ]
+      },
+      {
+        "id": "475c1c99-19ef-4f09-a0b0-f88cbb40b315",
+        "symbols": [
+          {
+            "value": "COP",
+            "id": "COP.H60Phase 2S",
+            "permtick": "COP"
+          }
+        ],
+        "entryTime": "2016-01-20T14:30:00Z",
+        "entryPrice": 25.584790467610414,
+        "direction": 0,
+        "quantity": 1.012437160935,
+        "exitTime": "2016-01-27T14:30:00Z",
+        "exitPrice": 25.13845876405758,
+        "profitLoss": -0.45,
+        "totalFees": 0.73647934060144563,
+        "mae": -2.06,
+        "mfe": 1.95,
+        "duration": "7.00:00:00",
+        "endTradeDrawdown": 3.48,
+        "isWin": false,
+        "orderIds": [
+          26,
+          34
+        ]
+      },
+      {
+        "id": "859685ed-e43c-46ef-b3a4-76b3f1d1c532",
+        "symbols": [
+          {
+            "value": "COP",
+            "id": "COP.H60Phase 2S",
+            "permtick": "COP"
+          }
+        ],
+        "entryTime": "2016-01-20T14:30:00Z",
+        "entryPrice": 25.584790467610414,
+        "direction": 0,
+        "quantity": 26.778614389017,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 27.074956778876256,
+        "profitLoss": 39.90,
+        "totalFees": 0.7250298271808291,
+        "mae": -54.56,
+        "mfe": 68.24,
+        "duration": "13.00:00:00",
+        "endTradeDrawdown": 91.95,
+        "isWin": true,
+        "orderIds": [
+          26,
+          36
+        ]
+      },
+      {
+        "id": "9fc9f249-9eac-42a7-a8a5-9dc02b337af2",
+        "symbols": [
+          {
+            "value": "DUK",
+            "id": "DUK.H60Phase 2S",
+            "permtick": "DUK"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 45.982591854694235,
+        "direction": 0,
+        "quantity": 14.473012257706,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 49.15445685631623,
+        "profitLoss": 45.91,
+        "totalFees": 0.7114130566023454,
+        "mae": -9.35,
+        "mfe": 54.41,
+        "duration": "28.00:00:00",
+        "endTradeDrawdown": 26.27,
+        "isWin": true,
+        "orderIds": [
+          8,
+          37
+        ]
+      },
+      {
+        "id": "3b37c0e8-88f0-472c-8e7a-14ea2c82f93a",
+        "symbols": [
+          {
+            "value": "WMT",
+            "id": "WMT.H60Phase 2S",
+            "permtick": "WMT"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 17.12420873976306,
+        "direction": 0,
+        "quantity": 38.041693648985,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 18.579066633830383,
+        "profitLoss": 55.35,
+        "totalFees": 0.7067791611682545,
+        "mae": -19.22,
+        "mfe": 57.45,
+        "duration": "28.00:00:00",
+        "endTradeDrawdown": 51.25,
+        "isWin": true,
+        "orderIds": [
+          7,
+          38
+        ]
+      },
+      {
+        "id": "6db2c1d3-d68f-4b70-ba9b-9425dbdcb95d",
+        "symbols": [
+          {
+            "value": "DE",
+            "id": "DE.H60Phase 2S",
+            "permtick": "DE"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 63.95183889925367,
+        "direction": 0,
+        "quantity": 10.862350760579,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 63.65712286929348,
+        "profitLoss": -3.20,
+        "totalFees": 0.6914659970155409,
+        "mae": -52.96,
+        "mfe": 9.69,
+        "duration": "28.00:00:00",
+        "endTradeDrawdown": 58.17,
+        "isWin": false,
+        "orderIds": [
+          6,
+          39
+        ]
+      },
+      {
+        "id": "e720139d-7056-4da7-9a5d-b043f72e2c9b",
+        "symbols": [
+          {
+            "value": "NVDA",
+            "id": "NVDA.H60Phase 2S",
+            "permtick": "NVDA"
+          }
+        ],
+        "entryTime": "2016-01-20T14:30:00Z",
+        "entryPrice": 0.6531685470558037,
+        "direction": 0,
+        "quantity": 964.100539916439,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 0.7065230591337365,
+        "profitLoss": 51.44,
+        "totalFees": 0.6811592627742494,
+        "mae": -8.46,
+        "mfe": 58.49,
+        "duration": "13.00:00:00",
+        "endTradeDrawdown": 28.19,
+        "isWin": true,
+        "orderIds": [
+          25,
+          40
+        ]
+      },
+      {
+        "id": "1f0602b9-3b0e-436b-b391-dfed45ff4a7e",
+        "symbols": [
+          {
+            "value": "UNH",
+            "id": "UNH.H60Phase 2S",
+            "permtick": "UNH"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 98.1122218971976,
+        "direction": 0,
+        "quantity": 6.961348918938,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 96.62440107007195,
+        "profitLoss": -10.36,
+        "totalFees": 0.6762320072028525,
+        "mae": -53.89,
+        "mfe": 0.0,
+        "duration": "28.00:00:00",
+        "endTradeDrawdown": 53.89,
+        "isWin": false,
+        "orderIds": [
+          3,
+          41
+        ]
+      },
+      {
+        "id": "0685f79d-58a9-414e-854d-64ccde2d33db",
+        "symbols": [
+          {
+            "value": "UNH",
+            "id": "UNH.H60Phase 2S",
+            "permtick": "UNH"
+          }
+        ],
+        "entryTime": "2016-01-12T14:30:00Z",
+        "entryPrice": 92.76615938210335,
+        "direction": 0,
+        "quantity": 0.037214587939,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 96.62440107007195,
+        "profitLoss": 0.14,
+        "totalFees": 0.0034522543960885757,
+        "mae": -0.09,
+        "mfe": 0.20,
+        "duration": "21.00:00:00",
+        "endTradeDrawdown": 0.15,
+        "isWin": true,
+        "orderIds": [
+          14,
+          41
+        ]
+      },
+      {
+        "id": "0987b365-d5cf-4478-b9e9-9d15efa71a66",
+        "symbols": [
+          {
+            "value": "AAPL",
+            "id": "AAPL.H60Phase 2S",
+            "permtick": "AAPL"
+          }
+        ],
+        "entryTime": "2016-01-05T14:30:00Z",
+        "entryPrice": 23.77862381387278,
+        "direction": 0,
+        "quantity": 31.172267515645,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 21.45584829984132,
+        "profitLoss": -72.41,
+        "totalFees": 0.6688274429777507,
+        "mae": -93.64,
+        "mfe": 0.0,
+        "duration": "28.00:00:00",
+        "endTradeDrawdown": 93.64,
+        "isWin": false,
+        "orderIds": [
+          1,
+          42
+        ]
+      },
+      {
+        "id": "115eeb6b-c245-4a6e-8f17-6b9cf8df3af7",
+        "symbols": [
+          {
+            "value": "AMZN",
+            "id": "AMZN.H60Phase 2S",
+            "permtick": "AMZN"
+          }
+        ],
+        "entryTime": "2016-01-27T14:30:00Z",
+        "entryPrice": 30.09950065612793,
+        "direction": 0,
+        "quantity": 22.364925626758,
+        "exitTime": "2016-02-02T14:30:00Z",
+        "exitPrice": 28.5,
+        "profitLoss": -35.77,
+        "totalFees": 1.3105734739394578,
+        "mae": -35.77,
+        "mfe": 37.30,
+        "duration": "6.00:00:00",
+        "endTradeDrawdown": 73.08,
+        "isWin": false,
+        "orderIds": [
+          35,
+          43
+        ]
+      }
+    ]
+  },
+  "analysis": [
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -1.3510259146851809,
+        "benchmarkSharpe": -0.7981800384060849
+      },
+      "solutions": [
+        "Try adjusting the trading rules and/or the universe to get a strategy that outperforms the benchmark."
+      ]
+    },
+    {
+      "name": "StatisticalSignificanceOfDailyReturnsAnalysis",
+      "issue": "The distribution of the strategy's daily returns in excess of the benchmark's daily returns has a p-value above 0.05. Therefore, we fail to reject the null hypothesis that the mean of this distribution is above zero.",
+      "sample": {
+        "pValue": 0.28329600681753997
+      },
+      "solutions": [
+        "Try adjusting the trading rules and/or the universe to get a strategy that outperforms the benchmark."
+      ]
+    }
+  ]
+}

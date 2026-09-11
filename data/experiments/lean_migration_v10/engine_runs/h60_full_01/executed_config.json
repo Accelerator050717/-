@@ -1,0 +1,43 @@
+{
+  "environment": "backtesting",
+  "live-mode": false,
+  "algorithm-type-name": "H60MigrationAlgorithm",
+  "algorithm-language": "Python",
+  "algorithm-location": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01\\code\\main.py",
+  "data-folder": "M:\\quantconnect-lean-runtime\\Lean\\Data",
+  "results-destination-folder": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01",
+  "object-store-root": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01\\storage",
+  "close-automatically": true,
+  "debugging": false,
+  "log-handler": "QuantConnect.Logging.CompositeLogHandler",
+  "messaging-handler": "QuantConnect.Messaging.Messaging",
+  "job-queue-handler": "QuantConnect.Queues.JobQueue",
+  "api-handler": "QuantConnect.Api.Api",
+  "map-file-provider": "QuantConnect.Data.Auxiliary.LocalDiskMapFileProvider",
+  "factor-file-provider": "QuantConnect.Data.Auxiliary.LocalDiskFactorFileProvider",
+  "data-provider": "QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider",
+  "data-channel-provider": "DataChannelProvider",
+  "object-store": "QuantConnect.Lean.Engine.Storage.LocalObjectStore",
+  "data-aggregator": "QuantConnect.Lean.Engine.DataFeeds.AggregationManager",
+  "setup-handler": "QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler",
+  "result-handler": "QuantConnect.Lean.Engine.Results.BacktestingResultHandler",
+  "data-feed-handler": "QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed",
+  "data-feed-workers-count": 1,
+  "real-time-handler": "QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler",
+  "history-provider": [
+    "QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider"
+  ],
+  "transaction-handler": "QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler",
+  "show-missing-data-logs": true,
+  "job-user-id": "0",
+  "api-access-token": "",
+  "job-organization-id": "",
+  "python-venv": "M:\\ml项目\\.venv",
+  "python-additional-paths": [
+    "M:\\quantconnect-lean-runtime\\Lean\\Launcher\\bin\\Release"
+  ],
+  "parameters": {
+    "h60-package-path": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\input\\package.json",
+    "h60-output-dir": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01"
+  }
+}

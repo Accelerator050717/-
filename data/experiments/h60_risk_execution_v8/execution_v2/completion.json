@@ -1,0 +1,23 @@
+{
+  "completed_at_utc": "2026-09-09T08:42:40.325735+00:00",
+  "mode": "synthetic_quote_engineering_replay",
+  "real_historical_H60_signal": true,
+  "all_execution_quotes_and_fills_fictitious": true,
+  "new_decisions": 4,
+  "new_fills": 26,
+  "total_fills": 26,
+  "total_order_intents": 57,
+  "restart_reconciliations": 16,
+  "start": "2025-01-06",
+  "end": "2025-01-29",
+  "new_fits": 0,
+  "real_paper_orders": 0,
+  "real_paper_fills": 0,
+  "forward_performance_observations": 0,
+  "prices_2026_accessed": false,
+  "unrelated_position_untouched": true,
+  "protective_quantities_equal_actual_holdings": true,
+  "model_sha256": "2c19480278678e72fb9303e4f615737abccfa2c7dac883893af36390c2365ece",
+  "strategy_manifest_sha256": "dca200e86f1fc993a383c2a356f6dfc408defacefe26b21cc8ee74d53798edbc",
+  "no_performance_claim": "Synthetic fills do not provide valid strategy returns"
+}

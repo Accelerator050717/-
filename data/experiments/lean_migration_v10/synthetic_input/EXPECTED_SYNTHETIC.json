@@ -1,0 +1,39 @@
+{
+  "fictional_test_data": true,
+  "actual_lean_engine": false,
+  "phase_records_per_symbol": 180,
+  "securities": 8,
+  "source": "Python unit-test fixture ledger; compare engine output independently",
+  "events": [
+    {
+      "Date": "2019-03-29",
+      "event": "portfolio_halt",
+      "equity": 5987.214228617106,
+      "episode_drawdown": -0.4012785771382894
+    },
+    {
+      "Date": "2019-05-02",
+      "event": "portfolio_resume",
+      "equity": 5987.214228617106
+    }
+  ],
+  "expected_halt_date": "2019-03-29",
+  "expected_resume_date": "2019-05-02",
+  "expected_recovery_gross": 0.4,
+  "expected_restored_gross": 0.8,
+  "expected_final_quantities": {
+    "SIM_0": 0.0,
+    "SIM_1": 0.0,
+    "SIM_2": 0.0,
+    "SIM_3": 0.0,
+    "SIM_4": 0.0,
+    "SIM_5": 0.0,
+    "SIM_6": 0.0,
+    "SIM_7": 0.0
+  },
+  "expected_final_cash": 5977.64234335952,
+  "expected_fees": 21.55829612888426,
+  "real_market_data": false,
+  "new_fits": 0,
+  "models_reused": 0
+}

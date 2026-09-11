@@ -1,0 +1,10 @@
+{
+  "observation": "2025-01-03",
+  "rows": 30,
+  "new_fits": 0,
+  "model_sha256": "2c19480278678e72fb9303e4f615737abccfa2c7dac883893af36390c2365ece",
+  "max_abs_difference": 9.540979117872439e-18,
+  "features_only": true,
+  "scoring_year": 2025,
+  "forward_2026_performance": false
+}

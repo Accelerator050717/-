@@ -1,0 +1,44 @@
+{
+  "started_at_utc": "2026-09-11T02:43:52.980106+00:00",
+  "completed_at_utc": "2026-09-11T02:44:54.043572+00:00",
+  "command": [
+    "dotnet",
+    "M:\\quantconnect-lean-runtime\\Lean\\Launcher\\bin\\Release\\QuantConnect.Lean.Launcher.dll",
+    "--config",
+    "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01\\executed_config.json"
+  ],
+  "working_directory": "M:\\quantconnect-lean-runtime\\Lean\\Launcher\\bin\\Release",
+  "source_commit": "8ee075a39918f2df6fe9e0a5944e366fb60d10dc",
+  "source_git_status": "M Common/Python/PythonInitializer.cs",
+  "source_patch_sha256": "805efbace7c74ff3a93ff3c4f4e039af9c37a800dc20ca9df60eeba70d793c36",
+  "python_initializer_sha256": "0ea5326c8c114e202d8a0be9de5e1e60af35c7fc3e046e4a6470210958e73909",
+  "launcher_sha256": "87b30790f53cafb866720dcdcf723b753781a73b4de64d5423bc04941c1fbc91",
+  "engine_dll_sha256": {
+    "QuantConnect.Lean.Launcher.dll": "87b30790f53cafb866720dcdcf723b753781a73b4de64d5423bc04941c1fbc91",
+    "QuantConnect.Lean.Engine.dll": "105b861b7218ef9590948ae001669a3ab87f9357495676f8b124ec3e7d50943f",
+    "QuantConnect.Algorithm.dll": "723f34d35a57e5ecb7f66bab4f8b8475ea1fe746efb13de40a34a7da6e77b28d",
+    "QuantConnect.Common.dll": "c029524656f261d30e4d5d7e1b24826ac3e49dc61770775bfe6d7f664c0bd551",
+    "QuantConnect.AlgorithmFactory.dll": "505d2a1722daa4810a5004a782c6047b1e163db2659bbf8aeaa5bfa77aac8e32",
+    "Python.Runtime.dll": "ab62dc16df115d76bdb00bf8a02a5b27b35efdce57c69e9b268bf43c8e86b4a0"
+  },
+  "algorithm_snapshots": {
+    "M:\\ml项目\\lean_migration\\decision.py": {
+      "snapshot": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01\\code\\decision.py",
+      "sha256": "a8ff5ba323623e4b319b1383f0995908592ad84ef19cc1305c246d3f6a42c489"
+    },
+    "M:\\ml项目\\lean_migration\\main.py": {
+      "snapshot": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01\\code\\main.py",
+      "sha256": "998a28923afbc01a17c61d1dbc7c502b4af4e3c0bf7ec05141d04bc8775a095a"
+    }
+  },
+  "original_config_sha256": "16253d6b3beda50e570a0c01b93b98161857dc868dca46b193d2fdcf50273448",
+  "config_sha256": "5f8ffeeedd7bdf20c17c3c89c813b1b75d167da199c717791211cce3a55104c8",
+  "python_executable": "M:\\ml项目\\.venv\\Scripts\\python.exe",
+  "python_dll": "C:\\Users\\yumin\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll",
+  "log_path": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\runtime\\h60_full_01.log",
+  "log_sha256": "367e2b5a897739cbdc4d70ea7ddf8e44f23c0a7607761e5e772c9d018e4e6506",
+  "process_exit_code": 0,
+  "algorithm_completion_check": true,
+  "validated_exit_code": 0,
+  "evidence_scope": "Actual local LEAN engine process; algorithm results require separate inspection"
+}

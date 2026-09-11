@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "aac3f809bfe789a2907fb3c2ef4f529d493052cf2ed54e609d57d99feaa56a1d",
+  "files": [
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_phase4/daily.csv",
+      "size_bytes": 667538,
+      "sha256": "12bf0d4c60b4c4bf4e36e36187b91d9d15d13396d247391ac3291a6233627c6e"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_phase4/trades.csv",
+      "size_bytes": 883050,
+      "sha256": "06c9c71fd13ab7e2874d8d122ecf508b134b617382f301ee2700cbb149e9f915"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_phase4/positions.csv",
+      "size_bytes": 674888,
+      "sha256": "ad9b3d166a707ac623be7e16ffa403f1196868f1b64905d23dcfbbb495b5fa47"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_phase4/targets.csv",
+      "size_bytes": 151464,
+      "sha256": "934bb339d6129107fa1324104fc1cc22b99f8babf820d25f1d42f429badfd9b6"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_phase4/events.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_phase4/metrics.json",
+      "size_bytes": 1016,
+      "sha256": "75b729aed2fb103dd41222f8b71c429164c31b3b89abdae071ab558bba05f9fb"
+    }
+  ]
+}

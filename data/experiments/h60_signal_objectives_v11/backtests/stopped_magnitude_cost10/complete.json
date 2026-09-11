@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "aac3f809bfe789a2907fb3c2ef4f529d493052cf2ed54e609d57d99feaa56a1d",
+  "files": [
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_cost10/daily.csv",
+      "size_bytes": 667047,
+      "sha256": "f3e8c13281d703231d25e5f01104c8e18ac48239a4d7bf636228b79f0cdeb3fd"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_cost10/trades.csv",
+      "size_bytes": 869645,
+      "sha256": "33f3675d5b440ba70d172567f96303d730e284e2e26ed2b9b09c92e7e3e55983"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_cost10/positions.csv",
+      "size_bytes": 675525,
+      "sha256": "00ebe166e94a79ae2abbbb34eee4a74172b5ee43af5074f2b18bad975ea1cf2f"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_cost10/targets.csv",
+      "size_bytes": 149065,
+      "sha256": "824e67cd59bbf0614b18627af71622a6e89174839bf72af98ca47fb0d5e66d4d"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_cost10/events.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "data/experiments/h60_signal_objectives_v11/backtests/stopped_magnitude_cost10/metrics.json",
+      "size_bytes": 1016,
+      "sha256": "501e020180d62b838857b1a4da118ee670dc38cefd608a7e9e9c09f887ab6a1b"
+    }
+  ]
+}

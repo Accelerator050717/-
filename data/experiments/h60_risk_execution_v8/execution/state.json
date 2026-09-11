@@ -1,0 +1,5529 @@
+{
+  "version": 340,
+  "spec": {
+    "config": {
+      "strategy_id": "h60-v8-engineering",
+      "mode": "virtual",
+      "budget": "10000",
+      "quantity_step": "1",
+      "fee_reserve_rate": ".002",
+      "max_quote_age_seconds": 30,
+      "paper_budget_isolated": false,
+      "paper_identity_confirmed": false
+    },
+    "strategy_manifest_hash": "b273cf6105a5f9e72857a9b0d8b21415f97e7accd9702041bf978bfc0f8e1baf",
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "META",
+      "JPM",
+      "BAC",
+      "GS",
+      "V",
+      "JNJ",
+      "PFE",
+      "MRK",
+      "UNH",
+      "XOM",
+      "CVX",
+      "COP",
+      "CAT",
+      "HON",
+      "DE",
+      "PG",
+      "KO",
+      "PEP",
+      "WMT",
+      "COST",
+      "HD",
+      "MCD",
+      "NEE",
+      "DUK",
+      "SO"
+    ]
+  },
+  "orders": {
+    "H60V8-e4563-aabb5b233574656683": {
+      "state": {
+        "intent_key": "H60V8-e4563-aabb5b233574656683",
+        "symbol": "HD",
+        "side": "BUY",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-aabb5b233574656683",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "6",
+        "executions": {
+          "SIM-ac97e887a7d3c7acfd5d": {
+            "reference": "virtual:H60V8-e4563-aabb5b233574656683",
+            "quantity": "6",
+            "price": "154.82"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "154.82",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-302111b0383e119fd0": {
+      "state": {
+        "intent_key": "H60V8-e4563-302111b0383e119fd0",
+        "symbol": "NEE",
+        "side": "BUY",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-302111b0383e119fd0",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "6",
+        "executions": {
+          "SIM-0de78291c4646a224791": {
+            "reference": "virtual:H60V8-e4563-302111b0383e119fd0",
+            "quantity": "6",
+            "price": "162.45"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "162.45",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-0b1e3721bb47880228": {
+      "state": {
+        "intent_key": "H60V8-e4563-0b1e3721bb47880228",
+        "symbol": "CAT",
+        "side": "BUY",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-0b1e3721bb47880228",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "7",
+        "executions": {
+          "SIM-c1516d0fae7c58718d1e": {
+            "reference": "virtual:H60V8-e4563-0b1e3721bb47880228",
+            "quantity": "7",
+            "price": "129.58"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "129.58",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-dd94bab7f432769829": {
+      "state": {
+        "intent_key": "H60V8-e4563-dd94bab7f432769829",
+        "symbol": "COP",
+        "side": "BUY",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-dd94bab7f432769829",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "7",
+        "executions": {
+          "SIM-38b248927642304086ad": {
+            "reference": "virtual:H60V8-e4563-dd94bab7f432769829",
+            "quantity": "7",
+            "price": "127.59"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "127.59",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-59f2429a00c3faa9e1": {
+      "state": {
+        "intent_key": "H60V8-e4563-59f2429a00c3faa9e1",
+        "symbol": "DE",
+        "side": "BUY",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-59f2429a00c3faa9e1",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "7",
+        "executions": {
+          "SIM-e056aa7bf7c71c8d829f": {
+            "reference": "virtual:H60V8-e4563-59f2429a00c3faa9e1",
+            "quantity": "7",
+            "price": "137.24"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "137.24",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-9084e384c0c9dda2bf": {
+      "state": {
+        "intent_key": "H60V8-e4563-9084e384c0c9dda2bf",
+        "symbol": "PFE",
+        "side": "BUY",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-9084e384c0c9dda2bf",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "8",
+        "executions": {
+          "SIM-c31c1e24bf7022b8a20b": {
+            "reference": "virtual:H60V8-e4563-9084e384c0c9dda2bf",
+            "quantity": "8",
+            "price": "111.52"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "111.52",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-a1d6f33f862781e05a": {
+      "state": {
+        "intent_key": "H60V8-e4563-a1d6f33f862781e05a",
+        "symbol": "UNH",
+        "side": "BUY",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-a1d6f33f862781e05a",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "8",
+        "executions": {
+          "SIM-062d6a3e957952afded9": {
+            "reference": "virtual:H60V8-e4563-a1d6f33f862781e05a",
+            "quantity": "8",
+            "price": "119.65"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "119.65",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-33e0a213ddab907bad": {
+      "state": {
+        "intent_key": "H60V8-e4563-33e0a213ddab907bad",
+        "symbol": "GS",
+        "side": "BUY",
+        "quantity": "9",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-33e0a213ddab907bad",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "9",
+        "executions": {
+          "SIM-89177aa77ad65596a076": {
+            "reference": "virtual:H60V8-e4563-33e0a213ddab907bad",
+            "quantity": "9",
+            "price": "105.5"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "kind": "LMT",
+      "limit_price": "105.5",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-3137a00aa5b917c6bc": {
+      "state": {
+        "intent_key": "H60V8-e4563-3137a00aa5b917c6bc",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "9",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-3137a00aa5b917c6bc",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "105.48",
+      "stop_price": "89.675",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-a86b78ca40d8a743eb": {
+      "state": {
+        "intent_key": "H60V8-e4563-a86b78ca40d8a743eb",
+        "symbol": "PFE",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-a86b78ca40d8a743eb",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "111.5",
+      "stop_price": "94.79199999999999",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-3234e17892c3e98f9d": {
+      "state": {
+        "intent_key": "H60V8-e4563-3234e17892c3e98f9d",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-3234e17892c3e98f9d",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "119.63",
+      "stop_price": "101.7025",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-17bf7ef2bc993b2ea9": {
+      "state": {
+        "intent_key": "H60V8-e4563-17bf7ef2bc993b2ea9",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-17bf7ef2bc993b2ea9",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "127.57",
+      "stop_price": "108.4515",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-87e03be217e8fa02fb": {
+      "state": {
+        "intent_key": "H60V8-e4563-87e03be217e8fa02fb",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-87e03be217e8fa02fb",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "129.56",
+      "stop_price": "110.143",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-0015a6b22035a7115f": {
+      "state": {
+        "intent_key": "H60V8-e4563-0015a6b22035a7115f",
+        "symbol": "DE",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-0015a6b22035a7115f",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "137.22",
+      "stop_price": "116.65400000000001",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-e3f8c8870237041d29": {
+      "state": {
+        "intent_key": "H60V8-e4563-e3f8c8870237041d29",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-e3f8c8870237041d29",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "154.8",
+      "stop_price": "131.59699999999998",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-b7f58300082f19f415": {
+      "state": {
+        "intent_key": "H60V8-e4563-b7f58300082f19f415",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b7f58300082f19f415",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "162.43",
+      "stop_price": "138.08249999999998",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "H60V8-e4563-f17d3c4604c3a2e427": {
+      "state": {
+        "intent_key": "H60V8-e4563-f17d3c4604c3a2e427",
+        "symbol": "DE",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-f17d3c4604c3a2e427",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "7",
+        "executions": {
+          "SIM-acd8ef98bc2c78521ebd": {
+            "reference": "virtual:H60V8-e4563-f17d3c4604c3a2e427",
+            "quantity": "7",
+            "price": "137.02"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "kind": "LMT",
+      "limit_price": "137.02",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-e74fb2354fe9f1b090": {
+      "state": {
+        "intent_key": "H60V8-e4563-e74fb2354fe9f1b090",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-e74fb2354fe9f1b090",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-ff711179196d2e5ee31d": {
+            "reference": "virtual:H60V8-e4563-e74fb2354fe9f1b090",
+            "quantity": "1",
+            "price": "133.25"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "kind": "LMT",
+      "limit_price": "133.25",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-02eadfe71604af60f8": {
+      "state": {
+        "intent_key": "H60V8-e4563-02eadfe71604af60f8",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-02eadfe71604af60f8",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-0998c79904260f346a09": {
+            "reference": "virtual:H60V8-e4563-02eadfe71604af60f8",
+            "quantity": "1",
+            "price": "103.44"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "kind": "LMT",
+      "limit_price": "103.44",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-22cc75cfc375823c6e": {
+      "state": {
+        "intent_key": "H60V8-e4563-22cc75cfc375823c6e",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-22cc75cfc375823c6e",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-61bb665eb5b735611d11": {
+            "reference": "virtual:H60V8-e4563-22cc75cfc375823c6e",
+            "quantity": "1",
+            "price": "155.41"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "kind": "LMT",
+      "limit_price": "155.41",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-8888eb20c213183406": {
+      "state": {
+        "intent_key": "H60V8-e4563-8888eb20c213183406",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-8888eb20c213183406",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-f85f579fac68b6d11e3a": {
+            "reference": "virtual:H60V8-e4563-8888eb20c213183406",
+            "quantity": "1",
+            "price": "160.56"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "kind": "LMT",
+      "limit_price": "160.56",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-0f4ab2fa595cffa97e": {
+      "state": {
+        "intent_key": "H60V8-e4563-0f4ab2fa595cffa97e",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-0f4ab2fa595cffa97e",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-62d971d0eefeffa55c71": {
+            "reference": "virtual:H60V8-e4563-0f4ab2fa595cffa97e",
+            "quantity": "1",
+            "price": "118.68"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "kind": "LMT",
+      "limit_price": "118.68",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-b0ef0bc776677c9ce1": {
+      "state": {
+        "intent_key": "H60V8-e4563-b0ef0bc776677c9ce1",
+        "symbol": "AMZN",
+        "side": "BUY",
+        "quantity": "10",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b0ef0bc776677c9ce1",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "10",
+        "executions": {
+          "SIM-6b7b0e85bca5803e9078": {
+            "reference": "virtual:H60V8-e4563-b0ef0bc776677c9ce1",
+            "quantity": "10",
+            "price": "90.09"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "kind": "LMT",
+      "limit_price": "90.09",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-60dc09a1c895b9fdf3": {
+      "state": {
+        "intent_key": "H60V8-e4563-60dc09a1c895b9fdf3",
+        "symbol": "AMZN",
+        "side": "SELL",
+        "quantity": "10",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-60dc09a1c895b9fdf3",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "10",
+        "executions": {
+          "SIM-f6ffe2f76170b942b1cb": {
+            "reference": "virtual:H60V8-e4563-60dc09a1c895b9fdf3",
+            "quantity": "10",
+            "price": "68.92"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "90.07",
+      "stop_price": "76.5765",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-de061fc6acfa6e86ce": {
+      "state": {
+        "intent_key": "H60V8-e4563-de061fc6acfa6e86ce",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-de061fc6acfa6e86ce",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "103.44",
+      "stop_price": "89.675",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-2237704d60e0dcd196": {
+      "state": {
+        "intent_key": "H60V8-e4563-2237704d60e0dcd196",
+        "symbol": "PFE",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-2237704d60e0dcd196",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "115.15",
+      "stop_price": "97.8775",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-b1fdb9e34f07176d61": {
+      "state": {
+        "intent_key": "H60V8-e4563-b1fdb9e34f07176d61",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b1fdb9e34f07176d61",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "118.68",
+      "stop_price": "101.7025",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-e31f0cba671c61eefa": {
+      "state": {
+        "intent_key": "H60V8-e4563-e31f0cba671c61eefa",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-e31f0cba671c61eefa",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "129.66",
+      "stop_price": "110.211",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-c8d8d14e7f214a898f": {
+      "state": {
+        "intent_key": "H60V8-e4563-c8d8d14e7f214a898f",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-c8d8d14e7f214a898f",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "133.25",
+      "stop_price": "113.2625",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-55586ffa615d7227e1": {
+      "state": {
+        "intent_key": "H60V8-e4563-55586ffa615d7227e1",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "5",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-55586ffa615d7227e1",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "155.41",
+      "stop_price": "132.0985",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-cc673bd279689e65aa": {
+      "state": {
+        "intent_key": "H60V8-e4563-cc673bd279689e65aa",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "5",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-cc673bd279689e65aa",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "160.56",
+      "stop_price": "138.08249999999998",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "H60V8-e4563-d94c2eda3067c8f38f": {
+      "state": {
+        "intent_key": "H60V8-e4563-d94c2eda3067c8f38f",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-d94c2eda3067c8f38f",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "8",
+        "executions": {
+          "SIM-09e6e166a0446a9020b7": {
+            "reference": "virtual:H60V8-e4563-d94c2eda3067c8f38f",
+            "quantity": "8",
+            "price": "106.48"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "106.48",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-81c356d970090b5c03": {
+      "state": {
+        "intent_key": "H60V8-e4563-81c356d970090b5c03",
+        "symbol": "PFE",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-81c356d970090b5c03",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "8",
+        "executions": {
+          "SIM-0bda9b39355a04a5a34b": {
+            "reference": "virtual:H60V8-e4563-81c356d970090b5c03",
+            "quantity": "8",
+            "price": "113.37"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "113.37",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-ceb1084fb0b2b9377a": {
+      "state": {
+        "intent_key": "H60V8-e4563-ceb1084fb0b2b9377a",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-ceb1084fb0b2b9377a",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "6",
+        "executions": {
+          "SIM-660d70af2c89cc2ae005": {
+            "reference": "virtual:H60V8-e4563-ceb1084fb0b2b9377a",
+            "quantity": "6",
+            "price": "131.14"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "131.14",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-a87312bcf45070820b": {
+      "state": {
+        "intent_key": "H60V8-e4563-a87312bcf45070820b",
+        "symbol": "HD",
+        "side": "BUY",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-a87312bcf45070820b",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-6a899d198aa8b9a60385": {
+            "reference": "virtual:H60V8-e4563-a87312bcf45070820b",
+            "quantity": "1",
+            "price": "157.35"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "157.35",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-cf044cde93d6657589": {
+      "state": {
+        "intent_key": "H60V8-e4563-cf044cde93d6657589",
+        "symbol": "NEE",
+        "side": "BUY",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-cf044cde93d6657589",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-a553a95498f145f3483d": {
+            "reference": "virtual:H60V8-e4563-cf044cde93d6657589",
+            "quantity": "1",
+            "price": "163.31"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "163.31",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-e49609acd9c97339f5": {
+      "state": {
+        "intent_key": "H60V8-e4563-e49609acd9c97339f5",
+        "symbol": "UNH",
+        "side": "BUY",
+        "quantity": "1",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-e49609acd9c97339f5",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "1",
+        "executions": {
+          "SIM-0e5e4cf4cd65c1cbf7f8": {
+            "reference": "virtual:H60V8-e4563-e49609acd9c97339f5",
+            "quantity": "1",
+            "price": "121.89"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "121.89",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-5b9d82f7f6bf199acc": {
+      "state": {
+        "intent_key": "H60V8-e4563-5b9d82f7f6bf199acc",
+        "symbol": "MCD",
+        "side": "BUY",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-5b9d82f7f6bf199acc",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "6",
+        "executions": {
+          "SIM-1413553b1d857f71b4e7": {
+            "reference": "virtual:H60V8-e4563-5b9d82f7f6bf199acc",
+            "quantity": "6",
+            "price": "161.02"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "161.02",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-ff7ec08219533f2fc4": {
+      "state": {
+        "intent_key": "H60V8-e4563-ff7ec08219533f2fc4",
+        "symbol": "PEP",
+        "side": "BUY",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-ff7ec08219533f2fc4",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "6",
+        "executions": {
+          "SIM-4c8eca15a4db41490832": {
+            "reference": "virtual:H60V8-e4563-ff7ec08219533f2fc4",
+            "quantity": "6",
+            "price": "146.52"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "146.52",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-b2bd8707c4610da1d0": {
+      "state": {
+        "intent_key": "H60V8-e4563-b2bd8707c4610da1d0",
+        "symbol": "META",
+        "side": "BUY",
+        "quantity": "10",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b2bd8707c4610da1d0",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "10",
+        "executions": {
+          "SIM-59f984b45742af9f5e5b": {
+            "reference": "virtual:H60V8-e4563-b2bd8707c4610da1d0",
+            "quantity": "10",
+            "price": "95.72"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "95.72",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-519cfac0be29678a86": {
+      "state": {
+        "intent_key": "H60V8-e4563-519cfac0be29678a86",
+        "symbol": "NVDA",
+        "side": "BUY",
+        "quantity": "11",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-519cfac0be29678a86",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "11",
+        "executions": {
+          "SIM-b7aa89d659f601bc3c2e": {
+            "reference": "virtual:H60V8-e4563-519cfac0be29678a86",
+            "quantity": "11",
+            "price": "88.14"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "kind": "LMT",
+      "limit_price": "88.14",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-fbccf26e10a0c3af12": {
+      "state": {
+        "intent_key": "H60V8-e4563-fbccf26e10a0c3af12",
+        "symbol": "NVDA",
+        "side": "SELL",
+        "quantity": "11",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-fbccf26e10a0c3af12",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "88.12",
+      "stop_price": "74.919",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-c2e4f063c24cfa6968": {
+      "state": {
+        "intent_key": "H60V8-e4563-c2e4f063c24cfa6968",
+        "symbol": "META",
+        "side": "SELL",
+        "quantity": "10",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-c2e4f063c24cfa6968",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "95.7",
+      "stop_price": "81.362",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-b585acf9b3fff5cdd9": {
+      "state": {
+        "intent_key": "H60V8-e4563-b585acf9b3fff5cdd9",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b585acf9b3fff5cdd9",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "121.87",
+      "stop_price": "103.6065",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-a968b7d21d69f9fdd6": {
+      "state": {
+        "intent_key": "H60V8-e4563-a968b7d21d69f9fdd6",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-a968b7d21d69f9fdd6",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "128.23",
+      "stop_price": "110.211",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-d07eb9476e421c120a": {
+      "state": {
+        "intent_key": "H60V8-e4563-d07eb9476e421c120a",
+        "symbol": "PEP",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-d07eb9476e421c120a",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "146.5",
+      "stop_price": "124.542",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-b8bc156b25dccb7357": {
+      "state": {
+        "intent_key": "H60V8-e4563-b8bc156b25dccb7357",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b8bc156b25dccb7357",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "157.33",
+      "stop_price": "133.7475",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-3ba8e4579a0a388bf2": {
+      "state": {
+        "intent_key": "H60V8-e4563-3ba8e4579a0a388bf2",
+        "symbol": "MCD",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-3ba8e4579a0a388bf2",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "161.0",
+      "stop_price": "136.86700000000002",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-6e2bf807f8bf2b526f": {
+      "state": {
+        "intent_key": "H60V8-e4563-6e2bf807f8bf2b526f",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-6e2bf807f8bf2b526f",
+        "uncertain": false,
+        "cancel_requested": true,
+        "terminal_status": "CANCELLED",
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "163.29",
+      "stop_price": "138.8135",
+      "reason": "stock_protection",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "H60V8-e4563-7afe34ab30264bb385": {
+      "state": {
+        "intent_key": "H60V8-e4563-7afe34ab30264bb385",
+        "symbol": "NVDA",
+        "side": "SELL",
+        "quantity": "11",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-7afe34ab30264bb385",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "88.15",
+      "stop_price": "74.92750000000001",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    },
+    "H60V8-e4563-b2000881917501d12e": {
+      "state": {
+        "intent_key": "H60V8-e4563-b2000881917501d12e",
+        "symbol": "META",
+        "side": "SELL",
+        "quantity": "10",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b2000881917501d12e",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "97.56",
+      "stop_price": "82.926",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    },
+    "H60V8-e4563-5b9ab03a8424cf1d60": {
+      "state": {
+        "intent_key": "H60V8-e4563-5b9ab03a8424cf1d60",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "8",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-5b9ab03a8424cf1d60",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "119.75",
+      "stop_price": "103.6065",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    },
+    "H60V8-e4563-b3e63f0b045ce2d60d": {
+      "state": {
+        "intent_key": "H60V8-e4563-b3e63f0b045ce2d60d",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-b3e63f0b045ce2d60d",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "131.72",
+      "stop_price": "111.96199999999999",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    },
+    "H60V8-e4563-7d969103225dbfa692": {
+      "state": {
+        "intent_key": "H60V8-e4563-7d969103225dbfa692",
+        "symbol": "PEP",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-7d969103225dbfa692",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "149.58",
+      "stop_price": "127.143",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    },
+    "H60V8-e4563-3a17309f38729b95da": {
+      "state": {
+        "intent_key": "H60V8-e4563-3a17309f38729b95da",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-3a17309f38729b95da",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "156.04",
+      "stop_price": "133.7475",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    },
+    "H60V8-e4563-84edb48c64e0ad4de2": {
+      "state": {
+        "intent_key": "H60V8-e4563-84edb48c64e0ad4de2",
+        "symbol": "MCD",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-84edb48c64e0ad4de2",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "158.85",
+      "stop_price": "136.86700000000002",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    },
+    "H60V8-e4563-c14947274419e6c2be": {
+      "state": {
+        "intent_key": "H60V8-e4563-c14947274419e6c2be",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "6",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-c14947274419e6c2be",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "0",
+        "executions": {},
+        "halted_reason": null
+      },
+      "decision": "protection",
+      "kind": "STP",
+      "limit_price": "162.95",
+      "stop_price": "138.8135",
+      "reason": "stock_protection",
+      "terminal_reconciled": false,
+      "created_at": "2025-01-29T14:35:00+00:00"
+    }
+  },
+  "batches": {
+    "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143": {
+      "signature": {
+        "weights": {
+          "AAPL": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "AMZN": 0.0,
+          "GOOGL": 0.0,
+          "META": 0.0,
+          "JPM": 0.0,
+          "BAC": 0.0,
+          "GS": 0.09849626253459896,
+          "V": 0.0,
+          "JNJ": 0.0,
+          "PFE": 0.09849626253459896,
+          "MRK": 0.0,
+          "UNH": 0.09849626253459896,
+          "XOM": 0.0,
+          "CVX": 0.0,
+          "COP": 0.09849626253459896,
+          "CAT": 0.09849626253459896,
+          "HON": 0.0,
+          "DE": 0.09849626253459896,
+          "PG": 0.0,
+          "KO": 0.0,
+          "PEP": 0.0,
+          "WMT": 0.0,
+          "COST": 0.0,
+          "HD": 0.09849626253459896,
+          "MCD": 0.0,
+          "NEE": 0.09849626253459896,
+          "DUK": 0.0,
+          "SO": 0.0
+        },
+        "reduction": false,
+        "reason": "scheduled"
+      },
+      "intents": [
+        "H60V8-e4563-aabb5b233574656683",
+        "H60V8-e4563-302111b0383e119fd0",
+        "H60V8-e4563-0b1e3721bb47880228",
+        "H60V8-e4563-dd94bab7f432769829",
+        "H60V8-e4563-59f2429a00c3faa9e1",
+        "H60V8-e4563-9084e384c0c9dda2bf",
+        "H60V8-e4563-a1d6f33f862781e05a",
+        "H60V8-e4563-33e0a213ddab907bad"
+      ],
+      "quotes": {
+        "AAPL": {
+          "bid": "80.0",
+          "ask": "80.02",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MSFT": {
+          "bid": "84.26",
+          "ask": "84.28",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NVDA": {
+          "bid": "87.36",
+          "ask": "87.38",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "AMZN": {
+          "bid": "89.21",
+          "ask": "89.23",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GOOGL": {
+          "bid": "90.86",
+          "ask": "90.88",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "META": {
+          "bid": "93.56",
+          "ask": "93.58",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JPM": {
+          "bid": "97.58",
+          "ask": "97.6",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "BAC": {
+          "bid": "101.99",
+          "ask": "102.01",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GS": {
+          "bid": "105.48",
+          "ask": "105.5",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "V": {
+          "bid": "107.62",
+          "ask": "107.64",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JNJ": {
+          "bid": "109.18",
+          "ask": "109.2",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PFE": {
+          "bid": "111.5",
+          "ask": "111.52",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MRK": {
+          "bid": "115.2",
+          "ask": "115.22",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "UNH": {
+          "bid": "119.63",
+          "ask": "119.65",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "XOM": {
+          "bid": "123.49",
+          "ask": "123.51",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CVX": {
+          "bid": "125.98",
+          "ask": "126.0",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COP": {
+          "bid": "127.57",
+          "ask": "127.59",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CAT": {
+          "bid": "129.56",
+          "ask": "129.58",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HON": {
+          "bid": "132.87",
+          "ask": "132.89",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DE": {
+          "bid": "137.22",
+          "ask": "137.24",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PG": {
+          "bid": "141.37",
+          "ask": "141.39",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "KO": {
+          "bid": "144.25",
+          "ask": "144.27",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PEP": {
+          "bid": "145.99",
+          "ask": "146.01",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "WMT": {
+          "bid": "147.73",
+          "ask": "147.75",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COST": {
+          "bid": "150.64",
+          "ask": "150.66",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HD": {
+          "bid": "154.8",
+          "ask": "154.82",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MCD": {
+          "bid": "159.14",
+          "ask": "159.16",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NEE": {
+          "bid": "162.43",
+          "ask": "162.45",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DUK": {
+          "bid": "164.41",
+          "ask": "164.43",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "SO": {
+          "bid": "166.0",
+          "ask": "166.02",
+          "asof": "2025-01-06T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        }
+      },
+      "created_at": "2025-01-06T14:35:00+00:00"
+    },
+    "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6": {
+      "signature": {
+        "weights": {
+          "AAPL": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "AMZN": 0.09230201272955511,
+          "GOOGL": 0.0,
+          "META": 0.0,
+          "JPM": 0.0,
+          "BAC": 0.0,
+          "GS": 0.09230201272955511,
+          "V": 0.0,
+          "JNJ": 0.0,
+          "PFE": 0.09230201272955511,
+          "MRK": 0.0,
+          "UNH": 0.09230201272955511,
+          "XOM": 0.0,
+          "CVX": 0.0,
+          "COP": 0.09230201272955511,
+          "CAT": 0.09230201272955511,
+          "HON": 0.0,
+          "DE": 0.0,
+          "PG": 0.0,
+          "KO": 0.0,
+          "PEP": 0.0,
+          "WMT": 0.0,
+          "COST": 0.0,
+          "HD": 0.09230201272955511,
+          "MCD": 0.0,
+          "NEE": 0.09230201272955511,
+          "DUK": 0.0,
+          "SO": 0.0
+        },
+        "reduction": false,
+        "reason": "scheduled"
+      },
+      "intents": [
+        "H60V8-e4563-f17d3c4604c3a2e427",
+        "H60V8-e4563-e74fb2354fe9f1b090",
+        "H60V8-e4563-02eadfe71604af60f8",
+        "H60V8-e4563-22cc75cfc375823c6e",
+        "H60V8-e4563-8888eb20c213183406",
+        "H60V8-e4563-0f4ab2fa595cffa97e",
+        "H60V8-e4563-b0ef0bc776677c9ce1"
+      ],
+      "quotes": {
+        "AAPL": {
+          "bid": "80.22",
+          "ask": "80.24",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MSFT": {
+          "bid": "82.28",
+          "ask": "82.3",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NVDA": {
+          "bid": "85.69",
+          "ask": "85.71",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "AMZN": {
+          "bid": "90.07",
+          "ask": "90.09",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GOOGL": {
+          "bid": "94.16",
+          "ask": "94.18",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "META": {
+          "bid": "96.95",
+          "ask": "96.97",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JPM": {
+          "bid": "98.64",
+          "ask": "98.66",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "BAC": {
+          "bid": "100.43",
+          "ask": "100.45",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GS": {
+          "bid": "103.44",
+          "ask": "103.46",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "V": {
+          "bid": "107.65",
+          "ask": "107.67",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JNJ": {
+          "bid": "111.96",
+          "ask": "111.98",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PFE": {
+          "bid": "115.15",
+          "ask": "115.17",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MRK": {
+          "bid": "117.06",
+          "ask": "117.08",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "UNH": {
+          "bid": "118.68",
+          "ask": "118.7",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "XOM": {
+          "bid": "121.29",
+          "ask": "121.31",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CVX": {
+          "bid": "125.24",
+          "ask": "125.26",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COP": {
+          "bid": "129.66",
+          "ask": "129.68",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CAT": {
+          "bid": "133.25",
+          "ask": "133.27",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HON": {
+          "bid": "135.46",
+          "ask": "135.48",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DE": {
+          "bid": "137.02",
+          "ask": "137.04",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PG": {
+          "bid": "139.25",
+          "ask": "139.27",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "KO": {
+          "bid": "142.86",
+          "ask": "142.88",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PEP": {
+          "bid": "147.29",
+          "ask": "147.31",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "WMT": {
+          "bid": "151.22",
+          "ask": "151.24",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COST": {
+          "bid": "153.8",
+          "ask": "153.82",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HD": {
+          "bid": "155.41",
+          "ask": "155.43",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MCD": {
+          "bid": "157.34",
+          "ask": "157.36",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NEE": {
+          "bid": "160.56",
+          "ask": "160.58",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DUK": {
+          "bid": "164.88",
+          "ask": "164.9",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "SO": {
+          "bid": "169.08",
+          "ask": "169.1",
+          "asof": "2025-01-14T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        }
+      },
+      "created_at": "2025-01-14T14:35:00+00:00"
+    },
+    "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846": {
+      "signature": {
+        "weights": {
+          "AAPL": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.1,
+          "AMZN": 0.0,
+          "GOOGL": 0.0,
+          "META": 0.1,
+          "JPM": 0.0,
+          "BAC": 0.0,
+          "GS": 0.0,
+          "V": 0.0,
+          "JNJ": 0.0,
+          "PFE": 0.0,
+          "MRK": 0.0,
+          "UNH": 0.1,
+          "XOM": 0.0,
+          "CVX": 0.0,
+          "COP": 0.1,
+          "CAT": 0.0,
+          "HON": 0.0,
+          "DE": 0.0,
+          "PG": 0.0,
+          "KO": 0.0,
+          "PEP": 0.1,
+          "WMT": 0.0,
+          "COST": 0.0,
+          "HD": 0.1,
+          "MCD": 0.1,
+          "NEE": 0.1,
+          "DUK": 0.0,
+          "SO": 0.0
+        },
+        "reduction": false,
+        "reason": "scheduled"
+      },
+      "intents": [
+        "H60V8-e4563-d94c2eda3067c8f38f",
+        "H60V8-e4563-81c356d970090b5c03",
+        "H60V8-e4563-ceb1084fb0b2b9377a",
+        "H60V8-e4563-a87312bcf45070820b",
+        "H60V8-e4563-cf044cde93d6657589",
+        "H60V8-e4563-e49609acd9c97339f5",
+        "H60V8-e4563-5b9d82f7f6bf199acc",
+        "H60V8-e4563-ff7ec08219533f2fc4",
+        "H60V8-e4563-b2bd8707c4610da1d0",
+        "H60V8-e4563-519cfac0be29678a86"
+      ],
+      "quotes": {
+        "AAPL": {
+          "bid": "82.49",
+          "ask": "82.51",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MSFT": {
+          "bid": "85.98",
+          "ask": "86.0",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NVDA": {
+          "bid": "88.12",
+          "ask": "88.14",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "AMZN": {
+          "bid": "89.68",
+          "ask": "89.7",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GOOGL": {
+          "bid": "92.0",
+          "ask": "92.02",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "META": {
+          "bid": "95.7",
+          "ask": "95.72",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JPM": {
+          "bid": "100.13",
+          "ask": "100.15",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "BAC": {
+          "bid": "103.99",
+          "ask": "104.01",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GS": {
+          "bid": "106.48",
+          "ask": "106.5",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "V": {
+          "bid": "108.07",
+          "ask": "108.09",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JNJ": {
+          "bid": "110.06",
+          "ask": "110.08",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PFE": {
+          "bid": "113.37",
+          "ask": "113.39",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MRK": {
+          "bid": "117.72",
+          "ask": "117.74",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "UNH": {
+          "bid": "121.87",
+          "ask": "121.89",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "XOM": {
+          "bid": "124.75",
+          "ask": "124.77",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CVX": {
+          "bid": "126.49",
+          "ask": "126.51",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COP": {
+          "bid": "128.23",
+          "ask": "128.25",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CAT": {
+          "bid": "131.14",
+          "ask": "131.16",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HON": {
+          "bid": "135.3",
+          "ask": "135.32",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DE": {
+          "bid": "139.64",
+          "ask": "139.66",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PG": {
+          "bid": "142.93",
+          "ask": "142.95",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "KO": {
+          "bid": "144.91",
+          "ask": "144.93",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PEP": {
+          "bid": "146.5",
+          "ask": "146.52",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "WMT": {
+          "bid": "149.02",
+          "ask": "149.04",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COST": {
+          "bid": "152.89",
+          "ask": "152.91",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HD": {
+          "bid": "157.33",
+          "ask": "157.35",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MCD": {
+          "bid": "161.0",
+          "ask": "161.02",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NEE": {
+          "bid": "163.29",
+          "ask": "163.31",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DUK": {
+          "bid": "164.86",
+          "ask": "164.88",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "SO": {
+          "bid": "167.01",
+          "ask": "167.03",
+          "asof": "2025-01-22T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        }
+      },
+      "created_at": "2025-01-22T14:35:00+00:00"
+    },
+    "af689380ba2ea273e369575b5932be5a7ec35ad25273ef1150c999dea58988e7": {
+      "signature": {
+        "weights": {
+          "AAPL": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.1,
+          "AMZN": 0.0,
+          "GOOGL": 0.0,
+          "META": 0.1,
+          "JPM": 0.0,
+          "BAC": 0.0,
+          "GS": 0.0,
+          "V": 0.0,
+          "JNJ": 0.0,
+          "PFE": 0.0,
+          "MRK": 0.0,
+          "UNH": 0.1,
+          "XOM": 0.0,
+          "CVX": 0.0,
+          "COP": 0.1,
+          "CAT": 0.0,
+          "HON": 0.0,
+          "DE": 0.0,
+          "PG": 0.0,
+          "KO": 0.0,
+          "PEP": 0.1,
+          "WMT": 0.0,
+          "COST": 0.0,
+          "HD": 0.1,
+          "MCD": 0.1,
+          "NEE": 0.1,
+          "DUK": 0.0,
+          "SO": 0.0
+        },
+        "reduction": false,
+        "reason": "scheduled"
+      },
+      "intents": [],
+      "quotes": {
+        "AAPL": {
+          "bid": "80.93",
+          "ask": "80.95",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MSFT": {
+          "bid": "83.94",
+          "ask": "83.96",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NVDA": {
+          "bid": "88.15",
+          "ask": "88.17",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "AMZN": {
+          "bid": "92.46",
+          "ask": "92.48",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GOOGL": {
+          "bid": "95.65",
+          "ask": "95.67",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "META": {
+          "bid": "97.56",
+          "ask": "97.58",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JPM": {
+          "bid": "99.18",
+          "ask": "99.2",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "BAC": {
+          "bid": "101.79",
+          "ask": "101.81",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "GS": {
+          "bid": "105.74",
+          "ask": "105.76",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "V": {
+          "bid": "110.16",
+          "ask": "110.18",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "JNJ": {
+          "bid": "113.75",
+          "ask": "113.77",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PFE": {
+          "bid": "115.96",
+          "ask": "115.98",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MRK": {
+          "bid": "117.52",
+          "ask": "117.54",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "UNH": {
+          "bid": "119.75",
+          "ask": "119.77",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "XOM": {
+          "bid": "123.36",
+          "ask": "123.38",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CVX": {
+          "bid": "127.79",
+          "ask": "127.81",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COP": {
+          "bid": "131.72",
+          "ask": "131.74",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "CAT": {
+          "bid": "134.3",
+          "ask": "134.32",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HON": {
+          "bid": "135.91",
+          "ask": "135.93",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DE": {
+          "bid": "137.84",
+          "ask": "137.86",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PG": {
+          "bid": "141.06",
+          "ask": "141.08",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "KO": {
+          "bid": "145.38",
+          "ask": "145.4",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "PEP": {
+          "bid": "149.58",
+          "ask": "149.6",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "WMT": {
+          "bid": "152.56",
+          "ask": "152.58",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "COST": {
+          "bid": "154.34",
+          "ask": "154.36",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "HD": {
+          "bid": "156.04",
+          "ask": "156.06",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "MCD": {
+          "bid": "158.85",
+          "ask": "158.87",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "NEE": {
+          "bid": "162.95",
+          "ask": "162.97",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "DUK": {
+          "bid": "167.33",
+          "ask": "167.35",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        },
+        "SO": {
+          "bid": "170.71",
+          "ask": "170.73",
+          "asof": "2025-01-29T14:35:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        }
+      },
+      "created_at": "2025-01-29T14:35:00+00:00"
+    }
+  },
+  "commissions": {
+    "SIM-ac97e887a7d3c7acfd5d": {
+      "fee": "0.92892",
+      "currency": "USD"
+    },
+    "SIM-0de78291c4646a224791": {
+      "fee": "0.97470",
+      "currency": "USD"
+    },
+    "SIM-c1516d0fae7c58718d1e": {
+      "fee": "0.90706",
+      "currency": "USD"
+    },
+    "SIM-38b248927642304086ad": {
+      "fee": "0.89313",
+      "currency": "USD"
+    },
+    "SIM-e056aa7bf7c71c8d829f": {
+      "fee": "0.96068",
+      "currency": "USD"
+    },
+    "SIM-c31c1e24bf7022b8a20b": {
+      "fee": "0.89216",
+      "currency": "USD"
+    },
+    "SIM-062d6a3e957952afded9": {
+      "fee": "0.95720",
+      "currency": "USD"
+    },
+    "SIM-89177aa77ad65596a076": {
+      "fee": "0.9495",
+      "currency": "USD"
+    },
+    "SIM-acd8ef98bc2c78521ebd": {
+      "fee": "0.95914",
+      "currency": "USD"
+    },
+    "SIM-ff711179196d2e5ee31d": {
+      "fee": "0.13325",
+      "currency": "USD"
+    },
+    "SIM-0998c79904260f346a09": {
+      "fee": "0.10344",
+      "currency": "USD"
+    },
+    "SIM-61bb665eb5b735611d11": {
+      "fee": "0.15541",
+      "currency": "USD"
+    },
+    "SIM-f85f579fac68b6d11e3a": {
+      "fee": "0.16056",
+      "currency": "USD"
+    },
+    "SIM-62d971d0eefeffa55c71": {
+      "fee": "0.11868",
+      "currency": "USD"
+    },
+    "SIM-6b7b0e85bca5803e9078": {
+      "fee": "0.90090",
+      "currency": "USD"
+    },
+    "SIM-f6ffe2f76170b942b1cb": {
+      "fee": "0.68920",
+      "currency": "USD"
+    },
+    "SIM-09e6e166a0446a9020b7": {
+      "fee": "0.85184",
+      "currency": "USD"
+    },
+    "SIM-0bda9b39355a04a5a34b": {
+      "fee": "0.90696",
+      "currency": "USD"
+    },
+    "SIM-660d70af2c89cc2ae005": {
+      "fee": "0.78684",
+      "currency": "USD"
+    },
+    "SIM-6a899d198aa8b9a60385": {
+      "fee": "0.15735",
+      "currency": "USD"
+    },
+    "SIM-a553a95498f145f3483d": {
+      "fee": "0.16331",
+      "currency": "USD"
+    },
+    "SIM-0e5e4cf4cd65c1cbf7f8": {
+      "fee": "0.12189",
+      "currency": "USD"
+    },
+    "SIM-1413553b1d857f71b4e7": {
+      "fee": "0.96612",
+      "currency": "USD"
+    },
+    "SIM-4c8eca15a4db41490832": {
+      "fee": "0.87912",
+      "currency": "USD"
+    },
+    "SIM-59f984b45742af9f5e5b": {
+      "fee": "0.95720",
+      "currency": "USD"
+    },
+    "SIM-b7aa89d659f601bc3c2e": {
+      "fee": "0.96954",
+      "currency": "USD"
+    }
+  },
+  "events": [
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "intents_persisted",
+      "decision": "f2fb4cd4f252866a52ad5821ee5db9e366b5b0a2539a167c78245ced1a823143",
+      "count": 8
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-aabb5b233574656683"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-aabb5b233574656683"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-302111b0383e119fd0"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-302111b0383e119fd0"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-0b1e3721bb47880228"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-0b1e3721bb47880228"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-dd94bab7f432769829"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-dd94bab7f432769829"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-59f2429a00c3faa9e1"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-59f2429a00c3faa9e1"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-9084e384c0c9dda2bf"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-9084e384c0c9dda2bf"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-a1d6f33f862781e05a"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-a1d6f33f862781e05a"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-33e0a213ddab907bad"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-33e0a213ddab907bad"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 8
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-3137a00aa5b917c6bc"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-3137a00aa5b917c6bc"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-a86b78ca40d8a743eb"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-a86b78ca40d8a743eb"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-3234e17892c3e98f9d"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-3234e17892c3e98f9d"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-17bf7ef2bc993b2ea9"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-17bf7ef2bc993b2ea9"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-87e03be217e8fa02fb"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-87e03be217e8fa02fb"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-0015a6b22035a7115f"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-0015a6b22035a7115f"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-e3f8c8870237041d29"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-e3f8c8870237041d29"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b7f58300082f19f415"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b7f58300082f19f415"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-07T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-07T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-07T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-08T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-08T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-08T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-10T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-10T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-10T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-13T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-13T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-13T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-3137a00aa5b917c6bc"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-a86b78ca40d8a743eb"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-3234e17892c3e98f9d"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-17bf7ef2bc993b2ea9"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-87e03be217e8fa02fb"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-0015a6b22035a7115f"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-e3f8c8870237041d29"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-b7f58300082f19f415"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "intents_persisted",
+      "decision": "a75a512a72fa02f11cbe372eb3fa97a94361ee8c52c4048500c34306dbfd86f6",
+      "count": 7
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-f17d3c4604c3a2e427"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-f17d3c4604c3a2e427"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-e74fb2354fe9f1b090"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-e74fb2354fe9f1b090"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-02eadfe71604af60f8"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-02eadfe71604af60f8"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-22cc75cfc375823c6e"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-22cc75cfc375823c6e"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-8888eb20c213183406"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-8888eb20c213183406"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-0f4ab2fa595cffa97e"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-0f4ab2fa595cffa97e"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b0ef0bc776677c9ce1"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b0ef0bc776677c9ce1"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 8
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-60dc09a1c895b9fdf3"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-60dc09a1c895b9fdf3"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-de061fc6acfa6e86ce"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-de061fc6acfa6e86ce"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-2237704d60e0dcd196"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-2237704d60e0dcd196"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b1fdb9e34f07176d61"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b1fdb9e34f07176d61"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-e31f0cba671c61eefa"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-e31f0cba671c61eefa"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-c8d8d14e7f214a898f"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-c8d8d14e7f214a898f"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-55586ffa615d7227e1"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-55586ffa615d7227e1"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-cc673bd279689e65aa"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-cc673bd279689e65aa"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-15T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-15T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-15T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-16T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-16T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-16T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-17T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-17T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-17T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-21T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-21T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-21T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-de061fc6acfa6e86ce"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-2237704d60e0dcd196"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-b1fdb9e34f07176d61"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-e31f0cba671c61eefa"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-c8d8d14e7f214a898f"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-55586ffa615d7227e1"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-cc673bd279689e65aa"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "intents_persisted",
+      "decision": "2a00d234af6e92729204a767931bad3ce28f86d308dc8f0fd31db90395ba0846",
+      "count": 10
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-d94c2eda3067c8f38f"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-d94c2eda3067c8f38f"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-81c356d970090b5c03"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-81c356d970090b5c03"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-ceb1084fb0b2b9377a"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-ceb1084fb0b2b9377a"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-a87312bcf45070820b"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-a87312bcf45070820b"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-cf044cde93d6657589"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-cf044cde93d6657589"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-e49609acd9c97339f5"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-e49609acd9c97339f5"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-5b9d82f7f6bf199acc"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-5b9d82f7f6bf199acc"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-ff7ec08219533f2fc4"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-ff7ec08219533f2fc4"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b2bd8707c4610da1d0"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b2bd8707c4610da1d0"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-519cfac0be29678a86"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-519cfac0be29678a86"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 8
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-fbccf26e10a0c3af12"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-fbccf26e10a0c3af12"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-c2e4f063c24cfa6968"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-c2e4f063c24cfa6968"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b585acf9b3fff5cdd9"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b585acf9b3fff5cdd9"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-a968b7d21d69f9fdd6"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-a968b7d21d69f9fdd6"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-d07eb9476e421c120a"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-d07eb9476e421c120a"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b8bc156b25dccb7357"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b8bc156b25dccb7357"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-3ba8e4579a0a388bf2"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-3ba8e4579a0a388bf2"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-6e2bf807f8bf2b526f"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-6e2bf807f8bf2b526f"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-23T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-23T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-23T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-24T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-24T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-24T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-27T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-27T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-27T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-28T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-28T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 0
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-28T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-fbccf26e10a0c3af12"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-c2e4f063c24cfa6968"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-b585acf9b3fff5cdd9"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-a968b7d21d69f9fdd6"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-d07eb9476e421c120a"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-b8bc156b25dccb7357"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-3ba8e4579a0a388bf2"
+    },
+    {
+      "kind": "cancel_requested_reservation_retained",
+      "intent": "H60V8-e4563-6e2bf807f8bf2b526f"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "intents_persisted",
+      "decision": "af689380ba2ea273e369575b5932be5a7ec35ad25273ef1150c999dea58988e7",
+      "count": 0
+    },
+    {
+      "kind": "protection_intents_persisted",
+      "count": 8
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-7afe34ab30264bb385"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-7afe34ab30264bb385"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b2000881917501d12e"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b2000881917501d12e"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-5b9ab03a8424cf1d60"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-5b9ab03a8424cf1d60"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-b3e63f0b045ce2d60d"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-b3e63f0b045ce2d60d"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-7d969103225dbfa692"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-7d969103225dbfa692"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-3a17309f38729b95da"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-3a17309f38729b95da"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-84edb48c64e0ad4de2"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-84edb48c64e0ad4de2"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-c14947274419e6c2be"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-c14947274419e6c2be"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-07T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-08T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-10T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-13T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-14T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-15T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-16T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-17T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-21T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-22T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-23T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-24T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-27T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-28T14:35:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-29T14:35:00+00:00",
+      "blocked": null
+    }
+  ],
+  "reconciliation": {
+    "asof": "2025-01-29T14:35:00+00:00",
+    "complete": true,
+    "identity_confirmed": true,
+    "corporate_actions_pending": false,
+    "cash": "2269.09590",
+    "available_cash": "2269.09590",
+    "positions": {
+      "UNRELATED_TEST_ASSET": "17",
+      "HD": "6",
+      "NEE": "6",
+      "CAT": "0",
+      "COP": "7",
+      "DE": "0",
+      "PFE": "0",
+      "UNH": "8",
+      "GS": "0",
+      "AMZN": "0",
+      "MCD": "6",
+      "PEP": "6",
+      "META": "10",
+      "NVDA": "11"
+    },
+    "orders": {
+      "H60V8-e4563-aabb5b233574656683": {
+        "key": "H60V8-e4563-aabb5b233574656683",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "HD",
+        "side": "BUY",
+        "quantity": "6",
+        "kind": "LMT",
+        "limit_price": "154.82",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-aabb5b233574656683",
+        "status": "Filled",
+        "filled": "6",
+        "fills": [
+          {
+            "id": "SIM-ac97e887a7d3c7acfd5d",
+            "quantity": "6",
+            "price": "154.82"
+          }
+        ]
+      },
+      "H60V8-e4563-302111b0383e119fd0": {
+        "key": "H60V8-e4563-302111b0383e119fd0",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NEE",
+        "side": "BUY",
+        "quantity": "6",
+        "kind": "LMT",
+        "limit_price": "162.45",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-302111b0383e119fd0",
+        "status": "Filled",
+        "filled": "6",
+        "fills": [
+          {
+            "id": "SIM-0de78291c4646a224791",
+            "quantity": "6",
+            "price": "162.45"
+          }
+        ]
+      },
+      "H60V8-e4563-0b1e3721bb47880228": {
+        "key": "H60V8-e4563-0b1e3721bb47880228",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "CAT",
+        "side": "BUY",
+        "quantity": "7",
+        "kind": "LMT",
+        "limit_price": "129.58",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-0b1e3721bb47880228",
+        "status": "Filled",
+        "filled": "7",
+        "fills": [
+          {
+            "id": "SIM-c1516d0fae7c58718d1e",
+            "quantity": "7",
+            "price": "129.58"
+          }
+        ]
+      },
+      "H60V8-e4563-dd94bab7f432769829": {
+        "key": "H60V8-e4563-dd94bab7f432769829",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "COP",
+        "side": "BUY",
+        "quantity": "7",
+        "kind": "LMT",
+        "limit_price": "127.59",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-dd94bab7f432769829",
+        "status": "Filled",
+        "filled": "7",
+        "fills": [
+          {
+            "id": "SIM-38b248927642304086ad",
+            "quantity": "7",
+            "price": "127.59"
+          }
+        ]
+      },
+      "H60V8-e4563-59f2429a00c3faa9e1": {
+        "key": "H60V8-e4563-59f2429a00c3faa9e1",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "DE",
+        "side": "BUY",
+        "quantity": "7",
+        "kind": "LMT",
+        "limit_price": "137.24",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-59f2429a00c3faa9e1",
+        "status": "Filled",
+        "filled": "7",
+        "fills": [
+          {
+            "id": "SIM-e056aa7bf7c71c8d829f",
+            "quantity": "7",
+            "price": "137.24"
+          }
+        ]
+      },
+      "H60V8-e4563-9084e384c0c9dda2bf": {
+        "key": "H60V8-e4563-9084e384c0c9dda2bf",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "PFE",
+        "side": "BUY",
+        "quantity": "8",
+        "kind": "LMT",
+        "limit_price": "111.52",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-9084e384c0c9dda2bf",
+        "status": "Filled",
+        "filled": "8",
+        "fills": [
+          {
+            "id": "SIM-c31c1e24bf7022b8a20b",
+            "quantity": "8",
+            "price": "111.52"
+          }
+        ]
+      },
+      "H60V8-e4563-a1d6f33f862781e05a": {
+        "key": "H60V8-e4563-a1d6f33f862781e05a",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "UNH",
+        "side": "BUY",
+        "quantity": "8",
+        "kind": "LMT",
+        "limit_price": "119.65",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-a1d6f33f862781e05a",
+        "status": "Filled",
+        "filled": "8",
+        "fills": [
+          {
+            "id": "SIM-062d6a3e957952afded9",
+            "quantity": "8",
+            "price": "119.65"
+          }
+        ]
+      },
+      "H60V8-e4563-33e0a213ddab907bad": {
+        "key": "H60V8-e4563-33e0a213ddab907bad",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "GS",
+        "side": "BUY",
+        "quantity": "9",
+        "kind": "LMT",
+        "limit_price": "105.5",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-33e0a213ddab907bad",
+        "status": "Filled",
+        "filled": "9",
+        "fills": [
+          {
+            "id": "SIM-89177aa77ad65596a076",
+            "quantity": "9",
+            "price": "105.5"
+          }
+        ]
+      },
+      "H60V8-e4563-3137a00aa5b917c6bc": {
+        "key": "H60V8-e4563-3137a00aa5b917c6bc",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "9",
+        "kind": "STP",
+        "limit_price": "105.48",
+        "stop_price": "89.675",
+        "reference": "virtual:H60V8-e4563-3137a00aa5b917c6bc",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-a86b78ca40d8a743eb": {
+        "key": "H60V8-e4563-a86b78ca40d8a743eb",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "PFE",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "STP",
+        "limit_price": "111.5",
+        "stop_price": "94.79199999999999",
+        "reference": "virtual:H60V8-e4563-a86b78ca40d8a743eb",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-3234e17892c3e98f9d": {
+        "key": "H60V8-e4563-3234e17892c3e98f9d",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "STP",
+        "limit_price": "119.63",
+        "stop_price": "101.7025",
+        "reference": "virtual:H60V8-e4563-3234e17892c3e98f9d",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-17bf7ef2bc993b2ea9": {
+        "key": "H60V8-e4563-17bf7ef2bc993b2ea9",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "STP",
+        "limit_price": "127.57",
+        "stop_price": "108.4515",
+        "reference": "virtual:H60V8-e4563-17bf7ef2bc993b2ea9",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-87e03be217e8fa02fb": {
+        "key": "H60V8-e4563-87e03be217e8fa02fb",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "STP",
+        "limit_price": "129.56",
+        "stop_price": "110.143",
+        "reference": "virtual:H60V8-e4563-87e03be217e8fa02fb",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-0015a6b22035a7115f": {
+        "key": "H60V8-e4563-0015a6b22035a7115f",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "DE",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "STP",
+        "limit_price": "137.22",
+        "stop_price": "116.65400000000001",
+        "reference": "virtual:H60V8-e4563-0015a6b22035a7115f",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-e3f8c8870237041d29": {
+        "key": "H60V8-e4563-e3f8c8870237041d29",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "154.8",
+        "stop_price": "131.59699999999998",
+        "reference": "virtual:H60V8-e4563-e3f8c8870237041d29",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-b7f58300082f19f415": {
+        "key": "H60V8-e4563-b7f58300082f19f415",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "162.43",
+        "stop_price": "138.08249999999998",
+        "reference": "virtual:H60V8-e4563-b7f58300082f19f415",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-f17d3c4604c3a2e427": {
+        "key": "H60V8-e4563-f17d3c4604c3a2e427",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "DE",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "LMT",
+        "limit_price": "137.02",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-f17d3c4604c3a2e427",
+        "status": "Filled",
+        "filled": "7",
+        "fills": [
+          {
+            "id": "SIM-acd8ef98bc2c78521ebd",
+            "quantity": "7",
+            "price": "137.02"
+          }
+        ]
+      },
+      "H60V8-e4563-e74fb2354fe9f1b090": {
+        "key": "H60V8-e4563-e74fb2354fe9f1b090",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "133.25",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-e74fb2354fe9f1b090",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-ff711179196d2e5ee31d",
+            "quantity": "1",
+            "price": "133.25"
+          }
+        ]
+      },
+      "H60V8-e4563-02eadfe71604af60f8": {
+        "key": "H60V8-e4563-02eadfe71604af60f8",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "103.44",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-02eadfe71604af60f8",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-0998c79904260f346a09",
+            "quantity": "1",
+            "price": "103.44"
+          }
+        ]
+      },
+      "H60V8-e4563-22cc75cfc375823c6e": {
+        "key": "H60V8-e4563-22cc75cfc375823c6e",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "155.41",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-22cc75cfc375823c6e",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-61bb665eb5b735611d11",
+            "quantity": "1",
+            "price": "155.41"
+          }
+        ]
+      },
+      "H60V8-e4563-8888eb20c213183406": {
+        "key": "H60V8-e4563-8888eb20c213183406",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "160.56",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-8888eb20c213183406",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-f85f579fac68b6d11e3a",
+            "quantity": "1",
+            "price": "160.56"
+          }
+        ]
+      },
+      "H60V8-e4563-0f4ab2fa595cffa97e": {
+        "key": "H60V8-e4563-0f4ab2fa595cffa97e",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "118.68",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-0f4ab2fa595cffa97e",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-62d971d0eefeffa55c71",
+            "quantity": "1",
+            "price": "118.68"
+          }
+        ]
+      },
+      "H60V8-e4563-b0ef0bc776677c9ce1": {
+        "key": "H60V8-e4563-b0ef0bc776677c9ce1",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "AMZN",
+        "side": "BUY",
+        "quantity": "10",
+        "kind": "LMT",
+        "limit_price": "90.09",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-b0ef0bc776677c9ce1",
+        "status": "Filled",
+        "filled": "10",
+        "fills": [
+          {
+            "id": "SIM-6b7b0e85bca5803e9078",
+            "quantity": "10",
+            "price": "90.09"
+          }
+        ]
+      },
+      "H60V8-e4563-60dc09a1c895b9fdf3": {
+        "key": "H60V8-e4563-60dc09a1c895b9fdf3",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "AMZN",
+        "side": "SELL",
+        "quantity": "10",
+        "kind": "STP",
+        "limit_price": "90.07",
+        "stop_price": "76.5765",
+        "reference": "virtual:H60V8-e4563-60dc09a1c895b9fdf3",
+        "status": "Filled",
+        "filled": "10",
+        "fills": [
+          {
+            "id": "SIM-f6ffe2f76170b942b1cb",
+            "quantity": "10",
+            "price": "68.92"
+          }
+        ]
+      },
+      "H60V8-e4563-de061fc6acfa6e86ce": {
+        "key": "H60V8-e4563-de061fc6acfa6e86ce",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "STP",
+        "limit_price": "103.44",
+        "stop_price": "89.675",
+        "reference": "virtual:H60V8-e4563-de061fc6acfa6e86ce",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-2237704d60e0dcd196": {
+        "key": "H60V8-e4563-2237704d60e0dcd196",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "PFE",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "STP",
+        "limit_price": "115.15",
+        "stop_price": "97.8775",
+        "reference": "virtual:H60V8-e4563-2237704d60e0dcd196",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-b1fdb9e34f07176d61": {
+        "key": "H60V8-e4563-b1fdb9e34f07176d61",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "STP",
+        "limit_price": "118.68",
+        "stop_price": "101.7025",
+        "reference": "virtual:H60V8-e4563-b1fdb9e34f07176d61",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-e31f0cba671c61eefa": {
+        "key": "H60V8-e4563-e31f0cba671c61eefa",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "STP",
+        "limit_price": "129.66",
+        "stop_price": "110.211",
+        "reference": "virtual:H60V8-e4563-e31f0cba671c61eefa",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-c8d8d14e7f214a898f": {
+        "key": "H60V8-e4563-c8d8d14e7f214a898f",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "133.25",
+        "stop_price": "113.2625",
+        "reference": "virtual:H60V8-e4563-c8d8d14e7f214a898f",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-55586ffa615d7227e1": {
+        "key": "H60V8-e4563-55586ffa615d7227e1",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "5",
+        "kind": "STP",
+        "limit_price": "155.41",
+        "stop_price": "132.0985",
+        "reference": "virtual:H60V8-e4563-55586ffa615d7227e1",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-cc673bd279689e65aa": {
+        "key": "H60V8-e4563-cc673bd279689e65aa",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "5",
+        "kind": "STP",
+        "limit_price": "160.56",
+        "stop_price": "138.08249999999998",
+        "reference": "virtual:H60V8-e4563-cc673bd279689e65aa",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-d94c2eda3067c8f38f": {
+        "key": "H60V8-e4563-d94c2eda3067c8f38f",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "GS",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "LMT",
+        "limit_price": "106.48",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-d94c2eda3067c8f38f",
+        "status": "Filled",
+        "filled": "8",
+        "fills": [
+          {
+            "id": "SIM-09e6e166a0446a9020b7",
+            "quantity": "8",
+            "price": "106.48"
+          }
+        ]
+      },
+      "H60V8-e4563-81c356d970090b5c03": {
+        "key": "H60V8-e4563-81c356d970090b5c03",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "PFE",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "LMT",
+        "limit_price": "113.37",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-81c356d970090b5c03",
+        "status": "Filled",
+        "filled": "8",
+        "fills": [
+          {
+            "id": "SIM-0bda9b39355a04a5a34b",
+            "quantity": "8",
+            "price": "113.37"
+          }
+        ]
+      },
+      "H60V8-e4563-ceb1084fb0b2b9377a": {
+        "key": "H60V8-e4563-ceb1084fb0b2b9377a",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "CAT",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "LMT",
+        "limit_price": "131.14",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-ceb1084fb0b2b9377a",
+        "status": "Filled",
+        "filled": "6",
+        "fills": [
+          {
+            "id": "SIM-660d70af2c89cc2ae005",
+            "quantity": "6",
+            "price": "131.14"
+          }
+        ]
+      },
+      "H60V8-e4563-a87312bcf45070820b": {
+        "key": "H60V8-e4563-a87312bcf45070820b",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "HD",
+        "side": "BUY",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "157.35",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-a87312bcf45070820b",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-6a899d198aa8b9a60385",
+            "quantity": "1",
+            "price": "157.35"
+          }
+        ]
+      },
+      "H60V8-e4563-cf044cde93d6657589": {
+        "key": "H60V8-e4563-cf044cde93d6657589",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NEE",
+        "side": "BUY",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "163.31",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-cf044cde93d6657589",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-a553a95498f145f3483d",
+            "quantity": "1",
+            "price": "163.31"
+          }
+        ]
+      },
+      "H60V8-e4563-e49609acd9c97339f5": {
+        "key": "H60V8-e4563-e49609acd9c97339f5",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "UNH",
+        "side": "BUY",
+        "quantity": "1",
+        "kind": "LMT",
+        "limit_price": "121.89",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-e49609acd9c97339f5",
+        "status": "Filled",
+        "filled": "1",
+        "fills": [
+          {
+            "id": "SIM-0e5e4cf4cd65c1cbf7f8",
+            "quantity": "1",
+            "price": "121.89"
+          }
+        ]
+      },
+      "H60V8-e4563-5b9d82f7f6bf199acc": {
+        "key": "H60V8-e4563-5b9d82f7f6bf199acc",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "MCD",
+        "side": "BUY",
+        "quantity": "6",
+        "kind": "LMT",
+        "limit_price": "161.02",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-5b9d82f7f6bf199acc",
+        "status": "Filled",
+        "filled": "6",
+        "fills": [
+          {
+            "id": "SIM-1413553b1d857f71b4e7",
+            "quantity": "6",
+            "price": "161.02"
+          }
+        ]
+      },
+      "H60V8-e4563-ff7ec08219533f2fc4": {
+        "key": "H60V8-e4563-ff7ec08219533f2fc4",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "PEP",
+        "side": "BUY",
+        "quantity": "6",
+        "kind": "LMT",
+        "limit_price": "146.52",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-ff7ec08219533f2fc4",
+        "status": "Filled",
+        "filled": "6",
+        "fills": [
+          {
+            "id": "SIM-4c8eca15a4db41490832",
+            "quantity": "6",
+            "price": "146.52"
+          }
+        ]
+      },
+      "H60V8-e4563-b2bd8707c4610da1d0": {
+        "key": "H60V8-e4563-b2bd8707c4610da1d0",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "META",
+        "side": "BUY",
+        "quantity": "10",
+        "kind": "LMT",
+        "limit_price": "95.72",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-b2bd8707c4610da1d0",
+        "status": "Filled",
+        "filled": "10",
+        "fills": [
+          {
+            "id": "SIM-59f984b45742af9f5e5b",
+            "quantity": "10",
+            "price": "95.72"
+          }
+        ]
+      },
+      "H60V8-e4563-519cfac0be29678a86": {
+        "key": "H60V8-e4563-519cfac0be29678a86",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NVDA",
+        "side": "BUY",
+        "quantity": "11",
+        "kind": "LMT",
+        "limit_price": "88.14",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-519cfac0be29678a86",
+        "status": "Filled",
+        "filled": "11",
+        "fills": [
+          {
+            "id": "SIM-b7aa89d659f601bc3c2e",
+            "quantity": "11",
+            "price": "88.14"
+          }
+        ]
+      },
+      "H60V8-e4563-fbccf26e10a0c3af12": {
+        "key": "H60V8-e4563-fbccf26e10a0c3af12",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NVDA",
+        "side": "SELL",
+        "quantity": "11",
+        "kind": "STP",
+        "limit_price": "88.12",
+        "stop_price": "74.919",
+        "reference": "virtual:H60V8-e4563-fbccf26e10a0c3af12",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-c2e4f063c24cfa6968": {
+        "key": "H60V8-e4563-c2e4f063c24cfa6968",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "META",
+        "side": "SELL",
+        "quantity": "10",
+        "kind": "STP",
+        "limit_price": "95.7",
+        "stop_price": "81.362",
+        "reference": "virtual:H60V8-e4563-c2e4f063c24cfa6968",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-b585acf9b3fff5cdd9": {
+        "key": "H60V8-e4563-b585acf9b3fff5cdd9",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "STP",
+        "limit_price": "121.87",
+        "stop_price": "103.6065",
+        "reference": "virtual:H60V8-e4563-b585acf9b3fff5cdd9",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-a968b7d21d69f9fdd6": {
+        "key": "H60V8-e4563-a968b7d21d69f9fdd6",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "STP",
+        "limit_price": "128.23",
+        "stop_price": "110.211",
+        "reference": "virtual:H60V8-e4563-a968b7d21d69f9fdd6",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-d07eb9476e421c120a": {
+        "key": "H60V8-e4563-d07eb9476e421c120a",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "PEP",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "146.5",
+        "stop_price": "124.542",
+        "reference": "virtual:H60V8-e4563-d07eb9476e421c120a",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-b8bc156b25dccb7357": {
+        "key": "H60V8-e4563-b8bc156b25dccb7357",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "157.33",
+        "stop_price": "133.7475",
+        "reference": "virtual:H60V8-e4563-b8bc156b25dccb7357",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-3ba8e4579a0a388bf2": {
+        "key": "H60V8-e4563-3ba8e4579a0a388bf2",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "MCD",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "161.0",
+        "stop_price": "136.86700000000002",
+        "reference": "virtual:H60V8-e4563-3ba8e4579a0a388bf2",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-6e2bf807f8bf2b526f": {
+        "key": "H60V8-e4563-6e2bf807f8bf2b526f",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "163.29",
+        "stop_price": "138.8135",
+        "reference": "virtual:H60V8-e4563-6e2bf807f8bf2b526f",
+        "status": "Cancelled",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-7afe34ab30264bb385": {
+        "key": "H60V8-e4563-7afe34ab30264bb385",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NVDA",
+        "side": "SELL",
+        "quantity": "11",
+        "kind": "STP",
+        "limit_price": "88.15",
+        "stop_price": "74.92750000000001",
+        "reference": "virtual:H60V8-e4563-7afe34ab30264bb385",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-b2000881917501d12e": {
+        "key": "H60V8-e4563-b2000881917501d12e",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "META",
+        "side": "SELL",
+        "quantity": "10",
+        "kind": "STP",
+        "limit_price": "97.56",
+        "stop_price": "82.926",
+        "reference": "virtual:H60V8-e4563-b2000881917501d12e",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-5b9ab03a8424cf1d60": {
+        "key": "H60V8-e4563-5b9ab03a8424cf1d60",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "UNH",
+        "side": "SELL",
+        "quantity": "8",
+        "kind": "STP",
+        "limit_price": "119.75",
+        "stop_price": "103.6065",
+        "reference": "virtual:H60V8-e4563-5b9ab03a8424cf1d60",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-b3e63f0b045ce2d60d": {
+        "key": "H60V8-e4563-b3e63f0b045ce2d60d",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "COP",
+        "side": "SELL",
+        "quantity": "7",
+        "kind": "STP",
+        "limit_price": "131.72",
+        "stop_price": "111.96199999999999",
+        "reference": "virtual:H60V8-e4563-b3e63f0b045ce2d60d",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-7d969103225dbfa692": {
+        "key": "H60V8-e4563-7d969103225dbfa692",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "PEP",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "149.58",
+        "stop_price": "127.143",
+        "reference": "virtual:H60V8-e4563-7d969103225dbfa692",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-3a17309f38729b95da": {
+        "key": "H60V8-e4563-3a17309f38729b95da",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "HD",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "156.04",
+        "stop_price": "133.7475",
+        "reference": "virtual:H60V8-e4563-3a17309f38729b95da",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-84edb48c64e0ad4de2": {
+        "key": "H60V8-e4563-84edb48c64e0ad4de2",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "MCD",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "158.85",
+        "stop_price": "136.86700000000002",
+        "reference": "virtual:H60V8-e4563-84edb48c64e0ad4de2",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      },
+      "H60V8-e4563-c14947274419e6c2be": {
+        "key": "H60V8-e4563-c14947274419e6c2be",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "NEE",
+        "side": "SELL",
+        "quantity": "6",
+        "kind": "STP",
+        "limit_price": "162.95",
+        "stop_price": "138.8135",
+        "reference": "virtual:H60V8-e4563-c14947274419e6c2be",
+        "status": "Submitted",
+        "filled": "0",
+        "fills": []
+      }
+    },
+    "commissions": {
+      "SIM-ac97e887a7d3c7acfd5d": {
+        "fee": "0.92892",
+        "currency": "USD"
+      },
+      "SIM-0de78291c4646a224791": {
+        "fee": "0.97470",
+        "currency": "USD"
+      },
+      "SIM-c1516d0fae7c58718d1e": {
+        "fee": "0.90706",
+        "currency": "USD"
+      },
+      "SIM-38b248927642304086ad": {
+        "fee": "0.89313",
+        "currency": "USD"
+      },
+      "SIM-e056aa7bf7c71c8d829f": {
+        "fee": "0.96068",
+        "currency": "USD"
+      },
+      "SIM-c31c1e24bf7022b8a20b": {
+        "fee": "0.89216",
+        "currency": "USD"
+      },
+      "SIM-062d6a3e957952afded9": {
+        "fee": "0.95720",
+        "currency": "USD"
+      },
+      "SIM-89177aa77ad65596a076": {
+        "fee": "0.9495",
+        "currency": "USD"
+      },
+      "SIM-acd8ef98bc2c78521ebd": {
+        "fee": "0.95914",
+        "currency": "USD"
+      },
+      "SIM-ff711179196d2e5ee31d": {
+        "fee": "0.13325",
+        "currency": "USD"
+      },
+      "SIM-0998c79904260f346a09": {
+        "fee": "0.10344",
+        "currency": "USD"
+      },
+      "SIM-61bb665eb5b735611d11": {
+        "fee": "0.15541",
+        "currency": "USD"
+      },
+      "SIM-f85f579fac68b6d11e3a": {
+        "fee": "0.16056",
+        "currency": "USD"
+      },
+      "SIM-62d971d0eefeffa55c71": {
+        "fee": "0.11868",
+        "currency": "USD"
+      },
+      "SIM-6b7b0e85bca5803e9078": {
+        "fee": "0.90090",
+        "currency": "USD"
+      },
+      "SIM-f6ffe2f76170b942b1cb": {
+        "fee": "0.68920",
+        "currency": "USD"
+      },
+      "SIM-09e6e166a0446a9020b7": {
+        "fee": "0.85184",
+        "currency": "USD"
+      },
+      "SIM-0bda9b39355a04a5a34b": {
+        "fee": "0.90696",
+        "currency": "USD"
+      },
+      "SIM-660d70af2c89cc2ae005": {
+        "fee": "0.78684",
+        "currency": "USD"
+      },
+      "SIM-6a899d198aa8b9a60385": {
+        "fee": "0.15735",
+        "currency": "USD"
+      },
+      "SIM-a553a95498f145f3483d": {
+        "fee": "0.16331",
+        "currency": "USD"
+      },
+      "SIM-0e5e4cf4cd65c1cbf7f8": {
+        "fee": "0.12189",
+        "currency": "USD"
+      },
+      "SIM-1413553b1d857f71b4e7": {
+        "fee": "0.96612",
+        "currency": "USD"
+      },
+      "SIM-4c8eca15a4db41490832": {
+        "fee": "0.87912",
+        "currency": "USD"
+      },
+      "SIM-59f984b45742af9f5e5b": {
+        "fee": "0.95720",
+        "currency": "USD"
+      },
+      "SIM-b7aa89d659f601bc3c2e": {
+        "fee": "0.96954",
+        "currency": "USD"
+      }
+    }
+  },
+  "blocked": null,
+  "account_cash_offset": "0",
+  "runtime": {
+    "drawdown": {
+      "episode_peak": 1.0039595270000001,
+      "paused_until": -1,
+      "recovery_until": -1,
+      "soft": false,
+      "paused": false,
+      "pending_flat": false,
+      "pending_half": false
+    },
+    "pending_cap": null,
+    "previous_close": {
+      "AAPL": 80.93,
+      "MSFT": 83.94,
+      "NVDA": 88.15,
+      "AMZN": 92.46,
+      "GOOGL": 95.65,
+      "META": 97.56,
+      "JPM": 99.18,
+      "BAC": 101.79,
+      "GS": 105.74,
+      "V": 110.16,
+      "JNJ": 113.75,
+      "PFE": 115.96,
+      "MRK": 117.52,
+      "UNH": 119.75,
+      "XOM": 123.36,
+      "CVX": 127.79,
+      "COP": 131.72,
+      "CAT": 134.3,
+      "HON": 135.91,
+      "DE": 137.84,
+      "PG": 141.06,
+      "KO": 145.38,
+      "PEP": 149.58,
+      "WMT": 152.56,
+      "COST": 154.34,
+      "HD": 156.04,
+      "MCD": 158.85,
+      "NEE": 162.95,
+      "DUK": 167.33,
+      "SO": 170.71
+    },
+    "blocked_until": {
+      "AMZN": 3189
+    },
+    "floors": {
+      "HD": 133.7475,
+      "NEE": 138.8135,
+      "COP": 111.96199999999999,
+      "UNH": 103.6065,
+      "MCD": 136.86700000000002,
+      "PEP": 127.143,
+      "META": 82.926,
+      "NVDA": 74.92750000000001
+    },
+    "seen_fills": [
+      "SIM-ac97e887a7d3c7acfd5d",
+      "SIM-0de78291c4646a224791",
+      "SIM-c1516d0fae7c58718d1e",
+      "SIM-38b248927642304086ad",
+      "SIM-e056aa7bf7c71c8d829f",
+      "SIM-c31c1e24bf7022b8a20b",
+      "SIM-062d6a3e957952afded9",
+      "SIM-89177aa77ad65596a076",
+      "SIM-acd8ef98bc2c78521ebd",
+      "SIM-ff711179196d2e5ee31d",
+      "SIM-0998c79904260f346a09",
+      "SIM-61bb665eb5b735611d11",
+      "SIM-f85f579fac68b6d11e3a",
+      "SIM-62d971d0eefeffa55c71",
+      "SIM-6b7b0e85bca5803e9078",
+      "SIM-f6ffe2f76170b942b1cb",
+      "SIM-09e6e166a0446a9020b7",
+      "SIM-0bda9b39355a04a5a34b",
+      "SIM-660d70af2c89cc2ae005",
+      "SIM-6a899d198aa8b9a60385",
+      "SIM-a553a95498f145f3483d",
+      "SIM-0e5e4cf4cd65c1cbf7f8",
+      "SIM-1413553b1d857f71b4e7",
+      "SIM-4c8eca15a4db41490832",
+      "SIM-59f984b45742af9f5e5b",
+      "SIM-b7aa89d659f601bc3c2e"
+    ],
+    "last_open": "2025-01-29",
+    "last_close": "2025-01-29",
+    "close_hash": "6c39e6b6e3f26edfdf018ac4f253805efc61a49ea1234e4b7c765303cb9efa55"
+  },
+  "derived": {
+    "cash": "2269.09590",
+    "positions": {
+      "AAPL": "0",
+      "MSFT": "0",
+      "NVDA": "11",
+      "AMZN": "0",
+      "GOOGL": "0",
+      "META": "10",
+      "JPM": "0",
+      "BAC": "0",
+      "GS": "0",
+      "V": "0",
+      "JNJ": "0",
+      "PFE": "0",
+      "MRK": "0",
+      "UNH": "8",
+      "XOM": "0",
+      "CVX": "0",
+      "COP": "7",
+      "CAT": "0",
+      "HON": "0",
+      "DE": "0",
+      "PG": "0",
+      "KO": "0",
+      "PEP": "6",
+      "WMT": "0",
+      "COST": "0",
+      "HD": "6",
+      "MCD": "6",
+      "NEE": "6",
+      "DUK": "0",
+      "SO": "0"
+    },
+    "reserved_cash": "0",
+    "reserved_sells": {
+      "AAPL": "0",
+      "MSFT": "0",
+      "NVDA": "11",
+      "AMZN": "0",
+      "GOOGL": "0",
+      "META": "10",
+      "JPM": "0",
+      "BAC": "0",
+      "GS": "0",
+      "V": "0",
+      "JNJ": "0",
+      "PFE": "0",
+      "MRK": "0",
+      "UNH": "8",
+      "XOM": "0",
+      "CVX": "0",
+      "COP": "7",
+      "CAT": "0",
+      "HON": "0",
+      "DE": "0",
+      "PG": "0",
+      "KO": "0",
+      "PEP": "6",
+      "WMT": "0",
+      "COST": "0",
+      "HD": "6",
+      "MCD": "6",
+      "NEE": "6",
+      "DUK": "0",
+      "SO": "0"
+    }
+  }
+}

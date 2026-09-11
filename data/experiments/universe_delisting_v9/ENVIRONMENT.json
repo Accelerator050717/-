@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-09-11T02:17:43.559001+00:00",
+  "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+  "executable": "M:\\ml项目\\.venv\\Scripts\\python.exe",
+  "installed": {
+    "wrds": false,
+    "norgatedata": false
+  },
+  "updater_standard_paths": {
+    "C:/Program Files/Norgate Data": false,
+    "C:/Program Files (x86)/Norgate Data": false
+  },
+  "user_confirmation": "No current subscription; complete local input boundary first",
+  "vendor_session_verified": false
+}

@@ -1,0 +1,11 @@
+{
+  "training_command": ".\\.venv\\Scripts\\python.exe 50_train_signal_objectives.py",
+  "training_exit_code": 0,
+  "training_result": "Completed training identities verified; no fits repeated.",
+  "evaluation_command": ".\\.venv\\Scripts\\python.exe 51_evaluate_signal_objectives.py",
+  "evaluation_exit_code": 0,
+  "evaluation_result": "Complete fixed v11 evaluation verified; no runs repeated, no reports rewritten.",
+  "additional_fits": 0,
+  "additional_replays": 0,
+  "note": "Both commands actually completed in the final verification step. Subsequent edits only normalized root document newlines and saved these verification receipts."
+}

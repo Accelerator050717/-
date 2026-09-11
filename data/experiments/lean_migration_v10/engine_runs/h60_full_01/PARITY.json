@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "daily.calendar",
+      "passed": true
+    },
+    {
+      "check": "positions.calendar",
+      "passed": true
+    },
+    {
+      "check": "positions.symbol_order",
+      "passed": true
+    },
+    {
+      "check": "daily.cash",
+      "passed": true,
+      "max_abs_error": 2.256456355098635e-09,
+      "tolerance": 0.01
+    },
+    {
+      "check": "daily.equity",
+      "passed": true,
+      "max_abs_error": 5.602487362921238e-10,
+      "tolerance": 0.01
+    },
+    {
+      "check": "daily.open_equity",
+      "passed": true,
+      "max_abs_error": 5.456968210637569e-10,
+      "tolerance": 0.01
+    },
+    {
+      "check": "daily.fees",
+      "passed": true,
+      "max_abs_error": 2.8457236567192012e-12,
+      "tolerance": 0.01
+    },
+    {
+      "check": "daily.cumulative_fees",
+      "passed": true,
+      "max_abs_error": 2.964952727779746e-10,
+      "tolerance": 0.01
+    },
+    {
+      "check": "daily.invested",
+      "passed": true,
+      "max_abs_error": 1.7025740817189217e-09,
+      "tolerance": 0.01
+    },
+    {
+      "check": "daily.episode_peak",
+      "passed": true,
+      "max_abs_error": 5.456968210637569e-10,
+      "tolerance": 0.01
+    },
+    {
+      "check": "daily.gross",
+      "passed": true,
+      "max_abs_error": 7.505107646466058e-14,
+      "tolerance": 1e-09
+    },
+    {
+      "check": "daily.paused",
+      "passed": true
+    },
+    {
+      "check": "daily.soft",
+      "passed": true
+    },
+    {
+      "check": "positions.units",
+      "passed": true,
+      "max_abs_error": 2.859223968698643e-11,
+      "tolerance": 1e-06
+    },
+    {
+      "check": "trades.count",
+      "passed": true,
+      "expected": 4951,
+      "actual": 4951
+    },
+    {
+      "check": "targets.count",
+      "passed": true,
+      "expected": 595,
+      "actual": 595
+    },
+    {
+      "check": "events.count",
+      "passed": true,
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "check": "trades.unique_batch_keys",
+      "passed": true
+    },
+    {
+      "check": "trades.unique_batch_keys",
+      "passed": true
+    },
+    {
+      "check": "trades.batch_identity",
+      "passed": true
+    },
+    {
+      "check": "trades.signed_notional",
+      "passed": true,
+      "max_abs_error": 1.1689422763083712e-09,
+      "tolerance": 0.01
+    },
+    {
+      "check": "trades.fee",
+      "passed": true,
+      "max_abs_error": 1.1689468837339234e-12,
+      "tolerance": 0.01
+    },
+    {
+      "check": "trades.cash_change",
+      "passed": true,
+      "max_abs_error": 1.1677769862217247e-09,
+      "tolerance": 0.01
+    },
+    {
+      "check": "trades.signed_units",
+      "passed": true,
+      "max_abs_error": 2.808508980933766e-11,
+      "tolerance": 1e-06
+    },
+    {
+      "check": "trades.proxy_fill",
+      "passed": true,
+      "max_abs_error": 5.684341886080802e-14,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "trades.observation_date",
+      "passed": true
+    },
+    {
+      "check": "targets.Date",
+      "passed": true
+    },
+    {
+      "check": "targets.observation_date",
+      "passed": true
+    },
+    {
+      "check": "targets.reason",
+      "passed": true
+    },
+    {
+      "check": "targets.reduce_only",
+      "passed": true
+    },
+    {
+      "check": "targets.weights",
+      "passed": true,
+      "max_abs_error": 2.631228568361621e-14,
+      "tolerance": 1e-09
+    },
+    {
+      "check": "engine.cash_ledger",
+      "passed": true,
+      "max_abs_error": 1.4551915228366852e-11,
+      "tolerance": 0.01
+    },
+    {
+      "check": "engine.position_ledger",
+      "passed": true,
+      "max_abs_error": 3.410605131648481e-13,
+      "tolerance": 1e-06
+    },
+    {
+      "check": "engine.trade_notional",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 0.01
+    },
+    {
+      "check": "engine.trade_cash",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 0.01
+    },
+    {
+      "check": "engine.trade_fee",
+      "passed": true,
+      "max_abs_error": 4.440892098500626e-16,
+      "tolerance": 0.01
+    },
+    {
+      "check": "engine.daily_fees",
+      "passed": true,
+      "max_abs_error": 4.156675004196586e-13,
+      "tolerance": 0.01
+    },
+    {
+      "check": "engine.close_equity",
+      "passed": true,
+      "max_abs_error": 7.275957614183426e-12,
+      "tolerance": 0.01
+    },
+    {
+      "check": "engine.no_borrowing",
+      "passed": true
+    },
+    {
+      "check": "engine.no_shorting",
+      "passed": true
+    },
+    {
+      "check": "engine.final_flat",
+      "passed": true
+    },
+    {
+      "check": "engine.risk_reduce_no_buys",
+      "passed": true,
+      "buy_orders": 0
+    },
+    {
+      "check": "engine.no_2026",
+      "passed": true
+    },
+    {
+      "check": "engine.fill_keys_unique",
+      "passed": true
+    },
+    {
+      "check": "engine.order_event_keys_unique",
+      "passed": true
+    },
+    {
+      "check": "engine.only_expected_order_statuses",
+      "passed": true
+    },
+    {
+      "check": "engine.trade_order_counts",
+      "passed": true,
+      "trade_rows": 4951,
+      "filled_event_rows": 4951,
+      "recorded_orders": 4951
+    },
+    {
+      "check": "engine.trade_fill_identity",
+      "passed": true
+    },
+    {
+      "check": "engine.fill_callback_units",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-06
+    },
+    {
+      "check": "engine.fill_callback_price",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "engine.fill_callback_fee",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 0.01
+    },
+    {
+      "check": "engine.fill_session_date",
+      "passed": true
+    },
+    {
+      "check": "engine.fill_phase_clock_including_dst",
+      "passed": true
+    },
+    {
+      "check": "engine.fill_callbacks_chronological",
+      "passed": true
+    },
+    {
+      "check": "engine.trade_reasons_known",
+      "passed": true
+    },
+    {
+      "check": "engine.trade_reason_phase",
+      "passed": true
+    },
+    {
+      "check": "engine.trade_dates_chronological",
+      "passed": true
+    },
+    {
+      "check": "engine.cross_stage_order",
+      "passed": true
+    },
+    {
+      "check": "engine.no_intraday_borrowing",
+      "passed": true,
+      "minimum_post_fill_cash": 2048.3172856344127
+    },
+    {
+      "check": "engine.observation_audit_count",
+      "passed": true
+    },
+    {
+      "check": "engine.observation_audit_unique",
+      "passed": true
+    },
+    {
+      "check": "engine.observation_audit_schedule",
+      "passed": true
+    },
+    {
+      "check": "engine.observation_strictly_before_execution",
+      "passed": true
+    },
+    {
+      "check": "engine.risk_window_ends_at_observation",
+      "passed": true
+    }
+  ],
+  "differences": [],
+  "engine_metrics": {
+    "first_date": "2016-01-05",
+    "final_date": "2025-12-29",
+    "sessions": 2511,
+    "trades": 4951,
+    "final_equity_usd": 39939.27415271494,
+    "total_return": 2.9939274152714943,
+    "cagr": 0.14880742259546298,
+    "max_drawdown": -0.1773887928601363,
+    "annualized_vol": 0.12590147802497126,
+    "average_gross": 0.6977372708019192,
+    "total_fees_usd": 2103.348752508915,
+    "stop_exits": 146,
+    "gap_stops": 33
+  },
+  "engine_output_sha256": {
+    "daily.csv": "e20d736556aff791b5efe2fd8f849eac09a81e203881f8d7cf8d4f042be21ab7",
+    "positions.csv": "f2024221f9b0bfab713dd421bb81a693fea1d5d078bfa737269b347328c13b05",
+    "trades.csv": "2d8cdf315985eb69f02fd8bf6cceefff5e6c2921312cdee79ef214268f669399",
+    "targets.csv": "9ffa82b5269e0d60d89b06a0b9e21c578be703fd52291791943ef8db83680962",
+    "events.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "order_events.csv": "91f5d9ba5792642c616f5f5250f2e37ea8f7482711093d95c4a7c8ed1ccfbe48",
+    "observation_audit.csv": "047dabd4e49ea20cbade1045d3ff2f96fa248fd0bf50c167d3638721a39c0801",
+    "completion.json": "96ca17085dd923bd059584a20497eb99af140c824d8b138281d516e1b5e5ff69",
+    "executed_config.json": "5f8ffeeedd7bdf20c17c3c89c813b1b75d167da199c717791211cce3a55104c8",
+    "lean_runtime.patch": "805efbace7c74ff3a93ff3c4f4e039af9c37a800dc20ca9df60eeba70d793c36"
+  },
+  "engine_run_directory": "M:\\ml项目\\data\\experiments\\lean_migration_v10\\engine_runs\\h60_full_01",
+  "native_run_record_sha256": "b8e237c215e031b82206ce472d2258f95068f2270550d85c9498095c3d6b5dc3",
+  "comparator_sha256": "ba399b650225c56c341ac85e78b0d05d8edea98cf3c482d970e40d37bb316c7f",
+  "runtime_patch_sha256": "805efbace7c74ff3a93ff3c4f4e039af9c37a800dc20ca9df60eeba70d793c36",
+  "new_fits": 0,
+  "prices_2026_accessed": false,
+  "profitability_decision": "REJECT_NO_2026",
+  "evidence": "Actual LEAN order engine with explicit adjusted daily-bar research fill proxy; not broker integration"
+}

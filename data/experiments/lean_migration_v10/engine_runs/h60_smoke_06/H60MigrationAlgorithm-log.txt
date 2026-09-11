@@ -1,0 +1,4 @@
+2016-01-05 00:00:00 Launching analysis for H60MigrationAlgorithm with LEAN Engine v2.5.0.0
+2016-01-05 00:00:00 Historical-only H60 proxy: actual daily prices; artificial OPEN/RANGE/CLOSE order.
+2016-01-05 09:30:00 Warning: Due to brokerage limitations, orders will be rounded to the nearest lot size of 0.000000000001
+2016-02-02 16:00:00 Algorithm Id:(H60MigrationAlgorithm) completed in 1.91 seconds at 1k data points per second. Processing total of 1,801 data points.

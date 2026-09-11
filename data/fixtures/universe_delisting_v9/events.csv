@@ -1,0 +1,6 @@
+event_id,security_id,kind,effective_at,available_at,cash_per_share,source_id
+sim_a_active,SIM_A,active,2023-10-02T09:30:00-04:00,2023-10-01T23:59:59-04:00,,fiction
+sim_b_active,SIM_B,active,2023-10-02T09:30:00-04:00,2023-10-01T23:59:59-04:00,,fiction
+sim_c_active,SIM_C,active,2023-10-04T09:30:00-04:00,2023-10-02T16:00:00-04:00,,fiction
+sim_a_cash,SIM_A,cash_entitlement,2023-10-05T09:30:00-04:00,2023-10-05T16:00:00-04:00,50,fiction
+sim_b_unknown,SIM_B,unknown_terminal,2023-10-06T09:30:00-04:00,2023-10-06T16:00:00-04:00,,fiction

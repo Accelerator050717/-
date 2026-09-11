@@ -1,0 +1,15 @@
+diff --git a/Common/Python/PythonInitializer.cs b/Common/Python/PythonInitializer.cs
+index 8810fff..86c1acb 100644
+--- a/Common/Python/PythonInitializer.cs
++++ b/Common/Python/PythonInitializer.cs
+@@ -83,6 +83,10 @@ namespace QuantConnect.Python
+                 try
+                 {
+                     var pyLock = Py.GIL();
++                    // Python.Runtime.Shutdown releases the GIL itself. Its outer
++                    // guard must not finalize during the shutdown garbage collection;
++                    // disposing it afterwards would release an already released GIL.
++                    GC.SuppressFinalize(pyLock);
+                     Log.Trace($"PythonInitializer.Shutdown(): calling engine shutdown...");
+                     PythonEngine.Shutdown();
+                 }

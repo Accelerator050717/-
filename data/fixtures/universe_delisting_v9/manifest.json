@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "synthetic_fixture",
+  "coverage_scope": "Three fictitious securities; no real prices or returns",
+  "sources": {
+    "fiction": {
+      "title": "Invented test data",
+      "published_at": null,
+      "time_precision": "synthetic_exact"
+    }
+  },
+  "full_universe_validated": false,
+  "prices_2026_accessed": false,
+  "source_checked_date_utc": "2026-09-11",
+  "file_sha256": {
+    "memberships.csv": "89cb0c11a9ac3f6c96466239ad31cd407ded455c98fa4b214375027e8ff3460f",
+    "events.csv": "84faa7dc9d08a0de0103593bd408d4d9b8f1b4e53172b1eb9121d39d1cef7b96"
+  }
+}

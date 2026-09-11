@@ -1,0 +1,12 @@
+{
+  "prepared_at_utc": "2026-09-11T03:26:33.238791+00:00",
+  "base_commit": "9d98008d72f096c2c1fa33a998f000fe62c48bb5",
+  "branch": "main",
+  "git_files": 630,
+  "local_only_files": 333,
+  "git_bytes": 51868185,
+  "local_only_bytes": 184817132,
+  "old_inventory_sha256": "cea164e4f6d2cc2a9d5e9546841880337125c2563384dd0e9fd321461dfc41e1",
+  "old_inventory_preserved": true,
+  "note": "Snapshot lists changed/new review source and v8-v11 artifacts. Its own upload metadata are excluded to avoid recursive hashes. No training, simulation, market acquisition, or broker code was run."
+}

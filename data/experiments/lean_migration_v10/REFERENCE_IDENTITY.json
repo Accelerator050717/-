@@ -1,0 +1,12 @@
+{
+  "directory": "M:\\ml项目\\data\\experiments\\h60_risk_execution_v8\\backtests",
+  "files": {
+    "stop_on_soft_off_cost10_daily.csv": "1712949bada43c9a4f50cca11893f5950e92e239951e690bce94dbe50aa23fed",
+    "stop_on_soft_off_cost10_trades.csv": "43eb05ec09ab057019089428c72cc61367cb5f03da7f2a93d0e3b33e7968a8fb",
+    "stop_on_soft_off_cost10_positions.csv": "69fe54160ee041b26bd3bc098267a22f8c7e38c199aaec6ac48ecaf77f2ff4d5",
+    "stop_on_soft_off_cost10_targets.csv": "5fef8034f342d6ba3e6d0e09dbecec74738fd9340cb6e5aa64cbe2bb91e0b2b0",
+    "stop_on_soft_off_cost10_events.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "stop_on_soft_off_cost10_metrics.json": "23b20d3014ee9cee643648cccd6fc2020c6895b265e999cd7263ff12fe5e45db"
+  },
+  "base_commit": "9d98008d72f096c2c1fa33a998f000fe62c48bb5"
+}

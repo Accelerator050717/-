@@ -1,0 +1,31 @@
+{
+  "completed_at_utc": "2026-09-09T08:42:10.356062+00:00",
+  "fixture": "All quotes, broker facts and account balances are fictitious",
+  "real_os_processes": 3,
+  "forced_abrupt_exits": 2,
+  "steps": [
+    {
+      "phase": "crash_after_timeout",
+      "process_returncode": 73,
+      "expected": 73
+    },
+    {
+      "phase": "recover_then_crash_during_cancel",
+      "process_returncode": 74,
+      "expected": 74
+    },
+    {
+      "phase": "final_recovery",
+      "process_returncode": 0,
+      "expected": 0
+    }
+  ],
+  "all_checks_passed": true,
+  "source_sha256": {
+    "h60_execution.py": "6ce5a40666f7967740f50d7bd23f6e662788c38e2c1c9d0235a1eefefc7f3c19",
+    "44_test_h60_recovery.py": "e0ff35b67c55f2b1e313535ac20cad0350235da076f5454e4d3bad1bc727ead0"
+  },
+  "real_paper_responses": 0,
+  "new_fits": 0,
+  "prices_2026_accessed": false
+}
