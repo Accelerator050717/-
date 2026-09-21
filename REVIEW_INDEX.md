@@ -1,14 +1,17 @@
 # 最新源码审阅入口
 
-最新更新：2026-09-11 UTC（洛杉矶09-10），**v11新增30次训练、21次固定回放；收益目标仍未达标，不升级模型**。先读[v11完整结果](data/experiments/h60_signal_objectives_v11/REPORT.md)、[事前计划](data/experiments/h60_signal_objectives_v11/PLAN.md)、[30次训练及模型SHA](data/experiments/h60_signal_objectives_v11/TRAINING_DETAILS.md)和[全部验收](data/experiments/h60_signal_objectives_v11/GATES.json)。
+最新更新：2026-09-21，**v12年度训练截止比较完成：10次新拟合、14次新回放；更新协议未改善，仍未达到30%净年化目标，不升级模型。** 先读[v12完整报告](data/experiments/h60_training_cutoff_v12/REPORT.md)、[事前计划](data/experiments/h60_training_cutoff_v12/PLAN.md)、[10次训练和全部模型SHA](data/experiments/h60_training_cutoff_v12/TRAINING_DETAILS.md)、[成对差值](data/experiments/h60_training_cutoff_v12/pair_deltas.csv)和[验收](data/experiments/h60_training_cutoff_v12/GATES.json)。
 
-本次快照同步当前v8—v11源码与既有结果，不训练、不重跑回测、不获取行情或启动交易。[本次上传材料说明](review_upload/sync_v8_v11_20260911/README.md)、[最新逐文件清单](review_upload/sync_v8_v11_20260911/inventory.csv)和[新增Git外材料](review_upload/sync_v8_v11_20260911/large_artifacts.csv)对应当前上传；精确版本以包含本文件的Git提交为准，远端核验SHA见交付回复。冻结报告中的“未提交/推送”描述保留其写作时状态。
+本轮基于8b70778217cc2e0405cd20b68e4a3ba9f51b6cd9完成单因素实验、必要检查和上传；没有获取行情、使用2026或发送真实/paper订单。[v12上传说明](review_upload/sync_v12_20260921/README.md)、[新增大文件路径/大小/哈希](review_upload/sync_v12_20260921/large_artifacts.csv)补充原[v8—v11清单](review_upload/sync_v8_v11_20260911/README.md)。旧结果及旧清单完整保留，精确提交以包含本文件的Git版本为准。
 
-- 2016-01-05—2025-12-29、10bp普通单边成本：原H60名次14.88% CAGR/17.74%最大回撤；普通收益幅度16.29%/17.85%；保护路径幅度16.18%/15.84%；保护路径名次15.30%/18.20%。同预算简单H60为20.83%/21.15%。所有新方案均未达到最低30%收益目标，也未胜过该简单对照。
-- 四格只改变训练目标，保留81特征、Ridge参数、原年度划分及v8完整保护规则；复用10份原模型及21条v8控制结果。全部成本/压力、年度、交易原因、预测与模型文件见[v11目录](data/experiments/h60_signal_objectives_v11)、[完整42条结果](data/experiments/h60_signal_objectives_v11/all_results.csv)、[材料哈希](data/experiments/h60_signal_objectives_v11/ARTIFACTS.csv)。原v8/v9/v10成果保留。
-- 新入口：[50训练](50_train_signal_objectives.py) → [51固定评估](51_evaluate_signal_objectives.py)；标签实现见[h60_path_labels](h60_path_labels.py)。在项目根目录用`.\.venv\Scripts\python.exe 50_train_signal_objectives.py`及`51_evaluate_signal_objectives.py`运行，完成目录重跑只校验、不追加训练。原始输入必须先按上传清单恢复。全新研究需另设目录和预算，不覆盖冻结结果。
-- 单笔固定15%保护标签不等于实际组合收益；所有标签仍等共同60日区间结束才成熟。没有新增特征、改变止损、加杠杆、使用2026行情、接券商或替换LEAN/paper模型。当前仍无盈利验证通过的部署候选。
-- 下一轮唯一优先问题见[NEXT_QUESTION](data/experiments/h60_signal_objectives_v11/NEXT_QUESTION.md)：固定原H60，检验每年开始前用全部已成熟标签更新模型。2025旧训练只用到2023年末成熟标签；是否应纳入当时已成熟的2024样本尚未训练验证，不需要新订阅。历史股票池缺口仍保留；本次上传不执行该研究。
+- 2016-01-05—2025-12-29、10bp普通单边成本：完整保护A净CAGR14.88%/全历史回撤17.74%，B13.69%/19.55%；同预算简单H60 A20.83%/21.15%，B18.22%/25.01%。共同2,453成熟日期Rank IC由0.1127降至0.0939。全部35条主/压力结果见[all_results](data/experiments/h60_training_cutoff_v12/all_results.csv)，14条B新结果及21条原A/SPY结果均核对账本；未用最好相位代替主结果。
+- B保留原rank_60、81特征、Ridge(100,svd)，只改变年度部署前可用训练集；重新从完整面板筛选Date与exit_60均早于当年起点。2025训练78,300→85,860行，含1,830条原边界剔除行；全部75,240预测键保留。详见[53训练](53_train_annual_cutoff.py)、[独立检查](data/experiments/h60_training_cutoff_v12/INDEPENDENT_TRAINING_CHECK.json)。旧A协议不是泄漏错误，B上一年已纳入拟合，不能再称验证集。
+- 运行/复核：现有`.venv\Scripts\python.exe`（Python3.12.2、requirements.txt，无新增依赖）。先[52旧v11只读验证](52_verify_frozen_research.py)，再53（完成后仅核验）、[54 --check-only](54_evaluate_training_cutoff.py)，[55汇总](55_summarize_annual_cutoff.py)只读原结果写报告。新计算须遵守冻结计划和预算，完成目录不覆盖。
+- 52保留旧生成提交9d98008…及源码身份，用上传8b707…锚定原清单；当前复核提交/验证器哈希单列。703个唯一文件验证通过，提交号变化允许，真实源码或输入/模型/预测/结果变动仍拒绝。旧50源码和TRAINING_IDENTITY没有重写；**完成v11的只读复核请用52，旧50会因HEAD变化拒绝，不能作为当前复核命令**。
+- 全账户30%预算按连续历史高水位，不随风险周期恢复重置。现有研究统计已独立核对；[虚构两次亏损/恢复](data/experiments/h60_training_cutoff_v12/drawdown_check/README.md)出现42.52%全历史回撤，证明20%周期暂停不是30%账户上限。未在主实验混入新风险控制。下一步唯一优先：[全账户高水位控制及收益代价](data/experiments/h60_training_cutoff_v12/NEXT_QUESTION.md)，停止沿训练截止继续扫参数。
+- A、B均未达30%收益目标，B拒绝升级；无独立验证通过模型，无2026候选冻结；真实paper回报和前瞻业绩均无新增。v8工程配置及v10代理继续使用原模型，没有切换为B。
+
+v11历史成果保留：[完整报告](data/experiments/h60_signal_objectives_v11/REPORT.md)、[30次训练](data/experiments/h60_signal_objectives_v11/TRAINING_DETAILS.md)、[42条结果](data/experiments/h60_signal_objectives_v11/all_results.csv)。v11比较学习目标，最佳新增净CAGR16.29%仍未达标；其NEXT_QUESTION已由本轮v12执行，旧文档保留当时状态。原v8/v9/v10、v5/v6/v7与0/98未过记录均保留。
 
 ## 保留的v10 LEAN迁移
 
@@ -31,7 +34,9 @@ v10 LEAN 研究代理迁移已通过。见[v10结果与限制](data/experiments/
 
 OPEN 09:30／RANGE 12:00／CLOSE 16:00是人工阶段顺序，RANGE使用整日日线Low，不能解释为中午已知报价；调整价格和碎股仅用于与旧研究口径一致。[实际运行配置](data/experiments/lean_migration_v10/engine_runs/h60_full_01/executed_config.json)为`backtesting`、`live-mode=false`、本地文件数据源；[完成记录](data/experiments/lean_migration_v10/engine_runs/h60_full_01/completion.json)和[进程记录](data/experiments/lean_migration_v10/runtime/h60_full_01.run.json)对应2511日、4951笔历史代理成交及退出码0。
 
-v11三组新模型已在v11目录完成开发评估且均未通过收益门槛，未接入此LEAN入口。v8的[26笔虚构执行记录](data/experiments/h60_risk_execution_v8/execution_v5/completion.json)明确标记报价/成交虚构、真实paper成交0、前瞻观察0；它的持久化恢复功能尚未迁入LEAN。最近保留的[IBKR只读探测](data/experiments/h60_risk_execution_v8/IBKR_READINESS.json)为2026-09-09，未连接、未确认paper身份；本次上传未重新探测，不能据旧记录推断此刻TWS状态。
+v11三组新模型及v12年度更新B均未通过收益门槛，未接入此LEAN入口。v8的[26笔虚构执行记录](data/experiments/h60_risk_execution_v8/execution_v5/completion.json)明确标记报价/成交虚构、真实paper成交0、前瞻观察0；它的持久化恢复功能尚未迁入LEAN。最近保留的[IBKR只读探测](data/experiments/h60_risk_execution_v8/IBKR_READINESS.json)为2026-09-09，未连接、未确认paper身份；本轮未重新探测，不能据旧记录推断此刻TWS状态。
+
+当前具体缺口：原生美股报价/公司行动、真实paper运行入口、部分成交期间的持续保护、保护撤换窗口及长期断线补账。不能删除v10的历史模式限制后直接用于paper；v8原型已实现的功能也不等于LEAN集成已完成。
 
 ## 保留的v9数据接入口
 

@@ -1,0 +1,13 @@
+{
+  "inventory_rows_checked": 179,
+  "v12_artifacts_verified": 174,
+  "old_tracked_business_and_artifacts_unchanged": true,
+  "old_ignore_rules_preserved": true,
+  "new_large_files_local_ignored": 57,
+  "review_document_links_resolve": true,
+  "staged_exact_allowlist": 129,
+  "staged_blobs_match_disk_bytes": true,
+  "diff_check": "passed with cr-at-eol to preserve frozen CRLF",
+  "no_strategy_modifications": true,
+  "base_commit": "8b70778217cc2e0405cd20b68e4a3ba9f51b6cd9"
+}

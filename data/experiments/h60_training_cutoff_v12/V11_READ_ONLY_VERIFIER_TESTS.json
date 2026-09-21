@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-09-21T19:00:28.507082+00:00",
+  "command": ".venv\\Scripts\\python.exe -B -m unittest discover -s tests -p test_frozen_research_verifier.py -v",
+  "exit_code": 0,
+  "test_methods_passed": 6,
+  "subcases_frozen_input_model_prediction_result": 5,
+  "synthetic_test_data": true,
+  "actual_frozen_archive_verified": true,
+  "verification_report": "V11_READ_ONLY_VERIFICATION.json",
+  "new_fits": 0,
+  "strategy_replays": 0,
+  "source_sha256": {
+    "52_verify_frozen_research.py": "410eb0558362af296af8c505fd2e2255f9638738e9be42a8ae4b7168ba9645a1",
+    "tests\\test_frozen_research_verifier.py": "7ee58659dcc683398376cda424d992e4ecf55d67b990ef5812f44b8791e34195"
+  }
+}

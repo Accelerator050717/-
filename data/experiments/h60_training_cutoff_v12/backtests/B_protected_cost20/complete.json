@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "960e1a8970fd0c03d606cf8cbd8009a92c78a495b0a983b205dae414324011ed",
+  "files": [
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_protected_cost20/daily.csv",
+      "size_bytes": 667976,
+      "sha256": "531eb1bc255d057e1010c2ebc7e509ec76a4e92bac10cc7ef73ce9ebece2d99f"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_protected_cost20/trades.csv",
+      "size_bytes": 879738,
+      "sha256": "06030f5cc062019d7dc2c2157c4b10edce277a8949b306e528c68dd5070172cd"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_protected_cost20/positions.csv",
+      "size_bytes": 671760,
+      "sha256": "a75adcabd0f031efd7a52264440ee040dec0ef6735f57386ef938ade8a1764ae"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_protected_cost20/targets.csv",
+      "size_bytes": 150492,
+      "sha256": "0180211654708a4175c09d0c6f47490ae898489555bf10c648f3398539278a06"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_protected_cost20/events.csv",
+      "size_bytes": 149,
+      "sha256": "82f8dcd5ec0e4212ad95d25e6c4721f6543dd86f8272c8f2dc6c84c9cc40dd63"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_protected_cost20/metrics.json",
+      "size_bytes": 1015,
+      "sha256": "9da493b14fda32245db7e2acdab4a1a4eeb3a56a963df78df3f6b00fe2df13fd"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+protocol,mean_rank_ic,mature_dates,prediction_dates,unmatured_prediction_dates_retained
+A,0.11268334114047089,2453,2508,55
+B,0.09392317504569782,2453,2508,55

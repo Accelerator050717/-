@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "270d1f9ff5963115ffc94a18f05341e154ec15eda4803737916bb3ec552c86a5",
+  "source_sha256": {
+    "53_train_annual_cutoff.py": "bc0ed9ac553f2e5784736127da499b1894208f66ab2b2bc900fb08146dbc0c0a",
+    "research_features.py": "d8e07f198ff34e537e572e5cf6681f46deed41ef62b3aaef14d5bb7bd2fbe3f1",
+    "research_horizons.py": "3aaf31863331b46fab289a078b35e56ad1bd12f654f94413a52dbcaa38a64dcd",
+    "h60_research_inputs.py": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d",
+    "profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+    "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf"
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  }
+}

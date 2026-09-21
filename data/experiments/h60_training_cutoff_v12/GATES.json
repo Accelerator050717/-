@@ -1,0 +1,21 @@
+{
+  "research_improvement": false,
+  "research_improvement_rule": "Protected B CAGR exceeds A at both cost10 and cost20; all seven B full-history drawdowns remain within 30%.",
+  "protected_numerical_objectives": {
+    "net_cagr_at_least_30": false,
+    "full_history_drawdown_within_30": true
+  },
+  "protected_numerical_objectives_met": false,
+  "all_fixed_pressure_positive_and_drawdown_within_30": true,
+  "beats_admissible_same_budget_simple_cagr": false,
+  "development_gate_passed": false,
+  "preferred_drawdown_within_20": true,
+  "aspiration_cagr_50": false,
+  "protected_beats_same_protocol_simple_cagr": false,
+  "simple_diagnostic_only": true,
+  "independent_validation_passed": false,
+  "candidate_frozen_for_2026": false,
+  "prices_2026_accessed": false,
+  "model_promoted_to_lean_or_paper": false,
+  "decision": "REJECT_NO_2026"
+}

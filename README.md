@@ -1,10 +1,14 @@
 # 美股机器学习量化：边教边搭
 
-源码审阅请先看 [REVIEW_INDEX.md](REVIEW_INDEX.md)。最新工作为[v11训练目标比较](data/experiments/h60_signal_objectives_v11/REPORT.md)：30次新年度拟合、21次新回放，复用10份原模型及21条控制结果。普通收益幅度16.29% CAGR/17.85%回撤，保护路径幅度16.18%/15.84%，保护路径名次15.30%/18.20%；均未达到最低30%收益目标，拒绝升级，2026行情仍封存。见[计划](data/experiments/h60_signal_objectives_v11/PLAN.md)、[训练明细](data/experiments/h60_signal_objectives_v11/TRAINING_DETAILS.md)和[下一轮唯一问题](data/experiments/h60_signal_objectives_v11/NEXT_QUESTION.md)。
+源码审阅请先看 [REVIEW_INDEX.md](REVIEW_INDEX.md)。最新[v12年度训练截止实验](data/experiments/h60_training_cutoff_v12/REPORT.md)完成10次新拟合、14次新回放，复用10份原模型及21条控制结果。原rank_60/81特征/Ridge/风控不变，部署前使用全部成熟标签的B使完整保护净CAGR14.88%→13.69%、全历史回撤17.74%→19.55%；简单H60也20.83%→18.22%。未改善、未达30%收益目标，不升级模型，2026仍封存。见[计划](data/experiments/h60_training_cutoff_v12/PLAN.md)、[训练明细](data/experiments/h60_training_cutoff_v12/TRAINING_DETAILS.md)、[完整配对结果](data/experiments/h60_training_cutoff_v12/pair_deltas.csv)。
 
-本次Git快照同步v8—v11已完成成果，未新增实验或交易。[最新上传清单及增量ZIP](review_upload/sync_v8_v11_20260911/README.md)补充首次上传清单；原报告中的提交状态和根文档哈希是当时的历史记录，不能代替本次清单。LEAN导入预测、重新生成目标与订单，采用自定义历史代理成交模型；完整数据流和paper证据边界见审阅入口。
+本次同步新增v12成果，旧v8—v11及所有原材料保留。[v12上传清单及增量ZIP](review_upload/sync_v12_20260921/README.md)补充此前清单；未获取行情、启动交易或升级LEAN/paper。LEAN仍导入原预测、生成目标和订单，采用人工阶段与自定义立即全额代理成交；完整数据流和证据边界见审阅入口。
 
-运行顺序：项目根目录`.\.venv\Scripts\python.exe 50_train_signal_objectives.py`，然后`.\.venv\Scripts\python.exe 51_evaluate_signal_objectives.py`。已完成实验重跑只核验冻结身份，不追加拟合/回放；新实验另设预算与目录。没有修改原交易风控或替换执行模型。
+复核顺序：项目根目录`.\.venv\Scripts\python.exe -B 52_verify_frozen_research.py`核验旧v11；再运行`53_train_annual_cutoff.py`（完成后仅核验）及`54_evaluate_training_cutoff.py --check-only`。`55_summarize_annual_cutoff.py`只从已保存结果写报告。依赖沿用requirements.txt及Python3.12.2，无新增安装。52区分生成提交与当前复核提交，保留真实源码/输入/模型/预测/结果哈希检查；旧50保持冻结且会因HEAD变化拒绝，不再作为只读入口。
+
+现有20%硬暂停按可重置风险周期计算，不能称30%全账户上限；连续历史高水位统计不会重置。虚构两次亏损/恢复已检出42.52%全历史回撤。下一步唯一优先见[全账户高水位控制及收益代价](data/experiments/h60_training_cutoff_v12/NEXT_QUESTION.md)，它另立实验，本轮不改变策略。继续盈利研究不能靠沿本轮截止方向扫参数来宣称质变。
+
+保留[v11训练目标比较](data/experiments/h60_signal_objectives_v11/REPORT.md)：30次新训练，最佳新增16.29% CAGR，仍未达目标。它提出的年度截止问题已经由v12回答，旧报告保留当时状态。
 
 保留[v10 LEAN研究代理迁移](data/experiments/lean_migration_v10/REPORT.md)：真实引擎运行2511日/4951笔成交，与原H60账本对齐，退出码0；该轮新增训练0。仍是调整日线与碎股代理，不是IBKR交易入口。源码和运行顺序见[迁移说明](lean_migration/README.md)。
 

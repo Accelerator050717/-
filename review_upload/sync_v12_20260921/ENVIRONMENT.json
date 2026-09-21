@@ -1,0 +1,14 @@
+{
+  "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+  "interpreter": "M:\\ml项目\\.venv\\Scripts\\python.exe",
+  "requirements_sha256": "ec2e3b7e050aaf2752fd59c6b895ba74b138f995fa3befeebbbbd0f6042ef8fa",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "new_dependencies_installed": 0
+}

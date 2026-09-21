@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "960e1a8970fd0c03d606cf8cbd8009a92c78a495b0a983b205dae414324011ed",
+  "files": [
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_phase4/daily.csv",
+      "size_bytes": 659312,
+      "sha256": "512a235fd3800d6224c40f1a8abd25b458c159628aedf623420ba455f43ae2b4"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_phase4/trades.csv",
+      "size_bytes": 491533,
+      "sha256": "5768d0246e0e03251f3f2025205f6f3d15887fc14f2646621a9a35db4a00d04a"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_phase4/positions.csv",
+      "size_bytes": 544226,
+      "sha256": "00a7ede14aba230b8fc5c9f57a168f90d58782964e80148e37a8b793941f6ea9"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_phase4/targets.csv",
+      "size_bytes": 94762,
+      "sha256": "3eb9fe5a57a9ea3140add6735627ae94e25e7eb0ee3e31a2d2956b64781aa8cf"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_phase4/events.csv",
+      "size_bytes": 151,
+      "sha256": "05b11feadf262310d671ba4bb6ae9960251bb72734b57376c25eb65dae1a2fe7"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_phase4/metrics.json",
+      "size_bytes": 997,
+      "sha256": "cb774cd4b2cb6e81a190b30437c75c0fb76cd5b0a07a7d4ec8ef883f93df2bef"
+    }
+  ]
+}

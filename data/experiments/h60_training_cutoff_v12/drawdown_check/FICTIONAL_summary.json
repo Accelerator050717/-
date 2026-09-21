@@ -1,0 +1,44 @@
+{
+  "data_kind": "FICTIONAL: invented prices, scores, symbols and dates; not historical performance",
+  "engine": "profit_priority_strategy.simulate, unchanged v8 protected policy with soft disabled",
+  "initial_equity": 1.0,
+  "gap_count": 2,
+  "fictional_stock_gap_fraction": -0.3,
+  "halts": 2,
+  "resumes": 2,
+  "gap_stop_exits": 16,
+  "final_equity": 0.5755611331401979,
+  "full_history_max_drawdown": -0.4252123311432642,
+  "minimum_reported_episode_drawdown": -0.24091103284845194,
+  "full_history_budget_30_breached": true,
+  "engine_statistic_matches_independent_stream": true,
+  "serialized_statistic_continuation_matches_whole_history": true,
+  "diagnostic_checkpoint": {
+    "account_high_water": 1.0013456521866595,
+    "worst_account_drawdown": -0.24091103284845194,
+    "source": "fictional_diagnostic_only"
+  },
+  "checkpoint_after_continuation": {
+    "account_high_water": 1.0013456521866595,
+    "worst_account_drawdown": -0.4252123311432642
+  },
+  "resume_rows": [
+    {
+      "Date": "2021-01-21",
+      "equity": 0.7598065142743549,
+      "episode_peak": 0.7601104368800646,
+      "account_high_water": 1.0013456521866595,
+      "episode_drawdown": -0.0003998400639744215,
+      "full_history_drawdown": -0.24121454702964007
+    },
+    {
+      "Date": "2021-03-18",
+      "equity": 0.5772744520308768,
+      "episode_peak": 0.5775053618116892,
+      "account_high_water": 1.0013456521866595,
+      "episode_drawdown": -0.00039984006397453253,
+      "full_history_drawdown": -0.4235013146856228
+    }
+  ],
+  "boundary": "Checkpoint tests statistic continuity only. Existing simulator has no persistent live account high-water control; a new simulate call starts equity and episode state at 1. Do not concatenate separately rebased runs or treat a 20% episode pause as a 30% account-loss guarantee."
+}

@@ -1,0 +1,12 @@
+{
+  "prepared_at_utc": "2026-09-21T19:12:46.749372+00:00",
+  "base_commit": "8b70778217cc2e0405cd20b68e4a3ba9f51b6cd9",
+  "git_files": 122,
+  "local_only_files": 57,
+  "git_bytes": 12316210,
+  "local_only_bytes": 25434142,
+  "original_inventory_sha256": "cea164e4f6d2cc2a9d5e9546841880337125c2563384dd0e9fd321461dfc41e1",
+  "previous_sync_inventory_sha256": "aa341cbb5cf7edd9986bb1e8261be8e26ab0d960a1f5c35b3cc5d3a19599a3b9",
+  "old_manifests_preserved": true,
+  "scope": "Current v12 outputs and changed source/docs; own upload metadata excluded from recursive inventory."
+}

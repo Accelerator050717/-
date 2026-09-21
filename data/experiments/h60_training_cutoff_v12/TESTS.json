@@ -1,0 +1,37 @@
+{
+  "recorded_at_utc": "2026-09-21T19:09:58.213241+00:00",
+  "suites": [
+    {
+      "command": ".venv\\Scripts\\python.exe -m unittest discover -s tests -p test_v12*.py -v",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "elapsed_seconds": 0.231,
+      "evidence": "Actual root run this session: Ran 12 tests in 0.231s; OK. Includes actual fictional simulate and 10 split/gate/statistic checks."
+    },
+    {
+      "command": ".venv\\Scripts\\python.exe -m unittest discover -s tests -p test_frozen_research_verifier.py -v",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "evidence": "V11_READ_ONLY_VERIFIER_TESTS.json; subagent actual run reused unchanged."
+    }
+  ],
+  "test_source_sha256": {
+    "tests/test_v12_drawdown.py": "7d1874060e4d12289d32ee6a32392f74931e4960da9780096f04bb86bce7deee",
+    "tests/test_v12_evaluation.py": "a30cf0b29b13caa42a0f42ffdd7ed356bf9a36c8c17a62de58b07963bc9a8e00",
+    "tests/test_v12_training_cutoff.py": "6b719d80ee62073392691a52f26dd71259c9dbf49a6df7ec644ff9a7ace7a309"
+  },
+  "reused_verifier_test_record_sha256": "f958b83f9d737c4559d537074b829ca01be147432c0affaa4aec5bf9a22f6777",
+  "actual_replay_ledger_cases": 35,
+  "new_replays": 14,
+  "reused_replays": 21,
+  "independent_training_check": "INDEPENDENT_TRAINING_CHECK.json",
+  "completed_rerun_checks": [
+    "53: Completed v12 training verified; zero additional fits.",
+    "54 --check-only: Completed fixed v12 evaluation verified; no runs repeated or output rewritten."
+  ],
+  "paper_orders": 0,
+  "live_orders": 0,
+  "prices_2026_accessed": false
+}

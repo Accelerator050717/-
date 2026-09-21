@@ -1,0 +1,454 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-21T19:03:24.925528+00:00",
+  "verification_commit": "8b70778217cc2e0405cd20b68e4a3ba9f51b6cd9",
+  "generation_commit": "8b70778217cc2e0405cd20b68e4a3ba9f51b6cd9",
+  "checker": {
+    "path": "tools/check_v12_training_artifacts.py",
+    "sha256": "acff02dead8b4124fdcdbcf1cce64361a294676de19a89d65bf3886604f44b23"
+  },
+  "scope": "Independent saved-artifact check; no fit calls and no training script invocation",
+  "new_fits_during_check": 0,
+  "market_downloads": 0,
+  "broker_orders": 0,
+  "frozen_outputs_checked": 32,
+  "frozen_output_checks": [
+    {
+      "path": "scores.csv",
+      "sha256": "7aaebc3676e1981702e81dc90d60c1829368670b22dec3ef6658ab045739729a",
+      "matches": true
+    },
+    {
+      "path": "training_summary.csv",
+      "sha256": "4b1327cc9b93e83ee7e16f4acb1ba349485fe873c6164c539c4ebd565ecceb30",
+      "matches": true
+    },
+    {
+      "path": "coefficients.csv",
+      "sha256": "6391905ed627dd661c0c1abb221eef072cd81bf5c8e48bce12a6b6b2255feb20",
+      "matches": true
+    },
+    {
+      "path": "TRAINING_CHECKS.json",
+      "sha256": "9b29bb2e4b2e3202e8bbe8dafa1a02b1f845bf849cef4c3c636d94177d37c908",
+      "matches": true
+    },
+    {
+      "path": "TRAINING_IDENTITY.json",
+      "sha256": "2bc5b77bf575effe879f61aca4dbd82f035eb7b2c8b1abdaf8e9c8f232471803",
+      "matches": true
+    },
+    {
+      "path": "GENERATION_CONTEXT.json",
+      "sha256": "47b7021464c88e7c18f2720ac252c68735a9087d2206994d2613e6051b7b076c",
+      "matches": true
+    },
+    {
+      "path": "models/2016_mature_rank60.joblib",
+      "sha256": "b2b84b375ca954e88502a3df195097a67603eb5811ab7c264323720cb526dd02",
+      "matches": true
+    },
+    {
+      "path": "models/2016_mature_rank60.json",
+      "sha256": "c4d8b8fe27749ad2eb8f1313b84eff9864d5deec676015a9a5c7b215e94c4f9f",
+      "matches": true
+    },
+    {
+      "path": "models/2017_mature_rank60.joblib",
+      "sha256": "3a142bbae83fd90bf4ac2a74e650be5999c611ba7d965e365f9d3a72624197e7",
+      "matches": true
+    },
+    {
+      "path": "models/2017_mature_rank60.json",
+      "sha256": "95c92a9e9e29aee338221f965f70f69f1a9ee30aecd2dbd83fc5ae25c3ebe9b8",
+      "matches": true
+    },
+    {
+      "path": "models/2018_mature_rank60.joblib",
+      "sha256": "6f726ffa43a839114bb6c4fd56b57fcc0c4dd107552a8ca60b135faf67cf28fc",
+      "matches": true
+    },
+    {
+      "path": "models/2018_mature_rank60.json",
+      "sha256": "ba94365a4d0920e306a201127b2158aa04427aa71c8ca8a4bb3c75c98f271d8a",
+      "matches": true
+    },
+    {
+      "path": "models/2019_mature_rank60.joblib",
+      "sha256": "d3f820352baeec3250dc57451c34a42df77589e05ab30e7940ea5c91d94cbdaa",
+      "matches": true
+    },
+    {
+      "path": "models/2019_mature_rank60.json",
+      "sha256": "edad4149fcc3c96198a5efe3ce7aa8505d6050eabfb3fe2c10f2bbb8d744c981",
+      "matches": true
+    },
+    {
+      "path": "models/2020_mature_rank60.joblib",
+      "sha256": "ec57031c7a87683e06090ca2e4de52af5ccc89e9b532886a90626e214dbcf05c",
+      "matches": true
+    },
+    {
+      "path": "models/2020_mature_rank60.json",
+      "sha256": "c238fb6ab556f1fcb6c6ec1170cc239526939d12f8dbd34be76737954fcd1c88",
+      "matches": true
+    },
+    {
+      "path": "models/2021_mature_rank60.joblib",
+      "sha256": "f259d1faf095903a5d64547e4d848d539fd476567aee447d320010da0a0d81ee",
+      "matches": true
+    },
+    {
+      "path": "models/2021_mature_rank60.json",
+      "sha256": "4634655fc5ad6d586ecdb5d288bf8c981bcbda3f91f817f91715ab52e6a6209a",
+      "matches": true
+    },
+    {
+      "path": "models/2022_mature_rank60.joblib",
+      "sha256": "1035e5ca7b195c6870b0c7eb9723dddecfbd1a19992aa14568bcf351f13d1a75",
+      "matches": true
+    },
+    {
+      "path": "models/2022_mature_rank60.json",
+      "sha256": "028fe621b8e1785288d3897342fa46821f38c77c0deffef8f807036823361ce7",
+      "matches": true
+    },
+    {
+      "path": "models/2023_mature_rank60.joblib",
+      "sha256": "62a425e02e09ee24e45d63216d00009c30071ce288ea88886925614231217eb4",
+      "matches": true
+    },
+    {
+      "path": "models/2023_mature_rank60.json",
+      "sha256": "a6cace42d2bd00d4f7cbb7bd8009810c4c7bffbe987d83157a84f13e648ba15a",
+      "matches": true
+    },
+    {
+      "path": "models/2024_mature_rank60.joblib",
+      "sha256": "d44a32c70a29630b914c4b9db5ebc5d9dce5f7f8d0148983b6afe58675538e9c",
+      "matches": true
+    },
+    {
+      "path": "models/2024_mature_rank60.json",
+      "sha256": "ff9b2a20374d3b426ae2bf1eb6f03b851035c04760081437be212799f979b0ae",
+      "matches": true
+    },
+    {
+      "path": "models/2025_mature_rank60.joblib",
+      "sha256": "d7f84c34f690daedb9f016db54b606c56f4f6126fabb2c070e571423ee77781d",
+      "matches": true
+    },
+    {
+      "path": "models/2025_mature_rank60.json",
+      "sha256": "0b534c632e998103c951d96ab73f972545f8d9eb95e50d5d081c3ddaccccefe9",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/53_train_annual_cutoff.py",
+      "sha256": "bc0ed9ac553f2e5784736127da499b1894208f66ab2b2bc900fb08146dbc0c0a",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/h60_research_inputs.py",
+      "sha256": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/profit_priority_strategy.py",
+      "sha256": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/research_backtest.py",
+      "sha256": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/research_features.py",
+      "sha256": "d8e07f198ff34e537e572e5cf6681f46deed41ef62b3aaef14d5bb7bd2fbe3f1",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/research_horizons.py",
+      "sha256": "3aaf31863331b46fab289a078b35e56ad1bd12f654f94413a52dbcaa38a64dcd",
+      "matches": true
+    }
+  ],
+  "sources_checked": 6,
+  "source_checks": [
+    {
+      "path": "53_train_annual_cutoff.py",
+      "sha256": "bc0ed9ac553f2e5784736127da499b1894208f66ab2b2bc900fb08146dbc0c0a",
+      "current_and_snapshot_match": true
+    },
+    {
+      "path": "research_features.py",
+      "sha256": "d8e07f198ff34e537e572e5cf6681f46deed41ef62b3aaef14d5bb7bd2fbe3f1",
+      "current_and_snapshot_match": true
+    },
+    {
+      "path": "research_horizons.py",
+      "sha256": "3aaf31863331b46fab289a078b35e56ad1bd12f654f94413a52dbcaa38a64dcd",
+      "current_and_snapshot_match": true
+    },
+    {
+      "path": "h60_research_inputs.py",
+      "sha256": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d",
+      "current_and_snapshot_match": true
+    },
+    {
+      "path": "profit_priority_strategy.py",
+      "sha256": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+      "current_and_snapshot_match": true
+    },
+    {
+      "path": "research_backtest.py",
+      "sha256": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf",
+      "current_and_snapshot_match": true
+    }
+  ],
+  "input_checks": [
+    {
+      "path": "data/experiments/extended_history_v5/panel.csv",
+      "sha256": "6d42c7b132392f90b19dc9b9db7285bc0afbbc3742387500065437f8bb7a8d30",
+      "size_bytes": 246775163,
+      "matches": true
+    },
+    {
+      "path": "data/experiments/extended_history_v5/all_scores.csv",
+      "sha256": "fa6ab2732d7ab52516cb6c2a4dd621a6fac5911beb0b96a5c8fe5fec42ff9c1a",
+      "size_bytes": 9534424,
+      "matches": true
+    },
+    {
+      "path": "data/experiments/extended_history_v5/training_summary.csv",
+      "sha256": "ee8a1cd15853f3f8f5c60e5a95da8b492b7ecf886687209ee3d3ba6cb421c67f",
+      "size_bytes": 3502,
+      "matches": true
+    }
+  ],
+  "prediction_keys_and_A_saved_scores_exact": 75240,
+  "retained_unmatured_prediction_rows": 1650,
+  "years": [
+    {
+      "year": 2016,
+      "B_rows": 17940,
+      "A_rows": 10380,
+      "added_rows": 7560,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2015-10-05",
+      "last_label_exit": "2015-12-31",
+      "scoring_rows": 7560,
+      "model_sha256": "b2b84b375ca954e88502a3df195097a67603eb5811ab7c264323720cb526dd02",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2017,
+      "B_rows": 25500,
+      "A_rows": 17940,
+      "added_rows": 7560,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2016-10-04",
+      "last_label_exit": "2016-12-30",
+      "scoring_rows": 7530,
+      "model_sha256": "3a142bbae83fd90bf4ac2a74e650be5999c611ba7d965e365f9d3a72624197e7",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2018,
+      "B_rows": 33030,
+      "A_rows": 25500,
+      "added_rows": 7530,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2017-10-03",
+      "last_label_exit": "2017-12-29",
+      "scoring_rows": 7530,
+      "model_sha256": "6f726ffa43a839114bb6c4fd56b57fcc0c4dd107552a8ca60b135faf67cf28fc",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2019,
+      "B_rows": 40560,
+      "A_rows": 33030,
+      "added_rows": 7530,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2018-10-02",
+      "last_label_exit": "2018-12-31",
+      "scoring_rows": 7560,
+      "model_sha256": "d3f820352baeec3250dc57451c34a42df77589e05ab30e7940ea5c91d94cbdaa",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2020,
+      "B_rows": 48120,
+      "A_rows": 40560,
+      "added_rows": 7560,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2019-10-03",
+      "last_label_exit": "2019-12-31",
+      "scoring_rows": 7590,
+      "model_sha256": "ec57031c7a87683e06090ca2e4de52af5ccc89e9b532886a90626e214dbcf05c",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2021,
+      "B_rows": 55710,
+      "A_rows": 48120,
+      "added_rows": 7590,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2020-10-05",
+      "last_label_exit": "2020-12-31",
+      "scoring_rows": 7560,
+      "model_sha256": "f259d1faf095903a5d64547e4d848d539fd476567aee447d320010da0a0d81ee",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2022,
+      "B_rows": 63270,
+      "A_rows": 55710,
+      "added_rows": 7560,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2021-10-05",
+      "last_label_exit": "2021-12-31",
+      "scoring_rows": 7530,
+      "model_sha256": "1035e5ca7b195c6870b0c7eb9723dddecfbd1a19992aa14568bcf351f13d1a75",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2023,
+      "B_rows": 70800,
+      "A_rows": 63270,
+      "added_rows": 7530,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2022-10-04",
+      "last_label_exit": "2022-12-30",
+      "scoring_rows": 7500,
+      "model_sha256": "62a425e02e09ee24e45d63216d00009c30071ce288ea88886925614231217eb4",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2024,
+      "B_rows": 78300,
+      "A_rows": 70800,
+      "added_rows": 7500,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2023-10-03",
+      "last_label_exit": "2023-12-29",
+      "scoring_rows": 7560,
+      "model_sha256": "d44a32c70a29630b914c4b9db5ebc5d9dce5f7f8d0148983b6afe58675538e9c",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    },
+    {
+      "year": 2025,
+      "B_rows": 85860,
+      "A_rows": 78300,
+      "added_rows": 7560,
+      "newly_mature_boundary_rows": 1830,
+      "last_observation": "2024-10-03",
+      "last_label_exit": "2024-12-31",
+      "scoring_rows": 7320,
+      "model_sha256": "d7f84c34f690daedb9f016db54b606c56f4f6126fabb2c070e571423ee77781d",
+      "target": "original rank_60",
+      "feature_order_exact": true,
+      "scaler_mean_max_abs_error": 0.0,
+      "scaler_variance_max_abs_error": 0.0,
+      "scaler_check_tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      },
+      "prediction_max_abs_error": 0.0,
+      "scaler_sample_count_exact": true,
+      "training_key_hash_exact": true
+    }
+  ]
+}

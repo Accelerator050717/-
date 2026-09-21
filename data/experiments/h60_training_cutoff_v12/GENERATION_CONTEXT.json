@@ -1,0 +1,13 @@
+{
+  "git_head": "8b70778217cc2e0405cd20b68e4a3ba9f51b6cd9",
+  "started_at_utc": "2026-09-21T18:59:05.176387+00:00",
+  "training_source_sha256": {
+    "53_train_annual_cutoff.py": "bc0ed9ac553f2e5784736127da499b1894208f66ab2b2bc900fb08146dbc0c0a",
+    "research_features.py": "d8e07f198ff34e537e572e5cf6681f46deed41ef62b3aaef14d5bb7bd2fbe3f1",
+    "research_horizons.py": "3aaf31863331b46fab289a078b35e56ad1bd12f654f94413a52dbcaa38a64dcd",
+    "h60_research_inputs.py": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d",
+    "profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+    "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf"
+  },
+  "note": "Generation HEAD is provenance, not immutable equality. New uncommitted source snapshots are authoritative."
+}

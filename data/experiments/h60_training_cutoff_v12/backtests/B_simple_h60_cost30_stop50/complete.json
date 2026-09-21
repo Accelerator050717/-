@@ -1,0 +1,35 @@
+{
+  "evaluation_identity_sha256": "960e1a8970fd0c03d606cf8cbd8009a92c78a495b0a983b205dae414324011ed",
+  "files": [
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_cost30_stop50/daily.csv",
+      "size_bytes": 663409,
+      "sha256": "6f95ef31dd9219c27b80ce9e8fdffbff48cbf1bab464780cdb18270a3d793bf8"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_cost30_stop50/trades.csv",
+      "size_bytes": 491484,
+      "sha256": "5bcb8627b260f6efd88ddc065aed3bde2864b8d608f07806f7bae5e92b8a215e"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_cost30_stop50/positions.csv",
+      "size_bytes": 545562,
+      "sha256": "69dc75dfe64c4eed42cc2a78e5197009de5482f51a3a218e580b02b994ffe76f"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_cost30_stop50/targets.csv",
+      "size_bytes": 95052,
+      "sha256": "2170a4df3e5bffb84c5c247f1b1f7ecdd0f80c9bfd01f2c7a64a29e7639a2359"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_cost30_stop50/events.csv",
+      "size_bytes": 152,
+      "sha256": "8eda32abb72fce94f2e57e9cf8cfdd81d33a62d95d236ef27b6ec0ff362b2570"
+    },
+    {
+      "path": "data/experiments/h60_training_cutoff_v12/backtests/B_simple_h60_cost30_stop50/metrics.json",
+      "size_bytes": 994,
+      "sha256": "aae4845a4744e373f91aed5962d8844feffb4ba16197df8fd73ac67acb41a351"
+    }
+  ]
+}
