@@ -1,0 +1,31 @@
+{
+  "started_at_utc": "2026-09-22T14:18:49.038466+00:00",
+  "completed_at_utc": "2026-09-22T14:18:52.067397+00:00",
+  "runtime_seconds": 3.0276046999933897,
+  "modules": [
+    "test_h60_execution",
+    "test_h60_execution_cycle",
+    "test_h60_runtime",
+    "test_risk_fixes",
+    "test_profit_priority_strategy"
+  ],
+  "tests_run": 25,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "evidence": "Synthetic fixture and VirtualBroker regression only; no broker network, historical replay, fit or market-data request.",
+  "new_fits": 0,
+  "controlled_historical_replays": 0,
+  "real_or_paper_orders_sent": 0,
+  "log_path": "data/experiments/continuous_fund_risk_v13/OLD_REGRESSION_TESTS.log",
+  "log_sha256": "45aafab2af8dde200380fbbbae24f101e6b1e62811a76add2c187493b8651650",
+  "test_source_sha256": {
+    "tests\\test_h60_execution.py": "e370ada695845f6a928fb853ab9ed649df0b369c5abd6bc35ec8e2ee1a94a872",
+    "tests\\test_h60_execution_cycle.py": "ddf29b3642e095c43df622b5923dfbcf4891ae89a091eed3938c3b8c910d04bf",
+    "tests\\test_h60_runtime.py": "df7dceb0d3b44611e5c244fbd1957b08daafc27a7ea7659461e327061541e1db",
+    "tests\\test_risk_fixes.py": "f4c0de277cf14b5b1e9226346b2072363a52b4b87a01c1be615c38f4dfca98eb",
+    "tests\\test_profit_priority_strategy.py": "a77bfa20341bbf249a736d6f07c883607c1e8d23413a8f5c2da217e83fc0624b"
+  },
+  "reproduce": "Use .venv Python with tests on sys.path, then unittest.defaultTestLoader.loadTestsFromNames(modules) and TextTestRunner(verbosity=2)."
+}

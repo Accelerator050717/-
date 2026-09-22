@@ -1,0 +1,22 @@
+{
+  "evidence": "FICTIONAL VirtualBroker process test; not paper integration",
+  "scenarios": 3,
+  "intentional_process_exits": 2,
+  "equality": true,
+  "compared": [
+    "targets",
+    "orders/fills",
+    "cash",
+    "positions",
+    "runtime",
+    "NAV/high water",
+    "risk mode"
+  ],
+  "remaining_position_after_partial_gap_exit": {
+    "AAPL": "2",
+    "MSFT": "0"
+  },
+  "actual_unit_nav": 0.9909630000000001,
+  "foreign_position_untouched": "17",
+  "limitation": "Source and fund DBs are recoverably bridged, not a distributed transaction. Existing executor manifest cannot be swapped in place. No paper entry is added."
+}

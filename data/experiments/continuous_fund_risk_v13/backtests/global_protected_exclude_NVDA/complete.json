@@ -1,0 +1,55 @@
+{
+  "evaluation_identity_sha256": "0aacd14926b7e754d2014fb1a0bd6ac0e4d5c863a46e9668b74be574971b3107",
+  "files": [
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/daily.csv",
+      "size_bytes": 869576,
+      "sha256": "b7f051f5f641265ae2a5338923bfee0c43bea94288b347ad5bdefac3ddf71d55"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/events.csv",
+      "size_bytes": 981,
+      "sha256": "5345161e6598db2081b27d80ff8b74867f6c5461fe79e489508250219790d982"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/fund.sqlite",
+      "size_bytes": 50802688,
+      "sha256": "34016f312911fc32d8c05e373256f36af8318860630ed03858475442f264a9df"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/fund.sqlite.scope.json",
+      "size_bytes": 487,
+      "sha256": "cba90548c0022741c277bc193667765dd05cdb96ecdcf99f0b53c84c99afb14e"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/JOURNAL_CHECK.json",
+      "size_bytes": 309,
+      "sha256": "1db0f15ed9d831e922fcc2edd6f9aad465706490268e481e04fc439c3e251069"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/metrics.json",
+      "size_bytes": 1799,
+      "sha256": "d84a9075cfdf769123d1c8db1c0269ce2a7e49620c22caec15773d52a770c603"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/positions.csv",
+      "size_bytes": 680992,
+      "sha256": "aad20fd28218b75e1ad126ac482182a6f31ab09271d78f4e259683457904d8bb"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/state.json",
+      "size_bytes": 22292,
+      "sha256": "cb9046bf85edeb76747bf7ad01ca6fe52eb0fa5a2acf46225898e261afb90288"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/targets.csv",
+      "size_bytes": 199475,
+      "sha256": "cd586b6b880e16e92993335c9482774eaf47a1e66eaa650fe0994d52be5bb059"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_exclude_NVDA/trades.csv",
+      "size_bytes": 1165340,
+      "sha256": "d69d5b232099b40bba87f79f9e0abc5354ef2711295a211255eea636718f4e7a"
+    }
+  ]
+}

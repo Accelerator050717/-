@@ -1,0 +1,75 @@
+{
+  "evidence": "FICTIONAL VirtualBroker engineering only; no paper/live orders",
+  "closes_observe_only": true,
+  "opens_resume_only": true,
+  "old_foundation_evidence_unchanged": true,
+  "restart_repeated_close_identical": true,
+  "controller_generated_orders": 0,
+  "calendar_bound_to_execution_manifest": true,
+  "valuation_boundary": "Engineering journal retains all trusted valuation highs; historical experiment uses close highs. Normal held-position opens are rejected; no full trading-path equivalence is claimed.",
+  "fixture_virtual_orders": 2,
+  "high_water_preserved": true,
+  "outcomes": [
+    {
+      "day": "2025-01-06",
+      "phase": "close",
+      "mode": "REDUCED",
+      "unit_nav": 0.89231,
+      "high_water_nav": 1.0,
+      "positions": {
+        "AAPL": "89"
+      },
+      "resumed": false
+    },
+    {
+      "day": "2025-01-07",
+      "phase": "close",
+      "mode": "HALTED",
+      "unit_nav": 0.7944100000000001,
+      "high_water_nav": 1.0,
+      "positions": {
+        "AAPL": "89"
+      },
+      "resumed": false
+    },
+    {
+      "day": "2025-02-06",
+      "phase": "open",
+      "mode": "HALTED",
+      "unit_nav": 0.7944100000000001,
+      "high_water_nav": 1.0,
+      "positions": {
+        "AAPL": "89"
+      },
+      "resumed": false
+    },
+    {
+      "day": "2025-02-10",
+      "phase": "open",
+      "mode": "RECOVERY",
+      "unit_nav": 0.7937247000000001,
+      "high_water_nav": 1.0,
+      "positions": {
+        "AAPL": "0"
+      },
+      "resumed": true
+    },
+    {
+      "day": "2025-02-10",
+      "phase": "close",
+      "mode": "RECOVERY",
+      "unit_nav": 0.7937247000000001,
+      "high_water_nav": 1.0,
+      "positions": {
+        "AAPL": "0"
+      },
+      "resumed": false
+    }
+  ],
+  "source_sha256": {
+    "h60_fund_control_cycle.py": "266a357a1086e41072374f4fae2bebaaac1b29d73e863d113009a437ddfeaeec",
+    "tools/check_v13_control_cycle.py": "59bd36d786917c3595daaa7d037c27ec3148451b093c32b8fa9280c876356f05",
+    "tests/test_v13_control_cycle.py": "c37a883984c9c5056c03aa28a0bfb1295c5571cfc3d57094c7e4eece9a54030b"
+  },
+  "limitations": "This closes the previously documented automatic-transition gap only for the offline adapter. No real paper entry, company-action adapter, or production model handoff is established."
+}

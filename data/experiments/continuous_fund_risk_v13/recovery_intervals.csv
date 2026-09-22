@@ -1,0 +1,2 @@
+case,resume_date,end_date,end_reason,sessions,resume_unit_nav,preserved_high_water_nav,recovery_floor,minimum_actual_unit_nav,minimum_return_since_resume,end_return_since_resume,end_cumulative_drawdown,remaining_budget_high_water_fraction_at_resume,minimum_remaining_budget_high_water_fraction,ended_in_new_pause
+global_simple_h60_cost30_stop50,2019-02-19,2021-06-04,global_normal,579,1.4452177916766982,1.8015833005632715,1.3729569020928631,1.4435352452480705,-0.001164216520387229,0.184259111666349,-0.04999544700467706,0.10219315489039321,0.10125922836692822,False

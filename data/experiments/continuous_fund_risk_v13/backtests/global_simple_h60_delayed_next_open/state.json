@@ -1,0 +1,973 @@
+{
+  "blocked": null,
+  "cash": 4.538375376158666,
+  "checkpoint": {
+    "blocked_until": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "cash": 4.538375376158668,
+    "cumulative_cost": 0.7393885321130792,
+    "day": 3422,
+    "episode": {
+      "episode_peak": 4.597316912722712,
+      "paused": false,
+      "paused_until": -1,
+      "pending_flat": false,
+      "pending_half": false,
+      "recovery_until": -1,
+      "soft": false
+    },
+    "global": {
+      "budget_breached": false,
+      "last_resume_session": null,
+      "mode": "NORMAL",
+      "pause_count": 0,
+      "paused_until": -1,
+      "pending_flat": false,
+      "reason": "actual_unit_nav_recovers_within_5_percent_of_preserved_high_water",
+      "recovery_floor": null,
+      "resume_count": 0,
+      "resume_unit_nav": null
+    },
+    "global_state_enabled": true,
+    "peak": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "pending_cap": null,
+    "pending_stop": [],
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "session_output": {
+      "daily": [
+        [
+          "Date",
+          "2025-12-29"
+        ],
+        [
+          "open_equity",
+          4.538375376158668
+        ],
+        [
+          "equity",
+          4.538375376158668
+        ],
+        [
+          "low_stress_equity",
+          4.538375376158668
+        ],
+        [
+          "cash",
+          4.538375376158668
+        ],
+        [
+          "invested",
+          0.0
+        ],
+        [
+          "gross",
+          0.0
+        ],
+        [
+          "fees",
+          0.007323500083587398
+        ],
+        [
+          "cumulative_fees",
+          0.7393885321130792
+        ],
+        [
+          "paused",
+          false
+        ],
+        [
+          "soft",
+          false
+        ],
+        [
+          "episode_peak",
+          4.597316912722712
+        ],
+        [
+          "unit_nav",
+          4.538375376158668
+        ],
+        [
+          "high_water_nav",
+          4.597316912722712
+        ],
+        [
+          "fund_shares",
+          1.0
+        ],
+        [
+          "cumulative_fund_drawdown",
+          -0.012820855660597985
+        ],
+        [
+          "global_mode",
+          "NORMAL"
+        ],
+        [
+          "global_cap",
+          1.0
+        ],
+        [
+          "global_paused",
+          false
+        ]
+      ],
+      "events": [],
+      "holdings": [
+        [
+          "Date",
+          "2025-12-29"
+        ],
+        [
+          "AAPL",
+          0.0
+        ],
+        [
+          "MSFT",
+          0.0
+        ],
+        [
+          "NVDA",
+          0.0
+        ],
+        [
+          "AMZN",
+          0.0
+        ],
+        [
+          "GOOGL",
+          0.0
+        ],
+        [
+          "META",
+          0.0
+        ],
+        [
+          "JPM",
+          0.0
+        ],
+        [
+          "BAC",
+          0.0
+        ],
+        [
+          "GS",
+          0.0
+        ],
+        [
+          "V",
+          0.0
+        ],
+        [
+          "JNJ",
+          0.0
+        ],
+        [
+          "PFE",
+          0.0
+        ],
+        [
+          "MRK",
+          0.0
+        ],
+        [
+          "UNH",
+          0.0
+        ],
+        [
+          "XOM",
+          0.0
+        ],
+        [
+          "CVX",
+          0.0
+        ],
+        [
+          "COP",
+          0.0
+        ],
+        [
+          "CAT",
+          0.0
+        ],
+        [
+          "HON",
+          0.0
+        ],
+        [
+          "DE",
+          0.0
+        ],
+        [
+          "PG",
+          0.0
+        ],
+        [
+          "KO",
+          0.0
+        ],
+        [
+          "PEP",
+          0.0
+        ],
+        [
+          "WMT",
+          0.0
+        ],
+        [
+          "COST",
+          0.0
+        ],
+        [
+          "HD",
+          0.0
+        ],
+        [
+          "MCD",
+          0.0
+        ],
+        [
+          "NEE",
+          0.0
+        ],
+        [
+          "DUK",
+          0.0
+        ],
+        [
+          "SO",
+          0.0
+        ]
+      ],
+      "targets": [
+        [
+          [
+            "Date",
+            "2025-12-29"
+          ],
+          [
+            "observation_date",
+            "2025-12-26"
+          ],
+          [
+            "reason",
+            "final_liquidation"
+          ],
+          [
+            "reduce_only",
+            false
+          ],
+          [
+            "risk_action",
+            ""
+          ],
+          [
+            "AAPL",
+            0.0
+          ],
+          [
+            "MSFT",
+            0.0
+          ],
+          [
+            "NVDA",
+            0.0
+          ],
+          [
+            "AMZN",
+            0.0
+          ],
+          [
+            "GOOGL",
+            0.0
+          ],
+          [
+            "META",
+            0.0
+          ],
+          [
+            "JPM",
+            0.0
+          ],
+          [
+            "BAC",
+            0.0
+          ],
+          [
+            "GS",
+            0.0
+          ],
+          [
+            "V",
+            0.0
+          ],
+          [
+            "JNJ",
+            0.0
+          ],
+          [
+            "PFE",
+            0.0
+          ],
+          [
+            "MRK",
+            0.0
+          ],
+          [
+            "UNH",
+            0.0
+          ],
+          [
+            "XOM",
+            0.0
+          ],
+          [
+            "CVX",
+            0.0
+          ],
+          [
+            "COP",
+            0.0
+          ],
+          [
+            "CAT",
+            0.0
+          ],
+          [
+            "HON",
+            0.0
+          ],
+          [
+            "DE",
+            0.0
+          ],
+          [
+            "PG",
+            0.0
+          ],
+          [
+            "KO",
+            0.0
+          ],
+          [
+            "PEP",
+            0.0
+          ],
+          [
+            "WMT",
+            0.0
+          ],
+          [
+            "COST",
+            0.0
+          ],
+          [
+            "HD",
+            0.0
+          ],
+          [
+            "MCD",
+            0.0
+          ],
+          [
+            "NEE",
+            0.0
+          ],
+          [
+            "DUK",
+            0.0
+          ],
+          [
+            "SO",
+            0.0
+          ]
+        ]
+      ],
+      "trades": [
+        [
+          [
+            "Date",
+            "2025-12-29"
+          ],
+          [
+            "observation_date",
+            "2025-12-26"
+          ],
+          [
+            "symbol",
+            "NVDA"
+          ],
+          [
+            "reason",
+            "final_liquidation"
+          ],
+          [
+            "risk_action",
+            ""
+          ],
+          [
+            "signed_units",
+            -0.0040075939099524106
+          ],
+          [
+            "proxy_fill",
+            187.4813341773615
+          ],
+          [
+            "signed_notional",
+            -0.7513490530789467
+          ],
+          [
+            "fee",
+            0.0015026981061578935
+          ],
+          [
+            "cash_change",
+            0.7498463549727888
+          ],
+          [
+            "stop_threshold",
+            null
+          ],
+          [
+            "session_open",
+            187.4813341773615
+          ],
+          [
+            "stop_extra_bps",
+            0
+          ]
+        ],
+        [
+          [
+            "Date",
+            "2025-12-29"
+          ],
+          [
+            "observation_date",
+            "2025-12-26"
+          ],
+          [
+            "symbol",
+            "MRK"
+          ],
+          [
+            "reason",
+            "final_liquidation"
+          ],
+          [
+            "risk_action",
+            ""
+          ],
+          [
+            "signed_units",
+            -0.007132404068378419
+          ],
+          [
+            "proxy_fill",
+            105.30711899943958
+          ],
+          [
+            "signed_notional",
+            -0.7510929239808132
+          ],
+          [
+            "fee",
+            0.0015021858479616263
+          ],
+          [
+            "cash_change",
+            0.7495907381328516
+          ],
+          [
+            "stop_threshold",
+            null
+          ],
+          [
+            "session_open",
+            105.30711899943958
+          ],
+          [
+            "stop_extra_bps",
+            0
+          ]
+        ],
+        [
+          [
+            "Date",
+            "2025-12-29"
+          ],
+          [
+            "observation_date",
+            "2025-12-26"
+          ],
+          [
+            "symbol",
+            "GOOGL"
+          ],
+          [
+            "reason",
+            "final_liquidation"
+          ],
+          [
+            "risk_action",
+            ""
+          ],
+          [
+            "signed_units",
+            -0.0023482406301140635
+          ],
+          [
+            "proxy_fill",
+            310.7654822740718
+          ],
+          [
+            "signed_notional",
+            -0.7297521319129672
+          ],
+          [
+            "fee",
+            0.0014595042638259343
+          ],
+          [
+            "cash_change",
+            0.7282926276491413
+          ],
+          [
+            "stop_threshold",
+            null
+          ],
+          [
+            "session_open",
+            310.7654822740718
+          ],
+          [
+            "stop_extra_bps",
+            0
+          ]
+        ],
+        [
+          [
+            "Date",
+            "2025-12-29"
+          ],
+          [
+            "observation_date",
+            "2025-12-26"
+          ],
+          [
+            "symbol",
+            "CAT"
+          ],
+          [
+            "reason",
+            "final_liquidation"
+          ],
+          [
+            "risk_action",
+            ""
+          ],
+          [
+            "signed_units",
+            -0.0012423482508692027
+          ],
+          [
+            "proxy_fill",
+            576.5666329725988
+          ],
+          [
+            "signed_notional",
+            -0.7162965479830536
+          ],
+          [
+            "fee",
+            0.0014325930959661073
+          ],
+          [
+            "cash_change",
+            0.7148639548870875
+          ],
+          [
+            "stop_threshold",
+            null
+          ],
+          [
+            "session_open",
+            576.5666329725988
+          ],
+          [
+            "stop_extra_bps",
+            0
+          ]
+        ],
+        [
+          [
+            "Date",
+            "2025-12-29"
+          ],
+          [
+            "observation_date",
+            "2025-12-26"
+          ],
+          [
+            "symbol",
+            "UNH"
+          ],
+          [
+            "reason",
+            "final_liquidation"
+          ],
+          [
+            "risk_action",
+            ""
+          ],
+          [
+            "signed_units",
+            -0.002184743822114698
+          ],
+          [
+            "proxy_fill",
+            326.4727780063231
+          ],
+          [
+            "signed_notional",
+            -0.7132593848379377
+          ],
+          [
+            "fee",
+            0.0014265187696758754
+          ],
+          [
+            "cash_change",
+            0.7118328660682618
+          ],
+          [
+            "stop_threshold",
+            null
+          ],
+          [
+            "session_open",
+            326.4727780063231
+          ],
+          [
+            "stop_extra_bps",
+            0
+          ]
+        ]
+      ]
+    },
+    "simulation_identity": "7786f4311cf0f556574a8158920a01e35acfec5522487da98424b3016c7bdfbd",
+    "threshold": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "current_drawdown": -0.012820855660597985,
+  "equity": 4.538375376158666,
+  "event_cursor": 4188,
+  "external_flows_total": 0.0,
+  "fill_fees_total": 0.7393885321130792,
+  "fund_shares": 1.0,
+  "high_water_nav": 4.59731691272271,
+  "income_total": 0.0,
+  "last_batch_id": "session:3422",
+  "last_event_at": "2025-12-29T21:00:00.000000+00:00",
+  "last_event_ids": {
+    "fill": "research-fill:3422:4"
+  },
+  "last_prices": {
+    "AAPL": 273.0168762207031,
+    "AMZN": 232.07000732421875,
+    "BAC": 54.476417541503906,
+    "CAT": 575.0955810546875,
+    "COP": 90.63217163085938,
+    "COST": 864.0265502929688,
+    "CVX": 146.8882293701172,
+    "DE": 466.0444030761719,
+    "DUK": 114.52230834960938,
+    "GOOGL": 312.95123291015625,
+    "GS": 879.3084716796875,
+    "HD": 340.06695556640625,
+    "HON": 203.94435119628906,
+    "JNJ": 204.2743682861328,
+    "JPM": 319.2171325683594,
+    "KO": 69.23387908935547,
+    "MCD": 302.5983581542969,
+    "META": 657.5171508789062,
+    "MRK": 105.0804443359375,
+    "MSFT": 484.02923583984375,
+    "NEE": 78.5559310913086,
+    "NVDA": 187.99070739746094,
+    "PEP": 139.9789276123047,
+    "PFE": 23.77296257019043,
+    "PG": 141.4221954345703,
+    "SO": 85.43899536132812,
+    "UNH": 324.5487976074219,
+    "V": 352.4933166503906,
+    "WMT": 111.81792449951172,
+    "XOM": 118.1596450805664
+  },
+  "last_run_id": "906d33f3-61dc-4a60-b359-3d977acafe61",
+  "last_valuation_at": "2025-12-29T21:00:00.000000+00:00",
+  "max_drawdown": -0.19756860522578734,
+  "model_history": [
+    {
+      "at": "2016-01-05T21:00:00.000000+00:00",
+      "valuation_cursor": 1,
+      "version": "008bf65acf03d7989d65d7b690c36340e4ef97d8355d475d880206dc594366fd"
+    },
+    {
+      "at": "2017-01-03T21:00:00.000000+00:00",
+      "valuation_cursor": 252,
+      "version": "0c378378ae79501dd80468604324c8158e9bf95be7e1181434584a26abd5c39c"
+    },
+    {
+      "at": "2018-01-02T21:00:00.000000+00:00",
+      "valuation_cursor": 503,
+      "version": "a993f3f3d8e7d6b9f103acd149112e5b412ad35fb5d68b411e90cc43b2003989"
+    },
+    {
+      "at": "2019-01-02T21:00:00.000000+00:00",
+      "valuation_cursor": 754,
+      "version": "9a0adca517f1ac6523347e1c1851719655b8179a90d8a1cf881ead631c534223"
+    },
+    {
+      "at": "2020-01-02T21:00:00.000000+00:00",
+      "valuation_cursor": 1006,
+      "version": "6ef405a32fc229e0933fa9e30a0af33c97a65c5a94b71a2c69185803073780fa"
+    },
+    {
+      "at": "2021-01-04T21:00:00.000000+00:00",
+      "valuation_cursor": 1259,
+      "version": "5350157ac14cb2b62469bbccd91c4b430b85b180681611302aef6e6a6403fd0e"
+    },
+    {
+      "at": "2022-01-03T21:00:00.000000+00:00",
+      "valuation_cursor": 1511,
+      "version": "108d6e51af01d564fd5e48d1e6399e21251cfffcfc1483f057bdaa17968775c1"
+    },
+    {
+      "at": "2023-01-03T21:00:00.000000+00:00",
+      "valuation_cursor": 1762,
+      "version": "ef383c5d06667c5b7adafc9ab24988bdf893993124120fe2bae170935c866619"
+    },
+    {
+      "at": "2024-01-02T21:00:00.000000+00:00",
+      "valuation_cursor": 2012,
+      "version": "06ca5abdcb916cc92a67e1c62e4fccfdd5a904e221351c51cc3cd99f2c8d6a88"
+    },
+    {
+      "at": "2025-01-02T21:00:00.000000+00:00",
+      "valuation_cursor": 2264,
+      "version": "2c19480278678e72fb9303e4f615737abccfa2c7dac883893af36390c2365ece"
+    }
+  ],
+  "model_version": "2c19480278678e72fb9303e4f615737abccfa2c7dac883893af36390c2365ece",
+  "positions": {
+    "AAPL": 1.734723475976807e-18,
+    "AMZN": 4.336808689942018e-19,
+    "BAC": 0.0,
+    "CAT": 2.168404344971009e-19,
+    "COP": 0.0,
+    "COST": 3.2526065174565133e-19,
+    "CVX": 0.0,
+    "DE": -2.168404344971009e-19,
+    "DUK": 0.0,
+    "GOOGL": 0.0,
+    "GS": -2.168404344971009e-19,
+    "HD": -6.505213034913027e-19,
+    "HON": 0.0,
+    "JNJ": 0.0,
+    "JPM": 0.0,
+    "KO": 0.0,
+    "MCD": 0.0,
+    "META": 0.0,
+    "MRK": 1.734723475976807e-18,
+    "MSFT": 0.0,
+    "NEE": 1.734723475976807e-18,
+    "NVDA": 0.0,
+    "PEP": 0.0,
+    "PFE": -6.938893903907228e-18,
+    "PG": 0.0,
+    "SO": 1.734723475976807e-18,
+    "UNH": 0.0,
+    "V": 0.0,
+    "WMT": 8.673617379884035e-19,
+    "XOM": -8.673617379884035e-19
+  },
+  "record_cursor": 2511,
+  "risk_mode": "NORMAL",
+  "risk_state": {
+    "budget_breached": false,
+    "last_resume_session": null,
+    "mode": "NORMAL",
+    "pause_count": 0,
+    "paused_until": -1,
+    "pending_flat": false,
+    "reason": "actual_unit_nav_recovers_within_5_percent_of_preserved_high_water",
+    "record_only": false,
+    "recovery_floor": null,
+    "resume_count": 0,
+    "resume_unit_nav": null
+  },
+  "schema": 1,
+  "scope": {
+    "currency": "USD",
+    "owner": "isolated_h60_research_capital",
+    "scope_id": "v13-managed-capital-global_simple_h60_delayed_next_open",
+    "universe": [
+      "AAPL",
+      "AMZN",
+      "BAC",
+      "CAT",
+      "COP",
+      "COST",
+      "CVX",
+      "DE",
+      "DUK",
+      "GOOGL",
+      "GS",
+      "HD",
+      "HON",
+      "JNJ",
+      "JPM",
+      "KO",
+      "MCD",
+      "META",
+      "MRK",
+      "MSFT",
+      "NEE",
+      "NVDA",
+      "PEP",
+      "PFE",
+      "PG",
+      "SO",
+      "UNH",
+      "V",
+      "WMT",
+      "XOM"
+    ]
+  },
+  "unit_nav": 4.538375376158666,
+  "valuation_cursor": 2511
+}

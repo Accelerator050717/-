@@ -1,0 +1,259 @@
+{
+  "evidence": "FICTITIOUS fixture, no market data or broker orders",
+  "snapshots": [
+    {
+      "label": "initial_fictitious_funding",
+      "state": {
+        "blocked": null,
+        "cash": 1000.0,
+        "checkpoint": {},
+        "current_drawdown": 0.0,
+        "equity": 1000.0,
+        "event_cursor": 0,
+        "external_flows_total": 0.0,
+        "fill_fees_total": 0.0,
+        "fund_shares": 1000.0,
+        "high_water_nav": 1.0,
+        "income_total": 0.0,
+        "last_batch_id": null,
+        "last_event_at": "2020-01-01T16:00:00.000000+00:00",
+        "last_event_ids": {},
+        "last_prices": {},
+        "last_run_id": null,
+        "last_valuation_at": "2020-01-01T16:00:00.000000+00:00",
+        "max_drawdown": 0.0,
+        "model_history": [],
+        "model_version": null,
+        "positions": {
+          "AAA": 0.0
+        },
+        "record_cursor": 0,
+        "risk_mode": "observe",
+        "risk_state": {
+          "mode": "observe",
+          "reason": null,
+          "recovery": {}
+        },
+        "schema": 1,
+        "scope": {
+          "currency": "USD",
+          "owner": "v13-documentation-fixture",
+          "scope_id": "fictional-unitization-example",
+          "universe": [
+            "AAA"
+          ]
+        },
+        "unit_nav": 1.0,
+        "valuation_cursor": 0
+      }
+    },
+    {
+      "label": "fee",
+      "events": [
+        {
+          "id": "fee",
+          "at": "2020-01-02T16:00:00Z",
+          "kind": "income",
+          "amount": -100,
+          "reason": "fee"
+        }
+      ],
+      "state": {
+        "blocked": null,
+        "cash": 900.0,
+        "checkpoint": {
+          "fixture": "fee"
+        },
+        "current_drawdown": -0.09999999999999998,
+        "equity": 900.0,
+        "event_cursor": 1,
+        "external_flows_total": 0.0,
+        "fill_fees_total": 0.0,
+        "fund_shares": 1000.0,
+        "high_water_nav": 1.0,
+        "income_total": -100.0,
+        "last_batch_id": "fee",
+        "last_event_at": "2020-01-02T16:00:00.000000+00:00",
+        "last_event_ids": {
+          "income": "fee"
+        },
+        "last_prices": {
+          "AAA": 100.0
+        },
+        "last_run_id": "synthetic-process",
+        "last_valuation_at": "2020-01-02T16:00:00.000000+00:00",
+        "max_drawdown": -0.09999999999999998,
+        "model_history": [
+          {
+            "at": "2020-01-02T16:00:00.000000+00:00",
+            "version": "synthetic-model",
+            "valuation_cursor": 1
+          }
+        ],
+        "model_version": "synthetic-model",
+        "positions": {
+          "AAA": 0.0
+        },
+        "record_cursor": 1,
+        "risk_mode": "observe",
+        "risk_state": {
+          "mode": "observe",
+          "reason": null,
+          "recovery": {}
+        },
+        "schema": 1,
+        "scope": {
+          "currency": "USD",
+          "owner": "v13-documentation-fixture",
+          "scope_id": "fictional-unitization-example",
+          "universe": [
+            "AAA"
+          ]
+        },
+        "unit_nav": 0.9,
+        "valuation_cursor": 1
+      }
+    },
+    {
+      "label": "deposit",
+      "events": [
+        {
+          "id": "deposit",
+          "at": "2020-01-03T16:00:00Z",
+          "kind": "cashflow",
+          "amount": 900
+        }
+      ],
+      "state": {
+        "blocked": null,
+        "cash": 1800.0,
+        "checkpoint": {
+          "fixture": "deposit"
+        },
+        "current_drawdown": -0.09999999999999998,
+        "equity": 1800.0,
+        "event_cursor": 2,
+        "external_flows_total": 900.0,
+        "fill_fees_total": 0.0,
+        "fund_shares": 2000.0,
+        "high_water_nav": 1.0,
+        "income_total": -100.0,
+        "last_batch_id": "deposit",
+        "last_event_at": "2020-01-03T16:00:00.000000+00:00",
+        "last_event_ids": {
+          "income": "fee",
+          "cashflow": "deposit"
+        },
+        "last_prices": {
+          "AAA": 100.0
+        },
+        "last_run_id": "synthetic-process",
+        "last_valuation_at": "2020-01-03T16:00:00.000000+00:00",
+        "max_drawdown": -0.09999999999999998,
+        "model_history": [
+          {
+            "at": "2020-01-02T16:00:00.000000+00:00",
+            "valuation_cursor": 1,
+            "version": "synthetic-model"
+          }
+        ],
+        "model_version": "synthetic-model",
+        "positions": {
+          "AAA": 0.0
+        },
+        "record_cursor": 2,
+        "risk_mode": "observe",
+        "risk_state": {
+          "mode": "observe",
+          "reason": null,
+          "recovery": {}
+        },
+        "schema": 1,
+        "scope": {
+          "currency": "USD",
+          "owner": "v13-documentation-fixture",
+          "scope_id": "fictional-unitization-example",
+          "universe": [
+            "AAA"
+          ]
+        },
+        "unit_nav": 0.9,
+        "valuation_cursor": 2
+      }
+    },
+    {
+      "label": "withdraw",
+      "events": [
+        {
+          "id": "withdraw",
+          "at": "2020-01-04T16:00:00Z",
+          "kind": "cashflow",
+          "amount": -450
+        }
+      ],
+      "state": {
+        "blocked": null,
+        "cash": 1350.0,
+        "checkpoint": {
+          "fixture": "withdraw"
+        },
+        "current_drawdown": -0.09999999999999998,
+        "equity": 1350.0,
+        "event_cursor": 3,
+        "external_flows_total": 450.0,
+        "fill_fees_total": 0.0,
+        "fund_shares": 1500.0,
+        "high_water_nav": 1.0,
+        "income_total": -100.0,
+        "last_batch_id": "withdraw",
+        "last_event_at": "2020-01-04T16:00:00.000000+00:00",
+        "last_event_ids": {
+          "cashflow": "withdraw",
+          "income": "fee"
+        },
+        "last_prices": {
+          "AAA": 100.0
+        },
+        "last_run_id": "synthetic-process",
+        "last_valuation_at": "2020-01-04T16:00:00.000000+00:00",
+        "max_drawdown": -0.09999999999999998,
+        "model_history": [
+          {
+            "at": "2020-01-02T16:00:00.000000+00:00",
+            "valuation_cursor": 1,
+            "version": "synthetic-model"
+          }
+        ],
+        "model_version": "synthetic-model",
+        "positions": {
+          "AAA": 0.0
+        },
+        "record_cursor": 3,
+        "risk_mode": "observe",
+        "risk_state": {
+          "mode": "observe",
+          "reason": null,
+          "recovery": {}
+        },
+        "schema": 1,
+        "scope": {
+          "currency": "USD",
+          "owner": "v13-documentation-fixture",
+          "scope_id": "fictional-unitization-example",
+          "universe": [
+            "AAA"
+          ]
+        },
+        "unit_nav": 0.9,
+        "valuation_cursor": 3
+      }
+    }
+  ],
+  "integrity": {
+    "records": 3,
+    "events": 3,
+    "final_chain_sha256": "3528f2516f55a74e70434d997f7ebfd998955598be2ac172f36b7960105fac66",
+    "state_sha256": "18dfd28b327e2237ec37701ea0b005be3d3dccc96965efec102d97a43f3a887c",
+    "scope_sha256": "3e99a693e4e4f562eaa70384781004ec17e0b54ed251b72b653832d819884c08"
+  }
+}

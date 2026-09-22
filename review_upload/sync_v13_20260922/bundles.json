@@ -1,0 +1,51 @@
+{
+  "bundles": [
+    {
+      "path": "review_bundles/20260922/review-v13-incremental-01.zip",
+      "absolute_path": "M:/ml项目/review_bundles/20260922/review-v13-incremental-01.zip",
+      "size_bytes": 34673668,
+      "size_mib": 33.067387,
+      "sha256": "d5b32487f0edb18f4443140d3c5b6f6405f68174bfcc626e6c2a4dc7ca934c23",
+      "files": 35,
+      "uncompressed_artifact_bytes": 375944270,
+      "uncompressed_bytes": 375971276,
+      "independent_zip": true,
+      "all_member_hashes_verified": true,
+      "uploaded_to_git": false
+    },
+    {
+      "path": "review_bundles/20260922/review-v13-incremental-02.zip",
+      "absolute_path": "M:/ml项目/review_bundles/20260922/review-v13-incremental-02.zip",
+      "size_bytes": 32482988,
+      "size_mib": 30.978191,
+      "sha256": "59c2176eb7dd1952d644f431b9113811fa7ff10fe1f1eda42dd50c74ef810c28",
+      "files": 81,
+      "uncompressed_artifact_bytes": 405980813,
+      "uncompressed_bytes": 406044796,
+      "independent_zip": true,
+      "all_member_hashes_verified": true,
+      "uploaded_to_git": false
+    },
+    {
+      "path": "review_bundles/20260922/review-v13-incremental-03.zip",
+      "absolute_path": "M:/ml项目/review_bundles/20260922/review-v13-incremental-03.zip",
+      "size_bytes": 2864414,
+      "size_mib": 2.731718,
+      "sha256": "2c8920e0d473fd42958f24358cafc6413d80268a87086b7bf02ffc6dd69824d0",
+      "files": 3,
+      "uncompressed_artifact_bytes": 39746589,
+      "uncompressed_bytes": 39749030,
+      "independent_zip": true,
+      "all_member_hashes_verified": true,
+      "uploaded_to_git": false
+    }
+  ],
+  "dependencies": [
+    "review_upload/bundles.json",
+    "review_upload/sync_v8_v11_20260911/bundles.json"
+  ],
+  "original_A_inputs_required": true,
+  "v12_B_models_required": false,
+  "all_members_hash_verified": true,
+  "no_model_fit_or_replay_or_download_or_broker_call": true
+}

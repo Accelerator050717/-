@@ -1,0 +1,427 @@
+{
+  "blocked": null,
+  "cash": 9769.630000000001,
+  "checkpoint": {
+    "execution_digest": "092eba1201ac72560625eeda3621fc464a589fb45814cd345dca9764420c5a97",
+    "execution_document": {
+      "account_cash_offset": "0",
+      "batches": {
+        "2b5c6211d8175e042a346efa304a87252882139ef6d0b39f01e7d5a44cd0ca1f": {
+          "created_at": "2020-12-17T15:00:00+00:00",
+          "execution_day": "2020-12-17",
+          "intents": [
+            "H60V8-15e1e-470041e66aaacedfcb",
+            "H60V8-15e1e-9044758b4bfeec2c0d"
+          ],
+          "quotes": {
+            "AAPL": {
+              "ask": "100",
+              "asof": "2020-12-17T15:00:00+00:00",
+              "basis": "synthetic_unadjusted_quote",
+              "bid": "100",
+              "corporate_action_pending": false,
+              "quantity_step_confirmed": true,
+              "regular_session": true
+            },
+            "MSFT": {
+              "ask": "100",
+              "asof": "2020-12-17T15:00:00+00:00",
+              "basis": "synthetic_unadjusted_quote",
+              "bid": "100",
+              "corporate_action_pending": false,
+              "quantity_step_confirmed": true,
+              "regular_session": true
+            }
+          },
+          "signature": {
+            "reason": "scheduled",
+            "reduction": false,
+            "weights": {
+              "AAPL": 0.125,
+              "MSFT": 0.125
+            }
+          }
+        }
+      },
+      "blocked": null,
+      "commissions": {
+        "FICTITIOUS-BUY-001": {
+          "currency": "USD",
+          "fee": "0.300"
+        },
+        "FICTITIOUS-GAP-EXIT-001": {
+          "currency": "USD",
+          "fee": "0.070"
+        }
+      },
+      "events": [
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "count": 2,
+          "decision": "2b5c6211d8175e042a346efa304a87252882139ef6d0b39f01e7d5a44cd0ca1f",
+          "kind": "intents_persisted"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "intent": "H60V8-15e1e-470041e66aaacedfcb",
+          "kind": "submit_attempt_persisted"
+        },
+        {
+          "intent": "H60V8-15e1e-470041e66aaacedfcb",
+          "kind": "submit_acknowledged_reconciliation_required"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "count": 1,
+          "kind": "protection_intents_persisted"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "intent": "H60V8-15e1e-162d34dde79df9dca5",
+          "kind": "submit_attempt_persisted"
+        },
+        {
+          "intent": "H60V8-15e1e-162d34dde79df9dca5",
+          "kind": "submit_acknowledged_reconciliation_required"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        },
+        {
+          "intent": "H60V8-15e1e-470041e66aaacedfcb",
+          "kind": "cancel_requested_reservation_retained"
+        },
+        {
+          "asof": "2020-12-17T15:00:00+00:00",
+          "blocked": null,
+          "kind": "reconciliation"
+        }
+      ],
+      "orders": {
+        "H60V8-15e1e-162d34dde79df9dca5": {
+          "created_at": "2020-12-17T15:00:00+00:00",
+          "decision": "protection",
+          "fill_times": {
+            "FICTITIOUS-GAP-EXIT-001": "2020-12-17T15:00:00+00:00"
+          },
+          "kind": "STP",
+          "limit_price": "100",
+          "reason": "stock_protection",
+          "state": {
+            "attempted": true,
+            "broker_reference": "virtual:H60V8-15e1e-162d34dde79df9dca5",
+            "cancel_requested": false,
+            "executions": {
+              "FICTITIOUS-GAP-EXIT-001": {
+                "price": "70",
+                "quantity": "1",
+                "reference": "virtual:H60V8-15e1e-162d34dde79df9dca5"
+              }
+            },
+            "halted_reason": null,
+            "intent_key": "H60V8-15e1e-162d34dde79df9dca5",
+            "quantity": "3",
+            "reported_filled": "1",
+            "side": "SELL",
+            "symbol": "AAPL",
+            "terminal_status": null,
+            "uncertain": false
+          },
+          "stop_price": "85",
+          "terminal_reconciled": false
+        },
+        "H60V8-15e1e-470041e66aaacedfcb": {
+          "created_at": "2020-12-17T15:00:00+00:00",
+          "decision": "2b5c6211d8175e042a346efa304a87252882139ef6d0b39f01e7d5a44cd0ca1f",
+          "fill_times": {
+            "FICTITIOUS-BUY-001": "2020-12-17T15:00:00+00:00"
+          },
+          "kind": "LMT",
+          "limit_price": "100",
+          "reason": "scheduled",
+          "state": {
+            "attempted": true,
+            "broker_reference": "virtual:H60V8-15e1e-470041e66aaacedfcb",
+            "cancel_requested": true,
+            "executions": {
+              "FICTITIOUS-BUY-001": {
+                "price": "100",
+                "quantity": "3",
+                "reference": "virtual:H60V8-15e1e-470041e66aaacedfcb"
+              }
+            },
+            "halted_reason": null,
+            "intent_key": "H60V8-15e1e-470041e66aaacedfcb",
+            "quantity": "12",
+            "reported_filled": "3",
+            "side": "BUY",
+            "symbol": "AAPL",
+            "terminal_status": null,
+            "uncertain": false
+          },
+          "stop_price": null,
+          "terminal_reconciled": false
+        },
+        "H60V8-15e1e-9044758b4bfeec2c0d": {
+          "created_at": "2020-12-17T15:00:00+00:00",
+          "decision": "2b5c6211d8175e042a346efa304a87252882139ef6d0b39f01e7d5a44cd0ca1f",
+          "kind": "LMT",
+          "limit_price": "100",
+          "reason": "scheduled",
+          "state": {
+            "attempted": false,
+            "broker_reference": null,
+            "cancel_requested": false,
+            "executions": {},
+            "halted_reason": null,
+            "intent_key": "H60V8-15e1e-9044758b4bfeec2c0d",
+            "quantity": "12",
+            "reported_filled": "0",
+            "side": "BUY",
+            "symbol": "MSFT",
+            "terminal_status": null,
+            "uncertain": false
+          },
+          "stop_price": null,
+          "terminal_reconciled": false
+        }
+      },
+      "reconciliation": {
+        "asof": "2020-12-17T15:00:00+00:00",
+        "available_cash": "9769.630",
+        "cash": "9769.630",
+        "commissions": {
+          "FICTITIOUS-BUY-001": {
+            "currency": "USD",
+            "fee": "0.300"
+          },
+          "FICTITIOUS-GAP-EXIT-001": {
+            "currency": "USD",
+            "fee": "0.070"
+          }
+        },
+        "complete": true,
+        "corporate_actions_pending": false,
+        "identity_confirmed": true,
+        "orders": {
+          "H60V8-15e1e-162d34dde79df9dca5": {
+            "filled": "1",
+            "fills": [
+              {
+                "id": "FICTITIOUS-GAP-EXIT-001",
+                "price": "70",
+                "quantity": "1",
+                "time": "2020-12-17T15:00:00+00:00"
+              }
+            ],
+            "key": "H60V8-15e1e-162d34dde79df9dca5",
+            "kind": "STP",
+            "limit_price": "100",
+            "quantity": "3",
+            "reference": "virtual:H60V8-15e1e-162d34dde79df9dca5",
+            "side": "SELL",
+            "status": "Submitted",
+            "stop_price": "85",
+            "strategy_id": "fictional-v13-continuity",
+            "symbol": "AAPL"
+          },
+          "H60V8-15e1e-470041e66aaacedfcb": {
+            "filled": "3",
+            "fills": [
+              {
+                "id": "FICTITIOUS-BUY-001",
+                "price": "100",
+                "quantity": "3",
+                "time": "2020-12-17T15:00:00+00:00"
+              }
+            ],
+            "key": "H60V8-15e1e-470041e66aaacedfcb",
+            "kind": "LMT",
+            "limit_price": "100",
+            "quantity": "12",
+            "reference": "virtual:H60V8-15e1e-470041e66aaacedfcb",
+            "side": "BUY",
+            "status": "PendingCancel",
+            "stop_price": null,
+            "strategy_id": "fictional-v13-continuity",
+            "symbol": "AAPL"
+          }
+        },
+        "positions": {
+          "AAPL": "2",
+          "FOREIGN": "17"
+        }
+      },
+      "runtime": {
+        "blocked_until": {},
+        "close_hash": "ce3e3fb9ec81c5df173657ea7766f73aaf6f10b7d21409e266aa170439aefb86",
+        "drawdown": {
+          "episode_peak": 1.0,
+          "paused": false,
+          "paused_until": -1,
+          "pending_flat": false,
+          "pending_half": false,
+          "recovery_until": -1,
+          "soft": false
+        },
+        "floors": {
+          "AAPL": 85.0
+        },
+        "last_close": "2020-12-17",
+        "last_open": "2020-12-17",
+        "pending_cap": null,
+        "previous_close": {
+          "AAPL": 100.0,
+          "MSFT": 100.0
+        },
+        "seen_fills": [
+          "FICTITIOUS-BUY-001"
+        ]
+      },
+      "spec": {
+        "config": {
+          "budget": "10000",
+          "fee_reserve_rate": ".002",
+          "max_quote_age_seconds": 30,
+          "mode": "virtual",
+          "paper_budget_isolated": false,
+          "paper_identity_confirmed": false,
+          "quantity_step": "1",
+          "strategy_id": "fictional-v13-continuity"
+        },
+        "strategy_manifest_hash": "FICTIONAL-frozen-runtime-manifest",
+        "symbols": [
+          "AAPL",
+          "MSFT"
+        ]
+      },
+      "version": 26
+    },
+    "run_id": "fictional-process-seed",
+    "scope_boundary": "allocated strategy cash plus strategy-owned symbols only",
+    "source_version": 26
+  },
+  "current_drawdown": -0.00903699999999985,
+  "equity": 9909.630000000001,
+  "event_cursor": 4,
+  "external_flows_total": 0.0,
+  "fill_fees_total": 0.0,
+  "fund_shares": 10000.0,
+  "high_water_nav": 1.0,
+  "income_total": -0.37,
+  "last_batch_id": "execution:1ee0058c38de19759d8e91dddf784885583183293e38948bb33ec75bf1a8f530",
+  "last_event_at": "2020-12-17T15:00:00.000000+00:00",
+  "last_event_ids": {
+    "fill": "fill:FICTITIOUS-GAP-EXIT-001",
+    "income": "commission:FICTITIOUS-GAP-EXIT-001"
+  },
+  "last_prices": {
+    "AAPL": 70.0,
+    "MSFT": 100.0
+  },
+  "last_run_id": "fictional-process-seed",
+  "last_valuation_at": "2020-12-17T15:00:00.000000+00:00",
+  "max_drawdown": -0.00903699999999985,
+  "model_history": [
+    {
+      "at": "2020-12-17T15:00:00.000000+00:00",
+      "valuation_cursor": 1,
+      "version": "FICTIONAL-frozen-runtime-manifest"
+    }
+  ],
+  "model_version": "FICTIONAL-frozen-runtime-manifest",
+  "positions": {
+    "AAPL": 2.0,
+    "MSFT": 0.0
+  },
+  "record_cursor": 10,
+  "risk_mode": "HALTED",
+  "risk_state": {
+    "budget_breached": false,
+    "last_resume_session": null,
+    "mode": "HALTED",
+    "pause_count": 0,
+    "paused_until": -1,
+    "pending_flat": true,
+    "reason": "FICTIONAL exit only partly filled",
+    "recovery_floor": null,
+    "resume_count": 0,
+    "resume_unit_nav": null
+  },
+  "schema": 1,
+  "scope": {
+    "currency": "USD",
+    "execution_strategy_id": "fictional-v13-continuity",
+    "owner": "isolated fictitious H60 budget",
+    "scope_id": "fictional-strategy-fund-v13",
+    "universe": [
+      "AAPL",
+      "MSFT"
+    ]
+  },
+  "unit_nav": 0.9909630000000001,
+  "valuation_cursor": 10
+}

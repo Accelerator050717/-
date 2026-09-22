@@ -1,0 +1,158 @@
+{
+  "completed_at_utc": "2026-09-22T14:16:50.372687+00:00",
+  "source_sha256": {
+    "57_check_fund_recording.py": "741e1b034dfa9006c872e2312a1ea4b14c86f8825d537f4eba816d78b6e73dcf",
+    "h60_global_research.py": "3ab5309fe42745c7ac057d52df1a1acb6f8045223c929dd7ae568445f1b42519",
+    "h60_global_control.py": "ce29bc6c958c50ffc30ada407cb80abb7151a6ff855f701561de00d744930297",
+    "strategy_fund_journal.py": "7a59ed0f2f97429aafd2034279e7fceec386bec799f329cfd3495f4dd0dee9bc",
+    "profit_priority_strategy.py": "a8cc353d3ec6c15d695b08f5bfc91e506196f4eec22103b83838db302bbb347b",
+    "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf"
+  },
+  "original_manifest": {
+    "manifest": {
+      "path": "data/experiments/h60_risk_execution_v8/ARTIFACTS.csv",
+      "size_bytes": 57935,
+      "sha256": "99f9bf9258ae8e169b8c9578297c4908afaa56614ef914b013eb1f2175869b85"
+    },
+    "verified_files": 382
+  },
+  "checks": [
+    {
+      "configuration": "protected",
+      "original_case": "stop_on_soft_off_cost10",
+      "ledger_passed": true,
+      "final_flat": true,
+      "days": 2511,
+      "trades": 4951,
+      "comparison": {
+        "daily": {
+          "rows": 2511,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "trades": {
+          "rows": 4951,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "positions": {
+          "rows": 2511,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "targets": {
+          "rows": 595,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "events": {
+          "rows": 0,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        }
+      },
+      "original_cagr": 0.1488074225954641,
+      "original_max_drawdown": -0.17738879286013653,
+      "journal_chain": {
+        "records": 2511,
+        "events": 4951,
+        "final_chain_sha256": "72d02ae32fd97cb2c24fb685d9cc6e82c1644ae082b294f9064ac53ac4e4c25b",
+        "state_sha256": "5d16ba7980beb9825cb9cf83f1e40c6b48624e5d396a9a2cad7751632c0d7fc6",
+        "scope_sha256": "65c280936441194c6d65a02db08e4b611604fb6760ac5c6e2b3121c67004d941"
+      },
+      "scope_id": "v13-record-only-protected",
+      "model_versions": 10,
+      "current_equity": 3.993927415271523,
+      "unit_nav": 3.993927415271523,
+      "high_water_nav": 4.012351542083158,
+      "max_drawdown": -0.17738879286013776
+    },
+    {
+      "configuration": "simple_h60",
+      "original_case": "simple_h60_cost10",
+      "ledger_passed": true,
+      "final_flat": true,
+      "days": 2511,
+      "trades": 3002,
+      "comparison": {
+        "daily": {
+          "rows": 2511,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "trades": {
+          "rows": 3002,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "positions": {
+          "rows": 2511,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "targets": {
+          "rows": 497,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        },
+        "events": {
+          "rows": 2,
+          "exact_values": true,
+          "empty_csv_text_normalized": true
+        }
+      },
+      "original_cagr": 0.20826333993818835,
+      "original_max_drawdown": -0.21145430578275604,
+      "journal_chain": {
+        "records": 2511,
+        "events": 3002,
+        "final_chain_sha256": "a87e29c745a1338a12afd0fb582d62ae7386f8aa754a399ed5f7c1dea4a7e087",
+        "state_sha256": "932d08ad6ee04ac4bcbec13a1886dd48b8c8a9241e3c47512c0b98b587b0d0bf",
+        "scope_sha256": "f98b5c0efb5aa8b35cdb31551028d73b8a8f4fc0c1ad69eda47f4abcfb0e223b"
+      },
+      "scope_id": "v13-record-only-simple_h60",
+      "model_versions": 10,
+      "current_equity": 6.6092752176135745,
+      "unit_nav": 6.6092752176135745,
+      "high_water_nav": 6.675721320263095,
+      "max_drawdown": -0.2114543057827558
+    }
+  ],
+  "files": [
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/record_only_final/protected/final_state.json",
+      "size_bytes": 22167,
+      "sha256": "59fb9d1fdb114922e1d68515a1da147134f4dce9a3d9da80dc80b3846ac13ca4"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/record_only_final/protected/fund.sqlite",
+      "size_bytes": 47341568,
+      "sha256": "e24e1dfc04f883efb3ad3d159ea9b8226a5b1ddab9147be8a49dd76f4f85d9f4"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/record_only_final/protected/fund.sqlite.scope.json",
+      "size_bytes": 463,
+      "sha256": "95337bb13cb12794b71303cc53f99ce80e175cba6280ddd6c6bf4dc2fabd9aa4"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/record_only_final/simple_h60/final_state.json",
+      "size_bytes": 18805,
+      "sha256": "9aa2e185f7f909e7f70df3474a87d7e6d389f59ce1ba2133bdd68173d139e1b3"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/record_only_final/simple_h60/fund.sqlite",
+      "size_bytes": 39677952,
+      "sha256": "ce0178b9b718d1dd2b3c91d90aa6a4fccde531f7940aa588ca8856ac4e3c7fa5"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/record_only_final/simple_h60/fund.sqlite.scope.json",
+      "size_bytes": 464,
+      "sha256": "b86a973813e10f08aac9949941eebdb7c62b0b87d474d09ac935fd96bd6ee493"
+    }
+  ],
+  "record_only_historical_replays": 2,
+  "controlled_historical_replays": 0,
+  "new_fits": 0,
+  "prices_2026_accessed": false,
+  "orders_sent": 0
+}

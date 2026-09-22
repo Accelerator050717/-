@@ -1,0 +1,30 @@
+test_foreign_overlap_and_corporate_actions_fail_closed (test_h60_execution.ExecutionTests.test_foreign_overlap_and_corporate_actions_fail_closed) ... ok
+test_live_or_unconfirmed_paper_configuration_refused (test_h60_execution.ExecutionTests.test_live_or_unconfirmed_paper_configuration_refused) ... ok
+test_missing_commission_and_conflicting_fills_block_new_risk (test_h60_execution.ExecutionTests.test_missing_commission_and_conflicting_fills_block_new_risk) ... ok
+test_missing_initialized_database_never_resets_capital (test_h60_execution.ExecutionTests.test_missing_initialized_database_never_resets_capital) ... ok
+test_missing_unknown_order_is_not_evidence_for_resubmission (test_h60_execution.ExecutionTests.test_missing_unknown_order_is_not_evidence_for_resubmission) ... ok
+test_partial_fill_and_cancel_fill_race_reserves_shares (test_h60_execution.ExecutionTests.test_partial_fill_and_cancel_fill_race_reserves_shares) ... ok
+test_protection_tracks_actual_fills_without_overselling (test_h60_execution.ExecutionTests.test_protection_tracks_actual_fills_without_overselling) ... ok
+test_repeat_decision_submit_and_restart_no_duplicates (test_h60_execution.ExecutionTests.test_repeat_decision_submit_and_restart_no_duplicates) ... ok
+test_stale_quotes_wrong_basis_identity_and_cash_mismatch (test_h60_execution.ExecutionTests.test_stale_quotes_wrong_basis_identity_and_cash_mismatch) ... ok
+test_timeout_after_accept_reconcile_instead_of_resend (test_h60_execution.ExecutionTests.test_timeout_after_accept_reconcile_instead_of_resend) ... ok
+test_budget_mismatch_stops_before_broker_calls (test_h60_execution_cycle.CycleTests.test_budget_mismatch_stops_before_broker_calls) ... ok
+test_delayed_fill_processing_uses_execution_day_for_cooldown (test_h60_execution_cycle.CycleTests.test_delayed_fill_processing_uses_execution_day_for_cooldown) ... ok
+test_protection_fill_cancels_partial_entry_remainder_across_restart (test_h60_execution_cycle.CycleTests.test_protection_fill_cancels_partial_entry_remainder_across_restart) ... ok
+test_restart_same_batch_and_recompute_after_cancel_stop_fill (test_h60_execution_cycle.CycleTests.test_restart_same_batch_and_recompute_after_cancel_stop_fill) ... ok
+test_same_close_is_idempotent_but_conflicting_fact_is_rejected (test_h60_runtime.RuntimeTests.test_same_close_is_idempotent_but_conflicting_fact_is_rejected) ... ok
+test_scheduled_targets_equal_research_engine_and_prefix_only (test_h60_runtime.RuntimeTests.test_scheduled_targets_equal_research_engine_and_prefix_only) ... ok
+test_both_real_engine_paths_are_sell_only (test_risk_fixes.RiskFixTests.test_both_real_engine_paths_are_sell_only) ... ok
+test_default_spy_formula_and_parameter_are_connected (test_risk_fixes.RiskFixTests.test_default_spy_formula_and_parameter_are_connected) ... ok
+test_gap_target_cannot_buy_or_reopen (test_risk_fixes.RiskFixTests.test_gap_target_cannot_buy_or_reopen) ... ok
+test_soft_off_does_not_disable_hard_pause_or_recovery (test_risk_fixes.RiskFixTests.test_soft_off_does_not_disable_hard_pause_or_recovery) ... ok
+test_fixed_stop_and_cash_reconcile (test_profit_priority_strategy.ProfitPriorityTests.test_fixed_stop_and_cash_reconcile) ... ok
+test_fixed_stop_ignores_daily_peak_and_atr (test_profit_priority_strategy.ProfitPriorityTests.test_fixed_stop_ignores_daily_peak_and_atr) ... ok
+test_no_same_day_reentry_after_gap (test_profit_priority_strategy.ProfitPriorityTests.test_no_same_day_reentry_after_gap) ... ok
+test_prefix_does_not_use_future (test_profit_priority_strategy.ProfitPriorityTests.test_prefix_does_not_use_future) ... ok
+test_soft_risk_restores_after_recovery (test_profit_priority_strategy.ProfitPriorityTests.test_soft_risk_restores_after_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.329s
+
+OK

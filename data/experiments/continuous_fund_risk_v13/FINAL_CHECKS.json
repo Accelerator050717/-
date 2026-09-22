@@ -1,0 +1,48 @@
+{
+  "checked_at_utc": "2026-09-22T14:37:52.086497+00:00",
+  "base_commit": "3d02318a10266f91615714a77673d1d5f425f988",
+  "original_source_bytes_unchanged": [
+    "profit_priority_strategy.py",
+    "h60_strategy_runtime.py",
+    "h60_execution.py",
+    "h60_execution_cycle.py",
+    "research_backtest.py",
+    "robust_strategy.py"
+  ],
+  "frozen_recording_and_evaluation_read_only_verified": true,
+  "old_v11_unique_files_verified": 703,
+  "v13_tests": 46,
+  "old_regressions": 25,
+  "all_passed": true,
+  "new_python_syntax_checked": [
+    "56_check_fund_continuity.py",
+    "57_check_fund_recording.py",
+    "58_evaluate_continuous_risk.py",
+    "59_summarize_continuous_risk.py",
+    "h60_fund_control_cycle.py",
+    "h60_fund_risk_bridge.py",
+    "h60_global_control.py",
+    "h60_global_research.py",
+    "strategy_fund_journal.py",
+    "tests/test_v13_boundaries.py",
+    "tests/test_v13_control_cycle.py",
+    "tests/test_v13_execution_continuity.py",
+    "tests/test_v13_fund_journal.py",
+    "tests/test_v13_gates.py",
+    "tests/test_v13_global_control.py",
+    "tests/test_v13_research_continuity.py",
+    "tools/check_v13_control_cycle.py",
+    "tools/check_v13_tests.py",
+    "tools/prepare_v13_sync.py",
+    "tools/register_v13_plan.py"
+  ],
+  "source_snapshot_difference": [
+    "59_summarize_continuous_risk.py"
+  ],
+  "source_snapshot_difference_reason": "Only report table labels/coverage explanations were clarified after tests; unchanged algorithm and execution sources retain matching hashes. Report generation reran successfully and was numerically reviewed.",
+  "current_report_source_sha256": "264f5c38d983add12e5b1d2922f25f9f19371e9b82b56e7af1020fabbbcdf434",
+  "new_fits": 0,
+  "new_replays": 14,
+  "new_real_or_paper_orders": 0,
+  "prices_2026_accessed": false
+}

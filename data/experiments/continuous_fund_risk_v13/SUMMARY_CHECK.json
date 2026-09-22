@@ -1,0 +1,16 @@
+{
+  "new_fits": 0,
+  "original_models": 10,
+  "new_control_replays": 14,
+  "reused_controls": 21,
+  "record_only_complete_replays": 2,
+  "preserved_pre_freeze_attempts": 1,
+  "risk_value_gate_passed": false,
+  "numerical_objectives_met": false,
+  "global_triggered_scenarios": 14,
+  "global_pauses": 1,
+  "review_locks": 0,
+  "report_sha256": "4e057b1a67bf7b2faa16225fe0838093868456c190de333f14d86f768c84e001",
+  "new_orders_real_or_paper": 0,
+  "prices_2026_accessed": false
+}

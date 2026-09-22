@@ -1,12 +1,25 @@
 # 美股机器学习量化：边教边搭
 
-源码审阅请先看 [REVIEW_INDEX.md](REVIEW_INDEX.md)。最新[v12年度训练截止实验](data/experiments/h60_training_cutoff_v12/REPORT.md)完成10次新拟合、14次新回放，复用10份原模型及21条控制结果。原rank_60/81特征/Ridge/风控不变，部署前使用全部成熟标签的B使完整保护净CAGR14.88%→13.69%、全历史回撤17.74%→19.55%；简单H60也20.83%→18.22%。未改善、未达30%收益目标，不升级模型，2026仍封存。见[计划](data/experiments/h60_training_cutoff_v12/PLAN.md)、[训练明细](data/experiments/h60_training_cutoff_v12/TRAINING_DETAILS.md)、[完整配对结果](data/experiments/h60_training_cutoff_v12/pair_deltas.csv)。
+源码审阅请先看 [REVIEW_INDEX.md](REVIEW_INDEX.md)。最新[v13持续策略资金高水位实验](data/experiments/continuous_fund_risk_v13/REPORT.md)已完成：**资金连续性基础补齐，本方案风控价值门槛未通过，盈利仍未达到30%净年化目标。** 保留原A信号，新增模型拟合0次，复用10份年度模型及21条控制结果；新增14次固定全局控制回放及2次完整只记录历史一致性核对。未追加阈值、换模型或使用2026行情。
 
-本次同步新增v12成果，旧v8—v11及所有原材料保留。[v12上传清单及增量ZIP](review_upload/sync_v12_20260921/README.md)补充此前清单；未获取行情、启动交易或升级LEAN/paper。LEAN仍导入原预测、生成目标和订单，采用人工阶段与自定义立即全额代理成交；完整数据流和证据边界见审阅入口。
+| 2016—2025完整开发区间，扣原定成本 | 净年化原→新 | 全历史最大回撤原→新 |
+| --- | --- | --- |
+| 完整保护A | 14.88% → 12.90% | 17.74% → 18.68% |
+| 简单H60诊断 | 20.83% → 17.92% | 21.15% → 19.41% |
 
-复核顺序：项目根目录`.\.venv\Scripts\python.exe -B 52_verify_frozen_research.py`核验旧v11；再运行`53_train_annual_cutoff.py`（完成后仅核验）及`54_evaluate_training_cutoff.py --check-only`。`55_summarize_annual_cutoff.py`只从已保存结果写报告。依赖沿用requirements.txt及Python3.12.2，无新增安装。52区分生成提交与当前复核提交，保留真实源码/输入/模型/预测/结果哈希检查；旧50保持冻结且会因HEAD变化拒绝，不再作为只读入口。
+完整保护损失1.98个百分点年化，回撤反而加深0.94个百分点；简单配置有回撤改善，但收益下降且缺完整个股保护，不能替代成品。详见[冻结计划](data/experiments/continuous_fund_risk_v13/PLAN.md)、[全部成对结果](data/experiments/continuous_fund_risk_v13/pair_deltas.csv)、[年度表现](data/experiments/continuous_fund_risk_v13/annual_results.csv)及[验收](data/experiments/continuous_fund_risk_v13/GATES.json)。开发历史未突破30%预算不等于未来保证，2016—2025也不是独立验证。
 
-现有20%硬暂停按可重置风险周期计算，不能称30%全账户上限；连续历史高水位统计不会重置。虚构两次亏损/恢复已检出42.52%全历史回撤。下一步唯一优先见[全账户高水位控制及收益代价](data/experiments/h60_training_cutoff_v12/NEXT_QUESTION.md)，它另立实验，本轮不改变策略。继续盈利研究不能靠沿本轮截止方向扫参数来宣称质变。
+本轮明确管理的是**策略持续管理的指定资金，不是整个IBKR账户**。独立资金身份、份额/单位净值、累计高水位及事件游标与策略检查点一起持久化，重启、跨年及模型元数据变化不能抹掉旧亏损；原周期高点仍独立保留。[资金契约](data/experiments/continuous_fund_risk_v13/ENGINEERING_CONTRACT.md)、[进程恢复及部分成交证据](data/experiments/continuous_fund_risk_v13/engineering/final_verification/CONTINUITY_REPORT.json)、[必要测试](data/experiments/continuous_fund_risk_v13/TESTS.json)均标明虚构场景。
+
+[历史适配器](h60_global_research.py)完整使用同一[全局控制器](h60_global_control.py)。[执行事实桥](h60_fund_risk_bridge.py)及[附加离线控制周期](h60_fund_control_cycle.py)仍是本地虚构接线：执行账本保留每次可信估值高点，历史比较按收盘高点，两者尚未达到完整路径等价。真实模型清单交接、券商资金事件导入、迟到成交/佣金、原生美股报价/公司行动、持续保护及长期断线补账仍待完成。费用与事前仓位预算的差异见[工程限制](data/experiments/continuous_fund_risk_v13/ENGINEERING_LIMITATIONS.md)。真实/paper订单0，前瞻业绩无；LEAN仍是人工阶段和自定义立即成交的历史代理，未扩大迁移或删除模式限制。
+
+复核已完成材料：项目根目录`.\.venv\Scripts\python.exe -B 52_verify_frozen_research.py`核验旧v11，`57_check_fund_recording.py`核验只记录证据，`58_evaluate_continuous_risk.py --check-only`核验固定比较，`59_summarize_continuous_risk.py`仅从保存结果生成报告。57/58完成后只核对，不重新回放。Python3.12.2及requirements.txt不变；旧50因HEAD变化拒绝的问题仍由52的独立只读入口处理。
+
+新增SQLite及完整交易/仓位/目标明细保留本地，准确路径、大小、哈希及ZIP见[v13上传说明](review_upload/sync_v13_20260922/README.md)。旧v8—v12及原模型/预测/行情完整保留。
+
+**下一步唯一优先：取得一份合法可用、包含退市股及历史成员变化的点时股票池样本，通过[v9契约](data/experiments/universe_delisting_v9/DATA_CONTRACT.md)验收。** 完整授权数据仍缺，存续偏差未解决；本轮到此停止，不继续调整风控阈值，也不把工程可靠性当成盈利能力。
+
+保留的[v12年度训练截止实验](data/experiments/h60_training_cutoff_v12/REPORT.md)：10次拟合、14次回放；原rank_60/81特征/Ridge/风控不变，全部成熟标签更新B使完整保护净CAGR14.88%→13.69%、全历史回撤17.74%→19.55%，未改善、不升级。见[训练明细](data/experiments/h60_training_cutoff_v12/TRAINING_DETAILS.md)、[配对结果](data/experiments/h60_training_cutoff_v12/pair_deltas.csv)及[v12材料清单](review_upload/sync_v12_20260921/README.md)。v12当时提出的持续高水位问题已由本轮v13固定比较回答，旧报告保留当时状态。
 
 保留[v11训练目标比较](data/experiments/h60_signal_objectives_v11/REPORT.md)：30次新训练，最佳新增16.29% CAGR，仍未达目标。它提出的年度截止问题已经由v12回答，旧报告保留当时状态。
 

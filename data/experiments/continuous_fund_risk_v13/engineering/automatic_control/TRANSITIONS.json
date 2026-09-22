@@ -1,0 +1,167 @@
+[
+  {
+    "evidence": "FICTIONAL VirtualBroker controller cycle; no orders or paper integration",
+    "scope_id": "fictional-automatic-control",
+    "decision_id": "1e3fba3674c9d2be7d194c43f6857f8d0bdff97e26a99fea17f2d836c433f450",
+    "phase": "close",
+    "day": "2025-01-06",
+    "mode": "REDUCED",
+    "risk_state": {
+      "mode": "REDUCED",
+      "reason": "cumulative_drawdown_10_percent",
+      "paused_until": -1,
+      "pending_flat": false,
+      "resume_unit_nav": null,
+      "recovery_floor": null,
+      "last_resume_session": null,
+      "budget_breached": false,
+      "pause_count": 0,
+      "resume_count": 0
+    },
+    "events": [
+      {
+        "event": "global_reduce",
+        "reason": "cumulative_drawdown_10_percent"
+      }
+    ],
+    "resumed": false,
+    "unit_nav": 0.89231,
+    "high_water_nav": 1.0,
+    "cumulative_drawdown": -0.10768999999999995,
+    "gross_cap": 0.4,
+    "cash": "1091.100",
+    "positions": {
+      "AAPL": "89"
+    }
+  },
+  {
+    "evidence": "FICTIONAL VirtualBroker controller cycle; no orders or paper integration",
+    "scope_id": "fictional-automatic-control",
+    "decision_id": "272073227791d0113464edb3d964a2716bcf43504bc81990f43ae0025deaf5ff",
+    "phase": "close",
+    "day": "2025-01-07",
+    "mode": "HALTED",
+    "risk_state": {
+      "mode": "HALTED",
+      "reason": "cumulative_drawdown_20_percent",
+      "paused_until": 22,
+      "pending_flat": true,
+      "resume_unit_nav": null,
+      "recovery_floor": null,
+      "last_resume_session": null,
+      "budget_breached": false,
+      "pause_count": 1,
+      "resume_count": 0
+    },
+    "events": [
+      {
+        "event": "global_pause",
+        "reason": "cumulative_drawdown_20_percent"
+      }
+    ],
+    "resumed": false,
+    "unit_nav": 0.7944100000000001,
+    "high_water_nav": 1.0,
+    "cumulative_drawdown": -0.20558999999999994,
+    "gross_cap": 0.0,
+    "cash": "1091.100",
+    "positions": {
+      "AAPL": "89"
+    }
+  },
+  {
+    "evidence": "FICTIONAL VirtualBroker controller cycle; no orders or paper integration",
+    "scope_id": "fictional-automatic-control",
+    "decision_id": "dce75d9cc369066d41ab4f46df652c5ef70893f214fa45d32b065c76bf2f0072",
+    "phase": "open",
+    "day": "2025-02-06",
+    "mode": "HALTED",
+    "risk_state": {
+      "mode": "HALTED",
+      "reason": "cumulative_drawdown_20_percent",
+      "paused_until": 22,
+      "pending_flat": true,
+      "resume_unit_nav": null,
+      "recovery_floor": null,
+      "last_resume_session": null,
+      "budget_breached": false,
+      "pause_count": 1,
+      "resume_count": 0
+    },
+    "events": [],
+    "resumed": false,
+    "unit_nav": 0.7944100000000001,
+    "high_water_nav": 1.0,
+    "cumulative_drawdown": -0.20558999999999994,
+    "gross_cap": 0.0,
+    "cash": "1091.100",
+    "positions": {
+      "AAPL": "89"
+    }
+  },
+  {
+    "evidence": "FICTIONAL VirtualBroker controller cycle; no orders or paper integration",
+    "scope_id": "fictional-automatic-control",
+    "decision_id": "d5e2c145d1f918191598e62be35ee10401f33c71f3fdda90bf0f6b00bb1f3ed6",
+    "phase": "open",
+    "day": "2025-02-10",
+    "mode": "RECOVERY",
+    "risk_state": {
+      "mode": "RECOVERY",
+      "reason": "cooldown_trend_schedule_and_remaining_budget_allow_limited_reentry",
+      "paused_until": 22,
+      "pending_flat": false,
+      "resume_unit_nav": 0.7937247000000001,
+      "recovery_floor": 0.754038465,
+      "last_resume_session": 25,
+      "budget_breached": false,
+      "pause_count": 1,
+      "resume_count": 1
+    },
+    "events": [
+      {
+        "event": "global_resume",
+        "reason": "cooldown_trend_schedule_and_remaining_budget_allow_limited_reentry"
+      }
+    ],
+    "resumed": true,
+    "unit_nav": 0.7937247000000001,
+    "high_water_nav": 1.0,
+    "cumulative_drawdown": -0.20627529999999994,
+    "gross_cap": 0.25,
+    "cash": "7937.247",
+    "positions": {
+      "AAPL": "0"
+    }
+  },
+  {
+    "evidence": "FICTIONAL VirtualBroker controller cycle; no orders or paper integration",
+    "scope_id": "fictional-automatic-control",
+    "decision_id": "737e50dba4478e44aa0c2b44a930e6511512253345977758d8c164ae8765265b",
+    "phase": "close",
+    "day": "2025-02-10",
+    "mode": "RECOVERY",
+    "risk_state": {
+      "mode": "RECOVERY",
+      "reason": "cooldown_trend_schedule_and_remaining_budget_allow_limited_reentry",
+      "paused_until": 22,
+      "pending_flat": false,
+      "resume_unit_nav": 0.7937247000000001,
+      "recovery_floor": 0.754038465,
+      "last_resume_session": 25,
+      "budget_breached": false,
+      "pause_count": 1,
+      "resume_count": 1
+    },
+    "events": [],
+    "resumed": false,
+    "unit_nav": 0.7937247000000001,
+    "high_water_nav": 1.0,
+    "cumulative_drawdown": -0.20627529999999994,
+    "gross_cap": 0.25,
+    "cash": "7937.247",
+    "positions": {
+      "AAPL": "0"
+    }
+  }
+]

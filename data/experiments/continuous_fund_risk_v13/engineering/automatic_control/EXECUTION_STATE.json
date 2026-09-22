@@ -1,0 +1,323 @@
+{
+  "version": 20,
+  "spec": {
+    "config": {
+      "strategy_id": "h60-v8-engineering",
+      "mode": "virtual",
+      "budget": "10000",
+      "quantity_step": "1",
+      "fee_reserve_rate": ".002",
+      "max_quote_age_seconds": 30,
+      "paper_budget_isolated": false,
+      "paper_identity_confirmed": false
+    },
+    "strategy_manifest_hash": "76551dc4e6678f5fb88025793365cd8d47655e6fd341d258e5d1f8be88ba2d39",
+    "symbols": [
+      "AAPL"
+    ]
+  },
+  "orders": {
+    "H60V8-e4563-2b79a7b8a73ad5ecd7": {
+      "state": {
+        "intent_key": "H60V8-e4563-2b79a7b8a73ad5ecd7",
+        "symbol": "AAPL",
+        "side": "BUY",
+        "quantity": "89",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-2b79a7b8a73ad5ecd7",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "89",
+        "executions": {
+          "FICTIONAL-ENTRY": {
+            "reference": "virtual:H60V8-e4563-2b79a7b8a73ad5ecd7",
+            "quantity": "89",
+            "price": "100"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "entry",
+      "kind": "LMT",
+      "limit_price": "100",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-01-06T14:30:00+00:00",
+      "fill_times": {
+        "FICTIONAL-ENTRY": "2025-01-06T14:30:00+00:00"
+      }
+    },
+    "H60V8-e4563-4d0b84c5f96fec8402": {
+      "state": {
+        "intent_key": "H60V8-e4563-4d0b84c5f96fec8402",
+        "symbol": "AAPL",
+        "side": "SELL",
+        "quantity": "89",
+        "attempted": true,
+        "broker_reference": "virtual:H60V8-e4563-4d0b84c5f96fec8402",
+        "uncertain": false,
+        "cancel_requested": false,
+        "terminal_status": null,
+        "reported_filled": "89",
+        "executions": {
+          "FICTIONAL-EXIT": {
+            "reference": "virtual:H60V8-e4563-4d0b84c5f96fec8402",
+            "quantity": "89",
+            "price": "77"
+          }
+        },
+        "halted_reason": null
+      },
+      "decision": "exit",
+      "kind": "LMT",
+      "limit_price": "77",
+      "stop_price": null,
+      "reason": "scheduled",
+      "terminal_reconciled": true,
+      "created_at": "2025-02-07T14:30:00+00:00",
+      "fill_times": {
+        "FICTIONAL-EXIT": "2025-02-07T14:30:00+00:00"
+      }
+    }
+  },
+  "batches": {
+    "entry": {
+      "signature": {
+        "weights": {
+          "AAPL": 0.9
+        },
+        "reduction": false,
+        "reason": "scheduled"
+      },
+      "intents": [
+        "H60V8-e4563-2b79a7b8a73ad5ecd7"
+      ],
+      "quotes": {
+        "AAPL": {
+          "bid": "100",
+          "ask": "100",
+          "asof": "2025-01-06T14:30:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        }
+      },
+      "created_at": "2025-01-06T14:30:00+00:00",
+      "execution_day": null
+    },
+    "exit": {
+      "signature": {
+        "weights": {
+          "AAPL": 0.0
+        },
+        "reduction": true,
+        "reason": "scheduled"
+      },
+      "intents": [
+        "H60V8-e4563-4d0b84c5f96fec8402"
+      ],
+      "quotes": {
+        "AAPL": {
+          "bid": "77",
+          "ask": "77",
+          "asof": "2025-02-07T14:30:00+00:00",
+          "basis": "synthetic_unadjusted_quote",
+          "regular_session": true,
+          "quantity_step_confirmed": true,
+          "corporate_action_pending": false
+        }
+      },
+      "created_at": "2025-02-07T14:30:00+00:00",
+      "execution_day": null
+    }
+  },
+  "commissions": {
+    "FICTIONAL-ENTRY": {
+      "fee": "8.900",
+      "currency": "USD"
+    },
+    "FICTIONAL-EXIT": {
+      "fee": "6.853",
+      "currency": "USD"
+    }
+  },
+  "events": [
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "intents_persisted",
+      "decision": "entry",
+      "count": 1
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-2b79a7b8a73ad5ecd7"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-2b79a7b8a73ad5ecd7"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-06T21:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-07T21:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-01-07T21:00:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-02-06T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-02-07T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "intents_persisted",
+      "decision": "exit",
+      "count": 1
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-02-07T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "submit_attempt_persisted",
+      "intent": "H60V8-e4563-4d0b84c5f96fec8402"
+    },
+    {
+      "kind": "submit_acknowledged_reconciliation_required",
+      "intent": "H60V8-e4563-4d0b84c5f96fec8402"
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-02-07T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-02-10T14:30:00+00:00",
+      "blocked": null
+    },
+    {
+      "kind": "reconciliation",
+      "asof": "2025-02-10T21:00:00+00:00",
+      "blocked": null
+    }
+  ],
+  "reconciliation": {
+    "asof": "2025-02-10T21:00:00+00:00",
+    "complete": true,
+    "identity_confirmed": true,
+    "corporate_actions_pending": false,
+    "cash": "7937.247",
+    "available_cash": "7937.247",
+    "positions": {
+      "AAPL": "0"
+    },
+    "orders": {
+      "H60V8-e4563-2b79a7b8a73ad5ecd7": {
+        "key": "H60V8-e4563-2b79a7b8a73ad5ecd7",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "AAPL",
+        "side": "BUY",
+        "quantity": "89",
+        "kind": "LMT",
+        "limit_price": "100",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-2b79a7b8a73ad5ecd7",
+        "status": "Filled",
+        "filled": "89",
+        "fills": [
+          {
+            "id": "FICTIONAL-ENTRY",
+            "quantity": "89",
+            "price": "100",
+            "time": "2025-01-06T14:30:00+00:00"
+          }
+        ]
+      },
+      "H60V8-e4563-4d0b84c5f96fec8402": {
+        "key": "H60V8-e4563-4d0b84c5f96fec8402",
+        "strategy_id": "h60-v8-engineering",
+        "symbol": "AAPL",
+        "side": "SELL",
+        "quantity": "89",
+        "kind": "LMT",
+        "limit_price": "77",
+        "stop_price": null,
+        "reference": "virtual:H60V8-e4563-4d0b84c5f96fec8402",
+        "status": "Filled",
+        "filled": "89",
+        "fills": [
+          {
+            "id": "FICTIONAL-EXIT",
+            "quantity": "89",
+            "price": "77",
+            "time": "2025-02-07T14:30:00+00:00"
+          }
+        ]
+      }
+    },
+    "commissions": {
+      "FICTIONAL-ENTRY": {
+        "fee": "8.900",
+        "currency": "USD"
+      },
+      "FICTIONAL-EXIT": {
+        "fee": "6.853",
+        "currency": "USD"
+      }
+    }
+  },
+  "blocked": null,
+  "account_cash_offset": "0",
+  "runtime": {
+    "drawdown": {
+      "episode_peak": 1.0,
+      "paused_until": -1,
+      "recovery_until": -1,
+      "soft": false,
+      "paused": false,
+      "pending_flat": false,
+      "pending_half": false
+    }
+  },
+  "derived": {
+    "cash": "7937.247",
+    "positions": {
+      "AAPL": "0"
+    },
+    "reserved_cash": "0",
+    "reserved_sells": {
+      "AAPL": "0"
+    }
+  }
+}

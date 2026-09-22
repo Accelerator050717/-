@@ -1,0 +1,236 @@
+{
+  "reviewed_at_utc": "2026-09-22T14:35:44.134349+00:00",
+  "evidence": "Independent read-only numerical review; no replay, fit, market fetch or orders",
+  "completed_new_replays": 14,
+  "reused_controls": 21,
+  "new_fits": 0,
+  "reused_original_models": 10,
+  "frozen_input_files_hashed": 59,
+  "frozen_generation_sources_hashed": 11,
+  "results_checked": 35,
+  "pairs_checked": 14,
+  "annual_rows_checked": 350,
+  "pause_intervals_checked": 17,
+  "recovery_intervals_checked": 1,
+  "risk_value_gate_recomputed": false,
+  "protected_main_cagr_change_pp": -1.9761083902984256,
+  "protected_main_drawdown_improvement_pp": -0.9445234523873691,
+  "all_new_cases_below_30_cagr": true,
+  "all_new_cases_within_30_close_drawdown": true,
+  "global_pause_total": 1,
+  "global_resume_total": 1,
+  "global_review_lock_total": 0,
+  "maximum_new_pause_sessions": 37,
+  "checks": [
+    {
+      "case": "original_protected_cost10",
+      "cagr": 0.1488074225954641,
+      "drawdown": -0.17738879286013653,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_protected_cost20",
+      "cagr": 0.13730865690399474,
+      "drawdown": -0.18634259946920362,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_protected_cost30_stop50",
+      "cagr": 0.11288059398519734,
+      "drawdown": -0.2569792440959393,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_protected_delayed_next_open",
+      "cagr": 0.1425655899231073,
+      "drawdown": -0.17846220167131754,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_protected_phase1",
+      "cagr": 0.15260680289088957,
+      "drawdown": -0.16863853126095973,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_protected_phase4",
+      "cagr": 0.166399274459045,
+      "drawdown": -0.1692742460896406,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_protected_exclude_NVDA",
+      "cagr": 0.11966993589573649,
+      "drawdown": -0.21905062237301465,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_h60_cost10",
+      "cagr": 0.20826333993818835,
+      "drawdown": -0.21145430578275604,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_h60_cost20",
+      "cagr": 0.1888320394135179,
+      "drawdown": -0.21689083753788818,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_h60_cost30_stop50",
+      "cagr": 0.1723802134272323,
+      "drawdown": -0.2044042830438354,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_h60_delayed_next_open",
+      "cagr": 0.1888320394135179,
+      "drawdown": -0.21689083753788818,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_h60_phase1",
+      "cagr": 0.24408329881203228,
+      "drawdown": -0.1985266700048255,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_h60_phase4",
+      "cagr": 0.23800556577512144,
+      "drawdown": -0.19222632916290971,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_h60_exclude_NVDA",
+      "cagr": 0.1375908138361246,
+      "drawdown": -0.22479302128847822,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_spy_cost10",
+      "cagr": 0.09749477585693755,
+      "drawdown": -0.17574652986980321,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_spy_cost20",
+      "cagr": 0.09582981796613077,
+      "drawdown": -0.1762351477192975,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_spy_cost30_stop50",
+      "cagr": 0.09416734389980319,
+      "drawdown": -0.1767239275514848,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_spy_delayed_next_open",
+      "cagr": 0.09582981796613077,
+      "drawdown": -0.1762351477192975,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_spy_phase1",
+      "cagr": 0.10117480663836798,
+      "drawdown": -0.15338617550219402,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_spy_phase4",
+      "cagr": 0.09572367246462155,
+      "drawdown": -0.16782854510296608,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "original_simple_spy_exclude_NVDA",
+      "cagr": 0.09749477585693755,
+      "drawdown": -0.17574652986980321,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_protected_cost10",
+      "cagr": 0.12904633869247983,
+      "drawdown": -0.18683402738401023,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_protected_cost20",
+      "cagr": 0.11836334878471955,
+      "drawdown": -0.1819772921003866,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_protected_cost30_stop50",
+      "cagr": 0.10796273450721672,
+      "drawdown": -0.17578104608835798,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_protected_delayed_next_open",
+      "cagr": 0.11671845904876266,
+      "drawdown": -0.17364094786774031,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_protected_phase1",
+      "cagr": 0.13269919428706123,
+      "drawdown": -0.1686385312609595,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_protected_phase4",
+      "cagr": 0.15633530298150844,
+      "drawdown": -0.16325287233088526,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_protected_exclude_NVDA",
+      "cagr": 0.10500713001530415,
+      "drawdown": -0.17916590372263275,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_simple_h60_cost10",
+      "cagr": 0.17919331904747038,
+      "drawdown": -0.19413927893804483,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_simple_h60_cost20",
+      "cagr": 0.16360921531973371,
+      "drawdown": -0.19756860522578734,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_simple_h60_cost30_stop50",
+      "cagr": 0.12825291006351658,
+      "drawdown": -0.20049390159244884,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_simple_h60_delayed_next_open",
+      "cagr": 0.16360921531973371,
+      "drawdown": -0.19756860522578734,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_simple_h60_phase1",
+      "cagr": 0.218305011451563,
+      "drawdown": -0.16783144703979624,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_simple_h60_phase4",
+      "cagr": 0.20818637162183307,
+      "drawdown": -0.1823766673644882,
+      "nav_annual_cost_and_peak_consistent": true
+    },
+    {
+      "case": "global_simple_h60_exclude_NVDA",
+      "cagr": 0.11943718890704003,
+      "drawdown": -0.18692952326318668,
+      "nav_annual_cost_and_peak_consistent": true
+    }
+  ]
+}

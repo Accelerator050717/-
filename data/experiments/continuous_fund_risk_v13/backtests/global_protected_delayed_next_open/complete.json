@@ -1,0 +1,55 @@
+{
+  "evaluation_identity_sha256": "0aacd14926b7e754d2014fb1a0bd6ac0e4d5c863a46e9668b74be574971b3107",
+  "files": [
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/daily.csv",
+      "size_bytes": 870351,
+      "sha256": "fdb1233e784007875c52bf49c5a314c45061dc2414523018cba61f84ccbedcfd"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/events.csv",
+      "size_bytes": 1892,
+      "sha256": "39df0cfbcb7a802377f8c4782cf63e1c9043bef1349bc2b95095b40c19d635eb"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/fund.sqlite",
+      "size_bytes": 51777536,
+      "sha256": "db798b22a30b11bfde8e1c560d9c4d4cf838b3bc242dfb858208c241173371da"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/fund.sqlite.scope.json",
+      "size_bytes": 492,
+      "sha256": "264e0eee0aa252204039792433e35aa0e91c9d5e525dd3af04410568926b7b7a"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/JOURNAL_CHECK.json",
+      "size_bytes": 309,
+      "sha256": "58c7d22099774569959c7b070f992cf3184f5ce323e0355a37a4bc1805f30e1e"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/metrics.json",
+      "size_bytes": 1801,
+      "sha256": "80296b51e005e8860ffcd719fa3de8307dfaffd096e212b383f396a7fe3c67fa"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/positions.csv",
+      "size_bytes": 679721,
+      "sha256": "353d1bff1f27927e7ad04ff39572dcc1f209e1039bb97496ea2f39ccda6a6ee9"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/state.json",
+      "size_bytes": 22350,
+      "sha256": "929239090e53729d8cacabfb7872ff2f171fc27791b94401c6a0ccc39d4ef728"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/targets.csv",
+      "size_bytes": 221820,
+      "sha256": "6d1ed9177beccd2ce141f5fbc5d968976a3a878d82d5cecf3984c3cb5e0d0d88"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_delayed_next_open/trades.csv",
+      "size_bytes": 1272463,
+      "sha256": "c5e3572dcb1fc89de650161bbf06621afd5646164d96dec49547f034658bbf1b"
+    }
+  ]
+}

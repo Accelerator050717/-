@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-09-22T14:09:57.885845+00:00",
+  "partial_record_only_attempt": {
+    "path": "data/experiments/continuous_fund_risk_v13/record_only/protected/fund.sqlite",
+    "committed_sessions": 2511,
+    "stopped_before_completion": true,
+    "reason": "Independent review identified simulation identity and global-only timing fixes; preserve partial attempt, rerun unchanged-trade recording with final implementation in record_only_final."
+  },
+  "completed_global_historical_runs_at_fix": 0,
+  "changes": [
+    "Include concentration groups in restart identity",
+    "Use known open prices for actual global gross-cap reductions",
+    "Observe final liquidation NAV in cumulative controller"
+  ],
+  "parameter_search": false
+}

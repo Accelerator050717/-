@@ -1,0 +1,19 @@
+{
+  "evidence": "FICTITIOUS standalone boundary scenarios only; no historical replay or threshold search",
+  "command": ".venv\\Scripts\\python.exe -m unittest tests.test_v13_boundaries -v",
+  "returncode": 0,
+  "tests": 3,
+  "passed": true,
+  "output": "test_final_liquidation_fee_is_observed_and_can_enter_review_lock (tests.test_v13_boundaries.GlobalBoundaryTests.test_final_liquidation_fee_is_observed_and_can_enter_review_lock) ... ok\ntest_model_metadata_handoff_keeps_risk_scope_and_loss_after_restart (tests.test_v13_boundaries.GlobalBoundaryTests.test_model_metadata_handoff_keeps_risk_scope_and_loss_after_restart) ... ok\ntest_upward_opening_gap_reduction_caps_actual_open_exposure (tests.test_v13_boundaries.GlobalBoundaryTests.test_upward_opening_gap_reduction_caps_actual_open_exposure) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.490s\n\nOK\n",
+  "source_sha256": {
+    "tests/test_v13_boundaries.py": "8cb89a770a45696e612e51e18d93aca74c2168f2bc2079c3872f78926d298058",
+    "h60_global_control.py": "ce29bc6c958c50ffc30ada407cb80abb7151a6ff855f701561de00d744930297",
+    "h60_global_research.py": "3ab5309fe42745c7ac057d52df1a1acb6f8045223c929dd7ae568445f1b42519",
+    "strategy_fund_journal.py": "7a59ed0f2f97429aafd2034279e7fceec386bec799f329cfd3495f4dd0dee9bc"
+  },
+  "checks": [
+    "actual opening gap cap and reduce-only trades",
+    "final liquidation fee included in cumulative-risk observation",
+    "same-scope model metadata change across process restart preserves units and high water"
+  ]
+}

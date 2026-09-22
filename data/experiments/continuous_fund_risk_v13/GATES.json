@@ -1,0 +1,25 @@
+{
+  "risk_value_gate_passed": false,
+  "risk_value_conditions": {
+    "main_drawdown_improves_at_least_3pp": false,
+    "main_cagr_cost_no_more_than_2pp": true,
+    "all_six_stress_drawdowns_within_30": true,
+    "no_stress_drawdown_worse_more_than_2pp": true
+  },
+  "protected_main_drawdown_improvement_pp": -0.9445234523873691,
+  "protected_main_cagr_change_pp": -1.9761083902984256,
+  "protected_numerical_objectives": {
+    "net_cagr_at_least_30": false,
+    "full_history_drawdown_within_30": true
+  },
+  "protected_numerical_objectives_met": false,
+  "preferred_drawdown_within_20": true,
+  "aspiration_cagr_50": false,
+  "simple_configuration_diagnostic_only": true,
+  "independent_validation_passed": false,
+  "prices_2026_accessed": false,
+  "new_fits": 0,
+  "model_promoted_to_lean_or_paper": false,
+  "decision": "REJECT_NO_2026",
+  "no_future_drawdown_guarantee": true
+}

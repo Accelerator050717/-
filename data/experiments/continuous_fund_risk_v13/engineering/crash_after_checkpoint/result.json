@@ -1,0 +1,94 @@
+{
+  "evidence": "FICTIONAL; no real/paper broker",
+  "cash": "9769.630",
+  "positions": {
+    "AAPL": "2",
+    "MSFT": "0"
+  },
+  "targets": {
+    "2b5c6211d8175e042a346efa304a87252882139ef6d0b39f01e7d5a44cd0ca1f": {
+      "weights": {
+        "AAPL": 0.125,
+        "MSFT": 0.125
+      },
+      "reduction": false,
+      "reason": "scheduled"
+    }
+  },
+  "orders": {
+    "H60V8-15e1e-470041e66aaacedfcb": {
+      "side": "BUY",
+      "symbol": "AAPL",
+      "quantity": "12",
+      "executions": {
+        "FICTITIOUS-BUY-001": {
+          "reference": "virtual:H60V8-15e1e-470041e66aaacedfcb",
+          "quantity": "3",
+          "price": "100"
+        }
+      }
+    },
+    "H60V8-15e1e-9044758b4bfeec2c0d": {
+      "side": "BUY",
+      "symbol": "MSFT",
+      "quantity": "12",
+      "executions": {}
+    },
+    "H60V8-15e1e-162d34dde79df9dca5": {
+      "side": "SELL",
+      "symbol": "AAPL",
+      "quantity": "3",
+      "executions": {
+        "FICTITIOUS-GAP-EXIT-001": {
+          "reference": "virtual:H60V8-15e1e-162d34dde79df9dca5",
+          "quantity": "1",
+          "price": "70"
+        }
+      }
+    }
+  },
+  "runtime": {
+    "drawdown": {
+      "episode_peak": 1.0,
+      "paused_until": -1,
+      "recovery_until": -1,
+      "soft": false,
+      "paused": false,
+      "pending_flat": false,
+      "pending_half": false
+    },
+    "pending_cap": null,
+    "previous_close": {
+      "AAPL": 100.0,
+      "MSFT": 100.0
+    },
+    "blocked_until": {},
+    "floors": {
+      "AAPL": 85.0
+    },
+    "seen_fills": [
+      "FICTITIOUS-BUY-001"
+    ],
+    "last_open": "2020-12-17",
+    "last_close": "2020-12-17",
+    "close_hash": "ce3e3fb9ec81c5df173657ea7766f73aaf6f10b7d21409e266aa170439aefb86"
+  },
+  "unit_nav": 0.9909630000000001,
+  "high_water_nav": 1.0,
+  "max_drawdown": -0.00903699999999985,
+  "equity": 9909.630000000001,
+  "risk_state": {
+    "budget_breached": false,
+    "last_resume_session": null,
+    "mode": "HALTED",
+    "pause_count": 0,
+    "paused_until": -1,
+    "pending_flat": true,
+    "reason": "FICTIONAL exit only partly filled",
+    "recovery_floor": null,
+    "resume_count": 0,
+    "resume_unit_nav": null
+  },
+  "foreign_position": "17",
+  "broker_submit_count": 2
+}

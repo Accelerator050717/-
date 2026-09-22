@@ -1,0 +1,55 @@
+{
+  "evaluation_identity_sha256": "0aacd14926b7e754d2014fb1a0bd6ac0e4d5c863a46e9668b74be574971b3107",
+  "files": [
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/daily.csv",
+      "size_bytes": 867870,
+      "sha256": "fce9c39e8e9e6aec38c34ea8a5b25617154c6559273318d8a18d2f5dfd75c67d"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/events.csv",
+      "size_bytes": 1277,
+      "sha256": "a3074571e6bca5332b0a7a47f33c7a6b3991f397eb7a83d70136bdc2a719382f"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/fund.sqlite",
+      "size_bytes": 51273728,
+      "sha256": "f92f89844db59b6a8edfee71e2675acf130bca9c20c92a3e38dbeb4ff55382fa"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/fund.sqlite.scope.json",
+      "size_bytes": 481,
+      "sha256": "6c6446c1f9df69e63c463bf74819e1c2ecec9ea63c89e0bcba37f5b39091f263"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/JOURNAL_CHECK.json",
+      "size_bytes": 309,
+      "sha256": "f71726115e1f8bb54d51a9f68fb5debdeee661f1278ed8fc42eba6ef44f7d19d"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/metrics.json",
+      "size_bytes": 1801,
+      "sha256": "733cfa4d2fe6cd4519043300969d8ff2f31e483da92f719de626918ac4d507c4"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/positions.csv",
+      "size_bytes": 677156,
+      "sha256": "7de4df0e797b04b292e3fbbd0a4cc2c2042a2189d4ed9033780cff72ff62c5c3"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/state.json",
+      "size_bytes": 22328,
+      "sha256": "b9c3bb896f1132ac4bcb796ea7142a45165987c30c060e4e45480bd80df4d66d"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/targets.csv",
+      "size_bytes": 213920,
+      "sha256": "9b87386e60fda60548ed31249bc213ad93d204c9023d8029295d3ca4620aa8ab"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_protected_phase1/trades.csv",
+      "size_bytes": 1217403,
+      "sha256": "7fc3112831e32b80cb67d1b7890e98d8ba02b27b631e6a0a5e6f5ac269d001b1"
+    }
+  ]
+}

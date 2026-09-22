@@ -1,0 +1,17 @@
+{
+  "prepared_at_utc": "2026-09-22T14:38:19.757702+00:00",
+  "base_commit": "3d02318a10266f91615714a77673d1d5f425f988",
+  "branch": "main",
+  "git_files": 169,
+  "local_only_files": 119,
+  "git_bytes": 15465329,
+  "local_only_bytes": 821671672,
+  "zip_count": 3,
+  "previous_manifest_sha256": {
+    "review_upload/inventory.csv": "cea164e4f6d2cc2a9d5e9546841880337125c2563384dd0e9fd321461dfc41e1",
+    "review_upload/sync_v8_v11_20260911/inventory.csv": "aa341cbb5cf7edd9986bb1e8261be8e26ab0d960a1f5c35b3cc5d3a19599a3b9",
+    "review_upload/sync_v12_20260921/inventory.csv": "ffcc20bc492158c798d09a3e88535a73dc7c6d5d46e714e2a1fdff2c6e50543f"
+  },
+  "old_manifests_preserved": true,
+  "scope": "Only changed/new source/docs and all v13 outputs, including incomplete pre-freeze journals. Own upload metadata excluded to prevent recursive hashes. No old output tree is scanned."
+}

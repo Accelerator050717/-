@@ -1,0 +1,55 @@
+{
+  "evaluation_identity_sha256": "0aacd14926b7e754d2014fb1a0bd6ac0e4d5c863a46e9668b74be574971b3107",
+  "files": [
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/daily.csv",
+      "size_bytes": 857928,
+      "sha256": "2b99b8de2ff7862b6a13b3331eca3a5338666b3ff87207831fd66b7ef883caa9"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/events.csv",
+      "size_bytes": 2483,
+      "sha256": "18e179b1644f378c397839ce5e743e65f73ad9ba8dc0dd8145e0b414067b105f"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/fund.sqlite",
+      "size_bytes": 42151936,
+      "sha256": "00c7f1b7b935caae77553f99fa2568ff6afb229a0fd0a062c22e6d33f3aa684e"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/fund.sqlite.scope.json",
+      "size_bytes": 482,
+      "sha256": "46b11221ca66f23a451387e08b45468729f7e57312914ed912aec660c2e9a1bb"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/JOURNAL_CHECK.json",
+      "size_bytes": 309,
+      "sha256": "e98b7f47873a7d3e370ba71663419a4d76e05e324ed83a661c85a794bffee723"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/metrics.json",
+      "size_bytes": 1773,
+      "sha256": "b2bda59d3aafe27ceeccdd2c13810b8c284381671543bd19642444462dd4047c"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/positions.csv",
+      "size_bytes": 547224,
+      "sha256": "fd5cc581d9b8de17ccb020c7437baf1f80dac99516a644bf46e41bb6440bf412"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/state.json",
+      "size_bytes": 18880,
+      "sha256": "c5c7a0fa9e166aa5d64bbc6f30de94ce5205c3a373f26e10189d89517b9277fa"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/targets.csv",
+      "size_bytes": 136587,
+      "sha256": "871fb4dac24779d82d302e65cf22d8f443252816c7c31a840984c481954b7d94"
+    },
+    {
+      "path": "data/experiments/continuous_fund_risk_v13/backtests/global_simple_h60_phase1/trades.csv",
+      "size_bytes": 651389,
+      "sha256": "a6efd26cec735466b6ca6a69a7bfddfeb0f2c706f2141faafc4850c74888dece"
+    }
+  ]
+}
