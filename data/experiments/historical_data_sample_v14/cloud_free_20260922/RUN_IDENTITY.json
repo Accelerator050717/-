@@ -1,0 +1,19 @@
+{
+  "python": "3.11.14",
+  "kernel": "Foundation-Py-Default",
+  "executed_cells": [
+    {
+      "execution_count": 1,
+      "functions": ["historical_symbol", "check_cloud_sample"],
+      "cell_sha256": "419f80cfff4ccc76cc2d2e0429c8d4bd40acb7a1368b35d38b8d3cafcb025e41",
+      "definitions_ast_sha256": "74c5a5c4caa73ec7c2e1aaed94666e15053450d79b9d0789c23ecd41deb4e959"
+    },
+    {
+      "execution_count": 2,
+      "functions": ["check_cloud_supplement"],
+      "cell_sha256": "3e60cef8c5e868b6fdfb760fe27a3915b5c4d409a653260b88e46bfbe8f69615",
+      "definitions_ast_sha256": "573020a8b4c6e2d575671844508b1dd1499b79584f2746bb59973beff616c997"
+    }
+  ],
+  "history_calls_in_this_cell": 0
+}

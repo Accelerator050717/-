@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "tools/qc_v14_cloud_check.py": "f21b1b24eba86eec1e5a59063e85236fbe513a2225bc613e3f8bdf44c5d30bb6",
+    "tools/qc_v14_cloud_supplement.py": "16e305203f52d1fc3bf1e09b9972d77ded28d954571d5faf4b308a66c70a447b"
+  },
+  "notebook_sha256": "40547aeae3dce7f93a41023c4ccd0bb738fc3189178d9ccf481d0b595dc85c15",
+  "outputs_in_local_notebook": 0,
+  "cloud_execution_status": "completed; see RUN_IDENTITY.json and ORIGINAL_RESULTS.json/SUPPLEMENT_RESULTS.json; local notebook remains a prepared package without execution output",
+  "source_line_endings": "read_text normalizes newlines; original source byte hashes retained"
+}

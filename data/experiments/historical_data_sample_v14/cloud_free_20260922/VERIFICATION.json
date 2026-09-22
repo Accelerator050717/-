@@ -1,0 +1,15 @@
+{
+  "status": "verified_offline_saved_cloud_evidence",
+  "generation_base_commit": "ad702085698f88fed3e4c74ceecc75f2272fbe58",
+  "verification_commit": "ad702085698f88fed3e4c74ceecc75f2272fbe58",
+  "head_change_alone_invalidates_evidence": false,
+  "files_verified": 11,
+  "cloud_source_ast_matches": 2,
+  "browser_result_transfer_matches": 2,
+  "history_queries_completed": 30,
+  "price_rows": 34,
+  "event_rows": 10,
+  "historical_filter_input_rows": 39143,
+  "new_cloud_queries": 0,
+  "meaning": "Saved-output integrity, not a fresh service run or full data certification"
+}

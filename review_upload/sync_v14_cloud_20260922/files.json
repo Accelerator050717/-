@@ -1,0 +1,95 @@
+{
+  "generation_base_commit": "ad702085698f88fed3e4c74ceecc75f2272fbe58",
+  "local_root": "M:\\ml项目",
+  "files": [
+    {
+      "path": "REVIEW_INDEX.md",
+      "bytes": 32918,
+      "sha256": "a1f7ad73c8882b4f4bc828052f932674215e5afebcb5dd116aa8b33778228d1d"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/REPORT.md",
+      "bytes": 9753,
+      "sha256": "454ef31b4c723a9d9ef5c9578b5d5cb08f3398c9552c9e668626014bda86b2d8"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/QC_CLOUD_CHECK.md",
+      "bytes": 5122,
+      "sha256": "eabf00783370c82a53ce9829ef7da87fd712c5b2c7fe4be1eb4082d2f0309ce1"
+    },
+    {
+      "path": "tools/qc_v14_cloud_supplement.py",
+      "bytes": 9601,
+      "sha256": "16e305203f52d1fc3bf1e09b9972d77ded28d954571d5faf4b308a66c70a447b"
+    },
+    {
+      "path": "tools/verify_qc_v14_cloud_evidence.py",
+      "bytes": 5255,
+      "sha256": "7da220ecd437b86edcd84b4e58ed0b17564260b6626bace197a33492a6076426"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/CLOUD_EVIDENCE_IDENTITY.json",
+      "bytes": 3435,
+      "sha256": "da84852af31c9ab83f4e8edfbd67770b65505024330383a60544b5e89104a34f"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/cloud_main_guard.py",
+      "bytes": 256,
+      "sha256": "5c04b9b833a5d67d74cade2aad344233b478a9c2032b97bd91e3b43ac7a599b0"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/NOTEBOOK_IDENTITY.json",
+      "bytes": 649,
+      "sha256": "0a59fe5fc451c1b00083f4bf677fc1ff43758f160910432e1d26d63e45468f06"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/ORIGINAL_RESULTS.json",
+      "bytes": 7332,
+      "sha256": "61894459aba8ce65544741fe36744f56b7acc7ce892d3732cdc43e9addc16b01"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/PLAN.md",
+      "bytes": 1768,
+      "sha256": "8a6f866d391a60d190a0bb71a37ddb4111afddc0434969044209b067a6036224"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/REPORT.md",
+      "bytes": 9308,
+      "sha256": "24a98f77697d114ae9589c9b5686df148cfc9955ac33fb54a3cea7da2beefa18"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/RUN_IDENTITY.json",
+      "bytes": 693,
+      "sha256": "2a6552774e17029476fc3d015684d720d783de8ed3b0c17fd15bcaa925cb1433"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/RUN_STATUS.json",
+      "bytes": 2438,
+      "sha256": "01545e5dae8b217c36723dee2f20315fc4250a2708959a5d2934cc661d86ab4f"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/SUPPLEMENT_RESULTS.json",
+      "bytes": 6158,
+      "sha256": "89babc0b2304483ab882161c1c3845bbe133cf89c75a1559a12f7c149e39dff3"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/v14_readonly_checks.ipynb",
+      "bytes": 22715,
+      "sha256": "40547aeae3dce7f93a41023c4ccd0bb738fc3189178d9ccf481d0b595dc85c15"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/VERIFICATION.json",
+      "bytes": 593,
+      "sha256": "b398fddf03ef5d0d83280c42f0db261dbc2a08774000bc47f3d42b275d6027da"
+    },
+    {
+      "path": "review_upload/sync_v14_cloud_20260922/README.md",
+      "bytes": 2478,
+      "sha256": "328b1b4bf307f9a969405e624b41236b01f65ff8cad61872ded156f57cb4a1d8"
+    }
+  ],
+  "total_bytes": 120472,
+  "new_large_artifacts": [],
+  "new_review_zips": [],
+  "provider_raw_export": "none; QC cloud memory only; regenerate permitted fixed checks in cloud, do not export provider records"
+}

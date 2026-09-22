@@ -1,0 +1,186 @@
+{
+  "mode": "cloud read-only supplemental metadata inspection",
+  "aapl_corporate_actions": {
+    "requested_start": "2020-08-03T00:00:00",
+    "requested_end_boundary": "2020-09-04T00:00:00",
+    "public_payable_date": "2020-08-13",
+    "public_split_trading_date": "2020-08-31",
+    "interpretation": "Engine events do not prove original announcement receipt or actual cash settlement",
+    "dividends": {
+      "query": "completed",
+      "rows": 1,
+      "fields_present_in_all_rows": {
+        "symbol": true,
+        "time": true,
+        "end_time": true,
+        "distribution": true,
+        "reference_price": true
+      },
+      "unexpected_year_rows": 0,
+      "any_event_matches_public_payable_date": false
+    },
+    "splits": {
+      "query": "completed",
+      "rows": 2,
+      "fields_present_in_all_rows": {
+        "symbol": true,
+        "time": true,
+        "end_time": true,
+        "type": true,
+        "split_factor": true,
+        "reference_price": true
+      },
+      "unexpected_year_rows": 0,
+      "warning_rows": 1,
+      "occurred_rows": 1,
+      "occurred_event_matches_public_split_trading_date": true
+    }
+  },
+  "historical_fundamental_universe": {
+    "twtr_before": {
+      "requested_start": "2022-10-24T00:00:00",
+      "requested_end_boundary": "2022-10-25T00:00:00",
+      "target_identity_error_type": null,
+      "query": "completed",
+      "selection_records": 1,
+      "filter_calls": [
+        {
+          "candidate_rows": 9892,
+          "unique_sid_count": 9892,
+          "duplicate_sid_rows": 0,
+          "case_present": {
+            "TWTR": true,
+            "SIVB": true
+          },
+          "unexpected_year_rows": 0,
+          "time_boundary_counts": {
+            "observation_time_before_start": 0,
+            "observation_time_start_through_before_end": 9892,
+            "observation_time_at_or_after_end": 0,
+            "end_time_at_or_before_start": 0,
+            "end_time_after_start_through_end": 9892,
+            "end_time_after_end": 0,
+            "observation_date_before_own_end_time_date": 9892,
+            "prior_observation_delivered_in_request": 0
+          }
+        }
+      ],
+      "case_present_in_any_filter_input": true
+    },
+    "twtr_after": {
+      "requested_start": "2022-11-02T00:00:00",
+      "requested_end_boundary": "2022-11-03T00:00:00",
+      "target_identity_error_type": null,
+      "query": "completed",
+      "selection_records": 1,
+      "filter_calls": [
+        {
+          "candidate_rows": 9854,
+          "unique_sid_count": 9854,
+          "duplicate_sid_rows": 0,
+          "case_present": {
+            "TWTR": false,
+            "SIVB": true
+          },
+          "unexpected_year_rows": 0,
+          "time_boundary_counts": {
+            "observation_time_before_start": 0,
+            "observation_time_start_through_before_end": 9854,
+            "observation_time_at_or_after_end": 0,
+            "end_time_at_or_before_start": 0,
+            "end_time_after_start_through_end": 9854,
+            "end_time_after_end": 0,
+            "observation_date_before_own_end_time_date": 9854,
+            "prior_observation_delivered_in_request": 0
+          }
+        }
+      ],
+      "case_present_in_any_filter_input": false
+    },
+    "sivb_before": {
+      "requested_start": "2023-03-06T00:00:00",
+      "requested_end_boundary": "2023-03-07T00:00:00",
+      "target_identity_error_type": null,
+      "query": "completed",
+      "selection_records": 1,
+      "filter_calls": [
+        {
+          "candidate_rows": 9704,
+          "unique_sid_count": 9704,
+          "duplicate_sid_rows": 0,
+          "case_present": {
+            "TWTR": false,
+            "SIVB": true
+          },
+          "unexpected_year_rows": 0,
+          "time_boundary_counts": {
+            "observation_time_before_start": 0,
+            "observation_time_start_through_before_end": 9704,
+            "observation_time_at_or_after_end": 0,
+            "end_time_at_or_before_start": 0,
+            "end_time_after_start_through_end": 9704,
+            "end_time_after_end": 0,
+            "observation_date_before_own_end_time_date": 9704,
+            "prior_observation_delivered_in_request": 0
+          }
+        }
+      ],
+      "case_present_in_any_filter_input": true
+    },
+    "sivb_after": {
+      "requested_start": "2023-04-03T00:00:00",
+      "requested_end_boundary": "2023-04-04T00:00:00",
+      "target_identity_error_type": null,
+      "query": "completed",
+      "selection_records": 0,
+      "filter_calls": [
+        {
+          "candidate_rows": 9693,
+          "unique_sid_count": 9693,
+          "duplicate_sid_rows": 0,
+          "case_present": {
+            "TWTR": false,
+            "SIVB": false
+          },
+          "unexpected_year_rows": 0,
+          "time_boundary_counts": {
+            "observation_time_before_start": 0,
+            "observation_time_start_through_before_end": 9693,
+            "observation_time_at_or_after_end": 0,
+            "end_time_at_or_before_start": 0,
+            "end_time_after_start_through_end": 9693,
+            "end_time_after_end": 0,
+            "observation_date_before_own_end_time_date": 9693,
+            "prior_observation_delivered_in_request": 0
+          }
+        }
+      ],
+      "case_present_in_any_filter_input": false
+    }
+  },
+  "universe_input_set_differences": {
+    "TWTR": {
+      "query": "completed",
+      "same_sid_set": false,
+      "removed_sid_count": 149,
+      "added_sid_count": 111
+    },
+    "SIVB": {
+      "query": "completed",
+      "same_sid_set": false,
+      "removed_sid_count": 152,
+      "added_sid_count": 141
+    }
+  },
+  "time_interpretation": "Requested boundaries are compared with each observation's Time and EndTime; LEAN history uses start < EndTime <= end. A later EndTime models delivery after the observation date, not independently verified announcement or receipt time.",
+  "not_established": [
+    "full historical universe coverage",
+    "index membership",
+    "original vendor receipt/vintage",
+    "announcement availability",
+    "halt cause",
+    "OTC continuation",
+    "terminal recovery",
+    "cash settlement"
+  ]
+}

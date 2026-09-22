@@ -1,4 +1,6 @@
-# Minimal QuantConnect cloud inspection — prepared, not run
+# Minimal QuantConnect cloud inspection — original preparation record
+
+**Executed follow-up, 2026-09-22:** the existing script has now run in the logged-in Free Research environment, with an additional fixed check for corporate actions and dated filter-input coverage. See [actual cloud report](cloud_free_20260922/REPORT.md), [runtime identity](cloud_free_20260922/RUN_IDENTITY.json), and [results](cloud_free_20260922/ORIGINAL_RESULTS.json). All 30 history calls across both scripts completed. The original script and old status JSON remain unchanged. The text below records preparation-time access; it is not the latest service status.
 
 `tools/qc_v14_cloud_check.py` is a fixed **data-access inspection**, not a strategy. The current local-browser QuantConnect terminal showed Sign In in the parent task's check. No authenticated cloud run or supplier-data acceptance is claimed.
 

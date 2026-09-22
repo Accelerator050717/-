@@ -1,6 +1,18 @@
 # 最新源码审阅入口
 
-最新更新：2026-09-22，**v14已取得真实历史事件小样本并接通原v9入口；尚不够进行可信收益研究或消除存续偏差。** 本轮基于`a8cf66223c0d88b3d78dada3ff3f355c6eaf8730`，新增训练/策略回测/行情下载/券商连接/订单均0，未读取2026行情。原A不变；v13持续资金记账保留，新风控仍为研究状态。
+最新更新：2026-09-22，**v14已在登录的QuantConnect Free云Research实际完成历史数据检查：30次查询全部完成，34条日线、10条事件；退市股历史行情及按历史日期变化的候选范围确实可读。** 本次基于`ad702085698f88fed3e4c74ceecc75f2272fbe58`。先读[云实测报告](data/experiments/historical_data_sample_v14/cloud_free_20260922/REPORT.md)、[运行状态](data/experiments/historical_data_sample_v14/cloud_free_20260922/RUN_STATUS.json)、[原检查返回](data/experiments/historical_data_sample_v14/cloud_free_20260922/ORIGINAL_RESULTS.json)及[补充返回](data/experiments/historical_data_sample_v14/cloud_free_20260922/SUPPLEMENT_RESULTS.json)。
+
+- [云项目](https://www.quantconnect.com/project/36832711)使用Community R-MICRO、Foundation-Py-Default。TWTR与SIVB固定窗口各取得4条真实RAW日线及Warning/Delisted事件；FB/META同SID且有更名事件；AAPL取得分红和拆股记录。
+- 四个历史窗口的筛选前候选数为9,892、9,854、9,704、9,693。TWTR/SIVB在各自前窗口存在、后窗口消失，证明不是今天存续名单。它是历史Fundamental筛选输入，不是S&P500成分表，也未证明全美股/OTC覆盖。观察Time与EndTime跨日，不能在当日开盘提前使用整日输入。
+- 四项结论分别为：格式/身份**样本有限通过**；信息时间**限定可用，缺原始接收版本证据**；完整收益研究**尚不足**；完整历史股票池**未建立**。停牌原因/恢复流、OTC延续、终止回收和可用现金仍缺。分红事件日期不等于公开支付日，退市事件也不等于现金到账。
+- 原[云检查源码](tools/qc_v14_cloud_check.py)保持不变；[补充源码](tools/qc_v14_cloud_supplement.py)只查固定2020/2022/2023窗口。[只读验证器](tools/verify_qc_v14_cloud_evidence.py)验证云源码AST、本地摘要哈希及浏览器复制一致性，不要求当前HEAD等于生成时HEAD。运行：`.\.venv\Scripts\python.exe -B tools/verify_qc_v14_cloud_evidence.py`。
+- 新增训练/策略回测/券商连接/真实或paper订单/购买均0，2026行情继续封存；没有验证2025全年覆盖。供应商源记录留在云内；Git只包含代码、允许分享的非重建型摘要和身份。无新增大文件或ZIP，见[材料说明](review_upload/sync_v14_cloud_20260922/README.md)。原A及v13资金基础保持，v13新风控不升级，旧研究产物和清单不覆盖。
+
+**唯一下一步：在同一Free云环境另立固定计划，验收连续历史区间的动态证券范围、行情衔接及终止持仓处理，然后再决定训练。** 当前免费权限已足够完成本次样本读取，无需购买；接口通过不等于已消除30股存续偏差或达到30%净年化目标。
+
+## v14先前公开样本（保留当时状态）
+
+先前更新：2026-09-22，**v14取得真实历史事件小样本并接通原v9入口；尚不够进行可信收益研究或消除存续偏差。** 该阶段基于`a8cf66223c0d88b3d78dada3ff3f355c6eaf8730`，新增训练/策略回测/行情下载/券商连接/订单均0，未读取2026行情。原A不变；v13持续资金记账保留，新风控仍为研究状态。
 
 优先阅读[v14报告](data/experiments/historical_data_sample_v14/REPORT.md)、[预登记计划](data/experiments/historical_data_sample_v14/PLAN.md)、[四项验收及实际数量](data/experiments/historical_data_sample_v14/CHECKS.json)、[原字段映射](data/experiments/historical_data_sample_v14/SOURCE_MAPPING.md)、[独立复核](data/experiments/historical_data_sample_v14/INDEPENDENT_REVIEW.md)。
 
@@ -8,7 +20,7 @@
 - 格式与本地身份**有限通过**；信息时间**限定查询可用**；收益研究和完整股票池**不通过**。16条新增事实日期证据缺失0，但15条无核实的盘中发布时间、全部缺原始接收快照/完整修订历史。不是完整S&P500名单，也不是完整历史可交易股票池。
 - 原有AAPL/META各1508条2020—2025行情通过哈希/日历/字段检查；其余4案例无本地完整行情。TWTR假设10股产生542美元应收、0可用现金；SIVB2024旧股无分配有证据，但核销类型暂unsupported。缺失收益不补0、不假设最后一根行情可提前准确卖出。
 - [60验收入口](60_check_historical_sample.py)复用未修改的[historical_universe](historical_universe.py)与[46](46_check_historical_universe.py)；[规范化事实包](data/reference/universe_events/v14_public_sample/manifest.json)保留旁表与限制。当前环境直接运行`.\.venv\Scripts\python.exe -B 60_check_historical_sample.py --verify-local`；新Git克隆去掉该选项只能核对公开事实及结果，完整源验证需找回本地同哈希文件。详见[运行/恢复说明](data/experiments/historical_data_sample_v14/REPORT.md#复现与恢复)。
-- [QuantConnect路线](data/experiments/historical_data_sample_v14/QUANTCONNECT_ROUTE.md)、[Norgate路线](data/experiments/historical_data_sample_v14/NORGATE_ROUTE.md)已按官方资料检查。未验证供应商登录或学术订阅；云可读不等于可导出/再分发。**唯一下一步：登录现有QC Free账户，在云Research内执行[只读数据检查](data/experiments/historical_data_sample_v14/QC_CLOUD_CHECK.md)**；本轮该代码仅静态验证，没有云数据运行结果，不购买或启用交易。
+- [QuantConnect路线](data/experiments/historical_data_sample_v14/QUANTCONNECT_ROUTE.md)、[Norgate路线](data/experiments/historical_data_sample_v14/NORGATE_ROUTE.md)在该阶段按官方资料检查，当时未登录。其后QC Free登录与[云检查](data/experiments/historical_data_sample_v14/cloud_free_20260922/REPORT.md)已实际完成，取代旧“仅准备、未运行”状态；旧状态JSON作为历史记录保留。云可读不等于可导出/再分发，学术订阅未验证。
 - [v14本地材料清单](review_upload/sync_v14_20260922/README.md)列路径、大小、SHA256和来源/恢复方式；原始全文及派生全文无再分发授权，不上传Git或对外ZIP。旧v8—v13模型、预测、研究记录和清单保持。
 
 原有目标仍为至少30%净年化、争取50%，回撤优先20%附近/预算30%。本轮未测收益，不宣布目标达成；历史30股结果依然存在存续偏差。下方LEAN仍为历史代理：导入预测，内部产生订单并由自定义即时成交模型产生代理成交；没有真实paper回报或前瞻业绩。原生报价/公司行动、真实paper入口、部分成交持续保护、保护撤换窗口、长期断线补账缺口未改变。

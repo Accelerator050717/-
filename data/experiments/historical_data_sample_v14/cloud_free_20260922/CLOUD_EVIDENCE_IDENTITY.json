@@ -1,0 +1,87 @@
+{
+  "generation_base_commit": "ad702085698f88fed3e4c74ceecc75f2272fbe58",
+  "observed_at_utc_date": "2026-09-22",
+  "scope": "Frozen code, prepared package and permitted saved cloud diagnostics; not provider raw snapshots",
+  "source_mapping": [
+    {
+      "path": "tools/qc_v14_cloud_check.py",
+      "invoke": "check_cloud_sample()"
+    },
+    {
+      "path": "tools/qc_v14_cloud_supplement.py",
+      "invoke": "check_cloud_supplement()"
+    }
+  ],
+  "browser_transfer": {
+    "ORIGINAL_RESULTS.json": {
+      "compact_utf8_bytes": 5302,
+      "fnv1a64": "6842f24de5a3d9a7"
+    },
+    "SUPPLEMENT_RESULTS.json": {
+      "compact_utf8_bytes": 4418,
+      "fnv1a64": "9e66cec640cf02ba"
+    }
+  },
+  "files": [
+    {
+      "path": "tools/qc_v14_cloud_check.py",
+      "bytes": 6994,
+      "sha256": "f21b1b24eba86eec1e5a59063e85236fbe513a2225bc613e3f8bdf44c5d30bb6"
+    },
+    {
+      "path": "tools/qc_v14_cloud_supplement.py",
+      "bytes": 9601,
+      "sha256": "16e305203f52d1fc3bf1e09b9972d77ded28d954571d5faf4b308a66c70a447b"
+    },
+    {
+      "path": "tools/verify_qc_v14_cloud_evidence.py",
+      "bytes": 5255,
+      "sha256": "7da220ecd437b86edcd84b4e58ed0b17564260b6626bace197a33492a6076426"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/cloud_main_guard.py",
+      "bytes": 256,
+      "sha256": "5c04b9b833a5d67d74cade2aad344233b478a9c2032b97bd91e3b43ac7a599b0"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/NOTEBOOK_IDENTITY.json",
+      "bytes": 649,
+      "sha256": "0a59fe5fc451c1b00083f4bf677fc1ff43758f160910432e1d26d63e45468f06"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/ORIGINAL_RESULTS.json",
+      "bytes": 7332,
+      "sha256": "61894459aba8ce65544741fe36744f56b7acc7ce892d3732cdc43e9addc16b01"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/PLAN.md",
+      "bytes": 1768,
+      "sha256": "8a6f866d391a60d190a0bb71a37ddb4111afddc0434969044209b067a6036224"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/RUN_IDENTITY.json",
+      "bytes": 693,
+      "sha256": "2a6552774e17029476fc3d015684d720d783de8ed3b0c17fd15bcaa925cb1433"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/RUN_STATUS.json",
+      "bytes": 2438,
+      "sha256": "01545e5dae8b217c36723dee2f20315fc4250a2708959a5d2934cc661d86ab4f"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/SUPPLEMENT_RESULTS.json",
+      "bytes": 6158,
+      "sha256": "89babc0b2304483ab882161c1c3845bbe133cf89c75a1559a12f7c149e39dff3"
+    },
+    {
+      "path": "data/experiments/historical_data_sample_v14/cloud_free_20260922/v14_readonly_checks.ipynb",
+      "bytes": 22715,
+      "sha256": "40547aeae3dce7f93a41023c4ccd0bb738fc3189178d9ccf481d0b595dc85c15"
+    }
+  ],
+  "identity_notes": [
+    "Generation base HEAD retained; later commit alone does not change data/source identity.",
+    "FNV is a transfer check; file integrity uses SHA256. No server signature or immutable provider vintage is claimed.",
+    "Actual cloud cell hashes are runtime observations; local prepared notebook is not the executed artifact. Source AST equivalence is verified."
+  ]
+}

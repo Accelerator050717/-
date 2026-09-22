@@ -1,0 +1,225 @@
+{
+  "mode": "cloud read-only metadata inspection; not a return study",
+  "price_mode": "RAW",
+  "fill_forward": false,
+  "scope": "six deliberately selected cases, not complete history",
+  "cases": {
+    "AAPL": {
+      "requested_start": "2020-12-14",
+      "requested_end_exclusive": "2020-12-24",
+      "identity": "date-resolved SID; presence requires history evidence",
+      "prices": {
+        "query": "completed",
+        "rows": 8,
+        "duplicate_end_times": 0,
+        "nonfinite_rows": 0,
+        "invalid_ohlcv_rows": 0,
+        "unexpected_year_rows": 0,
+        "interpretation": "No fill forward; empty does not prove a halt or delisting"
+      },
+      "lifecycle": {
+        "symbol_changes": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence"
+        },
+        "delistings": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence",
+          "warning_rows": 0,
+          "delisted_rows": 0
+        }
+      },
+      "research_universe": {
+        "query": "completed",
+        "selection_records": 8,
+        "records_containing_case_sid": 8,
+        "meaning": "Trading-stock universe coverage, not index membership"
+      }
+    },
+    "TSLA": {
+      "requested_start": "2020-12-14",
+      "requested_end_exclusive": "2020-12-24",
+      "identity": "date-resolved SID; presence requires history evidence",
+      "prices": {
+        "query": "completed",
+        "rows": 8,
+        "duplicate_end_times": 0,
+        "nonfinite_rows": 0,
+        "invalid_ohlcv_rows": 0,
+        "unexpected_year_rows": 0,
+        "interpretation": "No fill forward; empty does not prove a halt or delisting"
+      },
+      "lifecycle": {
+        "symbol_changes": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence"
+        },
+        "delistings": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence",
+          "warning_rows": 0,
+          "delisted_rows": 0
+        }
+      },
+      "research_universe": {
+        "query": "completed",
+        "selection_records": 8,
+        "records_containing_case_sid": 8,
+        "meaning": "Trading-stock universe coverage, not index membership"
+      }
+    },
+    "META": {
+      "requested_start": "2022-06-06",
+      "requested_end_exclusive": "2022-06-14",
+      "identity": "date-resolved SID; presence requires history evidence",
+      "prices": {
+        "query": "completed",
+        "rows": 6,
+        "duplicate_end_times": 0,
+        "nonfinite_rows": 0,
+        "invalid_ohlcv_rows": 0,
+        "unexpected_year_rows": 0,
+        "interpretation": "No fill forward; empty does not prove a halt or delisting"
+      },
+      "lifecycle": {
+        "symbol_changes": {
+          "query": "completed",
+          "rows": 1,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence"
+        },
+        "delistings": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence",
+          "warning_rows": 0,
+          "delisted_rows": 0
+        }
+      },
+      "research_universe": {
+        "query": "completed",
+        "selection_records": 6,
+        "records_containing_case_sid": 6,
+        "meaning": "Trading-stock universe coverage, not index membership"
+      }
+    },
+    "TWTR": {
+      "requested_start": "2022-10-24",
+      "requested_end_exclusive": "2022-11-04",
+      "identity": "date-resolved SID; presence requires history evidence",
+      "prices": {
+        "query": "completed",
+        "rows": 4,
+        "duplicate_end_times": 0,
+        "nonfinite_rows": 0,
+        "invalid_ohlcv_rows": 0,
+        "unexpected_year_rows": 0,
+        "interpretation": "No fill forward; empty does not prove a halt or delisting"
+      },
+      "lifecycle": {
+        "symbol_changes": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence"
+        },
+        "delistings": {
+          "query": "completed",
+          "rows": 2,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence",
+          "warning_rows": 1,
+          "delisted_rows": 1
+        }
+      },
+      "research_universe": {
+        "query": "completed",
+        "selection_records": 9,
+        "records_containing_case_sid": 4,
+        "meaning": "Trading-stock universe coverage, not index membership"
+      }
+    },
+    "SIVB": {
+      "requested_start": "2023-03-06",
+      "requested_end_exclusive": "2023-04-04",
+      "identity": "date-resolved SID; presence requires history evidence",
+      "prices": {
+        "query": "completed",
+        "rows": 4,
+        "duplicate_end_times": 0,
+        "nonfinite_rows": 0,
+        "invalid_ohlcv_rows": 0,
+        "unexpected_year_rows": 0,
+        "interpretation": "No fill forward; empty does not prove a halt or delisting"
+      },
+      "lifecycle": {
+        "symbol_changes": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence"
+        },
+        "delistings": {
+          "query": "completed",
+          "rows": 2,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence",
+          "warning_rows": 1,
+          "delisted_rows": 1
+        }
+      },
+      "research_universe": {
+        "query": "completed",
+        "selection_records": 21,
+        "records_containing_case_sid": 4,
+        "meaning": "Trading-stock universe coverage, not index membership"
+      }
+    },
+    "ATVI": {
+      "requested_start": "2023-10-09",
+      "requested_end_exclusive": "2023-10-20",
+      "identity": "date-resolved SID; presence requires history evidence",
+      "prices": {
+        "query": "completed",
+        "rows": 4,
+        "duplicate_end_times": 0,
+        "nonfinite_rows": 0,
+        "invalid_ohlcv_rows": 0,
+        "unexpected_year_rows": 0,
+        "interpretation": "No fill forward; empty does not prove a halt or delisting"
+      },
+      "lifecycle": {
+        "symbol_changes": {
+          "query": "completed",
+          "rows": 0,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence"
+        },
+        "delistings": {
+          "query": "completed",
+          "rows": 2,
+          "interpretation": "Empty is unknown; engine time is not announcement evidence",
+          "warning_rows": 1,
+          "delisted_rows": 1
+        }
+      },
+      "research_universe": {
+        "query": "completed",
+        "selection_records": 9,
+        "records_containing_case_sid": 4,
+        "meaning": "Trading-stock universe coverage, not index membership"
+      }
+    }
+  },
+  "mapping_check": {
+    "query": "completed",
+    "fb_meta_same_sid": true
+  },
+  "not_established": [
+    "announcement availability",
+    "original received vintage",
+    "OTC continuation",
+    "terminal recovery",
+    "cash settlement",
+    "index membership",
+    "complete universe coverage"
+  ]
+}
