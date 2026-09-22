@@ -1,0 +1,520 @@
+{
+  "source": "QuantConnect original C10 Orders visible UI; native Submitted and Filled events",
+  "project_id": 36834914,
+  "backtest_id": "0d921feb058a7e18dac120f1d27097b8",
+  "rows": [
+    [
+      "-2022-01-04 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $477.25 USD",
+      "188",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2022-01-04 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-01-05 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 477.25 USD",
+      "188",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-02-02 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $450.93 USD",
+      "1",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2022-02-02 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-02-03 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 450.93 USD",
+      "1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-03-02 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $440.59 USD",
+      "1",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2022-03-02 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-03-03 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 440.59 USD",
+      "1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-04-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $453.20 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2022-04-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-04-04 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 453.20 USD",
+      "-1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-05-03 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $417.13 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2022-05-03 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-05-04 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 417.13 USD",
+      "2",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-07-05 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $382.07 USD",
+      "3",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2022-07-05 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-07-06 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 382.07 USD",
+      "3",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-08-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $409.03 USD",
+      "-2",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2022-08-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-08-02 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 409.03 USD",
+      "-2",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-09-02 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $393.13 USD",
+      "1",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2022-09-02 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-09-06 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 393.13 USD",
+      "1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-10-04 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $373.32 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2022-10-04 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-10-05 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 373.32 USD",
+      "2",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-11-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $383.96 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2022-11-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-11-02 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 383.96 USD",
+      "-1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2022-12-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $402.14 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2022-12-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2022-12-02 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 402.14 USD",
+      "-1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-01-04 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $381.76 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2023-01-04 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-01-05 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 381.76 USD",
+      "2",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-02-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $414.83 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2023-02-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-02-02 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 414.83 USD",
+      "-1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-03-02 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $399.56 USD",
+      "1",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2023-03-02 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-03-03 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 399.56 USD",
+      "1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-05-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $414.78 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2023-05-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-05-02 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 414.78 USD",
+      "-1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-08-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $453.30 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2023-08-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-08-02 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 453.30 USD",
+      "-1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-10-03 16:05:00",
+      "SPY",
+      "Buy Market On Open",
+      "Fill: $422.06 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "2023-10-03 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-10-04 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 422.06 USD",
+      "2",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-12-01 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $455.60 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "2023-12-01 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-12-04 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 455.60 USD",
+      "-1",
+      "Filled",
+      ""
+    ],
+    [
+      "-2023-12-28 16:05:00",
+      "SPY",
+      "Sell Market On Open",
+      "Fill: $476.47 USD",
+      "-194",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "2023-12-28 16:05:00",
+      "SPY",
+      "-",
+      "",
+      "0",
+      "Submitted",
+      ""
+    ],
+    [
+      "2023-12-29 09:31:00",
+      "SPY",
+      "-",
+      "Fill: 476.47 USD",
+      "-194",
+      "Filled",
+      ""
+    ]
+  ]
+}

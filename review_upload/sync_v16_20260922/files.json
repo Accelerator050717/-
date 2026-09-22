@@ -1,0 +1,500 @@
+{
+  "baseline_commit": "138d2bf8ddf81f484c95c5e8cffa3dbab66fb07b",
+  "files": [
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/annual_pnl.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\annual_pnl.csv",
+      "bytes": 314,
+      "sha256": "9651017bc9d863a1d881d647ad0497f85e06e03512b80ed74c9315063e4161d1"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ATTRIBUTION_VERIFICATION.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ATTRIBUTION_VERIFICATION.json",
+      "bytes": 2867,
+      "sha256": "8a8aac3b4eacd303ee8eca590981a7b3bddff1ea14c643dd8e486707fd07a2fb"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/BASELINE_REVIEW.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\BASELINE_REVIEW.md",
+      "bytes": 9704,
+      "sha256": "cfec3d4efc274c163b89ebcb668200f9b5084c7083cc81500a7584316ae723b6"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/C10_REFERENCE_STATIC_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\C10_REFERENCE_STATIC_CHECK.json",
+      "bytes": 1038,
+      "sha256": "dda9c6382f1859ee68d5c86c91d0b12b4faf3bbe18bf268c1a4c9e94a0891a45"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/cloud/fixed_entry_diagnostics_cell.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\cloud\\fixed_entry_diagnostics_cell.py",
+      "bytes": 8790,
+      "sha256": "c7e711a5b5d1260996a65e8507989793d0f653aba7b18ea4f6b6144afc75d524"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/cloud/main.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\cloud\\main.py",
+      "bytes": 27874,
+      "sha256": "b763ac2eed1f79577f869dc018688cbe80277b1c3245126f35cb0a3f4a0ae665"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/cloud/qc_v16_c10_reference.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\cloud\\qc_v16_c10_reference.py",
+      "bytes": 8553,
+      "sha256": "8e2b107845f2f9fcf20099a1d770ed84f62e148e6d3a63e7093b6dee1377cd48"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/cloud/v15_core.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\cloud\\v15_core.py",
+      "bytes": 31655,
+      "sha256": "e1fc8ab0b69a32d20432d38a26d670e49491a1c0bba34d42fac7b467d6592f14"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/CLOUD_OUTPUT_LIMITS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\CLOUD_OUTPUT_LIMITS.md",
+      "bytes": 3346,
+      "sha256": "1aa6d35e9120194a07593d3b5e94f71cfdf1d0265c085b274b8c5260274c59f7"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_ATTRIBUTION.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_ATTRIBUTION.json",
+      "bytes": 43455,
+      "sha256": "86fe869b29f758cc765fc9d2ba567e61bcf84bfa9ff4616861784584908fcd00"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_LOG.txt",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_LOG.txt",
+      "bytes": 8173,
+      "sha256": "d0ebbeff2ba06736e9dd9c94341abcce317d69905d200d39b097a555ce035c51"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_ORDERS_UI.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_ORDERS_UI.json",
+      "bytes": 76289,
+      "sha256": "92932b36c5fa982ad238042ef5089ec37d89260396d3092d7b506084d88556d8"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_OVERVIEW_UI.txt",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_OVERVIEW_UI.txt",
+      "bytes": 6466,
+      "sha256": "2612b01ecf82b41f01127308844eea8c34cfb89580d7f8a60dc46f570ab3cd6e"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_PARTIAL_JSON.txt",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_PARTIAL_JSON.txt",
+      "bytes": 17596,
+      "sha256": "893a752d877630d3107ae85cc9b43a2428c4ff61ab8647bf1661d265d8652bcd"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_RECOVERED_FIELDS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_RECOVERED_FIELDS.json",
+      "bytes": 34882,
+      "sha256": "7e0a965e9f11a8dc6ce6d57d2eb70fda0b9ce2c2275c69efabc0fe37448ca406"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_RECOVERY_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_RECOVERY_CHECK.json",
+      "bytes": 1721,
+      "sha256": "6c4ef9be4e88917d334064b7d5c8775f7f7c37c8def18208ebe4cb241fd671b6"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/DIAGNOSTIC_RUNTIME_STATS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_RUNTIME_STATS.json",
+      "bytes": 2643,
+      "sha256": "8ea12698e1a106b6a23ec11a39cf4aa97b25495f80777d06af32e0fc0f2ad85a"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/draft_before_log_budget/main.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\draft_before_log_budget\\main.py",
+      "bytes": 27422,
+      "sha256": "0aa6f219e6c94a0f2d9b52019d910183a1ab52c3b587ccf0a441a8b09269120c"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/draft_before_log_budget/PRE_REPLAY_IDENTITY.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\draft_before_log_budget\\PRE_REPLAY_IDENTITY.json",
+      "bytes": 4473,
+      "sha256": "cdb7be59ed0fc9fc26bab0acd6b11eb54117b4cd7573b7c54f2422d2a0f4401c"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ENTRY_DIAGNOSTICS_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ENTRY_DIAGNOSTICS_CHECK.json",
+      "bytes": 2355,
+      "sha256": "8056f951dfc953294ceeb9c48a28567f5cf4a27799a4c1827c1da7e603617c40"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ENTRY_DIAGNOSTICS_FINDINGS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ENTRY_DIAGNOSTICS_FINDINGS.md",
+      "bytes": 2365,
+      "sha256": "b7cb683184c6db60cc198b6a6863f1e7241c719c07d7271ed01f0e976347425e"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ENTRY_DIAGNOSTICS_PLAN.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ENTRY_DIAGNOSTICS_PLAN.json",
+      "bytes": 2839,
+      "sha256": "51312dcf09430b882136b632d70b00254388298bd530477ab26c5c2245caecbd"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ENTRY_DIAGNOSTICS_RESULTS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ENTRY_DIAGNOSTICS_RESULTS.json",
+      "bytes": 7646,
+      "sha256": "8a191c63e624a205eaf3e3357df2fcbb0c544492168977010c8b0ab47c472a6b"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/episode_loss_concentration.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\episode_loss_concentration.csv",
+      "bytes": 1641,
+      "sha256": "4bfbe952271d65d98e7d4309c2f8b16125076ae4d9d1909a0f8907f2c43d4a60"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/episode_rankings.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\episode_rankings.csv",
+      "bytes": 2518,
+      "sha256": "fe5345e2fcabc287ec22af0d8ce54e702334ae45b38bfaff08cd168c728bded8"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/EVENT_AND_MISSING_CHECKS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\EVENT_AND_MISSING_CHECKS.md",
+      "bytes": 3485,
+      "sha256": "0ee43cee6991af653a11dee5191263759f616d4e051b8316750189eec12e2edd"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/event_missing_checks.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\event_missing_checks.csv",
+      "bytes": 4711,
+      "sha256": "75cf9621a6c2b1c0e3c7b78f2d01c1dc60f3986591cd602038fb3e4ad5549581"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/FINAL_PRE_REPLAY_IDENTITY.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\FINAL_PRE_REPLAY_IDENTITY.json",
+      "bytes": 5838,
+      "sha256": "69158488843abbf9e7df6e65d5ad5f6c6af15f1c3b5d6f4c8dd234c0f2df79bd"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/FINANCIAL_CROSS_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\FINANCIAL_CROSS_CHECK.json",
+      "bytes": 9835,
+      "sha256": "fd55151cd02bf8681ac90af8e5dca2cc3290eb9d971ff90bbdfe7e5d20d52ff0"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/INDEPENDENT_NATIVE_ORDER_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\INDEPENDENT_NATIVE_ORDER_CHECK.json",
+      "bytes": 2708,
+      "sha256": "91cc314378b5eeec0b049ceb390b7eba100f87e3d2bf664e0763d0fce5d57060"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/INDEPENDENT_ORIGINAL_REPLAY_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\INDEPENDENT_ORIGINAL_REPLAY_CHECK.json",
+      "bytes": 80412,
+      "sha256": "7c90cb7e12f159c5d5d0c22d1306cd8b266a2a19e65a5330abafc59fca76f949"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/INDEPENDENT_ORIGINAL_REPLAY_CHECK.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\INDEPENDENT_ORIGINAL_REPLAY_CHECK.md",
+      "bytes": 3557,
+      "sha256": "cca72c503745ba007e6127d725437b9b857a5088e51ad0233f0483edce2bb106"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/LOCAL_VERIFICATION.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\LOCAL_VERIFICATION.json",
+      "bytes": 6686,
+      "sha256": "a21a566e8f0ac55f0ff09b430e9106546ad30d99e51b99a480a1b41d9a46519a"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/LOG_TRUNCATION_DIAGNOSIS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\LOG_TRUNCATION_DIAGNOSIS.md",
+      "bytes": 2689,
+      "sha256": "14de43b0ad23c50f658d4a9a211275cbcb1ec7d4685409a99d871e8225da4710"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/loss_attribution.png",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\loss_attribution.png",
+      "bytes": 161922,
+      "sha256": "13b17a256eedd6d84e5f95fd0eb7a56107bfc7b7bfb1fef6493a58be24e51ca8"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/loss_concentration.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\loss_concentration.csv",
+      "bytes": 1573,
+      "sha256": "2ef6c8e59f35813f1bf2dc32c10307e85db5f4ba759485350ec2dacfaead30da"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/monthly_pnl.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\monthly_pnl.csv",
+      "bytes": 6738,
+      "sha256": "7cbe826d2e4d6f3786069cc926315c304a1db6a01a8dc0e534132e77a5ce8169"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/NEXT_QUESTION_EVIDENCE.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\NEXT_QUESTION_EVIDENCE.md",
+      "bytes": 3156,
+      "sha256": "9f576a83f5df3194373a58a87be1bacd606c105ca5b610d15e9f00dea6ef72ad"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/OBSERVER_REVIEW.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\OBSERVER_REVIEW.md",
+      "bytes": 3349,
+      "sha256": "b19955f8aa161d8eb62cddf025bc13cc308a50a6115c16de67e47958c4f89da2"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_B10_MONTHLY_UI.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_B10_MONTHLY_UI.json",
+      "bytes": 3030,
+      "sha256": "117befa07984c0a98e4e35409e53068f4e1f4141aa819dc13e596fdf9db15d0e"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_B10_ORDERS_UI.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_B10_ORDERS_UI.json",
+      "bytes": 76335,
+      "sha256": "bc87ccf53c679fb1c29773f6f9026f1698ed7da873fd2de0a31599500780167a"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_B10_TRADES_UI.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_B10_TRADES_UI.json",
+      "bytes": 62501,
+      "sha256": "22ba398caf22766e5e8f7d191394cbfaae48b975af998bf76b1db0b895fe97da"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_C10_MONTHLY_UI.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_C10_MONTHLY_UI.json",
+      "bytes": 3062,
+      "sha256": "51e3381258de5c3a83e5b5df736c813e50186bb20c78291893cc1410dc344053"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_C10_ORDER_EVENTS_UI.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_C10_ORDER_EVENTS_UI.json",
+      "bytes": 7950,
+      "sha256": "78beab4ef11c41adf38ccfc02f31f319bd6d468f96b5a4418e8683f4aa20e18b"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_C10_ORDERS_UI.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_C10_ORDERS_UI.json",
+      "bytes": 3494,
+      "sha256": "4f37cee263618bf89b91ea6cdf75fc4e6e4482f65f6df95607c1ea36e96bd5ad"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/original_flat_intervals.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\original_flat_intervals.csv",
+      "bytes": 33331,
+      "sha256": "694e84c281d76133fc5fa4a95b101bdb333e9dadfdbb1926d776a73306ebe474"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/original_intervals_with_sid.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\original_intervals_with_sid.csv",
+      "bytes": 38121,
+      "sha256": "d77b62a9100a4b55be5a0c8227853d4e4a0f36f9d742995f1545371289a03eab"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/original_native_exit_year_ticker_pnl.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\original_native_exit_year_ticker_pnl.csv",
+      "bytes": 12936,
+      "sha256": "43bc4e34b754c52537e1c906efab6c26f9a19c825b95b80f8be1ffd74c98fa8a"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/original_native_matched_trades.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\original_native_matched_trades.csv",
+      "bytes": 25665,
+      "sha256": "cfc4933c49d0f3623f77da0efa2d5426bfab3416689831feadc80767f3c82c84"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/original_native_ticker_pnl.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\original_native_ticker_pnl.csv",
+      "bytes": 5324,
+      "sha256": "ee7c88cc51aa1a6c82bd1c4889d1368f6bd2dc669515c9684650d4caf61115ee"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_ORDER_ANALYSIS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_ORDER_ANALYSIS.json",
+      "bytes": 252474,
+      "sha256": "f22e6e67c6dcfcd4ead44a8aee286e19ed1ed2ce127fc148b440b6ccaa812021"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/original_orders.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\original_orders.csv",
+      "bytes": 48716,
+      "sha256": "16869aa2108914b8a65245075421386f901001bf374f2786b17b64b3cc99e074"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_TRADE_ANALYSIS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_TRADE_ANALYSIS.json",
+      "bytes": 43125,
+      "sha256": "5154236f2cb4cfdf279274affeaa7ef52db3113bb281f22a3cedacf5494adfea"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/ORIGINAL_TRADE_ANALYSIS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_TRADE_ANALYSIS.md",
+      "bytes": 3124,
+      "sha256": "360c1ce04c353690edb8d7616d6528d11774329ff8d0b3dc2f18383d5151bca2"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/PLAN.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\PLAN.md",
+      "bytes": 2894,
+      "sha256": "4864f2f82e4d025848ffb856098162aa8549586697a8477658c2298a0312f475"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/PRE_REPLAY_IDENTITY.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\PRE_REPLAY_IDENTITY.json",
+      "bytes": 4473,
+      "sha256": "cdb7be59ed0fc9fc26bab0acd6b11eb54117b4cd7573b7c54f2422d2a0f4401c"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/priority_entries.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\priority_entries.csv",
+      "bytes": 2353,
+      "sha256": "bbe3d46f40c241f48d49f3c4f1578fa577a57b25c9d47a371ea48ee6d795f492"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/README.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\README.md",
+      "bytes": 5306,
+      "sha256": "c2cbfb599a99cf1f0d5aba24753674cd6a69d215d316d17158917b0e400b5dfd"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/REPORT.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\REPORT.md",
+      "bytes": 24959,
+      "sha256": "bf0ef774439e905245438d525e6435081ae057275dfbb35e02b534a72c6f798a"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/RUN_ATTEMPTS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\RUN_ATTEMPTS.json",
+      "bytes": 797,
+      "sha256": "141f5d362852b03d49676753d22781bd8cd5a201184d6e9d08395b64d07da8cf"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/security_rankings.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\security_rankings.csv",
+      "bytes": 6087,
+      "sha256": "c6517b66160c77d9df9bc40f772165bea40e0a7a079a20bb640fd0a313fe34b7"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/security_total_pnl.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\security_total_pnl.csv",
+      "bytes": 10813,
+      "sha256": "5e4536d79898efec913091e42340d5dee4c9765c893bf115a0c6e07f4b02a543"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/security_year_pnl.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\security_year_pnl.csv",
+      "bytes": 15421,
+      "sha256": "dde1be967112208443ec4a1100b78952d56b42eb070db7acce4722f35089f1da"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/SOURCE_IDENTITY_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\SOURCE_IDENTITY_CHECK.json",
+      "bytes": 4979,
+      "sha256": "308e2e48fa801cab15f418474598ad5abbdca3092e0dc855968abdaf43af9232"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/SOURCE_IDENTITY_CHECK.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\SOURCE_IDENTITY_CHECK.md",
+      "bytes": 1475,
+      "sha256": "261333ff6eb5336c4d989cc8bdc353ef95884c8a38444ef55866d07ebf70ebc7"
+    },
+    {
+      "path": "data/experiments/momentum_loss_attribution_v16/WEIGHT_AND_TIMING_REVIEW.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\momentum_loss_attribution_v16\\WEIGHT_AND_TIMING_REVIEW.md",
+      "bytes": 7066,
+      "sha256": "da6840bf0d875af08b907b834661a65e31cb84943b784aeac23243a8e13b02c7"
+    },
+    {
+      "path": "REVIEW_INDEX.md",
+      "absolute_path": "M:\\ml项目\\REVIEW_INDEX.md",
+      "bytes": 41117,
+      "sha256": "a25ff669e96abfa9aca14b7829ed344078e4becbe6bb55018e3ccccbad9e40f9"
+    },
+    {
+      "path": "review_upload/sync_v16_20260922/README.md",
+      "absolute_path": "M:\\ml项目\\review_upload\\sync_v16_20260922\\README.md",
+      "bytes": 1311,
+      "sha256": "5d801986e3a377f636139522d1783be08536a0804030714bf34301b88ecc8632"
+    },
+    {
+      "path": "tests/test_qc_v16_attribution.py",
+      "absolute_path": "M:\\ml项目\\tests\\test_qc_v16_attribution.py",
+      "bytes": 4157,
+      "sha256": "ac306a8375662084f7da8ce490294febe60df8dc3d4acf9987982f16ccb329b9"
+    },
+    {
+      "path": "tools/analyze_v16_original.py",
+      "absolute_path": "M:\\ml项目\\tools\\analyze_v16_original.py",
+      "bytes": 25435,
+      "sha256": "f29b545115b095ef71a02c5dc5b4f1d9ba9aa07730bcfa16aa20e9037193e308"
+    },
+    {
+      "path": "tools/check_v16_financial_links.py",
+      "absolute_path": "M:\\ml项目\\tools\\check_v16_financial_links.py",
+      "bytes": 6919,
+      "sha256": "0531e4964e364643cd8d41c99ff289241881b3a4a7efd5a4abd6d95f7c9b3d4a"
+    },
+    {
+      "path": "tools/check_v16_original_replay.py",
+      "absolute_path": "M:\\ml项目\\tools\\check_v16_original_replay.py",
+      "bytes": 14464,
+      "sha256": "8638a9c3bccda8b2de540e2c2d909d72f65457550f6669113ebb10ec93d98a7d"
+    },
+    {
+      "path": "tools/check_v16_source_identity.py",
+      "absolute_path": "M:\\ml项目\\tools\\check_v16_source_identity.py",
+      "bytes": 6780,
+      "sha256": "7cd50f775f55a887e355e99c0cc49e22a3b8151eca270ad90ecd38b9886e808b"
+    },
+    {
+      "path": "tools/plot_v16_attribution.py",
+      "absolute_path": "M:\\ml项目\\tools\\plot_v16_attribution.py",
+      "bytes": 3401,
+      "sha256": "c1191fa3ed3e1a9ce1072eb9f87e1da859f36beccd3a8f96e1be5e6e754b0f42"
+    },
+    {
+      "path": "tools/prepare_v16_review.py",
+      "absolute_path": "M:\\ml项目\\tools\\prepare_v16_review.py",
+      "bytes": 2519,
+      "sha256": "65f00375e584fa7b66bfd3df18e759d294183eb9e4da56be333f5a35d64eb655"
+    },
+    {
+      "path": "tools/qc_v16_attribution_observer.py",
+      "absolute_path": "M:\\ml项目\\tools\\qc_v16_attribution_observer.py",
+      "bytes": 27452,
+      "sha256": "c594dcd20de2415e825329a4948de606cbf8dd3c45c0935911498ad1a43b4f53"
+    },
+    {
+      "path": "tools/qc_v16_c10_reference.py",
+      "absolute_path": "M:\\ml项目\\tools\\qc_v16_c10_reference.py",
+      "bytes": 8303,
+      "sha256": "1c823edd5c9d91d6744eef21d202255cf103804a35b0b02ef589c19280d8ba10"
+    },
+    {
+      "path": "tools/qc_v16_fixed_entry_diagnostics.py",
+      "absolute_path": "M:\\ml项目\\tools\\qc_v16_fixed_entry_diagnostics.py",
+      "bytes": 8606,
+      "sha256": "4adef0c0503eacca7181693e695786a198599f601c5b19ce9544b59ba5e0e9c1"
+    },
+    {
+      "path": "tools/recover_qc_v16_partial_log.py",
+      "absolute_path": "M:\\ml项目\\tools\\recover_qc_v16_partial_log.py",
+      "bytes": 4131,
+      "sha256": "9951aae59c57faf902cdab8a513a38853f1dc0fc094013acef5d15638ba9c975"
+    },
+    {
+      "path": "tools/summarize_qc_v16_attribution.py",
+      "absolute_path": "M:\\ml项目\\tools\\summarize_qc_v16_attribution.py",
+      "bytes": 18555,
+      "sha256": "196564c9fb0e9604a3b731b3032178856cce305254cfd3cf0f70c762bc8a7016"
+    },
+    {
+      "path": "tools/write_v16_report.py",
+      "absolute_path": "M:\\ml项目\\tools\\write_v16_report.py",
+      "bytes": 21372,
+      "sha256": "c1bcc0f20fbd1834214c9bb213a6013d9063990d0834bc29b54cff4d670fd279"
+    }
+  ],
+  "total_bytes": 1533617,
+  "large_files": [],
+  "original_cloud_project": 36834914,
+  "diagnostic_cloud_project": 36839440,
+  "provider_raw_data": "Cloud only; no data export or local backup claimed",
+  "new_models": 0,
+  "new_review_zips": [],
+  "generated_at_utc": "2026-09-22T20:12:53.896311+00:00",
+  "generation_head": "138d2bf8ddf81f484c95c5e8cffa3dbab66fb07b"
+}

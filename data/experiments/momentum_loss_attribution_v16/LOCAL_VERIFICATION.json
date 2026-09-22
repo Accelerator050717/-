@@ -1,0 +1,39 @@
+{
+  "schema": "v16-local-verification-1",
+  "checks": [
+    {
+      "name": "targeted_tests",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "command": ".\\.venv\\Scripts\\python.exe -B -c \"import runpy; n=runpy.run_path('tests/test_qc_v16_attribution.py'); tests=[(k,v) for k,v in n.items() if k.startswith('test_')]; [f() for _,f in tests]; print({'passed':len(tests),'scope':'fictitious accounting and evidence parser checks'})\"",
+      "output": "{'passed': 6, 'scope': 'fictitious accounting and evidence parser checks'}\r\n"
+    },
+    {
+      "name": "financial_links",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "command": ".\\.venv\\Scripts\\python.exe -B tools/check_v16_financial_links.py",
+      "output": "{\r\n  \"numeric_checks_pass\": true,\r\n  \"B10_months\": 24,\r\n  \"B10_max_UI_difference\": \"0.00004608301\",\r\n  \"C10_controls\": {\r\n    \"runtime_2022_end\": \"83250.21788\",\r\n    \"original_2022_regular_close_end\": \"83250.2178800000100000\",\r\n    \"runtime_final\": \"102799.62699\",\r\n    \"original_final\": \"102799.62699\",\r\n    \"2022_end_matches\": true,\r\n    \"final_matches\": true,\r\n    \"all_cloud_tail_checks_observed\": false,\r\n    \"scope\": \"These are observed runtime values vs original monetary controls; missing final cloud C10 metadata is not filled in.\"\r\n  },\r\n  \"security_aggregation\": {\r\n    \"year_rows\": 167,\r\n    \"SIDs\": 133,\r\n    \"max_year_to_total_difference\": {\r\n      \"price_pnl\": \"6E-13\",\r\n      \"dividends\": \"6E-15\",\r\n      \"split_cash\": \"0\",\r\n      \"fees\": \"6E-15\",\r\n      \"net_pnl\": \"5E-13\"\r\n    }\r\n  },\r\n  \"entry_links\": [\r\n    {\r\n      \"ticker_at_decision\": \"TOP\",\r\n      \"sid\": \"TOP XYSAVUT6NK9X\",\r\n      \"entry\": \"2023-05-03\",\r\n      \"research_decision\": \"2023-05-01 16:05:00\",\r\n      \"sid_hash_matches\": true,\r\n      \"observer_momentum_eight_decimals\": \"8.2\",\r\n      \"research_momentum\": 8.200000000000001,\r\n      \"absolute_difference\": 1.7763568394002505e-15,\r\n      \"within_declared_eight_decimal_rounding\": true,\r\n      \"research_prior_day_DV_proxy_over_previous20median\": 108.91493682550369,\r\n      \"observer_universe_dollar_volume_rank\": \"96\",\r\n      \"limit\": \"RAW close*volume proxy is not an equality check of Fundamental.DollarVolume; three loss-selected cases do not estimate universe-wide failure probability.\"\r\n    },\r\n    {\r\n      \"ticker_at_decision\": \"KALA\",\r\n      \"sid\": \"KALA WMCI69Z95F1H\",\r\n      \"entry\": \"2023-01-05\",\r\n      \"research_decision\": \"2023-01-03 16:05:00\",\r\n      \"sid_hash_matches\": true,\r\n      \"observer_momentum_eight_decimals\": \"5.27701375\",\r\n      \"research_momentum\": 5.277013752455796,\r\n      \"absolute_difference\": 2.4557955669024523e-09,\r\n      \"within_declared_eight_decimal_rounding\": true,\r\n      \"research_prior_day_DV_proxy_over_previous20median\": 4280.9140002695185,\r\n      \"observer_universe_dollar_volume_rank\": \"30\",\r\n      \"limit\": \"RAW close*volume proxy is not an equality check of Fundamental.DollarVolume; three loss-selected cases do not estimate universe-wide failure probability.\"\r\n    },\r\n    {\r\n      \"ticker_at_decision\": \"NTRB\",\r\n      \"sid\": \"NTRB XS9YHLR0G02T\",\r\n      \"entry\": \"2022-01-05\",\r\n      \"research_decision\": \"2022-01-03 16:05:00\",\r\n      \"sid_hash_matches\": true,\r\n      \"observer_momentum_eight_decimals\": \"0.68996416\",\r\n      \"research_momentum\": 0.6899641577060931,\r\n      \"absolute_difference\": 2.293906953276803e-09,\r\n      \"within_declared_eight_decimal_rounding\": true,\r\n      \"research_prior_day_DV_proxy_over_previous20median\": 6214.794788642022,\r\n      \"observer_universe_dollar_volume_rank\": \"16\",\r\n      \"limit\": \"RAW close*volume proxy is not an equality check of Fundamental.DollarVolume; three loss-selected cases do not estimate universe-wide failure probability.\"\r\n    }\r\n  ]\r\n}\r\n"
+    },
+    {
+      "name": "source_identity",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "command": ".\\.venv\\Scripts\\python.exe -B tools/check_v16_source_identity.py",
+      "output": "{\r\n  \"source_identity_numeric_checks_pass\": true,\r\n  \"files\": [\r\n    {\r\n      \"name\": \"main.py\",\r\n      \"runtime_bytes\": 27453,\r\n      \"runtime_byte_hash_match\": true,\r\n      \"runtime_ast_match\": true\r\n    },\r\n    {\r\n      \"name\": \"v15_core.py\",\r\n      \"runtime_bytes\": 31113,\r\n      \"runtime_byte_hash_match\": true,\r\n      \"runtime_ast_match\": true\r\n    },\r\n    {\r\n      \"name\": \"qc_v16_c10_reference.py\",\r\n      \"runtime_bytes\": 8304,\r\n      \"runtime_byte_hash_match\": true,\r\n      \"runtime_ast_match\": null\r\n    }\r\n  ]\r\n}\r\n"
+    },
+    {
+      "name": "original_replay",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "command": ".\\.venv\\Scripts\\python.exe -B tools/check_v16_original_replay.py",
+      "output": "{\r\n  \"status\": \"RECOVERED_FIELDS_ECONOMIC_RECONCILIATION_PASS_NOT_FULL_PAYLOAD_VERIFICATION\",\r\n  \"compared_security_count\": 133,\r\n  \"totals\": {\r\n    \"recovered_gross_price_pnl\": \"-53783.1610000000048127\",\r\n    \"dividends\": \"2009.719999999999991\",\r\n    \"split_cash\": \"0.00088491700000000005\",\r\n    \"fees\": \"2305.282651000000061\",\r\n    \"net_pnl\": \"-54078.72276608300488269995\",\r\n    \"original_account_net_pnl\": \"-54078.722766082996\",\r\n    \"original_UI_display_price_sum\": \"-53783.17\",\r\n    \"net_sum_minus_original_account\": \"-8.88269995E-12\",\r\n    \"max_abs_per_security_display_delta\": \"0.0049999999993\"\r\n  },\r\n  \"alias_pairs\": [\r\n    {\r\n      \"sid\": \"ABX R735QTJ8XC9X\",\r\n      \"observer_label\": \"GOLD\",\r\n      \"original_ui_ticker\": \"B\",\r\n      \"delta\": \"0.00\"\r\n    },\r\n    {\r\n      \"sid\": \"FB V6OIPNZEM8V9\",\r\n      \"observer_label\": \"FB\",\r\n      \"original_ui_ticker\": \"META\",\r\n      \"delta\": \"-8.2E-13\"\r\n    },\r\n    {\r\n      \"sid\": \"SQ W5OUXC7GJYAT\",\r\n      \"observer_label\": \"SQ\",\r\n      \"original_ui_ticker\": \"XYZ\",\r\n      \"delta\": \"-6E-13\"\r\n    }\r\n  ]\r\n}\r\n\r\n"
+    }
+  ],
+  "conclusion": "All listed local checks passed; these verify saved derived evidence and fictitious accounting/parser cases, not real executions, independent strategy performance or full truncated log integrity.",
+  "diagnostic_backtests_completed": 1,
+  "new_model_fits": 0,
+  "market_data_2026_read": false,
+  "live_or_paper_orders": 0,
+  "full_cloud_payload_integrity_verified": false
+}

@@ -1,5 +1,16 @@
 # 最新源码审阅入口
 
+最新更新：2026-09-22，**v16已解释原B10的54,078.72美元净亏损：UPST/KALA/AMC/TOP/NTRB合计21,851.11美元，17/24个月亏损；原规则保留为失败基准。** 本轮基于`138d2bf8ddf81f484c95c5e8cffa3dbab66fb07b`，只完成损失归因，没有改策略。优先读[v16“钱亏在哪里”报告](data/experiments/momentum_loss_attribution_v16/REPORT.md)、[完整月度损益](data/experiments/momentum_loss_attribution_v16/monthly_pnl.csv)、[逐证券精度汇总](data/experiments/momentum_loss_attribution_v16/security_total_pnl.csv)、[12个重点持仓](data/experiments/momentum_loss_attribution_v16/priority_entries.csv)。
+
+- 价格损益−53,783.161美元，加分红2,009.72及零股现金0.000884917，减费用2,305.282651，期末权益45,921.277233917004。逐日归因残差约5e−12美元；它证明引擎金额桥接，不证明真实付款和所有历史报价均已认证。TOP净亏4,246.14074；TWTR两段净亏955.76583，已计终止现金与名义权利只差46.62美元，不能重复入账；8个普通缺价日B持仓均0，其后续选择影响金额未知。
+- [冻结PLAN](data/experiments/momentum_loss_attribution_v16/PLAN.md)与[最终回放前身份](data/experiments/momentum_loss_attribution_v16/FINAL_PRE_REPLAY_IDENTITY.json)先于唯一诊断回放。[新云项目36839440](https://www.quantconnect.com/project/36839440)，回测`3f5d23c2dd0ee166d0bbaa1699553c03`；原项目36834914/原B10不改。新旧终值、年度、费用、成交额相同，458订单显示字段逐行相同、133证券价格损益独立对应：[原生订单核对](data/experiments/momentum_loss_attribution_v16/INDEPENDENT_NATIVE_ORDER_CHECK.json)、[逐股核对](data/experiments/momentum_loss_attribution_v16/INDEPENDENT_ORIGINAL_REPLAY_CHECK.md)。
+- [观察器](tools/qc_v16_attribution_observer.py)导入原v15核心，仍从历史Fundamental和20日SplitAdjusted价格信号生成目标/MOO订单，原生EquityFillModel成交；没有导入H60预测或既定成交来冒充B。C10参考模块只用原C10已有成交重建同收盘月度参考，不下新订单。KALA的12.79%是成交额/回报时权益，不是已验证9:30实际仓位；[时点及权重口径](data/experiments/momentum_loss_attribution_v16/WEIGHT_AND_TIMING_REVIEW.md)单列。
+- 实际新增诊断回放1、固定只读History请求9、模型拟合0、Live/paper/券商订单0、付费0，2026行情未读。TOP/KALA/NTRB买前大涨与成交异动已经实际查询，但为事后选取案例，不能估计全体概率或直接证明新过滤盈利。日志尾被截断，完整payload SHA未验证；完整出现的财务字段、24个月Runtime与原运行的独立金额核对分别保存，不伪造完整备份。
+- **唯一下一轮问题：固定20日成交额中位数选池，相比原单日成交额选池，能否改善同一动量规则？** 最小两池×10/20bp对照、其余条件不变，失败标准见[v16报告](data/experiments/momentum_loss_attribution_v16/REPORT.md#7-唯一下一轮问题本轮不执行)。本轮没有启动该比较。30%净年化/争取50%及30%回撤预算均未达到，2022—2023仍为开发历史，没有升级模型或打开2026。
+- [只读复核命令](data/experiments/momentum_loss_attribution_v16/README.md)支持本地恢复已保存的派生记录；[本轮材料清单](review_upload/sync_v16_20260922/README.md)保留路径/大小/SHA256。无新大型模型、预测或ZIP；供应商原始行情仍在许可云内。v15旧记录、原A/H60、v13资金基础和v10历史代理限制均保留；完整公司行动、真实paper入口、部分成交持续保护及长期断线补账仍未完成。
+
+## v15历史结果（保留当时结论；下一步由上方v16取代）
+
 最新更新：2026-09-22，**v15已完成2022—2023连续24个月动态股票池及6个固定QuantConnect Free原生基准，流程有限通过，全部未达到收益目标；实际分拆/换股权利和8个RAW日线缺口仍限制经济收益验收。** 基于`a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe`。先读[v15完整报告](data/experiments/dynamic_universe_pilot_v15/REPORT.md)、[冻结PLAN](data/experiments/dynamic_universe_pilot_v15/PLAN.md)、[六组结果](data/experiments/dynamic_universe_pilot_v15/results.csv)、[逐月范围/时间](data/experiments/dynamic_universe_pilot_v15/monthly_universe.csv)、[验收边界](data/experiments/dynamic_universe_pilot_v15/ACCEPTANCE_LIMITS.md)。
 
 | 2022—2023固定基准 | 10bp：累计 / 年化 / 回撤 | 20bp：累计 / 年化 / 回撤 |

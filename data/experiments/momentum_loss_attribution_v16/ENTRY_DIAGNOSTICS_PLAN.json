@@ -1,0 +1,50 @@
+{
+  "schema": "v16-fixed-entry-query-plan-1",
+  "frozen_at_utc": "2026-09-22T19:39:01.170956+00:00",
+  "state": "prepared_only_not_executed",
+  "source_path": "tools/qc_v16_fixed_entry_diagnostics.py",
+  "source_sha256": "4adef0c0503eacca7181693e695786a198599f601c5b19ce9544b59ba5e0e9c1",
+  "parent_baseline": "138d2bf8ddf81f484c95c5e8cffa3dbab66fb07b",
+  "cases": [
+    {
+      "ticker": "TOP",
+      "decision": "2023-05-01 16:05:00 America/New_York",
+      "universe_observation": "2023-04-28"
+    },
+    {
+      "ticker": "KALA",
+      "decision": "2023-01-03 16:05:00 America/New_York",
+      "universe_observation": "2022-12-30"
+    },
+    {
+      "ticker": "NTRB",
+      "decision": "2022-01-03 16:05:00 America/New_York",
+      "universe_observation": "2021-12-31"
+    }
+  ],
+  "fixed_calls": 9,
+  "calls_per_case": [
+    "SPY RAW historical calendar through decision16:05",
+    "stock RAW through previous observation day16:05",
+    "same stable-ID stock SplitAdjusted through decision16:05"
+  ],
+  "query_start": "observation_date minus65calendar days at midnight; only requested window read",
+  "volume_test": "Observation-day RAW close*volume divided by median of the exact prior20 SPY sessions; no gaps/duplicates/fill-forward/nonpositive data allowed",
+  "momentum_test": "21exact SPY session dates ending on decisionday; SplitAdjusted last/first minus1; report actual first/lastEndTime",
+  "original_cutoff_evidence": "v15 make_decision requests count21 at16:05 and enforces EndTime<=decision and exact SPY dates; original v15 summary did not retain each history finalEndTime, so this query verifies current response not a fabricated original endpoint record",
+  "identity_test": "SecurityIdentifier.generate_equity with historical mapping_resolve_date both observation/decision; require sameSID, allreturnedbarSID exactmatch; compare SID and momentum with actual single B10 observer if executed",
+  "interpretation": "Fixed diagnostic cases selected from already-known loss sources; ratios are explanatory, not a prespecified traded filter or proof of causation",
+  "restrictions": {
+    "model_fits": 0,
+    "new_backtests": 0,
+    "new_orders": 0,
+    "broker_connections": 0,
+    "year2026_market_data": false,
+    "raw_bars_exported": false,
+    "ObjectStore_writes": false,
+    "provider_data_in_cloud_only": true
+  },
+  "output": "derived ratios/momentum; observed dates/SID and counts/gaps; no raw OHLCV or dollar amounts",
+  "field_caveat": "RAW close*volume is a daily-dollar-volume proxy, not a direct verification that original Fundamental.DollarVolume numerator was identical",
+  "failure_policy": "Missing histories or identity/timing conflicts remain explicit; do not fillprices or dropcases; no retry/parametersearch authorized by this preparedplan alone"
+}

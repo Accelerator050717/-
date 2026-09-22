@@ -1,0 +1,22 @@
+{
+  "status": "original_19_native_C10_fills_verified",
+  "checks": {
+    "fills": 19,
+    "buy_fills": 10,
+    "sell_fills": 9,
+    "notional": 191973.01,
+    "fees": 191.97301,
+    "net_trade_cash_before_fees": 489.09,
+    "final_quantity": 0
+  },
+  "original_dividend_total_used_for_static_cash_bridge": "2502.51",
+  "implied_final_cash": "102799.62699",
+  "full_native_ui_event_rows": 57,
+  "all_fill_receipts_local_time": "09:31:00",
+  "source_sha256": {
+    "data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_C10_ORDERS_UI.json": "4f37cee263618bf89b91ea6cdf75fc4e6e4482f65f6df95607c1ea36e96bd5ad",
+    "data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_C10_ORDER_EVENTS_UI.json": "78beab4ef11c41adf38ccfc02f31f319bd6d468f96b5a4418e8683f4aa20e18b",
+    "tools\\qc_v16_c10_reference.py": "1c823edd5c9d91d6744eef21d202255cf103804a35b0b02ef589c19280d8ba10"
+  },
+  "not_yet_verified": "monthly regular-close marks and actual per-event dividend reconstruction require the single B10 observer run"
+}

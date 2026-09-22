@@ -1,0 +1,270 @@
+{
+  "schema": "v16-financial-cross-check-1",
+  "available_numeric_checks_pass": true,
+  "full_payload_transport_integrity_verified": false,
+  "transport_reason": "Only a strict prefix of the one diagnostic log was obtained; LZMA EOF/full SHA and final runtime expected hash not available.",
+  "B10_original_months": [
+    {
+      "month": "2022-01",
+      "original_displayed_equity": "90156.1924",
+      "diagnostic_runtime_equity": "90156.1924",
+      "difference": "0.0000",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-02",
+      "original_displayed_equity": "89126.7245",
+      "diagnostic_runtime_equity": "89126.72449999998",
+      "difference": "-2E-11",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-03",
+      "original_displayed_equity": "88857.6767",
+      "diagnostic_runtime_equity": "88857.67672399999",
+      "difference": "0.00002399999",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-04",
+      "original_displayed_equity": "74261.2061",
+      "diagnostic_runtime_equity": "74261.206064",
+      "difference": "-0.000036",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-05",
+      "original_displayed_equity": "73464.1411",
+      "diagnostic_runtime_equity": "73464.141084",
+      "difference": "-0.000016",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-06",
+      "original_displayed_equity": "58149.248",
+      "diagnostic_runtime_equity": "58149.24799399999",
+      "difference": "-0.00000600001",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-07",
+      "original_displayed_equity": "57733.2967",
+      "diagnostic_runtime_equity": "57733.296668999996",
+      "difference": "-0.000031000004",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-08",
+      "original_displayed_equity": "55265.2285",
+      "diagnostic_runtime_equity": "55265.228474645",
+      "difference": "-0.000025355",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-09",
+      "original_displayed_equity": "51749.4286",
+      "diagnostic_runtime_equity": "51749.42857391699",
+      "difference": "-0.00002608301",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-10",
+      "original_displayed_equity": "57963.9042",
+      "diagnostic_runtime_equity": "57963.90419391699",
+      "difference": "-0.00000608301",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-11",
+      "original_displayed_equity": "61723.41",
+      "diagnostic_runtime_equity": "61723.409973917",
+      "difference": "-0.000026083",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2022-12",
+      "original_displayed_equity": "59487.0339",
+      "diagnostic_runtime_equity": "59487.033923917",
+      "difference": "0.000023917",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-01",
+      "original_displayed_equity": "57563.1684",
+      "diagnostic_runtime_equity": "57563.16835391699",
+      "difference": "-0.00004608301",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-02",
+      "original_displayed_equity": "56167.541",
+      "diagnostic_runtime_equity": "56167.541043916994",
+      "difference": "0.000043916994",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-03",
+      "original_displayed_equity": "56200.261",
+      "diagnostic_runtime_equity": "56200.261043916995",
+      "difference": "0.000043916995",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-04",
+      "original_displayed_equity": "53894.8598",
+      "diagnostic_runtime_equity": "53894.85977391699",
+      "difference": "-0.00002608301",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-05",
+      "original_displayed_equity": "48754.751",
+      "diagnostic_runtime_equity": "48754.750953917006",
+      "difference": "-0.000046082994",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-06",
+      "original_displayed_equity": "52160.0199",
+      "diagnostic_runtime_equity": "52160.01993391701",
+      "difference": "0.00003391701",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-07",
+      "original_displayed_equity": "57561.3977",
+      "diagnostic_runtime_equity": "57561.397703917",
+      "difference": "0.000003917",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-08",
+      "original_displayed_equity": "46644.1047",
+      "diagnostic_runtime_equity": "46644.104683917",
+      "difference": "-0.000016083",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-09",
+      "original_displayed_equity": "43432.0022",
+      "diagnostic_runtime_equity": "43432.00216391701",
+      "difference": "-0.00003608299",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-10",
+      "original_displayed_equity": "42052.2283",
+      "diagnostic_runtime_equity": "42052.228313916996",
+      "difference": "0.000013916996",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-11",
+      "original_displayed_equity": "44069.0626",
+      "diagnostic_runtime_equity": "44069.062613917",
+      "difference": "0.000013917",
+      "within_four_decimal_display_rounding": true
+    },
+    {
+      "month": "2023-12",
+      "original_displayed_equity": "45921.2772",
+      "diagnostic_runtime_equity": "45921.277233917004",
+      "difference": "0.000033917004",
+      "within_four_decimal_display_rounding": true
+    }
+  ],
+  "C10_reference_money_controls": {
+    "runtime_2022_end": "83250.21788",
+    "original_2022_regular_close_end": "83250.2178800000100000",
+    "runtime_final": "102799.62699",
+    "original_final": "102799.62699",
+    "2022_end_matches": true,
+    "final_matches": true,
+    "all_cloud_tail_checks_observed": false,
+    "scope": "These are observed runtime values vs original monetary controls; missing final cloud C10 metadata is not filled in."
+  },
+  "monthly_compounding": [
+    {
+      "period": "2022",
+      "B10_monthly_compound": -0.4051296607608301,
+      "B10_boundary_return": -0.40512966076083,
+      "C10_monthly_compound": -0.16749782119999967,
+      "C10_boundary_return": -0.1674978212,
+      "B10_match": true,
+      "C10_match": true
+    },
+    {
+      "period": "2023",
+      "B10_monthly_compound": -0.22804560582647937,
+      "B10_boundary_return": -0.2280456058264796,
+      "C10_monthly_compound": 0.23482712247287196,
+      "C10_boundary_return": 0.23482712247287174,
+      "B10_match": true,
+      "C10_match": true
+    },
+    {
+      "period": "all",
+      "B10_monthly_compound": -0.5407872276608299,
+      "B10_boundary_return": -0.54078722766083,
+      "C10_monthly_compound": 0.02799626990000026,
+      "C10_boundary_return": 0.027996269900000037,
+      "B10_match": true,
+      "C10_match": true
+    }
+  ],
+  "security_aggregation": {
+    "year_rows": 167,
+    "SIDs": 133,
+    "max_year_to_total_difference": {
+      "price_pnl": "6E-13",
+      "dividends": "6E-15",
+      "split_cash": "0",
+      "fees": "6E-15",
+      "net_pnl": "5E-13"
+    }
+  },
+  "entry_signal_links": [
+    {
+      "ticker_at_decision": "TOP",
+      "sid": "TOP XYSAVUT6NK9X",
+      "entry": "2023-05-03",
+      "research_decision": "2023-05-01 16:05:00",
+      "sid_hash_matches": true,
+      "observer_momentum_eight_decimals": "8.2",
+      "research_momentum": 8.200000000000001,
+      "absolute_difference": 1.7763568394002505e-15,
+      "within_declared_eight_decimal_rounding": true,
+      "research_prior_day_DV_proxy_over_previous20median": 108.91493682550369,
+      "observer_universe_dollar_volume_rank": "96",
+      "limit": "RAW close*volume proxy is not an equality check of Fundamental.DollarVolume; three loss-selected cases do not estimate universe-wide failure probability."
+    },
+    {
+      "ticker_at_decision": "KALA",
+      "sid": "KALA WMCI69Z95F1H",
+      "entry": "2023-01-05",
+      "research_decision": "2023-01-03 16:05:00",
+      "sid_hash_matches": true,
+      "observer_momentum_eight_decimals": "5.27701375",
+      "research_momentum": 5.277013752455796,
+      "absolute_difference": 2.4557955669024523e-09,
+      "within_declared_eight_decimal_rounding": true,
+      "research_prior_day_DV_proxy_over_previous20median": 4280.9140002695185,
+      "observer_universe_dollar_volume_rank": "30",
+      "limit": "RAW close*volume proxy is not an equality check of Fundamental.DollarVolume; three loss-selected cases do not estimate universe-wide failure probability."
+    },
+    {
+      "ticker_at_decision": "NTRB",
+      "sid": "NTRB XS9YHLR0G02T",
+      "entry": "2022-01-05",
+      "research_decision": "2022-01-03 16:05:00",
+      "sid_hash_matches": true,
+      "observer_momentum_eight_decimals": "0.68996416",
+      "research_momentum": 0.6899641577060931,
+      "absolute_difference": 2.293906953276803e-09,
+      "within_declared_eight_decimal_rounding": true,
+      "research_prior_day_DV_proxy_over_previous20median": 6214.794788642022,
+      "observer_universe_dollar_volume_rank": "16",
+      "limit": "RAW close*volume proxy is not an equality check of Fundamental.DollarVolume; three loss-selected cases do not estimate universe-wide failure probability."
+    }
+  ]
+}

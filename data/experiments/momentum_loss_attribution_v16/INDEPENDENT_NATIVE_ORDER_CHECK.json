@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "comparison": "all seven UI columns, same row order, whitespace normalized only",
+  "columns": [
+    "submitted_local",
+    "ticker",
+    "type",
+    "fill_price_display",
+    "quantity",
+    "status",
+    "tag"
+  ],
+  "differences": [],
+  "datasets": {
+    "original": {
+      "source": "data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_B10_ORDERS_UI.json",
+      "source_local_file_sha256": "bc87ccf53c679fb1c29773f6f9026f1698ed7da873fd2de0a31599500780167a",
+      "normalized_rows_sha256": "d776a7c684440ea7b086da437bd45cb6bc578613e1354045c5b91b19e7a86f06",
+      "row_count": 458,
+      "displayed_cell_count": 3206,
+      "duplicate_visible_rows": [],
+      "statuses": {
+        "Filled": 458
+      },
+      "tags": {
+        "v15:monthly:buy": 219,
+        "v15:monthly:reduce": 228,
+        "Liquidate from delisting": 1,
+        "v15:terminal:reduce": 10
+      },
+      "order_types": {
+        "Buy Market On Open": 219,
+        "Sell Market On Open": 238,
+        "Sell Market": 1
+      },
+      "positive_quantity_count": 219,
+      "negative_quantity_count": 239,
+      "zero_quantity_count": 0
+    },
+    "diagnostic": {
+      "source": "data\\experiments\\momentum_loss_attribution_v16\\DIAGNOSTIC_ORDERS_UI.json",
+      "source_local_file_sha256": "92932b36c5fa982ad238042ef5089ec37d89260396d3092d7b506084d88556d8",
+      "normalized_rows_sha256": "d776a7c684440ea7b086da437bd45cb6bc578613e1354045c5b91b19e7a86f06",
+      "row_count": 458,
+      "displayed_cell_count": 3206,
+      "duplicate_visible_rows": [],
+      "statuses": {
+        "Filled": 458
+      },
+      "tags": {
+        "v15:monthly:buy": 219,
+        "v15:monthly:reduce": 228,
+        "Liquidate from delisting": 1,
+        "v15:terminal:reduce": 10
+      },
+      "order_types": {
+        "Buy Market On Open": 219,
+        "Sell Market On Open": 238,
+        "Sell Market": 1
+      },
+      "positive_quantity_count": 219,
+      "negative_quantity_count": 239,
+      "zero_quantity_count": 0
+    }
+  },
+  "all_statuses_filled": true,
+  "no_duplicate_visible_rows": true,
+  "expected_tags_only": true,
+  "limitations": [
+    "These are UI-rendered submitted timestamps, quantities, status, tags and rounded fill prices.",
+    "Matching 458 displayed rows does not assert equality of every unrounded fill field or prove an omitted unique order identifier.",
+    "No duplicate visible rows is a property of these captured tables; it does not replace the native order-state and quantity checks.",
+    "This independent full Orders UI comparison does not restore or validate the truncated diagnostic log tail."
+  ]
+}

@@ -1,0 +1,4139 @@
+{
+  "source": "QC original B10 Orders UI; displayed prices, submission local timestamps; full details separately available by expansion",
+  "project_id": 36834914,
+  "backtest_id": "549882ad625e8d4d5a4c149d8f943cd0",
+  "retrieved_at": "2026-09-22T19:21:36.122Z",
+  "columns": [
+    "submitted_local",
+    "ticker",
+    "type",
+    "fill_price_display",
+    "quantity",
+    "status",
+    "tag"
+  ],
+  "rows": [
+    [
+      "+2022-01-04 16:05:00",
+      "ATVI",
+      "Buy Market On Open",
+      "Fill: $67.20 USD",
+      "133",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "AVGO",
+      "Buy Market On Open",
+      "Fill: $669.01 USD",
+      "13",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "CCL",
+      "Buy Market On Open",
+      "Fill: $21.79 USD",
+      "420",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "MELI",
+      "Buy Market On Open",
+      "Fill: $1,205.23 USD",
+      "6",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "MU",
+      "Buy Market On Open",
+      "Fill: $95.38 USD",
+      "93",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "NCLH",
+      "Buy Market On Open",
+      "Fill: $22.69 USD",
+      "405",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "NTRB",
+      "Buy Market On Open",
+      "Fill: $8.62 USD",
+      "954",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "BKNG",
+      "Buy Market On Open",
+      "Fill: $2,479.20 USD",
+      "3",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "TSLA",
+      "Buy Market On Open",
+      "Fill: $1,146.50 USD",
+      "7",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-01-04 16:05:00",
+      "UBER",
+      "Buy Market On Open",
+      "Fill: $44.33 USD",
+      "204",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "ATVI",
+      "Sell Market On Open",
+      "Fill: $79.00 USD",
+      "-29",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "AVGO",
+      "Sell Market On Open",
+      "Fill: $599.00 USD",
+      "-13",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "CCL",
+      "Sell Market On Open",
+      "Fill: $20.67 USD",
+      "-420",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "MELI",
+      "Sell Market On Open",
+      "Fill: $1,153.25 USD",
+      "-6",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "MU",
+      "Sell Market On Open",
+      "Fill: $82.93 USD",
+      "-93",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "NCLH",
+      "Sell Market On Open",
+      "Fill: $21.42 USD",
+      "-405",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "NTRB",
+      "Sell Market On Open",
+      "Fill: $4.61 USD",
+      "-954",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "BKNG",
+      "Sell Market On Open",
+      "Fill: $2,485.00 USD",
+      "-3",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $928.04 USD",
+      "-7",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-01 16:05:00",
+      "UBER",
+      "Sell Market On Open",
+      "Fill: $38.53 USD",
+      "-204",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "BX",
+      "Buy Market On Open",
+      "Fill: $133.50 USD",
+      "61",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "CVX",
+      "Buy Market On Open",
+      "Fill: $134.84 USD",
+      "61",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "DE",
+      "Buy Market On Open",
+      "Fill: $371.35 USD",
+      "21",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "EEFT",
+      "Buy Market On Open",
+      "Fill: $137.46 USD",
+      "60",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "MA",
+      "Buy Market On Open",
+      "Fill: $388.54 USD",
+      "20",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "MRK",
+      "Buy Market On Open",
+      "Fill: $81.70 USD",
+      "100",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "WFC",
+      "Buy Market On Open",
+      "Fill: $55.96 USD",
+      "148",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "UPS",
+      "Buy Market On Open",
+      "Fill: $229.84 USD",
+      "35",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-02-02 16:05:00",
+      "XOM",
+      "Buy Market On Open",
+      "Fill: $80.10 USD",
+      "101",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "ATVI",
+      "Sell Market On Open",
+      "Fill: $81.34 USD",
+      "-104",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "BX",
+      "Sell Market On Open",
+      "Fill: $125.34 USD",
+      "-61",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "CVX",
+      "Sell Market On Open",
+      "Fill: $150.10 USD",
+      "-61",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "DE",
+      "Sell Market On Open",
+      "Fill: $360.78 USD",
+      "-21",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "EEFT",
+      "Sell Market On Open",
+      "Fill: $113.65 USD",
+      "-60",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "MA",
+      "Sell Market On Open",
+      "Fill: $342.96 USD",
+      "-20",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "MRK",
+      "Sell Market On Open",
+      "Fill: $76.31 USD",
+      "-100",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "WFC",
+      "Sell Market On Open",
+      "Fill: $51.32 USD",
+      "-148",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "UPS",
+      "Sell Market On Open",
+      "Fill: $206.66 USD",
+      "-35",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-01 16:05:00",
+      "XOM",
+      "Sell Market On Open",
+      "Fill: $80.80 USD",
+      "-101",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "DVN",
+      "Buy Market On Open",
+      "Fill: $57.95 USD",
+      "132",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "ENPH",
+      "Buy Market On Open",
+      "Fill: $164.86 USD",
+      "46",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "FCX",
+      "Buy Market On Open",
+      "Fill: $48.77 USD",
+      "164",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "FHN",
+      "Buy Market On Open",
+      "Fill: $23.76 USD",
+      "335",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "LHX",
+      "Buy Market On Open",
+      "Fill: $254.00 USD",
+      "30",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "LMT",
+      "Buy Market On Open",
+      "Fill: $444.72 USD",
+      "17",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "NET",
+      "Buy Market On Open",
+      "Fill: $117.64 USD",
+      "66",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "NOC",
+      "Buy Market On Open",
+      "Fill: $452.40 USD",
+      "17",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "OXY",
+      "Buy Market On Open",
+      "Fill: $47.79 USD",
+      "168",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-03-02 16:05:00",
+      "UPST",
+      "Buy Market On Open",
+      "Fill: $153.54 USD",
+      "54",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "DVN",
+      "Sell Market On Open",
+      "Fill: $61.45 USD",
+      "-132",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "ENPH",
+      "Sell Market On Open",
+      "Fill: $207.27 USD",
+      "-46",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "FCX",
+      "Sell Market On Open",
+      "Fill: $51.62 USD",
+      "-164",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "FHN",
+      "Sell Market On Open",
+      "Fill: $23.52 USD",
+      "-335",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "LHX",
+      "Sell Market On Open",
+      "Fill: $253.80 USD",
+      "-30",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "LMT",
+      "Sell Market On Open",
+      "Fill: $447.48 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "NET",
+      "Sell Market On Open",
+      "Fill: $124.00 USD",
+      "-66",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "NOC",
+      "Sell Market On Open",
+      "Fill: $455.43 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "OXY",
+      "Sell Market On Open",
+      "Fill: $58.71 USD",
+      "-168",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-01 16:05:00",
+      "UPST",
+      "Sell Market On Open",
+      "Fill: $110.87 USD",
+      "-54",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "AMC",
+      "Buy Market On Open",
+      "Fill: $23.18 USD",
+      "348",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "CRWD",
+      "Buy Market On Open",
+      "Fill: $229.65 USD",
+      "35",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "GME",
+      "Buy Market On Open",
+      "Fill: $168.00 USD",
+      "49",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "LGVN",
+      "Buy Market On Open",
+      "Fill: $12.17 USD",
+      "520",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "MDB",
+      "Buy Market On Open",
+      "Fill: $454.60 USD",
+      "17",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "MRNA",
+      "Buy Market On Open",
+      "Fill: $169.54 USD",
+      "45",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "BKNG",
+      "Buy Market On Open",
+      "Fill: $2,347.53 USD",
+      "3",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "XYZ",
+      "Buy Market On Open",
+      "Fill: $145.00 USD",
+      "60",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "TSLA",
+      "Buy Market On Open",
+      "Fill: $1,135.80 USD",
+      "7",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-04-04 16:05:00",
+      "UBER",
+      "Buy Market On Open",
+      "Fill: $36.43 USD",
+      "225",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "AMC",
+      "Sell Market On Open",
+      "Fill: $15.17 USD",
+      "-348",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "CRWD",
+      "Sell Market On Open",
+      "Fill: $203.65 USD",
+      "-35",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "GME",
+      "Sell Market On Open",
+      "Fill: $118.48 USD",
+      "-49",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "LGVN",
+      "Sell Market On Open",
+      "Fill: $9.75 USD",
+      "-520",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "MDB",
+      "Sell Market On Open",
+      "Fill: $354.96 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "MRNA",
+      "Sell Market On Open",
+      "Fill: $141.93 USD",
+      "-45",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "BKNG",
+      "Sell Market On Open",
+      "Fill: $2,203.76 USD",
+      "-3",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "XYZ",
+      "Sell Market On Open",
+      "Fill: $104.16 USD",
+      "-60",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $902.68 USD",
+      "-7",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-02 16:05:00",
+      "UBER",
+      "Sell Market On Open",
+      "Fill: $30.15 USD",
+      "-225",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "BMY",
+      "Buy Market On Open",
+      "Fill: $75.01 USD",
+      "89",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "HD",
+      "Buy Market On Open",
+      "Fill: $304.08 USD",
+      "21",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "KO",
+      "Buy Market On Open",
+      "Fill: $63.01 USD",
+      "106",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "MRK",
+      "Buy Market On Open",
+      "Fill: $86.57 USD",
+      "76",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "PG",
+      "Buy Market On Open",
+      "Fill: $155.83 USD",
+      "42",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "T",
+      "Buy Market On Open",
+      "Fill: $19.28 USD",
+      "351",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "SHW",
+      "Buy Market On Open",
+      "Fill: $270.44 USD",
+      "25",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "TWTR",
+      "Buy Market On Open",
+      "Fill: $48.78 USD",
+      "136",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "WMT",
+      "Buy Market On Open",
+      "Fill: $152.03 USD",
+      "44",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-05-03 16:05:00",
+      "XOM",
+      "Buy Market On Open",
+      "Fill: $89.50 USD",
+      "77",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "BMY",
+      "Sell Market On Open",
+      "Fill: $75.50 USD",
+      "-89",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "HD",
+      "Sell Market On Open",
+      "Fill: $298.81 USD",
+      "-21",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "KO",
+      "Sell Market On Open",
+      "Fill: $63.18 USD",
+      "-106",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "MRK",
+      "Sell Market On Open",
+      "Fill: $91.13 USD",
+      "-76",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "PG",
+      "Sell Market On Open",
+      "Fill: $145.97 USD",
+      "-42",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "T",
+      "Sell Market On Open",
+      "Fill: $21.22 USD",
+      "-351",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "SHW",
+      "Sell Market On Open",
+      "Fill: $266.55 USD",
+      "-25",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "TWTR",
+      "Sell Market On Open",
+      "Fill: $39.00 USD",
+      "-136",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "WMT",
+      "Sell Market On Open",
+      "Fill: $125.57 USD",
+      "-44",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-01 16:05:00",
+      "XOM",
+      "Sell Market On Open",
+      "Fill: $97.34 USD",
+      "-77",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "DVN",
+      "Buy Market On Open",
+      "Fill: $76.50 USD",
+      "85",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "EOG",
+      "Buy Market On Open",
+      "Fill: $140.09 USD",
+      "46",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "EQT",
+      "Buy Market On Open",
+      "Fill: $49.00 USD",
+      "131",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "HAL",
+      "Buy Market On Open",
+      "Fill: $41.12 USD",
+      "158",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "MPC",
+      "Buy Market On Open",
+      "Fill: $104.42 USD",
+      "63",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "MRO",
+      "Buy Market On Open",
+      "Fill: $31.36 USD",
+      "209",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "OXY",
+      "Buy Market On Open",
+      "Fill: $69.45 USD",
+      "93",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "COP",
+      "Buy Market On Open",
+      "Fill: $115.45 USD",
+      "56",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "PXD",
+      "Buy Market On Open",
+      "Fill: $275.30 USD",
+      "23",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-06-02 16:05:00",
+      "SLB",
+      "Buy Market On Open",
+      "Fill: $46.41 USD",
+      "140",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "DVN",
+      "Sell Market On Open",
+      "Fill: $53.55 USD",
+      "-85",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "EOG",
+      "Sell Market On Open",
+      "Fill: $109.22 USD",
+      "-46",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "EQT",
+      "Sell Market On Open",
+      "Fill: $33.67 USD",
+      "-131",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "HAL",
+      "Sell Market On Open",
+      "Fill: $30.31 USD",
+      "-158",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "MPC",
+      "Sell Market On Open",
+      "Fill: $82.57 USD",
+      "-63",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "MRO",
+      "Sell Market On Open",
+      "Fill: $21.93 USD",
+      "-209",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "OXY",
+      "Sell Market On Open",
+      "Fill: $59.06 USD",
+      "-93",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "COP",
+      "Sell Market On Open",
+      "Fill: $89.15 USD",
+      "-56",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "PXD",
+      "Sell Market On Open",
+      "Fill: $219.70 USD",
+      "-23",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-01 16:05:00",
+      "SLB",
+      "Sell Market On Open",
+      "Fill: $34.53 USD",
+      "-140",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "ABBV",
+      "Buy Market On Open",
+      "Fill: $154.61 USD",
+      "32",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "CRWD",
+      "Buy Market On Open",
+      "Fill: $187.27 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "GIS",
+      "Buy Market On Open",
+      "Fill: $75.51 USD",
+      "66",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "LLY",
+      "Buy Market On Open",
+      "Fill: $328.00 USD",
+      "15",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "MRK",
+      "Buy Market On Open",
+      "Fill: $93.31 USD",
+      "55",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "MRNA",
+      "Buy Market On Open",
+      "Fill: $154.85 USD",
+      "33",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "NOC",
+      "Buy Market On Open",
+      "Fill: $464.89 USD",
+      "9",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "RBLX",
+      "Buy Market On Open",
+      "Fill: $39.30 USD",
+      "145",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "SNOW",
+      "Buy Market On Open",
+      "Fill: $155.07 USD",
+      "34",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-07-05 16:05:00",
+      "UNH",
+      "Buy Market On Open",
+      "Fill: $505.64 USD",
+      "9",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "ABBV",
+      "Sell Market On Open",
+      "Fill: $141.38 USD",
+      "-32",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "CRWD",
+      "Sell Market On Open",
+      "Fill: $180.52 USD",
+      "-28",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "GIS",
+      "Sell Market On Open",
+      "Fill: $76.00 USD",
+      "-66",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "LLY",
+      "Sell Market On Open",
+      "Fill: $327.19 USD",
+      "-15",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "MRK",
+      "Sell Market On Open",
+      "Fill: $89.28 USD",
+      "-55",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "MRNA",
+      "Sell Market On Open",
+      "Fill: $161.31 USD",
+      "-33",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "NOC",
+      "Sell Market On Open",
+      "Fill: $481.84 USD",
+      "-9",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "RBLX",
+      "Sell Market On Open",
+      "Fill: $44.56 USD",
+      "-31",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "SNOW",
+      "Sell Market On Open",
+      "Fill: $143.12 USD",
+      "-34",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-01 16:05:00",
+      "UNH",
+      "Sell Market On Open",
+      "Fill: $537.55 USD",
+      "-9",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "AMD",
+      "Buy Market On Open",
+      "Fill: $94.87 USD",
+      "53",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "ENPH",
+      "Buy Market On Open",
+      "Fill: $290.52 USD",
+      "18",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "F",
+      "Buy Market On Open",
+      "Fill: $15.50 USD",
+      "338",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "FSLR",
+      "Buy Market On Open",
+      "Fill: $101.79 USD",
+      "52",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "KLAC",
+      "Buy Market On Open",
+      "Fill: $383.11 USD",
+      "13",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "LRCX",
+      "Buy Market On Open",
+      "Fill: $506.34 USD",
+      "10",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "NVDA",
+      "Buy Market On Open",
+      "Fill: $181.55 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "ON",
+      "Buy Market On Open",
+      "Fill: $65.91 USD",
+      "81",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-08-02 16:05:00",
+      "TSLA",
+      "Buy Market On Open",
+      "Fill: $915.00 USD",
+      "5",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "AMD",
+      "Sell Market On Open",
+      "Fill: $83.31 USD",
+      "-53",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "ENPH",
+      "Sell Market On Open",
+      "Fill: $284.50 USD",
+      "-18",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "F",
+      "Sell Market On Open",
+      "Fill: $15.50 USD",
+      "-338",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "FSLR",
+      "Sell Market On Open",
+      "Fill: $129.74 USD",
+      "-14",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "KLAC",
+      "Sell Market On Open",
+      "Fill: $341.77 USD",
+      "-13",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "LRCX",
+      "Sell Market On Open",
+      "Fill: $436.36 USD",
+      "-10",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "NVDA",
+      "Sell Market On Open",
+      "Fill: $140.85 USD",
+      "-28",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "ON",
+      "Sell Market On Open",
+      "Fill: $69.72 USD",
+      "-81",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "RBLX",
+      "Sell Market On Open",
+      "Fill: $39.08 USD",
+      "-114",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-01 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $281.47 USD",
+      "-15",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "DVN",
+      "Buy Market On Open",
+      "Fill: $71.00 USD",
+      "71",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "MCK",
+      "Buy Market On Open",
+      "Fill: $364.00 USD",
+      "13",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "OXY",
+      "Buy Market On Open",
+      "Fill: $68.99 USD",
+      "71",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "COP",
+      "Buy Market On Open",
+      "Fill: $111.00 USD",
+      "45",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "PANW",
+      "Buy Market On Open",
+      "Fill: $537.63 USD",
+      "8",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "PXD",
+      "Buy Market On Open",
+      "Fill: $242.32 USD",
+      "19",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "SNAP",
+      "Buy Market On Open",
+      "Fill: $11.27 USD",
+      "422",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "SNOW",
+      "Buy Market On Open",
+      "Fill: $170.00 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-09-02 16:05:00",
+      "TPL",
+      "Buy Market On Open",
+      "Fill: $1,888.15 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "DVN",
+      "Sell Market On Open",
+      "Fill: $67.07 USD",
+      "-71",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "FSLR",
+      "Sell Market On Open",
+      "Fill: $140.11 USD",
+      "-38",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "MCK",
+      "Sell Market On Open",
+      "Fill: $348.72 USD",
+      "-13",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "OXY",
+      "Sell Market On Open",
+      "Fill: $65.16 USD",
+      "-71",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "COP",
+      "Sell Market On Open",
+      "Fill: $112.47 USD",
+      "-45",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "PANW",
+      "Sell Market On Open",
+      "Fill: $173.55 USD",
+      "-24",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "PXD",
+      "Sell Market On Open",
+      "Fill: $235.33 USD",
+      "-19",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "SNAP",
+      "Sell Market On Open",
+      "Fill: $10.30 USD",
+      "-422",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "SNOW",
+      "Sell Market On Open",
+      "Fill: $180.00 USD",
+      "-28",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-03 16:05:00",
+      "TPL",
+      "Sell Market On Open",
+      "Fill: $1,892.91 USD",
+      "-2",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "B",
+      "Buy Market On Open",
+      "Fill: $15.70 USD",
+      "299",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "BMY",
+      "Buy Market On Open",
+      "Fill: $70.94 USD",
+      "67",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "LNG",
+      "Buy Market On Open",
+      "Fill: $171.22 USD",
+      "27",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "HUM",
+      "Buy Market On Open",
+      "Fill: $501.79 USD",
+      "8",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "BIIB",
+      "Buy Market On Open",
+      "Fill: $265.70 USD",
+      "17",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "LLY",
+      "Buy Market On Open",
+      "Fill: $328.30 USD",
+      "14",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "NFLX",
+      "Buy Market On Open",
+      "Fill: $238.87 USD",
+      "19",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "PCG",
+      "Buy Market On Open",
+      "Fill: $13.80 USD",
+      "363",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "SBUX",
+      "Buy Market On Open",
+      "Fill: $87.73 USD",
+      "55",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-04 16:05:00",
+      "TWTR",
+      "Buy Market On Open",
+      "Fill: $50.25 USD",
+      "111",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-10-29 00:00:00",
+      "TWTR",
+      "Sell Market",
+      "Fill: 53.78",
+      "-111",
+      "Filled",
+      "Liquidate from delisting"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "B",
+      "Sell Market On Open",
+      "Fill: $15.20 USD",
+      "-299",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "BMY",
+      "Sell Market On Open",
+      "Fill: $77.66 USD",
+      "-67",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "LNG",
+      "Sell Market On Open",
+      "Fill: $179.86 USD",
+      "-27",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "HUM",
+      "Sell Market On Open",
+      "Fill: $551.00 USD",
+      "-8",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "BIIB",
+      "Sell Market On Open",
+      "Fill: $280.18 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "LLY",
+      "Sell Market On Open",
+      "Fill: $355.19 USD",
+      "-14",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "NFLX",
+      "Sell Market On Open",
+      "Fill: $286.59 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "PCG",
+      "Sell Market On Open",
+      "Fill: $15.28 USD",
+      "-363",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-01 16:05:00",
+      "SBUX",
+      "Sell Market On Open",
+      "Fill: $87.31 USD",
+      "-55",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "AMGN",
+      "Buy Market On Open",
+      "Fill: $268.53 USD",
+      "19",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "CAT",
+      "Buy Market On Open",
+      "Fill: $211.54 USD",
+      "23",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "CVX",
+      "Buy Market On Open",
+      "Fill: $177.28 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "GILD",
+      "Buy Market On Open",
+      "Fill: $77.38 USD",
+      "65",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "ISRG",
+      "Buy Market On Open",
+      "Fill: $233.01 USD",
+      "21",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "MCD",
+      "Buy Market On Open",
+      "Fill: $269.66 USD",
+      "19",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "ORCL",
+      "Buy Market On Open",
+      "Fill: $74.65 USD",
+      "67",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "SLB",
+      "Buy Market On Open",
+      "Fill: $50.91 USD",
+      "101",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-11-02 16:05:00",
+      "XOM",
+      "Buy Market On Open",
+      "Fill: $108.69 USD",
+      "46",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "AMGN",
+      "Sell Market On Open",
+      "Fill: $284.06 USD",
+      "-19",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "CAT",
+      "Sell Market On Open",
+      "Fill: $233.89 USD",
+      "-23",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "CVX",
+      "Sell Market On Open",
+      "Fill: $181.53 USD",
+      "-28",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "GILD",
+      "Sell Market On Open",
+      "Fill: $86.69 USD",
+      "-65",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "ISRG",
+      "Sell Market On Open",
+      "Fill: $268.15 USD",
+      "-21",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "MCD",
+      "Sell Market On Open",
+      "Fill: $269.81 USD",
+      "-19",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "NFLX",
+      "Sell Market On Open",
+      "Fill: $310.20 USD",
+      "-18",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "ORCL",
+      "Sell Market On Open",
+      "Fill: $83.20 USD",
+      "-67",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "SLB",
+      "Sell Market On Open",
+      "Fill: $51.50 USD",
+      "-101",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-01 16:05:00",
+      "XOM",
+      "Sell Market On Open",
+      "Fill: $109.41 USD",
+      "-46",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "AMD",
+      "Buy Market On Open",
+      "Fill: $74.56 USD",
+      "71",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "EL",
+      "Buy Market On Open",
+      "Fill: $235.43 USD",
+      "23",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "META",
+      "Buy Market On Open",
+      "Fill: $122.00 USD",
+      "45",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "HZNP",
+      "Buy Market On Open",
+      "Fill: $100.65 USD",
+      "54",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "KLAC",
+      "Buy Market On Open",
+      "Fill: $386.46 USD",
+      "13",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "NKE",
+      "Buy Market On Open",
+      "Fill: $110.52 USD",
+      "49",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "NVDA",
+      "Buy Market On Open",
+      "Fill: $166.59 USD",
+      "31",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "SBUX",
+      "Buy Market On Open",
+      "Fill: $103.41 USD",
+      "53",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "SHOP",
+      "Buy Market On Open",
+      "Fill: $42.77 USD",
+      "126",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2022-12-02 16:05:00",
+      "XYZ",
+      "Buy Market On Open",
+      "Fill: $67.40 USD",
+      "79",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "AMD",
+      "Sell Market On Open",
+      "Fill: $65.19 USD",
+      "-71",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "EL",
+      "Sell Market On Open",
+      "Fill: $258.81 USD",
+      "-23",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "META",
+      "Sell Market On Open",
+      "Fill: $127.40 USD",
+      "-2",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "HZNP",
+      "Sell Market On Open",
+      "Fill: $113.51 USD",
+      "-54",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "KLAC",
+      "Sell Market On Open",
+      "Fill: $382.85 USD",
+      "-13",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "NKE",
+      "Sell Market On Open",
+      "Fill: $120.00 USD",
+      "-4",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "NVDA",
+      "Sell Market On Open",
+      "Fill: $145.60 USD",
+      "-31",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "SBUX",
+      "Sell Market On Open",
+      "Fill: $102.78 USD",
+      "-53",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "SHOP",
+      "Sell Market On Open",
+      "Fill: $36.34 USD",
+      "-126",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-03 16:05:00",
+      "XYZ",
+      "Sell Market On Open",
+      "Fill: $65.79 USD",
+      "-79",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "ABT",
+      "Buy Market On Open",
+      "Fill: $111.10 USD",
+      "48",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "AVGO",
+      "Buy Market On Open",
+      "Fill: $555.71 USD",
+      "8",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "BA",
+      "Buy Market On Open",
+      "Fill: $201.33 USD",
+      "26",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "VZ",
+      "Buy Market On Open",
+      "Fill: $41.16 USD",
+      "131",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "CAT",
+      "Buy Market On Open",
+      "Fill: $240.53 USD",
+      "21",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "KALA",
+      "Buy Market On Open",
+      "Fill: $45.80 USD",
+      "166",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "MRK",
+      "Buy Market On Open",
+      "Fill: $111.59 USD",
+      "47",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-01-04 16:05:00",
+      "PFE",
+      "Buy Market On Open",
+      "Fill: $49.73 USD",
+      "103",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "ABT",
+      "Sell Market On Open",
+      "Fill: $111.28 USD",
+      "-48",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "AVGO",
+      "Sell Market On Open",
+      "Fill: $607.63 USD",
+      "-8",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "BA",
+      "Sell Market On Open",
+      "Fill: $214.93 USD",
+      "-26",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "VZ",
+      "Sell Market On Open",
+      "Fill: $41.70 USD",
+      "-131",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "CAT",
+      "Sell Market On Open",
+      "Fill: $248.84 USD",
+      "-21",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "META",
+      "Sell Market On Open",
+      "Fill: $183.36 USD",
+      "-43",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "KALA",
+      "Sell Market On Open",
+      "Fill: $17.66 USD",
+      "-166",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "MRK",
+      "Sell Market On Open",
+      "Fill: $103.90 USD",
+      "-47",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "NKE",
+      "Sell Market On Open",
+      "Fill: $130.45 USD",
+      "-45",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-01 16:05:00",
+      "PFE",
+      "Sell Market On Open",
+      "Fill: $43.67 USD",
+      "-103",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "AI",
+      "Buy Market On Open",
+      "Fill: $21.34 USD",
+      "241",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "COIN",
+      "Buy Market On Open",
+      "Fill: $73.72 USD",
+      "79",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "CVNA",
+      "Buy Market On Open",
+      "Fill: $12.94 USD",
+      "385",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "MELI",
+      "Buy Market On Open",
+      "Fill: $1,171.75 USD",
+      "4",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "MSGM",
+      "Buy Market On Open",
+      "Fill: $20.50 USD",
+      "141",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "NVDA",
+      "Buy Market On Open",
+      "Fill: $209.64 USD",
+      "24",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "ROKU",
+      "Buy Market On Open",
+      "Fill: $62.43 USD",
+      "87",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "SHOP",
+      "Buy Market On Open",
+      "Fill: $51.25 USD",
+      "104",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "SPOT",
+      "Buy Market On Open",
+      "Fill: $118.08 USD",
+      "44",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-02-02 16:05:00",
+      "TSLA",
+      "Buy Market On Open",
+      "Fill: $184.15 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "AI",
+      "Sell Market On Open",
+      "Fill: $20.52 USD",
+      "-241",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "COIN",
+      "Sell Market On Open",
+      "Fill: $60.82 USD",
+      "-3",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "CVNA",
+      "Sell Market On Open",
+      "Fill: $8.57 USD",
+      "-385",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "MELI",
+      "Sell Market On Open",
+      "Fill: $1,195.00 USD",
+      "-4",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "MSGM",
+      "Sell Market On Open",
+      "Fill: $8.78 USD",
+      "-141",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "NVDA",
+      "Sell Market On Open",
+      "Fill: $224.86 USD",
+      "-3",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "ROKU",
+      "Sell Market On Open",
+      "Fill: $61.90 USD",
+      "-10",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "SHOP",
+      "Sell Market On Open",
+      "Fill: $39.12 USD",
+      "-104",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "SPOT",
+      "Sell Market On Open",
+      "Fill: $115.06 USD",
+      "-44",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-01 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $186.80 USD",
+      "-4",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-03-02 16:05:00",
+      "AMC",
+      "Buy Market On Open",
+      "Fill: $6.14 USD",
+      "754",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-03-02 16:05:00",
+      "META",
+      "Buy Market On Open",
+      "Fill: $178.93 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-03-02 16:05:00",
+      "PANW",
+      "Buy Market On Open",
+      "Fill: $190.07 USD",
+      "26",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-03-02 16:05:00",
+      "RS",
+      "Buy Market On Open",
+      "Fill: $261.12 USD",
+      "19",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-03-02 16:05:00",
+      "AXON",
+      "Buy Market On Open",
+      "Fill: $212.52 USD",
+      "22",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-03-02 16:05:00",
+      "TWLO",
+      "Buy Market On Open",
+      "Fill: $71.53 USD",
+      "75",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "AMC",
+      "Sell Market On Open",
+      "Fill: $4.10 USD",
+      "-754",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "COIN",
+      "Sell Market On Open",
+      "Fill: $64.66 USD",
+      "-76",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "META",
+      "Sell Market On Open",
+      "Fill: $213.12 USD",
+      "-5",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "NVDA",
+      "Sell Market On Open",
+      "Fill: $279.71 USD",
+      "-4",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "PANW",
+      "Sell Market On Open",
+      "Fill: $197.50 USD",
+      "-26",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "ROKU",
+      "Sell Market On Open",
+      "Fill: $66.30 USD",
+      "-77",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "RS",
+      "Sell Market On Open",
+      "Fill: $256.31 USD",
+      "-19",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "AXON",
+      "Sell Market On Open",
+      "Fill: $227.90 USD",
+      "-22",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $197.31 USD",
+      "-24",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-03 16:05:00",
+      "TWLO",
+      "Sell Market On Open",
+      "Fill: $64.51 USD",
+      "-75",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "AI",
+      "Buy Market On Open",
+      "Fill: $24.03 USD",
+      "147",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "AMD",
+      "Buy Market On Open",
+      "Fill: $94.38 USD",
+      "51",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "GE",
+      "Buy Market On Open",
+      "Fill: $94.98 USD",
+      "51",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "INTC",
+      "Buy Market On Open",
+      "Fill: $32.80 USD",
+      "151",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "LULU",
+      "Buy Market On Open",
+      "Fill: $367.64 USD",
+      "13",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "MRNA",
+      "Buy Market On Open",
+      "Fill: $155.79 USD",
+      "31",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "MSFT",
+      "Buy Market On Open",
+      "Fill: $285.65 USD",
+      "17",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-04-04 16:05:00",
+      "NFLX",
+      "Buy Market On Open",
+      "Fill: $344.74 USD",
+      "14",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "AI",
+      "Sell Market On Open",
+      "Fill: $18.30 USD",
+      "-147",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "AMD",
+      "Sell Market On Open",
+      "Fill: $89.18 USD",
+      "-51",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "META",
+      "Sell Market On Open",
+      "Fill: $243.18 USD",
+      "-3",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "GE",
+      "Sell Market On Open",
+      "Fill: $100.61 USD",
+      "-51",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "INTC",
+      "Sell Market On Open",
+      "Fill: $30.28 USD",
+      "-151",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "LULU",
+      "Sell Market On Open",
+      "Fill: $383.18 USD",
+      "-13",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "MRNA",
+      "Sell Market On Open",
+      "Fill: $133.52 USD",
+      "-31",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "MSFT",
+      "Sell Market On Open",
+      "Fill: $307.99 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "NFLX",
+      "Sell Market On Open",
+      "Fill: $325.00 USD",
+      "-14",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-01 16:05:00",
+      "NVDA",
+      "Sell Market On Open",
+      "Fill: $286.89 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "CMCSA",
+      "Buy Market On Open",
+      "Fill: $41.42 USD",
+      "117",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "CMG",
+      "Buy Market On Open",
+      "Fill: $2,054.08 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "HUDI",
+      "Buy Market On Open",
+      "Fill: $4.78 USD",
+      "887",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "BIIB",
+      "Buy Market On Open",
+      "Fill: $315.00 USD",
+      "15",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "MDLZ",
+      "Buy Market On Open",
+      "Fill: $77.97 USD",
+      "63",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "LLY",
+      "Buy Market On Open",
+      "Fill: $415.00 USD",
+      "12",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "MDT",
+      "Buy Market On Open",
+      "Fill: $90.46 USD",
+      "53",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "SBUX",
+      "Buy Market On Open",
+      "Fill: $109.00 USD",
+      "42",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-05-02 16:05:00",
+      "TOP",
+      "Buy Market On Open",
+      "Fill: $53.41 USD",
+      "94",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "CMCSA",
+      "Sell Market On Open",
+      "Fill: $38.55 USD",
+      "-117",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "CMG",
+      "Sell Market On Open",
+      "Fill: $2,086.99 USD",
+      "-2",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "META",
+      "Sell Market On Open",
+      "Fill: $272.61 USD",
+      "-20",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "HUDI",
+      "Sell Market On Open",
+      "Fill: $4.64 USD",
+      "-887",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "BIIB",
+      "Sell Market On Open",
+      "Fill: $302.11 USD",
+      "-15",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "MDLZ",
+      "Sell Market On Open",
+      "Fill: $73.77 USD",
+      "-63",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "LLY",
+      "Sell Market On Open",
+      "Fill: $439.96 USD",
+      "-12",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "MDT",
+      "Sell Market On Open",
+      "Fill: $83.15 USD",
+      "-53",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "SBUX",
+      "Sell Market On Open",
+      "Fill: $98.31 USD",
+      "-42",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-01 16:05:00",
+      "TOP",
+      "Sell Market On Open",
+      "Fill: $8.30 USD",
+      "-94",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "AI",
+      "Buy Market On Open",
+      "Fill: $31.24 USD",
+      "126",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "AMD",
+      "Buy Market On Open",
+      "Fill: $116.63 USD",
+      "36",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "CRWD",
+      "Buy Market On Open",
+      "Fill: $151.05 USD",
+      "27",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "MRVL",
+      "Buy Market On Open",
+      "Fill: $59.55 USD",
+      "71",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "NVDA",
+      "Buy Market On Open",
+      "Fill: $388.90 USD",
+      "11",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "PLTR",
+      "Buy Market On Open",
+      "Fill: $14.39 USD",
+      "302",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "SMCI",
+      "Buy Market On Open",
+      "Fill: $219.14 USD",
+      "19",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "SOFI",
+      "Buy Market On Open",
+      "Fill: $7.12 USD",
+      "643",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "TSLA",
+      "Buy Market On Open",
+      "Fill: $217.69 USD",
+      "21",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-06-02 16:05:00",
+      "TWLO",
+      "Buy Market On Open",
+      "Fill: $67.01 USD",
+      "65",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "AMD",
+      "Sell Market On Open",
+      "Fill: $116.10 USD",
+      "-36",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "CRWD",
+      "Sell Market On Open",
+      "Fill: $145.73 USD",
+      "-27",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "MRVL",
+      "Sell Market On Open",
+      "Fill: $60.84 USD",
+      "-71",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "NVDA",
+      "Sell Market On Open",
+      "Fill: $421.39 USD",
+      "-11",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "PLTR",
+      "Sell Market On Open",
+      "Fill: $15.44 USD",
+      "-302",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "SMCI",
+      "Sell Market On Open",
+      "Fill: $248.00 USD",
+      "-19",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "SOFI",
+      "Sell Market On Open",
+      "Fill: $8.49 USD",
+      "-84",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $278.70 USD",
+      "-4",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-03 16:05:00",
+      "TWLO",
+      "Sell Market On Open",
+      "Fill: $63.53 USD",
+      "-65",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-07-05 16:05:00",
+      "CCL",
+      "Buy Market On Open",
+      "Fill: $18.80 USD",
+      "248",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-07-05 16:05:00",
+      "COIN",
+      "Buy Market On Open",
+      "Fill: $78.05 USD",
+      "58",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-07-05 16:05:00",
+      "DAL",
+      "Buy Market On Open",
+      "Fill: $47.99 USD",
+      "98",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-07-05 16:05:00",
+      "F",
+      "Buy Market On Open",
+      "Fill: $15.15 USD",
+      "310",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-07-05 16:05:00",
+      "MARA",
+      "Buy Market On Open",
+      "Fill: $15.75 USD",
+      "308",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-07-05 16:05:00",
+      "PANW",
+      "Buy Market On Open",
+      "Fill: $254.07 USD",
+      "17",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-07-05 16:05:00",
+      "RIVN",
+      "Buy Market On Open",
+      "Fill: $20.09 USD",
+      "241",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "AI",
+      "Sell Market On Open",
+      "Fill: $42.39 USD",
+      "-12",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "CCL",
+      "Sell Market On Open",
+      "Fill: $17.62 USD",
+      "-248",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "COIN",
+      "Sell Market On Open",
+      "Fill: $91.45 USD",
+      "-5",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "DAL",
+      "Sell Market On Open",
+      "Fill: $44.92 USD",
+      "-98",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "F",
+      "Sell Market On Open",
+      "Fill: $13.19 USD",
+      "-310",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "MARA",
+      "Sell Market On Open",
+      "Fill: $16.76 USD",
+      "-308",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "PANW",
+      "Sell Market On Open",
+      "Fill: $249.38 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "RIVN",
+      "Sell Market On Open",
+      "Fill: $26.42 USD",
+      "-55",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "SOFI",
+      "Sell Market On Open",
+      "Fill: $10.13 USD",
+      "-69",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-01 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $255.60 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-08-02 16:05:00",
+      "NEWR",
+      "Buy Market On Open",
+      "Fill: $83.97 USD",
+      "60",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-08-02 16:05:00",
+      "PLTR",
+      "Buy Market On Open",
+      "Fill: $18.67 USD",
+      "254",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-08-02 16:05:00",
+      "ROKU",
+      "Buy Market On Open",
+      "Fill: $88.89 USD",
+      "52",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-08-02 16:05:00",
+      "SMCI",
+      "Buy Market On Open",
+      "Fill: $314.00 USD",
+      "15",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-08-02 16:05:00",
+      "XYZ",
+      "Buy Market On Open",
+      "Fill: $73.20 USD",
+      "64",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-08-02 16:05:00",
+      "UPST",
+      "Buy Market On Open",
+      "Fill: $67.00 USD",
+      "70",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "AI",
+      "Sell Market On Open",
+      "Fill: $31.22 USD",
+      "-114",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "COIN",
+      "Sell Market On Open",
+      "Fill: $77.99 USD",
+      "-53",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "NEWR",
+      "Sell Market On Open",
+      "Fill: $85.10 USD",
+      "-60",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "PLTR",
+      "Sell Market On Open",
+      "Fill: $15.08 USD",
+      "-254",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "RIVN",
+      "Sell Market On Open",
+      "Fill: $23.13 USD",
+      "-186",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "ROKU",
+      "Sell Market On Open",
+      "Fill: $80.58 USD",
+      "-52",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "SMCI",
+      "Sell Market On Open",
+      "Fill: $279.40 USD",
+      "-15",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "SOFI",
+      "Sell Market On Open",
+      "Fill: $8.76 USD",
+      "-490",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "XYZ",
+      "Sell Market On Open",
+      "Fill: $58.16 USD",
+      "-64",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-01 16:05:00",
+      "UPST",
+      "Sell Market On Open",
+      "Fill: $32.53 USD",
+      "-70",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "ANET",
+      "Buy Market On Open",
+      "Fill: $196.91 USD",
+      "21",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "CSCO",
+      "Buy Market On Open",
+      "Fill: $57.21 USD",
+      "73",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "CVNA",
+      "Buy Market On Open",
+      "Fill: $49.63 USD",
+      "83",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "INTU",
+      "Buy Market On Open",
+      "Fill: $549.42 USD",
+      "7",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "LLY",
+      "Buy Market On Open",
+      "Fill: $561.59 USD",
+      "7",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "MELI",
+      "Buy Market On Open",
+      "Fill: $1,426.83 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "OKTA",
+      "Buy Market On Open",
+      "Fill: $86.51 USD",
+      "49",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "PANW",
+      "Buy Market On Open",
+      "Fill: $244.00 USD",
+      "17",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "SHOP",
+      "Buy Market On Open",
+      "Fill: $65.05 USD",
+      "63",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-09-05 16:05:00",
+      "VEEV",
+      "Buy Market On Open",
+      "Fill: $220.63 USD",
+      "19",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "ANET",
+      "Sell Market On Open",
+      "Fill: $187.69 USD",
+      "-21",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "CSCO",
+      "Sell Market On Open",
+      "Fill: $53.83 USD",
+      "-73",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "CVNA",
+      "Sell Market On Open",
+      "Fill: $38.78 USD",
+      "-83",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "INTU",
+      "Sell Market On Open",
+      "Fill: $511.29 USD",
+      "-7",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "LLY",
+      "Sell Market On Open",
+      "Fill: $536.00 USD",
+      "-7",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "MELI",
+      "Sell Market On Open",
+      "Fill: $1,246.86 USD",
+      "-2",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "OKTA",
+      "Sell Market On Open",
+      "Fill: $79.52 USD",
+      "-49",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "PANW",
+      "Sell Market On Open",
+      "Fill: $233.95 USD",
+      "-17",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "SHOP",
+      "Sell Market On Open",
+      "Fill: $53.00 USD",
+      "-63",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-02 16:05:00",
+      "VEEV",
+      "Sell Market On Open",
+      "Fill: $199.98 USD",
+      "-19",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "ABNB",
+      "Buy Market On Open",
+      "Fill: $128.75 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "AMGN",
+      "Buy Market On Open",
+      "Fill: $262.10 USD",
+      "14",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "COST",
+      "Buy Market On Open",
+      "Fill: $569.49 USD",
+      "6",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "META",
+      "Buy Market On Open",
+      "Fill: $298.54 USD",
+      "12",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "HUM",
+      "Buy Market On Open",
+      "Fill: $488.57 USD",
+      "7",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "MPC",
+      "Buy Market On Open",
+      "Fill: $144.87 USD",
+      "25",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "PLTR",
+      "Buy Market On Open",
+      "Fill: $15.41 USD",
+      "245",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "TSLA",
+      "Buy Market On Open",
+      "Fill: $248.19 USD",
+      "15",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "UNH",
+      "Buy Market On Open",
+      "Fill: $509.75 USD",
+      "7",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-10-03 16:05:00",
+      "VLO",
+      "Buy Market On Open",
+      "Fill: $130.89 USD",
+      "28",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "ABNB",
+      "Sell Market On Open",
+      "Fill: $122.53 USD",
+      "-28",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "AMGN",
+      "Sell Market On Open",
+      "Fill: $263.30 USD",
+      "-14",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "COST",
+      "Sell Market On Open",
+      "Fill: $556.50 USD",
+      "-6",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "META",
+      "Sell Market On Open",
+      "Fill: $317.52 USD",
+      "-12",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "HUM",
+      "Sell Market On Open",
+      "Fill: $484.49 USD",
+      "-7",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "MPC",
+      "Sell Market On Open",
+      "Fill: $155.22 USD",
+      "-1",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "PLTR",
+      "Sell Market On Open",
+      "Fill: $17.50 USD",
+      "-245",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "TSLA",
+      "Sell Market On Open",
+      "Fill: $212.93 USD",
+      "-15",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "UNH",
+      "Sell Market On Open",
+      "Fill: $532.00 USD",
+      "-7",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-01 16:05:00",
+      "VLO",
+      "Sell Market On Open",
+      "Fill: $127.93 USD",
+      "-28",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "ANET",
+      "Buy Market On Open",
+      "Fill: $212.62 USD",
+      "18",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "VZ",
+      "Buy Market On Open",
+      "Fill: $36.00 USD",
+      "107",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "NEE",
+      "Buy Market On Open",
+      "Fill: $61.22 USD",
+      "65",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "LMT",
+      "Buy Market On Open",
+      "Fill: $455.11 USD",
+      "8",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "MSFT",
+      "Buy Market On Open",
+      "Fill: $349.60 USD",
+      "10",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "NFLX",
+      "Buy Market On Open",
+      "Fill: $429.08 USD",
+      "9",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "PINS",
+      "Buy Market On Open",
+      "Fill: $30.95 USD",
+      "127",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "PXD",
+      "Buy Market On Open",
+      "Fill: $245.45 USD",
+      "15",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-11-02 16:05:00",
+      "RTX",
+      "Buy Market On Open",
+      "Fill: $83.17 USD",
+      "46",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "ANET",
+      "Sell Market On Open",
+      "Fill: $212.81 USD",
+      "-18",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "VZ",
+      "Sell Market On Open",
+      "Fill: $38.40 USD",
+      "-107",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "NEE",
+      "Sell Market On Open",
+      "Fill: $58.64 USD",
+      "-65",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "LMT",
+      "Sell Market On Open",
+      "Fill: $447.37 USD",
+      "-8",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "MPC",
+      "Sell Market On Open",
+      "Fill: $150.00 USD",
+      "-24",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "MSFT",
+      "Sell Market On Open",
+      "Fill: $369.00 USD",
+      "-10",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "NFLX",
+      "Sell Market On Open",
+      "Fill: $460.99 USD",
+      "-9",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "PINS",
+      "Sell Market On Open",
+      "Fill: $34.37 USD",
+      "-127",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "PXD",
+      "Sell Market On Open",
+      "Fill: $230.55 USD",
+      "-15",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-01 16:05:00",
+      "RTX",
+      "Sell Market On Open",
+      "Fill: $82.07 USD",
+      "-46",
+      "Filled",
+      "v15:monthly:reduce"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "COIN",
+      "Buy Market On Open",
+      "Fill: $140.00 USD",
+      "29",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "CRM",
+      "Buy Market On Open",
+      "Fill: $250.10 USD",
+      "15",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "CRWD",
+      "Buy Market On Open",
+      "Fill: $233.96 USD",
+      "16",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "IMGN",
+      "Buy Market On Open",
+      "Fill: $29.15 USD",
+      "135",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "MDB",
+      "Buy Market On Open",
+      "Fill: $423.03 USD",
+      "9",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "MELI",
+      "Buy Market On Open",
+      "Fill: $1,582.75 USD",
+      "2",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "ROKU",
+      "Buy Market On Open",
+      "Fill: $103.35 USD",
+      "38",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "SNOW",
+      "Buy Market On Open",
+      "Fill: $186.53 USD",
+      "21",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "UBER",
+      "Buy Market On Open",
+      "Fill: $58.05 USD",
+      "69",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-04 16:05:00",
+      "WDAY",
+      "Buy Market On Open",
+      "Fill: $268.02 USD",
+      "14",
+      "Filled",
+      "v15:monthly:buy"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "COIN",
+      "Sell Market On Open",
+      "Fill: $186.06 USD",
+      "-29",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "CRM",
+      "Sell Market On Open",
+      "Fill: $265.01 USD",
+      "-15",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "CRWD",
+      "Sell Market On Open",
+      "Fill: $255.83 USD",
+      "-16",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "IMGN",
+      "Sell Market On Open",
+      "Fill: $29.70 USD",
+      "-135",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "MDB",
+      "Sell Market On Open",
+      "Fill: $415.40 USD",
+      "-9",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "MELI",
+      "Sell Market On Open",
+      "Fill: $1,581.60 USD",
+      "-2",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "ROKU",
+      "Sell Market On Open",
+      "Fill: $93.65 USD",
+      "-38",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "SNOW",
+      "Sell Market On Open",
+      "Fill: $200.00 USD",
+      "-21",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "UBER",
+      "Sell Market On Open",
+      "Fill: $62.36 USD",
+      "-69",
+      "Filled",
+      "v15:terminal:reduce"
+    ],
+    [
+      "+2023-12-28 16:05:00",
+      "WDAY",
+      "Sell Market On Open",
+      "Fill: $275.43 USD",
+      "-14",
+      "Filled",
+      "v15:terminal:reduce"
+    ]
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "v16-attribution-verification-1",
+  "monetary_totals": {
+    "price_pnl": -53783.16100000001,
+    "dividends": 2009.72,
+    "split_cash": 0.000884917,
+    "fees": 2305.282651,
+    "net_pnl": -54078.722766083
+  },
+  "final_equity": 45921.277233917004,
+  "net_pnl": -54078.722766082996,
+  "unexplained_account_residual": 4.995115432393504e-12,
+  "max_daily_cash_residual": 2.000888343900442e-11,
+  "observer_checks": {},
+  "original_comparison": {
+    "final_equity": {
+      "original": 45921.277233917004,
+      "diagnostic": 45921.277233917004,
+      "difference": 0.0
+    },
+    "fees_paid": {
+      "original": 2305.2826509999973,
+      "diagnostic": 2305.2826509999973,
+      "difference": 0.0
+    },
+    "traded_notional": {
+      "original": 2311252.231,
+      "diagnostic": 2311252.231,
+      "difference": 0.0
+    },
+    "dividend_cash_engine_proxy": {
+      "original": 2009.72,
+      "diagnostic": 2009.72,
+      "difference": 0.0
+    },
+    "split_fraction_cash_engine_proxy": {
+      "original": 0.000884917,
+      "diagnostic": 0.000884917,
+      "difference": 0.0
+    },
+    "fills": {
+      "original": 458,
+      "diagnostic": 458,
+      "difference": 0
+    },
+    "annual_returns": {
+      "2022": {
+        "original": -0.40512966076083,
+        "diagnostic": -0.40512966076083,
+        "difference": 0.0
+      },
+      "2023": {
+        "original": -0.2280456058264796,
+        "diagnostic": -0.2280456058264796,
+        "difference": 0.0
+      }
+    },
+    "month_hash_matches": true,
+    "base_executable_hash_matches": true,
+    "all_available_comparisons_match": true
+  },
+  "omitted_due_free_log_budget": null,
+  "unavailable_detail_keys": [
+    "episodes",
+    "focus_fills",
+    "focus_decisions",
+    "events"
+  ],
+  "ticker_column_limit": "latest_observed_ticker is retained as a compatibility name for engine Symbol.Value; it can be an old mapped ticker. Use stable SID and documented date-specific aliases.",
+  "boundary": "matches are actual compared aggregates, not proof every original fill/close equals replay",
+  "spy_reference": {
+    "original_backtest": "0d921feb058a7e18dac120f1d27097b8",
+    "all_checks_pass": null,
+    "metadata_status": "Original C10 identity from frozen reference source; final cloud metadata not recovered",
+    "month_fields": [
+      "month",
+      "end_equity"
+    ]
+  },
+  "transport": {
+    "monthly_runtime_verified": false,
+    "monthly_runtime_sha256": "a45bf94e20f50dba251c3bf16f40b75d0e67b495781df8ffd1e305dfbd59c636",
+    "rows": 24,
+    "expected_hash_status": "missing in truncated log; independent money checks required",
+    "transport_verified": false,
+    "partial_evidence": "Only complete JSON values recovered from a truncated LZMA prefix; full payload SHA/footer unavailable"
+  }
+}

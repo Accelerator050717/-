@@ -1,0 +1,1154 @@
+{
+  "source": {
+    "path": "data\\experiments\\momentum_loss_attribution_v16\\ORIGINAL_B10_TRADES_UI.json",
+    "sha256": "22ba398caf22766e5e8f7d191394cbfaae48b975af998bf76b1db0b895fe97da",
+    "backtest_id": "549882ad625e8d4d5a4c149d8f943cd0",
+    "retrieved_at": "2026-09-22T19:19:01.129Z"
+  },
+  "limitations": [
+    "UI-rendered original records: all displayed decimals preserved, not claimed as full native precision.",
+    "Matched rows are FIFO FillToFill, not flat-to-flat episodes; quantities/prices may be split adjusted.",
+    "UI ticker can show later ticker mapping (e.g. XYZ); SID is not supplied by this UI table.",
+    "Exit-year tables include cross-year unrealized P&L at exit and cannot replace calendar-year MTM.",
+    "Native displayed allocated fees differ from actual aggregate order fees; bridge uses v15 actual fees."
+  ],
+  "money_bridge": {
+    "initial_equity": "100000",
+    "final_equity": "45921.277233917004",
+    "net_account_pnl": "-54078.722766082996",
+    "native_matched_price_pnl_display": "-53783.17",
+    "dividend_cash_engine_proxy": "2009.72",
+    "split_fraction_cash_engine_proxy": "0.000884917",
+    "actual_fees": "2305.2826509999973",
+    "explained_with_display_price_pnl": "-54078.7317660829973",
+    "unexplained_residual_account_minus_bridge": "0.0090000000013",
+    "displayed_allocated_fees": "2305.3126750000000026",
+    "display_allocated_fee_difference": "0.0300240000027026"
+  },
+  "periods": {
+    "2022": {
+      "grouping": "Native FIFO FillToFill, exit year; NOT calendar-year MTM",
+      "matched_rows": 110,
+      "unique_ui_tickers": 82,
+      "gross_price_pnl_display": "-38877.03",
+      "allocated_fees_display": "1305.129585000000004",
+      "losing_rows": 63,
+      "winning_rows": 46,
+      "top_10_losing_ui_tickers": [
+        {
+          "ui_ticker": "NTRB",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-3825.54",
+          "allocated_fees_display": "12.62",
+          "gross_less_display_allocated_fees": "-3838.16",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "TSLA",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "-3514.01",
+          "allocated_fees_display": "37.59",
+          "gross_less_display_allocated_fees": "-3551.60",
+          "winning_rows": 0,
+          "losing_rows": 3
+        },
+        {
+          "ui_ticker": "AMC",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-2787.48",
+          "allocated_fees_display": "13.35",
+          "gross_less_display_allocated_fees": "-2800.83",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "UBER",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "-2596.20",
+          "allocated_fees_display": "31.88",
+          "gross_less_display_allocated_fees": "-2628.08",
+          "winning_rows": 0,
+          "losing_rows": 2
+        },
+        {
+          "ui_ticker": "XYZ",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-2450.40",
+          "allocated_fees_display": "14.9496",
+          "gross_less_display_allocated_fees": "-2465.3496",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "GME",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-2426.48",
+          "allocated_fees_display": "14.03752",
+          "gross_less_display_allocated_fees": "-2440.51752",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "UPST",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-2304.18",
+          "allocated_fees_display": "14.28",
+          "gross_less_display_allocated_fees": "-2318.46",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "EQT",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-2007.58",
+          "allocated_fees_display": "10.830425",
+          "gross_less_display_allocated_fees": "-2018.410425",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "MRO",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-1970.87",
+          "allocated_fees_display": "11.13761",
+          "gross_less_display_allocated_fees": "-1982.00761",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "DVN",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "-1767.78",
+          "allocated_fees_display": "36.61",
+          "gross_less_display_allocated_fees": "-1804.39",
+          "winning_rows": 1,
+          "losing_rows": 2
+        }
+      ],
+      "top_10_winning_ui_tickers": [
+        {
+          "ui_ticker": "FSLR",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1847.46",
+          "allocated_fees_display": "12.43362",
+          "gross_less_display_allocated_fees": "1835.02638",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "ENPH",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1842.50",
+          "allocated_fees_display": "27.47",
+          "gross_less_display_allocated_fees": "1815.03",
+          "winning_rows": 1,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "ATVI",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1812.76",
+          "allocated_fees_display": "19.69",
+          "gross_less_display_allocated_fees": "1793.07",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "NFLX",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1331.66",
+          "allocated_fees_display": "10.40512",
+          "gross_less_display_allocated_fees": "1321.25488",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "CVX",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1049.86",
+          "allocated_fees_display": "27.43",
+          "gross_less_display_allocated_fees": "1022.43",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "ISRG",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "737.94",
+          "allocated_fees_display": "10.52",
+          "gross_less_display_allocated_fees": "727.42",
+          "winning_rows": 1,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "XOM",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "707.50",
+          "allocated_fees_display": "40.67",
+          "gross_less_display_allocated_fees": "666.83",
+          "winning_rows": 3,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "T",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "680.94",
+          "allocated_fees_display": "14.215499999999999",
+          "gross_less_display_allocated_fees": "666.724500000000001",
+          "winning_rows": 1,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "GILD",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "605.15",
+          "allocated_fees_display": "10.664549999999998",
+          "gross_less_display_allocated_fees": "594.485450000000002",
+          "winning_rows": 1,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "OXY",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "596.36",
+          "allocated_fees_display": "39.36",
+          "gross_less_display_allocated_fees": "557.00",
+          "winning_rows": 1,
+          "losing_rows": 2
+        }
+      ],
+      "worst_10_native_matched_rows": [
+        {
+          "native_trade_row": 7,
+          "ui_ticker": "NTRB",
+          "entry_receipt_local": "2022-01-05 16:00:00",
+          "exit_receipt_local": "2022-02-02 16:00:00",
+          "exit_year": "2022",
+          "quantity": "954",
+          "entry_price_display": "8.62",
+          "exit_price_display": "4.61",
+          "gross_price_pnl_display": "-3825.54",
+          "allocated_fees_display": "12.62",
+          "gross_less_display_allocated_fees": "-3838.16",
+          "display_price_quantity_pnl": "-3825.54"
+        },
+        {
+          "native_trade_row": 31,
+          "ui_ticker": "AMC",
+          "entry_receipt_local": "2022-04-05 16:00:00",
+          "exit_receipt_local": "2022-05-03 16:00:00",
+          "exit_year": "2022",
+          "quantity": "348",
+          "entry_price_display": "23.18",
+          "exit_price_display": "15.17",
+          "gross_price_pnl_display": "-2787.48",
+          "allocated_fees_display": "13.35",
+          "gross_less_display_allocated_fees": "-2800.83",
+          "display_price_quantity_pnl": "-2787.48"
+        },
+        {
+          "native_trade_row": 38,
+          "ui_ticker": "XYZ",
+          "entry_receipt_local": "2022-04-05 16:00:00",
+          "exit_receipt_local": "2022-05-03 16:00:00",
+          "exit_year": "2022",
+          "quantity": "60",
+          "entry_price_display": "145.00",
+          "exit_price_display": "104.16",
+          "gross_price_pnl_display": "-2450.40",
+          "allocated_fees_display": "14.9496",
+          "gross_less_display_allocated_fees": "-2465.3496",
+          "display_price_quantity_pnl": "-2450.40"
+        },
+        {
+          "native_trade_row": 33,
+          "ui_ticker": "GME",
+          "entry_receipt_local": "2022-04-05 16:00:00",
+          "exit_receipt_local": "2022-05-03 16:00:00",
+          "exit_year": "2022",
+          "quantity": "49",
+          "entry_price_display": "168.00",
+          "exit_price_display": "118.48",
+          "gross_price_pnl_display": "-2426.48",
+          "allocated_fees_display": "14.03752",
+          "gross_less_display_allocated_fees": "-2440.51752",
+          "display_price_quantity_pnl": "-2426.48"
+        },
+        {
+          "native_trade_row": 30,
+          "ui_ticker": "UPST",
+          "entry_receipt_local": "2022-03-03 16:00:00",
+          "exit_receipt_local": "2022-04-04 16:00:00",
+          "exit_year": "2022",
+          "quantity": "54",
+          "entry_price_display": "153.54",
+          "exit_price_display": "110.87",
+          "gross_price_pnl_display": "-2304.18",
+          "allocated_fees_display": "14.28",
+          "gross_less_display_allocated_fees": "-2318.46",
+          "display_price_quantity_pnl": "-2304.18"
+        },
+        {
+          "native_trade_row": 53,
+          "ui_ticker": "EQT",
+          "entry_receipt_local": "2022-06-03 16:00:00",
+          "exit_receipt_local": "2022-07-05 16:00:00",
+          "exit_year": "2022",
+          "quantity": "131",
+          "entry_price_display": "49.00",
+          "exit_price_display": "33.675",
+          "gross_price_pnl_display": "-2007.58",
+          "allocated_fees_display": "10.830425",
+          "gross_less_display_allocated_fees": "-2018.410425",
+          "display_price_quantity_pnl": "-2007.575"
+        },
+        {
+          "native_trade_row": 56,
+          "ui_ticker": "MRO",
+          "entry_receipt_local": "2022-06-03 16:00:00",
+          "exit_receipt_local": "2022-07-05 16:00:00",
+          "exit_year": "2022",
+          "quantity": "209",
+          "entry_price_display": "31.36",
+          "exit_price_display": "21.93",
+          "gross_price_pnl_display": "-1970.87",
+          "allocated_fees_display": "11.13761",
+          "gross_less_display_allocated_fees": "-1982.00761",
+          "display_price_quantity_pnl": "-1970.87"
+        },
+        {
+          "native_trade_row": 51,
+          "ui_ticker": "DVN",
+          "entry_receipt_local": "2022-06-03 16:00:00",
+          "exit_receipt_local": "2022-07-05 16:00:00",
+          "exit_year": "2022",
+          "quantity": "85",
+          "entry_price_display": "76.50",
+          "exit_price_display": "53.55",
+          "gross_price_pnl_display": "-1950.75",
+          "allocated_fees_display": "11.05",
+          "gross_less_display_allocated_fees": "-1961.80",
+          "display_price_quantity_pnl": "-1950.75"
+        },
+        {
+          "native_trade_row": 54,
+          "ui_ticker": "HAL",
+          "entry_receipt_local": "2022-06-03 16:00:00",
+          "exit_receipt_local": "2022-07-05 16:00:00",
+          "exit_year": "2022",
+          "quantity": "158",
+          "entry_price_display": "41.12",
+          "exit_price_display": "30.31",
+          "gross_price_pnl_display": "-1707.98",
+          "allocated_fees_display": "11.28594",
+          "gross_less_display_allocated_fees": "-1719.26594",
+          "display_price_quantity_pnl": "-1707.98"
+        },
+        {
+          "native_trade_row": 35,
+          "ui_ticker": "MDB",
+          "entry_receipt_local": "2022-04-05 16:00:00",
+          "exit_receipt_local": "2022-05-03 16:00:00",
+          "exit_year": "2022",
+          "quantity": "17",
+          "entry_price_display": "454.60",
+          "exit_price_display": "354.96",
+          "gross_price_pnl_display": "-1693.88",
+          "allocated_fees_display": "13.76252",
+          "gross_less_display_allocated_fees": "-1707.64252",
+          "display_price_quantity_pnl": "-1693.88"
+        }
+      ],
+      "concentration": {
+        "sum_negative_ui_ticker_price_pnl_magnitude": "55674.56",
+        "sum_negative_native_matched_row_price_pnl_magnitude": "58895.06",
+        "top_1_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "3825.54",
+          "share_of_negative_ticker_price_pnl": "0.06871253225889885793439588925",
+          "share_of_negative_matched_row_price_pnl": "0.06495519318598198219001729517",
+          "share_of_net_account_loss": null
+        },
+        "top_5_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "15173.63",
+          "share_of_negative_ticker_price_pnl": "0.2725415342303558393636159855",
+          "share_of_negative_matched_row_price_pnl": "0.2576384165327278722527831706",
+          "share_of_net_account_loss": null
+        },
+        "top_10_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "25650.52",
+          "share_of_negative_ticker_price_pnl": "0.4607224556422179178425478351",
+          "share_of_negative_matched_row_price_pnl": "0.4355292277484733014959149375",
+          "share_of_net_account_loss": null
+        }
+      }
+    },
+    "2023": {
+      "grouping": "Native FIFO FillToFill, exit year; NOT calendar-year MTM",
+      "matched_rows": 135,
+      "unique_ui_tickers": 80,
+      "gross_price_pnl_display": "-14906.14",
+      "allocated_fees_display": "1000.1830899999999986",
+      "losing_rows": 68,
+      "winning_rows": 61,
+      "top_10_losing_ui_tickers": [
+        {
+          "ui_ticker": "KALA",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-4671.24",
+          "allocated_fees_display": "10.53436",
+          "gross_less_display_allocated_fees": "-4681.77436",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "TOP",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-4240.34",
+          "allocated_fees_display": "5.80074",
+          "gross_less_display_allocated_fees": "-4246.14074",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "SHOP",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "-2830.85",
+          "allocated_fees_display": "26.80634",
+          "gross_less_display_allocated_fees": "-2857.65634",
+          "winning_rows": 0,
+          "losing_rows": 3
+        },
+        {
+          "ui_ticker": "CVNA",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "-2583.00",
+          "allocated_fees_display": "15.62",
+          "gross_less_display_allocated_fees": "-2598.62",
+          "winning_rows": 0,
+          "losing_rows": 2
+        },
+        {
+          "ui_ticker": "UPST",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-2412.90",
+          "allocated_fees_display": "6.97",
+          "gross_less_display_allocated_fees": "-2419.87",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "MSGM",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-1652.52",
+          "allocated_fees_display": "4.12848",
+          "gross_less_display_allocated_fees": "-1656.64848",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "AMC",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-1538.16",
+          "allocated_fees_display": "7.72",
+          "gross_less_display_allocated_fees": "-1545.88",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "XYZ",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "-1089.75",
+          "allocated_fees_display": "18.93",
+          "gross_less_display_allocated_fees": "-1108.68",
+          "winning_rows": 0,
+          "losing_rows": 2
+        },
+        {
+          "ui_ticker": "AMD",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "-949.55",
+          "allocated_fees_display": "27.66",
+          "gross_less_display_allocated_fees": "-977.21",
+          "winning_rows": 0,
+          "losing_rows": 3
+        },
+        {
+          "ui_ticker": "AI",
+          "matched_rows": 4,
+          "gross_price_pnl_display": "-908.41",
+          "allocated_fees_display": "24.314769999999999",
+          "gross_less_display_allocated_fees": "-932.724769999999999",
+          "winning_rows": 1,
+          "losing_rows": 3
+        }
+      ],
+      "top_10_winning_ui_tickers": [
+        {
+          "ui_ticker": "META",
+          "matched_rows": 6,
+          "gross_price_pnl_display": "5114.34",
+          "allocated_fees_display": "33.27",
+          "gross_less_display_allocated_fees": "5081.07",
+          "winning_rows": 6,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "NVDA",
+          "matched_rows": 5,
+          "gross_price_pnl_display": "1345.89",
+          "allocated_fees_display": "30.30",
+          "gross_less_display_allocated_fees": "1315.59",
+          "winning_rows": 4,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "SOFI",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "1126.37",
+          "allocated_fees_display": "10.2802900000000001",
+          "gross_less_display_allocated_fees": "1116.0897099999999999",
+          "winning_rows": 3,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "NKE",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "934.77",
+          "allocated_fees_display": "11.7657299999999995",
+          "gross_less_display_allocated_fees": "923.0042700000000005",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "RIVN",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "913.59",
+          "allocated_fees_display": "10.59697",
+          "gross_less_display_allocated_fees": "902.99303",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "HZNP",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "694.44",
+          "allocated_fees_display": "11.56464",
+          "gross_less_display_allocated_fees": "682.87536",
+          "winning_rows": 1,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "TSLA",
+          "matched_rows": 8,
+          "gross_price_pnl_display": "686.05",
+          "allocated_fees_display": "27.59",
+          "gross_less_display_allocated_fees": "658.46",
+          "winning_rows": 4,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "COIN",
+          "matched_rows": 5,
+          "gross_price_pnl_display": "672.30",
+          "allocated_fees_display": "29.49",
+          "gross_less_display_allocated_fees": "642.81",
+          "winning_rows": 2,
+          "losing_rows": 3
+        },
+        {
+          "ui_ticker": "MSFT",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "573.78",
+          "allocated_fees_display": "17.28188",
+          "gross_less_display_allocated_fees": "556.49812",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "EL",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "537.74",
+          "allocated_fees_display": "11.36752",
+          "gross_less_display_allocated_fees": "526.37248",
+          "winning_rows": 1,
+          "losing_rows": 0
+        }
+      ],
+      "worst_10_native_matched_rows": [
+        {
+          "native_trade_row": 127,
+          "ui_ticker": "KALA",
+          "entry_receipt_local": "2023-01-05 16:00:00",
+          "exit_receipt_local": "2023-02-02 16:00:00",
+          "exit_year": "2023",
+          "quantity": "166",
+          "entry_price_display": "45.80",
+          "exit_price_display": "17.66",
+          "gross_price_pnl_display": "-4671.24",
+          "allocated_fees_display": "10.53436",
+          "gross_less_display_allocated_fees": "-4681.77436",
+          "display_price_quantity_pnl": "-4671.24"
+        },
+        {
+          "native_trade_row": 172,
+          "ui_ticker": "TOP",
+          "entry_receipt_local": "2023-05-03 16:00:00",
+          "exit_receipt_local": "2023-06-02 16:00:00",
+          "exit_year": "2023",
+          "quantity": "94",
+          "entry_price_display": "53.41",
+          "exit_price_display": "8.30",
+          "gross_price_pnl_display": "-4240.34",
+          "allocated_fees_display": "5.80074",
+          "gross_less_display_allocated_fees": "-4246.14074",
+          "display_price_quantity_pnl": "-4240.34"
+        },
+        {
+          "native_trade_row": 203,
+          "ui_ticker": "UPST",
+          "entry_receipt_local": "2023-08-03 16:00:00",
+          "exit_receipt_local": "2023-09-05 16:00:00",
+          "exit_year": "2023",
+          "quantity": "70",
+          "entry_price_display": "67.00",
+          "exit_price_display": "32.53",
+          "gross_price_pnl_display": "-2412.90",
+          "allocated_fees_display": "6.97",
+          "gross_less_display_allocated_fees": "-2419.87",
+          "display_price_quantity_pnl": "-2412.90"
+        },
+        {
+          "native_trade_row": 133,
+          "ui_ticker": "CVNA",
+          "entry_receipt_local": "2023-02-03 16:00:00",
+          "exit_receipt_local": "2023-03-02 16:00:00",
+          "exit_year": "2023",
+          "quantity": "385",
+          "entry_price_display": "12.94",
+          "exit_price_display": "8.57",
+          "gross_price_pnl_display": "-1682.45",
+          "allocated_fees_display": "8.28",
+          "gross_less_display_allocated_fees": "-1690.73",
+          "display_price_quantity_pnl": "-1682.45"
+        },
+        {
+          "native_trade_row": 135,
+          "ui_ticker": "MSGM",
+          "entry_receipt_local": "2023-02-03 16:00:00",
+          "exit_receipt_local": "2023-03-02 16:00:00",
+          "exit_year": "2023",
+          "quantity": "141",
+          "entry_price_display": "20.50",
+          "exit_price_display": "8.78",
+          "gross_price_pnl_display": "-1652.52",
+          "allocated_fees_display": "4.12848",
+          "gross_less_display_allocated_fees": "-1656.64848",
+          "display_price_quantity_pnl": "-1652.52"
+        },
+        {
+          "native_trade_row": 142,
+          "ui_ticker": "AMC",
+          "entry_receipt_local": "2023-03-03 16:00:00",
+          "exit_receipt_local": "2023-04-04 16:00:00",
+          "exit_year": "2023",
+          "quantity": "754",
+          "entry_price_display": "6.14",
+          "exit_price_display": "4.10",
+          "gross_price_pnl_display": "-1538.16",
+          "allocated_fees_display": "7.72",
+          "gross_less_display_allocated_fees": "-1545.88",
+          "display_price_quantity_pnl": "-1538.16"
+        },
+        {
+          "native_trade_row": 138,
+          "ui_ticker": "SHOP",
+          "entry_receipt_local": "2023-02-03 16:00:00",
+          "exit_receipt_local": "2023-03-02 16:00:00",
+          "exit_year": "2023",
+          "quantity": "104",
+          "entry_price_display": "51.25",
+          "exit_price_display": "39.12",
+          "gross_price_pnl_display": "-1261.52",
+          "allocated_fees_display": "9.39848",
+          "gross_less_display_allocated_fees": "-1270.91848",
+          "display_price_quantity_pnl": "-1261.52"
+        },
+        {
+          "native_trade_row": 202,
+          "ui_ticker": "XYZ",
+          "entry_receipt_local": "2023-08-03 16:00:00",
+          "exit_receipt_local": "2023-09-05 16:00:00",
+          "exit_year": "2023",
+          "quantity": "64",
+          "entry_price_display": "73.20",
+          "exit_price_display": "58.16",
+          "gross_price_pnl_display": "-962.56",
+          "allocated_fees_display": "8.41",
+          "gross_less_display_allocated_fees": "-970.97",
+          "display_price_quantity_pnl": "-962.56"
+        },
+        {
+          "native_trade_row": 197,
+          "ui_ticker": "PLTR",
+          "entry_receipt_local": "2023-08-03 16:00:00",
+          "exit_receipt_local": "2023-09-05 16:00:00",
+          "exit_year": "2023",
+          "quantity": "254",
+          "entry_price_display": "18.67",
+          "exit_price_display": "15.08",
+          "gross_price_pnl_display": "-911.86",
+          "allocated_fees_display": "8.5725",
+          "gross_less_display_allocated_fees": "-920.4325",
+          "display_price_quantity_pnl": "-911.86"
+        },
+        {
+          "native_trade_row": 206,
+          "ui_ticker": "CVNA",
+          "entry_receipt_local": "2023-09-06 16:00:00",
+          "exit_receipt_local": "2023-10-03 16:00:00",
+          "exit_year": "2023",
+          "quantity": "83",
+          "entry_price_display": "49.63",
+          "exit_price_display": "38.78",
+          "gross_price_pnl_display": "-900.55",
+          "allocated_fees_display": "7.34",
+          "gross_less_display_allocated_fees": "-907.89",
+          "display_price_quantity_pnl": "-900.55"
+        }
+      ],
+      "concentration": {
+        "sum_negative_ui_ticker_price_pnl_magnitude": "32237.96",
+        "sum_negative_native_matched_row_price_pnl_magnitude": "36816.66",
+        "top_1_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "4671.24",
+          "share_of_negative_ticker_price_pnl": "0.1448987466948901233204582424",
+          "share_of_negative_matched_row_price_pnl": "0.1268784294936042541610238408",
+          "share_of_net_account_loss": null
+        },
+        "top_5_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "16738.33",
+          "share_of_negative_ticker_price_pnl": "0.5192118235769260834122258356",
+          "share_of_negative_matched_row_price_pnl": "0.4546401004327931974274689774",
+          "share_of_net_account_loss": null
+        },
+        "top_10_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "22876.72",
+          "share_of_negative_ticker_price_pnl": "0.7096205839327302347915314741",
+          "share_of_negative_matched_row_price_pnl": "0.6213686955850965296689053271",
+          "share_of_net_account_loss": null
+        }
+      }
+    },
+    "full": {
+      "grouping": "Native FIFO FillToFill, exit year; NOT calendar-year MTM",
+      "matched_rows": 245,
+      "unique_ui_tickers": 133,
+      "gross_price_pnl_display": "-53783.17",
+      "allocated_fees_display": "2305.3126750000000026",
+      "losing_rows": 131,
+      "winning_rows": 107,
+      "top_10_losing_ui_tickers": [
+        {
+          "ui_ticker": "UPST",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "-4717.08",
+          "allocated_fees_display": "21.25",
+          "gross_less_display_allocated_fees": "-4738.33",
+          "winning_rows": 0,
+          "losing_rows": 2
+        },
+        {
+          "ui_ticker": "KALA",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-4671.24",
+          "allocated_fees_display": "10.53436",
+          "gross_less_display_allocated_fees": "-4681.77436",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "AMC",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "-4325.64",
+          "allocated_fees_display": "21.07",
+          "gross_less_display_allocated_fees": "-4346.71",
+          "winning_rows": 0,
+          "losing_rows": 2
+        },
+        {
+          "ui_ticker": "TOP",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-4240.34",
+          "allocated_fees_display": "5.80074",
+          "gross_less_display_allocated_fees": "-4246.14074",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "NTRB",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-3825.54",
+          "allocated_fees_display": "12.62",
+          "gross_less_display_allocated_fees": "-3838.16",
+          "winning_rows": 0,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "XYZ",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "-3540.15",
+          "allocated_fees_display": "33.8796",
+          "gross_less_display_allocated_fees": "-3574.0296",
+          "winning_rows": 0,
+          "losing_rows": 3
+        },
+        {
+          "ui_ticker": "SHOP",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "-2830.85",
+          "allocated_fees_display": "26.80634",
+          "gross_less_display_allocated_fees": "-2857.65634",
+          "winning_rows": 0,
+          "losing_rows": 3
+        },
+        {
+          "ui_ticker": "TSLA",
+          "matched_rows": 11,
+          "gross_price_pnl_display": "-2827.96",
+          "allocated_fees_display": "65.18",
+          "gross_less_display_allocated_fees": "-2893.14",
+          "winning_rows": 4,
+          "losing_rows": 4
+        },
+        {
+          "ui_ticker": "CVNA",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "-2583.00",
+          "allocated_fees_display": "15.62",
+          "gross_less_display_allocated_fees": "-2598.62",
+          "winning_rows": 0,
+          "losing_rows": 2
+        },
+        {
+          "ui_ticker": "GME",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "-2426.48",
+          "allocated_fees_display": "14.03752",
+          "gross_less_display_allocated_fees": "-2440.51752",
+          "winning_rows": 0,
+          "losing_rows": 1
+        }
+      ],
+      "top_10_winning_ui_tickers": [
+        {
+          "ui_ticker": "META",
+          "matched_rows": 6,
+          "gross_price_pnl_display": "5114.34",
+          "allocated_fees_display": "33.27",
+          "gross_less_display_allocated_fees": "5081.07",
+          "winning_rows": 6,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "FSLR",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1847.46",
+          "allocated_fees_display": "12.43362",
+          "gross_less_display_allocated_fees": "1835.02638",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "ENPH",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1842.50",
+          "allocated_fees_display": "27.47",
+          "gross_less_display_allocated_fees": "1815.03",
+          "winning_rows": 1,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "ATVI",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1812.76",
+          "allocated_fees_display": "19.69",
+          "gross_less_display_allocated_fees": "1793.07",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "NFLX",
+          "matched_rows": 4,
+          "gross_price_pnl_display": "1342.49",
+          "allocated_fees_display": "27.79512",
+          "gross_less_display_allocated_fees": "1314.69488",
+          "winning_rows": 3,
+          "losing_rows": 1
+        },
+        {
+          "ui_ticker": "SOFI",
+          "matched_rows": 3,
+          "gross_price_pnl_display": "1126.37",
+          "allocated_fees_display": "10.2802900000000001",
+          "gross_less_display_allocated_fees": "1116.0897099999999999",
+          "winning_rows": 3,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "CVX",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "1049.86",
+          "allocated_fees_display": "27.43",
+          "gross_less_display_allocated_fees": "1022.43",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "NKE",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "934.77",
+          "allocated_fees_display": "11.7657299999999995",
+          "gross_less_display_allocated_fees": "923.0042700000000005",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "RIVN",
+          "matched_rows": 2,
+          "gross_price_pnl_display": "913.59",
+          "allocated_fees_display": "10.59697",
+          "gross_less_display_allocated_fees": "902.99303",
+          "winning_rows": 2,
+          "losing_rows": 0
+        },
+        {
+          "ui_ticker": "ISRG",
+          "matched_rows": 1,
+          "gross_price_pnl_display": "737.94",
+          "allocated_fees_display": "10.52",
+          "gross_less_display_allocated_fees": "727.42",
+          "winning_rows": 1,
+          "losing_rows": 0
+        }
+      ],
+      "worst_10_native_matched_rows": [
+        {
+          "native_trade_row": 127,
+          "ui_ticker": "KALA",
+          "entry_receipt_local": "2023-01-05 16:00:00",
+          "exit_receipt_local": "2023-02-02 16:00:00",
+          "exit_year": "2023",
+          "quantity": "166",
+          "entry_price_display": "45.80",
+          "exit_price_display": "17.66",
+          "gross_price_pnl_display": "-4671.24",
+          "allocated_fees_display": "10.53436",
+          "gross_less_display_allocated_fees": "-4681.77436",
+          "display_price_quantity_pnl": "-4671.24"
+        },
+        {
+          "native_trade_row": 172,
+          "ui_ticker": "TOP",
+          "entry_receipt_local": "2023-05-03 16:00:00",
+          "exit_receipt_local": "2023-06-02 16:00:00",
+          "exit_year": "2023",
+          "quantity": "94",
+          "entry_price_display": "53.41",
+          "exit_price_display": "8.30",
+          "gross_price_pnl_display": "-4240.34",
+          "allocated_fees_display": "5.80074",
+          "gross_less_display_allocated_fees": "-4246.14074",
+          "display_price_quantity_pnl": "-4240.34"
+        },
+        {
+          "native_trade_row": 7,
+          "ui_ticker": "NTRB",
+          "entry_receipt_local": "2022-01-05 16:00:00",
+          "exit_receipt_local": "2022-02-02 16:00:00",
+          "exit_year": "2022",
+          "quantity": "954",
+          "entry_price_display": "8.62",
+          "exit_price_display": "4.61",
+          "gross_price_pnl_display": "-3825.54",
+          "allocated_fees_display": "12.62",
+          "gross_less_display_allocated_fees": "-3838.16",
+          "display_price_quantity_pnl": "-3825.54"
+        },
+        {
+          "native_trade_row": 31,
+          "ui_ticker": "AMC",
+          "entry_receipt_local": "2022-04-05 16:00:00",
+          "exit_receipt_local": "2022-05-03 16:00:00",
+          "exit_year": "2022",
+          "quantity": "348",
+          "entry_price_display": "23.18",
+          "exit_price_display": "15.17",
+          "gross_price_pnl_display": "-2787.48",
+          "allocated_fees_display": "13.35",
+          "gross_less_display_allocated_fees": "-2800.83",
+          "display_price_quantity_pnl": "-2787.48"
+        },
+        {
+          "native_trade_row": 38,
+          "ui_ticker": "XYZ",
+          "entry_receipt_local": "2022-04-05 16:00:00",
+          "exit_receipt_local": "2022-05-03 16:00:00",
+          "exit_year": "2022",
+          "quantity": "60",
+          "entry_price_display": "145.00",
+          "exit_price_display": "104.16",
+          "gross_price_pnl_display": "-2450.40",
+          "allocated_fees_display": "14.9496",
+          "gross_less_display_allocated_fees": "-2465.3496",
+          "display_price_quantity_pnl": "-2450.40"
+        },
+        {
+          "native_trade_row": 33,
+          "ui_ticker": "GME",
+          "entry_receipt_local": "2022-04-05 16:00:00",
+          "exit_receipt_local": "2022-05-03 16:00:00",
+          "exit_year": "2022",
+          "quantity": "49",
+          "entry_price_display": "168.00",
+          "exit_price_display": "118.48",
+          "gross_price_pnl_display": "-2426.48",
+          "allocated_fees_display": "14.03752",
+          "gross_less_display_allocated_fees": "-2440.51752",
+          "display_price_quantity_pnl": "-2426.48"
+        },
+        {
+          "native_trade_row": 203,
+          "ui_ticker": "UPST",
+          "entry_receipt_local": "2023-08-03 16:00:00",
+          "exit_receipt_local": "2023-09-05 16:00:00",
+          "exit_year": "2023",
+          "quantity": "70",
+          "entry_price_display": "67.00",
+          "exit_price_display": "32.53",
+          "gross_price_pnl_display": "-2412.90",
+          "allocated_fees_display": "6.97",
+          "gross_less_display_allocated_fees": "-2419.87",
+          "display_price_quantity_pnl": "-2412.90"
+        },
+        {
+          "native_trade_row": 30,
+          "ui_ticker": "UPST",
+          "entry_receipt_local": "2022-03-03 16:00:00",
+          "exit_receipt_local": "2022-04-04 16:00:00",
+          "exit_year": "2022",
+          "quantity": "54",
+          "entry_price_display": "153.54",
+          "exit_price_display": "110.87",
+          "gross_price_pnl_display": "-2304.18",
+          "allocated_fees_display": "14.28",
+          "gross_less_display_allocated_fees": "-2318.46",
+          "display_price_quantity_pnl": "-2304.18"
+        },
+        {
+          "native_trade_row": 53,
+          "ui_ticker": "EQT",
+          "entry_receipt_local": "2022-06-03 16:00:00",
+          "exit_receipt_local": "2022-07-05 16:00:00",
+          "exit_year": "2022",
+          "quantity": "131",
+          "entry_price_display": "49.00",
+          "exit_price_display": "33.675",
+          "gross_price_pnl_display": "-2007.58",
+          "allocated_fees_display": "10.830425",
+          "gross_less_display_allocated_fees": "-2018.410425",
+          "display_price_quantity_pnl": "-2007.575"
+        },
+        {
+          "native_trade_row": 56,
+          "ui_ticker": "MRO",
+          "entry_receipt_local": "2022-06-03 16:00:00",
+          "exit_receipt_local": "2022-07-05 16:00:00",
+          "exit_year": "2022",
+          "quantity": "209",
+          "entry_price_display": "31.36",
+          "exit_price_display": "21.93",
+          "gross_price_pnl_display": "-1970.87",
+          "allocated_fees_display": "11.13761",
+          "gross_less_display_allocated_fees": "-1982.00761",
+          "display_price_quantity_pnl": "-1970.87"
+        }
+      ],
+      "concentration": {
+        "sum_negative_ui_ticker_price_pnl_magnitude": "84639.24",
+        "sum_negative_native_matched_row_price_pnl_magnitude": "95711.72",
+        "top_1_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "4717.08",
+          "share_of_negative_ticker_price_pnl": "0.05573159683380899923014431604",
+          "share_of_negative_matched_row_price_pnl": "0.04928424648517443840733402346",
+          "share_of_net_account_loss": "0.08722617248938524193894551830"
+        },
+        "top_5_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "21779.84",
+          "share_of_negative_ticker_price_pnl": "0.2573255619970122605070650445",
+          "share_of_negative_matched_row_price_pnl": "0.2275566670414030799989802712",
+          "share_of_net_account_loss": "0.4027432395955150787757517696"
+        },
+        "top_10_losing_ui_tickers": {
+          "gross_price_loss_magnitude": "35988.28",
+          "share_of_negative_ticker_price_pnl": "0.4251961619693182500220937712",
+          "share_of_negative_matched_row_price_pnl": "0.3760070344572221667315141761",
+          "share_of_net_account_loss": "0.6654794743519917225839956535"
+        }
+      }
+    }
+  },
+  "TOP": [
+    {
+      "native_trade_row": 172,
+      "ui_ticker": "TOP",
+      "entry_receipt_local": "2023-05-03 16:00:00",
+      "exit_receipt_local": "2023-06-02 16:00:00",
+      "exit_year": "2023",
+      "quantity": "94",
+      "entry_price_display": "53.41",
+      "exit_price_display": "8.30",
+      "gross_price_pnl_display": "-4240.34",
+      "allocated_fees_display": "5.80074",
+      "gross_less_display_allocated_fees": "-4246.14074",
+      "display_price_quantity_pnl": "-4240.34"
+    }
+  ],
+  "TWTR": [
+    {
+      "native_trade_row": 48,
+      "ui_ticker": "TWTR",
+      "entry_receipt_local": "2022-05-04 16:00:00",
+      "exit_receipt_local": "2022-06-02 16:00:00",
+      "exit_year": "2022",
+      "quantity": "136",
+      "entry_price_display": "48.78",
+      "exit_price_display": "39.00",
+      "gross_price_pnl_display": "-1330.08",
+      "allocated_fees_display": "11.93808",
+      "gross_less_display_allocated_fees": "-1342.01808",
+      "display_price_quantity_pnl": "-1330.08"
+    },
+    {
+      "native_trade_row": 91,
+      "ui_ticker": "TWTR",
+      "entry_receipt_local": "2022-10-05 16:00:00",
+      "exit_receipt_local": "2022-10-29 00:00:00",
+      "exit_year": "2022",
+      "quantity": "111",
+      "entry_price_display": "50.25",
+      "exit_price_display": "53.78",
+      "gross_price_pnl_display": "391.83",
+      "allocated_fees_display": "5.57775",
+      "gross_less_display_allocated_fees": "386.25225",
+      "display_price_quantity_pnl": "391.83"
+    }
+  ],
+  "original_order_summary": {
+    "order_count": 458,
+    "flat_interval_count": 219,
+    "native_matched_row_count": 245,
+    "gross_price_pnl_from_display_orders": "-53784.08",
+    "unexplained_residual_with_display_order_prices": "0.9190000000013"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "diagnostic_backtest_limit": 1,
+  "attempts": [
+    {
+      "project_id": 36839440,
+      "ui_start_clicked_at_utc": "2026-09-22T12:49:59.357515-07:00",
+      "mode": "B",
+      "cost_bps": 10,
+      "status": "completed",
+      "observational_only": true,
+      "backtest_id": "3f5d23c2dd0ee166d0bbaa1699553c03",
+      "name": "Well Dressed Red Goshawk",
+      "engine": "2.5.0.0.18116",
+      "execution_seconds": 103.18,
+      "data_points_processed": 1297985,
+      "original_aggregate_parity": true,
+      "full_log_transport_verified": false,
+      "log_limit": "Observed message prefix only; complete financial fields recovered and independently checked; no second replay."
+    }
+  ],
+  "research_history_calls": 9,
+  "model_fits": 0,
+  "live_paper_orders": 0
+}

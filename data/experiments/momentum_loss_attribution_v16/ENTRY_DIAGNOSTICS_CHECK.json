@@ -1,0 +1,52 @@
+{
+  "schema": "v16-entry-diagnostics-check-1",
+  "checked_at_utc": "2026-09-22T19:44:43.936622+00:00",
+  "status": "three_fixed_cloud_query_result_summaries_verified",
+  "cases": [
+    {
+      "ticker": "TOP",
+      "sid": "TOP XYSAVUT6NK9X",
+      "decision_local": "2023-05-01 16:05:00",
+      "last_end_time": "2023-05-01 16:00:00",
+      "volume_ratio": 108.91493682550369,
+      "momentum_20": 8.200000000000001,
+      "identity_time_count_checks_pass": true
+    },
+    {
+      "ticker": "KALA",
+      "sid": "KALA WMCI69Z95F1H",
+      "decision_local": "2023-01-03 16:05:00",
+      "last_end_time": "2023-01-03 16:00:00",
+      "volume_ratio": 4280.9140002695185,
+      "momentum_20": 5.277013752455796,
+      "identity_time_count_checks_pass": true
+    },
+    {
+      "ticker": "NTRB",
+      "sid": "NTRB XS9YHLR0G02T",
+      "decision_local": "2022-01-03 16:05:00",
+      "last_end_time": "2022-01-03 16:00:00",
+      "volume_ratio": 6214.794788642022,
+      "momentum_20": 0.6899641577060931,
+      "identity_time_count_checks_pass": true
+    }
+  ],
+  "actual_history_calls": 9,
+  "returned_rows_including_calendar_and_overlap": 423,
+  "raw_rows_exported": 0,
+  "cloud_run_reported_by_root": {
+    "project_id": 36839440,
+    "research_server": "R-b340863bd7f8a53f02906ee5a116ac17",
+    "kernel": "Foundation-Py-Default",
+    "cell_execution": 1,
+    "elapsed_seconds": 1.2,
+    "retrieved_at_utc": "2026-09-22T19:42:30.698139+00:00"
+  },
+  "hashes": {
+    "tools/qc_v16_fixed_entry_diagnostics.py": "4adef0c0503eacca7181693e695786a198599f601c5b19ce9544b59ba5e0e9c1",
+    "data/experiments/momentum_loss_attribution_v16/ENTRY_DIAGNOSTICS_PLAN.json": "51312dcf09430b882136b632d70b00254388298bd530477ab26c5c2245caecbd",
+    "data/experiments/momentum_loss_attribution_v16/ENTRY_DIAGNOSTICS_RESULTS.json": "8a191c63e624a205eaf3e3357df2fcbb0c544492168977010c8b0ab47c472a6b"
+  },
+  "verified_scope": "Source identity and returned field/date/count/SID consistency. Ratios were computed in permitted cloud, not independently recomputed from unavailable local raw bars. Cloud server/time are root-observed execution metadata.",
+  "pending": "Compare SID and momentum with the one diagnostic B10 observer; do not infer original Fundamental.DollarVolume exact equality or any population failure rate."
+}
