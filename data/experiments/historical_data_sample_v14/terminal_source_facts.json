@@ -1,0 +1,135 @@
+{
+  "scope": "Purposively selected public evidence; not a complete universe, price tape or return dataset",
+  "retrieval_version": "2026-09-22 public documents retrieved retrospectively; not contemporaneous vendor snapshots",
+  "time_policy": "effective_at is a conservative normalization boundary, with original precision retained; available_at is independently sourced or conservatively set to New York publication/filing day end",
+  "securities": [
+    {
+      "case": "TWTR", "security_id_suggestion": "quantml-public:sec-cik-0001418091:common-pre-20221027",
+      "namespace": "project-local issuer-plus-share-class-and-issuance identity; CIK alone is not security ID",
+      "issuer_cik": "0001418091", "issuer_name": "TWITTER, INC.",
+      "share_class": "Common Stock, par value $0.000005 per share", "cusip": null,
+      "cusip_status": "not established in this sample", "ticker": "TWTR", "exchange": "NYSE",
+      "identity_sources": ["twtr_sec_submissions", "twtr_merger_issuer_pdf"]
+    },
+    {
+      "case": "SIVB_SIVBQ", "security_id_suggestion": "quantml-public:sec-cik-0000719739:common-pre-20241107",
+      "namespace": "project-local issuer-plus-share-class-and-issuance identity; CIK alone is not security ID",
+      "issuer_cik": "0000719739", "issuer_name": "SVB FINANCIAL GROUP",
+      "share_class": "Common Stock, par value $0.001 per share", "cusip": "78486Q101",
+      "cusip_source": "sivb_otc_symbol via sivb_web_extraction",
+      "ticker": "SIVB", "later_ticker": "SIVBQ", "exchange": "Nasdaq; later OTC",
+      "identity_sources": ["sivb_sec_submissions", "sivb_bankruptcy_8k via twtr_sivb_web_extraction", "sivb_otc_symbol via sivb_web_extraction"],
+      "identity_warning": "Old listed parent common is not subsidiary Silicon Valley Bank deposits, preferred stock, creditors' rights, or newly issued reorganization equity. Do not join new parent equity to this security."
+    }
+  ],
+  "membership_facts": [
+    {
+      "event_id": "sivb_sp500_add_20180319", "case": "SIVB_SIVBQ", "universe": "SP500", "member": true,
+      "source_id": "sivb_sp500_addition_html", "published_date": "2018-03-09", "published_at": null,
+      "publication_precision": "date", "effective_date": "2018-03-19", "effective_phase": "prior_to_market_open",
+      "effective_at": "2018-03-19T13:30:00+00:00", "available_at": "2018-03-10T04:59:59.999999+00:00",
+      "boundary_convention": "09:30 New York regular-open query boundary; actual pre-open implementation clock unspecified",
+      "source_fields": {"Company": "SVB Financial Group", "Ticker": "SIVB", "Action": "Added", "Index": "S&P 500"},
+      "revision_note": "The separately inspected official PDF corrects Nektar headline only; SVB membership facts unchanged. Correction publication time unknown."
+    },
+    {
+      "event_id": "sivb_sp500_remove_20230315", "case": "SIVB_SIVBQ", "universe": "SP500", "member": false,
+      "source_id": "sivb_sp500_removal", "published_date": "2023-03-10", "published_at": null,
+      "publication_precision": "date", "effective_date": "2023-03-15", "effective_phase": "prior_to_market_open",
+      "effective_at": "2023-03-15T13:30:00+00:00", "available_at": "2023-03-11T04:59:59.999999+00:00",
+      "boundary_convention": "09:30 New York regular-open query boundary; actual pre-open implementation clock unspecified",
+      "source_fields": {"Effective Date": "March 15, 2023", "Index Name": "S&P 500", "Action": "Deletion", "Company Name": "SVB Financial Group", "Ticker": "SIVB"},
+      "source_conflict": "Release prose incorrectly describes parent SVB Financial Group as in FDIC receivership; issuer 8-K distinguishes subsidiary bank receivership from parent's Chapter11. Only index action used from this source."
+    },
+    {
+      "event_id": "twtr_sp500_add_20180607", "case": "TWTR", "universe": "SP500", "member": true,
+      "source_id": "twtr_sp500_addition_html", "published_date": "2018-06-04", "published_at": null,
+      "publication_precision": "date", "effective_date": "2018-06-07", "effective_phase": "prior_to_market_open",
+      "effective_at": "2018-06-07T13:30:00+00:00", "available_at": "2018-06-05T03:59:59.999999+00:00",
+      "boundary_convention": "09:30 New York regular-open query boundary; actual pre-open implementation clock unspecified",
+      "source_fields": {"Company": "Twitter", "Ticker": "TWTR", "Action": "Added", "body_index": "S&P 500", "raw_table_heading": "S&P MIDCAP 500 INDEX"},
+      "source_conflict": "Original HTML table heading is internally inconsistent. Body and title say S&P500. Official corrected PDF explicitly fixes table label only; exact correction time unknown. Preserve both versions; do not silently claim original table was correct."
+    },
+    {
+      "event_id": "twtr_sp500_remove_20221101", "case": "TWTR", "universe": "SP500", "member": false,
+      "source_id": "twtr_sp500_removal", "published_date": "2022-10-27", "published_at": null,
+      "publication_precision": "date", "effective_date": "2022-11-01", "effective_phase": "prior_to_market_open",
+      "effective_at": "2022-11-01T13:30:00+00:00", "available_at": "2022-10-28T03:59:59.999999+00:00",
+      "boundary_convention": "09:30 New York regular-open query boundary; actual pre-open implementation clock unspecified",
+      "source_fields": {"Effective Date": "Nov 1, 2022", "Index Name": "S&P 500", "Action": "Deletion", "Company Name": "Twitter", "Ticker": "TWTR"},
+      "note": "The release expected merger closing October28. Do not overwrite actual October27 consummation from later issuer filing."
+    }
+  ],
+  "lifecycle_facts": [
+    {
+      "event_id": "sivb_halt_20230310", "case": "SIVB_SIVBQ", "kind": "halt", "source_id": "sivb_halt",
+      "effective_at": "2023-03-10T13:35:18+00:00", "effective_date": "2023-03-10", "effective_precision": "second",
+      "source_effective_literal": "08:35:18 Eastern Time", "published_at": "2023-03-10T21:45:00+00:00", "published_date": "2023-03-10", "publication_precision": "minute",
+      "source_publication_literal": "Mar 10, 2023 4:45pm EST", "available_at": "2023-03-10T21:45:00+00:00",
+      "availability_limitation": "Source page publication clock, not proof of earliest market dissemination; cannot retroactively expose the halt before this boundary using this source alone.",
+      "last_sale_price": "106.04", "price_currency": "USD", "price_basis": "Nasdaq reported last sale at halt; not daily close, adjusted price, executable bid, terminal payout or guaranteed fill"
+    },
+    {
+      "event_id": "sivb_nasdaq_suspend_20230328", "case": "SIVB_SIVBQ", "kind": "exchange_suspension", "source_id": "sivb_bankruptcy_8k",
+      "capture_id": "twtr_sivb_web_extraction", "published_date": "2023-03-17", "published_at": null, "publication_precision": "filing_date",
+      "effective_date": "2023-03-28", "effective_precision": "date", "effective_at": "2023-03-29T03:59:59.999999+00:00",
+      "available_at": "2023-03-18T03:59:59.999999+00:00", "boundary_convention": "Conservative date-end boundary because source gives no intraday suspension clock",
+      "sec_accession": "0001193125-23-073665", "note": "Already halted; suspension does not itself prove final common-share termination or zero recovery."
+    },
+    {
+      "event_id": "sivb_otc_mapping_20230328", "case": "SIVB_SIVBQ", "kind": "ticker_and_venue_change", "source_id": "sivb_otc_symbol", "capture_id": "sivb_web_extraction",
+      "published_date": "2023-03-27", "published_at": null, "publication_precision": "date", "effective_date": "2023-03-28", "effective_precision": "date_open_of_business",
+      "effective_at": "2023-03-28T13:30:00+00:00", "available_at": "2023-03-28T03:59:59.999999+00:00",
+      "boundary_convention": "09:30 New York open-of-business query boundary; memo does not supply a clock for first OTC trade",
+      "from_ticker": "SIVB", "to_ticker": "SIVBQ", "from_venue": "Nasdaq", "to_venue": "OTC", "cusip": "78486Q101",
+      "trading_status_after": "OTC mapping documented; live quote eligibility and actual executions unverified",
+      "note": "OCC is primary for its option deliverable adjustment; its corporate-event summary disclaims completeness. Mapping does not license a synthetic resumption price."
+    },
+    {
+      "event_id": "sivb_nasdaq_remove_20230512", "case": "SIVB_SIVBQ", "kind": "exchange_delisting", "source_id": "sivb_form25_reason", "capture_id": "sivb_web_extraction",
+      "sec_accession": "0001354457-23-000327", "published_date": "2023-05-02", "published_at": null, "publication_precision": "filing_date",
+      "effective_date": "2023-05-12", "effective_precision": "open_of_trading_session", "effective_at": "2023-05-12T13:30:00+00:00",
+      "available_at": "2023-05-03T03:59:59.999999+00:00", "boundary_convention": "09:30 New York regular-open query boundary",
+      "note": "March28 suspension/final staff determination and May12 listing removal are separate legal events."
+    },
+    {
+      "event_id": "sivb_old_common_cancel_20241107", "case": "SIVB_SIVBQ", "kind": "common_equity_cancelled_no_distribution", "source_id": "sivb_cancellation_issuer_pdf",
+      "sec_accession": "0001193125-24-254186", "published_date": "2024-11-08", "published_at": null, "publication_precision": "filing_date",
+      "effective_date": "2024-11-07", "effective_precision": "date", "effective_at": "2024-11-08T04:59:59.999999+00:00",
+      "available_at": "2024-11-09T04:59:59.999999+00:00", "boundary_convention": "Conservative New York effective-day and filing-day ends; no guessed actual cancellation clock",
+      "entitlement_amount_per_old_common_share": "0", "amount_status": "explicit_no_distribution_in_issuer_filing_not_missing_value_imputation",
+      "actual_account_cash_receipt_at": null, "terminal_total_return": null, "v9_support": "unsupported_zero_distribution_cancellation_keep_side_table",
+      "note": "No distribution to pre-effective common holders; new parent shares went to qualifying creditor claims, not a ticker continuation for these old shares. No market return calculated."
+    },
+    {
+      "event_id": "twtr_cash_right_20221027", "case": "TWTR", "kind": "cash_entitlement", "source_id": "twtr_merger_issuer_pdf",
+      "sec_accession": "0001193125-22-272772", "published_date": "2022-10-31", "published_at": null, "publication_precision": "filing_date",
+      "effective_date": "2022-10-27", "effective_precision": "date", "effective_at": "2022-10-28T03:59:59.999999+00:00",
+      "available_at": "2022-11-01T03:59:59.999999+00:00", "boundary_convention": "Conservative effective-day and filing-day ends; filing accepted earlier on October28 does not substitute for verified dissemination",
+      "cash_per_share": "54.20", "currency": "USD", "interest": "none",
+      "eligible_class": "Old common shares excluding issuer/subsidiary, Musk/acquirer-related and perfected appraisal/dissent shares",
+      "actual_account_cash_receipt_at": null, "cash_receipt_status": "unverified_keep_receivable", "terminal_total_return": null,
+      "earlier_corroboration": {"source_id": "twtr_occ_cash", "capture_id": "twtr_sivb_web_extraction", "published_date": "2022-10-28", "available_at": "2022-10-29T03:59:59.999999+00:00", "scope": "OCC option adjustment summary independently states54.20commoncashright; option T+2 is not common-share account payment evidence"}
+    },
+    {
+      "event_id": "twtr_nyse_suspend_20221028", "case": "TWTR", "kind": "halt", "source_id": "twtr_merger_issuer_pdf",
+      "published_date": "2022-10-31", "published_at": null, "publication_precision": "filing_date",
+      "effective_date": "2022-10-28", "effective_precision": "before_market_open", "effective_at": "2022-10-28T13:30:00+00:00",
+      "available_at": "2022-11-01T03:59:59.999999+00:00", "boundary_convention": "09:30 New York regular-open query boundary; publication conservatively tied to selected filing"
+    },
+    {
+      "event_id": "twtr_nyse_remove_20221108", "case": "TWTR", "kind": "exchange_delisting", "source_id": "twtr_nyse_delisting", "capture_id": "twtr_sivb_web_extraction",
+      "sec_accession": "0000876661-22-000890", "published_date": "2022-10-28", "published_at": null, "publication_precision": "filing_date",
+      "effective_date": "2022-11-08", "effective_precision": "opening_of_business", "effective_at": "2022-11-08T14:30:00+00:00",
+      "available_at": "2022-10-29T03:59:59.999999+00:00", "boundary_convention": "09:30 New York regular-open query boundary",
+      "note": "NYSE Form25 exhibit states November8 listing removal, distinct from October27 cash-right conversion and October28 trading suspension."
+    }
+  ],
+  "unresolved": [
+    "TWTR actual settlement to the research account is absent; no common-share cash payment date inferred from option settlement.",
+    "SIVB/SIVBQ market history, last tradable quote before cancellation, and adjusted-total-return linkage absent; explicit zero entitlement is not an estimated terminal return series.",
+    "Point-in-time receipt logs are absent; date-level conservative bounds validate limited queries, not strict historical snapshots or every intraday decision.",
+    "Partial member events do not prove exhaustive intervening changes or full-index membership coverage.",
+    "Direct SEC/OCC archival bodies may be access errors; separate web-tool extractions are marked and hashed as extractions rather than original bytes."
+  ]
+}

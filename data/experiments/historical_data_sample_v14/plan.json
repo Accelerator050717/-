@@ -1,0 +1,17 @@
+{
+  "registered_at_utc": "2026-09-22T15:06:18.808102+00:00",
+  "plan_sha256": "b9c02e91f2b12bdb5d52d062ca3da5b195532d8ad6fccbc034c4bc047c6a8a69",
+  "sample": [
+    "AAPL",
+    "TSLA",
+    "META_FB",
+    "SIVB_SIVBQ",
+    "TWTR",
+    "ATVI_REFERENCE"
+  ],
+  "observation_start": "2020-01-01",
+  "observation_end": "2025-12-31",
+  "new_fits": 0,
+  "strategy_backtests": 0,
+  "orders": 0
+}

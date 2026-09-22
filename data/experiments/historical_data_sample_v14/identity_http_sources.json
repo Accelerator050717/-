@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "tsla_announcement",
+    "url": "https://press.spglobal.com/2020-11-16-Tesla-Set-to-Join-S-P-500?asPDF=1",
+    "resolved_url": "https://press.spglobal.com/2020-11-16-Tesla-Set-to-Join-S-P-500?asPDF=1",
+    "retrieved_at_utc": "2026-09-22T15:12:58.910553+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "local_path": "data/private/universe/v14_public_sources/tsla_announcement.pdf",
+    "bytes": 19827,
+    "sha256": "7a1555a4931d3f8ee4683fcd71ea52ab716d3ced0777e5216cc8c8f76c332414",
+    "body_status": "downloaded",
+    "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+    "raw_redistribution": "not_authorized_no_Git_upload"
+  },
+  {
+    "source_id": "tsla_implementation",
+    "url": "https://www.spglobal.com/spdji/en/documents/index-news-and-announcements/20201130-spdji-announces-implementation-of-tesla-s-addition-to-sp500.pdf",
+    "resolved_url": "https://www.spglobal.com/spdji/en/documents/index-news-and-announcements/20201130-spdji-announces-implementation-of-tesla-s-addition-to-sp500.pdf",
+    "retrieved_at_utc": "2026-09-22T15:12:59.990686+00:00",
+    "http_status": 403,
+    "content_type": "text/html",
+    "local_path": "data/private/universe/v14_public_sources/tsla_implementation.html",
+    "bytes": 2011,
+    "sha256": "0e1371d4226023ded052cd3a1847cfbce72157d4c19796bb0d6de0abfb1c952d",
+    "body_status": "access_error_not_source_evidence",
+    "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+    "raw_redistribution": "not_authorized_no_Git_upload"
+  },
+  {
+    "source_id": "meta_ticker",
+    "url": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Platforms-Inc.-to-Change-Ticker-Symbol-to-META-on-June-9-2022.pdf",
+    "resolved_url": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Platforms-Inc.-to-Change-Ticker-Symbol-to-META-on-June-9-2022.pdf",
+    "retrieved_at_utc": "2026-09-22T15:13:01.691081+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "local_path": "data/private/universe/v14_public_sources/meta_ticker.pdf",
+    "bytes": 91853,
+    "sha256": "c8cdcdd2a62ab75b13a0d82ca83eb212200e4e513a46c986f47060b43bde67b8",
+    "body_status": "downloaded",
+    "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+    "raw_redistribution": "not_authorized_no_Git_upload"
+  },
+  {
+    "source_id": "aapl_2024_10k",
+    "url": "https://s2.q4cdn.com/470004039/files/doc_earnings/2024/q4/filing/10-Q4-2024-As-Filed.pdf",
+    "resolved_url": "https://s2.q4cdn.com/470004039/files/doc_earnings/2024/q4/filing/10-Q4-2024-As-Filed.pdf",
+    "retrieved_at_utc": "2026-09-22T15:13:06.339809+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "local_path": "data/private/universe/v14_public_sources/aapl_2024_10k.pdf",
+    "bytes": 963934,
+    "sha256": "319e1217afe72f194575e63350ea6c813eaf5caf0c24e59ce8b221fc1b3ea0d4",
+    "body_status": "downloaded",
+    "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+    "raw_redistribution": "not_authorized_no_Git_upload"
+  },
+  {
+    "source_id": "tsla_implementation_press",
+    "url": "https://press.spglobal.com/2020-11-30-S-P-Dow-Jones-Indices-Announces-Implementation-of-Teslas-Addition-to-S-P-500?asPDF=1",
+    "resolved_url": "https://press.spglobal.com/2020-11-30-S-P-Dow-Jones-Indices-Announces-Implementation-of-Teslas-Addition-to-S-P-500?asPDF=1",
+    "retrieved_at_utc": "2026-09-22T15:13:41.744383+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "local_path": "data/private/universe/v14_public_sources/tsla_implementation_press.pdf",
+    "bytes": 22300,
+    "sha256": "e48cd28dc4506ab62a669ed408034e0940dc1611e470409e2de9fdd335122159",
+    "body_status": "downloaded",
+    "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+    "raw_redistribution": "not_authorized_no_Git_upload"
+  }
+]

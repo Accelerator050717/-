@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-09-22T15:06:18.808102+00:00",
+  "directories": {
+    "C:\\Users\\yumin\\.lean": false,
+    "C:\\Users\\yumin\\.quantconnect": false,
+    "M:\\ml项目\\data\\private\\universe": false
+  },
+  "config_presence_only": [],
+  "packages": {
+    "norgatedata": false,
+    "lean": false
+  },
+  "credential_env_names_only": [],
+  "account_absence_not_inferred": true
+}

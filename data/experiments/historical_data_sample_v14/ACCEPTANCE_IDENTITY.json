@@ -1,0 +1,38 @@
+{
+  "generated_at_utc": "2026-09-22T15:20:11.300745+00:00",
+  "base_commit": "a8cf66223c0d88b3d78dada3ff3f355c6eaf8730",
+  "generation_git_head": "a8cf66223c0d88b3d78dada3ff3f355c6eaf8730",
+  "input_sha256": {
+    "46_check_historical_universe.py": "59dc29e6180be5368e891eb6a3f71bb2ef49296aca59c3c2a817ecf92e1aa66f",
+    "60_check_historical_sample.py": "6aac4c83d66341f587b19eb7a151b3cc6a434708317a622a09875b07d868adfb",
+    "data/experiments/historical_data_sample_v14/identity_http_sources.json": "f0fd70661e9a34610cfa9df6b3e481a3d85b1e0db112aa7537e38931c6af3c40",
+    "data/experiments/historical_data_sample_v14/identity_source_facts.json": "a6b2eb80f302ef4d766982196343ae7624a8a4f7ca426f678c33d97af62e178d",
+    "data/experiments/historical_data_sample_v14/plan.json": "cd05bc2901860c24cbb18e0961c0d950fe1981837645c24e2b5607111ae2b030",
+    "data/experiments/historical_data_sample_v14/PLAN.md": "b9c02e91f2b12bdb5d52d062ca3da5b195532d8ad6fccbc034c4bc047c6a8a69",
+    "data/experiments/historical_data_sample_v14/PRICE_COVERAGE.json": "aaeed18b880742f6733a56206f493615fb9da6fa6fe4aeeea63a30d231cf0edb",
+    "data/experiments/historical_data_sample_v14/terminal_http_sources.json": "82f0467b4a3d3b014d8c40643e6051979d192b8e98a261ec0418d3939ee88119",
+    "data/experiments/historical_data_sample_v14/terminal_source_checks.json": "45df6addc9d977c4358fb178c0e31563f55b5ba1d017af04e9c900a3962ba4fd",
+    "data/experiments/historical_data_sample_v14/terminal_source_facts.json": "b096d4110c2bd9ba49c8044dc51cc73c7a186fa9ef21eb68e84a62bbef381473",
+    "data/reference/universe_events/atvi_2023/events.csv": "1ca618cf82bfae1c656c6548b8c72539712de7ab4cd84b35d0a7506e9a89aa50",
+    "data/reference/universe_events/atvi_2023/FACTS.md": "fa8b7fa0a2b4f19614a4c5071adc53ca2d2a6ee314741e108d75e356633e9c88",
+    "data/reference/universe_events/atvi_2023/manifest.json": "d33a51dee405907eebb2db733711bd24d8ae293c568d3b6a1e63453a314477ba",
+    "data/reference/universe_events/atvi_2023/memberships.csv": "898bfc92522326188bfd8c718df4700560c02691de18f0e525cbe02ac9052bfc",
+    "data/reference/universe_events/v14_public_sample/events.csv": "afdfc179c9d7bce44c336b042134c52a6e39f4115690f6408b461c6546a2ce2f",
+    "data/reference/universe_events/v14_public_sample/lifecycle.json": "9cc24086d7a7e50edb863dfc5596dd0488dc5be7ea88232f05928f0da37c7059",
+    "data/reference/universe_events/v14_public_sample/manifest.json": "9b54bd1ec2ef777161af91eed8da3b3cbe40fc2c3e239c3351d21040816c69aa",
+    "data/reference/universe_events/v14_public_sample/memberships.csv": "269e8217cd199f00b88849c239e101eb0356f70db2757ca20ade6c15e2633600",
+    "data/reference/universe_events/v14_public_sample/securities.json": "107b591bf6628573eea7130def7ab06a70797ef4ed81cbf14f948f36aa7fd34f",
+    "data/reference/universe_events/v14_public_sample/ticker_changes.json": "d6fa7872526e12908f0056c9d2b14269fbbfb9ed7e3ed12d930b86e43d9c6023",
+    "historical_universe.py": "4840b9f6edb478839e86520ecbaaf22236fd9a12d006c2e63bcdaaf11c803e84",
+    "tools/build_v14_public_sample.py": "349aec4dba9d926a2f3c567c52934f3e4d2753d77a8ea12524f51dba80fccb12",
+    "tools/check_v14_price_coverage.py": "9636dafab9d5405a22991efc9fc26aca5a150807f4bc0b105f51b2d42d8f6e97"
+  },
+  "output_sha256": {
+    "CHECKS.json": "268d269c3537cac71902afa2cf92937a9da0ecc603f6d9110da63739fc751e68",
+    "TICKER_CHECKS.json": "b6f353806544b61fbc17bac38b3b05d814d58bbfbcbaaab48fab8d2f0287f8ba",
+    "TERMINAL_LEDGER_CHECKS.json": "4895ecd564ed4c23c4a690516ec7176c604f4bc6b95c05f1b4274be98da2d2cd",
+    "MEMBERSHIP_CHECKS.csv": "7e751520c1442e8b62c8599bb731a5c53aff4bdedb6b28140d71e719f32c19d6"
+  },
+  "normal_later_commits_allowed": true,
+  "unchanged_source_and_input_hashes_required": true
+}

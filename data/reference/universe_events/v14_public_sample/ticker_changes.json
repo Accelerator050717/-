@@ -1,0 +1,20 @@
+[
+  {
+    "security_id": "quantml-public:META-classA-2012",
+    "old_ticker": "FB",
+    "new_ticker": "META",
+    "effective_at": "2022-06-09T09:30:00-04:00",
+    "available_at": "2022-05-31T23:59:59-04:00",
+    "source_id": "meta_ticker",
+    "same_security_basis": "Issuer confirms same Class A listing and unchanged CUSIP; ticker change requires no shareholder action"
+  },
+  {
+    "security_id": "quantml-public:sec-cik-0000719739:common-pre-20241107",
+    "old_ticker": "SIVB",
+    "new_ticker": "SIVBQ",
+    "effective_at": "2023-03-28T13:30:00+00:00",
+    "available_at": "2023-03-28T03:59:59.999999+00:00",
+    "source_id": "sivb_otc_symbol",
+    "same_security_basis": "OCC memo 52179 retains CUSIP 78486Q101; no price or execution inferred"
+  }
+]

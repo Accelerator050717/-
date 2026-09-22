@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-09-22T15:26:29.320908+00:00",
+  "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+  "base_head": "a8cf66223c0d88b3d78dada3ff3f355c6eaf8730",
+  "modified_existing_paths": [
+    "REVIEW_INDEX.md"
+  ],
+  "old_strategy_model_risk_sources_and_data_modified": false,
+  "old_v9_atvi_files_modified": false,
+  "new_script_sha256": {
+    "60_check_historical_sample.py": "6aac4c83d66341f587b19eb7a151b3cc6a434708317a622a09875b07d868adfb",
+    "tools/build_v14_public_sample.py": "349aec4dba9d926a2f3c567c52934f3e4d2753d77a8ea12524f51dba80fccb12",
+    "tools/check_v14_price_coverage.py": "9636dafab9d5405a22991efc9fc26aca5a150807f4bc0b105f51b2d42d8f6e97",
+    "tools/check_v14_terminal_sources.py": "fe48b045fa7ed104c5969d1738d9e4968c5dabba0540163e632be511052d9212",
+    "tools/collect_v14_identity_sources.py": "3af5333e06587354b327c3db8485c34e29c7ed3ed864b27321dcb8ed481e0b98",
+    "tools/collect_v14_terminal_sources.py": "ba762daacc74b1ce8f627b8be51267482ce3596c9de76cfcb8d948335d7bc72a",
+    "tools/extract_v14_terminal_pdfs.py": "8ac97f5a6acf196f5733444e876a7517df9b6f14f4c6f496d81f2de1f92821fe",
+    "tools/prepare_v14_sync.py": "f49b591bc8b79f99cafab4b04162d671c65cd792b29c878b7a7467caa6fcc69e",
+    "tools/qc_v14_cloud_check.py": "f21b1b24eba86eec1e5a59063e85236fbe513a2225bc613e3f8bdf44c5d30bb6"
+  },
+  "actual_checks": {
+    "real_sample_v9_mapping": "passed",
+    "local_artifact_hashes_verified": 37,
+    "read_only_60_verified_files": 35,
+    "existing_unittest_regressions_passed": 13,
+    "syntax_only_files": 9,
+    "quantconnect_cloud_run": false,
+    "authenticated_vendor_reads": 0,
+    "orders": 0,
+    "new_fits": 0,
+    "strategy_backtests": 0,
+    "market_downloads": 0
+  },
+  "initial_test_runner_attempt": "pytest unavailable; no install; actual repository unittest suite then passed",
+  "secrets": "No credential values read, printed, or added; public historical URLs only"
+}

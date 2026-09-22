@@ -1,0 +1,171 @@
+{
+  "checked_at_utc": "2026-09-22T15:07:41.850740+00:00",
+  "notice": "Hashes identify fetched public documentation/source pages, not licensed data vintages. No raw market data exported. GitHub HTML hash does not replace the cited immutable code commit.",
+  "sources": [
+    {
+      "url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Common/Data/Auxiliary/CorporateFactorRow.cs",
+      "retrieved_at_utc": "2026-09-22T15:07:23.320723+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Common/Data/Auxiliary/CorporateFactorRow.cs",
+      "bytes": 458791,
+      "sha256": "bda6033bce09514e7c3e5cfa4a16a2faf5916ae773070ccbcf8a570f491cb489",
+      "content_type": "text/html; charset=utf-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Common/Data/Auxiliary/MapFileRow.cs",
+      "retrieved_at_utc": "2026-09-22T15:07:23.320723+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Common/Data/Auxiliary/MapFileRow.cs",
+      "bytes": 397438,
+      "sha256": "5edb316e020d530e263782f62cb9335f1c9701a101de0101cd0f7338f4b04d6a",
+      "content_type": "text/html; charset=utf-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Common/Data/UniverseSelection/CoarseFundamental.cs",
+      "retrieved_at_utc": "2026-09-22T15:07:23.320723+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Common/Data/UniverseSelection/CoarseFundamental.cs",
+      "bytes": 338628,
+      "sha256": "1eba49ec37b87f9c1b1b2f457610f021713ace599b47b7a6edccf7a4ac4381ad",
+      "content_type": "text/html; charset=utf-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Data/equity/readme.md",
+      "retrieved_at_utc": "2026-09-22T15:07:23.346604+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Data/equity/readme.md",
+      "bytes": 347231,
+      "sha256": "37aa44705c0b567f9900b5241a5e9421e6df979f261b8f8bddd5b2e615d4e729",
+      "content_type": "text/html; charset=utf-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Data/equity/usa/readme.md",
+      "retrieved_at_utc": "2026-09-22T15:07:27.167822+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Data/equity/usa/readme.md",
+      "bytes": 247437,
+      "sha256": "e3088ca5d67db991ef98ec6846289988b31503d1fce4c5137403bc459c6aab8c",
+      "content_type": "text/html; charset=utf-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Engine/DataFeeds/Enumerators/DelistingEventProvider.cs",
+      "retrieved_at_utc": "2026-09-22T15:07:28.354077+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://github.com/QuantConnect/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/Engine/DataFeeds/Enumerators/DelistingEventProvider.cs",
+      "bytes": 326933,
+      "sha256": "9287c9ab3668d18968eaa79eb22d0bcc49083785421d46bc3dc3849396d2a02f",
+      "content_type": "text/html; charset=utf-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/data/quantconnect-us-etf-constituents",
+      "retrieved_at_utc": "2026-09-22T15:07:28.917809+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/data/quantconnect-us-etf-constituents",
+      "bytes": 42085,
+      "sha256": "2e6e4b3324c975759712a8ed3829e0af03f557408952ce4b1b0dc4b7bffae72b",
+      "content_type": "text/html",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/docs/v2/cloud-platform/datasets/licensing",
+      "retrieved_at_utc": "2026-09-22T15:07:29.470606+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/docs/v2/cloud-platform/datasets/licensing",
+      "bytes": 153966,
+      "sha256": "a40ae29186228431edf6703ed29da5dfe3c9451646dc2971a76ad7f7b0f731c6",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/docs/v2/cloud-platform/organizations/tier-features",
+      "retrieved_at_utc": "2026-09-22T15:07:30.661715+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/docs/v2/cloud-platform/organizations/tier-features",
+      "bytes": 164470,
+      "sha256": "4181def55db9cbf7bf25fac55af5a6b9bf20a962fab77f6db09ca2e863c3a6c0",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/docs/v2/lean-cli/datasets/quantconnect/us-equity",
+      "retrieved_at_utc": "2026-09-22T15:07:31.479695+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/docs/v2/lean-cli/datasets/quantconnect/us-equity",
+      "bytes": 128623,
+      "sha256": "224f43d53a54d7e06d2149b173cdd71ec75aaec731ca2313d0f03c8517e4dd6f",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/docs/v2/lean-cli/datasets/quantconnect/us-equity-coarse-fundamental",
+      "retrieved_at_utc": "2026-09-22T15:07:32.398950+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/docs/v2/lean-cli/datasets/quantconnect/us-equity-coarse-fundamental",
+      "bytes": 122499,
+      "sha256": "8087dd3593e9807b7568afbcedb986fa7e1725b6f375200197eda37a59c4ad2c",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/docs/v2/writing-algorithms/datasets/quantconnect/us-equity-coarse-universe",
+      "retrieved_at_utc": "2026-09-22T15:07:33.887414+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/docs/v2/writing-algorithms/datasets/quantconnect/us-equity-coarse-universe",
+      "bytes": 433110,
+      "sha256": "a01a6e464d67d12f7e7f4a724a0d402e9350a1ec13e670f39d3d84c1fcd2f689",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/docs/v2/writing-algorithms/datasets/quantconnect/us-equity-security-master",
+      "retrieved_at_utc": "2026-09-22T15:07:35.850415+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/docs/v2/writing-algorithms/datasets/quantconnect/us-equity-security-master",
+      "bytes": 440911,
+      "sha256": "4980aecf9292332f42b40070f57f753550e3673c8cdb80a8c98f5f93643a54d4",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/docs/v2/writing-algorithms/key-concepts/security-identifiers",
+      "retrieved_at_utc": "2026-09-22T15:07:36.663932+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/docs/v2/writing-algorithms/key-concepts/security-identifiers",
+      "bytes": 427458,
+      "sha256": "31d44a9395ca6cada35e385bb07fc83db09d119513c9e11b6a9c6df8b210a957",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    },
+    {
+      "url": "https://www.quantconnect.com/pricing",
+      "retrieved_at_utc": "2026-09-22T15:07:36.674095+00:00",
+      "purpose": "official documentation/source-code access check; not market-data sample",
+      "status": 200,
+      "final_url": "https://www.quantconnect.com/pricing",
+      "bytes": 404470,
+      "sha256": "0a45f39cffcfab4b3da17fc3f7ac071b1efef3e3617969c59be99ecf27feaa9a",
+      "content_type": "text/html; charset=UTF-8",
+      "raw_body_saved": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "reviewed_at_utc": "2026-09-22T15:22:49.000280+00:00",
+  "review_git_head": "a8cf66223c0d88b3d78dada3ff3f355c6eaf8730",
+  "scope": "independent read-only source/evidence review and three existing check entrypoints",
+  "reviewed_sha256": {
+    "60_check_historical_sample.py": "6aac4c83d66341f587b19eb7a151b3cc6a434708317a622a09875b07d868adfb",
+    "tools/build_v14_public_sample.py": "349aec4dba9d926a2f3c567c52934f3e4d2753d77a8ea12524f51dba80fccb12",
+    "historical_universe.py": "4840b9f6edb478839e86520ecbaaf22236fd9a12d006c2e63bcdaaf11c803e84",
+    "46_check_historical_universe.py": "59dc29e6180be5368e891eb6a3f71bb2ef49296aca59c3c2a817ecf92e1aa66f",
+    "tools/check_v14_price_coverage.py": "9636dafab9d5405a22991efc9fc26aca5a150807f4bc0b105f51b2d42d8f6e97",
+    "tools/qc_v14_cloud_check.py": "f21b1b24eba86eec1e5a59063e85236fbe513a2225bc613e3f8bdf44c5d30bb6",
+    "data/experiments/historical_data_sample_v14/ACCEPTANCE_IDENTITY.json": "cc7c3a58a601bfd257714b5630e3cc322d2ec57fdfe132110fd87e2f83262293",
+    "data/experiments/historical_data_sample_v14/CHECKS.json": "268d269c3537cac71902afa2cf92937a9da0ecc603f6d9110da63739fc751e68",
+    "data/experiments/historical_data_sample_v14/TERMINAL_LEDGER_CHECKS.json": "4895ecd564ed4c23c4a690516ec7176c604f4bc6b95c05f1b4274be98da2d2cd",
+    "data/experiments/historical_data_sample_v14/MEMBERSHIP_CHECKS.csv": "7e751520c1442e8b62c8599bb731a5c53aff4bdedb6b28140d71e719f32c19d6",
+    "data/experiments/historical_data_sample_v14/TICKER_CHECKS.json": "b6f353806544b61fbc17bac38b3b05d814d58bbfbcbaaab48fab8d2f0287f8ba",
+    "data/reference/universe_events/v14_public_sample/manifest.json": "9b54bd1ec2ef777161af91eed8da3b3cbe40fc2c3e239c3351d21040816c69aa",
+    "data/experiments/historical_data_sample_v14/INDEPENDENT_REVIEW.md": "97c756edbf6aa6645a0b27897761b3d4aec0eed5825bb8050f3ad1018ef3772e"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe 60_check_historical_sample.py",
+      "exit_code": 0,
+      "result": "acceptance_checks_verified"
+    },
+    {
+      "command": ".venv/Scripts/python.exe 60_check_historical_sample.py --verify-local",
+      "exit_code": 0,
+      "result": "acceptance_checks_verified",
+      "local_files_hashed": 35
+    },
+    {
+      "command": ".venv/Scripts/python.exe 46_check_historical_universe.py --package data/reference/universe_events/v14_public_sample --universe SP500_PARTIAL_PUBLIC_V14 --asof 2023-03-15T09:30:00-04:00",
+      "exit_code": 0,
+      "membership_rows": 6,
+      "security_event_rows": 3,
+      "known_member_count": 1,
+      "eligible_count": 0
+    }
+  ],
+  "blocking_findings": [],
+  "caveats": [
+    "35 local hashes include error snapshots, not 35 successful evidence sources",
+    "SIVB retained ledger quantity requires unsupported cancellation reconciliation and is not a tradable holding",
+    "No authenticated QC cloud execution; static date and seeder review only",
+    "Partial public events and two price snapshots do not resolve survivorship bias or support returns"
+  ],
+  "verdicts": {
+    "format_identity": "PASS_WITH_LIMITS",
+    "information_time": "LIMITED",
+    "return_research": "FAIL",
+    "complete_universe": "FAIL"
+  },
+  "frozen_inputs_modified": false,
+  "new_downloads": 0,
+  "new_fits": 0,
+  "strategy_backtests": 0,
+  "broker_connections": 0,
+  "orders": 0,
+  "cloud_queries": 0
+}

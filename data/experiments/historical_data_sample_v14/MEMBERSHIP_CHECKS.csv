@@ -1,0 +1,12 @@
+case,phase,asof,member,trading_status,can_open
+TSLA,before_announcement,2020-11-13T16:00:00-05:00,unknown,unknown,False
+TSLA,announced_not_effective,2020-12-01T09:30:00-05:00,false,unknown,False
+TSLA,effective,2020-12-21T09:30:00-05:00,true,unknown,False
+SIVB_SIVBQ,before_removal_announcement,2023-03-09T16:00:00-05:00,true,unknown,False
+SIVB_SIVBQ,announced_not_effective,2023-03-13T09:30:00-04:00,true,halt,False
+SIVB_SIVBQ,removed,2023-03-15T09:30:00-04:00,false,halt,False
+TWTR,before_removal_announcement,2022-10-26T16:00:00-04:00,true,unknown,False
+TWTR,announced_not_effective,2022-10-31T09:30:00-04:00,true,unknown,False
+TWTR,removed,2022-11-01T09:30:00-04:00,false,halt,False
+AAPL,missing_membership,2025-12-31T16:00:00-05:00,unknown,unknown,False
+META_FB,missing_membership,2025-12-31T16:00:00-05:00,unknown,unknown,False

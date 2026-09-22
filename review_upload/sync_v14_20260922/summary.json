@@ -1,0 +1,12 @@
+{
+  "new_local_document_files": 33,
+  "new_local_document_bytes": 2617863,
+  "reused_price_files": 4,
+  "reused_price_bytes": 821540,
+  "original_http_success": 13,
+  "recorded_http_errors_or_timeouts": 17,
+  "large_models_or_predictions_generated": 0,
+  "redistribution_archives_created": 0,
+  "archive_reason": "Full-source redistribution not licensed; no raw/normalized vendor data acquired",
+  "local_material_manifest_sha256": "e6d56c36ec1af68e82113496785f30872e9c8b6552a98e89d5a33fe96e351439"
+}

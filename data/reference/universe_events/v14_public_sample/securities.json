@@ -1,0 +1,77 @@
+[
+  {
+    "case": "AAPL",
+    "security_id": "quantml-public:AAPL-common-2024",
+    "id_namespace": "quantml-public project-local case identity; not a vendor permanent ID",
+    "vendor_security_id": null,
+    "full_issuance_history_verified": false,
+    "issuer": "Apple Inc.",
+    "share_class": "Common Stock, par value USD 0.00001",
+    "cusip": null,
+    "source_id": "aapl_2024_10k",
+    "identity_limit": "Locally named share class; no numeric permanent vendor identifier"
+  },
+  {
+    "case": "TSLA",
+    "security_id": "quantml-public:TSLA-listed-equity-2020",
+    "id_namespace": "quantml-public project-local case identity; not a vendor permanent ID",
+    "vendor_security_id": null,
+    "full_issuance_history_verified": false,
+    "issuer": "Tesla Inc.",
+    "share_class": "listed equity referenced by S&P; precise legal class identifier not supplied",
+    "cusip": null,
+    "source_id": "tsla_implementation_press",
+    "identity_limit": "Precise legal share-class ID absent from index notice"
+  },
+  {
+    "case": "META_FB",
+    "security_id": "quantml-public:META-classA-2012",
+    "id_namespace": "quantml-public project-local case identity; not a vendor permanent ID",
+    "vendor_security_id": null,
+    "full_issuance_history_verified": false,
+    "issuer": "Meta Platforms, Inc.",
+    "share_class": "Class A common stock",
+    "cusip": null,
+    "source_id": "meta_ticker",
+    "identity_limit": "Locally named share class; no numeric permanent vendor identifier"
+  },
+  {
+    "case": "SIVB_SIVBQ",
+    "security_id": "quantml-public:sec-cik-0000719739:common-pre-20241107",
+    "id_namespace": "quantml-public project-local case identity; not a vendor permanent ID",
+    "vendor_security_id": null,
+    "full_issuance_history_verified": false,
+    "issuer_cik": "0000719739",
+    "issuer_name": "SVB FINANCIAL GROUP",
+    "share_class": "Common Stock, par value $0.001 per share",
+    "cusip": "78486Q101",
+    "cusip_source": "sivb_otc_symbol via sivb_web_extraction",
+    "ticker": "SIVB",
+    "later_ticker": "SIVBQ",
+    "exchange": "Nasdaq; later OTC",
+    "identity_sources": [
+      "sivb_sec_submissions",
+      "sivb_bankruptcy_8k via twtr_sivb_web_extraction",
+      "sivb_otc_symbol via sivb_web_extraction"
+    ],
+    "identity_warning": "Old listed parent common is not subsidiary Silicon Valley Bank deposits, preferred stock, creditors' rights, or newly issued reorganization equity. Do not join new parent equity to this security."
+  },
+  {
+    "case": "TWTR",
+    "security_id": "quantml-public:sec-cik-0001418091:common-pre-20221027",
+    "id_namespace": "quantml-public project-local case identity; not a vendor permanent ID",
+    "vendor_security_id": null,
+    "full_issuance_history_verified": false,
+    "issuer_cik": "0001418091",
+    "issuer_name": "TWITTER, INC.",
+    "share_class": "Common Stock, par value $0.000005 per share",
+    "cusip": null,
+    "cusip_status": "not established in this sample",
+    "ticker": "TWTR",
+    "exchange": "NYSE",
+    "identity_sources": [
+      "twtr_sec_submissions",
+      "twtr_merger_issuer_pdf"
+    ]
+  }
+]

@@ -1,5 +1,20 @@
 # 最新源码审阅入口
 
+最新更新：2026-09-22，**v14已取得真实历史事件小样本并接通原v9入口；尚不够进行可信收益研究或消除存续偏差。** 本轮基于`a8cf66223c0d88b3d78dada3ff3f355c6eaf8730`，新增训练/策略回测/行情下载/券商连接/订单均0，未读取2026行情。原A不变；v13持续资金记账保留，新风控仍为研究状态。
+
+优先阅读[v14报告](data/experiments/historical_data_sample_v14/REPORT.md)、[预登记计划](data/experiments/historical_data_sample_v14/PLAN.md)、[四项验收及实际数量](data/experiments/historical_data_sample_v14/CHECKS.json)、[原字段映射](data/experiments/historical_data_sample_v14/SOURCE_MAPPING.md)、[独立复核](data/experiments/historical_data_sample_v14/INDEPENDENT_REVIEW.md)。
+
+- 六个固定案例：AAPL、TSLA、FB/META、SIVB/SIVBQ、TWTR及旧ATVI参考。取得13份成功HTTP历史文书/元数据快照和2份明确标识的Web摘取；错误页不计成功资料。新增5个成员变化、2条同证券别名衔接，停牌/剔除/上市移除/OTC/最终注销分别保存。
+- 格式与本地身份**有限通过**；信息时间**限定查询可用**；收益研究和完整股票池**不通过**。16条新增事实日期证据缺失0，但15条无核实的盘中发布时间、全部缺原始接收快照/完整修订历史。不是完整S&P500名单，也不是完整历史可交易股票池。
+- 原有AAPL/META各1508条2020—2025行情通过哈希/日历/字段检查；其余4案例无本地完整行情。TWTR假设10股产生542美元应收、0可用现金；SIVB2024旧股无分配有证据，但核销类型暂unsupported。缺失收益不补0、不假设最后一根行情可提前准确卖出。
+- [60验收入口](60_check_historical_sample.py)复用未修改的[historical_universe](historical_universe.py)与[46](46_check_historical_universe.py)；[规范化事实包](data/reference/universe_events/v14_public_sample/manifest.json)保留旁表与限制。当前环境直接运行`.\.venv\Scripts\python.exe -B 60_check_historical_sample.py --verify-local`；新Git克隆去掉该选项只能核对公开事实及结果，完整源验证需找回本地同哈希文件。详见[运行/恢复说明](data/experiments/historical_data_sample_v14/REPORT.md#复现与恢复)。
+- [QuantConnect路线](data/experiments/historical_data_sample_v14/QUANTCONNECT_ROUTE.md)、[Norgate路线](data/experiments/historical_data_sample_v14/NORGATE_ROUTE.md)已按官方资料检查。未验证供应商登录或学术订阅；云可读不等于可导出/再分发。**唯一下一步：登录现有QC Free账户，在云Research内执行[只读数据检查](data/experiments/historical_data_sample_v14/QC_CLOUD_CHECK.md)**；本轮该代码仅静态验证，没有云数据运行结果，不购买或启用交易。
+- [v14本地材料清单](review_upload/sync_v14_20260922/README.md)列路径、大小、SHA256和来源/恢复方式；原始全文及派生全文无再分发授权，不上传Git或对外ZIP。旧v8—v13模型、预测、研究记录和清单保持。
+
+原有目标仍为至少30%净年化、争取50%，回撤优先20%附近/预算30%。本轮未测收益，不宣布目标达成；历史30股结果依然存在存续偏差。下方LEAN仍为历史代理：导入预测，内部产生订单并由自定义即时成交模型产生代理成交；没有真实paper回报或前瞻业绩。原生报价/公司行动、真实paper入口、部分成交持续保护、保护撤换窗口、长期断线补账缺口未改变。
+
+## v13历史结果（保留，未升级）
+
 最新更新：2026-09-22，**v13持续策略资金高水位完成固定比较：本地资金连续性基础补齐，但本方案风控价值门槛未通过，盈利仍未达到30%净年化目标。** 本轮基于提交`3d02318a10266f91615714a77673d1d5f425f988`，原A模型/预测不变；新增拟合0次，复用10份年度模型和21条控制结果，新增14次全局控制回放及2次完整只记录一致性核对。不升级模型，不追加阈值搜索。
 
 先读[v13完整报告](data/experiments/continuous_fund_risk_v13/REPORT.md)、[冻结计划](data/experiments/continuous_fund_risk_v13/PLAN.md)、[全部35条结果](data/experiments/continuous_fund_risk_v13/all_results.csv)、[14组成对差值](data/experiments/continuous_fund_risk_v13/pair_deltas.csv)、[年度结果](data/experiments/continuous_fund_risk_v13/annual_results.csv)及[验收判定](data/experiments/continuous_fund_risk_v13/GATES.json)。

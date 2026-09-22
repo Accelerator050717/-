@@ -1,0 +1,4 @@
+event_id,security_id,kind,effective_at,available_at,cash_per_share,source_id
+sivb_halt_20230310,quantml-public:sec-cik-0000719739:common-pre-20241107,halt,2023-03-10T13:35:18+00:00,2023-03-10T21:45:00+00:00,,sivb_halt
+twtr_cash_right_20221027,quantml-public:sec-cik-0001418091:common-pre-20221027,cash_entitlement,2022-10-28T03:59:59.999999+00:00,2022-11-01T03:59:59.999999+00:00,54.20,twtr_merger_issuer_pdf
+twtr_nyse_suspend_20221028,quantml-public:sec-cik-0001418091:common-pre-20221027,halt,2022-10-28T13:30:00+00:00,2022-11-01T03:59:59.999999+00:00,,twtr_merger_issuer_pdf

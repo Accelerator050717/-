@@ -1,0 +1,77 @@
+{
+  "holdings_are_hypothetical": true,
+  "actual_account": false,
+  "twtr": {
+    "qualifying_shares": 10,
+    "before_information": {
+      "holdings": {
+        "quantml-public:sec-cik-0001418091:common-pre-20221027": "10"
+      },
+      "available_cash": "0",
+      "receivable_cash": "0",
+      "unresolved": [],
+      "investment_return": null,
+      "reason": "No acquisition prices/real holdings/complete price history; no return computed"
+    },
+    "after_information": {
+      "holdings": {
+        "quantml-public:sec-cik-0001418091:common-pre-20221027": "0"
+      },
+      "available_cash": "0",
+      "receivable_cash": "542.00",
+      "unresolved": [],
+      "investment_return": null,
+      "reason": "No acquisition prices/real holdings/complete price history; no return computed"
+    },
+    "recovery_state": {
+      "holdings_asof": "2022-10-26T16:00:00-04:00",
+      "holdings": {
+        "quantml-public:sec-cik-0001418091:common-pre-20221027": "0"
+      },
+      "available_cash": "0",
+      "receivables": {
+        "twtr_cash_right_20221027": {
+          "security_id": "quantml-public:sec-cik-0001418091:common-pre-20221027",
+          "amount": "542.00",
+          "effective_at": "2022-10-28T03:59:59.999999+00:00",
+          "available_at": "2022-11-01T03:59:59.999999+00:00"
+        }
+      },
+      "applied": {
+        "twtr_cash_right_20221027": "ed57aa2897801793780f634cdcb446f90a2e58144a77ade783a72394bf3b9853"
+      },
+      "receipts": {},
+      "unresolved": [],
+      "last_asof": "2022-11-01T09:30:00-04:00"
+    },
+    "selected_source_boundary": "issuer 8-K filing date end; earlier OCC corroboration retained separately"
+  },
+  "sivb": {
+    "qualifying_shares": 10,
+    "legacy_ledger": {
+      "holdings": {
+        "quantml-public:sec-cik-0000719739:common-pre-20241107": "10"
+      },
+      "available_cash": "0",
+      "receivable_cash": "0",
+      "unresolved": [],
+      "investment_return": null,
+      "reason": "No acquisition prices/real holdings/complete price history; no return computed"
+    },
+    "source_fact": "old common cancelled; no distribution explicitly documented",
+    "status": "UNSUPPORTED_RECONCILIATION_REQUIRED",
+    "allow_new_risk": false,
+    "warning": "Ledger quantity is pending reconciliation, not a valid tradable asset or a marked valuation; no return computed"
+  },
+  "atvi_reference": {
+    "holdings": {
+      "PUBLIC_ATVI_COMMON_2023": "0"
+    },
+    "available_cash": "0",
+    "receivable_cash": "950",
+    "unresolved": [],
+    "investment_return": null,
+    "reason": "No acquisition prices/real holdings/complete price history; no return computed"
+  },
+  "actual_payment_receipts": 0
+}

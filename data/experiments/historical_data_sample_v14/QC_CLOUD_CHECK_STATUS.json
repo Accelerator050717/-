@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-09-22T15:13:58.913637+00:00",
+  "script": "tools/qc_v14_cloud_check.py",
+  "sha256": "f21b1b24eba86eec1e5a59063e85236fbe513a2225bc613e3f8bdf44c5d30bb6",
+  "ast_parse": "passed",
+  "compile": "passed",
+  "module_execution": false,
+  "cloud_queries_executed": 0,
+  "orders_sent": 0,
+  "data_exported": false,
+  "authenticated_access": "not available; parent browser check showed Sign In",
+  "status": "DOCUMENTED_API_PREPARED_NOT_CLOUD_RUN"
+}

@@ -1,0 +1,66 @@
+{
+  "sample_security_count": 6,
+  "new_security_cases": 5,
+  "inherited_reference_cases": 1,
+  "observation_start": "2020-01-01",
+  "observation_end": "2025-12-31",
+  "earlier_baseline_membership_dates": [
+    "2018-03-19",
+    "2018-06-07"
+  ],
+  "new_membership_change_events": 5,
+  "derived_nonmember_checkpoints": 1,
+  "inherited_atvi_membership_removals": 1,
+  "new_v9_security_event_rows": 3,
+  "lifecycle_side_rows": 9,
+  "lifecycle_kind_counts": {
+    "halt": 2,
+    "exchange_suspension": 1,
+    "ticker_and_venue_change": 1,
+    "exchange_delisting": 2,
+    "common_equity_cancelled_no_distribution": 1,
+    "cash_entitlement": 1,
+    "ticker_change": 1
+  },
+  "real_terminal_cases": 3,
+  "new_terminal_cases": 2,
+  "verified_cash_entitlement_cases": 2,
+  "unverified_cash_receipt_cases": 2,
+  "unsupported_explicit_zero_distribution_cases": 1,
+  "unresolved_terminal_return_series_cases": 3,
+  "price_covered_cases": 2,
+  "price_missing_cases": 4,
+  "actual_source_conflicts_preserved": 2,
+  "information_evidence": {
+    "denominator": "all 16 new identity/announcement/membership/lifecycle fact records, including unsupported; ATVI reference excluded",
+    "fact_count": 16,
+    "missing_publication_date_count": 0,
+    "missing_publication_date_fraction": 0.0,
+    "missing_verified_intraday_timestamp_count": 15,
+    "missing_verified_intraday_timestamp_fraction": 0.9375,
+    "original_vendor_receipt_or_revision_vintage_missing": 16
+  },
+  "checks": {
+    "member_timelines": 11,
+    "ticker_timelines": 6,
+    "conflict_rejected": true,
+    "missing_mapping_time_blocks": true,
+    "unknown_membership_or_trade_status_blocks": true,
+    "terminal_cash_not_released": true,
+    "ledger_restore_idempotent": true,
+    "old_atvi_reference_unchanged": true
+  },
+  "verdicts": {
+    "format_and_local_identity": "PASS_WITH_LIMITS: schema/unique local IDs/two alias links; no universal vendor ID or complete issuance history",
+    "information_time": "LIMITED: cited dated event queries only; not complete point-in-time tradability or original vintages",
+    "return_research": "FAIL: four missing price histories, incomplete terminal return linkage, two missing cash receipts, one unsupported cancellation",
+    "complete_historical_universe": "FAIL: partial deliberately selected index events only"
+  },
+  "new_fits": 0,
+  "strategy_backtests": 0,
+  "broker_connections": 0,
+  "orders": 0,
+  "prices_2026_accessed": false,
+  "survivorship_bias_resolved": false,
+  "training_ready": false
+}

@@ -1,0 +1,7 @@
+event_id,security_id,universe,effective_at,available_at,member,source_id
+sivb_sp500_add_20180319,quantml-public:sec-cik-0000719739:common-pre-20241107,SP500_PARTIAL_PUBLIC_V14,2018-03-19T13:30:00+00:00,2018-03-10T04:59:59.999999+00:00,1,sivb_sp500_addition_html
+sivb_sp500_remove_20230315,quantml-public:sec-cik-0000719739:common-pre-20241107,SP500_PARTIAL_PUBLIC_V14,2023-03-15T13:30:00+00:00,2023-03-11T04:59:59.999999+00:00,0,sivb_sp500_removal
+twtr_sp500_add_20180607,quantml-public:sec-cik-0001418091:common-pre-20221027,SP500_PARTIAL_PUBLIC_V14,2018-06-07T13:30:00+00:00,2018-06-05T03:59:59.999999+00:00,1,twtr_sp500_addition_html
+twtr_sp500_remove_20221101,quantml-public:sec-cik-0001418091:common-pre-20221027,SP500_PARTIAL_PUBLIC_V14,2022-11-01T13:30:00+00:00,2022-10-28T03:59:59.999999+00:00,0,twtr_sp500_removal
+tsla_nonmember_checkpoint_20201201,quantml-public:TSLA-listed-equity-2020,SP500_PARTIAL_PUBLIC_V14,2020-12-01T09:30:00-05:00,2020-11-30T23:59:59-05:00,0,tsla_implementation_press
+tsla_sp500_add_20201221,quantml-public:TSLA-listed-equity-2020,SP500_PARTIAL_PUBLIC_V14,2020-12-21T09:30:00-05:00,2020-11-30T23:59:59-05:00,1,tsla_implementation_press

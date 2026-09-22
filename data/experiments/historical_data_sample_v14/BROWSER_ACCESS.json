@@ -1,0 +1,11 @@
+{
+  "checked_date_utc": "2026-09-22",
+  "surface": "existing local Chrome browser session",
+  "url": "https://www.quantconnect.com/terminal/",
+  "visible_access_evidence": "Sign In link to https://www.quantconnect.com/login; no authenticated workspace verified",
+  "authenticated_data_queries": 0,
+  "account_absence_not_inferred": true,
+  "credentials_read_or_printed": false,
+  "paid_activation_or_purchase": false,
+  "minimum_user_action": "Sign in to the existing QuantConnect account and open a Free cloud Research notebook; actual entitlements must then be checked."
+}

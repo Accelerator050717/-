@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "public_event_case",
+  "coverage_scope": "Five new project-local security cases; partial S&P500 event stream, not complete membership or trading universe",
+  "sources": {
+    "sivb_halt": {
+      "source_id": "sivb_halt",
+      "url": "https://www.nasdaq.com/press-release/nasdaq-halts-svb-financial-group-2023-03-10",
+      "resolved_url": "https://www.nasdaq.com/press-release/nasdaq-halts-svb-financial-group-2023-03-10",
+      "retrieved_at_utc": "2026-09-22T15:09:22.877390+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+      "body_status": "downloaded",
+      "local_path": "data/private/universe/v14_public_sources/sivb_halt.html",
+      "bytes": 150172,
+      "sha256": "3e3e346cb630792eb4dd968f3bf03b5f3ceb46c130f591f4266cbb0fe12e048d",
+      "raw_redistribution": "not_authorized_no_Git_upload"
+    },
+    "sivb_sp500_addition_html": {
+      "source_id": "sivb_sp500_addition_html",
+      "url": "https://press.spglobal.com/2018-03-09-Take-Two-Interactive-Software-SVB-Financial-and-Nektar-Pharmaceuticals-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600",
+      "resolved_url": "https://press.spglobal.com/2018-03-09-Take-Two-Interactive-Software-SVB-Financial-and-Nektar-Pharmaceuticals-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600",
+      "retrieved_at_utc": "2026-09-22T15:12:46.699681+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+      "body_status": "downloaded",
+      "local_path": "data/private/universe/v14_public_sources/sivb_sp500_addition_html.html",
+      "bytes": 64271,
+      "sha256": "a4eb380720fbf2cec8fab680d81b09d57196c02498d8485876637cebabc7f83a",
+      "raw_redistribution": "not_authorized_no_Git_upload"
+    },
+    "sivb_sp500_removal": {
+      "source_id": "sivb_sp500_removal",
+      "url": "https://press.spglobal.com/2023-03-10-Insulet-Set-to-Join-S-P-500",
+      "resolved_url": "https://press.spglobal.com/2023-03-10-Insulet-Set-to-Join-S-P-500",
+      "retrieved_at_utc": "2026-09-22T15:11:05.397299+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+      "body_status": "downloaded",
+      "local_path": "data/private/universe/v14_public_sources/sivb_sp500_removal.html",
+      "bytes": 50623,
+      "sha256": "32c4ced5f663048b9c32d7e04563cbc3741e23ba364f496f3f7bd70154de7a0b",
+      "raw_redistribution": "not_authorized_no_Git_upload"
+    },
+    "tsla_implementation_press": {
+      "source_id": "tsla_implementation_press",
+      "url": "https://press.spglobal.com/2020-11-30-S-P-Dow-Jones-Indices-Announces-Implementation-of-Teslas-Addition-to-S-P-500?asPDF=1",
+      "resolved_url": "https://press.spglobal.com/2020-11-30-S-P-Dow-Jones-Indices-Announces-Implementation-of-Teslas-Addition-to-S-P-500?asPDF=1",
+      "retrieved_at_utc": "2026-09-22T15:13:41.744383+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "local_path": "data/private/universe/v14_public_sources/tsla_implementation_press.pdf",
+      "bytes": 22300,
+      "sha256": "e48cd28dc4506ab62a669ed408034e0940dc1611e470409e2de9fdd335122159",
+      "body_status": "downloaded",
+      "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+      "raw_redistribution": "not_authorized_no_Git_upload"
+    },
+    "twtr_merger_issuer_pdf": {
+      "source_id": "twtr_merger_issuer_pdf",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001418091/84881052-8f1d-4857-bda8-2fdb55ebce68.pdf",
+      "resolved_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001418091/84881052-8f1d-4857-bda8-2fdb55ebce68.pdf",
+      "retrieved_at_utc": "2026-09-22T15:09:16.811418+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+      "body_status": "downloaded",
+      "local_path": "data/private/universe/v14_public_sources/twtr_merger_issuer_pdf.pdf",
+      "bytes": 322034,
+      "sha256": "f5a81085e8889ce5a4ba8a1be59ce2605ac2257444c1b302f8a0b2bc10639d65",
+      "raw_redistribution": "not_authorized_no_Git_upload"
+    },
+    "twtr_sp500_addition_html": {
+      "source_id": "twtr_sp500_addition_html",
+      "url": "https://press.spglobal.com/2018-06-04-Netflix-Set-to-Join-S-P-100-Twitter-to-Join-S-P-500-REGENXBIO-to-Join-S-P-SmallCap-600",
+      "resolved_url": "https://press.spglobal.com/2018-06-04-Netflix-Set-to-Join-S-P-100-Twitter-to-Join-S-P-500-REGENXBIO-to-Join-S-P-SmallCap-600",
+      "retrieved_at_utc": "2026-09-22T15:12:47.829415+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+      "body_status": "downloaded",
+      "local_path": "data/private/universe/v14_public_sources/twtr_sp500_addition_html.html",
+      "bytes": 54562,
+      "sha256": "a17c7c446afdbc9fee698b0c3b6d12223af6ec195f2161f2b6560286b705f192",
+      "raw_redistribution": "not_authorized_no_Git_upload"
+    },
+    "twtr_sp500_removal": {
+      "source_id": "twtr_sp500_removal",
+      "url": "https://press.spglobal.com/2022-10-27-Arch-Capital-Group-Set-to-Join-S-P-500-RXO-to-Join-S-P-MidCap-400-Bread-Financial-Holdings-to-Join-S-P-SmallCap-600",
+      "resolved_url": "https://press.spglobal.com/2022-10-27-Arch-Capital-Group-Set-to-Join-S-P-500-RXO-to-Join-S-P-MidCap-400-Bread-Financial-Holdings-to-Join-S-P-SmallCap-600",
+      "retrieved_at_utc": "2026-09-22T15:11:37.254164+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "source_snapshot": "retrieved_now_not_contemporaneous_vendor_snapshot",
+      "body_status": "downloaded",
+      "local_path": "data/private/universe/v14_public_sources/twtr_sp500_removal.html",
+      "bytes": 55631,
+      "sha256": "47ceba999017ad6330b1c2a6243bbbfc346537db1d3a0cf12cf696d95bf70491",
+      "raw_redistribution": "not_authorized_no_Git_upload"
+    }
+  },
+  "file_sha256": {
+    "memberships.csv": "269e8217cd199f00b88849c239e101eb0356f70db2757ca20ade6c15e2633600",
+    "events.csv": "afdfc179c9d7bce44c336b042134c52a6e39f4115690f6408b461c6546a2ce2f"
+  },
+  "side_file_sha256": {
+    "securities.json": "107b591bf6628573eea7130def7ab06a70797ef4ed81cbf14f948f36aa7fd34f",
+    "ticker_changes.json": "d6fa7872526e12908f0056c9d2b14269fbbfb9ed7e3ed12d930b86e43d9c6023",
+    "lifecycle.json": "9cc24086d7a7e50edb863dfc5596dd0488dc5be7ea88232f05928f0da37c7059"
+  },
+  "original_fact_sha256": {
+    "identity_source_facts.json": "a6b2eb80f302ef4d766982196343ae7624a8a4f7ca426f678c33d97af62e178d",
+    "terminal_source_facts.json": "b096d4110c2bd9ba49c8044dc51cc73c7a186fa9ef21eb68e84a62bbef381473"
+  },
+  "knowledge_time_policy": "Separate dated publication/filing evidence; date-only uses New York day end, not earliest dissemination",
+  "member_checkpoint": "tsla_nonmember_checkpoint_20201201 is a derived next-session state observation, not an index change",
+  "warnings": [
+    "No exhaustive intervening events",
+    "No vendor permanent IDs",
+    "No proof of historical receipt/vintage; current archive revisions unknown",
+    "Side-table-only events must not be ignored for trading: unresolved scope stays blocked",
+    "AAPL/META membership unknown; TSLA core trade status unknown",
+    "ATVI old v9 package is checked separately and never rewritten"
+  ],
+  "full_universe_validated": false,
+  "training_ready": false,
+  "prices_2026_accessed": false
+}
