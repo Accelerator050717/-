@@ -1,5 +1,24 @@
 # 最新源码审阅入口
 
+最新更新：2026-09-22，**v15已完成2022—2023连续24个月动态股票池及6个固定QuantConnect Free原生基准，流程有限通过，全部未达到收益目标；实际分拆/换股权利和8个RAW日线缺口仍限制经济收益验收。** 基于`a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe`。先读[v15完整报告](data/experiments/dynamic_universe_pilot_v15/REPORT.md)、[冻结PLAN](data/experiments/dynamic_universe_pilot_v15/PLAN.md)、[六组结果](data/experiments/dynamic_universe_pilot_v15/results.csv)、[逐月范围/时间](data/experiments/dynamic_universe_pilot_v15/monthly_universe.csv)、[验收边界](data/experiments/dynamic_universe_pilot_v15/ACCEPTANCE_LIMITS.md)。
+
+| 2022—2023固定基准 | 10bp：累计 / 年化 / 回撤 | 20bp：累计 / 年化 / 回撤 |
+|---|---|---|
+| 当期池100股等权 | -7.15% / -3.64% / 25.14% | -7.71% / -3.94% / 25.51% |
+| 20日动量前10等权 | -54.08% / -32.25% / 58.33% | -55.92% / -33.63% / 59.85% |
+| SPY | +2.80% / +1.39% / 22.16% | +2.53% / +1.26% / 22.27% |
+
+- 范围是历史Fundamental覆盖普通股，最近已交付交易日RAW价>$5、美元成交额前100、SID破同分；不是S&P500或完整全美股/OTC。24月累计320个SID，748次新增含初始100、648次移出。50,100证券日中49,977有bar、99已终止后缺价、24原分类未知；事后证据解释16项，另8项在实际RAW History单日及相邻控制中仍缺。详见[缺价返回](data/experiments/dynamic_universe_pilot_v15/MISSING_PRICE_RESULTS.json)、[32条周边记录的聚合控制](data/experiments/dynamic_universe_pilot_v15/MISSING_PRICE_CONTROLS.json)。不补价、不事后删股。
+- [v15算法](tools/qc_v15_dynamic_pilot.py)从原生历史Fundamental/行情生成选择与目标，再生成MOO订单，成交由原生EquityFillModel产生。**没有导入H60预测、既定目标或成交记录**；原v10仍是独立历史代理，限制未解除。月首16:05决定，后续两阶段开盘卖/买，100,000美元、90%事前预算、整股、零息、即时结算研究假设；收盘权益含现金股息，末次清仓含费。
+- 三个实际A终止持仓现金代理合计2,395.30美元；B两档TWTR分别5,969.58/5,915.80，均为引擎缓存价零费强平，非核实付款。T/WBD、DHR/VLTO分拆及XLNX/AMD换股未完整承接；不能用碎股现金残差证明经济影响很小。引擎收益与[一手法律权利](data/experiments/dynamic_universe_pilot_v15/TERMINAL_EVENT_EVIDENCE.md)分别保存，A精确可投资收益仍未定。
+- [新云项目36834914](https://www.quantconnect.com/project/36834914)保留原v14项目。正式6组同引擎`2.5.0.0.18116`、同AST；实际11次启动中10次完成（3 audit、7收益执行含A10补日志重跑），另1初始化失败，均留[尝试记录](data/experiments/dynamic_universe_pilot_v15/RUN_ATTEMPTS.json)。[6组运行ID及复制指纹](data/experiments/dynamic_universe_pilot_v15/RUN_IDENTITIES.json)、[A10完全相同汇总核对](data/experiments/dynamic_universe_pilot_v15/A10_REPEAT_CHECK.json)、[本地验证](data/experiments/dynamic_universe_pilot_v15/VERIFICATION.json)可复核。
+- 本轮训练0、H60迁移0、券商连接/Live/paper/真实订单0、付费0，2026行情封存。2022—2023是开发试点，2025全年及2016—2025连续覆盖仍未验收；30%净年化/争取50%与30%回撤预算不变，没有升级任何模型。原A及v13持续资金基础保持，v13风控仍为研究状态。
+- 本地复核：`.\.venv\Scripts\python.exe -B tools/verify_qc_v15_pilot.py`；只汇总现存产物：`.\.venv\Scripts\python.exe -B tools/summarize_qc_v15_pilot.py`。云运行与32KiB源码准备见[v15 README](data/experiments/dynamic_universe_pilot_v15/README.md)。供应商源记录只在QC许可环境使用；完整辅助内存账本未持久化，原生订单/代码/日志留云。无新增大型模型或ZIP，[本轮材料清单](review_upload/sync_v15_20260922/README.md)不替换旧v8—v14清单。
+
+**唯一下一步：预登记同一连续管线的公司行动/缺价验收补丁，再扩展至明确训练/开发区间。** 限本轮真实持仓的承接权利及8个缺价日，之后才登记少量模型比较；不再追加本轮参数搜索，也不回到零散接口展示。真实paper入口、部分成交持续保护、保护撤换窗口及长期断线补账仍未完成。
+
+## v14云读取历史结果（保留当时结论）
+
 最新更新：2026-09-22，**v14已在登录的QuantConnect Free云Research实际完成历史数据检查：30次查询全部完成，34条日线、10条事件；退市股历史行情及按历史日期变化的候选范围确实可读。** 本次基于`ad702085698f88fed3e4c74ceecc75f2272fbe58`。先读[云实测报告](data/experiments/historical_data_sample_v14/cloud_free_20260922/REPORT.md)、[运行状态](data/experiments/historical_data_sample_v14/cloud_free_20260922/RUN_STATUS.json)、[原检查返回](data/experiments/historical_data_sample_v14/cloud_free_20260922/ORIGINAL_RESULTS.json)及[补充返回](data/experiments/historical_data_sample_v14/cloud_free_20260922/SUPPLEMENT_RESULTS.json)。
 
 - [云项目](https://www.quantconnect.com/project/36832711)使用Community R-MICRO、Foundation-Py-Default。TWTR与SIVB固定窗口各取得4条真实RAW日线及Warning/Delisted事件；FB/META同SID且有更名事件；AAPL取得分红和拆股记录。

@@ -1,0 +1,4 @@
+mode,net_cumulative_delta_20_minus_10,net_cagr_delta_20_minus_10,max_drawdown_delta_20_minus_10,fees_paid_delta_usd,static_extra_10bp_on_10bp_order_path_usd,static_cumulative_delta_extra_10bp_on_10bp_path,interpretation
+A,-0.005644165659999922,-0.002935129648999668,0.0037076211600001185,1070.2165660000007,1076.347505999999,-0.010763475059999989,static fixed-orders cost diagnostic; not a separately executable backtest
+B,-0.01843177661000006,-0.013744653556765685,0.01522018661000013,2226.8526609999967,2305.282651,-0.02305282651,static fixed-orders cost diagnostic; not a separately executable backtest
+C,-0.0026512723000000626,-0.0013092124727620558,0.0011506960000000621,185.43723000000006,191.97301000000002,-0.0019197301000000002,static fixed-orders cost diagnostic; not a separately executable backtest

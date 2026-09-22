@@ -1,0 +1,14 @@
+{
+  "status": "prepared_local_upload_artifact_not_cloud_execution_evidence",
+  "canonical_path": "tools/qc_v15_dynamic_pilot.py",
+  "canonical_bytes": 33641,
+  "canonical_sha256": "4102e0bb73d1a15b97e6250aeb2aeeef5163e36303923be070fc436d6bab2268",
+  "prepared_path": "data/experiments/dynamic_universe_pilot_v15/cloud/main.py",
+  "prepared_bytes": 30005,
+  "prepared_sha256": "ab35fd31f6c7f30aa762bdfe4b82ac2675142c9b61fa1067a7e2781eac46e357",
+  "portable_executable_ast_sha256": "3f656b51fb1a5f567072c97149e5924d472f6ebf6f8eb8d9e6f984448d34a828",
+  "byte_limit_exclusive": 32768,
+  "algorithm_imported_or_executed": false,
+  "prepared_at_utc": "2026-09-22T17:28:50.837671+00:00",
+  "preparer_python": "3.12.2"
+}

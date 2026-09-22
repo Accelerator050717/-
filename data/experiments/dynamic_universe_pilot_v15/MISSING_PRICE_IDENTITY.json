@@ -1,0 +1,47 @@
+{
+  "project_id": 36834914,
+  "research_server": "R-18f7f21cd4e161b222e4bb8430747906",
+  "kernel": "Foundation-Py-Default",
+  "actual_history_calls": 24,
+  "distinct_fixed_queries": 16,
+  "initial_single_day_calls": 8,
+  "same_single_day_repeat_calls": 8,
+  "context_control_calls": 8,
+  "repeat_reason": "notebook focus edit did not apply before execution; no changed data/strategy parameter",
+  "initial_source_sha256": "17e3f15f6a2490909b35865c39b6f6bcea1a3483d63cb25d1aa9d11670491853",
+  "current_diagnostic_source_sha256": "36c5e9ade4d1bf4c98db11b7c1aad52a6203534babeda173ae938cffcb3993a8",
+  "notebook_cells": [
+    {
+      "call": "check_v15_missing_prices",
+      "bytes": 4116,
+      "fnv1a64": "5380e3d7ec155f10"
+    },
+    {
+      "call": "check_v15_missing_price_controls",
+      "bytes": 3161,
+      "fnv1a64": "3004019ca45fbffe",
+      "clipboard_cleared_before_readback": true
+    }
+  ],
+  "outputs": [
+    {
+      "path": "MISSING_PRICE_RESULTS.json",
+      "bytes_without_final_lf": 4327,
+      "fnv1a64": "bcc68d9e65fcec07"
+    },
+    {
+      "path": "MISSING_PRICE_CONTROLS.json",
+      "bytes_without_final_lf": 5031,
+      "fnv1a64": "f0253c4c361d2eaa"
+    }
+  ],
+  "main_final_editor_readback": {
+    "matches_frozen_cloud_text": true,
+    "normalized_utf8_bytes": 31112,
+    "fnv1a64": "41014a425ab5c009",
+    "clipboard_cleared_before_readback": true
+  },
+  "market_data_2026_read": false,
+  "orders_sent": 0,
+  "model_fits": 0
+}

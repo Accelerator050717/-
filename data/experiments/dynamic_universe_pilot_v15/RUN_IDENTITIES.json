@@ -1,0 +1,67 @@
+{
+  "generation_base_commit": "a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe",
+  "project_id": 36834914,
+  "scope": "QC Free historical backtests; no broker, Live or paper",
+  "runs": [
+    {
+      "file": "runs/B10.json",
+      "backtest_id": "549882ad625e8d4d5a4c149d8f943cd0",
+      "name": "Calculating Asparagus Caterpillar",
+      "engine_version": "2.5.0.0.18116",
+      "seconds": 82.99,
+      "data_points": 1297985,
+      "transfer_bytes": 5051,
+      "transfer_fnv1a64": "2c6b233671306171"
+    },
+    {
+      "file": "runs/C10.json",
+      "backtest_id": "0d921feb058a7e18dac120f1d27097b8",
+      "name": "Alert Yellow Green Giraffe",
+      "engine_version": "2.5.0.0.18116",
+      "seconds": 89.55,
+      "data_points": 1295946,
+      "transfer_bytes": 4000,
+      "transfer_fnv1a64": "cfbbfce6b88d758e"
+    },
+    {
+      "file": "runs/A20.json",
+      "backtest_id": "d7daa285377ef9f6ba03dac4c4e08b99",
+      "name": "Determined Magenta Owlet",
+      "engine_version": "2.5.0.0.18116",
+      "seconds": 101.34,
+      "data_points": 1309154,
+      "transfer_bytes": 5867,
+      "transfer_fnv1a64": "93f9ba0c7ae9b56c"
+    },
+    {
+      "file": "runs/B20.json",
+      "backtest_id": "1dba65d8d88042ca71fe118747eee94b",
+      "name": "Fat Tan Tapir",
+      "engine_version": "2.5.0.0.18116",
+      "seconds": 60.81,
+      "data_points": 1297985,
+      "transfer_bytes": 5034,
+      "transfer_fnv1a64": "005d1f2303f47ac4"
+    },
+    {
+      "file": "runs/C20.json",
+      "backtest_id": "b09f70c29fc6e248a49f21c4e77a6c8e",
+      "name": "Ugly Light Brown Buffalo",
+      "engine_version": "2.5.0.0.18116",
+      "seconds": 80.86,
+      "data_points": 1295946,
+      "transfer_bytes": 4022,
+      "transfer_fnv1a64": "7696af465d364ead"
+    },
+    {
+      "file": "runs/A10.json",
+      "backtest_id": "9081e28300952f4217f092917c74e761",
+      "name": "Casual Fluorescent Orange Armadillo",
+      "engine_version": "2.5.0.0.18116",
+      "seconds": 66.75,
+      "data_points": 1309154,
+      "transfer_bytes": 5846,
+      "transfer_fnv1a64": "4570886070d30ef3"
+    }
+  ]
+}

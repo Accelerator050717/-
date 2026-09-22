@@ -1,0 +1,334 @@
+{
+  "generation_base_commit": "a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe",
+  "project_id": 36834914,
+  "files": [
+    {
+      "path": "REVIEW_INDEX.md",
+      "absolute_path": "M:\\ml项目\\REVIEW_INDEX.md",
+      "bytes": 37354,
+      "sha256": "03dc450967f22db0f8c214de709dc648fdde88eb6640d4ee9d5a596f24376076"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/A10_INITIAL_SUMMARY.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\A10_INITIAL_SUMMARY.json",
+      "bytes": 2093,
+      "sha256": "49b915d633e4dff4b3d2b178eb83a40b85e8b02c71ec294faeb076b84447e2ca"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/A10_REPEAT_CHECK.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\A10_REPEAT_CHECK.json",
+      "bytes": 404,
+      "sha256": "1f502732e049b1f58f14c2255bf28c8318466e02c04b7e3657f3fea6cf1fe1f0"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/ACCEPTANCE_LIMITS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\ACCEPTANCE_LIMITS.md",
+      "bytes": 10950,
+      "sha256": "c45fcf652d65cc501be2c012658b0e89085b72a5fa123a5fab92ce797c27bb4d"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/AUDIT_INITIAL_REJECTED.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\AUDIT_INITIAL_REJECTED.json",
+      "bytes": 1596,
+      "sha256": "ca5dda7539c22efdb26ed091ed2c1e7f770819d102788b7046befebfb4649919"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/AUDIT_RESULTS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\AUDIT_RESULTS.json",
+      "bytes": 7367,
+      "sha256": "c6a992b2ab6ef68a151eba7a6f61132cb7b736a6656360ee240ada3b7d38f858"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/DATA_LIMITS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\DATA_LIMITS.md",
+      "bytes": 3801,
+      "sha256": "07c959fa88415a977ac66912dbb6f502dab22950577f4bc038cc1e52879248cc"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/ENGINE_ASSUMPTIONS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\ENGINE_ASSUMPTIONS.md",
+      "bytes": 6995,
+      "sha256": "dee1162bb98f49e7f88ede582a62723efdfa47a36f1e1258c7975ce3a5213bb3"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/FAILED_RUNS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\FAILED_RUNS.json",
+      "bytes": 607,
+      "sha256": "8a14cbe3e59f516e1e7e43ddc4b226668a6d07f8000d68244376b67ceb63684e"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/GENERATED_RESULTS.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\GENERATED_RESULTS.md",
+      "bytes": 4723,
+      "sha256": "462bcf7f32f5352880cdcc2da1fcd36ba897c6be20e3f6899b3eb13b323ed323"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/IMPLEMENTATION_NOTES.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\IMPLEMENTATION_NOTES.md",
+      "bytes": 1949,
+      "sha256": "d982c3150ca65ca18dbdb41ca7c29005ba7ae855d571b574cdc2bc6a733cc35a"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/MISSING_PRICE_CONTROLS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\MISSING_PRICE_CONTROLS.json",
+      "bytes": 5032,
+      "sha256": "cdf62c2945007d4076bd0da608b1e71d1f638ccb975bfebd3697800a86df955d"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/MISSING_PRICE_IDENTITY.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\MISSING_PRICE_IDENTITY.json",
+      "bytes": 1501,
+      "sha256": "f87acfaba1b4f5de6bb7e8c5c8cba818120f0f9b281d87e834729a41de4f1e0b"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/MISSING_PRICE_RESULTS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\MISSING_PRICE_RESULTS.json",
+      "bytes": 4328,
+      "sha256": "f935cb79e34c9a4de64d7b2e26f91fae666df68373d8f2ce76a9776ce01cb1ec"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/PLAN.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\PLAN.md",
+      "bytes": 6772,
+      "sha256": "1a37dd703133b23cfb3e8999d9392e6409d73fb74aeed70acf9cf2414279d6b6"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/README.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\README.md",
+      "bytes": 3594,
+      "sha256": "4d0322cc77afa21a323617f32ac07756e9c0a325634ebc52198a77aabc378da2"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/REGISTRATION.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\REGISTRATION.json",
+      "bytes": 1594,
+      "sha256": "1a88e52768275ca13601ec9179d12aed4b3f3df6552f8dc31bace049e3339a7f"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/REPORT.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\REPORT.md",
+      "bytes": 14190,
+      "sha256": "fe504eef64e316499fb15495ef3018dd4dfcf924e301d533b68da6f2d6d5a3ea"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/RUN_ATTEMPTS.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\RUN_ATTEMPTS.json",
+      "bytes": 3825,
+      "sha256": "1eb9edbc136e1ba92ee336630c33a1164ab3c58968298f0f271cdd5a06acab5d"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/RUN_IDENTITIES.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\RUN_IDENTITIES.json",
+      "bytes": 2076,
+      "sha256": "6c8fb7c42bd091f5ff23cc98085ca4467bd4ce6635f49e9ed9ef1892c89f7ca6"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/TERMINAL_EVENT_EVIDENCE.md",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\TERMINAL_EVENT_EVIDENCE.md",
+      "bytes": 13527,
+      "sha256": "cf3c375918716bd80eb6d37e46bec941c4f19995c540581bf34bec4094e79f67"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/VERIFICATION.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\VERIFICATION.json",
+      "bytes": 4301,
+      "sha256": "249031908bcf570142dba31871f60bcf50d054b1b6026d70443d1f1d4915619a"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/annual.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\annual.csv",
+      "bytes": 626,
+      "sha256": "c2c127ec28e15ed43292b9f900291d11190c00964190af1600b2dbea859a8e67"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/cloud/AUDIT_PREPARED_SOURCE_IDENTITY.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\cloud\\AUDIT_PREPARED_SOURCE_IDENTITY.json",
+      "bytes": 452,
+      "sha256": "b2ff43e1fc725e0d5665fb930515800a593c229f8f95578d0ef57e363c0b5c33"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/cloud/PREPARED_SOURCE_IDENTITY.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\cloud\\PREPARED_SOURCE_IDENTITY.json",
+      "bytes": 727,
+      "sha256": "5f8bec53c6844760a4f490ff24b2d4ec66f36705c46d8fbeeaf99d3078a87248"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/cloud/audit_source.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\cloud\\audit_source.py",
+      "bytes": 29340,
+      "sha256": "5e70f7189830a394cae3f1b051a6592153f10809b465b9639cecce5ce07f8c8b"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/cloud/main.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\cloud\\main.py",
+      "bytes": 30005,
+      "sha256": "ab35fd31f6c7f30aa762bdfe4b82ac2675142c9b61fa1067a7e2781eac46e357"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/cloud/missing_price_initial.py",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\cloud\\missing_price_initial.py",
+      "bytes": 4067,
+      "sha256": "17e3f15f6a2490909b35865c39b6f6bcea1a3483d63cb25d1aa9d11670491853"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/cost_comparison.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\cost_comparison.csv",
+      "bytes": 815,
+      "sha256": "1f737296ffcaa8ce2d435ae4877569c2ed46de3279c64bb32df5b21098035ea2"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/issues.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\issues.csv",
+      "bytes": 19602,
+      "sha256": "3d30926a728e872c2bd5c8d8e32a65e0076e596adb4da8b669aa778e104c568f"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/monthly_universe.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\monthly_universe.csv",
+      "bytes": 10546,
+      "sha256": "450d39e9e5898e217e45d8a410e7605603be8177c998b91c728ae73546c55023"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/results.csv",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\results.csv",
+      "bytes": 6326,
+      "sha256": "0adfad629901180a3c168e00222af8c6fa41a02c1b9bae443370acef366fca0e"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/runs/A10.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\runs\\A10.json",
+      "bytes": 5847,
+      "sha256": "ad95f2e48ca7863eddb1b7e2519943ffde7a3b7ca8fb165b0523651d8e98dcc9"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/runs/A20.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\runs\\A20.json",
+      "bytes": 5868,
+      "sha256": "e9bba193a0d67a62bdf6d41e7184208bff9fc448cb1f78dbe5b75cc96cf95a2f"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/runs/B10.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\runs\\B10.json",
+      "bytes": 5052,
+      "sha256": "2e4cbeb5d975deda5b293503828e1c22091747a3055eabb2d3fc429336c6dba0"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/runs/B20.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\runs\\B20.json",
+      "bytes": 5035,
+      "sha256": "36c606096edd71ac5ccca8b8d1cc22bf9a2f35b85443e3ba4ec014cfb16d7b2e"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/runs/C10.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\runs\\C10.json",
+      "bytes": 4001,
+      "sha256": "2930b6502f811b10fd070330e0179405989dc063f06c3c3273938718c10b50c2"
+    },
+    {
+      "path": "data/experiments/dynamic_universe_pilot_v15/runs/C20.json",
+      "absolute_path": "M:\\ml项目\\data\\experiments\\dynamic_universe_pilot_v15\\runs\\C20.json",
+      "bytes": 4023,
+      "sha256": "57911261a8845d04fb98f6efa507c4a1cfc0e01b6399f08d327a45b9281830df"
+    },
+    {
+      "path": "review_upload/sync_v15_20260922/README.md",
+      "absolute_path": "M:\\ml项目\\review_upload\\sync_v15_20260922\\README.md",
+      "bytes": 2646,
+      "sha256": "4bcb894f71cea73b7aa2394356d4b5bebd76000ec5b52ebb40fd3db5e97d92fb"
+    },
+    {
+      "path": "tests/test_qc_v15_dynamic_pilot.py",
+      "absolute_path": "M:\\ml项目\\tests\\test_qc_v15_dynamic_pilot.py",
+      "bytes": 1928,
+      "sha256": "eb275cc6fe37d4f7ca8ad4f8c046aa7acdb41932394217147512ab192b75c471"
+    },
+    {
+      "path": "tools/prepare_qc_v15_source.py",
+      "absolute_path": "M:\\ml项目\\tools\\prepare_qc_v15_source.py",
+      "bytes": 3596,
+      "sha256": "d51adc8d28ecfe52e44fc829af3a71c5436cdd077bb57181f711c0869739ee62"
+    },
+    {
+      "path": "tools/prepare_v15_review.py",
+      "absolute_path": "M:\\ml项目\\tools\\prepare_v15_review.py",
+      "bytes": 4335,
+      "sha256": "4e2d5fffffce065353a43a301e9217dcb8175bd78d752eca4eed38b6090013aa"
+    },
+    {
+      "path": "tools/qc_v15_dynamic_pilot.py",
+      "absolute_path": "M:\\ml项目\\tools\\qc_v15_dynamic_pilot.py",
+      "bytes": 33641,
+      "sha256": "4102e0bb73d1a15b97e6250aeb2aeeef5163e36303923be070fc436d6bab2268"
+    },
+    {
+      "path": "tools/qc_v15_missing_price_check.py",
+      "absolute_path": "M:\\ml项目\\tools\\qc_v15_missing_price_check.py",
+      "bytes": 7173,
+      "sha256": "36c5e9ade4d1bf4c98db11b7c1aad52a6203534babeda173ae938cffcb3993a8"
+    },
+    {
+      "path": "tools/summarize_qc_v15_pilot.py",
+      "absolute_path": "M:\\ml项目\\tools\\summarize_qc_v15_pilot.py",
+      "bytes": 14159,
+      "sha256": "84ca517f0b948b7abded20ddb508557c0b569a02d2b9d0b87f41d1a33213e242"
+    },
+    {
+      "path": "tools/verify_qc_v15_pilot.py",
+      "absolute_path": "M:\\ml项目\\tools\\verify_qc_v15_pilot.py",
+      "bytes": 10994,
+      "sha256": "0d7d64666c30eb9ac0ef5cd3c57563aff584aa8b894cb2056a7a57d37cc5863d"
+    }
+  ],
+  "file_count": 46,
+  "total_bytes": 349383,
+  "large_file_threshold_bytes": 10485760,
+  "new_large_materials": [],
+  "new_review_zips": [],
+  "cloud_runs": [
+    {
+      "file": "runs/B10.json",
+      "backtest_id": "549882ad625e8d4d5a4c149d8f943cd0",
+      "name": "Calculating Asparagus Caterpillar",
+      "engine_version": "2.5.0.0.18116"
+    },
+    {
+      "file": "runs/C10.json",
+      "backtest_id": "0d921feb058a7e18dac120f1d27097b8",
+      "name": "Alert Yellow Green Giraffe",
+      "engine_version": "2.5.0.0.18116"
+    },
+    {
+      "file": "runs/A20.json",
+      "backtest_id": "d7daa285377ef9f6ba03dac4c4e08b99",
+      "name": "Determined Magenta Owlet",
+      "engine_version": "2.5.0.0.18116"
+    },
+    {
+      "file": "runs/B20.json",
+      "backtest_id": "1dba65d8d88042ca71fe118747eee94b",
+      "name": "Fat Tan Tapir",
+      "engine_version": "2.5.0.0.18116"
+    },
+    {
+      "file": "runs/C20.json",
+      "backtest_id": "b09f70c29fc6e248a49f21c4e77a6c8e",
+      "name": "Ugly Light Brown Buffalo",
+      "engine_version": "2.5.0.0.18116"
+    },
+    {
+      "file": "runs/A10.json",
+      "backtest_id": "9081e28300952f4217f092917c74e761",
+      "name": "Casual Fluorescent Orange Armadillo",
+      "engine_version": "2.5.0.0.18116"
+    }
+  ],
+  "cloud_only": {
+    "project_url": "https://www.quantconnect.com/project/36834914",
+    "native_code_order_fill_log_results": "retained by native cloud backtest",
+    "provider_source_records": "not exported; no original snapshot backup claimed",
+    "full_auxiliary_in_memory_event_tables": "not a permanent backup",
+    "object_store_written": false
+  },
+  "generated_at_utc": "2026-09-22T18:14:38.074072+00:00",
+  "head_at_generation": "a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe"
+}

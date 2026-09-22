@@ -1,0 +1,33 @@
+{
+  "project_id": 36834914,
+  "backtest_id": "700d7cf4fd261ea295323f6ed150d919",
+  "name": "Focused Light Brown Owlet",
+  "engine_version": "2.5.0.0.18116",
+  "runtime_seconds": 75.82,
+  "data_points": 1294162,
+  "source_sha256": "f8c3245c1eed8f48f3422c0f198c7f74ce73d897b043014492a3950b4e68679a",
+  "executable_ast_sha256": "e6f3a8f453623234ed6d5a052573ba9cc4523c369139e92f2ecc42f70868a96f",
+  "complete_months": 24,
+  "daily_close_rows": 501,
+  "cumulative_security_ids": 325,
+  "reported_gate_pass": true,
+  "independent_acceptance": false,
+  "reason": "Initialization selected stale November 30 observation for January 2022; original gate tested no-future but omitted latest-observation freshness",
+  "first_month": {
+    "observation_time": "2021-11-30 00:00:00",
+    "engine_available_time": "2021-12-01 00:00:00",
+    "selection_callback": "2022-01-01 00:00:00",
+    "decision_time": "2022-01-03 16:05:00",
+    "input": 9728,
+    "selected": 100,
+    "member_sid_sha256_base64": "XYkgLf9IavKfD3a9EmwVpDZPoQwgsu5sBM/U5+hHkCI="
+  },
+  "coverage": {"expected_security_days": 50100, "observed_security_days": 49977, "known_terminated_missing": 99, "unknown_missing": 24},
+  "events": {"dividend_events": 543, "delisting_warning": 7, "delisting_delisted": 7, "splits_occurred": 9, "symbol_changes": 3, "raw_jump_unexplained": 4},
+  "fills": 0,
+  "final_cash": 100000,
+  "cloud_log_month_rows_read": 24,
+  "cloud_log_issue_rows_read": 21,
+  "full_records_location": "private QC backtest 700d7cf4fd261ea295323f6ed150d919 Logs/Code; no supplier source snapshot export",
+  "main_backtest": false
+}

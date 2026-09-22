@@ -1,0 +1,7 @@
+{
+  "initial_backtest": "926dbb53e61d17293bfdde6b5f109a65",
+  "complete_log_backtest": "9081e28300952f4217f092917c74e761",
+  "summary_exactly_equal": true,
+  "comparison_scope": "all saved summary values including equity, return, fees, fill counts and cash/quantity gate counters; not an order-by-order external replay",
+  "reason": "complete evidence after log compaction; no parameter search"
+}

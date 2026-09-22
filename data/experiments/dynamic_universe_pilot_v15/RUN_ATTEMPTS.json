@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Hyper Active Brown Fox",
+    "id": null,
+    "build_id": "37c254-858819",
+    "mode": "audit",
+    "status": "initialization_failed",
+    "reason": "BrokerageName enum spelling; no historical simulation completed"
+  },
+  {
+    "name": "Focused Light Brown Owlet",
+    "id": "700d7cf4fd261ea295323f6ed150d919",
+    "mode": "audit",
+    "seconds": 75.82,
+    "data_points": 1294162,
+    "status": "completed_rejected_freshness",
+    "reason": "First monthly universe used stale November observation; independent acceptance rejected reported gate"
+  },
+  {
+    "name": "Retrospective Black Wolf",
+    "id": "087db81d52242698471823b6017834ca",
+    "mode": "audit",
+    "seconds": 96.04,
+    "data_points": 1295946,
+    "status": "completed_data_gate_accepted",
+    "result": "AUDIT_RESULTS.json",
+    "transfer_bytes": 7366,
+    "transfer_fnv1a64": "4f1402c4131eb9b1"
+  },
+  {
+    "name": "Dancing Red Orange Kangaroo",
+    "id": "1a40091ccda294eb7bbe8e684061f231",
+    "mode": "audit",
+    "seconds": 71.81,
+    "data_points": 1295946,
+    "status": "completed_extra_audit",
+    "reason": "UI edit did not persist desired A parameter; run retained as extra audit, not counted as a main benchmark"
+  },
+  {
+    "name": "Determined Fluorescent Orange Sardine",
+    "id": "926dbb53e61d17293bfdde6b5f109a65",
+    "mode": "A",
+    "cost_bps": 10,
+    "seconds": 98.54,
+    "data_points": 1309154,
+    "status": "completed_log_incomplete",
+    "reason": "Free 10KB log limit; 23 of 35 issue rows retained. Aggregate result valid as engine result; rerun only to complete necessary evidence after removing repeated month output.",
+    "net_cumulative": -0.07150472127830998,
+    "net_cagr": -0.036439883359614345,
+    "max_drawdown": 0.25137398649191,
+    "fees_paid": 1076.3475060000003,
+    "max_cash_reconciliation_error": 1.4551915228366852e-10,
+    "gate_pass": true
+  },
+  {
+    "name": "Calculating Asparagus Caterpillar",
+    "id": "549882ad625e8d4d5a4c149d8f943cd0",
+    "mode": "B",
+    "cost_bps": 10,
+    "seconds": 82.99,
+    "data_points": 1297985,
+    "status": "completed_engine_checks_verified",
+    "result": "runs/B10.json",
+    "engine_version": "2.5.0.0.18116"
+  },
+  {
+    "name": "Alert Yellow Green Giraffe",
+    "id": "0d921feb058a7e18dac120f1d27097b8",
+    "mode": "C",
+    "cost_bps": 10,
+    "seconds": 89.55,
+    "data_points": 1295946,
+    "status": "completed_engine_checks_verified",
+    "result": "runs/C10.json",
+    "engine_version": "2.5.0.0.18116"
+  },
+  {
+    "name": "Determined Magenta Owlet",
+    "id": "d7daa285377ef9f6ba03dac4c4e08b99",
+    "mode": "A",
+    "cost_bps": 20,
+    "seconds": 101.34,
+    "data_points": 1309154,
+    "status": "completed_engine_checks_verified",
+    "result": "runs/A20.json",
+    "engine_version": "2.5.0.0.18116"
+  },
+  {
+    "name": "Fat Tan Tapir",
+    "id": "1dba65d8d88042ca71fe118747eee94b",
+    "mode": "B",
+    "cost_bps": 20,
+    "seconds": 60.81,
+    "data_points": 1297985,
+    "status": "completed_engine_checks_verified",
+    "result": "runs/B20.json",
+    "engine_version": "2.5.0.0.18116"
+  },
+  {
+    "name": "Ugly Light Brown Buffalo",
+    "id": "b09f70c29fc6e248a49f21c4e77a6c8e",
+    "mode": "C",
+    "cost_bps": 20,
+    "seconds": 80.86,
+    "data_points": 1295946,
+    "status": "completed_engine_checks_verified",
+    "result": "runs/C20.json",
+    "engine_version": "2.5.0.0.18116"
+  },
+  {
+    "name": "Casual Fluorescent Orange Armadillo",
+    "id": "9081e28300952f4217f092917c74e761",
+    "mode": "A",
+    "cost_bps": 10,
+    "seconds": 66.75,
+    "data_points": 1309154,
+    "status": "completed_engine_checks_verified",
+    "result": "runs/A10.json",
+    "engine_version": "2.5.0.0.18116"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "project_id": 36834914,
+    "name": "Hyper Active Brown Fox",
+    "engine_version": "2.5.0.0.18116",
+    "build_id": "37c254-858819",
+    "request_ui_time": "2026-09-22 04:59:40",
+    "ui_timezone": "platform display; UTC not inferred",
+    "mode": "audit",
+    "cost_bps": 10,
+    "status": "initialization_failed",
+    "historical_time": "2022-01-01 00:00:00",
+    "error": "BrokerageName.QUANTCONNECT_BROKERAGE does not exist; cloud API spelling is QUANT_CONNECT_BROKERAGE",
+    "resolution": "Correct enum spelling without changing research rules",
+    "successful_main_backtest": false
+  }
+]

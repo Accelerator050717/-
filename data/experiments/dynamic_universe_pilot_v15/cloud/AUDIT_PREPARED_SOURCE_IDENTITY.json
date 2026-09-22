@@ -1,0 +1,8 @@
+{
+  "status": "prepared_reconstruction_of_previous_executable_source_not_downloaded_cloud_file",
+  "method": "reverse_log_only_patch_then_ast_unparse",
+  "expected_portable_executable_ast_sha256": "d7a6198f786c70c57a381586cdd015a0ede8563f61cd0d8bb56629de02cb63ab",
+  "prepared_bytes": 29340,
+  "prepared_sha256": "5e70f7189830a394cae3f1b051a6592153f10809b465b9639cecce5ce07f8c8b",
+  "origin": "canonical_source_before_main_log_deduplication"
+}

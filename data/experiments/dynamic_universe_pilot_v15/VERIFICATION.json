@@ -1,0 +1,44 @@
+{
+  "verified_at_utc": "2026-09-22T18:13:22.997463+00:00",
+  "pure_tests_passed": [
+    "test_ties_do_not_depend_on_incoming_vendor_order",
+    "test_whole_shares_keep_budget_and_expensive_security_cash",
+    "test_missing_mark_keeps_its_cash_allocation",
+    "test_executable_identity_ignores_docs_but_detects_logic"
+  ],
+  "checks": [
+    {
+      "command": [
+        "M:\\ml\u9879\u76ee\\.venv\\Scripts\\python.exe",
+        "-B",
+        "tools/prepare_qc_v15_source.py",
+        "--verify"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"action\": \"verified\",\n  \"status\": \"prepared_local_upload_artifact_not_cloud_execution_evidence\",\n  \"canonical_path\": \"tools/qc_v15_dynamic_pilot.py\",\n  \"canonical_bytes\": 33641,\n  \"canonical_sha256\": \"4102e0bb73d1a15b97e6250aeb2aeeef5163e36303923be070fc436d6bab2268\",\n  \"prepared_path\": \"data/experiments/dynamic_universe_pilot_v15/cloud/main.py\",\n  \"prepared_bytes\": 30005,\n  \"prepared_sha256\": \"ab35fd31f6c7f30aa762bdfe4b82ac2675142c9b61fa1067a7e2781eac46e357\",\n  \"portable_executable_ast_sha256\": \"3f656b51fb1a5f567072c97149e5924d472f6ebf6f8eb8d9e6f984448d34a828\",\n  \"byte_limit_exclusive\": 32768,\n  \"algorithm_imported_or_executed\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "M:\\ml\u9879\u76ee\\.venv\\Scripts\\python.exe",
+        "-B",
+        "tools/verify_qc_v15_pilot.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"six_fixed_cloud_runs_verified\",\n  \"audit_months\": 24,\n  \"audit_days\": 501,\n  \"generation_base_commit\": \"a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe\",\n  \"current_verification_commit\": \"a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe\",\n  \"main_runs_verified\": 6,\n  \"results\": {\n    \"B10\": {\n      \"net_cumulative\": -0.54078722766083,\n      \"net_cagr\": -0.3225281867283365,\n      \"max_drawdown\": 0.5832945168608299,\n      \"fees_paid\": 2305.2826509999973\n    },\n    \"C10\": {\n      \"net_cumulative\": 0.027996269900000037,\n      \"net_cagr\": 0.013911096478552043,\n      \"max_drawdown\": 0.2215842602,\n      \"fees_paid\": 191.97301\n    },\n    \"A20\": {\n      \"net_cumulative\": -0.0771488869383099,\n      \"net_cagr\": -0.03937501300861401,\n      \"max_drawdown\": 0.2550816076519101,\n      \"fees_paid\": 2146.564072000001\n    },\n    \"B20\": {\n      \"net_cumulative\": -0.55921900427083,\n      \"net_cagr\": -0.3362728402851022,\n      \"max_drawdown\": 0.59851470347083,\n      \"fees_paid\": 4532.135311999994\n    },\n    \"C20\": {\n      \"net_cumulative\": 0.025344997599999974,\n      \"net_cagr\": 0.012601884005789987,\n      \"max_drawdown\": 0.22273495620000006,\n      \"fees_paid\": 377.41024000000004\n    },\n    \"A10\": {\n      \"net_cumulative\": -0.07150472127830998,\n      \"net_cagr\": -0.036439883359614345,\n      \"max_drawdown\": 0.25137398649191,\n      \"fees_paid\": 1076.3475060000003\n    }\n  },\n  \"missing_price_evidence\": {\n    \"distinct_fixed_queries\": 16,\n    \"actual_history_calls_including_repeat\": 24,\n    \"missing_target_dates\": 8,\n    \"surrounding_bars\": 32\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "M:\\ml\u9879\u76ee\\.venv\\Scripts\\python.exe",
+        "-B",
+        "tools/verify_qc_v14_cloud_evidence.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"verified_offline_saved_cloud_evidence\",\n  \"generation_base_commit\": \"ad702085698f88fed3e4c74ceecc75f2272fbe58\",\n  \"verification_commit\": \"a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe\",\n  \"head_change_alone_invalidates_evidence\": false,\n  \"files_verified\": 11,\n  \"cloud_source_ast_matches\": 2,\n  \"browser_result_transfer_matches\": 2,\n  \"history_queries_completed\": 30,\n  \"price_rows\": 34,\n  \"event_rows\": 10,\n  \"historical_filter_input_rows\": 39143,\n  \"new_cloud_queries\": 0,\n  \"meaning\": \"Saved-output integrity, not a fresh service run or full data certification\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "local tests and saved cloud artifact validation; no new market query, backtest, model fitting or order",
+  "diagnostic_negative_check": "In-memory changed control target-bar count rejected; no artifact modified"
+}

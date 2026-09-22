@@ -1,0 +1,49 @@
+{
+  "baseline_commit": "a3f9a5f221bb36258e7453a6e2b0b3a1f476dfbe",
+  "registered_before_returns_utc": "2026-09-22T16:53:56.245216+00:00",
+  "registration_time_precision": "registration file timestamp; PLAN already frozen; no v15 backtest started",
+  "plan_sha256": "1a37dd703133b23cfb3e8999d9392e6409d73fb74aeed70acf9cf2414279d6b6",
+  "project_id": 36834914,
+  "project_name": "Upgraded Violet Sardine",
+  "original_v14_project_id": 36832711,
+  "lean_version": "master v18116 (2.5.0.0.18116)",
+  "auto_follow_master_disabled": false,
+  "python_foundation": "Foundation Default",
+  "planned_audit_runs": 1,
+  "planned_main_runs": [
+    {
+      "mode": "A",
+      "cost_bps": 10
+    },
+    {
+      "mode": "B",
+      "cost_bps": 10
+    },
+    {
+      "mode": "C",
+      "cost_bps": 10
+    },
+    {
+      "mode": "A",
+      "cost_bps": 20
+    },
+    {
+      "mode": "B",
+      "cost_bps": 20
+    },
+    {
+      "mode": "C",
+      "cost_bps": 20
+    }
+  ],
+  "start": "2022-01-01",
+  "end": "2023-12-31",
+  "initial_cash_usd": 100000,
+  "gross_budget": 0.9,
+  "new_model_fits": 0,
+  "live_paper_broker_connections_allowed": false,
+  "market_data_2026_allowed": false,
+  "free_limit_observed": "One coding session; stopped old code session while preserving v14 project to open new v15 project",
+  "source_sha256_pending_final_code": true,
+  "version_setting_observation": "UI unchecked transiently, then returned to checked. Do not claim persistent pin; verify exact engine version per completed backtest and reject comparison if versions differ."
+}
