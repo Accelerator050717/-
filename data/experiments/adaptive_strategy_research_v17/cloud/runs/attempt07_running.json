@@ -1,0 +1,10 @@
+{
+  "project": 37249270,
+  "backtest_id": "a187b2680217d44e97e6761ef51c84b8",
+  "name": "Retrospective Yellow Gull",
+  "mode": "mom20",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "host": "Community B-MICRO",
+  "captured_at": "2026-10-02T08:03:48.279Z"
+}

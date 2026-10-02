@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-10-02T09:03:21.123722+00:00",
+  "cloud_unique_strategy_cost_configurations": 10,
+  "cloud_attempts": 14,
+  "cloud_completed_runs": 12,
+  "cloud_failed_warmup_runs": 2,
+  "actual_model_fits": 6,
+  "unique_annual_models": 2,
+  "source_configuration_common": true,
+  "remaining_registered_cost_checks": [],
+  "selection_status": "all_candidates_rejected_risk_diagnostic_only",
+  "all_active_candidates_rejected": true,
+  "independent_validation": false,
+  "forward_performance": false,
+  "data2026": false,
+  "new_orders_to_broker": 0,
+  "all_artifact_vectors_archived": false,
+  "daily_drawdown_independently_recomputed": false,
+  "ledger_sha256": "efaa90c2705c887711162a3cc2718584bf321d5e16ecf87d6e0310898ce90e34",
+  "final_results_csv_sha256": "503c08e0c11312c6e419d022aad811841ac9ef42d3684f32b99848f4317d2cdf",
+  "month_end_equity_png_sha256": "f00d1bc0e1f690106d01a7523b7080492d42112ee818cb5803ba114d8b1d53d3"
+}

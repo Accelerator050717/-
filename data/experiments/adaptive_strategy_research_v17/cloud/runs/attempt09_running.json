@@ -1,0 +1,10 @@
+{
+  "project": 37249270,
+  "backtest_id": "34c60a7570c87925873ca04af7dcafe7",
+  "name": "Hyper Active Black Alligator",
+  "mode": "ridge_risk",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "host": "Community B-MICRO",
+  "captured_at": "2026-10-02T08:16:44.749Z"
+}

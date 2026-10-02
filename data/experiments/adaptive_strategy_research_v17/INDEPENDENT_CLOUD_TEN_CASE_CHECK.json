@@ -1,0 +1,438 @@
+{
+  "scope": "all ten canonical cloud cases, read-only current-parser/raw-capture verification; no fit/replay",
+  "verifier_sha256": "c3ab9d209ff007b47118271be8c55ae9174b4e60e61bf2bc7147079e1bc3740f",
+  "cases": {
+    "eq_cost10": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "4fca6ea5369fafbb254aa0eff1ecf236",
+        "name": "Virtual Orange Rhinoceros",
+        "mode": "eq",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T07:56:27.670Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt05_completed_capture.json",
+      "capture_sha256": "1517b88078cae1cfceb0a6fb47236fd99f78bcdd7c47b32710cae18a21e89ad2",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 97269.22163316901,
+      "annual": {
+        "2022": -0.21180041018191031,
+        "2023": 0.2340684122357637
+      },
+      "cagr": -0.013757752738226103,
+      "max_drawdown_engine": 0.26607952908191
+    },
+    "eq_cost20": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "dd50202fb4a6bda82c16dd22ac71c34e",
+        "name": "Dancing Brown Dolphin",
+        "mode": "eq",
+        "cost_bps": 20,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:36:31.662Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt11_completed_capture.json",
+      "capture_sha256": "eeafda37cda2384d1b24eea2d2f2360788f3bcfba4e8ccb9b3a7de3e1cdbb628",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 96525.290448169,
+      "annual": {
+        "2022": -0.21475774943191017,
+        "2023": 0.22924219090779951
+      },
+      "cagr": -0.01753904721963795,
+      "max_drawdown_engine": 0.26872744223191014
+    },
+    "mom20_cost10": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "a187b2680217d44e97e6761ef51c84b8",
+        "name": "Retrospective Yellow Gull",
+        "mode": "mom20",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:08:39.470Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt07_completed_capture.json",
+      "capture_sha256": "f4652609ef84fd069fd3fb028e5c5ee23c837d4e3a12e16c939377713824ca23",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 78668.33513386399,
+      "annual": {
+        "2022": -0.34552686956136003,
+        "2023": 0.2020101586315548
+      },
+      "cagr": -0.1131211570017755,
+      "max_drawdown_engine": 0.4283546731238159
+    },
+    "ridge_cost10": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "8853629b1527c771f1e1b44cf99bbfc3",
+        "name": "Focused Fluorescent Pink Salmon",
+        "mode": "ridge",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T07:48:46.071Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt04_completed_capture.json",
+      "capture_sha256": "1aa677bbf27cbd2f780f060722081f016531e5baf6755cb78f2318779bbc6867",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 86297.525113903,
+      "annual": {
+        "2022": -0.4067810825609699,
+        "2023": 0.4547331950649147
+      },
+      "cagr": -0.07108227023828761,
+      "max_drawdown_engine": 0.42234968256096994
+    },
+    "ridge_risk_cost10": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "34c60a7570c87925873ca04af7dcafe7",
+        "name": "Hyper Active Black Alligator",
+        "mode": "ridge_risk",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:22:06.801Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt09_completed_capture.json",
+      "capture_sha256": "6673679946396d60492ca824c236a78e30906a6ec6e1b72afab363be2e640745",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 81434.401957387,
+      "annual": {
+        "2022": -0.37336060272613003,
+        "2023": 0.2995416871594567
+      },
+      "cagr": -0.09765334981137974,
+      "max_drawdown_engine": 0.38915440272613
+    },
+    "spy_cost10": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "75894829335b6264a5dc387c92ad7625",
+        "name": "Pensive Green Flamingo",
+        "mode": "spy",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:02:29.344Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt06_completed_capture.json",
+      "capture_sha256": "0ade770377f919d4248a0db6736a2dcf589e28399bfdbceff6e59d9a8275dd2b",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 102799.62699,
+      "annual": {
+        "2022": -0.1674978211999999,
+        "2023": 0.23482712247287152
+      },
+      "cagr": 0.013911096478552043,
+      "max_drawdown_engine": 0.2215842602
+    },
+    "spy_cost20": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "e316c96dea9462fc38630c6c684bd128",
+        "name": "Smooth Violet Baboon",
+        "mode": "spy",
+        "cost_bps": 20,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:55:27.658Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt13_completed_capture.json",
+      "capture_sha256": "815b4faefde9479a7e9a06eb5f65cf7ae8904f7e95805e24730cefb8849066d8",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 102534.49975999999,
+      "annual": {
+        "2022": -0.168922699,
+        "2023": 0.23375406399169596
+      },
+      "cagr": 0.012601884005789987,
+      "max_drawdown_engine": 0.22273495620000006
+    },
+    "trend63_cost10": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "feed23708e171f6e3b7674fb095a0ee9",
+        "name": "Pensive Red Fish",
+        "mode": "trend63",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:15:42.467Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt08_completed_capture.json",
+      "capture_sha256": "75f1e8cc6e4de747fa6c955461f564b22090f1464a1f8efd6fd5949a01d06117",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 97754.11785,
+      "annual": {
+        "2022": -0.3076498767999999,
+        "2023": 0.4119173894009929
+      },
+      "cagr": -0.011300869874450226,
+      "max_drawdown_engine": 0.3755838293544128
+    },
+    "trend63_risk_cost10": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "d5dc469c4123c4d2f1e14a4450a96abe",
+        "name": "Square Violet Butterfly",
+        "mode": "trend63_risk",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:29:12.196Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt10_completed_capture.json",
+      "capture_sha256": "b77e5826f8284a3b8ad68b7423cdd13f2be6df66352a53f87c7cd37d23e08bed",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 94037.24564,
+      "annual": {
+        "2022": -0.27379565650000004,
+        "2023": 0.29491439264573893
+      },
+      "cagr": -0.03029238477888807,
+      "max_drawdown_engine": 0.3268294537471007
+    },
+    "trend63_risk_cost20": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "66e7b148349396b44d27193f02e6c6e1",
+        "name": "Measured Red Orange Chicken",
+        "mode": "trend63_risk",
+        "cost_bps": 20,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T09:02:17.797Z"
+      },
+      "checks": {
+        "current_parser_passed": true,
+        "provided_operator_mode_cost_agree": true,
+        "generated_identity_matches": true,
+        "source_identity_common": true,
+        "raw_summary_matches_saved": true,
+        "raw_full_models_match_saved": true,
+        "raw_24monthly_match_saved": true,
+        "capture_hash_matches_saved": true
+      },
+      "capture_path": "cloud\\runs\\attempt14_completed_capture.json",
+      "capture_sha256": "793e006b4610f8faa258964a34e41e0327b1571d1a44157db1faa80974f9b338",
+      "full_daily_drawdown_independently_recomputed": false,
+      "final_equity": 92123.76494,
+      "annual": {
+        "2022": -0.28073322160000014,
+        "2023": 0.28080105611061557
+      },
+      "cagr": -0.04021570829143406,
+      "max_drawdown_engine": 0.33488081588803476
+    }
+  },
+  "all_checks_passed": true,
+  "cost_pairs": {
+    "eq": {
+      "difference20_minus10": {
+        "net_cagr": -0.0037812944814118454,
+        "net_cumulative": -0.007439311850000019,
+        "max_drawdown": 0.002647913150000125,
+        "final_equity": -743.9311850000086,
+        "fees_paid": 626.9911849999978,
+        "average_exposure": 0.0009643087470022627
+      },
+      "prediction_panel_hash_matches": true,
+      "model_hashes_match": true,
+      "annual_difference": {
+        "2022": -0.0029573392499998574,
+        "2023": -0.004826221327964175
+      },
+      "hash_interpretation": "Meaningful common scored signal for trend63_risk; equal/SPY empty score vectors do not prove identical monthly membership."
+    },
+    "spy": {
+      "difference20_minus10": {
+        "net_cagr": -0.0013092124727620558,
+        "net_cumulative": -0.0026512723000000626,
+        "max_drawdown": 0.0011506960000000621,
+        "final_equity": -265.1272300000128,
+        "fees_paid": 185.43723000000006,
+        "average_exposure": 0.00023433970388253567
+      },
+      "prediction_panel_hash_matches": true,
+      "model_hashes_match": true,
+      "annual_difference": {
+        "2022": -0.0014248778000001128,
+        "2023": -0.0010730584811755595
+      },
+      "hash_interpretation": "Meaningful common scored signal for trend63_risk; equal/SPY empty score vectors do not prove identical monthly membership."
+    },
+    "trend63_risk": {
+      "difference20_minus10": {
+        "net_cagr": -0.00992332351254599,
+        "net_cumulative": -0.01913480699999992,
+        "max_drawdown": 0.008051362140934049,
+        "final_equity": -1913.4807,
+        "fees_paid": 1935.5607000000014,
+        "average_exposure": 0.0010355722638106801
+      },
+      "prediction_panel_hash_matches": true,
+      "model_hashes_match": true,
+      "annual_difference": {
+        "2022": -0.006937565100000098,
+        "2023": -0.014113336535123366
+      },
+      "hash_interpretation": "Meaningful common scored signal for trend63_risk; equal/SPY empty score vectors do not prove identical monthly membership."
+    }
+  },
+  "selection": {
+    "status": "all_candidates_rejected_risk_diagnostic_only",
+    "missing_10bp_modes": [],
+    "selected_research_candidate": "trend63_risk",
+    "rule": "among fixed non-control candidates with fullDD<=30%, highestnetCAGR; if none, leastDD as rejected diagnostic only",
+    "independent_validation": false,
+    "forward_run": false,
+    "pending_reasons": [],
+    "selected_10bp_cagr": -0.03029238477888807,
+    "selected_10bp_drawdown": 0.3268294537471007,
+    "meets_minimum_numeric_targets": false,
+    "required_20bp_modes": [
+      "trend63_risk",
+      "eq",
+      "spy"
+    ],
+    "remaining_20bp_modes": [],
+    "best_including_controls_under_budget": "spy"
+  },
+  "selection_checks": {
+    "ten_validated": true,
+    "common_source": true,
+    "all_five_rejected": true,
+    "failed_diagnostic_only": true,
+    "cost_requirements_complete": true
+  },
+  "reviewed_runtime_source_check": {
+    "strategy_sha256": {
+      "passed": true,
+      "frozen_snapshot": "cloud\\revision03\\main.py",
+      "expected_runtime_sha256_after_LF_plus_one_terminal_LF": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c"
+    },
+    "core_sha256": {
+      "passed": true,
+      "frozen_snapshot": "cloud\\qc_v15_dynamic_pilot.py",
+      "expected_runtime_sha256_after_LF_plus_one_terminal_LF": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8"
+    },
+    "features_sha256": {
+      "passed": true,
+      "frozen_snapshot": "cloud\\revision03\\qc_v17_features.py",
+      "expected_runtime_sha256_after_LF_plus_one_terminal_LF": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320"
+    }
+  },
+  "counts": {
+    "cloud_attempts": 14,
+    "cloud_completed_replays": 12,
+    "cloud_runtime_errors": 2,
+    "cloud_unique_configurations": 10,
+    "local_unique_configurations_and_replays": 8,
+    "total_unique_configurations": 18,
+    "total_completed_replays": 20,
+    "actual_model_fits": 16,
+    "cloud_actual_fits": 6,
+    "local_actual_fits": 10,
+    "unique_cloud_models": 2,
+    "unique_local_models": 10
+  },
+  "counts_passed": true
+}

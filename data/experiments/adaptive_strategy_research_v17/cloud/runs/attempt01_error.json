@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-02T07:18:58.873Z",
+  "project_id": 37249270,
+  "backtest_id": "199d1175e796340f958a3e96c45bdf67",
+  "name": "Crawling Magenta Owl",
+  "mode": "ridge",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "host": "Community B-MICRO",
+  "status": "Runtime Error",
+  "error": "2018-12-03 00:00:00 Duplicate Fundamental SID",
+  "location": "main.py line129 select_universe",
+  "actual_model_fits": 0,
+  "orders": 0,
+  "execution_seconds": 5.46,
+  "processed_points": 8029,
+  "result_valid": false,
+  "sources": "../PRE_RUN.json"
+}

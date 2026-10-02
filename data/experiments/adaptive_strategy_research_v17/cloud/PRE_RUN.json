@@ -1,0 +1,26 @@
+{
+  "project_id": 37249270,
+  "recorded_at": "2026-10-02T07:12:55.738Z",
+  "engine_visible": "2.5.0.0.18149",
+  "sources": {
+    "qc_v15_dynamic_pilot.py": {
+      "sha256": "ab35fd31f6c7f30aa762bdfe4b82ac2675142c9b61fa1067a7e2781eac46e357",
+      "bytes": 30005
+    },
+    "qc_v17_features.py": {
+      "sha256": "ebe2fa043ba519e233d7253d61134efa1c4986bbc2922fc268c7df7bc5d36b08",
+      "bytes": 3081
+    },
+    "main.py": {
+      "sha256": "dff379e29f33d8811c42fd9851b27e847c7556a3053709da9654bf6fe656c086",
+      "bytes": 25858
+    }
+  },
+  "clipboard_readback_verified": true,
+  "parameters": {
+    "research_mode": "ridge",
+    "cost_bps": 10
+  },
+  "data_through": "2023-12-31",
+  "live": false
+}

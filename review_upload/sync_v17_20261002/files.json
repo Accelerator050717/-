@@ -1,0 +1,1342 @@
+{
+  "baseline_commit": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+  "tracked_material": [
+    {
+      "path": ".gitignore",
+      "bytes": 133756,
+      "sha256": "748a9f15042ce8a40c0850a77528a5cabe9a93a92186e79060146adf25e597e4"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/abandoned_transport_180chars/main.py",
+      "bytes": 25779,
+      "sha256": "c00b45c6ae7946567aa3d478c48c845a33d87cc965294b416411c637c64c49f2"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/abandoned_transport_180chars/qc_v17_features.py",
+      "bytes": 5713,
+      "sha256": "b8331b61273c86facefb84ee90aa5ffc2f13045a8f2a135b998138656d5a0435"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/abandoned_transport_180chars/README.md",
+      "bytes": 800,
+      "sha256": "ad3a87d0c66a54330a4fa552cd7d0baf5cc9b2ab2c168d396eecf2daf07d11a2"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/abandoned_transport_180chars/summarize_v17_cloud.py",
+      "bytes": 11884,
+      "sha256": "05d8a39ec65dd567863ee68b72d4226e3923f951c4e0ae20e3b1d3c44901519c"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/abandoned_transport_180chars/test_v17_research.py",
+      "bytes": 18569,
+      "sha256": "4ed484cd8f74ca7bb7cf6a1fe5c72a82d14b0d9faecdeea4b9d7d305fa3e06ec"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/ACCESS_BLOCK.json",
+      "bytes": 449,
+      "sha256": "b7ee42e7ed03b3bb6ceb26997fdce151bb26edffa26a1bb3eccceabefd6ce0a8"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/ACCESS_RESOLVED.json",
+      "bytes": 353,
+      "sha256": "0c361e901e06c0dfbf45faf9d396800c1807120377a60f7412472edcbea8893c"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/attempt_ledger.csv",
+      "bytes": 2618,
+      "sha256": "efaa90c2705c887711162a3cc2718584bf321d5e16ecf87d6e0310898ce90e34"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/BOUNDED_OUTPUT_SIZE_CHECK.json",
+      "bytes": 698,
+      "sha256": "ad1a5b943226384a927199f0c2880c2f96538664d59f0a63da8b43d8027727d3"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost10/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost10/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost10/monthly.csv",
+      "bytes": 3462,
+      "sha256": "7f090517a16f10bccd1eee98a32fd7a6e13eddfe8d5c2d290ae9e59cd4e6a8fa"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost10/security_extremes.csv",
+      "bytes": 503,
+      "sha256": "a70bf2ee164e2de1fdae764c18e60c1fdc4c2f8425451e56c4a623f462099cb1"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost10/SUMMARY.json",
+      "bytes": 5051,
+      "sha256": "72b61b5e07f13123b51181ef6a98e7f9ca0637b658ece08071d7ce3d3ab859bf"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost10/VERIFICATION.json",
+      "bytes": 13021,
+      "sha256": "53677fbb72589c1c17817cf372be209b2d7d6ecd7a3d06568affbf3d27220c75"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost20/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost20/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost20/monthly.csv",
+      "bytes": 3504,
+      "sha256": "aa3a652c95aba8256a3946e9a9b0b74e166036bee96a68917f451f30eb5575ea"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost20/security_extremes.csv",
+      "bytes": 474,
+      "sha256": "1ff2a16b011e42b6378ed14cb49d5ecaaab5c49c18382c95e057c9518322c937"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost20/SUMMARY.json",
+      "bytes": 5013,
+      "sha256": "9df5b0e29f8b460111ab0a90a0a604891a3d4124bd14ebe8a103585355c842ac"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/eq_cost20/VERIFICATION.json",
+      "bytes": 13019,
+      "sha256": "0b2f2e7fd39ccb5a333af26fcc1ed8ae755ba542395906c0d29149a5267fcbe7"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/mom20_cost10/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/mom20_cost10/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/mom20_cost10/monthly.csv",
+      "bytes": 3381,
+      "sha256": "23b705a225a518c7d4b63fb3a2dfac0a21e326b51a4a7dafdd75859d46af6373"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/mom20_cost10/security_extremes.csv",
+      "bytes": 510,
+      "sha256": "1c6a78981dad0d32883b872ee43be67dca794d68d93ba87ac9d4d4d8b0a358b1"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/mom20_cost10/SUMMARY.json",
+      "bytes": 4889,
+      "sha256": "07cfa3270a2e42f29bcd0b01af4eb69894c47a49208f05b7d1d64db0e2716251"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/mom20_cost10/VERIFICATION.json",
+      "bytes": 13032,
+      "sha256": "aadd13d159a19c1604183991637113cee656c0235a6e17747be3ea31fcd11ff7"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_cost10/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_cost10/FITS.json",
+      "bytes": 3283,
+      "sha256": "efe69c37ee0f970d0aef980e5068f420a1c73122a95a58c2af423fb99f598b97"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_cost10/monthly.csv",
+      "bytes": 3366,
+      "sha256": "54742a3fbf88f1a54555d960a34ce116b58db4bc29498709b36995b9524f732a"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_cost10/security_extremes.csv",
+      "bytes": 521,
+      "sha256": "793ffeae882ea63752a7b53b3a873d9d2875ccb39c77ac7bd0f9af027fbd2607"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_cost10/SUMMARY.json",
+      "bytes": 5200,
+      "sha256": "12e538311a01a336d3651f5b7522c8a7b13ecc9af4107c897de86a7e01a34f42"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_cost10/VERIFICATION.json",
+      "bytes": 14382,
+      "sha256": "31e46c4e2614ac18b82486753192254ca927324e2fb24fddaed1e1a8c5593580"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_risk_cost10/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_risk_cost10/FITS.json",
+      "bytes": 3281,
+      "sha256": "c48026ce2342edf8f78b7d9286f14207d8c900b26a2c7c264c0accf0fa578a14"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_risk_cost10/monthly.csv",
+      "bytes": 3406,
+      "sha256": "e4103214911ca12657921c10fff5698ca770b73a79191bfbca8f3eb7966742b5"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_risk_cost10/security_extremes.csv",
+      "bytes": 521,
+      "sha256": "b3aa898e6efdaaf33d5b971f718887dbe7e68cc3df4b559c2e3d2c131c9f6a1b"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_risk_cost10/SUMMARY.json",
+      "bytes": 5223,
+      "sha256": "30e12c34053f0e785b381d9a5375c62b03ca33bba34a294583878e87e2785951"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_risk_cost10/VERIFICATION.json",
+      "bytes": 14391,
+      "sha256": "59ce9186d128b05a9fe128c1a92461079d5be076c26befd23b89986763f52857"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost10/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost10/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost10/monthly.csv",
+      "bytes": 3017,
+      "sha256": "73b56f6ebe4db5e9ca941a6ca952ec39c0d60bf14895eb2ab420c2ce894cd748"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost10/security_extremes.csv",
+      "bytes": 73,
+      "sha256": "2e86678c8afd86f27dae7841db486ad1d0215f96ad3cc71b41269365aff5263e"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost10/SUMMARY.json",
+      "bytes": 3990,
+      "sha256": "72d3ab47ad6730e0ef81f23a3982646c8e6224d9e99ecc3998b88cec0762f359"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost10/VERIFICATION.json",
+      "bytes": 13024,
+      "sha256": "2db74b9eac06a19549dd164624c7d276b4501fbf0312522ba2b4f2f1a8c3f22a"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost20/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost20/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost20/monthly.csv",
+      "bytes": 3007,
+      "sha256": "c3f5bce04fc53ddd7c80263f2f6f0f78257e4dbc596e601674955c828e314aba"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost20/security_extremes.csv",
+      "bytes": 74,
+      "sha256": "8c839f56a26102102f39b16d280cc5e0dcc591227b1c2efb4a10a5ab7876eba8"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost20/SUMMARY.json",
+      "bytes": 4012,
+      "sha256": "85a43b238de554fa891b76155af13b2d8b3adba7d7a5095f36fcf1516371beb6"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/spy_cost20/VERIFICATION.json",
+      "bytes": 13333,
+      "sha256": "fe66d673a4d4b1856ee770bb80381d6cc220f81f7ee3470a350d309d7bbb6054"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_cost10/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_cost10/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_cost10/monthly.csv",
+      "bytes": 3291,
+      "sha256": "54a7d3c86fb6a8bdaa9623eadad2f85ecaac4b890060d04c0705298387a3afe2"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_cost10/security_extremes.csv",
+      "bytes": 518,
+      "sha256": "d8ca432d55e5fcad935977ac6b571611b176f861fc60ab1409d89d42c8532628"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_cost10/SUMMARY.json",
+      "bytes": 4959,
+      "sha256": "0f456896a68643f9c419630c5eaa1a12b77fdefc501874a081ba979868bb296f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_cost10/VERIFICATION.json",
+      "bytes": 13026,
+      "sha256": "0ac66d3f95b5b83ad89d8f0e9bbc65bb1e9ff2c9d99d1ad4a7b8106d0bcd7356"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost10/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost10/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost10/monthly.csv",
+      "bytes": 3187,
+      "sha256": "6075fbcd3bd392091c8c30b7c37b5232f0aee8d632f9d6ce2c648d48b7f85b36"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost10/security_extremes.csv",
+      "bytes": 496,
+      "sha256": "43e896ce9b6dc8b559ebe3da6f3471bf1409b6e4ecd67e4c5a8511df156862a5"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost10/SUMMARY.json",
+      "bytes": 4946,
+      "sha256": "8191d0cfae22302ac09ab8fab0dbb6a9100fe0e97e425182639364b7aa4801fd"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost10/VERIFICATION.json",
+      "bytes": 13037,
+      "sha256": "804cf1ee7ddd4b321aa7b0bfa7dac86fd5fee11786ceee3ca60c4fc164f911d8"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost20/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost20/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost20/monthly.csv",
+      "bytes": 3162,
+      "sha256": "b398656ee8339223436a57254440fb9f12d213c4505541d3ade8f5ae1af4cae7"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost20/security_extremes.csv",
+      "bytes": 511,
+      "sha256": "bf0d4168dcbe1c55941e368d63d2ae8d177dcf44506864d85a19c8a1463dfbac"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost20/SUMMARY.json",
+      "bytes": 4952,
+      "sha256": "1b1163d53547dcb7e267a0c053023cc82aa25ff702491cffc58a5f66b39176f8"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/cases/trend63_risk_cost20/VERIFICATION.json",
+      "bytes": 13355,
+      "sha256": "0948b55529997f21de46f1811d98f3ba0cc5f79d50bc26d8e4509bd54633ff3e"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/comparison/annual.csv",
+      "bytes": 747,
+      "sha256": "66453a4bd93e68e4607252f1ca05bda6e8780087e32696b4c8e364c1519f2655"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/comparison/CANDIDATE_DIAGNOSTICS.json",
+      "bytes": 2564,
+      "sha256": "5a5e1d7e71e8dfcf4d0c6279b6edd22e7b20fd8a4dcf3c7d81641a2bceee9df3"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/comparison/COMPARISON.json",
+      "bytes": 13968,
+      "sha256": "4e11468220f00415d1dd765300331b003a844c21560993292288875b07de372a"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/comparison/month_end_equity.png",
+      "bytes": 292264,
+      "sha256": "f00d1bc0e1f690106d01a7523b7080492d42112ee818cb5803ba114d8b1d53d3"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/comparison/monthly.csv",
+      "bytes": 34339,
+      "sha256": "c94269634fb317e6909a727d4210b89f8c5273c42c2baf0a687992a319b37c9c"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/comparison/PLOT_SOURCES.json",
+      "bytes": 2032,
+      "sha256": "2d7f61b9220e95760029cc2757b8f2046fee98400bddcb850a1473c9b07c8e43"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/comparison/results.csv",
+      "bytes": 4293,
+      "sha256": "503c08e0c11312c6e419d022aad811841ac9ef42d3684f32b99848f4317d2cdf"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/completed_backtests.png",
+      "bytes": 142040,
+      "sha256": "ce78e7f7c29d6bb3341b936ee391bba3f3b1554914ebf1ac4271c8688687f517"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/COMPLETION.json",
+      "bytes": 965,
+      "sha256": "759e2a08acea3836673dcbf57f7e4c9bd534a39c458a3d4d96691b55c43c5a96"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/main.py",
+      "bytes": 25858,
+      "sha256": "dff379e29f33d8811c42fd9851b27e847c7556a3053709da9654bf6fe656c086"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/PRE_RUN.json",
+      "bytes": 702,
+      "sha256": "4ec4a05ff5d878cf31985e6e1648375fafd78391bc726f8d65b9729e907b64e9"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/qc_v15_dynamic_pilot.py",
+      "bytes": 30005,
+      "sha256": "ab35fd31f6c7f30aa762bdfe4b82ac2675142c9b61fa1067a7e2781eac46e357"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/qc_v17_features.py",
+      "bytes": 3081,
+      "sha256": "ebe2fa043ba519e233d7253d61134efa1c4986bbc2922fc268c7df7bc5d36b08"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/README.md",
+      "bytes": 8921,
+      "sha256": "91a7dd155ffee931dac967b66a1903cb9a3593a59fde1d45d2438e1ad4ccb8d3"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/repeats/attempt12_actual_eq20/DERIVED_ARTIFACTS.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/repeats/attempt12_actual_eq20/FITS.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/repeats/attempt12_actual_eq20/monthly.csv",
+      "bytes": 3504,
+      "sha256": "aa3a652c95aba8256a3946e9a9b0b74e166036bee96a68917f451f30eb5575ea"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/repeats/attempt12_actual_eq20/security_extremes.csv",
+      "bytes": 474,
+      "sha256": "1ff2a16b011e42b6378ed14cb49d5ecaaab5c49c18382c95e057c9518322c937"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/repeats/attempt12_actual_eq20/SUMMARY.json",
+      "bytes": 5014,
+      "sha256": "9f190f9e7aaf71ec6608b63f5a51fa2bec76398668619fe4a1179a1cae9a3438"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/repeats/attempt12_actual_eq20/VERIFICATION.json",
+      "bytes": 13333,
+      "sha256": "ba95c48ba2c58314e5c519441c8ec442ff2d420cc6f5d80b0419e46bdf3011a6"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/REPORT.md",
+      "bytes": 13798,
+      "sha256": "d581174e77f1b9b31e9248e319f073a27e9e234f89fcf1a15e975a18f979929b"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/results.csv",
+      "bytes": 4293,
+      "sha256": "503c08e0c11312c6e419d022aad811841ac9ef42d3684f32b99848f4317d2cdf"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/revision02/main.py",
+      "bytes": 26363,
+      "sha256": "4549f9b06504530ae32908fb65ee882044ba18ee42248bae5a42de61b5ee8b8d"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/revision02/PRE_RUN.json",
+      "bytes": 531,
+      "sha256": "c7412adbe8ed9dd67e472309ceb27352cdc548daa962a888d45d3a3601181803"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/revision02/qc_v17_features.py",
+      "bytes": 4081,
+      "sha256": "058d2c541fc47b1cdebfaae6b90bad759f8ea2b84388f13b15db2dd0ce74b70a"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/revision03/main.py",
+      "bytes": 28068,
+      "sha256": "934c0956fdc94ccb740f7cdf74b85284727afcd3bd7e2b88f602ddf6a5c215ee"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/revision03/PRE_RUN.json",
+      "bytes": 494,
+      "sha256": "2b0ab3064cf0ffe67db675ffc3d966ea60a78d04120c391c2947b88f3f67111d"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/revision03/qc_v17_features.py",
+      "bytes": 4081,
+      "sha256": "058d2c541fc47b1cdebfaae6b90bad759f8ea2b84388f13b15db2dd0ce74b70a"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt01_error.json",
+      "bytes": 550,
+      "sha256": "a6422fb46f49d91e3204cf64e360947c1b4202efdbcafdfd1b10c094e8eaea32"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt02_error.json",
+      "bytes": 768,
+      "sha256": "5ebcc54cc763c321873560ca8a700a23b4af093bfaef48d24ebd30b6f7fdc8ff"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt03_completed_capture.json",
+      "bytes": 11846,
+      "sha256": "405980a72b30e150f0e16474688629afb37946b687e89d482d875638e86b3961"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt03_logs.json",
+      "bytes": 5860,
+      "sha256": "f0405b88917310d58c8c013f60bc98d3666e2d2a79f54cbbeab33fa35ff39f59"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt03_partial_runtime.json",
+      "bytes": 9508,
+      "sha256": "d2034c3feae006188e7f24fa7c0ea5e3849ba49a95468f5bc6b91c3becf72887"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt03_running.json",
+      "bytes": 534,
+      "sha256": "4fa22f6d2e12908df48e67d805bfa1e86031171101ee27c8f56cd2c38de51e28"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt03_summary.json",
+      "bytes": 2698,
+      "sha256": "cf1d70c7f23dbb5b5d37a04d56c768ef808f821ae789932e7592193ff6542da7"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt04_completed_capture.json",
+      "bytes": 13000,
+      "sha256": "1aa677bbf27cbd2f780f060722081f016531e5baf6755cb78f2318779bbc6867"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt04_running.json",
+      "bytes": 367,
+      "sha256": "e311efa570c5f980185cbed8a2344fbe612d786dd0076736775b45a7a796d840"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt05_completed_capture.json",
+      "bytes": 10059,
+      "sha256": "1517b88078cae1cfceb0a6fb47236fd99f78bcdd7c47b32710cae18a21e89ad2"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt05_running.json",
+      "bytes": 256,
+      "sha256": "78cc9c54aca7b38796e458dbdb3d7cc93764992ff448e7577779599c9f054a7b"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt06_completed_capture.json",
+      "bytes": 8927,
+      "sha256": "0ade770377f919d4248a0db6736a2dcf589e28399bfdbceff6e59d9a8275dd2b"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt06_running.json",
+      "bytes": 254,
+      "sha256": "6af39dd71b601b5d6d51f54b08d2cca6e80d99c56f138555ec69f1ecdd2ee453"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt07_completed_capture.json",
+      "bytes": 9892,
+      "sha256": "f4652609ef84fd069fd3fb028e5c5ee23c837d4e3a12e16c939377713824ca23"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt07_running.json",
+      "bytes": 259,
+      "sha256": "997cca018f73cc746518ac9b0402e71e6581729e4e130d93e6775fb70ca7b209"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt08_completed_capture.json",
+      "bytes": 9909,
+      "sha256": "75f1e8cc6e4de747fa6c955461f564b22090f1464a1f8efd6fd5949a01d06117"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt08_running.json",
+      "bytes": 252,
+      "sha256": "e346650ab3ceb4b337e7200b560a637932d46ca74e743b7c211948f0181192ac"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt09_completed_capture.json",
+      "bytes": 13069,
+      "sha256": "6673679946396d60492ca824c236a78e30906a6ec6e1b72afab363be2e640745"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt09_running.json",
+      "bytes": 267,
+      "sha256": "710606dc1cfdb923a5f99760173c852385586584f40d6a0e52394b4cdfbad2ae"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt10_completed_capture.json",
+      "bytes": 9815,
+      "sha256": "b77e5826f8284a3b8ad68b7423cdd13f2be6df66352a53f87c7cd37d23e08bed"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt10_running.json",
+      "bytes": 264,
+      "sha256": "78800bf23bc6a9831deb4113050ae3c700c533a384507a5ababe08b5ba17c72d"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt11_completed_capture.json",
+      "bytes": 10104,
+      "sha256": "eeafda37cda2384d1b24eea2d2f2360788f3bcfba4e8ccb9b3a7de3e1cdbb628"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt11_running.json",
+      "bytes": 252,
+      "sha256": "001d2ba7988f4daf58f7da4539ec187f439c45d8bcde363b3a910db90c055893"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt12_classification.json",
+      "bytes": 1176,
+      "sha256": "495aac2d9c73d9b37eb70f06ef9a212ea7b91c8d807cee1bf4b6bef19a9fde4c"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt12_completed_capture.json",
+      "bytes": 10108,
+      "sha256": "712beed34e88709091a2ebd9234fec7155dcfa480c1e04d4124640eedcddfb40"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt13_completed_capture.json",
+      "bytes": 8904,
+      "sha256": "815b4faefde9479a7e9a06eb5f65cf7ae8904f7e95805e24730cefb8849066d8"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt14_completed_capture.json",
+      "bytes": 9784,
+      "sha256": "793e006b4610f8faa258964a34e41e0327b1571d1a44157db1faa80974f9b338"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/standardized_coefficients_2022_2023.csv",
+      "bytes": 880,
+      "sha256": "b9bcb835d8cb0a6f2b8f089e39803e15b9d42d63f2c6ac7fe5e49356c81f9f5a"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/cloud/TESTS.json",
+      "bytes": 1491,
+      "sha256": "b655d313367eaa62ede3a7f507933b08836b507399bffc8b35e72887c3164839"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/IMPLEMENTATION_NOTES.md",
+      "bytes": 9420,
+      "sha256": "65345f7d11bfdc471ddb1e16b6913831b9532178c47f3c52fb16f506d1efe64c"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_CLOUD_COST_PROGRESS_CHECK.json",
+      "bytes": 1117,
+      "sha256": "c34ba248c30c502ab99a41f88a9ee304dc1e46b91b2f3877da879b7fd9fad8bd"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_CLOUD_REPEAT_CHECK.json",
+      "bytes": 1744,
+      "sha256": "aa55f837f9e8ada93f1b1e02745c92326fd4d3e82656b85681d1e209110a3d54"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_CLOUD_SEVEN_CASE_CHECK.json",
+      "bytes": 9880,
+      "sha256": "d4b42a9da368613ca45f93f15317be4c52063cffb245d09984fb0e5eef0cb572"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_CLOUD_SOURCE_CHECK.json",
+      "bytes": 2872,
+      "sha256": "60fa3d456c8ae49ccec6e8196fc1c6d80c9ac6dba2a74877448541cab2ae0afb"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_CLOUD_TEN_CASE_CHECK.json",
+      "bytes": 16613,
+      "sha256": "9452cbb3b45f13b9985eefa93e9b90a006168caf18ef2e54e669d68bef8adfd8"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_DUPLICATE_RUN_CHECK.json",
+      "bytes": 1894,
+      "sha256": "167a88eed07676695bfa29df833d2d2549c487a1281689df66fa602eaf050587"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_FIRST_CLOUD_NUMERIC_CHECK.json",
+      "bytes": 1366,
+      "sha256": "71d1fd6aac4b33d7f87b91f7b28a3098f727b747420e4b076c647f08466ba8e4"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_MODEL_CHECKS.json",
+      "bytes": 3083,
+      "sha256": "c4db1ce1b01cce2c07e8af865a72df2f1930d56fbf6a5ac2d8df49f4b6a5f415"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_NUMERIC_CHECKS.json",
+      "bytes": 3430,
+      "sha256": "57edf6a5b51dd7e188caba3769922c96c5b993c27e954e3dc5f01be81073ca07"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_OBSERVER_ONLY_CHECK.json",
+      "bytes": 850,
+      "sha256": "c2c258733d8dbc6821d2414a325c3e66d207b3678cfa2cd6013fdb1a8c90038b"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_REVIEW.md",
+      "bytes": 29750,
+      "sha256": "8815ba28082f9450d699ae6d3ade124b678adb5f3a9d850d0bdcab2f1a5db2a9"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/INDEPENDENT_RIDGE_RISK_PAIR_CHECK.json",
+      "bytes": 3600,
+      "sha256": "841c687bf4087ea1a5544dec970fed09b98b1851e8ba8dedf46ac6d4137a0343"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/annual_ic.csv",
+      "bytes": 540,
+      "sha256": "60dc5cd72565a299ad160659ef3087caa9403495e980ed04781bcfb68a118050"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/annual_results.csv",
+      "bytes": 14698,
+      "sha256": "f31ea9964b7a0ca4bda64a919ddc642af13c4febab6a05e2d4e339858aadeb07"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost10/daily.csv",
+      "bytes": 439973,
+      "sha256": "244ed79912acc679187291728f359675fa3e483a07c4beb3813eeef575bd236d"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost10/metrics.json",
+      "bytes": 574,
+      "sha256": "d3399c6708e55ecab83aafa4cc053f46cca529ac62e4193df85a0460d4ee17e8"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost20/daily.csv",
+      "bytes": 439816,
+      "sha256": "949cbfd01d666da18428ba20fbda2913ae5cec08a9d0c4f4dea6137b73965cd4"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost20/metrics.json",
+      "bytes": 574,
+      "sha256": "445f02a2cd917707d8052b5e3e75ab628445fe4a62330d50200328a7de586304"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/medium_trend_cost10/daily.csv",
+      "bytes": 440852,
+      "sha256": "946bb6f3b902f85abe848b53811a899b5f7afd45e847de03f2b800b23f90eab3"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/medium_trend_cost10/metrics.json",
+      "bytes": 576,
+      "sha256": "064402ef27b7bee6f53df47e01da30efa8d284106132e7c8da75b541f07a994a"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_cost10/daily.csv",
+      "bytes": 439393,
+      "sha256": "65b615050b9d984870d456a2842176407b897eb41b484bb69072384a163fc584"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_cost10/metrics.json",
+      "bytes": 572,
+      "sha256": "b7398b944ebb1900f79ac112968cee8530c5f4bf7cfe0fee648d265b63e0007f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost10/daily.csv",
+      "bytes": 440579,
+      "sha256": "55685d88ca03fbea62b9bd9f5c9f0f7ecee5157b65397e259d65a8b3c4faf979"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost10/metrics.json",
+      "bytes": 586,
+      "sha256": "bb3fa22769336ae69efec7382e4b2b70f5f4899d9ba04365ebd5b91b212a99af"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost20/daily.csv",
+      "bytes": 441188,
+      "sha256": "529f5017326753d3ea100b6c0ef04affdc059c2d5ff26dc03f40896b34186227"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost20/metrics.json",
+      "bytes": 588,
+      "sha256": "073385876d37d80cda46cccf0239a2e9b014df5b7184c6a291216cfe0cbf4d66"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost10/daily.csv",
+      "bytes": 436420,
+      "sha256": "cf272a0128d779dfaeef329ea7288a68a9148f06b57ae5e0a60aaf7381b6243d"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost10/metrics.json",
+      "bytes": 570,
+      "sha256": "3ac1886a9fe19a505c85ec7b4b496fb0986ef7867b331e763e1c1ce7bb4f880f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost20/daily.csv",
+      "bytes": 436292,
+      "sha256": "56a1d88c109bf18130b69e633c6d4b550f2b9ea0d6d143353d503677ffdf13c5"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost20/metrics.json",
+      "bytes": 567,
+      "sha256": "d87a707f64acef197f4fbacbcc89006abef3192f13290ca97ad2dbfb0a562c3b"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/CHECKS.json",
+      "bytes": 2097,
+      "sha256": "2e4026302dafe7213b51b20cc81cbafa0ca7225eec61d314ec4faa786a24e380"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/coefficients.csv",
+      "bytes": 2805,
+      "sha256": "d759263bd6c4b70e3eb919b04602423b0521808d6e8f3e305e408d9080b1d9b2"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/COMPLETE.json",
+      "bytes": 13858,
+      "sha256": "fb12c512e8ac1f0f345d824e71eafbe46ce26416560377395c75fe7d49bffcce"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/daily_ic.csv",
+      "bytes": 129969,
+      "sha256": "1e746e4d5138f760a78157a7af63847a22739fde19cb4f615278b035d31be1d3"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/DATA_CHECKS.json",
+      "bytes": 367,
+      "sha256": "758c696f70941264d14c8078d181a6e9422485288b2bdd307b3cc74cecea9f4b"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/DESCRIPTIVE_DIAGNOSTICS.json",
+      "bytes": 5856,
+      "sha256": "5f2fc10c866196034bffdb523429d0781649c6c0b304e14b8474a9d13d73f24c"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/FINALIST_SELECTION.json",
+      "bytes": 460,
+      "sha256": "0929fa762af53f48926874534cc504f6aa03baa9db34fe5d2b3611c1fde68812"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/GENERATION.json",
+      "bytes": 119,
+      "sha256": "ef9d5d947b4dd0f19a71571d2c5d729305a0ccffd68cf7674cfd6fee82d32a14"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/IMPLEMENTATION.json",
+      "bytes": 563,
+      "sha256": "06033219a32601c779ef0651fd0da2a053c4bbab896d10cea94fb30acd0417ef"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/INPUT_IDENTITY.json",
+      "bytes": 113589,
+      "sha256": "2ca99145554e85d84d3b104a30284ad7a30e844ee53077f5c2f0e52eec6a6aa5"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/LARGE_ARTIFACTS.csv",
+      "bytes": 13735,
+      "sha256": "8e98e052530d895d497812dd2af9ae9256eaeee4de2be9cdf9649233e29cd633"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2016_ridge_risk_scaled_excess20.json",
+      "bytes": 780,
+      "sha256": "32abdbcc57bab86dc800508e96242dfef22216e8b74bee4ee7bcb0ebd974da69"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2017_ridge_risk_scaled_excess20.json",
+      "bytes": 782,
+      "sha256": "161b13d9fa52b62f43581a5bee9aae670465d71685de129014c041b89c1d8f3c"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2018_ridge_risk_scaled_excess20.json",
+      "bytes": 782,
+      "sha256": "a7226d7fedfa05789cce40ea4b196c4b90d101e9e42a559a076d369ad82081d1"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2019_ridge_risk_scaled_excess20.json",
+      "bytes": 782,
+      "sha256": "e7f741d87f0417d56c7d32395e9fd77912d04fe4cb012411476ad66e162b27a2"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2020_ridge_risk_scaled_excess20.json",
+      "bytes": 780,
+      "sha256": "c3a5acc6551fa60c3bb1f9bb850fe65f9c5a843e1d8f7a70fa007756400c73e1"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2021_ridge_risk_scaled_excess20.json",
+      "bytes": 781,
+      "sha256": "e1fbd5bc7f8084e986b56998028e55d7d73e55e4faf4729f4bc96c56c83cb0df"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2022_ridge_risk_scaled_excess20.json",
+      "bytes": 781,
+      "sha256": "4e7042d2dd49c2bdfee78219c41553ff60498d2636969584420bbad8170f8a09"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2023_ridge_risk_scaled_excess20.json",
+      "bytes": 782,
+      "sha256": "df67f24e1072dae440ae2fab8fdd2a561217a474986cd27275d18939fac1f646"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2024_ridge_risk_scaled_excess20.json",
+      "bytes": 781,
+      "sha256": "42bf5f2621bc5049212c81b40c8f07da459ebabe28948f7935e7596e1ecb2d68"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2025_ridge_risk_scaled_excess20.json",
+      "bytes": 781,
+      "sha256": "8fe55145f3b253db9606714ace33c1439927d00e259c763b70bc9e231669cee9"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/monthly_results.csv",
+      "bytes": 115891,
+      "sha256": "8b576b9eb2b0372de79be24d811399aaaafa4e3b9b15ce59a675bcc9f6e8dade"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/PLAN.json",
+      "bytes": 1811,
+      "sha256": "5c5526b01d0375e3e5e57b24cdacea0fa790118c5b62cb7b5169f4afdc1836cf"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/README.md",
+      "bytes": 2542,
+      "sha256": "23573ac7ce1467a5df534705a517089278fb7fc32482e95a2da94afaaba65a83"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/REPORT.md",
+      "bytes": 9702,
+      "sha256": "60bcb712ccc3af5cc598e91a4db51b84f00b242675cf696ebcf2a47d60e46de1"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/results.csv",
+      "bytes": 2285,
+      "sha256": "cda2fa63d4c90d40c5011332144d6e694a14b82231a0d5846fefd59cca26afee"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/security_contributions.csv",
+      "bytes": 11050,
+      "sha256": "c024e7eb040565605efe4f48b376ef6952d161f364d791f8172e322c684ab82f"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/training_summary.csv",
+      "bytes": 4292,
+      "sha256": "f6650520b0d2c739244924755e3444d29a35ed0f5789fd039c4e666ccc62ae2e"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/local_prototype/ZIP_MANIFEST.json",
+      "bytes": 984,
+      "sha256": "f3f501c607c562b125deb8ba77821c83ae93ba30345cf49a9c7773224e0a99d4"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/PLAN.md",
+      "bytes": 6354,
+      "sha256": "cc82d6e0b059c38c8831283c4617803f74bc943c16d9bb5da264cef17fb43d54"
+    },
+    {
+      "path": "data/experiments/adaptive_strategy_research_v17/REPORT.md",
+      "bytes": 15202,
+      "sha256": "21d83b257f3f828c07957f5e0d4b170cffef87d87b78767526d47b88c50ed150"
+    },
+    {
+      "path": "README.md",
+      "bytes": 48952,
+      "sha256": "7993242a7a5a60368315955b0a5b221d414f84dde22bab473707bb19e196482e"
+    },
+    {
+      "path": "REVIEW_INDEX.md",
+      "bytes": 48885,
+      "sha256": "82d5fbc48156cf67e5367e4affdfd151f45e7a28f3a23668ecf92f8ede8bf359"
+    },
+    {
+      "path": "review_upload/sync_v17_20261002/README.md",
+      "bytes": 4861,
+      "sha256": "252f854ee9b5805c0f800dec624216582fc34a397dffcdf79a88559c65c55df2"
+    },
+    {
+      "path": "tests/test_v17_research.py",
+      "bytes": 22649,
+      "sha256": "15b3cece1bc1294df73b5ac4ee24705aac878450b29be6f4a822dce52848dd96"
+    },
+    {
+      "path": "tools/compare_v17_cloud.py",
+      "bytes": 17013,
+      "sha256": "33a7b60b0c7d48f8069e33a476497a782e21e617f3a7e1b911865460248f4b48"
+    },
+    {
+      "path": "tools/prepare_v17_local_bundle.py",
+      "bytes": 5691,
+      "sha256": "d5d4041985e02a61f800b532e861b3e3e28170b5238a09792041d4089dc139c8"
+    },
+    {
+      "path": "tools/prepare_v17_review.py",
+      "bytes": 3786,
+      "sha256": "09bc951ed5183c7b51e758c180092971b9dff00d4021ef045563e2539bca485d"
+    },
+    {
+      "path": "tools/qc_v17_features.py",
+      "bytes": 4081,
+      "sha256": "058d2c541fc47b1cdebfaae6b90bad759f8ea2b84388f13b15db2dd0ce74b70a"
+    },
+    {
+      "path": "tools/qc_v17_research.py",
+      "bytes": 28068,
+      "sha256": "934c0956fdc94ccb740f7cdf74b85284727afcd3bd7e2b88f602ddf6a5c215ee"
+    },
+    {
+      "path": "tools/research_v17_local.py",
+      "bytes": 23602,
+      "sha256": "a66a1453b252445ff13fbae7c3ff869e3fcd10f080d3fc02c5750d6eebcc79cf"
+    },
+    {
+      "path": "tools/summarize_v17_cloud.py",
+      "bytes": 15355,
+      "sha256": "c3ab9d209ff007b47118271be8c55ae9174b4e60e61bf2bc7147079e1bc3740f"
+    }
+  ],
+  "total_bytes": 5547231,
+  "excluded_local_material": [
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost10/positions.csv",
+      "size_bytes": "1411778",
+      "sha256": "2cf8999b42d2d51b3dbc7b077cd469001d0b68e02d501b026cc5acf44ddb677b",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost10/targets.csv",
+      "size_bytes": "333137",
+      "sha256": "1ac728ab959c1ebd3d5d3333e2d5202a1e6c86dc25ae36767f18a493460bc1a0",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost10/trades.csv",
+      "size_bytes": "1999893",
+      "sha256": "c5486727107d54b19582eca126418c801e171a9d47e95e06749014314113921a",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost20/positions.csv",
+      "size_bytes": "1411838",
+      "sha256": "22e4706123879ea7ad4c0f9fb0ab7d19e8f5552e75c26fe1400993f074114e4e",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost20/targets.csv",
+      "size_bytes": "333137",
+      "sha256": "1ac728ab959c1ebd3d5d3333e2d5202a1e6c86dc25ae36767f18a493460bc1a0",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/equal_cost20/trades.csv",
+      "size_bytes": "1995330",
+      "sha256": "16134512539f60cd67df658365ffce738b21194d73d4419d4b984f6abd5b4e39",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/medium_trend_cost10/positions.csv",
+      "size_bytes": "691693",
+      "sha256": "5031e77d4e44a6bf41325b89a01cd863af37a28f991a235e0f5a6468339e7d0e",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/medium_trend_cost10/targets.csv",
+      "size_bytes": "82137",
+      "sha256": "6a8ed8d7d782a00dbcd03304a8c9447b5a5c7a97b8240bdd8dee6bc836253d49",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/medium_trend_cost10/trades.csv",
+      "size_bytes": "759282",
+      "sha256": "72dc42d8187bc7089a9de8aab24de98cfb5825bfa172fc40fa53eadf3b0cc479",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_cost10/positions.csv",
+      "size_bytes": "692218",
+      "sha256": "1d36922def35bd7f5e7f2b17098dd9be5bf6ec994d55a9d01473a0bfb50f1515",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_cost10/targets.csv",
+      "size_bytes": "82137",
+      "sha256": "1da196385ad8fbe596a64c0442db99312879eb381557bd90151e87edaad08d8f",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_cost10/trades.csv",
+      "size_bytes": "785748",
+      "sha256": "e317d857e9570638d73fb57f30fc9eaec0a4c399212bc1b35642cad2140a89da",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost10/positions.csv",
+      "size_bytes": "692238",
+      "sha256": "15e85cb377495aedcb5873318e5fdaf5d09cad8b1a7eae68e3c37f01fbfe9d3a",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost10/targets.csv",
+      "size_bytes": "83007",
+      "sha256": "394506ab32d89fc0519648ed9b29db4a4325eb4a24ea1f282c576d23eb7ece0e",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost10/trades.csv",
+      "size_bytes": "785678",
+      "sha256": "9f0e74aa4f82e40d92f1318934e1d0faa828f1cded898017321973afab671081",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost20/positions.csv",
+      "size_bytes": "691448",
+      "sha256": "863ecaa930b83f711bc62ec19c86f5e2e4880ebdc1413e8bfc088702824c7d56",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost20/targets.csv",
+      "size_bytes": "83007",
+      "sha256": "394506ab32d89fc0519648ed9b29db4a4325eb4a24ea1f282c576d23eb7ece0e",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/ridge_trend_budget_cost20/trades.csv",
+      "size_bytes": "784439",
+      "sha256": "f2c15527c97281935a2e0e17de38c3e0e4ef9adc2c6380a8791fe393e7efb2db",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost10/positions.csv",
+      "size_bytes": "75991",
+      "sha256": "96e8cedfb2e4986013e5154ef63fa4b7221dd89472a0f8a57f834e73da2cf4e0",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost10/targets.csv",
+      "size_bytes": "18653",
+      "sha256": "d50464f460f2de83b9f491874d74976e11c1a12d3375fef2500acb237835c355",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost10/trades.csv",
+      "size_bytes": "66771",
+      "sha256": "4055b52545013f27b5c00b905b014ccb0472f1ab9b47e7b7ee011963d810775e",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost20/positions.csv",
+      "size_bytes": "75921",
+      "sha256": "fa4e57406df5c7e08245de72416f90ceffc2528deea69dcc9b3a15a28458b411",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost20/targets.csv",
+      "size_bytes": "18653",
+      "sha256": "d50464f460f2de83b9f491874d74976e11c1a12d3375fef2500acb237835c355",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/backtests/spy_cost20/trades.csv",
+      "size_bytes": "66601",
+      "sha256": "93aa81cf00123637971f85ac32d12a1c6121fd5a1888d55b2b7caf94a471b6ba",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2016_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2030",
+      "sha256": "51c834f403598779a21090a7c73f6283843374b13c85321b90cdd7e068b9aa2f",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2017_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2030",
+      "sha256": "b121da263bc0c287a9568e54e74f4d4cecb0596c7e1e6ae2b9242d3d00032b48",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2018_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2030",
+      "sha256": "02fe4d709902d77ecd7c8f4c2f743cec4ad24516c0ba26db587376c401cd8bf6",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2019_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2030",
+      "sha256": "05fb9b79c65f6cd70bde32ea5e80cc9e0ba2c18370d6c1798cfc3c03b673d110",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2020_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2030",
+      "sha256": "15518b03623b08721b9e3f5f90f5989d6a677e24e559a3fe11716e665a515ce9",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2021_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2030",
+      "sha256": "554ca9df4b619695284a619408e40d6c6a897fe8480c47c5ad00a695e8734aa6",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2022_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2030",
+      "sha256": "aa27741d361a5adfd799aae63819c17a5d0f0fe8ece45c483a210fa54bd5bbf5",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2023_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2032",
+      "sha256": "63d404aa56f4fc6e137c60cb14941e875e9ab27232d050c2d0d613f38e18df7a",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2024_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2032",
+      "sha256": "00b5ff1f1af79285ddc2f37146b9c523be3c5805701157af2bd5e9d1e1b5bb88",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/models/2025_ridge_risk_scaled_excess20.joblib",
+      "size_bytes": "2032",
+      "sha256": "37042ae3957ac70a4163478a21b5c585029a9946c635dcf24a5344c55f3bf945",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    },
+    {
+      "relative_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/predictions.csv",
+      "size_bytes": "8116463",
+      "sha256": "6552fc7e7d14a001fa8beb9563a59558ed0f597584d9c72399b7836c3cb33276",
+      "experiment": "adaptive_strategy_research_v17/local_prototype",
+      "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d",
+      "generation_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py",
+      "read_verify_command": ".\\.venv\\Scripts\\python.exe -B tools/research_v17_local.py --verify"
+    }
+  ],
+  "local_bundle": {
+    "created_at_utc": "2026-10-02T07:12:27.923738+00:00",
+    "archive_path": "review_bundles/v17_local_20261002.zip",
+    "archive_size_bytes": 6566945,
+    "archive_sha256": "14e3ff52220b33c4becf13449f501e57de6f0d631e8b4dccd17204cfef09c489",
+    "payload_count": 35,
+    "payload_size_bytes": 22157504,
+    "inventory_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/LARGE_ARTIFACTS.csv",
+    "inventory_sha256": "8e98e052530d895d497812dd2af9ae9256eaeee4de2be9cdf9649233e29cd633",
+    "original_complete_sha256": "fb12c512e8ac1f0f345d824e71eafbe46ce26416560377395c75fe7d49bffcce",
+    "contains_provider_raw_data": false,
+    "extract_into": "M:\\ml项目",
+    "verification": "All 35 payload lengths and SHA256 values plus archive CRC checked against original COMPLETE",
+    "regenerate_command": ".\\.venv\\Scripts\\python.exe -B tools/prepare_v17_local_bundle.py",
+    "verify_command": ".\\.venv\\Scripts\\python.exe -B tools/prepare_v17_local_bundle.py --verify"
+  },
+  "supplier_raw_data": "No new raw data exported; existing Yahoo inputs remain at original paths; QC data cloud only",
+  "generated_at_utc": "2026-10-02T09:06:07.407740+00:00",
+  "generation_head": "de51b46adf082a7708701cd2a209d44ade83fa8d"
+}

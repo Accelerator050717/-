@@ -1,0 +1,91 @@
+{
+  "run_identity": {
+    "project": 37249270,
+    "backtest_id": "e316c96dea9462fc38630c6c684bd128",
+    "name": "Smooth Violet Baboon",
+    "mode": "spy",
+    "cost_bps": 20,
+    "engine": "2.5.0.0.18149",
+    "revision": "03",
+    "captured_at": "2026-10-02T08:55:27.658Z"
+  },
+  "runtime_statistics": {
+    "Equity": "$102,534.50",
+    "Fees": "-$377.41",
+    "Holdings": "$0.00",
+    "Net Profit": "$2,534.50",
+    "PSR": "0.085%",
+    "Return": "2.53 %",
+    "Unrealized": "$0.00",
+    "Volume": "$188,705.12",
+    "v17_annual_2022": "-0.168922699",
+    "v17_annual_2023": "0.23375406399169596",
+    "v17_annualized_volatility": "0.17461686797851417",
+    "v17_average_exposure": "0.8905517556032229",
+    "v17_cost_bps": "20",
+    "v17_counts": "{\"unresolved_labels\":6,\"missing_held_days\":0,\"duplicate_identical\":332}",
+    "v17_fees_paid": "377.41024000000004",
+    "v17_final_equity": "102534.49975999999",
+    "v17_gate_pass": "true",
+    "v17_logs_complete": "true",
+    "v17_max_drawdown": "0.22273495620000006",
+    "v17_mode": "\"spy\"",
+    "v17_month_2022-01": "[\"2022-01-31\",94680.634,84583.08,10097.554,179.446]",
+    "v17_month_2022-02": "[\"2022-02-28\",92168.79213999999,82523.06999999999,9645.72214,180.34786]",
+    "v17_month_2022-03": "[\"2022-03-31\",95264.61214,85359.95999999999,9904.65214,180.34786]",
+    "v17_month_2022-04": "[\"2022-04-29\",87772.65214,77868.0,9904.65214,180.34786]",
+    "v17_month_2022-05": "[\"2022-05-31\",87938.35362000001,78869.63,9068.72362,182.01638]",
+    "v17_month_2022-06": "[\"2022-06-30\",81425.25362,72054.75,9370.50362,182.01638]",
+    "v17_month_2022-07": "[\"2022-07-29\",88118.90534000001,79514.07,8604.83534,183.54466]",
+    "v17_month_2022-08": "[\"2022-08-31\",84887.60728,75874.56,9013.04728,184.36272]",
+    "v17_month_2022-09": "[\"2022-09-30\",77863.67102000001,68935.74,8927.93102,185.14898]",
+    "v17_month_2022-10": "[\"2022-10-31\",83478.60437999999,74924.73999999999,8553.86438,185.89562]",
+    "v17_month_2022-11": "[\"2022-11-30\",87643.78438,79089.92,8553.86438,185.89562]",
+    "v17_month_2022-12": "[\"2022-12-30\",83107.7301,73808.99,9298.7401,186.6999]",
+    "v17_month_2023-01": "[\"2023-01-31\",87797.29306000001,79263.6,8533.69306,188.22694]",
+    "v17_month_2023-02": "[\"2023-02-28\",85822.1334,76874.44,8947.6934,189.0566]",
+    "v17_month_2023-03": "[\"2023-03-31\",88662.29340000001,79421.66,9240.6334,189.0566]",
+    "v17_month_2023-04": "[\"2023-04-28\",89931.0534,80690.42,9240.6334,189.0566]",
+    "v17_month_2023-05": "[\"2023-05-31\",90303.53340000001,81062.90000000001,9240.6334,189.0566]",
+    "v17_month_2023-06": "[\"2023-06-30\",95555.11339999999,85996.31999999999,9558.7934,189.0566]",
+    "v17_month_2023-07": "[\"2023-07-31\",98353.29956,88353.47,9999.82956,189.94044]",
+    "v17_month_2023-08": "[\"2023-08-31\",96917.37956,86917.55,9999.82956,189.94044]",
+    "v17_month_2023-09": "[\"2023-09-29\",92808.40956,82503.64,10304.76956,189.94044]",
+    "v17_month_2023-10": "[\"2023-10-31\",91007.96132,81549.0,9458.961319999999,191.62868]",
+    "v17_month_2023-11": "[\"2023-11-30\",98456.96132,88998.0,9458.961319999999,191.62868]",
+    "v17_month_2023-12": "[\"2023-12-29\",102534.49975999999,0,102534.49975999999,377.41024000000004]",
+    "v17_net_cagr": "0.012601884005789987",
+    "v17_net_cumulative": "0.025344997599999974",
+    "v17_predictions": "{\"sha256\":\"d5dbf014eadff07f10dd2db826d58dabc8cc0734411389fc889ead2937e10569\"}",
+    "v17_retention": "\"Full predictions not archived; derived account charts, full fit logs and frozen code retained\"",
+    "v17_source": "{\"sha256\":\"1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c\"}",
+    "v17_training_count": "0",
+    "v17_turnover_gross_notional_over_average_equity": "2.09967528759463"
+  },
+  "log_rows": [
+    [
+      "2018-12-01 00:00:00 :",
+      "Launching analysis for e316c96dea9462fc38630c6c684bd128 with LEAN Engine v2.5.0.0.18149"
+    ],
+    [
+      "2018-12-01 00:00:00 :",
+      "V17_IDENTITY {\"strategy_sha256\":\"1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c\",\"core_sha256\":\"c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8\",\"features_sha256\":\"8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320\",\"features\":[\"return_5\",\"return_20\",\"return_63_skip_20\",\"return_126_skip_20\",\"volatility_20\",\"drawdown_63\",\"log_dollar_volume_shock\",\"log_median_dollar_volume_20\"],\"research_mode\":\"spy\",\"cost_bps\":20,\"training_start\":\"2019-01-01\",\"evaluation\":[\"2022-01-01\",\"2023-12-31\"],\"label\":\"next monthly decision close price-return cross-sectional average rank minus0.5\",\"model\":\"StandardScaler + Ridge(alpha=100, solver=svd)\"}"
+    ],
+    [
+      "2019-05-01 16:05:00 :",
+      "Warning: when performing history requests, the start date will be adjusted if there are numerical precision errors in the factor files."
+    ],
+    [
+      "2019-05-01 16:05:00 :",
+      "Warning: when performing history requests, the start date will be adjusted if it is before the first known date for the symbol."
+    ],
+    [
+      "2023-12-29 20:00:00 :",
+      "V17_SUMMARY {\"mode\":\"spy\",\"cost_bps\":20,\"evaluation\":\"2022-2023 development\",\"training_count\":0,\"model_hashes\":[],\"complete_months\":24,\"daily_close_rows\":501,\"cumulative_security_ids\":183,\"net_cumulative\":0.025344997599999974,\"net_cagr\":0.012601884005789987,\"max_drawdown\":0.22273495620000006,\"annualized_volatility\":0.17461686797851417,\"annual_returns\":{\"2022\":-0.168922699,\"2023\":0.23375406399169596},\"average_exposure\":0.8905517556032229,\"maximum_single_close_weight\":0.9044389719872447,\"turnover_gross_notional_over_average_equity\":2.09967528759463,\"traded_notional\":188705.12,\"fees_paid\":377.41024000000004,\"final_equity\":102534.49975999999,\"final_cash\":102534.49975999999,\"final_gross_holdings\":0,\"dividend_cash_engine_proxy\":2499.63,\"split_fraction_cash_engine_proxy\":0.0,\"max_cash_reconciliation_error\":1.4551915228366852e-11,\"attribution_residual\":-1.0913936421275139e-11,\"maximum_exposure\":0.9044389719872447,\"minimum_cash\":8533.69306,\"training_rows_resolved\":5813,\"unresolved_training_labels\":6,\"training_label_scope\":\"rank conditional on observed endpoint; unresolved lifecycle cases prevent a complete-lifecycle/survivorship-free claim\",\"mean_monthly_rank_ic\":null,\"rank_ic_months\":0,\"stats\":{\"fundamental_duplicate_identical\":332,\"dividend_events\":1311,\"split_events\":40,\"splits_occurred\":20,\"symbol_changes\":3,\"raw_jump_with_split\":13,\"delisting_warning\":6,\"delisting_delisted\":6,\"raw_jump_unexplained\":16,\"raw_change_across_subscription_gap\":77,\"expected_security_days\":50598,\"observed_security_days\":50572,\"order_events\":28,\"fills\":14,\"buy_fills\":8,\"unknown_missing\":9,\"sell_fills\":6,\"known_terminated_missing\":17},\"open_orders_at_end\":0,\"gate_pass\":true,\"native_orders_only\":true,\"object_store_written\":false,\"raw_provider_records_exported\":false,\"2026_market_data_used\":false,\"economic_rights_limit\":\"LEAN dividend/terminal cash proxy; not verified real payment dates or complete spinoff rights\",\"prediction_panel_sha256\":\"d5dbf014eadff07f10dd2db826d58dabc8cc0734411389fc889ead2937e10569\",\"decision_records_sha256\":\"1e4507d2a735016e8ec86a5ab0835f97c99bd2be73d9e7bfd1425c023bf4970f\",\"security_pnl_sha256\":\"2194978f91c7dd542aec2ebb16048750b1707ceb3b8837d0f35c29037ac2411f\",\"top5_winners\":[[\"SPY R735QTJ8XC9X\",2534.4997600000024]],\"top5_losers\":[],\"gross_positive_security_pnl\":2534.4997600000024,\"gross_negative_security_pnl\":0,\"top1_loss_share_of_gross_losses\":0,\"top5_loss_share_of_gross_losses\":0,\"unresolved_label_records\":[{\"sid\":\"APC R735QTJ8XC9X\",\"start\":\"2019-08-01\",\"end\":\"2019-09-03\",\"reason\":\"terminal_endpoint_unresolved\"},{\"sid\":\"YHOO R735QTJ8XC9X\",\"start\":\"2019-10-01\",\"end\":\"2019-11-01\",\"reason\":\"terminal_endpoint_unresolved\"},{\"sid\":\"CELG R735QTJ8XC9X\",\"start\":\"2019-11-01\",\"end\":\"2019-12-02\",\"reason\":\"terminal_endpoint_unresolved\"},{\"sid\":\"WPI R735QTJ8XC9X\",\"start\":\"2020-05-01\",\"end\":\"2020-06-01\",\"reason\":\"terminal_endpoint_unresolved\"},{\"sid\":\"ABMD R735QTJ8XC9X\",\"start\":\"2022-12-01\",\"end\":\"2023-01-03\",\"reason\":\"terminal_endpoint_unresolved\"},{\"sid\":\"ATVI R735QTJ8XC9X\",\"start\":\"2023-10-02\",\"end\":\"2023-11-01\",\"reason\":\"terminal_endpoint_unresolved\"}],\"full_predictions_archived\":false,\"full_security_pnl_archived\":false,\"artifact_limit\":\"Free50runtimekeys/200chars and10KBlogs; hashes+frozen code, fullfits, aggregates, native accountcharts\"}"
+    ],
+    [
+      "2023-12-29 20:00:00 :",
+      "Algorithm Id:(e316c96dea9462fc38630c6c684bd128) completed in 340.44 seconds at 44k data points per second. Processing total of 14,909,189 data points."
+    ]
+  ]
+}

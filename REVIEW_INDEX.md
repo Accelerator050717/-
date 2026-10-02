@@ -1,5 +1,40 @@
 # 最新源码审阅入口
 
+## v17已完成研究（2026-10-02；没有合格候选，停止本轮搜索）
+
+**本轮目标为扣成本净年化20%—30%，30%以上为进阶；完整历史回撤优先20%以内、30%为预算。没有值得升级的候选。** 旧报告“至少30%、争取50%”保留当时记录，不再作为本轮唯一标准。基线`de51b46adf082a7708701cd2a209d44ade83fa8d`；[事前PLAN](data/experiments/adaptive_strategy_research_v17/PLAN.md)的18个独特策略/成本配置已全部完成：本地8个、云端10个。实际完成回放20次（本地8＋云端12，含两次重复），另保留两次早期云失败；不是22个独特策略。2026封存，无Live/paper/券商订单、资金操作或付费。
+
+优先读[本轮总报告](data/experiments/adaptive_strategy_research_v17/REPORT.md)、[真实动态池报告](data/experiments/adaptive_strategy_research_v17/cloud/REPORT.md)、[全部云端比较](data/experiments/adaptive_strategy_research_v17/cloud/comparison/results.csv)、[年度/月度](data/experiments/adaptive_strategy_research_v17/cloud/comparison/annual.csv)及[运行尝试账](data/experiments/adaptive_strategy_research_v17/cloud/attempt_ledger.csv)。云访问和账户验证已经恢复，早期阻塞记录不是当前限制。
+
+| 2022—2023动态池，单边10bp | 累计收益 | 净年化 | 全历史收盘回撤 | 判断 |
+| --- | --- | --- | --- | --- |
+| 同池100股等权 | −2.73% | −1.38% | 26.61% | 简单对照，收益未达标 |
+| SPY 90%预算 | +2.80% | +1.39% | 22.16% | 最好预算内控制，非达标策略 |
+| 20日动量前10 | −21.33% | −11.31% | 42.84% | 拒绝 |
+| 63日趋势跳过最近20日 | −2.25% | −1.13% | 37.56% | 拒绝 |
+| 年度Ridge前10 | −13.70% | −7.11% | 42.23% | 拒绝 |
+| 同中期趋势＋45%/90%仓位 | −5.96% | −3.03% | 32.68% | 最浅回撤失败组，仅作20bp诊断 |
+| 同Ridge＋45%/90%仓位 | −18.57% | −9.77% | 38.92% | 拒绝 |
+
+| 已完成20bp成本检查 | 末值美元 | 累计收益 | 净年化 | 全历史收盘回撤 |
+| --- | --- | --- | --- | --- |
+| 同池100股等权 | 96,525.29 | −3.47% | −1.75% | 26.87% |
+| SPY 90%预算 | 102,534.50 | +2.53% | +1.26% | 22.27% |
+| 中期趋势＋45%/90%仓位（失败诊断） | 92,123.76 | −7.88% | −4.02% | 33.49% |
+
+- 五个选股候选全部亏损且回撤超过30%。Ridge比同池等权年化低5.73个百分点、回撤高15.63个百分点；中期趋势比等权年化只高0.25个百分点、回撤却高10.95个百分点。固定趋势仓位分别降低趋势/Ridge回撤4.88/3.32个百分点，却损失年化1.90/2.66个百分点。停止这些失败规则上的容量、周期或阈值追加，不把2023反弹单独当作成功。
+- [云策略](tools/qc_v17_research.py)与[特征/标签](tools/qc_v17_features.py)在[独立Free项目37249270](https://www.quantconnect.com/project/37249270)根据历史普通股候选、连续20日成交额中位数和稳定SID形成100股动态池；累计183个SID。它生成训练样本、预测、目标和原生MOO订单，原生Equity模型成交，没有导入本地30股预测或既定成交。初始10万美元、整股、零息、月度决定、下一开盘减仓/再下一开盘增仓，末次清仓含费；同常规90%事前预算不等于相同实际风险。
+- 云端8个固定特征、年度StandardScaler＋Ridge(alpha100,svd)，下一月决策收盘间SplitAdjusted收益的横截面名次标签；2022/2023各3450/4645训练行，标签终点严格早于部署年1月1日。[完整模型参数与SHA](data/experiments/adaptive_strategy_research_v17/cloud/cases/ridge_cost10/FITS.json)和[同模型/预测配对](data/experiments/adaptive_strategy_research_v17/cloud/comparison/COMPARISON.json)保存。信号组共同要求127个历史价格点，等权保留历史不足的池内证券；与旧v15的差异包含股票池、资格与引擎版本，不能叫纯选池或模型提升。
+- **实际拟合总计16次：本地10次＋云端6次；独特模型12个：本地10年度＋云端2年度。** 云6次来自Ridge、只改输出的同配置重放、同信号风险组各2次，同年度模型哈希一致；不是6套独特候选模型。云10个独特配置由7个10bp主配置及3个20bp检查组成；12次完成还包括一次同配置观测重放、一次参数界面错启的等权20bp重复，后者不算新策略或拟合。两次暖机失败均0拟合/0订单，完整记录保留。正常提交不改写原生成身份，旧H60模型只作输入核验，未用于新动态信号。
+- 每个完成云组有24月、501次连续收盘统计，最终空仓、工程账本门槛通过；**完整日频权益尚未独立下载，云回撤没有被本地独立重算。完整云预测向量、完整逐证券损益也未归档，只有哈希/模型/摘要，哈希不是原产物。** 六条终止标签端点仍未解决、未填0；训练名次仅在可解析端点上形成，不能宣称完整消除存续偏差。退市现金、分红事件及换股/分拆权利仍有代理或覆盖限制，原始供应商记录留在许可云内。[数据边界](data/experiments/adaptive_strategy_research_v17/cloud/REPORT.md)、[独立审阅](data/experiments/adaptive_strategy_research_v17/INDEPENDENT_REVIEW.md)分开工程与经济事实。
+- **本地固定30只存续股仅为备用开发原型。** [本地报告](data/experiments/adaptive_strategy_research_v17/local_prototype/REPORT.md)与[8组结果](data/experiments/adaptive_strategy_research_v17/local_prototype/results.csv)保留：Ridge10bp年化20.11%但回撤31.24%；加趋势仓位18.40%/21.30%，20bp变16.40%/21.41%，低于同池等权17.26%。未达标。75,240条预测保留450条未成熟尾部；NVDA占候选净利润31.37%。它是2016—2025调整价/碎股、五日调仓代理，不能和云端动态结果混为一组公平比较。
+- [本地源码](tools/research_v17_local.py)复用费用/现金求解，不修改旧引擎；[COMPLETE](data/experiments/adaptive_strategy_research_v17/local_prototype/COMPLETE.json)冻结模型、预测及结果。未执行备用选择分支与根PLAN不一致已披露，实际唯一合格本地候选使选择不受影响。跨年度高水位不重置；本地独立核对59输入、10模型、全部预测及8账本不代表真实券商执行验证。
+- [本轮上传材料](review_upload/sync_v17_20261002/README.md)和[35份大文件清单](data/experiments/adaptive_strategy_research_v17/local_prototype/LARGE_ARTIFACTS.csv)保存准确路径/大小/SHA/入口。本地审阅ZIP`M:\ml项目\review_bundles\v17_local_20261002.zip`为6,566,945字节（6.26MiB），[ZIP身份](data/experiments/adaptive_strategy_research_v17/local_prototype/ZIP_MANIFEST.json)及35项SHA/CRC通过；不含原始行情。只读核验：`.\.venv\Scripts\python.exe -B tools/research_v17_local.py --verify`，包核验：`.\.venv\Scripts\python.exe -B tools/prepare_v17_local_bundle.py --verify`，云恢复见[README](data/experiments/adaptive_strategy_research_v17/cloud/README.md)。
+
+**唯一下一步：把同一历史动态池管线连续扩展并验收到2016—2025完整开发区间，保留足够早的暖机和成熟训练历史，冻结等权/SPY及本轮失败规则作为对照。** 三项20bp预登记检查已完成，失败诊断仍不达标；本轮停止追加模型与阈值，不据结果继续调这两年。2022—2023已经属于开发历史，不是独立验证；没有真实paper或前瞻业绩。v13持续资金记账基础保留、其研究风控不替代原A；v10历史代理限制、完整公司行动、真实paper入口、部分成交持续保护及长期断线补账缺口均未自动解决。
+
+## v16历史结果（保留当时结论；后续授权与当前进展以上方v17为准）
+
 最新更新：2026-09-22，**v16已解释原B10的54,078.72美元净亏损：UPST/KALA/AMC/TOP/NTRB合计21,851.11美元，17/24个月亏损；原规则保留为失败基准。** 本轮基于`138d2bf8ddf81f484c95c5e8cffa3dbab66fb07b`，只完成损失归因，没有改策略。优先读[v16“钱亏在哪里”报告](data/experiments/momentum_loss_attribution_v16/REPORT.md)、[完整月度损益](data/experiments/momentum_loss_attribution_v16/monthly_pnl.csv)、[逐证券精度汇总](data/experiments/momentum_loss_attribution_v16/security_total_pnl.csv)、[12个重点持仓](data/experiments/momentum_loss_attribution_v16/priority_entries.csv)。
 
 - 价格损益−53,783.161美元，加分红2,009.72及零股现金0.000884917，减费用2,305.282651，期末权益45,921.277233917004。逐日归因残差约5e−12美元；它证明引擎金额桥接，不证明真实付款和所有历史报价均已认证。TOP净亏4,246.14074；TWTR两段净亏955.76583，已计终止现金与名义权利只差46.62美元，不能重复入账；8个普通缺价日B持仓均0，其后续选择影响金额未知。

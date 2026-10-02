@@ -1,0 +1,11 @@
+{
+  "selected": "ridge_trend_budget",
+  "selected_at_utc": "2026-10-02T07:07:37.229296+00:00",
+  "rule": "nonbaseline highest CAGR among drawdown >= -30%; if none, highest CAGR diagnosis only; stable case tie",
+  "eligible_cases": [
+    "ridge_trend_budget_cost10"
+  ],
+  "cost10_results_sha256": "349d3a02c2f580fe15af317b32eb34a00809eae45fff98dbc5bb89355c6bee5f",
+  "before_cost20": true,
+  "development_selection_not_independent_validation": true
+}

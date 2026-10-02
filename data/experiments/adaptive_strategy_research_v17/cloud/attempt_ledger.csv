@@ -1,0 +1,15 @@
+backtest_id,mode,cost_bps,status,actual_model_fits,actual_fills,new_strategy_cost_configuration,source,notes
+199d1175e796340f958a3e96c45bdf67,ridge,10,runtime_error,0,0,False,runs\attempt01_error.json,2018-12-03 00:00:00 Duplicate Fundamental SID
+279bf8437f4abd7a2d5b620bdccbefde,ridge,10,runtime_error,0,0,False,runs\attempt02_error.json,module 'qc_v17_features' has no attribute 'accept_unique_observation'
+be47f9b57e7e311484b1a1f8bd13af55,ridge,10,completed,2,289,True,runs/attempt03_summary.json,First completed strategy run; detailed outputs truncated
+8853629b1527c771f1e1b44cf99bbfc3,ridge,10,completed,2,289,False,cases/ridge_cost10/SUMMARY.json,Observer-only repeat; original56numeric fields and model identities match
+4fca6ea5369fafbb254aa0eff1ecf236,eq,10,completed,0,1495,True,cases/eq_cost10/SUMMARY.json,Verified same-pool equal-weight baseline
+75894829335b6264a5dc387c92ad7625,spy,10,completed,0,19,True,cases/spy_cost10/SUMMARY.json,Verified90percentSPY control; net final equity equals originalv15C10
+a187b2680217d44e97e6761ef51c84b8,mom20,10,completed,0,449,True,cases/mom20_cost10/SUMMARY.json,Registered20day momentum in persistent liquidity pool;127session feature-ready qualification
+feed23708e171f6e3b7674fb095a0ee9,trend63,10,completed,0,397,True,cases/trend63_cost10/SUMMARY.json,Registered63day trend excluding latest20; same persistent liquidity universe; over30percentDD budget
+34c60a7570c87925873ca04af7dcafe7,ridge_risk,10,completed,2,299,True,cases/ridge_risk_cost10/SUMMARY.json,Registered45/90percentSPY200SMA overlay; model hashes unchanged; CAGR worsens and DD remains over30percent
+d5dc469c4123c4d2f1e14a4450a96abe,trend63_risk,10,completed,0,399,True,cases/trend63_risk_cost10/SUMMARY.json,All five non-control candidates exceed30percentDD; selected only least-DD failed diagnostic for20bp check
+dd50202fb4a6bda82c16dd22ac71c34e,eq,20,completed,0,1505,True,cases/eq_cost20/SUMMARY.json,Pre-registered20bp same-pool equal-weight control; no added strategy search
+b429500071dead38dd40a2f87e5a3142,eq,20,completed,0,1505,False,runs/attempt12_completed_capture.json,Intendedspy20 actualengineeq20 repeat; financialfields same; attributionresidual difference9.095e-13USD; annotationcheck deliberatelyfails
+e316c96dea9462fc38630c6c684bd128,spy,20,completed,0,14,True,cases/spy_cost20/SUMMARY.json,Actual generated identityspy20 verified; fixed cost control
+66e7b148349396b44d27193f02e6c6e1,trend63_risk,20,completed,0,399,True,cases/trend63_risk_cost20/SUMMARY.json,Pre-registered least-DD rejected diagnostic cost check; actualmode verified; completes10uniquecloudconfigs

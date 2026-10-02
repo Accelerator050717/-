@@ -1,0 +1,101 @@
+{
+  "selected_10bp_research_candidate": "trend63_risk",
+  "status": "descriptive_development_diagnostic",
+  "positive_months": 9,
+  "total_months": 24,
+  "monthly_comparisons": {
+    "eq": {
+      "matched_months": 24,
+      "months_with_higher_net_return": 10
+    },
+    "spy": {
+      "matched_months": 24,
+      "months_with_higher_net_return": 10
+    }
+  },
+  "three_worst_months": [
+    {
+      "month": "2023-08",
+      "net_pnl": -16601.70082,
+      "net_return": -0.15209295968802394
+    },
+    {
+      "month": "2022-01",
+      "net_pnl": -14380.658790000001,
+      "net_return": -0.1438065879
+    },
+    {
+      "month": "2023-10",
+      "net_pnl": -5207.599830000021,
+      "net_return": -0.05883059574609539
+    }
+  ],
+  "three_best_months": [
+    {
+      "month": "2023-07",
+      "net_pnl": 15851.357509999987,
+      "net_return": 0.169890092247174
+    },
+    {
+      "month": "2023-05",
+      "net_pnl": 11294.650949999996,
+      "net_return": 0.14815455921482257
+    },
+    {
+      "month": "2023-03",
+      "net_pnl": 7017.508449999979,
+      "net_return": 0.09820717900474207
+    }
+  ],
+  "top3_positive_months_share_of_gross_positive_month_pnl": 0.5792612051225907,
+  "top3_negative_months_share_of_gross_negative_month_pnl": 0.5572787771423728,
+  "top5_winning_securities": [
+    [
+      "CVNA WK2S2IM8SSPX",
+      7534.5887
+    ],
+    [
+      "NVDA RHM8UTD8DT2D",
+      5689.68496
+    ],
+    [
+      "FB V6OIPNZEM8V9",
+      5094.774760000001
+    ],
+    [
+      "SHOP W0PNKBMQMN39",
+      2473.2063000000007
+    ],
+    [
+      "COIN XNNJXSXHIHYD",
+      2063.2407800000005
+    ]
+  ],
+  "top5_losing_securities": [
+    [
+      "RBLX XMP3AJ4KU3C5",
+      -4878.687880000001
+    ],
+    [
+      "UPST XKEDQOEEEPUT",
+      -4736.02561
+    ],
+    [
+      "RIVN XTDCDCDRI6HX",
+      -3276.6261899999995
+    ],
+    [
+      "MARA VSI9G9W3OAXX",
+      -2619.942680000001
+    ],
+    [
+      "MRNA X05QXHPHSF39",
+      -2448.09296
+    ]
+  ],
+  "top_winning_security_share_of_gross_winning_security_pnl": 0.17027732660228737,
+  "top5_winning_securities_share_of_gross_winning_security_pnl": 0.5165209179779925,
+  "top5_loss_share_of_gross_losses": 0.3576732635183508,
+  "no_security_exclusion_or_counterfactual_backtest": true,
+  "limitations": "Monthly comparisons are24dependent development observations, not an independent validation. Holdings counts and actual exposure differ. Gross positive/negative contribution denominators are not net profit."
+}

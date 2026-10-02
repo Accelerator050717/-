@@ -1,0 +1,35 @@
+{
+  "run": {
+    "project": 37249270,
+    "backtest_id": "be47f9b57e7e311484b1a1f8bd13af55",
+    "name": "Hyper Active Asparagus Bull",
+    "mode": "ridge",
+    "cost_bps": 10,
+    "engine": "2.5.0.0.18149",
+    "completed": true,
+    "seconds": 347.47,
+    "data_points": 14909195,
+    "source_identity": "../revision02/PRE_RUN.json",
+    "output_complete": false,
+    "note": "Runtime statistic truncation prevents full artifact verification. Next same-config replay is output-only repair, not search."
+  },
+  "checks": {
+    "annual_compounding_residual": 0.0,
+    "net_cagr_recalculated": -0.07108227023828761,
+    "fit_count": 2,
+    "observed_fit_rows": [
+      3450,
+      4645
+    ],
+    "labels_matured_before_annual_boundary": true,
+    "fit_summary_model_hashes_match": true,
+    "daily_drawdown_independently_verified": false,
+    "model_parameter_hashes_independently_verified": false
+  },
+  "limitations": [
+    "Full model parameters and full prediction vectors are absent from clipped RuntimeStatistics.",
+    "9 missing observations include3 held observations;18807.25 is the sum of marked exposure over those observations, not a loss contribution.",
+    "Native terminal cash5715.3 is an engine proxy, not proof of real final payment.",
+    "Missing/terminal labels remain visible;6 unresolved over the run."
+  ]
+}

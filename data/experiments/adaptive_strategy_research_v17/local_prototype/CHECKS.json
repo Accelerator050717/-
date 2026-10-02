@@ -1,0 +1,76 @@
+{
+  "cases": {
+    "equal_cost10": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    },
+    "spy_cost10": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    },
+    "medium_trend_cost10": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    },
+    "ridge_cost10": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    },
+    "ridge_trend_budget_cost10": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    },
+    "ridge_trend_budget_cost20": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    },
+    "equal_cost20": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    },
+    "spy_cost20": {
+      "cash_checked": true,
+      "shares_checked": true,
+      "equity_checked": true,
+      "final_flat": true,
+      "daily_drawdown_never_reset": true,
+      "decision_precedes_fill": true
+    }
+  },
+  "actual_fits": 10,
+  "backtests": 8,
+  "training_warnings": 0,
+  "source_unchanged": true,
+  "surviving30": true,
+  "independent_validation": false,
+  "no_2026": true,
+  "no_broker_orders": true
+}

@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-02T07:22:09.506Z",
+  "project": 37249270,
+  "params": {
+    "research_mode": "ridge",
+    "cost_bps": 10
+  },
+  "repair": "Collapse only exact duplicate Fundamental required-field snapshots; conflicting snapshots fail; strategy unchanged",
+  "sources": {
+    "main": "4549f9b06504530ae32908fb65ee882044ba18ee42248bae5a42de61b5ee8b8d",
+    "features": "058d2c541fc47b1cdebfaae6b90bad759f8ea2b84388f13b15db2dd0ce74b70a",
+    "core": "ab35fd31f6c7f30aa762bdfe4b82ac2675142c9b61fa1067a7e2781eac46e357"
+  }
+}

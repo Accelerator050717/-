@@ -1,0 +1,10 @@
+{
+  "project": 37249270,
+  "backtest_id": "dd50202fb4a6bda82c16dd22ac71c34e",
+  "name": "Dancing Brown Dolphin",
+  "mode": "eq",
+  "cost_bps": 20,
+  "engine": "2.5.0.0.18149",
+  "host": "Community B-MICRO",
+  "captured_at": "2026-10-02T08:31:07.525Z"
+}

@@ -1,0 +1,47 @@
+{
+  "original_run": "be47f9b57e7e311484b1a1f8bd13af55",
+  "observer_repeat_run": "8853629b1527c771f1e1b44cf99bbfc3",
+  "numeric_fields_compared": 56,
+  "max_absolute_numeric_difference": 0.0,
+  "changed_or_missing_original_summary_fields": [],
+  "model_hashes_identical": true,
+  "full_repeated_model_parameter_hashes_verified": true,
+  "new_months_internally_verified": 24,
+  "new_monthly_compounding_residual": 7.275957614183426e-11,
+  "old_monthly_records_available": false,
+  "old_vs_repeat_monthly_equivalence_verified": false,
+  "daily_drawdown_independently_recomputed": false,
+  "monthly_drawdown_lower_bound": 0.4067810825609699,
+  "repeat_source_checks": [
+    {
+      "field": "strategy_sha256",
+      "path": "tools/qc_v17_research.py",
+      "observed_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+      "matching_variants": [
+        "LF_add_one_terminal_LF"
+      ]
+    },
+    {
+      "field": "core_sha256",
+      "path": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\qc_v15_dynamic_pilot.py",
+      "observed_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+      "matching_variants": [
+        "LF_add_one_terminal_LF"
+      ]
+    },
+    {
+      "field": "features_sha256",
+      "path": "tools/qc_v17_features.py",
+      "observed_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+      "matching_variants": [
+        "LF_add_one_terminal_LF"
+      ]
+    }
+  ],
+  "custom_runtime_key_count": 45,
+  "max_custom_value_characters": 104,
+  "v17_log_bytes_including64_per_record": 7423,
+  "full_predictions_archived": false,
+  "observer_review_new_fits": 0,
+  "actual_repeat_fits": 2
+}

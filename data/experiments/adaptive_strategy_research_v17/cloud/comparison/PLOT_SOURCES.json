@@ -1,0 +1,44 @@
+{
+  "eq": {
+    "source": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\cases\\eq_cost10\\monthly.csv",
+    "sha256": "7f090517a16f10bccd1eee98a32fd7a6e13eddfe8d5c2d290ae9e59cd4e6a8fa",
+    "observed_month_end_points": 24,
+    "initial_capital_point": 100000
+  },
+  "mom20": {
+    "source": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\cases\\mom20_cost10\\monthly.csv",
+    "sha256": "23b705a225a518c7d4b63fb3a2dfac0a21e326b51a4a7dafdd75859d46af6373",
+    "observed_month_end_points": 24,
+    "initial_capital_point": 100000
+  },
+  "trend63": {
+    "source": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\cases\\trend63_cost10\\monthly.csv",
+    "sha256": "54a7d3c86fb6a8bdaa9623eadad2f85ecaac4b890060d04c0705298387a3afe2",
+    "observed_month_end_points": 24,
+    "initial_capital_point": 100000
+  },
+  "ridge": {
+    "source": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\cases\\ridge_cost10\\monthly.csv",
+    "sha256": "54742a3fbf88f1a54555d960a34ce116b58db4bc29498709b36995b9524f732a",
+    "observed_month_end_points": 24,
+    "initial_capital_point": 100000
+  },
+  "trend63_risk": {
+    "source": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\cases\\trend63_risk_cost10\\monthly.csv",
+    "sha256": "6075fbcd3bd392091c8c30b7c37b5232f0aee8d632f9d6ce2c648d48b7f85b36",
+    "observed_month_end_points": 24,
+    "initial_capital_point": 100000
+  },
+  "ridge_risk": {
+    "source": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\cases\\ridge_risk_cost10\\monthly.csv",
+    "sha256": "e4103214911ca12657921c10fff5698ca770b73a79191bfbca8f3eb7966742b5",
+    "observed_month_end_points": 24,
+    "initial_capital_point": 100000
+  },
+  "spy": {
+    "source": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\cases\\spy_cost10\\monthly.csv",
+    "sha256": "73b56f6ebe4db5e9ca941a6ca952ec39c0d60bf14895eb2ab420c2ce894cd748",
+    "observed_month_end_points": 24,
+    "initial_capital_point": 100000
+  }
+}

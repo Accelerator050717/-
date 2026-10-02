@@ -1,0 +1,16 @@
+{
+  "project": 37249270,
+  "backtest_id": "279bf8437f4abd7a2d5b620bdccbefde",
+  "name": "Geeky Brown Albatross",
+  "mode": "ridge",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "runtime_date": "2018-12-03",
+  "error": "module 'qc_v17_features' has no attribute 'accept_unique_observation'",
+  "training_count": 0,
+  "orders": 0,
+  "result_valid": false,
+  "proposed_sources": "../revision02/PRE_RUN.json",
+  "note": "Editor readback matched uploaded files; actual build source under investigation.",
+  "resolution": "Helper paste occurred before editor loaded after tab switch. Clipboard matched pasted value, but tab reopen showed old 3081-byte module. Separate tab-load then paste/save and later reopen/readback repaired source deployment; no strategy change."
+}

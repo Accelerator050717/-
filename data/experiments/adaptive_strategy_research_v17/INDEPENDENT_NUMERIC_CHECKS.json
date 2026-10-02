@@ -1,0 +1,86 @@
+{
+  "kind": "independent_saved_artifact_check_no_refit_no_replay",
+  "source_results_sha256": "cda2fa63d4c90d40c5011332144d6e694a14b82231a0d5846fefd59cca26afee",
+  "cases": [
+    {
+      "case": "equal_cost10",
+      "full_net_pnl": 395602.4904054151,
+      "net_cashflow_residual": 3.2014213502407074e-09,
+      "fee_max_residual": 5.329070518200751e-15,
+      "annual_compounding_residual": 8.881784197001252e-16,
+      "global_drawdown_residual": 5.551115123125783e-17,
+      "security_pnl_residual": 3.0850060284137726e-09,
+      "decision_before_trade": true
+    },
+    {
+      "case": "spy_cost10",
+      "full_net_pnl": 253571.92377397278,
+      "net_cashflow_residual": 1.7462298274040222e-10,
+      "fee_max_residual": 2.220446049250313e-16,
+      "annual_compounding_residual": 1.7763568394002505e-15,
+      "global_drawdown_residual": 5.551115123125783e-17,
+      "security_pnl_residual": 1.7462298274040222e-10,
+      "decision_before_trade": true
+    },
+    {
+      "case": "medium_trend_cost10",
+      "full_net_pnl": 370258.1179462695,
+      "net_cashflow_residual": 1.7462298274040222e-10,
+      "fee_max_residual": 1.4210854715202004e-14,
+      "annual_compounding_residual": 2.6645352591003757e-15,
+      "global_drawdown_residual": 1.1102230246251565e-16,
+      "security_pnl_residual": 4.0745362639427185e-10,
+      "decision_before_trade": true
+    },
+    {
+      "case": "ridge_cost10",
+      "full_net_pnl": 522794.2625696454,
+      "net_cashflow_residual": 2.3283064365386963e-10,
+      "fee_max_residual": 1.4210854715202004e-14,
+      "annual_compounding_residual": 1.7763568394002505e-15,
+      "global_drawdown_residual": 0.0,
+      "security_pnl_residual": 5.820766091346741e-11,
+      "decision_before_trade": true
+    },
+    {
+      "case": "ridge_trend_budget_cost10",
+      "full_net_pnl": 439554.2794959821,
+      "net_cashflow_residual": 4.656612873077393e-10,
+      "fee_max_residual": 1.4210854715202004e-14,
+      "annual_compounding_residual": 8.881784197001252e-16,
+      "global_drawdown_residual": 5.551115123125783e-17,
+      "security_pnl_residual": 3.4924596548080444e-10,
+      "decision_before_trade": true
+    },
+    {
+      "case": "ridge_trend_budget_cost20",
+      "full_net_pnl": 355475.44974256057,
+      "net_cashflow_residual": 8.731149137020111e-10,
+      "fee_max_residual": 2.842170943040401e-14,
+      "annual_compounding_residual": 8.881784197001252e-16,
+      "global_drawdown_residual": 8.326672684688674e-17,
+      "security_pnl_residual": 5.820766091346741e-10,
+      "decision_before_trade": true
+    },
+    {
+      "case": "equal_cost20",
+      "full_net_pnl": 389919.5418882032,
+      "net_cashflow_residual": 1.862645149230957e-09,
+      "fee_max_residual": 7.105427357601002e-15,
+      "annual_compounding_residual": 1.7763568394002505e-15,
+      "global_drawdown_residual": 5.551115123125783e-17,
+      "security_pnl_residual": 1.7462298274040222e-09,
+      "decision_before_trade": true
+    },
+    {
+      "case": "spy_cost20",
+      "full_net_pnl": 252677.41237564158,
+      "net_cashflow_residual": 5.238689482212067e-10,
+      "fee_max_residual": 8.881784197001252e-16,
+      "annual_compounding_residual": 4.440892098500626e-16,
+      "global_drawdown_residual": 0.0,
+      "security_pnl_residual": 3.7834979593753815e-10,
+      "decision_before_trade": true
+    }
+  ]
+}

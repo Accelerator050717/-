@@ -1,0 +1,14 @@
+{
+  "project": 37249270,
+  "recorded_at": "2026-10-02T07:42:02.705Z",
+  "params": {
+    "research_mode": "ridge",
+    "cost_bps": 10
+  },
+  "change": "observations only; bounded45keys/200chars;9KBownlogbudget;ordinary3accountchartseries; fullpredictionsnotarchived",
+  "sources": {
+    "main": "934c0956fdc94ccb740f7cdf74b85284727afcd3bd7e2b88f602ddf6a5c215ee",
+    "features": "058d2c541fc47b1cdebfaae6b90bad759f8ea2b84388f13b15db2dd0ce74b70a"
+  },
+  "previous": "../revision02/PRE_RUN.json"
+}

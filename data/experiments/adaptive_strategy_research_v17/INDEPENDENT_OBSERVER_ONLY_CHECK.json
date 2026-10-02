@@ -1,0 +1,25 @@
+{
+  "compared_to": "cloud/revision02/main.py",
+  "compared_source": "tools/qc_v17_research.py",
+  "method_ast_equal_after_removing_only_explicit_observer_calls": {
+    "select_universe": true,
+    "history_closes": true,
+    "resolve_labels": true,
+    "fit_annual": true,
+    "make_decision": true,
+    "on_data": true,
+    "on_order_event": true,
+    "after_close": true
+  },
+  "not_removed": [
+    "decisions",
+    "features",
+    "labels",
+    "fitting",
+    "orders",
+    "cash/position updates"
+  ],
+  "initialize_identical_excluding_explicit_observer_calls_and_runtime_keys_log_bytes_log_complete_state": true,
+  "reviewed_current_source_sha256": "934c0956fdc94ccb740f7cdf74b85284727afcd3bd7e2b88f602ddf6a5c215ee",
+  "reviewed_prior_snapshot_sha256": "4549f9b06504530ae32908fb65ee882044ba18ee42248bae5a42de61b5ee8b8d"
+}

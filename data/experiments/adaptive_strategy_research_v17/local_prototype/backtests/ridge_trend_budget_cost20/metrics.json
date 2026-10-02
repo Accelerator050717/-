@@ -1,0 +1,17 @@
+{
+  "case": "ridge_trend_budget_cost20",
+  "cost_bps": 20,
+  "final_equity": 455475.44974256057,
+  "cumulative_return": 3.5547544974256056,
+  "cagr": 0.16402923220674093,
+  "max_drawdown": -0.21407658862969547,
+  "annualized_volatility": 0.15286615525269537,
+  "average_exposure": 0.8219196256587704,
+  "max_single_stock_weight": 0.11224452020013533,
+  "average_holdings": 9.996017522899244,
+  "turnover_two_way_annual": 16.971476685388403,
+  "fees_usd": 77137.50315636699,
+  "fills": 5974,
+  "cash_interest": 0,
+  "evidence": "SURVIVORSHIP_BIASED_DEVELOPMENT_PROTOTYPE"
+}

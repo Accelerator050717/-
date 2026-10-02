@@ -1,0 +1,10 @@
+{
+  "project": 37249270,
+  "backtest_id": "4fca6ea5369fafbb254aa0eff1ecf236",
+  "name": "Virtual Orange Rhinoceros",
+  "mode": "eq",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "host": "Community B-MICRO",
+  "captured_at": "2026-10-02T07:50:07.939Z"
+}

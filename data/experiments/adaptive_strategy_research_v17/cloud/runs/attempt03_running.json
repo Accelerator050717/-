@@ -1,0 +1,15 @@
+{
+  "project": 37249270,
+  "backtest_id": "be47f9b57e7e311484b1a1f8bd13af55",
+  "name": "Hyper Active Asparagus Bull",
+  "mode": "ridge",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "completed": true,
+  "seconds": 347.47,
+  "data_points": 14909195,
+  "source_identity": "../revision02/PRE_RUN.json",
+  "output_complete": false,
+  "note": "Runtime statistic truncation prevents full artifact verification. Next same-config replay is output-only repair, not search.",
+  "status": "completed; see attempt03_completed_capture.json"
+}

@@ -1,0 +1,26 @@
+{
+  "contract": {
+    "year": 2019,
+    "rows": 41760,
+    "first_observation": "2013-05-22",
+    "last_observation": "2018-11-28",
+    "last_label_exit": "2018-12-31",
+    "prediction_rows": 7560,
+    "feature_order": [
+      "r5",
+      "r20",
+      "r63_skip20",
+      "r126_skip20",
+      "vol20",
+      "dd63",
+      "relative20",
+      "spy_gap200"
+    ],
+    "training_data_sha256": "90137d49dc8e5e2dd077f3c85d790a5ac5823c862560ad609a842afa8c901cdb",
+    "implementation_sha256": "06033219a32601c779ef0651fd0da2a053c4bbab896d10cea94fb30acd0417ef"
+  },
+  "model_sha256": "05fb9b79c65f6cd70bde32ea5e80cc9e0ba2c18370d6c1798cfc3c03b673d110",
+  "fit_seconds": 0.028844300000855583,
+  "fitted_at_utc": "2026-10-02T07:07:13.253231+00:00",
+  "warnings": []
+}

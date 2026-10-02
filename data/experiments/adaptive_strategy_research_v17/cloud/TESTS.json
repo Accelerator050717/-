@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-10-02T08:55:09.636545+00:00",
+  "test_execution_timestamp_utc": null,
+  "timestamp_note": "Exact execution timestamp was not separately captured; this records the already observed23-test run without rerunning unchanged code.",
+  "command": ".venv\\Scripts\\python.exe -m unittest discover -s tests -p test_v17_research.py -q",
+  "result": "passed",
+  "observed_stdout_stderr": "Ran 23 tests in 0.118s\nOK",
+  "tests_observed": 23,
+  "focus": "Mature-label boundary, source/model identity, bounded Free output, selection/risk criteria, operator mode/cost annotation versus actual generated run. No claims about independent profitability or broker integration.",
+  "code_sha256": {
+    "tools/summarize_v17_cloud.py": "c3ab9d209ff007b47118271be8c55ae9174b4e60e61bf2bc7147079e1bc3740f",
+    "tests/test_v17_research.py": "15b3cece1bc1294df73b5ac4ee24705aac878450b29be6f4a822dce52848dd96"
+  },
+  "actual_mismatch_regression": {
+    "command": ".venv\\Scripts\\python.exe tools/summarize_v17_cloud.py --input data/experiments/adaptive_strategy_research_v17/cloud/runs/attempt12_completed_capture.json --output data/experiments/adaptive_strategy_research_v17/cloud/repeats/attempt12_actual_eq20",
+    "observed_exit_code": 1,
+    "expected": true,
+    "only_failed_check": "operator_annotation_matches_actual",
+    "actual_mode": "eq",
+    "intended_operator_mode": "spy",
+    "cost_bps": 20
+  },
+  "cloud_financial_strategy_modified": false
+}

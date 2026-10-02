@@ -1,0 +1,17 @@
+{
+  "case": "ridge_cost10",
+  "cost_bps": 10,
+  "final_equity": 622794.2625696454,
+  "cumulative_return": 5.227942625696454,
+  "cagr": 0.2010914463446869,
+  "max_drawdown": -0.3123814088148932,
+  "annualized_volatility": 0.19959009511688666,
+  "average_exposure": 0.8997898189788047,
+  "max_single_stock_weight": 0.11224452020013533,
+  "average_holdings": 9.996017522899244,
+  "turnover_two_way_annual": 18.080381687428684,
+  "fees_usd": 48668.695914898344,
+  "fills": 5974,
+  "cash_interest": 0,
+  "evidence": "SURVIVORSHIP_BIASED_DEVELOPMENT_PROTOTYPE"
+}

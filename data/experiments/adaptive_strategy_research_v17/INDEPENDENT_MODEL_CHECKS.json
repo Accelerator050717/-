@@ -1,0 +1,90 @@
+{
+  "kind": "independent_current_input_frozen_model_prediction_check",
+  "new_fits": 0,
+  "new_backtests": 0,
+  "current_old_input_files_verified": 59,
+  "frozen_new_models_verified": 10,
+  "rows_repredicted": 75240,
+  "checks": [
+    {
+      "year": 2016,
+      "train_rows": 19140,
+      "last_label_exit": "2015-12-31",
+      "prediction_rows": 7560,
+      "prediction_max_abs_error": 9.963817965141786e-17,
+      "model_sha256": "51c834f403598779a21090a7c73f6283843374b13c85321b90cdd7e068b9aa2f"
+    },
+    {
+      "year": 2017,
+      "train_rows": 26700,
+      "last_label_exit": "2016-12-30",
+      "prediction_rows": 7530,
+      "prediction_max_abs_error": 9.974659986866641e-17,
+      "model_sha256": "b121da263bc0c287a9568e54e74f4d4cecb0596c7e1e6ae2b9242d3d00032b48"
+    },
+    {
+      "year": 2018,
+      "train_rows": 34230,
+      "last_label_exit": "2017-12-29",
+      "prediction_rows": 7530,
+      "prediction_max_abs_error": 9.974659986866641e-17,
+      "model_sha256": "02fe4d709902d77ecd7c8f4c2f743cec4ad24516c0ba26db587376c401cd8bf6"
+    },
+    {
+      "year": 2019,
+      "train_rows": 41760,
+      "last_label_exit": "2018-12-31",
+      "prediction_rows": 7560,
+      "prediction_max_abs_error": 9.974659986866641e-17,
+      "model_sha256": "05fb9b79c65f6cd70bde32ea5e80cc9e0ba2c18370d6c1798cfc3c03b673d110"
+    },
+    {
+      "year": 2020,
+      "train_rows": 49320,
+      "last_label_exit": "2019-12-31",
+      "prediction_rows": 7590,
+      "prediction_max_abs_error": 9.974659986866641e-17,
+      "model_sha256": "15518b03623b08721b9e3f5f90f5989d6a677e24e559a3fe11716e665a515ce9"
+    },
+    {
+      "year": 2021,
+      "train_rows": 56910,
+      "last_label_exit": "2020-12-31",
+      "prediction_rows": 7560,
+      "prediction_max_abs_error": 9.985502008591496e-17,
+      "model_sha256": "554ca9df4b619695284a619408e40d6c6a897fe8480c47c5ad00a695e8734aa6"
+    },
+    {
+      "year": 2022,
+      "train_rows": 64470,
+      "last_label_exit": "2021-12-31",
+      "prediction_rows": 7530,
+      "prediction_max_abs_error": 9.974659986866641e-17,
+      "model_sha256": "aa27741d361a5adfd799aae63819c17a5d0f0fe8ece45c483a210fa54bd5bbf5"
+    },
+    {
+      "year": 2023,
+      "train_rows": 72000,
+      "last_label_exit": "2022-12-30",
+      "prediction_rows": 7500,
+      "prediction_max_abs_error": 9.920449878242366e-17,
+      "model_sha256": "63d404aa56f4fc6e137c60cb14941e875e9ab27232d050c2d0d613f38e18df7a"
+    },
+    {
+      "year": 2024,
+      "train_rows": 79500,
+      "last_label_exit": "2023-12-29",
+      "prediction_rows": 7560,
+      "prediction_max_abs_error": 9.93129189996722e-17,
+      "model_sha256": "00b5ff1f1af79285ddc2f37146b9c523be3c5805701157af2bd5e9d1e1b5bb88"
+    },
+    {
+      "year": 2025,
+      "train_rows": 87060,
+      "last_label_exit": "2024-12-31",
+      "prediction_rows": 7320,
+      "prediction_max_abs_error": 9.952975943416931e-17,
+      "model_sha256": "37042ae3957ac70a4163478a21b5c585029a9946c635dcf24a5344c55f3bf945"
+    }
+  ]
+}

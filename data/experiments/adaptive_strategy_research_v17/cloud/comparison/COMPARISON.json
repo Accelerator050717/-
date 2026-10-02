@@ -1,0 +1,382 @@
+{
+  "validated_case_count": 10,
+  "unique_mode_cost_count": 10,
+  "validated_case_fit_count_not_total_cloud_attempt_fits": 4,
+  "duplicate_checks": [],
+  "conflicting_duplicate_configs": [],
+  "common_source_configuration": true,
+  "source_identities": [
+    {
+      "mode": "eq",
+      "cost_bps": 10,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "eq",
+        "cost_bps": 10,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "eq",
+      "cost_bps": 20,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "eq",
+        "cost_bps": 20,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "mom20",
+      "cost_bps": 10,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "mom20",
+        "cost_bps": 10,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "ridge",
+      "cost_bps": 10,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "ridge",
+        "cost_bps": 10,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "ridge_risk",
+      "cost_bps": 10,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "ridge_risk",
+        "cost_bps": 10,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "spy",
+      "cost_bps": 10,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "spy",
+        "cost_bps": 10,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "spy",
+      "cost_bps": 20,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "spy",
+        "cost_bps": 20,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "trend63",
+      "cost_bps": 10,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "trend63",
+        "cost_bps": 10,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "trend63_risk",
+      "cost_bps": 10,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "trend63_risk",
+        "cost_bps": 10,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    },
+    {
+      "mode": "trend63_risk",
+      "cost_bps": 20,
+      "source_identity": {
+        "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+        "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+        "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+        "features": [
+          "return_5",
+          "return_20",
+          "return_63_skip_20",
+          "return_126_skip_20",
+          "volatility_20",
+          "drawdown_63",
+          "log_dollar_volume_shock",
+          "log_median_dollar_volume_20"
+        ],
+        "research_mode": "trend63_risk",
+        "cost_bps": 20,
+        "training_start": "2019-01-01",
+        "evaluation": [
+          "2022-01-01",
+          "2023-12-31"
+        ],
+        "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+        "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+      },
+      "cumulative_security_ids": 183,
+      "pool_membership_hashes_exported": false
+    }
+  ],
+  "exact_monthly_universe_membership_cross_run_verified": false,
+  "universe_identity_limit": "Frozen same source, parameters, coverage/counts; full per-month membership hashes were not exported. This is not exact membership hash proof.",
+  "comparison_scope": "2022-2023 development; equity vs concentrated signals also changes holdings/concentration; risk overlay changes budget intentionally",
+  "selection": {
+    "status": "all_candidates_rejected_risk_diagnostic_only",
+    "missing_10bp_modes": [],
+    "selected_research_candidate": "trend63_risk",
+    "rule": "among fixed non-control candidates with fullDD<=30%, highestnetCAGR; if none, leastDD as rejected diagnostic only",
+    "independent_validation": false,
+    "forward_run": false,
+    "pending_reasons": [],
+    "selected_10bp_cagr": -0.03029238477888807,
+    "selected_10bp_drawdown": 0.3268294537471007,
+    "meets_minimum_numeric_targets": false,
+    "required_20bp_modes": [
+      "trend63_risk",
+      "eq",
+      "spy"
+    ],
+    "remaining_20bp_modes": [],
+    "best_including_controls_under_budget": "spy"
+  },
+  "paired_checks": [
+    {
+      "kind": "fixed_risk_overlay",
+      "base": "trend63",
+      "candidate": "trend63_risk",
+      "cagr_delta_pp": -1.8991514904437845,
+      "drawdown_delta_pp": -4.875437560731211,
+      "exposure_delta_pp": -18.047233213583436,
+      "signal_hash_matches": true,
+      "model_hashes_match": true
+    },
+    {
+      "kind": "fixed_risk_overlay",
+      "base": "ridge",
+      "candidate": "ridge_risk",
+      "cagr_delta_pp": -2.6571079573092127,
+      "drawdown_delta_pp": -3.319527983483994,
+      "exposure_delta_pp": -18.604307787402806,
+      "signal_hash_matches": true,
+      "model_hashes_match": true
+    },
+    {
+      "kind": "ordinary_cost_10_to_20bp",
+      "base": "eq",
+      "candidate": "eq",
+      "cagr_delta_pp": -0.37812944814118454,
+      "drawdown_delta_pp": 0.2647913150000125,
+      "signal_hash_matches": true,
+      "model_hashes_match": true
+    },
+    {
+      "kind": "ordinary_cost_10_to_20bp",
+      "base": "trend63_risk",
+      "candidate": "trend63_risk",
+      "cagr_delta_pp": -0.992332351254599,
+      "drawdown_delta_pp": 0.8051362140934049,
+      "signal_hash_matches": true,
+      "model_hashes_match": true
+    },
+    {
+      "kind": "ordinary_cost_10_to_20bp",
+      "base": "spy",
+      "candidate": "spy",
+      "cagr_delta_pp": -0.13092124727620558,
+      "drawdown_delta_pp": 0.11506960000000621,
+      "signal_hash_matches": true,
+      "model_hashes_match": true
+    }
+  ],
+  "omitted_cases": []
+}

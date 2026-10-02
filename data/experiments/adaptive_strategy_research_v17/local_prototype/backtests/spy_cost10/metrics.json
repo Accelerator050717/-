@@ -1,0 +1,17 @@
+{
+  "case": "spy_cost10",
+  "cost_bps": 10,
+  "final_equity": 353571.9237739728,
+  "cumulative_return": 2.5357192377397277,
+  "cagr": 0.13486854378706692,
+  "max_drawdown": -0.30824552579054265,
+  "annualized_volatility": 0.1619900934999385,
+  "average_exposure": 0.8997403835051399,
+  "max_single_stock_weight": 0.9115196339119949,
+  "average_holdings": 0.9996017522899243,
+  "turnover_two_way_annual": 0.2531622434359975,
+  "fees_usd": 548.8735652647554,
+  "fills": 503,
+  "cash_interest": 0,
+  "evidence": "SURVIVORSHIP_BIASED_DEVELOPMENT_PROTOTYPE"
+}

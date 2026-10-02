@@ -1,0 +1,17 @@
+{
+  "case": "equal_cost10",
+  "cost_bps": 10,
+  "final_equity": 495602.4904054151,
+  "cumulative_return": 3.956024904054151,
+  "cagr": 0.17391668330006138,
+  "max_drawdown": -0.30079332684088467,
+  "annualized_volatility": 0.1500213203122372,
+  "average_exposure": 0.8997846694979232,
+  "max_single_stock_weight": 0.03757919867989963,
+  "average_holdings": 29.98805256869773,
+  "turnover_two_way_annual": 1.1545906606528795,
+  "fees_usd": 3095.6346030496643,
+  "fills": 15090,
+  "cash_interest": 0,
+  "evidence": "SURVIVORSHIP_BIASED_DEVELOPMENT_PROTOTYPE"
+}

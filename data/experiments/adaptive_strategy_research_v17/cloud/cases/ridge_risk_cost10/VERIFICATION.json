@@ -1,0 +1,650 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "declared_log_records_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "complete_log_source_identity_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "generated_mode_matches_summary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "generated_cost_matches_summary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "generated_evaluation_matches_summary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "registered_evaluation_months",
+      "passed": true,
+      "detail": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12"
+      ]
+    },
+    {
+      "check": "engine_gate_pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "year_2026_not_used",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "training_mode_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-01",
+      "passed": true,
+      "detail": "2022-01-31"
+    },
+    {
+      "check": "monthly_cash_mark_2022-01",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-02",
+      "passed": true,
+      "detail": "2022-02-28"
+    },
+    {
+      "check": "monthly_cash_mark_2022-02",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-03",
+      "passed": true,
+      "detail": "2022-03-31"
+    },
+    {
+      "check": "monthly_cash_mark_2022-03",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-04",
+      "passed": true,
+      "detail": "2022-04-29"
+    },
+    {
+      "check": "monthly_cash_mark_2022-04",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-05",
+      "passed": true,
+      "detail": "2022-05-31"
+    },
+    {
+      "check": "monthly_cash_mark_2022-05",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-06",
+      "passed": true,
+      "detail": "2022-06-30"
+    },
+    {
+      "check": "monthly_cash_mark_2022-06",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-07",
+      "passed": true,
+      "detail": "2022-07-29"
+    },
+    {
+      "check": "monthly_cash_mark_2022-07",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-08",
+      "passed": true,
+      "detail": "2022-08-31"
+    },
+    {
+      "check": "monthly_cash_mark_2022-08",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-09",
+      "passed": true,
+      "detail": "2022-09-30"
+    },
+    {
+      "check": "monthly_cash_mark_2022-09",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-10",
+      "passed": true,
+      "detail": "2022-10-31"
+    },
+    {
+      "check": "monthly_cash_mark_2022-10",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-11",
+      "passed": true,
+      "detail": "2022-11-30"
+    },
+    {
+      "check": "monthly_cash_mark_2022-11",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2022-12",
+      "passed": true,
+      "detail": "2022-12-30"
+    },
+    {
+      "check": "monthly_cash_mark_2022-12",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2022-12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-01",
+      "passed": true,
+      "detail": "2023-01-31"
+    },
+    {
+      "check": "monthly_cash_mark_2023-01",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-02",
+      "passed": true,
+      "detail": "2023-02-28"
+    },
+    {
+      "check": "monthly_cash_mark_2023-02",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-03",
+      "passed": true,
+      "detail": "2023-03-31"
+    },
+    {
+      "check": "monthly_cash_mark_2023-03",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-04",
+      "passed": true,
+      "detail": "2023-04-28"
+    },
+    {
+      "check": "monthly_cash_mark_2023-04",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-05",
+      "passed": true,
+      "detail": "2023-05-31"
+    },
+    {
+      "check": "monthly_cash_mark_2023-05",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-06",
+      "passed": true,
+      "detail": "2023-06-30"
+    },
+    {
+      "check": "monthly_cash_mark_2023-06",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-07",
+      "passed": true,
+      "detail": "2023-07-31"
+    },
+    {
+      "check": "monthly_cash_mark_2023-07",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-08",
+      "passed": true,
+      "detail": "2023-08-31"
+    },
+    {
+      "check": "monthly_cash_mark_2023-08",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-09",
+      "passed": true,
+      "detail": "2023-09-29"
+    },
+    {
+      "check": "monthly_cash_mark_2023-09",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-10",
+      "passed": true,
+      "detail": "2023-10-31"
+    },
+    {
+      "check": "monthly_cash_mark_2023-10",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-11",
+      "passed": true,
+      "detail": "2023-11-30"
+    },
+    {
+      "check": "monthly_cash_mark_2023-11",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "month_end_identity_2023-12",
+      "passed": true,
+      "detail": "2023-12-29"
+    },
+    {
+      "check": "monthly_cash_mark_2023-12",
+      "passed": true,
+      "detail": {
+        "difference": 0.0
+      }
+    },
+    {
+      "check": "nondecreasing_fees_2023-12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "final_equity_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cumulative_return_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two_year_cagr_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "final_fee_total_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reported_daily_drawdown_not_smaller_than_monthly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "final_flat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "annual_return_2022",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "annual_return_2023",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "prediction_retention_limit_declared",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2022_model_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2022_feature_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2022_observations_before_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2022_labels_matured_before_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2022_parameter_dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2022_positive_scales",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2023_model_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2023_feature_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2023_observations_before_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2023_labels_matured_before_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2023_parameter_dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "v17_fit_2023_positive_scales",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fit_artifact_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "model_hash_list_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "security_pnl_aggregate_reconciles",
+      "passed": true,
+      "detail": {
+        "residual": 7.625075104742557e-12
+      }
+    }
+  ],
+  "monthly_drawdown_lower_bound": 0.37336060272613003,
+  "daily_drawdown_independently_recomputed": false,
+  "full_predictions_archived": false,
+  "full_security_pnl_archived": false,
+  "evidence": "visible cloud derived RuntimeStats; no provider quote authentication or independent validation",
+  "run_identity": {
+    "project": 37249270,
+    "backtest_id": "34c60a7570c87925873ca04af7dcafe7",
+    "name": "Hyper Active Black Alligator",
+    "mode": "ridge_risk",
+    "cost_bps": 10,
+    "engine": "2.5.0.0.18149",
+    "revision": "03",
+    "captured_at": "2026-10-02T08:22:06.801Z"
+  },
+  "source_identity": {
+    "strategy_sha256": "1f83d5ea21f8a140e7cd3f6c3d7b65ff819646fc6388ad7710f677615102c83c",
+    "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+    "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+    "features": [
+      "return_5",
+      "return_20",
+      "return_63_skip_20",
+      "return_126_skip_20",
+      "volatility_20",
+      "drawdown_63",
+      "log_dollar_volume_shock",
+      "log_median_dollar_volume_20"
+    ],
+    "research_mode": "ridge_risk",
+    "cost_bps": 10,
+    "training_start": "2019-01-01",
+    "evaluation": [
+      "2022-01-01",
+      "2023-12-31"
+    ],
+    "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+    "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+  },
+  "capture_sha256": "6673679946396d60492ca824c236a78e30906a6ec6e1b72afab363be2e640745"
+}

@@ -1,0 +1,23 @@
+{
+  "purpose": "serialization-size estimate only; fabricated maximum-width values are NOT experiment results",
+  "actual_source_run": "be47f9b57e7e311484b1a1f8bd13af55",
+  "actual_unresolved_count": 6,
+  "assumptions": {
+    "identifier_characters": 50,
+    "features": 8,
+    "coefficient_scaler_intercept_numbers": 25,
+    "float_example_serialized_characters": 24,
+    "warnings_reuse_actual": "none",
+    "timestamp_framing_reserved_bytes_per_line": 64
+  },
+  "identity_bytes": 746,
+  "fit_bytes": [
+    1352,
+    1352
+  ],
+  "summary_bytes": 4830,
+  "estimated_own_total_bytes": 8280,
+  "own_limit_bytes": 9000,
+  "free_limit_bytes": 10000,
+  "within_own_limit": true
+}

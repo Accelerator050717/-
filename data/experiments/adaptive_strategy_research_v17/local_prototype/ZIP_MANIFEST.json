@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-02T07:12:27.923738+00:00",
+  "archive_path": "review_bundles/v17_local_20261002.zip",
+  "archive_size_bytes": 6566945,
+  "archive_sha256": "14e3ff52220b33c4becf13449f501e57de6f0d631e8b4dccd17204cfef09c489",
+  "payload_count": 35,
+  "payload_size_bytes": 22157504,
+  "inventory_path": "data/experiments/adaptive_strategy_research_v17/local_prototype/LARGE_ARTIFACTS.csv",
+  "inventory_sha256": "8e98e052530d895d497812dd2af9ae9256eaeee4de2be9cdf9649233e29cd633",
+  "original_complete_sha256": "fb12c512e8ac1f0f345d824e71eafbe46ce26416560377395c75fe7d49bffcce",
+  "contains_provider_raw_data": false,
+  "extract_into": "M:\\ml项目",
+  "verification": "All 35 payload lengths and SHA256 values plus archive CRC checked against original COMPLETE",
+  "regenerate_command": ".\\.venv\\Scripts\\python.exe -B tools/prepare_v17_local_bundle.py",
+  "verify_command": ".\\.venv\\Scripts\\python.exe -B tools/prepare_v17_local_bundle.py --verify"
+}

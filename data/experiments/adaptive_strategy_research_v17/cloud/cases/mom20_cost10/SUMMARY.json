@@ -1,0 +1,161 @@
+{
+  "mode": "mom20",
+  "cost_bps": 10,
+  "evaluation": "2022-2023 development",
+  "training_count": 0,
+  "model_hashes": [],
+  "complete_months": 24,
+  "daily_close_rows": 501,
+  "cumulative_security_ids": 183,
+  "net_cumulative": -0.21331664866136013,
+  "net_cagr": -0.1131211570017755,
+  "max_drawdown": 0.4283546731238159,
+  "annualized_volatility": 0.27244015200603555,
+  "annual_returns": {
+    "2022": -0.34552686956136003,
+    "2023": 0.2020101586315548
+  },
+  "average_exposure": 0.8314745170440635,
+  "maximum_single_close_weight": 0.16548718450030397,
+  "turnover_gross_notional_over_average_equity": 37.00836972460492,
+  "traded_notional": 2753925.95,
+  "fees_paid": 2753.9259500000003,
+  "final_equity": 78668.33513386399,
+  "final_cash": 78668.33513386399,
+  "final_gross_holdings": 0,
+  "dividend_cash_engine_proxy": 2359.41,
+  "split_fraction_cash_engine_proxy": 0.001083864,
+  "max_cash_reconciliation_error": 6.002665031701326e-11,
+  "attribution_residual": -6.3008031951639065e-12,
+  "maximum_exposure": 0.9095226662014411,
+  "minimum_cash": 6363.488373864,
+  "training_rows_resolved": 5813,
+  "unresolved_training_labels": 6,
+  "training_label_scope": "rank conditional on observed endpoint; unresolved lifecycle cases prevent a complete-lifecycle/survivorship-free claim",
+  "mean_monthly_rank_ic": null,
+  "rank_ic_months": 0,
+  "stats": {
+    "fundamental_duplicate_identical": 332,
+    "dividend_events": 1311,
+    "split_events": 40,
+    "splits_occurred": 20,
+    "symbol_changes": 3,
+    "raw_jump_with_split": 13,
+    "delisting_warning": 6,
+    "delisting_delisted": 6,
+    "raw_jump_unexplained": 16,
+    "raw_change_across_subscription_gap": 77,
+    "expected_security_days": 50131,
+    "observed_security_days": 50105,
+    "order_events": 898,
+    "fills": 449,
+    "buy_fills": 212,
+    "sell_fills": 237,
+    "unknown_missing": 9,
+    "frozen_target_split_adjustments": 2,
+    "attribution_split_cash": 0.001083864,
+    "known_terminated_missing": 17,
+    "missing_held_days": 1,
+    "missing_held_value_sum": 6207.98,
+    "max_missing_held_value": 6207.98
+  },
+  "open_orders_at_end": 0,
+  "gate_pass": true,
+  "native_orders_only": true,
+  "object_store_written": false,
+  "raw_provider_records_exported": false,
+  "2026_market_data_used": false,
+  "economic_rights_limit": "LEAN dividend/terminal cash proxy; not verified real payment dates or complete spinoff rights",
+  "prediction_panel_sha256": "41286bde65fb3e71f6104bdd5598c26079232127d41a635757ac7e35d6dde75c",
+  "decision_records_sha256": "0d563737eac4db0daada78c762f3ad3bcbb61718915698063ed9f80ba00d8ca8",
+  "security_pnl_sha256": "2a0f22cc0e48d602ead9715ef01a0a0576f5e86b4a67b7dac895892263d47f00",
+  "top5_winners": [
+    [
+      "CVNA WK2S2IM8SSPX",
+      6158.301599999999
+    ],
+    [
+      "FB V6OIPNZEM8V9",
+      6033.79992
+    ],
+    [
+      "COIN XNNJXSXHIHYD",
+      2747.4013000000004
+    ],
+    [
+      "AMC VMGNNM1SRKH1",
+      2188.6064000000015
+    ],
+    [
+      "CHV R735QTJ8XC9X",
+      2036.4124599999998
+    ]
+  ],
+  "top5_losers": [
+    [
+      "UPST XKEDQOEEEPUT",
+      -6077.0620199999985
+    ],
+    [
+      "AMD R735QTJ8XC9X",
+      -5001.0850500000015
+    ],
+    [
+      "SQ W5OUXC7GJYAT",
+      -3488.5767900000014
+    ],
+    [
+      "UBER X4DDRW1HKLT1",
+      -3141.93662
+    ],
+    [
+      "SHOP W0PNKBMQMN39",
+      -2956.2792799999993
+    ]
+  ],
+  "gross_positive_security_pnl": 42343.93323000001,
+  "gross_negative_security_pnl": 63675.59917999999,
+  "top1_loss_share_of_gross_losses": 0.09543784586653338,
+  "top5_loss_share_of_gross_losses": 0.3245346730320316,
+  "unresolved_label_records": [
+    {
+      "sid": "APC R735QTJ8XC9X",
+      "start": "2019-08-01",
+      "end": "2019-09-03",
+      "reason": "terminal_endpoint_unresolved"
+    },
+    {
+      "sid": "YHOO R735QTJ8XC9X",
+      "start": "2019-10-01",
+      "end": "2019-11-01",
+      "reason": "terminal_endpoint_unresolved"
+    },
+    {
+      "sid": "CELG R735QTJ8XC9X",
+      "start": "2019-11-01",
+      "end": "2019-12-02",
+      "reason": "terminal_endpoint_unresolved"
+    },
+    {
+      "sid": "WPI R735QTJ8XC9X",
+      "start": "2020-05-01",
+      "end": "2020-06-01",
+      "reason": "terminal_endpoint_unresolved"
+    },
+    {
+      "sid": "ABMD R735QTJ8XC9X",
+      "start": "2022-12-01",
+      "end": "2023-01-03",
+      "reason": "terminal_endpoint_unresolved"
+    },
+    {
+      "sid": "ATVI R735QTJ8XC9X",
+      "start": "2023-10-02",
+      "end": "2023-11-01",
+      "reason": "terminal_endpoint_unresolved"
+    }
+  ],
+  "full_predictions_archived": false,
+  "full_security_pnl_archived": false,
+  "artifact_limit": "Free50runtimekeys/200chars and10KBlogs; hashes+frozen code, fullfits, aggregates, native accountcharts"
+}

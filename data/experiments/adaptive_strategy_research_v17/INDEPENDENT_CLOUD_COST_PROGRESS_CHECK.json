@@ -1,0 +1,29 @@
+{
+  "scope": "eq20 checkpoint, no fit/replay; final two20bp configurations pending",
+  "passed": true,
+  "monthly_residual": 1.4551915228366852e-11,
+  "annual": {
+    "2022": -0.21475774943191017,
+    "2023": 0.22924219090779951
+  },
+  "cost20_minus_cost10": {
+    "net_cagr": -0.0037812944814118454,
+    "net_cumulative": -0.007439311850000019,
+    "max_drawdown": 0.002647913150000125,
+    "final_equity": -743.9311850000086,
+    "fees_paid": 626.9911849999978,
+    "average_exposure": 0.0009643087470022627
+  },
+  "source_run": {
+    "project": 37249270,
+    "backtest_id": "dd50202fb4a6bda82c16dd22ac71c34e",
+    "name": "Dancing Brown Dolphin",
+    "mode": "eq",
+    "cost_bps": 20,
+    "engine": "2.5.0.0.18149",
+    "revision": "03",
+    "captured_at": "2026-10-02T08:36:31.662Z"
+  },
+  "no_claim_of_exact_monthly_pool_membership_equality": "Equal/SPY score-panel hashes do not contain ranked score vectors; shared source and183SID count do not replace missing fullmonthlymembership export",
+  "summary_sha256": "9df5b0e29f8b460111ab0a90a0a604891a3d4124bd14ebe8a103585355c842ac"
+}

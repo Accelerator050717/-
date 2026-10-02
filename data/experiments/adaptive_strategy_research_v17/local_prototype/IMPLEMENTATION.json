@@ -1,0 +1,15 @@
+{
+  "plan_sha256": "5c5526b01d0375e3e5e57b24cdacea0fa790118c5b62cb7b5169f4afdc1836cf",
+  "source_sha256": {
+    "tools/research_v17_local.py": "a66a1453b252445ff13fbae7c3ff869e3fcd10f080d3fc02c5750d6eebcc79cf",
+    "research_backtest.py": "9809c6a08efa043150d8b1b550f2bb658af6948861f07988bfecc24892539cbf",
+    "h60_research_inputs.py": "a62f6f02fb8953bf807ca14142fd4e446a34c99e57f1366aa6836a5b6100bb3d"
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  }
+}

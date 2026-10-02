@@ -1,0 +1,12 @@
+{
+  "project": 37249270,
+  "backtest_id": "8853629b1527c771f1e1b44cf99bbfc3",
+  "name": "Focused Fluorescent Pink Salmon",
+  "mode": "ridge",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "status": "running",
+  "source_identity": "../revision03/PRE_RUN.json",
+  "purpose": "same configuration observation-only repeat",
+  "recorded_at": "2026-10-02T07:43:00.646Z"
+}

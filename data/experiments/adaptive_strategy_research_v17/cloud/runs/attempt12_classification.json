@@ -1,0 +1,22 @@
+{
+  "backtest_id": "b429500071dead38dd40a2f87e5a3142",
+  "intended_mode_from_operator_annotation": "spy",
+  "actual_mode_from_runtime_identity_and_summary": "eq",
+  "cost_bps": 20,
+  "classification": "completed_duplicate_eq20_not_spy20",
+  "new_strategy_cost_configuration": false,
+  "actual_model_fits": 0,
+  "all_summary_fields_except_tiny_attribution_residual_exactly_equal": true,
+  "summary_field_differences": {
+    "attribution_residual": {
+      "repeat": 1.3358203432289883e-12,
+      "canonical": 4.263256414560601e-13
+    }
+  },
+  "residual_difference_usd": 9.094947017729282e-13,
+  "canonical_case": "cases/eq_cost20",
+  "raw_capture_preserved": "data\\experiments\\adaptive_strategy_research_v17\\cloud\\runs\\attempt12_completed_capture.json",
+  "raw_capture_sha256": "712beed34e88709091a2ebd9234fec7155dcfa480c1e04d4124640eedcddfb40",
+  "verification": "repeats/attempt12_actual_eq20/VERIFICATION.json deliberatelyfails operator_annotation_matches_actual only",
+  "note": "UI parameter edit/readback is not proof of actual compiled run parameters; engine identity is authoritative. No data substituted or canonical output overwritten."
+}

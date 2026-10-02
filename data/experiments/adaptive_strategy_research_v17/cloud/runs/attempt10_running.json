@@ -1,0 +1,10 @@
+{
+  "project": 37249270,
+  "backtest_id": "d5dc469c4123c4d2f1e14a4450a96abe",
+  "name": "Square Violet Butterfly",
+  "mode": "trend63_risk",
+  "cost_bps": 10,
+  "engine": "2.5.0.0.18149",
+  "host": "Community B-MICRO",
+  "captured_at": "2026-10-02T08:27:34.914Z"
+}

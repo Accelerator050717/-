@@ -1,0 +1,64 @@
+{
+  "name": "v17_local_fixed_survivor_prototype",
+  "root_plan_sha256": "cc82d6e0b059c38c8831283c4617803f74bc943c16d9bb5da264cef17fb43d54",
+  "data_limitation": "Fixed current-survivor 30-stock universe; cannot validate dynamic universe/deployment",
+  "features": [
+    "r5",
+    "r20",
+    "r63_skip20",
+    "r126_skip20",
+    "vol20",
+    "dd63",
+    "relative20",
+    "spy_gap200"
+  ],
+  "train_start": "2013-05-22",
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "model": {
+    "kind": "StandardScaler+Ridge",
+    "alpha": 100,
+    "solver": "svd"
+  },
+  "label": "(adjusted_open[t+21]/adjusted_open[t+1]-1 - SPY_same) / (past20_daily_std_ddof1 * sqrt20)",
+  "training_cutoff": "Date and exit20 strictly before deployment Jan1; train-only scaler; no parameter tuning",
+  "initial_cash": 100000.0,
+  "price_basis": "adjusted OHLC total-return proxy/fractional units; dividends not added again",
+  "schedule": "original v5 502 five-session observation dates; following open; final open liquidation",
+  "first_entry": "2016-01-05",
+  "final_exit": "2025-12-29",
+  "exposure": 0.9,
+  "top_k": 10,
+  "overlay": "only ridge_trend_budget: scheduled .45 below SPY200SMA, else .90; no individual stop or pause",
+  "base_cases": [
+    "equal",
+    "spy",
+    "medium_trend",
+    "ridge",
+    "ridge_trend_budget"
+  ],
+  "cost10_cases": 5,
+  "cost20_cases": 3,
+  "finalist_rule": "nonbaseline highest CAGR among drawdown >= -30%; if none, highest CAGR diagnosis only; stable case tie",
+  "max_fits": 10,
+  "max_backtests": 8,
+  "no_leverage": true,
+  "no_2026": true,
+  "no_broker": true,
+  "goal_cagr": [
+    0.2,
+    0.3
+  ],
+  "preferred_drawdown": 0.2,
+  "drawdown_budget": 0.3
+}

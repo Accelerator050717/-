@@ -1,0 +1,289 @@
+{
+  "scope": "seven fixed10bp configurations; read-only independent arithmetic/source review",
+  "annualization": "730 calendar days /365.25, 2022-01-01 inclusive to2024-01-01 exclusive",
+  "cases": {
+    "eq": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "4fca6ea5369fafbb254aa0eff1ecf236",
+        "name": "Virtual Orange Rhinoceros",
+        "mode": "eq",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T07:56:27.670Z"
+      },
+      "checks": {
+        "parsed_verification_passed": true,
+        "source_identity_matches": true,
+        "mode_cost_correct": true,
+        "daily501_monthly24": true,
+        "no2026": true,
+        "gate": true,
+        "monthly_arithmetic": true,
+        "annual_arithmetic": true,
+        "final_cumulative_cagr": true
+      },
+      "maximum_monthly_dollar_residual": 1.4551915228366852e-11,
+      "annual": {
+        "2022": -0.21180041018191031,
+        "2023": 0.2340684122357637
+      },
+      "cagr": -0.013757752738226103,
+      "max_drawdown_engine": 0.26607952908191,
+      "average_exposure": 0.7464387579639203,
+      "final_equity": 97269.22163316901,
+      "summary_sha256": "72b61b5e07f13123b51181ef6a98e7f9ca0637b658ece08071d7ce3d3ab859bf"
+    },
+    "mom20": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "a187b2680217d44e97e6761ef51c84b8",
+        "name": "Retrospective Yellow Gull",
+        "mode": "mom20",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:08:39.470Z"
+      },
+      "checks": {
+        "parsed_verification_passed": true,
+        "source_identity_matches": true,
+        "mode_cost_correct": true,
+        "daily501_monthly24": true,
+        "no2026": true,
+        "gate": true,
+        "monthly_arithmetic": true,
+        "annual_arithmetic": true,
+        "final_cumulative_cagr": true
+      },
+      "maximum_monthly_dollar_residual": 0,
+      "annual": {
+        "2022": -0.34552686956136003,
+        "2023": 0.2020101586315548
+      },
+      "cagr": -0.1131211570017755,
+      "max_drawdown_engine": 0.4283546731238159,
+      "average_exposure": 0.8314745170440635,
+      "final_equity": 78668.33513386399,
+      "summary_sha256": "07cfa3270a2e42f29bcd0b01af4eb69894c47a49208f05b7d1d64db0e2716251"
+    },
+    "trend63": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "feed23708e171f6e3b7674fb095a0ee9",
+        "name": "Pensive Red Fish",
+        "mode": "trend63",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:15:42.467Z"
+      },
+      "checks": {
+        "parsed_verification_passed": true,
+        "source_identity_matches": true,
+        "mode_cost_correct": true,
+        "daily501_monthly24": true,
+        "no2026": true,
+        "gate": true,
+        "monthly_arithmetic": true,
+        "annual_arithmetic": true,
+        "final_cumulative_cagr": true
+      },
+      "maximum_monthly_dollar_residual": 1.4551915228366852e-11,
+      "annual": {
+        "2022": -0.3076498767999999,
+        "2023": 0.4119173894009929
+      },
+      "cagr": -0.011300869874450226,
+      "max_drawdown_engine": 0.3755838293544128,
+      "average_exposure": 0.8437802750644943,
+      "final_equity": 97754.11785,
+      "summary_sha256": "0f456896a68643f9c419630c5eaa1a12b77fdefc501874a081ba979868bb296f"
+    },
+    "ridge": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "8853629b1527c771f1e1b44cf99bbfc3",
+        "name": "Focused Fluorescent Pink Salmon",
+        "mode": "ridge",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T07:48:46.071Z"
+      },
+      "checks": {
+        "parsed_verification_passed": true,
+        "source_identity_matches": true,
+        "mode_cost_correct": true,
+        "daily501_monthly24": true,
+        "no2026": true,
+        "gate": true,
+        "monthly_arithmetic": true,
+        "annual_arithmetic": true,
+        "final_cumulative_cagr": true
+      },
+      "maximum_monthly_dollar_residual": 1.4551915228366852e-11,
+      "annual": {
+        "2022": -0.4067810825609699,
+        "2023": 0.4547331950649147
+      },
+      "cagr": -0.07108227023828761,
+      "max_drawdown_engine": 0.42234968256096994,
+      "average_exposure": 0.8146524102388376,
+      "final_equity": 86297.525113903,
+      "summary_sha256": "12e538311a01a336d3651f5b7522c8a7b13ecc9af4107c897de86a7e01a34f42"
+    },
+    "trend63_risk": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "d5dc469c4123c4d2f1e14a4450a96abe",
+        "name": "Square Violet Butterfly",
+        "mode": "trend63_risk",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:29:12.196Z"
+      },
+      "checks": {
+        "parsed_verification_passed": true,
+        "source_identity_matches": true,
+        "mode_cost_correct": true,
+        "daily501_monthly24": true,
+        "no2026": true,
+        "gate": true,
+        "monthly_arithmetic": true,
+        "annual_arithmetic": true,
+        "final_cumulative_cagr": true
+      },
+      "maximum_monthly_dollar_residual": 1.4551915228366852e-11,
+      "annual": {
+        "2022": -0.27379565650000004,
+        "2023": 0.29491439264573893
+      },
+      "cagr": -0.03029238477888807,
+      "max_drawdown_engine": 0.3268294537471007,
+      "average_exposure": 0.6633079429286599,
+      "final_equity": 94037.24564,
+      "summary_sha256": "8191d0cfae22302ac09ab8fab0dbb6a9100fe0e97e425182639364b7aa4801fd"
+    },
+    "ridge_risk": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "34c60a7570c87925873ca04af7dcafe7",
+        "name": "Hyper Active Black Alligator",
+        "mode": "ridge_risk",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:22:06.801Z"
+      },
+      "checks": {
+        "parsed_verification_passed": true,
+        "source_identity_matches": true,
+        "mode_cost_correct": true,
+        "daily501_monthly24": true,
+        "no2026": true,
+        "gate": true,
+        "monthly_arithmetic": true,
+        "annual_arithmetic": true,
+        "final_cumulative_cagr": true
+      },
+      "maximum_monthly_dollar_residual": 0,
+      "annual": {
+        "2022": -0.37336060272613003,
+        "2023": 0.2995416871594567
+      },
+      "cagr": -0.09765334981137974,
+      "max_drawdown_engine": 0.38915440272613,
+      "average_exposure": 0.6286093323648095,
+      "final_equity": 81434.401957387,
+      "summary_sha256": "30e12c34053f0e785b381d9a5375c62b03ca33bba34a294583878e87e2785951"
+    },
+    "spy": {
+      "run_identity": {
+        "project": 37249270,
+        "backtest_id": "75894829335b6264a5dc387c92ad7625",
+        "name": "Pensive Green Flamingo",
+        "mode": "spy",
+        "cost_bps": 10,
+        "engine": "2.5.0.0.18149",
+        "revision": "03",
+        "captured_at": "2026-10-02T08:02:29.344Z"
+      },
+      "checks": {
+        "parsed_verification_passed": true,
+        "source_identity_matches": true,
+        "mode_cost_correct": true,
+        "daily501_monthly24": true,
+        "no2026": true,
+        "gate": true,
+        "monthly_arithmetic": true,
+        "annual_arithmetic": true,
+        "final_cumulative_cagr": true
+      },
+      "maximum_monthly_dollar_residual": 1.4551915228366852e-11,
+      "annual": {
+        "2022": -0.1674978211999999,
+        "2023": 0.23482712247287152
+      },
+      "cagr": 0.013911096478552043,
+      "max_drawdown_engine": 0.2215842602,
+      "average_exposure": 0.8903174158993403,
+      "final_equity": 102799.62699,
+      "summary_sha256": "72d3ab47ad6730e0ef81f23a3982646c8e6224d9e99ecc3998b88cec0762f359"
+    }
+  },
+  "trend_same_signal": {
+    "prediction_hash_equal": true,
+    "prediction_panel_sha256": "774dfee26f1f1d36bdf97fb6e62f4ba6e54591af5ea1852fc94f4670f139ed4c",
+    "model_hashes_both_empty": true,
+    "risk_minus_uncontrolled": {
+      "net_cagr": -0.018991514904437845,
+      "net_cumulative": -0.03716872210000011,
+      "max_drawdown": -0.048754375607312106,
+      "average_exposure": -0.18047233213583436,
+      "final_equity": -3716.8722100000014,
+      "fees_paid": -439.77778999999873
+    },
+    "annual_risk_minus_uncontrolled": {
+      "2022": 0.03385422029999985,
+      "2023": -0.11700299675525394
+    }
+  },
+  "selection": {
+    "status": "all_candidates_rejected_risk_diagnostic_only",
+    "missing_10bp_modes": [],
+    "selected_research_candidate": "trend63_risk",
+    "rule": "among fixed non-control candidates with fullDD<=30%, highestnetCAGR; if none, leastDD as rejected diagnostic only",
+    "independent_validation": false,
+    "forward_run": false,
+    "pending_reasons": [],
+    "selected_10bp_cagr": -0.03029238477888807,
+    "selected_10bp_drawdown": 0.3268294537471007,
+    "meets_minimum_numeric_targets": false,
+    "required_20bp_modes": [
+      "trend63_risk",
+      "eq",
+      "spy"
+    ],
+    "remaining_20bp_modes": [
+      "trend63_risk",
+      "eq",
+      "spy"
+    ],
+    "best_including_controls_under_budget": "spy"
+  },
+  "all_five_candidates_exceed_30pct_dd": true,
+  "fallback_is_least_drawdown": true,
+  "plot_sources_check": {
+    "eq": true,
+    "mom20": true,
+    "trend63": true,
+    "ridge": true,
+    "trend63_risk": true,
+    "ridge_risk": true,
+    "spy": true
+  },
+  "all_checks_passed": true
+}

@@ -1,0 +1,73 @@
+{
+  "run_identity": {
+    "project": 37249270,
+    "backtest_id": "be47f9b57e7e311484b1a1f8bd13af55",
+    "name": "Hyper Active Asparagus Bull",
+    "mode": "ridge",
+    "cost_bps": 10,
+    "engine": "2.5.0.0.18149",
+    "completed": true,
+    "seconds": 347.47,
+    "data_points": 14909195,
+    "source_identity": "../revision02/PRE_RUN.json",
+    "output_complete": false,
+    "note": "Runtime statistic truncation prevents full artifact verification. Next same-config replay is output-only repair, not search."
+  },
+  "identity": {
+    "strategy_sha256": "80fa60accfa748e5b821cc9a7a27b9e3b1ae25bf527ef56fa588b75130e00da9",
+    "core_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+    "features_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+    "features": [
+      "return_5",
+      "return_20",
+      "return_63_skip_20",
+      "return_126_skip_20",
+      "volatility_20",
+      "drawdown_63",
+      "log_dollar_volume_shock",
+      "log_median_dollar_volume_20"
+    ],
+    "research_mode": "ridge",
+    "cost_bps": 10,
+    "training_start": "2019-01-01",
+    "evaluation": [
+      "2022-01-01",
+      "2023-12-31"
+    ],
+    "label": "next monthly decision close price-return cross-sectional average rank minus0.5",
+    "model": "StandardScaler + Ridge(alpha=100, solver=svd)"
+  },
+  "source_checks": [
+    {
+      "field": "strategy_sha256",
+      "source": "data/experiments/adaptive_strategy_research_v17/cloud/revision02/main.py",
+      "stored_sha256": "4549f9b06504530ae32908fb65ee882044ba18ee42248bae5a42de61b5ee8b8d",
+      "observed_runtime_sha256": "80fa60accfa748e5b821cc9a7a27b9e3b1ae25bf527ef56fa588b75130e00da9",
+      "matching_transform": [
+        "LF_add_one_terminal_LF"
+      ],
+      "ast_identical": true
+    },
+    {
+      "field": "features_sha256",
+      "source": "data/experiments/adaptive_strategy_research_v17/cloud/revision02/qc_v17_features.py",
+      "stored_sha256": "058d2c541fc47b1cdebfaae6b90bad759f8ea2b84388f13b15db2dd0ce74b70a",
+      "observed_runtime_sha256": "8f8070c140df453e6683f8e91072338ae0400f0ff1f5dfe0adc7e191b6638320",
+      "matching_transform": [
+        "LF_add_one_terminal_LF"
+      ],
+      "ast_identical": true
+    },
+    {
+      "field": "core_sha256",
+      "source": "data/experiments/adaptive_strategy_research_v17/cloud/qc_v15_dynamic_pilot.py",
+      "stored_sha256": "ab35fd31f6c7f30aa762bdfe4b82ac2675142c9b61fa1067a7e2781eac46e357",
+      "observed_runtime_sha256": "c2b995c0d6bbc68892804baabcf5f55f14e7f1059de64d54cc7b84e7822883b8",
+      "matching_transform": [
+        "LF_add_one_terminal_LF"
+      ],
+      "ast_identical": true
+    }
+  ],
+  "restriction": "Only literal CRLF to LF and one terminal newline variants checked; no semantic normalization accepted."
+}

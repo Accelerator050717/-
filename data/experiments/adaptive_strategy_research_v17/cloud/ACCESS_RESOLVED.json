@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-10-02T07:18:58.873Z",
+  "resolved_by": "User completed account verification and explicitly required no charges",
+  "observed_host": "Community B-MICRO",
+  "observed_tier": "Free",
+  "first_actual_backtest_id": "199d1175e796340f958a3e96c45bdf67",
+  "agent_purchase_or_upgrade": false,
+  "agent_payment_information_entry": false
+}

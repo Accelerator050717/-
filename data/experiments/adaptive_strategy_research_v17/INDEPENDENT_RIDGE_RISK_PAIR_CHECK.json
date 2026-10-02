@@ -1,0 +1,97 @@
+{
+  "scope": "read-only same-signal comparison; no fits or replay",
+  "run_ids": [
+    {
+      "project": 37249270,
+      "backtest_id": "8853629b1527c771f1e1b44cf99bbfc3",
+      "name": "Focused Fluorescent Pink Salmon",
+      "mode": "ridge",
+      "cost_bps": 10,
+      "engine": "2.5.0.0.18149",
+      "revision": "03",
+      "captured_at": "2026-10-02T07:48:46.071Z"
+    },
+    {
+      "project": 37249270,
+      "backtest_id": "34c60a7570c87925873ca04af7dcafe7",
+      "name": "Hyper Active Black Alligator",
+      "mode": "ridge_risk",
+      "cost_bps": 10,
+      "engine": "2.5.0.0.18149",
+      "revision": "03",
+      "captured_at": "2026-10-02T08:22:06.801Z"
+    }
+  ],
+  "checks": {
+    "passed_verifiers": true,
+    "common_source_fields": true,
+    "model_hash_list_equal": true,
+    "prediction_panel_hash_equal": true,
+    "annual_fit_count": true,
+    "parameters_equal": true,
+    "input_hash_equal": true,
+    "rows_dates_feature_order_equal": true
+  },
+  "all_checks_passed": true,
+  "model_hashes": [
+    "83ffc2ee07acd8c52bc4186710d72935180cbb9d354a9222ec66e4a7494681af",
+    "148a5755c237fe26026b50bf49e00f9e04c0a19c41966910d54414a31d3e0368"
+  ],
+  "prediction_panel_sha256": "f31094d72727e08bad852ce71d9c52a8cc4b20b62806b4f8ff90b58d267ba556",
+  "metrics": {
+    "net_cagr": {
+      "ridge": -0.07108227023828761,
+      "ridge_risk": -0.09765334981137974,
+      "risk_minus_ridge": -0.026571079573092127
+    },
+    "net_cumulative": {
+      "ridge": -0.13702474886097005,
+      "ridge_risk": -0.18565598042612996,
+      "risk_minus_ridge": -0.048631231565159916
+    },
+    "max_drawdown": {
+      "ridge": 0.42234968256096994,
+      "ridge_risk": 0.38915440272613,
+      "risk_minus_ridge": -0.03319527983483994
+    },
+    "annualized_volatility": {
+      "ridge": 0.2898221037917822,
+      "ridge_risk": 0.2082885729762002,
+      "risk_minus_ridge": -0.08153353081558198
+    },
+    "average_exposure": {
+      "ridge": 0.8146524102388376,
+      "ridge_risk": 0.6286093323648095,
+      "risk_minus_ridge": -0.18604307787402807
+    },
+    "final_equity": {
+      "ridge": 86297.525113903,
+      "ridge_risk": 81434.401957387,
+      "risk_minus_ridge": -4863.123156515998
+    },
+    "fees_paid": {
+      "ridge": 1267.1955100000011,
+      "ridge_risk": 1186.368310000001,
+      "risk_minus_ridge": -80.82720000000018
+    },
+    "turnover_gross_notional_over_average_equity": {
+      "ridge": 16.976682185188142,
+      "ridge_risk": 16.042557408149737,
+      "risk_minus_ridge": -0.9341247770384058
+    }
+  },
+  "annual_return_difference": {
+    "2022": 0.03342047983483987,
+    "2023": -0.155191507905458
+  },
+  "drawdown_source": "engine-reported daily; independently monthly arithmetic only",
+  "full_prediction_vectors_locally_retained": false,
+  "inputs": {
+    "cloud\\cases\\ridge_cost10\\SUMMARY.json": "12e538311a01a336d3651f5b7522c8a7b13ecc9af4107c897de86a7e01a34f42",
+    "cloud\\cases\\ridge_cost10\\FITS.json": "efe69c37ee0f970d0aef980e5068f420a1c73122a95a58c2af423fb99f598b97",
+    "cloud\\cases\\ridge_cost10\\VERIFICATION.json": "31e46c4e2614ac18b82486753192254ca927324e2fb24fddaed1e1a8c5593580",
+    "cloud\\cases\\ridge_risk_cost10\\SUMMARY.json": "30e12c34053f0e785b381d9a5375c62b03ca33bba34a294583878e87e2785951",
+    "cloud\\cases\\ridge_risk_cost10\\FITS.json": "c48026ce2342edf8f78b7d9286f14207d8c900b26a2c7c264c0accf0fa578a14",
+    "cloud\\cases\\ridge_risk_cost10\\VERIFICATION.json": "59ce9186d128b05a9fe128c1a92461079d5be076c26befd23b89986763f52857"
+  }
+}

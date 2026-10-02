@@ -1,0 +1,10 @@
+{
+  "prefix_features_exact": true,
+  "score_rows": 75240,
+  "score_dates": 2508,
+  "last_price": "2025-12-31",
+  "mature_labels": 74790,
+  "immature_scoring_rows_retained": 450,
+  "panel_feature_sha256": "b971e95f01e61cecbf99961a66fcf5cb742c29b5010b87479b03f6f4dddd0d31",
+  "label_sha256": "500d4e68bbc16fac00ad32b98561ddb145049cf26efd9b262e3fcd93da90b50c"
+}

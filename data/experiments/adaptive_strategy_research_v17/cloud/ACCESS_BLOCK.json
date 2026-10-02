@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-02T07:13:28.930Z",
+  "project_id": 37249270,
+  "action": "Backtest Project",
+  "actual_backtests_created": 0,
+  "actual_cloud_fits": 0,
+  "visible_requirement": "Verify Your Account by Linking Your Credit Card",
+  "page_claim": "Your credit card will not be charged while on free tier",
+  "account_login_succeeded": true,
+  "user_verification_required": true,
+  "no_card_entered": true,
+  "no_purchase_or_upgrade": true
+}
